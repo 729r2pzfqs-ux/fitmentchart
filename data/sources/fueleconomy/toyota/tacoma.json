@@ -1,0 +1,2391 @@
+{
+  "slug": "toyota/tacoma",
+  "source": {
+    "vehicles_csv": "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+    "hp": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+  },
+  "years": {
+    "2005": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            164
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              21,
+              25
+            ],
+            "combined": [
+              18,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            21136,
+            21137,
+            21184
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            245
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              18,
+              21
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            21138,
+            21139,
+            21185,
+            21186
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2006": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              21,
+              25
+            ],
+            "combined": [
+              18,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            22232,
+            22233,
+            22293
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            236
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              18,
+              21
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            22234,
+            22235,
+            22294,
+            22295
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2007": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              20
+            ],
+            "hwy": [
+              22,
+              26
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            23661,
+            23662,
+            23692
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            236
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              17
+            ],
+            "hwy": [
+              18,
+              21
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            23663,
+            23664,
+            23693,
+            23694
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2008": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              20
+            ],
+            "hwy": [
+              22,
+              25
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            24936,
+            24937,
+            24940
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            236
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            24487,
+            24488,
+            24507,
+            24508
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2009": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              20
+            ],
+            "hwy": [
+              22,
+              26
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            25557,
+            25558,
+            25572
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            236
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              17
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            25559,
+            25560,
+            25573,
+            25574
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2010": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              20
+            ],
+            "hwy": [
+              22,
+              26
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            29519,
+            29520,
+            29526
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            236
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              17
+            ],
+            "hwy": [
+              18,
+              21
+            ],
+            "combined": [
+              15,
+              18
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            29521,
+            29522,
+            29527,
+            29528
+          ],
+          "hp_source_models": [
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2011": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              20,
+              25
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            30445,
+            30446,
+            30449,
+            30450
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            236
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              17
+            ],
+            "hwy": [
+              18,
+              21
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            30447,
+            30448,
+            30451,
+            30452
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TOYOTA TACOMA 2WD",
+            "TOYOTA TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2012": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              20,
+              25
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            31844,
+            31845,
+            31851,
+            31852
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            236
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              17
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            31846,
+            31847,
+            31853,
+            31854
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2013": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              21,
+              25
+            ],
+            "combined": [
+              19,
+              23
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            33115,
+            33116,
+            33119,
+            33120
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            236
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            33113,
+            33114,
+            33117,
+            33118
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2014": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              21,
+              25
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            34404,
+            34405,
+            34408,
+            34409
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            236
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            34406,
+            34407,
+            34410,
+            34411
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2015": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              20,
+              25
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            35454,
+            35456,
+            35458,
+            35460
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            236
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              17
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            35453,
+            35455,
+            35457,
+            35459
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2016": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              19,
+              19
+            ],
+            "hwy": [
+              21,
+              23
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            36918,
+            36922,
+            36923
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              18,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD Double Cab"
+          ],
+          "epa_ids": [
+            36919,
+            36924,
+            36925,
+            36926
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD",
+            "TACOMA 4WD D-CAB V6 MT OFF-ROAD"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2017": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              19,
+              19
+            ],
+            "hwy": [
+              21,
+              23
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            37985,
+            37989,
+            37990
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              18,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD Double Cab Off-Road"
+          ],
+          "epa_ids": [
+            37984,
+            37986,
+            37987,
+            37988
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD",
+            "TACOMA 4WD D-CAB V6 MT OFF-ROAD"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2018": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            39762,
+            39766
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              18,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD Double Cab Off-Road"
+          ],
+          "epa_ids": [
+            39761,
+            39763,
+            39764,
+            39765
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD",
+            "TACOMA 4WD D-CAB V6 MT OFF-ROAD"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2019": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            40731,
+            40735
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              18,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD Double Cab Off-Road",
+            "Tacoma 4WD TRD PRO"
+          ],
+          "epa_ids": [
+            40730,
+            40732,
+            40733,
+            40734,
+            41166,
+            41167
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD",
+            "TACOMA 4WD D-CAB V6 MT OFF-ROAD"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2020": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            42031,
+            42034
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              18,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD D-CAB MT TRD-ORP/PRO"
+          ],
+          "epa_ids": [
+            42030,
+            42032,
+            42033,
+            42035
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD",
+            "TACOMA 4WD D-CAB V6 MT OFF-ROAD"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2021": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            43083,
+            43087
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              18,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD D-CAB MT TRD-ORP/PRO"
+          ],
+          "epa_ids": [
+            43082,
+            43084,
+            43085,
+            43086
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD",
+            "TACOMA 4WD D-CAB V6 MT OFF-ROAD"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2022": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            44475,
+            44480
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              18,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD D-CAB MT TRD-ORP/PRO"
+          ],
+          "epa_ids": [
+            44474,
+            44477,
+            44478,
+            44479
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD",
+            "TACOMA 4WD D-CAB V6 MT OFF-ROAD"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2023": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            159
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD"
+          ],
+          "epa_ids": [
+            45865,
+            45869
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.7L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              18,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD D-CAB MT TRD-ORP/PRO"
+          ],
+          "epa_ids": [
+            45864,
+            45866,
+            45867,
+            45868
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD",
+            "TACOMA 4WD D-CAB V6 MT OFF-ROAD"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2024": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            228,
+            270,
+            278
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              23,
+              26
+            ],
+            "combined": [
+              20,
+              23
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD MT",
+            "Tacoma SR5/Sport/Off-Road/Limited 4WD",
+            "Tacoma SR5/Sport/PreRunner 2WD"
+          ],
+          "epa_ids": [
+            47588,
+            47589,
+            47590,
+            47598,
+            47599,
+            47600,
+            47601,
+            47602
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.4L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            278
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              23,
+              24
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Part-time 4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Tacoma Hybrid 4WD"
+          ],
+          "epa_ids": [
+            48460,
+            48461
+          ],
+          "hp_source_models": [
+            "TACOMA HYBRID 4WD"
+          ],
+          "label": "2.4L 4-cyl turbo hybrid"
+        }
+      ]
+    },
+    "2025": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            228,
+            270,
+            278
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              23,
+              26
+            ],
+            "combined": [
+              20,
+              23
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD MT",
+            "Tacoma SR5/Sport/Off-Road/Limited 4WD",
+            "Tacoma SR5/Sport/PreRunner 2WD"
+          ],
+          "epa_ids": [
+            48870,
+            48871,
+            48872,
+            48877,
+            48878,
+            48879,
+            48880,
+            48881
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.4L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            278
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Part-time 4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Tacoma Hybrid 4WD"
+          ],
+          "epa_ids": [
+            48902,
+            48903
+          ],
+          "hp_source_models": [
+            "TACOMA HYBRID 4WD"
+          ],
+          "label": "2.4L 4-cyl turbo hybrid"
+        }
+      ]
+    },
+    "2026": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            228,
+            270,
+            278
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              23,
+              26
+            ],
+            "combined": [
+              20,
+              23
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Tacoma 2WD",
+            "Tacoma 4WD",
+            "Tacoma 4WD MT",
+            "Tacoma SR5/Sport/Off-Road/Limited 4WD",
+            "Tacoma SR5/Sport/PreRunner 2WD"
+          ],
+          "epa_ids": [
+            50079,
+            50080,
+            50081,
+            50087,
+            50088,
+            50089,
+            50090,
+            50091
+          ],
+          "hp_source_models": [
+            "TACOMA 2WD",
+            "TACOMA 4WD"
+          ],
+          "label": "2.4L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            278
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Part-time 4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Tacoma Hybrid 4WD"
+          ],
+          "epa_ids": [
+            50109,
+            50110
+          ],
+          "hp_source_models": [
+            "TACOMA HYBRID 4WD"
+          ],
+          "label": "2.4L 4-cyl turbo hybrid"
+        }
+      ]
+    }
+  }
+}

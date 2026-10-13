@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ year }} {{ m.make }} {{ m.model }} specs &amp; fitment</h1>
+{% if y.generation %}<p class="lede">{{ y.generation|join(" / ") }}{% if y.dims.summary and y.dims.summary.curb_weight_lb %} · curb weight {{ y.dims.summary.curb_weight_lb|join("–") }} lb{% endif %}</p>{% endif %}
+
+{% if y.wheel.bolt_pattern %}
+<section>
+  <h2>Wheels &amp; bolt pattern</h2>
+  <dl class="specs">
+    <dt>Bolt pattern</dt><dd><strong>{{ y.wheel.bolt_pattern }}</strong>{% if y.wheel.pcd_in %} ({{ y.wheel.lug_count }}x{{ y.wheel.pcd_in }}"){% endif %}</dd>
+    <dt>Lug count</dt><dd>{{ y.wheel.lug_count }}</dd>
+    <dt>Center bore</dt><dd>{% if y.wheel.center_bore_mm %}{{ y.wheel.center_bore_mm }} mm{% else %}—{% endif %}</dd>
+  </dl>
+  {% if y.wheel.oe_wheels %}
+  <h3>Factory wheel sizes</h3>
+  <ul>{% for o in y.wheel.oe_wheels %}<li>{{ o.diameter_in }}x{{ o.width_in }}{% if o.offset_mm is not none %} ET{{ o.offset_mm }}{% endif %} <span class="muted">({{ o.trim }})</span></li>{% endfor %}</ul>
+  {% endif %}
+  {% for e in y.wheel.trim_exceptions or [] %}
+  <p class="note">Exception: the {{ e.trim }} uses {{ e.bolt_pattern }}{% if e.center_bore_mm %} / {{ e.center_bore_mm }} mm bore{% endif %}.</p>
+  {% endfor %}
+  {% if y.wheel.basis == "generation" %}<p class="note">Applies across the {{ y.wheel.generations|join(" / ") }}; based on {{ y.wheel.evidence|length }} source record{{ "s" if y.wheel.evidence|length != 1 }} from other years of this generation.</p>{% endif %}
+</section>
+{% endif %}
+
+{% if y.engines %}
+<section>
+  <h2>Engines &amp; fuel economy</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Engine</th><th>Horsepower</th><th>Fuel</th><th>MPG city</th><th>MPG hwy</th><th>MPG combined</th><th>Drive</th></tr></thead>
+    <tbody>
+    {% for e in y.engines %}
+      <tr>
+        <td>{{ e.label }}</td>
+        <td>{{ e.hp|join(" / ") or "—" }}</td>
+        <td>{{ e.fuel|join(", ") }}{% if e.flex_fuel %} (E85 capable){% endif %}</td>
+        <td>{{ e.mpg.city|unique|join("–") }}</td>
+        <td>{{ e.mpg.hwy|unique|join("–") }}</td>
+        <td>{{ e.mpg.combined|unique|join("–") }}</td>
+        <td>{{ e.drives|join(", ") }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</section>
+{% endif %}
+
+{% if y.dims.summary %}
+<section>
+  <h2>Dimensions</h2>
+  {% set s = y.dims.summary %}
+  <dl class="specs">
+    {% if s.length_in %}<dt>Length</dt><dd>{{ s.length_in|unique|join("–") }} in ({{ s.length_mm|unique|join("–") }} mm)</dd>{% endif %}
+    {% if s.width_in %}<dt>Width</dt><dd>{{ s.width_in|unique|join("–") }} in</dd>{% endif %}
+    {% if s.height_in %}<dt>Height</dt><dd>{{ s.height_in|unique|join("–") }} in</dd>{% endif %}
+    {% if s.wheelbase_in %}<dt>Wheelbase</dt><dd>{{ s.wheelbase_in|unique|join("–") }} in</dd>{% endif %}
+    {% if s.curb_weight_lb %}<dt>Curb weight</dt><dd>{{ s.curb_weight_lb|unique|join("–") }} lb</dd>{% endif %}
+  </dl>
+  <p class="muted">{{ y.dims.variants|length }} body/drive variants measured by Transport Canada.</p>
+</section>
+{% endif %}
+
+{% if y.nhtsa %}
+<section>
+  <h2>Safety: recalls, complaints, crash ratings</h2>
+  <dl class="specs">
+    <dt>Recalls</dt><dd>{{ y.nhtsa.recalls.count }}</dd>
+    {% if y.nhtsa.complaints %}<dt>Owner complaints</dt><dd>{{ y.nhtsa.complaints.count }}</dd>{% endif %}
+    {% if y.nhtsa.ncap.overall_best %}<dt>NCAP overall</dt><dd>{{ y.nhtsa.ncap.overall_worst }}{% if y.nhtsa.ncap.overall_worst != y.nhtsa.ncap.overall_best %}–{{ y.nhtsa.ncap.overall_best }}{% endif %} stars</dd>{% endif %}
+  </dl>
+  {% if y.nhtsa.ncap.variants %}
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Tested variant</th><th>Overall</th><th>Frontal</th><th>Side</th><th>Rollover</th></tr></thead>
+    <tbody>{% for v in y.nhtsa.ncap.variants %}
+      <tr><td>{{ v.description }}</td><td>{{ v.overall or "—" }}</td><td>{{ v.front or "—" }}</td><td>{{ v.side or "—" }}</td><td>{{ v.rollover or "—" }}</td></tr>
+    {% endfor %}</tbody>
+  </table>
+  </div>
+  {% endif %}
+  {% if y.nhtsa.recalls.campaigns %}
+  <h3>Recall campaigns</h3>
+  <ul class="recalls">{% for c in y.nhtsa.recalls.campaigns %}
+    <li><strong>{{ c.campaign }}</strong> {% if c.date %}<span class="muted">{{ c.date }}</span>{% endif %}: {{ c.component }}</li>
+  {% endfor %}</ul>
+  {% endif %}
+</section>
+{% endif %}
+
+<nav class="year-nav">
+  {% if prev_year %}<a href="/{{ m.slug }}/{{ prev_year }}/">← {{ prev_year }}</a>{% endif %}
+  <a href="/{{ m.slug }}/">All {{ m.model }} years</a>
+  {% if next_year %}<a href="/{{ m.slug }}/{{ next_year }}/">{{ next_year }} →</a>{% endif %}
+</nav>
+{% endblock %}

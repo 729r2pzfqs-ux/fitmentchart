@@ -1,0 +1,1428 @@
+{
+  "summary": {
+    "models": 5,
+    "errors": 0,
+    "warnings": 51,
+    "gaps": 26
+  },
+  "coverage": {
+    "chevrolet/silverado-1500": {
+      "engines": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "towing": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wheel": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "tires": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "battery": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wipers": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "oil": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "dims": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "nhtsa": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "_detail": {
+        "engines_total": 97,
+        "engines_with_hp": 84,
+        "wheel_basis": {
+          "exact": 10,
+          "generation": 12
+        },
+        "oe_wheel_years": 9,
+        "ncap_rated_years": 22,
+        "recalls_total": 167,
+        "complaints_total": 15452
+      }
+    },
+    "ford/f-150": {
+      "engines": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "towing": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wheel": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "tires": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "battery": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wipers": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "oil": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "dims": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "nhtsa": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "_detail": {
+        "engines_total": 91,
+        "engines_with_hp": 89,
+        "wheel_basis": {
+          "exact": 16,
+          "generation": 6
+        },
+        "oe_wheel_years": 16,
+        "ncap_rated_years": 22,
+        "recalls_total": 239,
+        "complaints_total": 22539
+      }
+    },
+    "honda/civic": {
+      "engines": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "towing": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wheel": {
+        "filled": 17,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2012",
+          "2013",
+          "2014",
+          "2015"
+        ]
+      },
+      "tires": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "battery": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wipers": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "oil": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "dims": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "nhtsa": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "_detail": {
+        "engines_total": 77,
+        "engines_with_hp": 77,
+        "wheel_basis": {
+          "missing": 5,
+          "generation": 7,
+          "exact": 10
+        },
+        "oe_wheel_years": 10,
+        "ncap_rated_years": 16,
+        "recalls_total": 124,
+        "complaints_total": 11285
+      }
+    },
+    "jeep/wrangler": {
+      "engines": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "towing": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wheel": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "tires": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "battery": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wipers": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "oil": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "dims": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "nhtsa": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "_detail": {
+        "engines_total": 54,
+        "engines_with_hp": 54,
+        "wheel_basis": {
+          "generation": 11,
+          "exact": 11
+        },
+        "oe_wheel_years": 11,
+        "ncap_rated_years": 22,
+        "recalls_total": 184,
+        "complaints_total": 14845
+      }
+    },
+    "toyota/tacoma": {
+      "engines": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "towing": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wheel": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "tires": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "battery": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wipers": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "oil": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "dims": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "nhtsa": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "_detail": {
+        "engines_total": 44,
+        "engines_with_hp": 44,
+        "wheel_basis": {
+          "exact": 10,
+          "generation": 12
+        },
+        "oe_wheel_years": 10,
+        "ncap_rated_years": 21,
+        "recalls_total": 132,
+        "complaints_total": 5613
+      }
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2005",
+      "field": "engines",
+      "msg": "6.0L 8-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2007",
+      "field": "engines",
+      "msg": "5.3L 8-cyl hybrid: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2009",
+      "field": "engines",
+      "msg": "4.8L 8-cyl: HP matched by model name only [270]"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2009",
+      "field": "engines",
+      "msg": "6.2L 8-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2009",
+      "field": "engines",
+      "msg": "6.0L 8-cyl hybrid: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2010",
+      "field": "engines",
+      "msg": "4.3L 6-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2010",
+      "field": "engines",
+      "msg": "4.8L 8-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2010",
+      "field": "engines",
+      "msg": "5.3L 8-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2010",
+      "field": "engines",
+      "msg": "6.2L 8-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2010",
+      "field": "engines",
+      "msg": "6.0L 8-cyl hybrid: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2011",
+      "field": "engines",
+      "msg": "6.0L 8-cyl hybrid: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2012",
+      "field": "engines",
+      "msg": "4.8L 8-cyl: HP matched by model name only [295]"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2012",
+      "field": "engines",
+      "msg": "6.2L 8-cyl: HP matched by model name only [403]"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2012",
+      "field": "engines",
+      "msg": "6.0L 8-cyl hybrid: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2013",
+      "field": "engines",
+      "msg": "4.8L 8-cyl: HP matched by model name only [295]"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2013",
+      "field": "engines",
+      "msg": "5.3L 8-cyl: HP matched by model name only [320]"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2013",
+      "field": "engines",
+      "msg": "6.0L 8-cyl hybrid: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2014",
+      "field": "engines",
+      "msg": "5.3L 8-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2014",
+      "field": "engines",
+      "msg": "6.2L 8-cyl: HP matched by model name only [425]"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2015",
+      "field": "engines",
+      "msg": "5.3L 8-cyl: HP matched by model name only [345]"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2018",
+      "field": "engines",
+      "msg": "5.3L 8-cyl: HP matched by model name only [345]"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2019",
+      "field": "engines",
+      "msg": "6.2L 8-cyl: HP matched by model name only [425]"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2024",
+      "field": "engines",
+      "msg": "6.2L 8-cyl: HP matched by model name only [420]"
+    },
+    {
+      "severity": "warning",
+      "slug": "chevrolet/silverado-1500",
+      "year": "2025",
+      "field": "engines",
+      "msg": "6.2L 8-cyl: HP matched by model name only [420]"
+    },
+    {
+      "severity": "gap",
+      "slug": "chevrolet/silverado-1500",
+      "year": null,
+      "field": "towing",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "chevrolet/silverado-1500",
+      "year": null,
+      "field": "tires",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "chevrolet/silverado-1500",
+      "year": null,
+      "field": "battery",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "chevrolet/silverado-1500",
+      "year": null,
+      "field": "wipers",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "chevrolet/silverado-1500",
+      "year": null,
+      "field": "oil",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2005",
+      "field": "engines",
+      "msg": "4.6L 8-cyl: HP matched by model name only [231]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2006",
+      "field": "engines",
+      "msg": "4.6L 8-cyl: HP matched by model name only [231]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2007",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Ford F-150 Foose Edition 2008, Ford F150 Harley Davidson 2006, Ford King Ranch F150 SuperCrew 2005"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2011",
+      "field": "engines",
+      "msg": "3.7L 6-cyl: HP matched by model name only [275]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2012",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Ford F-150 FX4 2009, Ford F-150 Harley-Davidson 2011, Ford F-150 Platinum 2009, Ford F-150 SFE 2009, Ford F-150 STX SuperCrew 2014, Ford F-150 SVT Raptor R 2010, Ford F-150 SVT Raptor Special Edition 2014, Ford F-150 SVT Raptor SuperCrew 2011"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2012",
+      "field": "engines",
+      "msg": "3.7L 6-cyl: HP matched by model name only [275]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2012",
+      "field": "engines",
+      "msg": "5.0L 8-cyl: HP matched by model name only [360]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2013",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Ford F-150 FX4 2009, Ford F-150 Harley-Davidson 2011, Ford F-150 Platinum 2009, Ford F-150 SFE 2009, Ford F-150 STX SuperCrew 2014, Ford F-150 SVT Raptor R 2010, Ford F-150 SVT Raptor Special Edition 2014, Ford F-150 SVT Raptor SuperCrew 2011"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2013",
+      "field": "engines",
+      "msg": "5.0L 8-cyl: HP matched by model name only [360]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2014",
+      "field": "engines",
+      "msg": "5.0L 8-cyl: HP matched by model name only [360]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2015",
+      "field": "engines",
+      "msg": "2.7L 6-cyl turbo: HP matched by model name only [325]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2015",
+      "field": "engines",
+      "msg": "3.5L 6-cyl: HP matched by model name only [282]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2018",
+      "field": "engines",
+      "msg": "2.7L 6-cyl turbo: EPA HP [400] rejected, contradicts 2017 and 2019 ([325])"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2021",
+      "field": "engines",
+      "msg": "3.5L 6-cyl turbo hybrid: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "ford/f-150",
+      "year": "2026",
+      "field": "engines",
+      "msg": "3.5L 6-cyl turbo hybrid: HP matched by model name only [400]"
+    },
+    {
+      "severity": "gap",
+      "slug": "ford/f-150",
+      "year": null,
+      "field": "towing",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "ford/f-150",
+      "year": null,
+      "field": "tires",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "ford/f-150",
+      "year": null,
+      "field": "battery",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "ford/f-150",
+      "year": null,
+      "field": "wipers",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "ford/f-150",
+      "year": null,
+      "field": "oil",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/civic",
+      "year": "2006",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Honda Civic Type R Sedan 2007"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/civic",
+      "year": "2008",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Honda Civic Type R Sedan 2007"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/civic",
+      "year": "2009",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Honda Civic Type R Sedan 2007"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/civic",
+      "year": "2010",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Honda Civic Type R Sedan 2007"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/civic",
+      "year": "2011",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Honda Civic Type R Sedan 2007"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/civic",
+      "year": "2012",
+      "field": "engines",
+      "msg": "1.5L 4-cyl hybrid: HP matched by model name only [90, 113]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/civic",
+      "year": "2013",
+      "field": "engines",
+      "msg": "1.5L 4-cyl hybrid: HP matched by model name only [90, 113]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/civic",
+      "year": "2014",
+      "field": "engines",
+      "msg": "1.5L 4-cyl hybrid: HP matched by model name only [110]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/civic",
+      "year": "2015",
+      "field": "engines",
+      "msg": "1.5L 4-cyl hybrid: HP matched by model name only [110]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/civic",
+      "year": "2016",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Honda Civic Si 2017-2025"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/civic",
+      "year": null,
+      "field": "towing",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/civic",
+      "year": null,
+      "field": "wheel",
+      "msg": "missing for ['2005', '2012', '2013', '2014', '2015']"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/civic",
+      "year": null,
+      "field": "tires",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/civic",
+      "year": null,
+      "field": "battery",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/civic",
+      "year": null,
+      "field": "wipers",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/civic",
+      "year": null,
+      "field": "oil",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "warning",
+      "slug": "jeep/wrangler",
+      "year": "2005",
+      "field": "engines",
+      "msg": "2.4L 4-cyl: HP matched by model name only [150]"
+    },
+    {
+      "severity": "warning",
+      "slug": "jeep/wrangler",
+      "year": "2006",
+      "field": "engines",
+      "msg": "2.4L 4-cyl: HP matched by model name only [150]"
+    },
+    {
+      "severity": "gap",
+      "slug": "jeep/wrangler",
+      "year": null,
+      "field": "towing",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "jeep/wrangler",
+      "year": null,
+      "field": "tires",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "jeep/wrangler",
+      "year": null,
+      "field": "battery",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "jeep/wrangler",
+      "year": null,
+      "field": "wipers",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "jeep/wrangler",
+      "year": null,
+      "field": "oil",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/tacoma",
+      "year": null,
+      "field": "towing",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/tacoma",
+      "year": null,
+      "field": "tires",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/tacoma",
+      "year": null,
+      "field": "battery",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/tacoma",
+      "year": null,
+      "field": "wipers",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/tacoma",
+      "year": null,
+      "field": "oil",
+      "msg": "no source provides this field yet"
+    }
+  ]
+}

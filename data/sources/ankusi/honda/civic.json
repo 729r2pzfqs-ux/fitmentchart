@@ -1,0 +1,522 @@
+{
+  "slug": "honda/civic",
+  "source": {
+    "name": "ANKUSI Wheel Fitment Dataset",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "landing_page": "https://ankusiwheels.com/wheel-fitment-dataset/",
+    "doi": "10.6084/m9.figshare.33921994",
+    "via": "figshare",
+    "url": "https://ndownloader.figshare.com/files/69985473",
+    "version": 8,
+    "title": "ANKUSI Open Wheel Fitment Dataset: bolt pattern, centre bore and OE wheel specifications for 10,081 vehicle variants",
+    "md5": "5ccd30bf2366aaaa465451d307c74f92"
+  },
+  "matched_rows": 4,
+  "skipped_rows": [],
+  "years": {
+    "2006": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "generation",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Type R Sedan",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-type-r-sedan/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2007": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "exact",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Type R Sedan",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-type-r-sedan/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": 60,
+            "trim": "Type R Sedan"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2008": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "generation",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Type R Sedan",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-type-r-sedan/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2009": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "generation",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Type R Sedan",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-type-r-sedan/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2010": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "generation",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Type R Sedan",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-type-r-sedan/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2011": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "generation",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Type R Sedan",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-type-r-sedan/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2016": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "generation",
+        "generations": [
+          "10th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2017": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "exact",
+        "generations": [
+          "10th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 50,
+            "trim": "Si"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2018": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "exact",
+        "generations": [
+          "10th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 50,
+            "trim": "Si"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2019": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "exact",
+        "generations": [
+          "10th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 50,
+            "trim": "Si"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2020": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "exact",
+        "generations": [
+          "10th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 50,
+            "trim": "Si"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2021": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "exact",
+        "generations": [
+          "10th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 50,
+            "trim": "Si"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2022": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "exact",
+        "generations": [
+          "11th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 50,
+            "trim": "Si"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2023": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "exact",
+        "generations": [
+          "11th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 50,
+            "trim": "Si"
+          }
+        ],
+        "trim_exceptions": [
+          {
+            "trim": "Type R",
+            "bolt_pattern": "5x120",
+            "center_bore_mm": 64.1,
+            "evidence": [
+              {
+                "model": "Honda Civic Type R",
+                "year": "2023",
+                "url": "https://ankusiwheels.com/fitment-guide/honda-civic-type-r/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2024": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "exact",
+        "generations": [
+          "11th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 50,
+            "trim": "Si"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2025": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "exact",
+        "generations": [
+          "11th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic/"
+          },
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 45,
+            "trim": "base"
+          },
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 50,
+            "trim": "Si"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2026": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 64.1,
+        "basis": "generation",
+        "generations": [
+          "11th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Honda Civic",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic/"
+          },
+          {
+            "model": "Honda Civic Si",
+            "year": "2017-2025",
+            "url": "https://ankusiwheels.com/fitment-guide/honda-civic-si/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": [
+          {
+            "trim": "Type R",
+            "bolt_pattern": "5x120",
+            "center_bore_mm": 64.1,
+            "evidence": [
+              {
+                "model": "Honda Civic Type R",
+                "year": "2023",
+                "url": "https://ankusiwheels.com/fitment-guide/honda-civic-type-r/"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

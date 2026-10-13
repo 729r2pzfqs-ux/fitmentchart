@@ -1,0 +1,4827 @@
+{
+  "slug": "ford/f-150",
+  "source": {
+    "vehicles_csv": "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+    "hp": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+  },
+  "years": {
+    "2005": {
+      "engines": [
+        {
+          "displacement_l": 4.2,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            205
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              15
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD"
+          ],
+          "epa_ids": [
+            21107,
+            21108
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD"
+          ],
+          "label": "4.2L 6-cyl"
+        },
+        {
+          "displacement_l": 4.6,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            231
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              16,
+              18
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            21109,
+            21161
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD"
+          ],
+          "label": "4.6L 8-cyl"
+        },
+        {
+          "displacement_l": 5.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            300
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              17,
+              17
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            21110,
+            21162
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD"
+          ],
+          "label": "5.4L 8-cyl"
+        }
+      ]
+    },
+    "2006": {
+      "engines": [
+        {
+          "displacement_l": 4.2,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            205
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              19,
+              19
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD"
+          ],
+          "epa_ids": [
+            22189,
+            22190
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD"
+          ],
+          "label": "4.2L 6-cyl"
+        },
+        {
+          "displacement_l": 4.6,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            231
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              17,
+              17
+            ],
+            "combined": [
+              15,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            22191,
+            22260
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD"
+          ],
+          "label": "4.6L 8-cyl"
+        },
+        {
+          "displacement_l": 5.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            300
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              16,
+              18
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            22192,
+            22261,
+            22684,
+            22685
+          ],
+          "hp_source_models": [
+            "F150 FFV  2WD",
+            "F150 FFV  4WD",
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD"
+          ],
+          "label": "5.4L 8-cyl"
+        }
+      ]
+    },
+    "2007": {
+      "engines": [
+        {
+          "displacement_l": 4.2,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            202
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              19,
+              19
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD"
+          ],
+          "epa_ids": [
+            23643,
+            23644
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD"
+          ],
+          "label": "4.2L 6-cyl"
+        },
+        {
+          "displacement_l": 4.6,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            231
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              17,
+              18
+            ],
+            "combined": [
+              15,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            23645,
+            23677
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 SUPERCREW P/U 4WD"
+          ],
+          "label": "4.6L 8-cyl"
+        },
+        {
+          "displacement_l": 5.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            300
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              16,
+              18
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD",
+            "F150 Pickup 4WD FFV",
+            "F150 STX SE 2WD",
+            "F150 STX SE 2WD FFV"
+          ],
+          "epa_ids": [
+            23646,
+            23678,
+            23852,
+            23853,
+            23965,
+            23967
+          ],
+          "hp_source_models": [
+            "F150 FFV  4WD",
+            "F150 PICKUP 4WD",
+            "F150 STX SE 2WD FFV"
+          ],
+          "label": "5.4L 8-cyl"
+        }
+      ]
+    },
+    "2008": {
+      "engines": [
+        {
+          "displacement_l": 4.2,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            202
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD"
+          ],
+          "epa_ids": [
+            24943,
+            24944
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD"
+          ],
+          "label": "4.2L 6-cyl"
+        },
+        {
+          "displacement_l": 4.6,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            231
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              17,
+              19
+            ],
+            "combined": [
+              14,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            24945,
+            24958
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD"
+          ],
+          "label": "4.6L 8-cyl"
+        },
+        {
+          "displacement_l": 5.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            300
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              17,
+              19
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD",
+            "F150 Pickup 4WD FFV",
+            "F150 STX SE 2WD",
+            "F150 STX SE 2WD FFV"
+          ],
+          "epa_ids": [
+            24946,
+            24947,
+            24959,
+            25064,
+            25065,
+            25070
+          ],
+          "hp_source_models": [
+            "F150 FFV  2WD",
+            "F150 FFV  4WD",
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD",
+            "F150 STX SE 2WD",
+            "F150 STX SE 2WD FFV"
+          ],
+          "label": "5.4L 8-cyl"
+        }
+      ]
+    },
+    "2009": {
+      "engines": [
+        {
+          "displacement_l": 4.6,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            248,
+            292
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              18,
+              21
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 SFE 2WD"
+          ],
+          "epa_ids": [
+            26071,
+            26072,
+            26087,
+            26088,
+            26318
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD"
+          ],
+          "label": "4.6L 8-cyl"
+        },
+        {
+          "displacement_l": 5.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            26233,
+            26234
+          ],
+          "hp_source_models": [
+            "F150 FFV  2WD",
+            "F150 FFV  4WD"
+          ],
+          "label": "5.4L 8-cyl"
+        }
+      ]
+    },
+    "2010": {
+      "engines": [
+        {
+          "displacement_l": 4.6,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            248,
+            292
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              18,
+              21
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            28712,
+            28713,
+            28720,
+            28721
+          ],
+          "hp_source_models": [
+            "F150 4X2",
+            "F150 PICKUP 4WD",
+            "F150 PICKUP 4X2",
+            "F150 PICKUP 4X4"
+          ],
+          "label": "4.6L 8-cyl"
+        },
+        {
+          "displacement_l": 5.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            28711,
+            28719
+          ],
+          "hp_source_models": [
+            "F150 2WD FFV",
+            "F150 4WD FFV"
+          ],
+          "label": "5.4L 8-cyl"
+        }
+      ]
+    },
+    "2011": {
+      "engines": [
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            360
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            31032,
+            31035,
+            31038,
+            31041
+          ],
+          "hp_source_models": [
+            "F150 4X2",
+            "F150 4X4"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            275
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              18,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            31029,
+            31033,
+            31039,
+            31043
+          ],
+          "hp_source_models": [
+            "F-150 FFV 4X2",
+            "F-150 PICKUP FFV 2WD",
+            "F-150 PICKUP FFV 4WD"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            360
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            31030,
+            31034,
+            31037,
+            31040
+          ],
+          "hp_source_models": [
+            "F150 4X2",
+            "F150 4X4"
+          ],
+          "label": "5.0L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            415
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              11,
+              13
+            ],
+            "hwy": [
+              14,
+              18
+            ],
+            "combined": [
+              12,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Raptor Pickup 4WD"
+          ],
+          "epa_ids": [
+            31031,
+            31036,
+            31042
+          ],
+          "hp_source_models": [
+            "F-150 4X2",
+            "F-150 HARLEY PICKUP AWD",
+            "F-150 PICKUP 2WD"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2012": {
+      "engines": [
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            360
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            32115,
+            32116,
+            32123,
+            32124
+          ],
+          "hp_source_models": [
+            "F150 4X2",
+            "F150 4X4"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            275
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              21,
+              23
+            ],
+            "combined": [
+              18,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            32113,
+            32114,
+            32121,
+            32122
+          ],
+          "hp_source_models": [
+            "F-150 FFV 4X2",
+            "F-150 PICKUP FFV 2WD",
+            "F-150 PICKUP FFV 4WD"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            360
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            32117,
+            32118,
+            32125,
+            32126
+          ],
+          "hp_source_models": [
+            "F150 4X2"
+          ],
+          "label": "5.0L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            411,
+            415
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              16,
+              18
+            ],
+            "combined": [
+              13,
+              15
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Raptor Pickup 4WD"
+          ],
+          "epa_ids": [
+            32112,
+            32119,
+            32120
+          ],
+          "hp_source_models": [
+            "F-150 4X2",
+            "F-150 4X4 SUPERCREW SVT"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2013": {
+      "engines": [
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            360
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              18
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            33187,
+            33188,
+            33203,
+            33204
+          ],
+          "hp_source_models": [
+            "F150 4X2",
+            "F150 4X4"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            275
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              21,
+              23
+            ],
+            "combined": [
+              18,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            33185,
+            33186,
+            33201,
+            33202
+          ],
+          "hp_source_models": [
+            "F-150 PICKUP FFV 2WD",
+            "F-150 PICKUP FFV 4WD",
+            "F150 FFV 4X2"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            360
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            33182,
+            33183,
+            33199,
+            33200
+          ],
+          "hp_source_models": [
+            "F150 4X2"
+          ],
+          "label": "5.0L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            411,
+            415
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              16,
+              18
+            ],
+            "combined": [
+              13,
+              15
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Raptor Pickup 4WD"
+          ],
+          "epa_ids": [
+            33184,
+            33197,
+            33198
+          ],
+          "hp_source_models": [
+            "F-150 4X4 SUPERCREW SVT",
+            "F-150 PICKUP 2WD"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2014": {
+      "engines": [
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            360
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              18
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            34524,
+            34525,
+            34531,
+            34532
+          ],
+          "hp_source_models": [
+            "F150 4X2",
+            "F150 4X4"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            275
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              21,
+              23
+            ],
+            "combined": [
+              18,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            34527,
+            34528,
+            34534,
+            34535
+          ],
+          "hp_source_models": [
+            "F-150 PICKUP FFV 2WD",
+            "F-150 PICKUP FFV 4WD",
+            "F150 FFV 4X2"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            360
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            34529,
+            34530,
+            34536,
+            34537
+          ],
+          "hp_source_models": [
+            "F150 4X2"
+          ],
+          "label": "5.0L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            411,
+            415
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              16,
+              18
+            ],
+            "combined": [
+              13,
+              15
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Raptor Pickup 4WD"
+          ],
+          "epa_ids": [
+            34526,
+            34533,
+            34538
+          ],
+          "hp_source_models": [
+            "F-150 4X2",
+            "F-150 4X4 SUPERCREW SVT",
+            "F-150 PICKUP 2WD"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2015": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              18,
+              19
+            ],
+            "hwy": [
+              23,
+              26
+            ],
+            "combined": [
+              20,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            35918,
+            35922
+          ],
+          "hp_source_models": [
+            "F-150 4X2"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            282
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              22,
+              24
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            35920,
+            35924
+          ],
+          "hp_source_models": [
+            "F-150 FFV 4X2",
+            "F-150 FFV 4X4"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            365
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              17
+            ],
+            "hwy": [
+              23,
+              24
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            35919,
+            35923
+          ],
+          "hp_source_models": [
+            "F150 4X2",
+            "F150 4X4"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            385
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              18
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            35921,
+            35925
+          ],
+          "hp_source_models": [
+            "F150 FFV 4X2",
+            "F150 FFV 4X4"
+          ],
+          "label": "5.0L 8-cyl"
+        }
+      ]
+    },
+    "2016": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              18,
+              19
+            ],
+            "hwy": [
+              22,
+              25
+            ],
+            "combined": [
+              19,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 2.7L 2WD GVWR>6649 LBS PAYLOAD PACKAGE",
+            "F150 2.7L 4WD GVWR>6799 LBS PAYLOAD PACKAGE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            37039,
+            37044,
+            37047,
+            37051
+          ],
+          "hp_source_models": [
+            "F-150 4X2",
+            "F150 4X2 SUPER CAB"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            282
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              22,
+              24
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            37041,
+            37049
+          ],
+          "hp_source_models": [
+            "F-150 FFV 4X2",
+            "F-150 FFV 4X4"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            365
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              17
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              17,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 3.5L 2WD GVWR>7599 LBS PAYLOAD PACKAGE",
+            "F150 3.5L 4WD GVWR>7599 LBS PAYLOAD PACKAGE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            37040,
+            37045,
+            37048,
+            37053
+          ],
+          "hp_source_models": [
+            "F150 4X2",
+            "F150 4X4"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            385
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              19,
+              22
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 5.0L 2WD FFV GVWR>7599 LBS PAYLOAD PACKAGE",
+            "F150 5.0L 4WD FFV GVWR>7599 LBS PAYLOAD PACKAGE",
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            37042,
+            37043,
+            37050,
+            37052
+          ],
+          "hp_source_models": [
+            "F150 FFV 4X2",
+            "F150 FFV 4X4"
+          ],
+          "label": "5.0L 8-cyl"
+        }
+      ]
+    },
+    "2017": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              21,
+              26
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 2.7L 2WD GVWR>6649 LBS",
+            "F150 2.7L 4WD GVWR>6799 LBS",
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 4WD BASE PAYLOAD LT TIRE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            38263,
+            38264,
+            38268,
+            38272,
+            38273,
+            38276
+          ],
+          "hp_source_models": [
+            "F-150 4X2",
+            "F150 4X2 SUPER CAB"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            282
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              23,
+              24
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            38265,
+            38274
+          ],
+          "hp_source_models": [
+            "F-150 FFV 4X2",
+            "F-150 FFV 4X4"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            375,
+            450
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              18
+            ],
+            "hwy": [
+              18,
+              25
+            ],
+            "combined": [
+              16,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 3.5L 2WD GVWR>7599 LBS",
+            "F150 3.5L 4WD GVWR>7599 LBS",
+            "F150 4WD BASE PAYLOAD LT TIRE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 RAPTOR 4WD"
+          ],
+          "epa_ids": [
+            38215,
+            38266,
+            38267,
+            38269,
+            38275,
+            38277,
+            38278
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            385
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              19,
+              22
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 4WD FFV BASE PAYLOAD LT TIRE",
+            "F150 5.0L 2WD FFV GVWR>7599 LBS",
+            "F150 5.0L 4WD FFV GVWR>7599 LBS",
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            38261,
+            38262,
+            38270,
+            38271,
+            38279
+          ],
+          "hp_source_models": [
+            "F150 FFV 4X2",
+            "F150 FFV 4X4"
+          ],
+          "label": "5.0L 8-cyl"
+        }
+      ]
+    },
+    "2018": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              18,
+              20
+            ],
+            "hwy": [
+              23,
+              26
+            ],
+            "combined": [
+              20,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2.7L 2WD GVWR>6649 LBS",
+            "F150 2.7L 4WD GVWR>6799 LBS",
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 4WD BASE PAYLOAD LT TIRE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            39241,
+            39242,
+            39243,
+            39255,
+            39256,
+            39257
+          ],
+          "hp_source_models": [
+            "F150 SUPER CAB 4X2",
+            "F150 SUPER CREW CAB 4X2"
+          ],
+          "label": "2.7L 6-cyl turbo",
+          "hp_rejected": {
+            "values": [
+              400
+            ],
+            "reason": "contradicts 2017 and 2019 ([325])"
+          }
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            250
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              22
+            ],
+            "hwy": [
+              25,
+              30
+            ],
+            "combined": [
+              22,
+              25
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 4WD BASE PAYLOAD LT TIRE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup 4WD XL/XLT"
+          ],
+          "epa_ids": [
+            40220,
+            40221,
+            40222,
+            40223,
+            40224
+          ],
+          "hp_source_models": [
+            "F150 4X2",
+            "F150 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            282
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              20
+            ],
+            "hwy": [
+              22,
+              25
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 2WD FFV BASE PAYLOAD LT TIRE",
+            "F150 4WD BASE PAYLOAD LT TIRE",
+            "F150 4WD FFV BASE PAYLOAD LT TIRE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            39244,
+            39248,
+            39258,
+            39262,
+            39448,
+            39449,
+            39450,
+            39451
+          ],
+          "hp_source_models": [
+            "F-150 REGULAR CAB",
+            "F-150 SUPER CAB",
+            "F-150 SUPERCAB",
+            "F150 SUPER CAB 4X4"
+          ],
+          "label": "3.3L 6-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            375,
+            450
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              18
+            ],
+            "hwy": [
+              18,
+              25
+            ],
+            "combined": [
+              16,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 3.5L 2WD GVWR>7599 LBS",
+            "F150 3.5L 4WD GVWR>7599 LBS",
+            "F150 4WD BASE PAYLOAD LT TIRE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 RAPTOR 4WD"
+          ],
+          "epa_ids": [
+            39238,
+            39239,
+            39240,
+            39251,
+            39252,
+            39253,
+            39254
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            395
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              17
+            ],
+            "hwy": [
+              19,
+              23
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 2WD FFV BASE PAYLOAD LT",
+            "F150 4WD BASE PAYLOAD LT TIRE",
+            "F150 4WD FFV BASE PAYLOAD LT",
+            "F150 5.0L 2WD FFV GVWR>7599 LBS",
+            "F150 5.0L 2WD GVWR>7599 LBS",
+            "F150 5.0L 4WD FFV GVWR>7599 LBS",
+            "F150 5.0L 4WD GVWR>7599 LBS",
+            "F150 Pickup 2WD",
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            39245,
+            39246,
+            39247,
+            39259,
+            39260,
+            39261,
+            39597,
+            39598,
+            39599,
+            39600,
+            39601,
+            39602
+          ],
+          "hp_source_models": [
+            "F150 SUPER CAB 4X4"
+          ],
+          "label": "5.0L 8-cyl"
+        }
+      ]
+    },
+    "2019": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              18,
+              20
+            ],
+            "hwy": [
+              23,
+              26
+            ],
+            "combined": [
+              20,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2.7L 2WD GVWR>6649 LBS",
+            "F150 2.7L 4WD GVWR>6799 LBS",
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 4WD BASE PAYLOAD LT TIRE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            41015,
+            41016,
+            41022,
+            41028,
+            41029,
+            41032
+          ],
+          "hp_source_models": [
+            "F150 SUPER CAB 4X2",
+            "F150 SUPER CREW CAB 4X2"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            250
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              22
+            ],
+            "hwy": [
+              25,
+              30
+            ],
+            "combined": [
+              22,
+              25
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 4WD BASE PAYLOAD LT TIRE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup 4WD XL/XLT"
+          ],
+          "epa_ids": [
+            41105,
+            41106,
+            41112,
+            41113,
+            41114
+          ],
+          "hp_source_models": [
+            "F150 4X2",
+            "F150 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            282
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              22,
+              25
+            ],
+            "combined": [
+              19,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 2WD FFV BASE PAYLOAD LT",
+            "F150 4WD FFV BASE PAYLOAD LT",
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            41017,
+            41018,
+            41030,
+            41031
+          ],
+          "hp_source_models": [
+            "F-150 REGULAR CAB",
+            "F-150 SUPER CAB",
+            "F-150 SUPERCAB",
+            "F150 SUPER CAB 4X4"
+          ],
+          "label": "3.3L 6-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            375,
+            450
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              18
+            ],
+            "hwy": [
+              18,
+              25
+            ],
+            "combined": [
+              16,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 3.5L 2WD GVWR>7599 LBS",
+            "F150 3.5L 4WD GVWR>7599 LBS",
+            "F150 4WD BASE PAYLOAD LT TIRE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 2WD Limited",
+            "F150 Pickup 4WD",
+            "F150 Pickup 4WD Limited",
+            "F150 RAPTOR 4WD"
+          ],
+          "epa_ids": [
+            41019,
+            41020,
+            41021,
+            41026,
+            41033,
+            41034,
+            41035,
+            41039,
+            41040
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            395
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              17
+            ],
+            "hwy": [
+              19,
+              23
+            ],
+            "combined": [
+              16,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2WD FFV BASE PAYLOAD LT",
+            "F150 4WD FFV BASE PAYLOAD LT",
+            "F150 5.0L 2WD FFV GVWR>7599 LBS",
+            "F150 5.0L 4WD FFV GVWR>7599 LBS",
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            41023,
+            41024,
+            41025,
+            41036,
+            41037,
+            41038
+          ],
+          "hp_source_models": [
+            "F150 SUPER CAB 4X4"
+          ],
+          "label": "5.0L 8-cyl"
+        }
+      ]
+    },
+    "2020": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              20
+            ],
+            "hwy": [
+              23,
+              26
+            ],
+            "combined": [
+              20,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            42173,
+            42179
+          ],
+          "hp_source_models": [
+            "F-150 4X4 SUPER CREW CAB",
+            "F150 SUPER CREW CAB 4X2"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            250
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              20,
+              21
+            ],
+            "hwy": [
+              25,
+              29
+            ],
+            "combined": [
+              22,
+              24
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2WD BASE PAYLOAD LT TIRE",
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup 4WD XL/XLT"
+          ],
+          "epa_ids": [
+            42517,
+            42518,
+            42519,
+            42520
+          ],
+          "hp_source_models": [
+            "F150 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            282
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              19
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              20,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            42167,
+            42174
+          ],
+          "hp_source_models": [
+            "F-150 REGULAR CAB",
+            "F-150 SUPERCAB"
+          ],
+          "label": "3.3L 6-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            375,
+            450
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              17
+            ],
+            "hwy": [
+              18,
+              23
+            ],
+            "combined": [
+              16,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 2WD Limited",
+            "F150 Pickup 4WD",
+            "F150 Pickup 4WD Limited",
+            "F150 RAPTOR 4WD"
+          ],
+          "epa_ids": [
+            42171,
+            42172,
+            42176,
+            42177,
+            42178
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            395
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              17
+            ],
+            "hwy": [
+              20,
+              23
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 2WD FFV BASE PAYLOAD LT",
+            "F150 5.0L 2WD FFV GVWR>7599 LBS",
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            42168,
+            42169,
+            42170,
+            42175
+          ],
+          "hp_source_models": [
+            "F150 SUPER CAB 4X4"
+          ],
+          "label": "5.0L 8-cyl"
+        }
+      ]
+    },
+    "2021": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              20
+            ],
+            "hwy": [
+              24,
+              26
+            ],
+            "combined": [
+              20,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            43458,
+            43464,
+            44374
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            250
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              27,
+              27
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            43616
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            282
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              22,
+              24
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            43459,
+            43466
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "3.3L 6-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            400,
+            450
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              18
+            ],
+            "hwy": [
+              16,
+              24
+            ],
+            "combined": [
+              15,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup Tremor 4WD",
+            "F150 RAPTOR 37 4WD",
+            "F150 RAPTOR 4WD"
+          ],
+          "epa_ids": [
+            43457,
+            43463,
+            44364,
+            44366,
+            44367,
+            44368,
+            44369,
+            44371,
+            44372,
+            44373
+          ],
+          "hp_source_models": [
+            "F150",
+            "F150 RAPTOR",
+            "F150 RAPTOR 37\"",
+            "F150 TREMOR 4WD"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            400
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              22,
+              24
+            ],
+            "combined": [
+              18,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            43460,
+            43467,
+            44365,
+            44370
+          ],
+          "hp_source_models": [
+            "F150 SUPER CREW CAB 4X2",
+            "F150 SUPER CREW CAB 4X4"
+          ],
+          "label": "5.0L 8-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              24,
+              25
+            ],
+            "hwy": [
+              24,
+              26
+            ],
+            "combined": [
+              24,
+              25
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD HEV",
+            "F150 Pickup 4WD HEV"
+          ],
+          "epa_ids": [
+            43465,
+            43614
+          ],
+          "hp_source_models": [],
+          "label": "3.5L 6-cyl turbo hybrid"
+        }
+      ]
+    },
+    "2022": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              20
+            ],
+            "hwy": [
+              23,
+              26
+            ],
+            "combined": [
+              20,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            44865,
+            44871,
+            44877
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            282
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              19,
+              19
+            ],
+            "hwy": [
+              22,
+              24
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            44866,
+            44872
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "3.3L 6-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            400,
+            450
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              18
+            ],
+            "hwy": [
+              16,
+              24
+            ],
+            "combined": [
+              15,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup Tremor 4WD",
+            "F150 RAPTOR 37 4WD",
+            "F150 RAPTOR 4WD"
+          ],
+          "epa_ids": [
+            44867,
+            44869,
+            44873,
+            44875,
+            44876,
+            44878,
+            44879,
+            44880,
+            44881,
+            44882
+          ],
+          "hp_source_models": [
+            "F150",
+            "F150 RAPTOR",
+            "F150 RAPTOR 37\"",
+            "F150 TREMOR 4WD"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            400
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              22,
+              24
+            ],
+            "combined": [
+              18,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            44868,
+            44870,
+            44874,
+            44883
+          ],
+          "hp_source_models": [
+            "F150 SUPER CREW 4X4",
+            "F150 SUPER CREW CAB 4X2",
+            "F150 SUPER CREW CAB 4X4"
+          ],
+          "label": "5.0L 8-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            400
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              23,
+              25
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              23,
+              25
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD HEV",
+            "F150 Pickup 4WD HEV"
+          ],
+          "epa_ids": [
+            44940,
+            44987
+          ],
+          "hp_source_models": [
+            "F150 HYBRID"
+          ],
+          "label": "3.5L 6-cyl turbo hybrid"
+        }
+      ]
+    },
+    "2023": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              20
+            ],
+            "hwy": [
+              23,
+              26
+            ],
+            "combined": [
+              20,
+              22
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            46159,
+            46160,
+            46169,
+            46170
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            282
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              19,
+              19
+            ],
+            "hwy": [
+              22,
+              24
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV"
+          ],
+          "epa_ids": [
+            46162,
+            46163,
+            46173
+          ],
+          "hp_source_models": [
+            "F-150"
+          ],
+          "label": "3.3L 6-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            400,
+            450
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              18
+            ],
+            "hwy": [
+              16,
+              24
+            ],
+            "combined": [
+              15,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup Tremor 4WD",
+            "F150 RAPTOR 37 4WD",
+            "F150 RAPTOR 4WD"
+          ],
+          "epa_ids": [
+            46161,
+            46171,
+            46172,
+            46177,
+            46178,
+            46181,
+            46182,
+            46183,
+            46184
+          ],
+          "hp_source_models": [
+            "F150",
+            "F150 RAPTOR",
+            "F150 RAPTOR 37\"",
+            "F150 TREMOR 4WD"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            400
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              17
+            ],
+            "hwy": [
+              20,
+              25
+            ],
+            "combined": [
+              17,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD FFV",
+            "F150 Pickup 4WD FFV",
+            "F150 Pickup Tremor 4WD FFV"
+          ],
+          "epa_ids": [
+            46164,
+            46165,
+            46174,
+            46175,
+            46179,
+            46180
+          ],
+          "hp_source_models": [
+            "F150 SUPER CREW 4X4",
+            "F150 SUPER CREW CAB 4X2",
+            "F150 SUPER CREW CAB 4X4"
+          ],
+          "label": "5.0L 8-cyl"
+        },
+        {
+          "displacement_l": 5.2,
+          "cylinders": 8,
+          "aspiration": "supercharged",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            700
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              10,
+              10
+            ],
+            "hwy": [
+              15,
+              15
+            ],
+            "combined": [
+              12,
+              12
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 RAPTOR R 4WD"
+          ],
+          "epa_ids": [
+            46185
+          ],
+          "hp_source_models": [
+            "F150 RAPTOR R"
+          ],
+          "label": "5.2L 8-cyl supercharged"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            400
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              23,
+              25
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              23,
+              25
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD HEV",
+            "F150 Pickup 4WD HEV"
+          ],
+          "epa_ids": [
+            46166,
+            46176
+          ],
+          "hp_source_models": [
+            "F150 HYBRID"
+          ],
+          "label": "3.5L 6-cyl turbo hybrid"
+        }
+      ]
+    },
+    "2024": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              18,
+              19
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            47605,
+            47611
+          ],
+          "hp_source_models": [
+            "F150"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            400,
+            450
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              17
+            ],
+            "hwy": [
+              18,
+              25
+            ],
+            "combined": [
+              16,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup Tremor 4WD",
+            "F150 RAPTOR 4WD"
+          ],
+          "epa_ids": [
+            47604,
+            47615,
+            47616,
+            48458
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD",
+            "F150 PICKUP TREMOR 4WD",
+            "F150 RAPTOR"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            400
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup Tremor 4WD"
+          ],
+          "epa_ids": [
+            47603,
+            47614,
+            48459
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD",
+            "F150 PICKUP TREMOR 4WD"
+          ],
+          "label": "5.0L 8-cyl"
+        },
+        {
+          "displacement_l": 5.2,
+          "cylinders": 8,
+          "aspiration": "supercharged",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            700
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              10,
+              10
+            ],
+            "hwy": [
+              15,
+              15
+            ],
+            "combined": [
+              12,
+              12
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 RAPTOR R 4WD"
+          ],
+          "epa_ids": [
+            47617
+          ],
+          "hp_source_models": [
+            "F150 RAPTOR R"
+          ],
+          "label": "5.2L 8-cyl supercharged"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            400
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 4WD HEV"
+          ],
+          "epa_ids": [
+            47612
+          ],
+          "hp_source_models": [
+            "F150 FHEV"
+          ],
+          "label": "3.5L 6-cyl turbo hybrid"
+        }
+      ]
+    },
+    "2025": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              19
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            48885,
+            49143
+          ],
+          "hp_source_models": [
+            "F150"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            400,
+            450
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              17
+            ],
+            "hwy": [
+              18,
+              25
+            ],
+            "combined": [
+              16,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup Tremor 4WD",
+            "F150 RAPTOR 4WD"
+          ],
+          "epa_ids": [
+            48884,
+            48893,
+            48895,
+            48898
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD",
+            "F150 PICKUP TREMOR 4WD",
+            "F150 RAPTOR"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            400
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup Tremor 4WD"
+          ],
+          "epa_ids": [
+            48886,
+            48894,
+            48896
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 PICKUP 4WD",
+            "F150 PICKUP TREMOR 4WD"
+          ],
+          "label": "5.0L 8-cyl"
+        },
+        {
+          "displacement_l": 5.2,
+          "cylinders": 8,
+          "aspiration": "supercharged",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            700
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              10,
+              10
+            ],
+            "hwy": [
+              15,
+              15
+            ],
+            "combined": [
+              12,
+              12
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 RAPTOR R 4WD"
+          ],
+          "epa_ids": [
+            49144
+          ],
+          "hp_source_models": [
+            "F150 RAPTOR R"
+          ],
+          "label": "5.2L 8-cyl supercharged"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            400
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 4WD HEV"
+          ],
+          "epa_ids": [
+            48897
+          ],
+          "hp_source_models": [
+            "F150 FHEV"
+          ],
+          "label": "3.5L 6-cyl turbo hybrid"
+        }
+      ]
+    },
+    "2026": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            325
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              19
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD"
+          ],
+          "epa_ids": [
+            50092,
+            50098
+          ],
+          "hp_source_models": [
+            "F150"
+          ],
+          "label": "2.7L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            400,
+            450
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              17
+            ],
+            "hwy": [
+              18,
+              25
+            ],
+            "combined": [
+              16,
+              20
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup Tremor 4WD",
+            "F150 RAPTOR 4WD"
+          ],
+          "epa_ids": [
+            50093,
+            50099,
+            50101,
+            50102
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 2WD",
+            "F150 PICKUP TREMOR 4WD",
+            "F150 RAPTOR"
+          ],
+          "label": "3.5L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 5.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            400
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD",
+            "F150 Pickup 4WD",
+            "F150 Pickup Tremor 4WD"
+          ],
+          "epa_ids": [
+            50094,
+            50100,
+            50103
+          ],
+          "hp_source_models": [
+            "F150 PICKUP 4WD",
+            "F150 PICKUP TREMOR 4WD"
+          ],
+          "label": "5.0L 8-cyl"
+        },
+        {
+          "displacement_l": 5.2,
+          "cylinders": 8,
+          "aspiration": "supercharged",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            700
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              10,
+              10
+            ],
+            "hwy": [
+              15,
+              15
+            ],
+            "combined": [
+              12,
+              12
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 RAPTOR R 4WD"
+          ],
+          "epa_ids": [
+            50104
+          ],
+          "hp_source_models": [
+            "F150 RAPTOR R"
+          ],
+          "label": "5.2L 8-cyl supercharged"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            400
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              24,
+              25
+            ],
+            "combined": [
+              23,
+              24
+            ]
+          },
+          "drives": [
+            "Part-time 4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "F150 Pickup 2WD HEV",
+            "F150 Pickup 4WD HEV"
+          ],
+          "epa_ids": [
+            50097,
+            50447
+          ],
+          "hp_source_models": [
+            "F150 HEV"
+          ],
+          "label": "3.5L 6-cyl turbo hybrid"
+        }
+      ]
+    }
+  }
+}

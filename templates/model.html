@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ m.make }} {{ m.model }} specs by year</h1>
+<p class="lede">{{ years|length }} model years, {{ years[0].year }}–{{ years[-1].year }}. Pick a year for full fitment details.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Year</th><th>Generation</th><th>Bolt pattern</th><th>Center bore</th><th>Engines</th><th>NCAP overall</th><th>Recalls</th></tr></thead>
+  <tbody>
+  {% for y in years %}
+    <tr>
+      <td><a href="/{{ m.slug }}/{{ y.year }}/">{{ y.year }}</a></td>
+      <td>{{ y.generation|join(" / ") or "—" }}</td>
+      <td>{{ y.wheel.bolt_pattern or "—" }}</td>
+      <td>{% if y.wheel.center_bore_mm %}{{ y.wheel.center_bore_mm }} mm{% else %}—{% endif %}</td>
+      <td>{{ y.engines|map(attribute="label")|join(", ") or "—" }}</td>
+      <td>{% if y.ncap_best %}{{ y.ncap_best }}★{% else %}—{% endif %}</td>
+      <td>{{ y.recalls if y.recalls is not none else "—" }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}

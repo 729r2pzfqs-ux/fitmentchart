@@ -9,6 +9,11 @@
 # Regexes are Python `re`, matched case-insensitively with re.search against the
 # source's model string (ANKUSI strings have the make prefix stripped first).
 # `exclude` removes sibling models that share the name (HD trucks, EVs, ...).
+# ankusi `base` (default: exactly the model name) marks rows describing the
+# plain model rather than a special trim; base rows win ties in step 04.
+# nhtsa `always`: names queried every year on top of the ones NHTSA's model list
+# returns. That list is incomplete: 2010 shows only "TACOMA ACCESS CAB" etc.,
+# while the recalls are filed under plain "TACOMA".
 
 years: {start: 2005, end: 2026}
 
@@ -25,7 +30,7 @@ makes:
         testcar: {include: '\bTACOMA\b'}
         cvs:    {query: [Tacoma], include: '^TACOMA\b'}
         ankusi: {include: '^Tacoma\b'}
-        nhtsa:  {include: '^TACOMA\b'}
+        nhtsa:  {include: '^TACOMA\b', always: [TACOMA]}
 
   - name: Ford
     slug: ford
@@ -39,7 +44,7 @@ makes:
         testcar: {include: '\bF-?150\b', exclude: 'LIGHTNING|\bBEV\b'}
         cvs:    {query: [F-150, F150], include: '^F-?150\b', exclude: 'LIGHTNING'}
         ankusi: {include: '\bF-?150\b', exclude: 'Lightning'}
-        nhtsa:  {include: '^F-?150\b', exclude: 'LIGHTNING|\bBEV\b'}
+        nhtsa:  {include: '^F-?150\b', exclude: 'LIGHTNING|\bBEV\b', always: [F-150]}
 
   - name: Honda
     slug: honda
@@ -53,7 +58,7 @@ makes:
         testcar: {include: '\bCIVIC\b'}
         cvs:    {query: [Civic], include: '^CIVIC\b'}
         ankusi: {include: '\bCivic\b', exclude: 'Mugen|Racecar|Pro Drag|Concept'}
-        nhtsa:  {include: '^CIVIC\b'}
+        nhtsa:  {include: '^CIVIC\b', always: [CIVIC]}
 
   - name: Chevrolet
     slug: chevrolet
@@ -70,8 +75,9 @@ makes:
         epa:    {include: '^Silverado\b', exclude: '2500|3500|\bHD\b|\bEV\b'}
         testcar: {include: '\bSILVERADO\b', exclude: '2500|3500|\bHD\b|\bEV\b'}
         cvs:    {query: [Silverado], include: '^SILVERADO\b', exclude: '2500|3500|\bHD\b|\bEV\b'}
-        ankusi: {include: '^Silverado\b', exclude: '2500|3500|\bHD\b|\bEV\b'}
-        nhtsa:  {include: '^SILVERADO\b', exclude: '2500|3500|4500|5500|6500|\bHD\b|\bEV\b|duplicate'}
+        ankusi: {include: '^Silverado\b', exclude: '2500|3500|\bHD\b|\bEV\b', base: '^Silverado( 1500)?$'}
+        nhtsa:  {include: '^SILVERADO\b', exclude: '2500|3500|4500|5500|6500|\bHD\b|\bEV\b|duplicate',
+                 always: [SILVERADO, SILVERADO 1500]}
 
   - name: Jeep
     slug: jeep
@@ -83,6 +89,7 @@ makes:
         vpic:   {include: '^Wrangler\b'}
         epa:    {include: '\bWrangler\b'}
         testcar: {include: '\bWRANGLER\b'}
-        cvs:    {query: [Wrangler], include: '^WRANGLER\b'}
-        ankusi: {include: '^Wrangler\b'}
-        nhtsa:  {include: '^WRANGLER\b'}
+        # CVS lists the 2005-06 Wrangler under its chassis code: "TJ 2DR SUV 4WD /SPORT"
+        cvs:    {query: [Wrangler, TJ], include: '^(WRANGLER|TJ)\b'}
+        ankusi: {include: '^Wrangler\b', base: '^Wrangler( Unlimited)?$'}
+        nhtsa:  {include: '^WRANGLER\b', always: [WRANGLER, WRANGLER UNLIMITED]}

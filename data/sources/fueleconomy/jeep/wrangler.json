@@ -1,0 +1,2688 @@
+{
+  "slug": "jeep/wrangler",
+  "source": {
+    "vehicles_csv": "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+    "hp": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+  },
+  "years": {
+    "2005": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            150
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              16,
+              16
+            ],
+            "hwy": [
+              19,
+              19
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler/TJ 4WD"
+          ],
+          "epa_ids": [
+            21423
+          ],
+          "hp_source_models": [
+            "WRANGLER/TJ 4WD"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            190
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              16,
+              17
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler/TJ 4WD"
+          ],
+          "epa_ids": [
+            21424,
+            21425
+          ],
+          "hp_source_models": [
+            "WRANGLER/TJ 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2006": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            150
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              16,
+              16
+            ],
+            "hwy": [
+              19,
+              19
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler/TJ 4WD"
+          ],
+          "epa_ids": [
+            22532
+          ],
+          "hp_source_models": [
+            "WRANGLER/TJ 4WD"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 4.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            190
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              16,
+              17
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler/TJ 4WD"
+          ],
+          "epa_ids": [
+            22533,
+            22534
+          ],
+          "hp_source_models": [
+            "WRANGLER/TJ 4WD"
+          ],
+          "label": "4.0L 6-cyl"
+        }
+      ]
+    },
+    "2007": {
+      "engines": [
+        {
+          "displacement_l": 3.8,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            190
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              18,
+              21
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2WD",
+            "Wrangler 4WD"
+          ],
+          "epa_ids": [
+            23745,
+            23746,
+            23811,
+            23812
+          ],
+          "hp_source_models": [
+            "WRANGLER 4WD"
+          ],
+          "label": "3.8L 6-cyl"
+        }
+      ]
+    },
+    "2008": {
+      "engines": [
+        {
+          "displacement_l": 3.8,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            190
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2WD",
+            "Wrangler 4WD"
+          ],
+          "epa_ids": [
+            24617,
+            24618,
+            24669,
+            24670
+          ],
+          "hp_source_models": [
+            "WRANGLER 2WD",
+            "WRANGLER 4WD"
+          ],
+          "label": "3.8L 6-cyl"
+        }
+      ]
+    },
+    "2009": {
+      "engines": [
+        {
+          "displacement_l": 3.8,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            190,
+            210
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2WD",
+            "Wrangler 4WD"
+          ],
+          "epa_ids": [
+            26144,
+            26188,
+            26189
+          ],
+          "hp_source_models": [
+            "WRANGLER 2WD",
+            "WRANGLER 4WD"
+          ],
+          "label": "3.8L 6-cyl"
+        }
+      ]
+    },
+    "2010": {
+      "engines": [
+        {
+          "displacement_l": 3.8,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            190,
+            210
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2WD",
+            "Wrangler 4WD"
+          ],
+          "epa_ids": [
+            29531,
+            29538,
+            29539
+          ],
+          "hp_source_models": [
+            "WRANGLER 2WD",
+            "WRANGLER 4WD"
+          ],
+          "label": "3.8L 6-cyl"
+        }
+      ]
+    },
+    "2011": {
+      "engines": [
+        {
+          "displacement_l": 3.8,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            200
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              19,
+              19
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD"
+          ],
+          "epa_ids": [
+            30784,
+            30785
+          ],
+          "hp_source_models": [
+            "WRANGLER 4WD"
+          ],
+          "label": "3.8L 6-cyl"
+        }
+      ]
+    },
+    "2012": {
+      "engines": [
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              20,
+              21
+            ],
+            "combined": [
+              18,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            32001,
+            32002,
+            32003,
+            32004
+          ],
+          "hp_source_models": [
+            "WRANGLER 4WD"
+          ],
+          "label": "3.6L 6-cyl"
+        }
+      ]
+    },
+    "2013": {
+      "engines": [
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              20,
+              21
+            ],
+            "combined": [
+              18,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            33019,
+            33020,
+            33021,
+            33022
+          ],
+          "hp_source_models": [
+            "WRANGLER 4WD"
+          ],
+          "label": "3.6L 6-cyl"
+        }
+      ]
+    },
+    "2014": {
+      "engines": [
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              20,
+              21
+            ],
+            "combined": [
+              18,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            33972,
+            34126,
+            34127,
+            34128
+          ],
+          "hp_source_models": [
+            "WRANGLER 4WD"
+          ],
+          "label": "3.6L 6-cyl"
+        }
+      ]
+    },
+    "2015": {
+      "engines": [
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              20,
+              21
+            ],
+            "combined": [
+              18,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            35393,
+            35394,
+            35395,
+            35396
+          ],
+          "hp_source_models": [
+            "WRANGLER 4WD"
+          ],
+          "label": "3.6L 6-cyl"
+        }
+      ]
+    },
+    "2016": {
+      "engines": [
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              20,
+              21
+            ],
+            "combined": [
+              18,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            36927,
+            36928,
+            36929,
+            36930
+          ],
+          "hp_source_models": [
+            "WRANGLER 4WD"
+          ],
+          "label": "3.6L 6-cyl"
+        }
+      ]
+    },
+    "2017": {
+      "engines": [
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              20,
+              21
+            ],
+            "combined": [
+              18,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            38220,
+            38221,
+            38222,
+            38223
+          ],
+          "hp_source_models": [
+            "WRANGLER 4WD"
+          ],
+          "label": "3.6L 6-cyl"
+        }
+      ]
+    },
+    "2018": {
+      "engines": [
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285,
+            290
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              20,
+              25
+            ],
+            "combined": [
+              18,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Automatic 8-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "New Wrangler 4WD",
+            "New Wrangler Unlimited 4WD",
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            39582,
+            39583,
+            39584,
+            39585,
+            39685,
+            39686,
+            39805,
+            39806
+          ],
+          "hp_source_models": [
+            "WRANGLER 4WD",
+            "WRANGLER 4X4",
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              24,
+              25
+            ],
+            "combined": [
+              22,
+              24
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "New Wrangler 4WD",
+            "New Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            40092,
+            40093
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4"
+          ],
+          "label": "2.0L 4-cyl turbo hybrid"
+        }
+      ]
+    },
+    "2019": {
+      "engines": [
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            40966,
+            40967,
+            40969,
+            40970
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4",
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              24,
+              25
+            ],
+            "combined": [
+              22,
+              24
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            40965,
+            40968
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4"
+          ],
+          "label": "2.0L 4-cyl turbo hybrid"
+        }
+      ]
+    },
+    "2020": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              22,
+              24
+            ],
+            "combined": [
+              21,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            41763,
+            41766
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4",
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            230
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              29,
+              29
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            42405
+          ],
+          "hp_source_models": [
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              22,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            41677,
+            41679,
+            41764,
+            41767
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4",
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              22,
+              22
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4WD",
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            41765,
+            42456
+          ],
+          "hp_source_models": [
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "2.0L 4-cyl turbo hybrid"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              19
+            ],
+            "hwy": [
+              22,
+              22
+            ],
+            "combined": [
+              20,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler Unlimited 4WD"
+          ],
+          "epa_ids": [
+            41678
+          ],
+          "hp_source_models": [
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        }
+      ]
+    },
+    "2021": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              22,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            42907,
+            42909
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4",
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            230
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              26,
+              29
+            ],
+            "combined": [
+              23,
+              25
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr EcoDiesel 4WD",
+            "Wrangler Rubic 4dr EcoDiesel 4WD"
+          ],
+          "epa_ids": [
+            42965,
+            42966
+          ],
+          "hp_source_models": [
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              22,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            42910,
+            42911,
+            44091,
+            44092
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4",
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 6.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            470
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              17,
+              17
+            ],
+            "combined": [
+              14,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            43682
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "6.4L 8-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "phev",
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              20,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4xe"
+          ],
+          "epa_ids": [
+            43801
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4XE"
+          ],
+          "label": "2.0L 4-cyl turbo plug-in hybrid"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            42906,
+            42908
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        }
+      ]
+    },
+    "2022": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              22,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            44907,
+            44911
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4",
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            230
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              26,
+              29
+            ],
+            "combined": [
+              23,
+              25
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr EcoDiesel 4WD",
+            "Wrangler Rubic 4dr EcoDiesel 4WD"
+          ],
+          "epa_ids": [
+            44905,
+            44906
+          ],
+          "hp_source_models": [
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            44909,
+            44910,
+            44913,
+            44914
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4",
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 6.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            470
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              17,
+              17
+            ],
+            "combined": [
+              14,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            44915
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "6.4L 8-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "phev",
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              20,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4xe"
+          ],
+          "epa_ids": [
+            44932
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4XE"
+          ],
+          "label": "2.0L 4-cyl turbo plug-in hybrid"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            44908,
+            44912
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        }
+      ]
+    },
+    "2023": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              22,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            45691,
+            45694
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4",
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            230
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              26,
+              29
+            ],
+            "combined": [
+              23,
+              25
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr EcoDiesel 4WD",
+            "Wrangler Rubic 4dr EcoDiesel 4WD"
+          ],
+          "epa_ids": [
+            45689,
+            45690
+          ],
+          "hp_source_models": [
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            45693,
+            45696,
+            45953,
+            45954
+          ],
+          "hp_source_models": [
+            "WRANGLER 4X4",
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 6.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            470
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              17,
+              17
+            ],
+            "combined": [
+              14,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            45697
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "6.4L 8-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "phev",
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              20,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4xe"
+          ],
+          "epa_ids": [
+            46252
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4XE"
+          ],
+          "label": "2.0L 4-cyl turbo plug-in hybrid"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              24,
+              24
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            45692,
+            45695
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        }
+      ]
+    },
+    "2024": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            46726,
+            46728
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              19,
+              24
+            ],
+            "combined": [
+              17,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD",
+            "Wrangler Rubicon 2dr 4WD",
+            "Wrangler Rubicon 4dr 4WD"
+          ],
+          "epa_ids": [
+            46885,
+            46886,
+            46887,
+            46888,
+            47378,
+            47379
+          ],
+          "hp_source_models": [
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 6.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            470
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              16,
+              16
+            ],
+            "combined": [
+              14,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            46727
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "6.4L 8-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "phev",
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              20,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4xe"
+          ],
+          "epa_ids": [
+            47278
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4XE"
+          ],
+          "label": "2.0L 4-cyl turbo plug-in hybrid"
+        }
+      ]
+    },
+    "2025": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            48530,
+            48532
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            48531,
+            48533,
+            48918
+          ],
+          "hp_source_models": [
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 6.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            470
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              16,
+              16
+            ],
+            "combined": [
+              14,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            48919
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "6.4L 8-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "phev",
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              20,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4xe"
+          ],
+          "epa_ids": [
+            48664
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4XE"
+          ],
+          "label": "2.0L 4-cyl turbo plug-in hybrid"
+        }
+      ]
+    },
+    "2026": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            49852,
+            49854
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Wrangler 2dr 4WD",
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            49853,
+            49855,
+            49856
+          ],
+          "hp_source_models": [
+            "WRANGLER UNLIMITED 4X4"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 6.4,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            470
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              16,
+              16
+            ],
+            "combined": [
+              14,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4WD"
+          ],
+          "epa_ids": [
+            50127
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4X4"
+          ],
+          "label": "6.4L 8-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "phev",
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              20,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Wrangler 4dr 4xe"
+          ],
+          "epa_ids": [
+            50264
+          ],
+          "hp_source_models": [
+            "WRANGLER 4DR 4XE"
+          ],
+          "label": "2.0L 4-cyl turbo plug-in hybrid"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5121 @@
+{
+  "slug": "chevrolet/silverado-1500",
+  "source": {
+    "vehicles_csv": "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+    "hp": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+  },
+  "years": {
+    "2005": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            195
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              17,
+              20
+            ],
+            "combined": [
+              14,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Silverado 1500 2WD",
+            "Silverado 1500 4WD"
+          ],
+          "epa_ids": [
+            21083,
+            21084,
+            21151,
+            21152
+          ],
+          "hp_source_models": [
+            "C1500 SILVERADO 2WD",
+            "K1500 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 4.8,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Silverado 1500 2WD",
+            "Silverado 1500 4WD"
+          ],
+          "epa_ids": [
+            21085,
+            21086,
+            21153,
+            21154
+          ],
+          "hp_source_models": [
+            "C1500 SILVERADO 2WD",
+            "K1500 SILVERADO 4WD"
+          ],
+          "label": "4.8L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            295,
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              17,
+              19
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado 1500 2WD",
+            "Silverado 1500 4WD"
+          ],
+          "epa_ids": [
+            21087,
+            21155,
+            21511,
+            21512
+          ],
+          "hp_source_models": [
+            "C1500 SILVERADO 2WD",
+            "K1500 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              15,
+              18
+            ],
+            "combined": [
+              13,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado 1500 2WD",
+            "Silverado 1500 AWD"
+          ],
+          "epa_ids": [
+            21088,
+            21156
+          ],
+          "hp_source_models": [],
+          "label": "6.0L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            295
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado 15 Hybrid 2WD",
+            "Silverado 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            21082,
+            21150
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO HYBRID 2WD",
+            "K15 SILVERADO HYBRID 4WD"
+          ],
+          "label": "5.3L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2006": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            195
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              17,
+              20
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Silverado 1500 2WD",
+            "Silverado 1500 4WD"
+          ],
+          "epa_ids": [
+            22162,
+            22163,
+            22247,
+            22248
+          ],
+          "hp_source_models": [
+            "C1500 SILVERADO 2WD",
+            "K1500 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 4.8,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Silverado 1500 2WD",
+            "Silverado 1500 4WD"
+          ],
+          "epa_ids": [
+            22164,
+            22165,
+            22249,
+            22250
+          ],
+          "hp_source_models": [
+            "C1500 SILVERADO 2WD",
+            "K1500 SILVERADO 4WD"
+          ],
+          "label": "4.8L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            295,
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado 1500 2WD",
+            "Silverado 1500 4WD"
+          ],
+          "epa_ids": [
+            22166,
+            22251,
+            22625,
+            22634
+          ],
+          "hp_source_models": [
+            "C1500 SILVERADO 2WD",
+            "K1500 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              16,
+              18
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado 1500 2WD",
+            "Silverado 1500 4WD"
+          ],
+          "epa_ids": [
+            22167,
+            22252
+          ],
+          "hp_source_models": [
+            "K1500 SILVERADO 4WD"
+          ],
+          "label": "6.0L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            295
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado 15 Hybrid 2WD",
+            "Silverado 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            22161,
+            22246
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO HYBRID 2WD",
+            "K15 SILVERADO HYBRID 4WD"
+          ],
+          "label": "5.3L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2007": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            195
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              17,
+              21
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado Classic 1500 2WD",
+            "Silverado Classic 1500 4WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            22878,
+            22879,
+            22903,
+            22904,
+            23631,
+            23667
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "C1500 SILVERADO CLASSIC 2WD",
+            "K15 SILVERADO 4WD",
+            "K1500 SILVERADO CLASSIC 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 4.8,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              15
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado Classic 1500 2WD",
+            "Silverado Classic 1500 4WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            22880,
+            22905,
+            23632,
+            23668
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "C1500 SILVERADO CLASSIC 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.8L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            295,
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              15
+            ],
+            "hwy": [
+              17,
+              20
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado Classic 1500 2WD",
+            "Silverado Classic 1500 4WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            22881,
+            22906,
+            23039,
+            23046,
+            23633,
+            23669,
+            23847,
+            23857
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "C1500 SILVERADO CLASSIC 2WD",
+            "K15 SILVERADO 4WD",
+            "K1500 SILVERADO CLASSIC 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345,
+            360
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              16,
+              18
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado Classic 1500 2WD",
+            "Silverado Classic 1500 4WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            22882,
+            22907,
+            23634,
+            23670
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "C1500 SILVERADO CLASSIC 2WD",
+            "K15 SILVERADO 4WD",
+            "K1500 SILVERADO CLASSIC 4WD"
+          ],
+          "label": "6.0L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado Classic 15 Hybrid 2WD",
+            "Silverado Classic 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            22883,
+            22908
+          ],
+          "hp_source_models": [],
+          "label": "5.3L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2008": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            195
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            24509,
+            24528
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 4.8,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            24510,
+            24529
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.8L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            24511,
+            24530,
+            24698,
+            24700
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            366
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              17,
+              18
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            24512,
+            24531
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "6.0L 8-cyl"
+        }
+      ]
+    },
+    "2009": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            195
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            26063,
+            26080
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 4.8,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            270
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            26064,
+            26081
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.8L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            310,
+            320
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado C15 XFE 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            25575,
+            25576,
+            25583,
+            25584,
+            25733,
+            25734,
+            25772,
+            25773,
+            26217
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "C15 SILVERADO XFE 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            366
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            25577,
+            25585
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "6.0L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              19,
+              19
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            25735,
+            25774
+          ],
+          "hp_source_models": [],
+          "label": "6.2L 8-cyl"
+        },
+        {
+          "displacement_l": 6.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              20,
+              21
+            ],
+            "hwy": [
+              20,
+              22
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Silverado 15 Hybrid 2WD",
+            "Silverado 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            25578,
+            25586
+          ],
+          "hp_source_models": [],
+          "label": "6.0L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2010": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            28707,
+            28715
+          ],
+          "hp_source_models": [],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 4.8,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            29761,
+            29771
+          ],
+          "hp_source_models": [],
+          "label": "4.8L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado C15 XFE 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            29762,
+            29765,
+            29772
+          ],
+          "hp_source_models": [],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              19,
+              19
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            29763,
+            29773
+          ],
+          "hp_source_models": [],
+          "label": "6.2L 8-cyl"
+        },
+        {
+          "displacement_l": 6.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              22,
+              22
+            ],
+            "combined": [
+              21,
+              22
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Silverado 15 Hybrid 2WD",
+            "Silverado 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            29764,
+            29774
+          ],
+          "hp_source_models": [],
+          "label": "6.0L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2011": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            195
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            30155,
+            30163
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 4.8,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            295
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            30157,
+            30165
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.8L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            315,
+            320
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado C15 XFE 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            30156,
+            30158,
+            30164
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "C15 SILVERADO 2WD XFE",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            403
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              12,
+              12
+            ],
+            "hwy": [
+              18,
+              18
+            ],
+            "combined": [
+              14,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            30460,
+            30468
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "6.2L 8-cyl"
+        },
+        {
+          "displacement_l": 6.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              23,
+              23
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Silverado 15 Hybrid 2WD",
+            "Silverado 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            30458,
+            30466
+          ],
+          "hp_source_models": [],
+          "label": "6.0L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2012": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            195
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            31437,
+            31449
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 4.8,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            295
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            31438,
+            31450
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.8L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            315,
+            320
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado C15 XFE 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            31435,
+            31439,
+            31447
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "C15 SILVERADO 2WD XFE",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            403
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              18,
+              18
+            ],
+            "combined": [
+              14,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            31436,
+            31448
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "6.2L 8-cyl"
+        },
+        {
+          "displacement_l": 6.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              23,
+              23
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Silverado 15 Hybrid 2WD",
+            "Silverado 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            31855,
+            31862
+          ],
+          "hp_source_models": [],
+          "label": "6.0L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2013": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            195
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            32413,
+            32423
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 4.8,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            295
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            32416,
+            32425
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.8L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            320
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado C15 XFE 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            32414,
+            32415,
+            32424
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            403
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              18,
+              18
+            ],
+            "combined": [
+              14,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            32417,
+            32426
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "6.2L 8-cyl"
+        },
+        {
+          "displacement_l": 6.0,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              23,
+              23
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Silverado 15 Hybrid 2WD",
+            "Silverado 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            32626,
+            32628
+          ],
+          "hp_source_models": [],
+          "label": "6.0L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2014": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            34106,
+            34111
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              16,
+              16
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              18,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            33687,
+            33689
+          ],
+          "hp_source_models": [],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            425
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            34500
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2015": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              20,
+              24
+            ],
+            "combined": [
+              18,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado C15 Cab Chassis 2WD",
+            "Silverado K15 4WD",
+            "Silverado K15 Cab Chassis 4WD"
+          ],
+          "epa_ids": [
+            35570,
+            35574,
+            35582,
+            35590
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              19,
+              23
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado C15 Cab Chassis 2WD",
+            "Silverado K15 4WD",
+            "Silverado K15 Cab Chassis 4WD"
+          ],
+          "epa_ids": [
+            34674,
+            34676,
+            35569,
+            35573,
+            35580,
+            35581,
+            35588,
+            35589
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            425
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              21
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            35814,
+            35817
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2016": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            37005,
+            37015
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              19,
+              23
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado C15 Cab Chassis 2WD",
+            "Silverado K15 4WD",
+            "Silverado K15 Cab Chassis 4WD"
+          ],
+          "epa_ids": [
+            36765,
+            37004,
+            37006,
+            37007,
+            37014,
+            37016,
+            37017,
+            37022
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            425
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              21
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            37008,
+            37046
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD"
+          ],
+          "label": "6.2L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            345
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              21,
+              24
+            ],
+            "combined": [
+              18,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 15 Hybrid 2WD",
+            "Silverado 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            37370,
+            37372
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2017": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              22,
+              24
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            37643,
+            37654
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              19,
+              23
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado C15 Cab Chassis 2WD",
+            "Silverado K15 4WD",
+            "Silverado K15 Cab Chassis 4WD"
+          ],
+          "epa_ids": [
+            37642,
+            37651,
+            37652,
+            37653,
+            37666,
+            37667,
+            37944,
+            38185
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            425
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              20,
+              21
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            37641,
+            37650
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD"
+          ],
+          "label": "6.2L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            345
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              21,
+              24
+            ],
+            "combined": [
+              18,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 15 Hybrid 2WD",
+            "Silverado 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            37640,
+            37649
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2018": {
+      "engines": [
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              22,
+              24
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            38943,
+            38947
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              15,
+              16
+            ],
+            "hwy": [
+              19,
+              23
+            ],
+            "combined": [
+              17,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado C15 Cab Chassis 2WD",
+            "Silverado K15 4WD",
+            "Silverado K15 Cab Chassis 4WD"
+          ],
+          "epa_ids": [
+            38981,
+            38982,
+            38983,
+            38990,
+            38994,
+            38995,
+            39359,
+            39403
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD",
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            425
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              20,
+              21
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado C15 2WD",
+            "Silverado K15 4WD"
+          ],
+          "epa_ids": [
+            38984,
+            38989
+          ],
+          "hp_source_models": [
+            "C15 SILVERADO 2WD"
+          ],
+          "label": "6.2L 8-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            345
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              21,
+              24
+            ],
+            "combined": [
+              18,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 15 Hybrid 2WD",
+            "Silverado 15 Hybrid 4WD"
+          ],
+          "epa_ids": [
+            38942,
+            38946
+          ],
+          "hp_source_models": [
+            "K15 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2019": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              18,
+              20
+            ],
+            "hwy": [
+              21,
+              23
+            ],
+            "combined": [
+              19,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado C10 2WD",
+            "Silverado K10 4WD"
+          ],
+          "epa_ids": [
+            40944,
+            40947,
+            40952,
+            40955
+          ],
+          "hp_source_models": [
+            "C10 SILVERADO 2WD",
+            "K10 SILVERADO 4WD"
+          ],
+          "label": "2.7L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              17,
+              21
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado C10 2WD",
+            "Silverado C10 Cab Chassis 2WD",
+            "Silverado K10 4WD",
+            "Silverado K10 4WD TrailBoss",
+            "Silverado K10 Cab Chassis 4WD"
+          ],
+          "epa_ids": [
+            41103,
+            41110,
+            41111,
+            41118,
+            41119
+          ],
+          "hp_source_models": [
+            "C10 SILVERADO 2WD",
+            "K10 SILVERADO 4WD",
+            "K10 SILVERADO 4WD TRAILBOSS"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            355
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              17
+            ],
+            "hwy": [
+              17,
+              24
+            ],
+            "combined": [
+              15,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado C10 2WD",
+            "Silverado C10 Cab Chassis 2WD",
+            "Silverado C10 XFE 2WD",
+            "Silverado K10 4WD",
+            "Silverado K10 4WD TrailBoss",
+            "Silverado K10 Cab Chassis 4WD",
+            "Silverado LD C15 2WD",
+            "Silverado LD K15 4WD"
+          ],
+          "epa_ids": [
+            40258,
+            40260,
+            40424,
+            40426,
+            40504,
+            40945,
+            40946,
+            40953,
+            40954,
+            40961,
+            40962,
+            41027,
+            41104
+          ],
+          "hp_source_models": [
+            "C10 SILVERADO 2WD",
+            "K10 SILVERADO 4WD"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            425
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              16,
+              16
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado K10 4WD"
+          ],
+          "epa_ids": [
+            40425
+          ],
+          "hp_source_models": [
+            "K10 SILVERADO 4WD"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2020": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD"
+          ],
+          "epa_ids": [
+            41820,
+            41824,
+            41837,
+            41843
+          ],
+          "hp_source_models": [
+            "C10 SILVERADO 2WD",
+            "K10 SILVERADO 4WD",
+            "SILVERADO 4WD"
+          ],
+          "label": "2.7L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            275
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              23,
+              23
+            ],
+            "hwy": [
+              29,
+              33
+            ],
+            "combined": [
+              25,
+              27
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD"
+          ],
+          "epa_ids": [
+            41821,
+            41842
+          ],
+          "hp_source_models": [
+            "C10 SILVERADO 2WD",
+            "K10 SILVERADO 4WD"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              16,
+              21
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado 4WD TrailBoss",
+            "Silverado Cab Chassis 2WD",
+            "Silverado Cab Chassis 4WD"
+          ],
+          "epa_ids": [
+            41818,
+            41844,
+            41845,
+            41860,
+            41863
+          ],
+          "hp_source_models": [
+            "C10 SILVERADO 2WD",
+            "SILVERADO 2WD",
+            "SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            355
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              17
+            ],
+            "hwy": [
+              17,
+              24
+            ],
+            "combined": [
+              15,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd",
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado 4WD TrailBoss",
+            "Silverado Cab Chassis 2WD",
+            "Silverado Cab Chassis 4WD"
+          ],
+          "epa_ids": [
+            41819,
+            41822,
+            41823,
+            41833,
+            41834,
+            41835,
+            41836,
+            41839,
+            41840,
+            41841,
+            41861,
+            41862,
+            41891
+          ],
+          "hp_source_models": [
+            "C10 SILVERADO 2WD",
+            "K10 SILVERADO 4WD",
+            "SILVERADO 2WD",
+            "SILVERADO 2WD CAB CHASSIS",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD TRAILBOSS"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            425
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 4WD",
+            "Silverado 4WD TrailBoss"
+          ],
+          "epa_ids": [
+            41838,
+            42436,
+            42437
+          ],
+          "hp_source_models": [
+            "K10 SILVERADO 4WD"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2021": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              20,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD"
+          ],
+          "epa_ids": [
+            43186,
+            43187,
+            43192,
+            43194
+          ],
+          "hp_source_models": [
+            "C10 SILVERADO 2WD",
+            "K10 SILVERADO 4WD"
+          ],
+          "label": "2.7L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            275
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              26,
+              33
+            ],
+            "combined": [
+              24,
+              27
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD"
+          ],
+          "epa_ids": [
+            43091,
+            43100
+          ],
+          "hp_source_models": [
+            "C10 SILVERADO 2WD"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 4.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            285
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              16,
+              21
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado 4WD TrailBoss",
+            "Silverado Cab Chassis 2WD",
+            "Silverado Cab Chassis 4WD"
+          ],
+          "epa_ids": [
+            43103,
+            43104,
+            43117,
+            43118,
+            43185
+          ],
+          "hp_source_models": [
+            "C10 SILVERADO 2WD",
+            "K10 SILVERADO 4WD TRAILBOSS",
+            "SILVERADO 2WD",
+            "SILVERADO 4WD"
+          ],
+          "label": "4.3L 6-cyl"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            355
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              17
+            ],
+            "hwy": [
+              17,
+              23
+            ],
+            "combined": [
+              14,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd",
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado 4WD TrailBoss",
+            "Silverado Cab Chassis 2WD",
+            "Silverado Cab Chassis 4WD"
+          ],
+          "epa_ids": [
+            43088,
+            43089,
+            43090,
+            43097,
+            43098,
+            43099,
+            43101,
+            43102,
+            43116,
+            43197,
+            43366,
+            43816,
+            43868,
+            43870,
+            43871,
+            43872,
+            43875,
+            43876,
+            44027,
+            44028
+          ],
+          "hp_source_models": [
+            "K10 SILVERADO 4WD",
+            "SILVERADO 2WD",
+            "SILVERADO 2WD CAB CHASSIS",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD TRAILBOSS"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            425
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              16,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 4WD",
+            "Silverado 4WD TrailBoss"
+          ],
+          "epa_ids": [
+            43096,
+            43191,
+            43193,
+            44025,
+            44026
+          ],
+          "hp_source_models": [
+            "SILVERADO 4WD",
+            "SILVERADO 4WD TRAILBOSS"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2022": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              19
+            ],
+            "hwy": [
+              18,
+              22
+            ],
+            "combined": [
+              17,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            44633,
+            44728,
+            44729,
+            44742,
+            44743
+          ],
+          "hp_source_models": [
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "2.7L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            277
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              20,
+              23
+            ],
+            "hwy": [
+              23,
+              31
+            ],
+            "combined": [
+              21,
+              26
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            44580,
+            44582,
+            44583,
+            45195
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            355
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              16
+            ],
+            "hwy": [
+              16,
+              21
+            ],
+            "combined": [
+              15,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd",
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado Cab Chassis 2WD",
+            "Silverado Cab Chassis 4WD",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            44628,
+            44630,
+            44631,
+            44634,
+            44635,
+            44642,
+            44643,
+            44727,
+            44730,
+            44735,
+            44741,
+            44827,
+            44828,
+            45159,
+            45160,
+            45163,
+            45164,
+            45165,
+            45166,
+            45167,
+            45173,
+            45174,
+            45175
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            425
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              15
+            ],
+            "hwy": [
+              17,
+              20
+            ],
+            "combined": [
+              14,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 4WD",
+            "Silverado 4WD ZR2",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            44736,
+            44737,
+            44738,
+            44739,
+            44740,
+            45129
+          ],
+          "hp_source_models": [
+            "SILVERADO 4WD ZR2"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2023": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              18,
+              22
+            ],
+            "combined": [
+              17,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            45775,
+            45776,
+            45787,
+            45795,
+            45799
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "2.7L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            305
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              24
+            ],
+            "hwy": [
+              23,
+              29
+            ],
+            "combined": [
+              22,
+              26
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            45772,
+            45796,
+            45797,
+            45798
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            355
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              17
+            ],
+            "hwy": [
+              17,
+              21
+            ],
+            "combined": [
+              16,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado Cab Chassis 2WD",
+            "Silverado Cab Chassis 4WD",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            45770,
+            45771,
+            45773,
+            45774,
+            45784,
+            45785,
+            45788,
+            45789,
+            45790,
+            45791,
+            45792,
+            45819,
+            45820
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            425
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              17,
+              20
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 4WD",
+            "Silverado 4WD ZR2",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            45786,
+            45793,
+            45794
+          ],
+          "hp_source_models": [
+            "SILVERADO 4WD ZR2"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2024": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              17,
+              22
+            ],
+            "combined": [
+              16,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            47112,
+            47113,
+            47120,
+            47121,
+            47122,
+            47123
+          ],
+          "hp_source_models": [
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "2.7L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            305
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              20,
+              23
+            ],
+            "hwy": [
+              22,
+              29
+            ],
+            "combined": [
+              21,
+              26
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado 4WD ZR2",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            46815,
+            46834,
+            46835,
+            46836,
+            46837,
+            46838
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD ZR2"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            355
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              17,
+              22
+            ],
+            "combined": [
+              15,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado Cab Chassis 2WD",
+            "Silverado Cab Chassis 4WD",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            46811,
+            46812,
+            46813,
+            46814,
+            46823,
+            46824,
+            46828,
+            46829,
+            46830,
+            46831,
+            46832,
+            46833,
+            46856,
+            46857
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            420
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              17,
+              20
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 4WD",
+            "Silverado 4WD ZR2",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            46825,
+            46826,
+            46827
+          ],
+          "hp_source_models": [
+            "SILVERADO 4WD"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2025": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              17,
+              21
+            ],
+            "combined": [
+              16,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            48200,
+            48201,
+            48214,
+            48215,
+            48216,
+            48217
+          ],
+          "hp_source_models": [
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "2.7L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            305
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              20,
+              23
+            ],
+            "hwy": [
+              23,
+              29
+            ],
+            "combined": [
+              21,
+              26
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado 4WD ZR2",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            48199,
+            48209,
+            48210,
+            48211,
+            48212,
+            48213
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES",
+            "SILVERADO 4WD ZR2"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            355
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              16,
+              21
+            ],
+            "combined": [
+              15,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado Cab Chassis 2WD",
+            "Silverado Cab Chassis 4WD",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            48202,
+            48203,
+            48218,
+            48219,
+            48223,
+            48224,
+            48225,
+            48226,
+            48227,
+            48228,
+            48248,
+            48249
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            420
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              17,
+              20
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 4WD",
+            "Silverado 4WD ZR2",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            48220,
+            48221,
+            48222
+          ],
+          "hp_source_models": [
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    },
+    "2026": {
+      "engines": [
+        {
+          "displacement_l": 2.7,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              17,
+              21
+            ],
+            "combined": [
+              17,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "Silverado (with Sport Mode) 2WD",
+            "Silverado (with Sport Mode) 4WD M6",
+            "Silverado 2WD",
+            "Silverado 4WD 4M",
+            "Silverado Mud Terrain Tires (with Sport Mode) 4WD",
+            "Silverado Mud Terrain Tires 4WD 4M"
+          ],
+          "epa_ids": [
+            49357,
+            49358,
+            49376,
+            49378,
+            49380,
+            49381
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "2.7L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            305
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              20,
+              23
+            ],
+            "hwy": [
+              23,
+              28
+            ],
+            "combined": [
+              21,
+              25
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado (with Sport Mode) 4WD",
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado 4WD ZR2 (Sport/Off Road)",
+            "Silverado Mud Terrain Tires 4WD",
+            "Silverado Mud Terrain Tires 4WD (Sport/off road)"
+          ],
+          "epa_ids": [
+            49362,
+            49393,
+            49394,
+            49395,
+            49396,
+            49397
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD ZR2"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 5.3,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            355
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              16,
+              21
+            ],
+            "combined": [
+              15,
+              18
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado (with Sport Mode) 2WD",
+            "Silverado (with Sport Mode) 4WD",
+            "Silverado 2WD",
+            "Silverado 4WD",
+            "Silverado 4WD  (Flex Fuel)",
+            "Silverado Cab Chassis 2WD",
+            "Silverado Cab Chassis 4WD",
+            "Silverado Mud Terrain Tires (Sport Mode) 4WD",
+            "Silverado Mud Terrain Tires 4WD",
+            "Silverado Mud Terrain Tires 4WD FFV"
+          ],
+          "epa_ids": [
+            49360,
+            49361,
+            49382,
+            49383,
+            49389,
+            49390,
+            49391,
+            49392,
+            49430,
+            49431
+          ],
+          "hp_source_models": [
+            "SILVERADO 2WD",
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "5.3L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            420
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              15
+            ],
+            "hwy": [
+              17,
+              20
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd"
+          ],
+          "epa_models": [
+            "Silverado 4WD",
+            "Silverado 4WD ZR2",
+            "Silverado Mud Terrain Tires 4WD"
+          ],
+          "epa_ids": [
+            49384,
+            49385,
+            49386
+          ],
+          "hp_source_models": [
+            "SILVERADO 4WD",
+            "SILVERADO 4WD MUD TERRAIN TIRES"
+          ],
+          "label": "6.2L 8-cyl"
+        }
+      ]
+    }
+  }
+}

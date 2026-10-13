@@ -1,0 +1,5997 @@
+{
+  "slug": "chevrolet/silverado-1500",
+  "source": {
+    "name": "Transport Canada Canadian Vehicle Specifications via NHTSA vPIC",
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetCanadianVehicleSpecifications/"
+  },
+  "years": {
+    "2005": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5080,
+            6190
+          ],
+          "width_mm": [
+            2020,
+            2120
+          ],
+          "height_mm": [
+            1810,
+            1940
+          ],
+          "wheelbase_mm": [
+            3020,
+            4000
+          ],
+          "track_front_mm": [
+            1650,
+            1740
+          ],
+          "track_rear_mm": [
+            1680,
+            1680
+          ],
+          "curb_weight_kg": [
+            1836,
+            2639
+          ],
+          "length_in": [
+            200.0,
+            243.7
+          ],
+          "width_in": [
+            79.5,
+            83.5
+          ],
+          "height_in": [
+            71.3,
+            76.4
+          ],
+          "wheelbase_in": [
+            118.9,
+            157.5
+          ],
+          "curb_weight_lb": [
+            4048,
+            5818
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2262,
+            "curb_weight_lb": 4987,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2004
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2397,
+            "curb_weight_lb": 5284,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2004
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX",
+            "length_mm": 6190,
+            "length_in": 243.7,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2106,
+            "curb_weight_lb": 4643,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 4X4",
+            "length_mm": 6190,
+            "length_in": 243.7,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2241,
+            "curb_weight_lb": 4941,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1980,
+            "curb_weight_lb": 4365,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 4X4",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2151,
+            "curb_weight_lb": 4742,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 4X4 QUADRASTEER",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2120,
+            "width_in": 83.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX",
+            "length_mm": 5570,
+            "length_in": 219.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1876,
+            "curb_weight_lb": 4136,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5570,
+            "length_in": 219.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2017,
+            "curb_weight_lb": 4447,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1836,
+            "curb_weight_lb": 4048,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1965,
+            "curb_weight_lb": 4332,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500HD CREW CAB M/BOX",
+            "length_mm": 5950,
+            "length_in": 234.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2498,
+            "curb_weight_lb": 5507,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500HD CREW CAB M/BOX 4X4",
+            "length_mm": 5950,
+            "length_in": 234.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2639,
+            "curb_weight_lb": 5818,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500HD CREW CAB S/BOX 4X4 QUADRASTE",
+            "length_mm": 5950,
+            "length_in": 234.3,
+            "width_mm": 2120,
+            "width_in": 83.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500HD CREW CAB S/BOX QUADRASTEER",
+            "length_mm": 5950,
+            "length_in": 234.3,
+            "width_mm": 2120,
+            "width_in": 83.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO HYBRID EXT CAB M/BOX",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2094,
+            "curb_weight_lb": 4616,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2006": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5080,
+            6190
+          ],
+          "width_mm": [
+            2020,
+            2020
+          ],
+          "height_mm": [
+            1810,
+            1940
+          ],
+          "wheelbase_mm": [
+            3020,
+            4000
+          ],
+          "track_front_mm": [
+            1650,
+            1740
+          ],
+          "track_rear_mm": [
+            1680,
+            1680
+          ],
+          "curb_weight_kg": [
+            1836,
+            2639
+          ],
+          "length_in": [
+            200.0,
+            243.7
+          ],
+          "width_in": [
+            79.5,
+            79.5
+          ],
+          "height_in": [
+            71.3,
+            76.4
+          ],
+          "wheelbase_in": [
+            118.9,
+            157.5
+          ],
+          "curb_weight_lb": [
+            4048,
+            5818
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2262,
+            "curb_weight_lb": 4987,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2004
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2397,
+            "curb_weight_lb": 5284,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2004
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX",
+            "length_mm": 6190,
+            "length_in": 243.7,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2106,
+            "curb_weight_lb": 4643,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 4X4",
+            "length_mm": 6190,
+            "length_in": 243.7,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2241,
+            "curb_weight_lb": 4941,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1980,
+            "curb_weight_lb": 4365,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 4X4",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2151,
+            "curb_weight_lb": 4742,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB S/BOX",
+            "length_mm": 5460,
+            "length_in": 215.0,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3400,
+            "wheelbase_in": 133.9,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2159,
+            "curb_weight_lb": 4760,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB S/BOX 4X4",
+            "length_mm": 5460,
+            "length_in": 215.0,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3400,
+            "wheelbase_in": 133.9,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2290,
+            "curb_weight_lb": 5049,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX",
+            "length_mm": 5570,
+            "length_in": 219.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1876,
+            "curb_weight_lb": 4136,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5570,
+            "length_in": 219.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2017,
+            "curb_weight_lb": 4447,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1836,
+            "curb_weight_lb": 4048,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1965,
+            "curb_weight_lb": 4332,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500HD CREW CAB M/BOX",
+            "length_mm": 5950,
+            "length_in": 234.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2498,
+            "curb_weight_lb": 5507,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO 1500HD CREW CAB M/BOX 4X4",
+            "length_mm": 5950,
+            "length_in": 234.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2639,
+            "curb_weight_lb": 5818,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO HYBRID EXT CAB M/BOX",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2094,
+            "curb_weight_lb": 4616,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2007": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5080,
+            6190
+          ],
+          "width_mm": [
+            1990,
+            2020
+          ],
+          "height_mm": [
+            1810,
+            1940
+          ],
+          "wheelbase_mm": [
+            3020,
+            4000
+          ],
+          "track_front_mm": [
+            1650,
+            1740
+          ],
+          "track_rear_mm": [
+            1680,
+            1680
+          ],
+          "curb_weight_kg": [
+            1836,
+            2639
+          ],
+          "length_in": [
+            200.0,
+            243.7
+          ],
+          "width_in": [
+            78.3,
+            79.5
+          ],
+          "height_in": [
+            71.3,
+            76.4
+          ],
+          "wheelbase_in": [
+            118.9,
+            157.5
+          ],
+          "curb_weight_lb": [
+            4048,
+            5818
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO CLASSIC 1500 CREW CAB S/BOX",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2262,
+            "curb_weight_lb": 4987,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2004
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2397,
+            "curb_weight_lb": 5284,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2004
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 EXT CAB L/BOX",
+            "length_mm": 6190,
+            "length_in": 243.7,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2106,
+            "curb_weight_lb": 4643,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 EXT CAB L/BOX 4X4",
+            "length_mm": 6190,
+            "length_in": 243.7,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2241,
+            "curb_weight_lb": 4941,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 EXT CAB M/BOX",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1980,
+            "curb_weight_lb": 4365,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 EXT CAB M/BOX 4X4",
+            "length_mm": 5710,
+            "length_in": 224.8,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2151,
+            "curb_weight_lb": 4742,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 EXT CAB S/BOX",
+            "length_mm": 5460,
+            "length_in": 215.0,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3400,
+            "wheelbase_in": 133.9,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2159,
+            "curb_weight_lb": 4760,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 EXT CAB S/BOX 4X4",
+            "length_mm": 5460,
+            "length_in": 215.0,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3400,
+            "wheelbase_in": 133.9,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2290,
+            "curb_weight_lb": 5049,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 REG CAB L/BOX",
+            "length_mm": 5570,
+            "length_in": 219.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1876,
+            "curb_weight_lb": 4136,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5570,
+            "length_in": 219.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2017,
+            "curb_weight_lb": 4447,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 REG CAB M/BOX",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1836,
+            "curb_weight_lb": 4048,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1965,
+            "curb_weight_lb": 4332,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500HD CREW CAB M/BOX",
+            "length_mm": 5950,
+            "length_in": 234.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2498,
+            "curb_weight_lb": 5507,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO CLASSIC 1500HD CREW CAB M/BOX 4X4",
+            "length_mm": 5950,
+            "length_in": 234.3,
+            "width_mm": 2020,
+            "width_in": 79.5,
+            "height_mm": 1940,
+            "height_in": 76.4,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2639,
+            "curb_weight_lb": 5818,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "SILVERADO HYBRID EXT CAB S/BOX",
+            "length_mm": 5650,
+            "length_in": 222.4,
+            "width_mm": 1990,
+            "width_in": 78.3,
+            "height_mm": 1810,
+            "height_in": 71.3,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1650,
+            "track_front_in": 65.0,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2094,
+            "curb_weight_lb": 4616,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2008": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5080,
+            6180
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1880,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            4000
+          ],
+          "track_front_mm": [
+            1740,
+            1740
+          ],
+          "track_rear_mm": [
+            1710,
+            1710
+          ],
+          "curb_weight_kg": [
+            2020,
+            2440
+          ],
+          "length_in": [
+            200.0,
+            243.3
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            74.0,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            157.5
+          ],
+          "curb_weight_lb": [
+            4453,
+            5379
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2329,
+            "curb_weight_lb": 5135,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2440,
+            "curb_weight_lb": 5379,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 2WD",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2342,
+            "curb_weight_lb": 5163,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 4X4",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2432,
+            "curb_weight_lb": 5362,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2316,
+            "curb_weight_lb": 5106,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2424,
+            "curb_weight_lb": 5344,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB S/BOX 2WD",
+            "length_mm": 5450,
+            "length_in": 214.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3400,
+            "wheelbase_in": 133.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2265,
+            "curb_weight_lb": 4993,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB S/BOX 4X4",
+            "length_mm": 5450,
+            "length_in": 214.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3400,
+            "wheelbase_in": 133.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2370,
+            "curb_weight_lb": 5225,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2084,
+            "curb_weight_lb": 4594,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2243,
+            "curb_weight_lb": 4945,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2020,
+            "curb_weight_lb": 4453,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2122,
+            "curb_weight_lb": 4678,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2009": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5080,
+            6180
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1880,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            4000
+          ],
+          "track_front_mm": [
+            1740,
+            1740
+          ],
+          "track_rear_mm": [
+            1710,
+            1710
+          ],
+          "curb_weight_kg": [
+            2068,
+            2668
+          ],
+          "length_in": [
+            200.0,
+            243.3
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            74.0,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            157.5
+          ],
+          "curb_weight_lb": [
+            4559,
+            5882
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2338,
+            "curb_weight_lb": 5154,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2397,
+            "curb_weight_lb": 5284,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 2WD",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2378,
+            "curb_weight_lb": 5243,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 4X4",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2496,
+            "curb_weight_lb": 5503,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2299,
+            "curb_weight_lb": 5068,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2408,
+            "curb_weight_lb": 5309,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 HYBRID CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2559,
+            "curb_weight_lb": 5642,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 HYBRID CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2668,
+            "curb_weight_lb": 5882,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2068,
+            "curb_weight_lb": 4559,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2176,
+            "curb_weight_lb": 4797,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2010": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5080,
+            6180
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1880,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            4000
+          ],
+          "track_front_mm": [
+            1740,
+            1740
+          ],
+          "track_rear_mm": [
+            1710,
+            1710
+          ],
+          "curb_weight_kg": [
+            2068,
+            2668
+          ],
+          "length_in": [
+            200.0,
+            243.3
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            74.0,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            157.5
+          ],
+          "curb_weight_lb": [
+            4559,
+            5882
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2338,
+            "curb_weight_lb": 5154,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2397,
+            "curb_weight_lb": 5284,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 2WD",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2378,
+            "curb_weight_lb": 5243,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 4X4",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2496,
+            "curb_weight_lb": 5503,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2299,
+            "curb_weight_lb": 5068,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2408,
+            "curb_weight_lb": 5309,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 HYBRID CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2559,
+            "curb_weight_lb": 5642,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 HYBRID CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2668,
+            "curb_weight_lb": 5882,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2068,
+            "curb_weight_lb": 4559,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2176,
+            "curb_weight_lb": 4797,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2011": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5080,
+            6180
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1880,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            4000
+          ],
+          "track_front_mm": [
+            1740,
+            1740
+          ],
+          "track_rear_mm": [
+            1710,
+            1710
+          ],
+          "curb_weight_kg": [
+            2068,
+            2668
+          ],
+          "length_in": [
+            200.0,
+            243.3
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            74.0,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            157.5
+          ],
+          "curb_weight_lb": [
+            4559,
+            5882
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2338,
+            "curb_weight_lb": 5154,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2397,
+            "curb_weight_lb": 5284,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 2WD",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2378,
+            "curb_weight_lb": 5243,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 4X4",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2496,
+            "curb_weight_lb": 5503,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2299,
+            "curb_weight_lb": 5068,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2408,
+            "curb_weight_lb": 5309,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 HYBRID CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2559,
+            "curb_weight_lb": 5642,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 HYBRID CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2668,
+            "curb_weight_lb": 5882,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2068,
+            "curb_weight_lb": 4559,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2176,
+            "curb_weight_lb": 4797,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2012": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5080,
+            6180
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1880,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            4000
+          ],
+          "track_front_mm": [
+            1740,
+            1740
+          ],
+          "track_rear_mm": [
+            1710,
+            1710
+          ],
+          "curb_weight_kg": [
+            2068,
+            2668
+          ],
+          "length_in": [
+            200.0,
+            243.3
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            74.0,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            157.5
+          ],
+          "curb_weight_lb": [
+            4559,
+            5882
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2338,
+            "curb_weight_lb": 5154,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2397,
+            "curb_weight_lb": 5284,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 2WD",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2378,
+            "curb_weight_lb": 5243,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 4X4",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2496,
+            "curb_weight_lb": 5503,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2299,
+            "curb_weight_lb": 5068,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2408,
+            "curb_weight_lb": 5309,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 HYBRID CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2559,
+            "curb_weight_lb": 5642,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 HYBRID CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2668,
+            "curb_weight_lb": 5882,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2068,
+            "curb_weight_lb": 4559,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2176,
+            "curb_weight_lb": 4797,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2013": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5080,
+            6180
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1880,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            4000
+          ],
+          "track_front_mm": [
+            1740,
+            1740
+          ],
+          "track_rear_mm": [
+            1710,
+            1710
+          ],
+          "curb_weight_kg": [
+            2023,
+            2627
+          ],
+          "length_in": [
+            200.0,
+            243.3
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            74.0,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            157.5
+          ],
+          "curb_weight_lb": [
+            4460,
+            5792
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2338,
+            "curb_weight_lb": 5154,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2397,
+            "curb_weight_lb": 5284,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 2WD",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2378,
+            "curb_weight_lb": 5243,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB L/BOX 4X4",
+            "length_mm": 6180,
+            "length_in": 243.3,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 4000,
+            "wheelbase_in": 157.5,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2496,
+            "curb_weight_lb": 5503,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2216,
+            "curb_weight_lb": 4885,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 EXT CAB M/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2408,
+            "curb_weight_lb": 5309,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 HYBRID CREW CAB S/BOX 2WD",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2559,
+            "curb_weight_lb": 5642,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 HYBRID CREW CAB S/BOX 4X4",
+            "length_mm": 5700,
+            "length_in": 224.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2627,
+            "curb_weight_lb": 5792,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2085,
+            "curb_weight_lb": 4597,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5560,
+            "length_in": 218.9,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2200,
+            "curb_weight_lb": 4850,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2023,
+            "curb_weight_lb": 4460,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5080,
+            "length_in": 200.0,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1740,
+            "track_front_in": 68.5,
+            "track_rear_mm": 1710,
+            "track_rear_in": 67.3,
+            "curb_weight_kg": 2123,
+            "curb_weight_lb": 4680,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2014": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5110,
+            5980
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1870,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            3890
+          ],
+          "track_front_mm": [
+            1750,
+            1750
+          ],
+          "track_rear_mm": [
+            1720,
+            1720
+          ],
+          "curb_weight_kg": [
+            1990,
+            2409
+          ],
+          "length_in": [
+            201.2,
+            235.4
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            73.6,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            153.1
+          ],
+          "curb_weight_lb": [
+            4387,
+            5311
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 5980,
+            "length_in": 235.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2320,
+            "curb_weight_lb": 5115,
+            "weight_dist_front_pct": 57,
+            "weight_dist_rear_pct": 43,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4X4",
+            "length_mm": 5980,
+            "length_in": 235.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2409,
+            "curb_weight_lb": 5311,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2293,
+            "curb_weight_lb": 5055,
+            "weight_dist_front_pct": 56,
+            "weight_dist_rear_pct": 44,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2378,
+            "curb_weight_lb": 5243,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2250,
+            "curb_weight_lb": 4960,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4X4",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2360,
+            "curb_weight_lb": 5203,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5590,
+            "length_in": 220.1,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2071,
+            "curb_weight_lb": 4566,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5590,
+            "length_in": 220.1,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5110,
+            "length_in": 201.2,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 1990,
+            "curb_weight_lb": 4387,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5110,
+            "length_in": 201.2,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2080,
+            "curb_weight_lb": 4586,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2013
+          }
+        ]
+      }
+    },
+    "2015": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5110,
+            5980
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1870,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            3890
+          ],
+          "track_front_mm": [
+            1750,
+            1750
+          ],
+          "track_rear_mm": [
+            1720,
+            1720
+          ],
+          "curb_weight_kg": [
+            2051,
+            2431
+          ],
+          "length_in": [
+            201.2,
+            235.4
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            73.6,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            153.1
+          ],
+          "curb_weight_lb": [
+            4522,
+            5359
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 5980,
+            "length_in": 235.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2341,
+            "curb_weight_lb": 5161,
+            "weight_dist_front_pct": 57,
+            "weight_dist_rear_pct": 43,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4X4",
+            "length_mm": 5980,
+            "length_in": 235.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2431,
+            "curb_weight_lb": 5359,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2301,
+            "curb_weight_lb": 5073,
+            "weight_dist_front_pct": 56,
+            "weight_dist_rear_pct": 44,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2394,
+            "curb_weight_lb": 5278,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2269,
+            "curb_weight_lb": 5002,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4X4",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2366,
+            "curb_weight_lb": 5216,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5590,
+            "length_in": 220.1,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2127,
+            "curb_weight_lb": 4689,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5590,
+            "length_in": 220.1,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2246,
+            "curb_weight_lb": 4952,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5110,
+            "length_in": 201.2,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2051,
+            "curb_weight_lb": 4522,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5110,
+            "length_in": 201.2,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2154,
+            "curb_weight_lb": 4749,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2013
+          }
+        ]
+      }
+    },
+    "2016": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5110,
+            5980
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1870,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            3890
+          ],
+          "track_front_mm": [
+            1750,
+            1750
+          ],
+          "track_rear_mm": [
+            1720,
+            1720
+          ],
+          "curb_weight_kg": [
+            2051,
+            2431
+          ],
+          "length_in": [
+            201.2,
+            235.4
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            73.6,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            153.1
+          ],
+          "curb_weight_lb": [
+            4522,
+            5359
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 5980,
+            "length_in": 235.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2341,
+            "curb_weight_lb": 5161,
+            "weight_dist_front_pct": 57,
+            "weight_dist_rear_pct": 43,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4X4",
+            "length_mm": 5980,
+            "length_in": 235.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2431,
+            "curb_weight_lb": 5359,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2301,
+            "curb_weight_lb": 5073,
+            "weight_dist_front_pct": 56,
+            "weight_dist_rear_pct": 44,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2394,
+            "curb_weight_lb": 5278,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2269,
+            "curb_weight_lb": 5002,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4X4",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2366,
+            "curb_weight_lb": 5216,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5590,
+            "length_in": 220.1,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2127,
+            "curb_weight_lb": 4689,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5590,
+            "length_in": 220.1,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2246,
+            "curb_weight_lb": 4952,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5110,
+            "length_in": 201.2,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2051,
+            "curb_weight_lb": 4522,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5110,
+            "length_in": 201.2,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2154,
+            "curb_weight_lb": 4749,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2013
+          }
+        ]
+      }
+    },
+    "2017": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5110,
+            5980
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1870,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            3890
+          ],
+          "track_front_mm": [
+            1750,
+            1750
+          ],
+          "track_rear_mm": [
+            1720,
+            1720
+          ],
+          "curb_weight_kg": [
+            2051,
+            2431
+          ],
+          "length_in": [
+            201.2,
+            235.4
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            73.6,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            153.1
+          ],
+          "curb_weight_lb": [
+            4522,
+            5359
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 5980,
+            "length_in": 235.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2341,
+            "curb_weight_lb": 5161,
+            "weight_dist_front_pct": 57,
+            "weight_dist_rear_pct": 43,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4X4",
+            "length_mm": 5980,
+            "length_in": 235.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2431,
+            "curb_weight_lb": 5359,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2301,
+            "curb_weight_lb": 5073,
+            "weight_dist_front_pct": 56,
+            "weight_dist_rear_pct": 44,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2394,
+            "curb_weight_lb": 5278,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2269,
+            "curb_weight_lb": 5002,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4X4",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2366,
+            "curb_weight_lb": 5216,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5590,
+            "length_in": 220.1,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2127,
+            "curb_weight_lb": 4689,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5590,
+            "length_in": 220.1,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2246,
+            "curb_weight_lb": 4952,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5110,
+            "length_in": 201.2,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2051,
+            "curb_weight_lb": 4522,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5110,
+            "length_in": 201.2,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2154,
+            "curb_weight_lb": 4749,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2013
+          }
+        ]
+      }
+    },
+    "2018": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5110,
+            5980
+          ],
+          "width_mm": [
+            2030,
+            2030
+          ],
+          "height_mm": [
+            1870,
+            1880
+          ],
+          "wheelbase_mm": [
+            3020,
+            3890
+          ],
+          "track_front_mm": [
+            1750,
+            1750
+          ],
+          "track_rear_mm": [
+            1720,
+            1720
+          ],
+          "curb_weight_kg": [
+            2051,
+            2431
+          ],
+          "length_in": [
+            201.2,
+            235.4
+          ],
+          "width_in": [
+            79.9,
+            79.9
+          ],
+          "height_in": [
+            73.6,
+            74.0
+          ],
+          "wheelbase_in": [
+            118.9,
+            153.1
+          ],
+          "curb_weight_lb": [
+            4522,
+            5359
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 5980,
+            "length_in": 235.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2341,
+            "curb_weight_lb": 5161,
+            "weight_dist_front_pct": 57,
+            "weight_dist_rear_pct": 43,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4X4",
+            "length_mm": 5980,
+            "length_in": 235.4,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3890,
+            "wheelbase_in": 153.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2431,
+            "curb_weight_lb": 5359,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2301,
+            "curb_weight_lb": 5073,
+            "weight_dist_front_pct": 56,
+            "weight_dist_rear_pct": 44,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4X4",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2394,
+            "curb_weight_lb": 5278,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2269,
+            "curb_weight_lb": 5002,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4X4",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2366,
+            "curb_weight_lb": 5216,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5590,
+            "length_in": 220.1,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2127,
+            "curb_weight_lb": 4689,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4X4",
+            "length_mm": 5590,
+            "length_in": 220.1,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3380,
+            "wheelbase_in": 133.1,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2246,
+            "curb_weight_lb": 4952,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 2WD",
+            "length_mm": 5110,
+            "length_in": 201.2,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2051,
+            "curb_weight_lb": 4522,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB M/BOX 4X4",
+            "length_mm": 5110,
+            "length_in": 201.2,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3020,
+            "wheelbase_in": 118.9,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2154,
+            "curb_weight_lb": 4749,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2013
+          }
+        ]
+      }
+    },
+    "2019": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5730,
+            6130
+          ],
+          "width_mm": [
+            2030,
+            2060
+          ],
+          "height_mm": [
+            1880,
+            1920
+          ],
+          "wheelbase_mm": [
+            3650,
+            3980
+          ],
+          "track_front_mm": [
+            1730,
+            1750
+          ],
+          "track_rear_mm": [
+            1720,
+            1730
+          ],
+          "curb_weight_kg": [
+            2086,
+            2372
+          ],
+          "length_in": [
+            225.6,
+            241.3
+          ],
+          "width_in": [
+            79.9,
+            81.1
+          ],
+          "height_in": [
+            74.0,
+            75.6
+          ],
+          "wheelbase_in": [
+            143.7,
+            156.7
+          ],
+          "curb_weight_lb": [
+            4599,
+            5229
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2120,
+            "curb_weight_lb": 4674,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2208,
+            "curb_weight_lb": 4868,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2087,
+            "curb_weight_lb": 4601,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2086,
+            "curb_weight_lb": 4599,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 LD 2WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2261,
+            "curb_weight_lb": 4985,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2014
+          },
+          {
+            "name": "SILVERADO 1500 LD 4WD",
+            "length_mm": 5730,
+            "length_in": 225.6,
+            "width_mm": 2030,
+            "width_in": 79.9,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3650,
+            "wheelbase_in": 143.7,
+            "track_front_mm": 1750,
+            "track_front_in": 68.9,
+            "track_rear_mm": 1720,
+            "track_rear_in": 67.7,
+            "curb_weight_kg": 2372,
+            "curb_weight_lb": 5229,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2014
+          }
+        ]
+      }
+    },
+    "2020": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5360,
+            6130
+          ],
+          "width_mm": [
+            2060,
+            2060
+          ],
+          "height_mm": [
+            1920,
+            1920
+          ],
+          "wheelbase_mm": [
+            3210,
+            3980
+          ],
+          "track_front_mm": [
+            1730,
+            1730
+          ],
+          "track_rear_mm": [
+            1730,
+            1730
+          ],
+          "curb_weight_kg": [
+            2000,
+            2208
+          ],
+          "length_in": [
+            211.0,
+            241.3
+          ],
+          "width_in": [
+            81.1,
+            81.1
+          ],
+          "height_in": [
+            75.6,
+            75.6
+          ],
+          "wheelbase_in": [
+            126.4,
+            156.7
+          ],
+          "curb_weight_lb": [
+            4409,
+            4868
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2120,
+            "curb_weight_lb": 4674,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2208,
+            "curb_weight_lb": 4868,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2087,
+            "curb_weight_lb": 4601,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2086,
+            "curb_weight_lb": 4599,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2041,
+            "curb_weight_lb": 4500,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 2WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2000,
+            "curb_weight_lb": 4409,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 4WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2100,
+            "curb_weight_lb": 4630,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2021": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5360,
+            6130
+          ],
+          "width_mm": [
+            2060,
+            2060
+          ],
+          "height_mm": [
+            1920,
+            1920
+          ],
+          "wheelbase_mm": [
+            3210,
+            3980
+          ],
+          "track_front_mm": [
+            1730,
+            1730
+          ],
+          "track_rear_mm": [
+            1730,
+            1730
+          ],
+          "curb_weight_kg": [
+            2000,
+            2208
+          ],
+          "length_in": [
+            211.0,
+            241.3
+          ],
+          "width_in": [
+            81.1,
+            81.1
+          ],
+          "height_in": [
+            75.6,
+            75.6
+          ],
+          "wheelbase_in": [
+            126.4,
+            156.7
+          ],
+          "curb_weight_lb": [
+            4409,
+            4868
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2120,
+            "curb_weight_lb": 4674,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2208,
+            "curb_weight_lb": 4868,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2087,
+            "curb_weight_lb": 4601,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2086,
+            "curb_weight_lb": 4599,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2041,
+            "curb_weight_lb": 4500,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 2WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2000,
+            "curb_weight_lb": 4409,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 4WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2100,
+            "curb_weight_lb": 4630,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2022": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5360,
+            6130
+          ],
+          "width_mm": [
+            2060,
+            2060
+          ],
+          "height_mm": [
+            1920,
+            1920
+          ],
+          "wheelbase_mm": [
+            3210,
+            3980
+          ],
+          "track_front_mm": [
+            1730,
+            1730
+          ],
+          "track_rear_mm": [
+            1730,
+            1730
+          ],
+          "curb_weight_kg": [
+            2000,
+            2208
+          ],
+          "length_in": [
+            211.0,
+            241.3
+          ],
+          "width_in": [
+            81.1,
+            81.1
+          ],
+          "height_in": [
+            75.6,
+            75.6
+          ],
+          "wheelbase_in": [
+            126.4,
+            156.7
+          ],
+          "curb_weight_lb": [
+            4409,
+            4868
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2120,
+            "curb_weight_lb": 4674,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2208,
+            "curb_weight_lb": 4868,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2087,
+            "curb_weight_lb": 4601,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2086,
+            "curb_weight_lb": 4599,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2041,
+            "curb_weight_lb": 4500,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 2WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2000,
+            "curb_weight_lb": 4409,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 4WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2100,
+            "curb_weight_lb": 4630,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2023": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5360,
+            6130
+          ],
+          "width_mm": [
+            2060,
+            2060
+          ],
+          "height_mm": [
+            1920,
+            1920
+          ],
+          "wheelbase_mm": [
+            3210,
+            3980
+          ],
+          "track_front_mm": [
+            1730,
+            1730
+          ],
+          "track_rear_mm": [
+            1730,
+            1730
+          ],
+          "curb_weight_kg": [
+            2000,
+            2208
+          ],
+          "length_in": [
+            211.0,
+            241.3
+          ],
+          "width_in": [
+            81.1,
+            81.1
+          ],
+          "height_in": [
+            75.6,
+            75.6
+          ],
+          "wheelbase_in": [
+            126.4,
+            156.7
+          ],
+          "curb_weight_lb": [
+            4409,
+            4868
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2120,
+            "curb_weight_lb": 4674,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2208,
+            "curb_weight_lb": 4868,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2087,
+            "curb_weight_lb": 4601,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2086,
+            "curb_weight_lb": 4599,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2041,
+            "curb_weight_lb": 4500,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 2WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2000,
+            "curb_weight_lb": 4409,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 4WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2100,
+            "curb_weight_lb": 4630,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2024": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5360,
+            6130
+          ],
+          "width_mm": [
+            2060,
+            2060
+          ],
+          "height_mm": [
+            1920,
+            1920
+          ],
+          "wheelbase_mm": [
+            3210,
+            3980
+          ],
+          "track_front_mm": [
+            1730,
+            1730
+          ],
+          "track_rear_mm": [
+            1730,
+            1730
+          ],
+          "curb_weight_kg": [
+            2000,
+            2208
+          ],
+          "length_in": [
+            211.0,
+            241.3
+          ],
+          "width_in": [
+            81.1,
+            81.1
+          ],
+          "height_in": [
+            75.6,
+            75.6
+          ],
+          "wheelbase_in": [
+            126.4,
+            156.7
+          ],
+          "curb_weight_lb": [
+            4409,
+            4868
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2120,
+            "curb_weight_lb": 4674,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2208,
+            "curb_weight_lb": 4868,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2087,
+            "curb_weight_lb": 4601,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2086,
+            "curb_weight_lb": 4599,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2041,
+            "curb_weight_lb": 4500,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 2WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2000,
+            "curb_weight_lb": 4409,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 4WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2100,
+            "curb_weight_lb": 4630,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2025": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5360,
+            6130
+          ],
+          "width_mm": [
+            2060,
+            2060
+          ],
+          "height_mm": [
+            1920,
+            1920
+          ],
+          "wheelbase_mm": [
+            3210,
+            3980
+          ],
+          "track_front_mm": [
+            1730,
+            1730
+          ],
+          "track_rear_mm": [
+            1730,
+            1730
+          ],
+          "curb_weight_kg": [
+            2000,
+            2208
+          ],
+          "length_in": [
+            211.0,
+            241.3
+          ],
+          "width_in": [
+            81.1,
+            81.1
+          ],
+          "height_in": [
+            75.6,
+            75.6
+          ],
+          "wheelbase_in": [
+            126.4,
+            156.7
+          ],
+          "curb_weight_lb": [
+            4409,
+            4868
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2120,
+            "curb_weight_lb": 4674,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2208,
+            "curb_weight_lb": 4868,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2087,
+            "curb_weight_lb": 4601,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2086,
+            "curb_weight_lb": 4599,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2041,
+            "curb_weight_lb": 4500,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 2WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2000,
+            "curb_weight_lb": 4409,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 4WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2100,
+            "curb_weight_lb": 4630,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2026": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5360,
+            6130
+          ],
+          "width_mm": [
+            2060,
+            2060
+          ],
+          "height_mm": [
+            1920,
+            1920
+          ],
+          "wheelbase_mm": [
+            3210,
+            3980
+          ],
+          "track_front_mm": [
+            1730,
+            1730
+          ],
+          "track_rear_mm": [
+            1730,
+            1730
+          ],
+          "curb_weight_kg": [
+            2000,
+            2208
+          ],
+          "length_in": [
+            211.0,
+            241.3
+          ],
+          "width_in": [
+            81.1,
+            81.1
+          ],
+          "height_in": [
+            75.6,
+            75.6
+          ],
+          "wheelbase_in": [
+            126.4,
+            156.7
+          ],
+          "curb_weight_lb": [
+            4409,
+            4868
+          ]
+        },
+        "variants": [
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 2WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2120,
+            "curb_weight_lb": 4674,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB M/BOX 4WD",
+            "length_mm": 6130,
+            "length_in": 241.3,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3980,
+            "wheelbase_in": 156.7,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2208,
+            "curb_weight_lb": 4868,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2087,
+            "curb_weight_lb": 4601,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 CREW CAB S/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 2WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2086,
+            "curb_weight_lb": 4599,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 DOUBLE CAB M/BOX 4WD",
+            "length_mm": 5890,
+            "length_in": 231.9,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3740,
+            "wheelbase_in": 147.2,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2184,
+            "curb_weight_lb": 4815,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 2WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2041,
+            "curb_weight_lb": 4500,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB L/BOX 4WD",
+            "length_mm": 5830,
+            "length_in": 229.5,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3540,
+            "wheelbase_in": 139.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2155,
+            "curb_weight_lb": 4751,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 2WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2000,
+            "curb_weight_lb": 4409,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "SILVERADO 1500 REG CAB S/BOX 4WD",
+            "length_mm": 5360,
+            "length_in": 211.0,
+            "width_mm": 2060,
+            "width_in": 81.1,
+            "height_mm": 1920,
+            "height_in": 75.6,
+            "wheelbase_mm": 3210,
+            "wheelbase_in": 126.4,
+            "track_front_mm": 1730,
+            "track_front_in": 68.1,
+            "track_rear_mm": 1730,
+            "track_rear_in": 68.1,
+            "curb_weight_kg": 2100,
+            "curb_weight_lb": 4630,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    }
+  }
+}

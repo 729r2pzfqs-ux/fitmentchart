@@ -1,0 +1,3818 @@
+{
+  "slug": "honda/civic",
+  "source": {
+    "vehicles_csv": "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+    "hp": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+  },
+  "years": {
+    "2005": {
+      "engines": [
+        {
+          "displacement_l": 1.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            100
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              26,
+              26
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic CNG"
+          ],
+          "epa_ids": [
+            21527
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "1.7L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.7,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            115,
+            117,
+            127
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              25,
+              31
+            ],
+            "hwy": [
+              34,
+              39
+            ],
+            "combined": [
+              29,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)",
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            20705,
+            20706,
+            20707,
+            20708,
+            20709,
+            20710
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "1.7L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            160
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            20711
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.3,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            85
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              37,
+              39
+            ],
+            "hwy": [
+              42,
+              45
+            ],
+            "combined": [
+              40,
+              41
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            20712,
+            20713,
+            20714,
+            20715
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.3L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2006": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            113
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              24,
+              24
+            ],
+            "hwy": [
+              36,
+              36
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Civic CNG"
+          ],
+          "epa_ids": [
+            23053
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "1.8L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              26,
+              26
+            ],
+            "hwy": [
+              34,
+              36
+            ],
+            "combined": [
+              29,
+              30
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            21736,
+            21737
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            197
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              29,
+              29
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            22675
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.3,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            110
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              40,
+              40
+            ],
+            "hwy": [
+              45,
+              45
+            ],
+            "combined": [
+              42,
+              42
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            22643
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.3L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2007": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            113
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              24,
+              24
+            ],
+            "hwy": [
+              36,
+              36
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Civic CNG"
+          ],
+          "epa_ids": [
+            23862
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "1.8L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              25,
+              26
+            ],
+            "hwy": [
+              34,
+              36
+            ],
+            "combined": [
+              29,
+              29
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            23502,
+            23503
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            197
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              29,
+              29
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            23504
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.3,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            110
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              40,
+              40
+            ],
+            "hwy": [
+              45,
+              45
+            ],
+            "combined": [
+              42,
+              42
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            23533
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.3L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2008": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            113
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              24,
+              24
+            ],
+            "hwy": [
+              36,
+              36
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Civic CNG"
+          ],
+          "epa_ids": [
+            25083
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "1.8L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              25,
+              26
+            ],
+            "hwy": [
+              34,
+              36
+            ],
+            "combined": [
+              29,
+              29
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            25082,
+            25084
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            197
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              29,
+              29
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            25085
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.3,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            110
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              40,
+              40
+            ],
+            "hwy": [
+              45,
+              45
+            ],
+            "combined": [
+              42,
+              42
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            24829
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.3L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2009": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            113
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              24,
+              24
+            ],
+            "hwy": [
+              36,
+              36
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Civic CNG"
+          ],
+          "epa_ids": [
+            25868
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "1.8L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              25,
+              26
+            ],
+            "hwy": [
+              34,
+              36
+            ],
+            "combined": [
+              29,
+              29
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            25869,
+            25870
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            197
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              29,
+              29
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            26250
+          ],
+          "hp_source_models": [
+            "CIVIC"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.3,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            110
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              40,
+              40
+            ],
+            "hwy": [
+              45,
+              45
+            ],
+            "combined": [
+              42,
+              42
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            25921
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.3L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2010": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            113
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              24,
+              24
+            ],
+            "hwy": [
+              36,
+              36
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Civic CNG"
+          ],
+          "epa_ids": [
+            29758
+          ],
+          "hp_source_models": [
+            "CIVIC GX"
+          ],
+          "label": "1.8L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              25,
+              26
+            ],
+            "hwy": [
+              34,
+              36
+            ],
+            "combined": [
+              29,
+              29
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            29700,
+            29701
+          ],
+          "hp_source_models": [
+            "CIVIC EX"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            197
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              29,
+              29
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            29702
+          ],
+          "hp_source_models": [
+            "CIVIC SI"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.3,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            110
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              40,
+              40
+            ],
+            "hwy": [
+              45,
+              45
+            ],
+            "combined": [
+              42,
+              42
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            29712
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.3L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2011": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            113
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              24,
+              24
+            ],
+            "hwy": [
+              36,
+              36
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Civic CNG"
+          ],
+          "epa_ids": [
+            30601
+          ],
+          "hp_source_models": [
+            "CIVIC GX"
+          ],
+          "label": "1.8L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              25,
+              26
+            ],
+            "hwy": [
+              34,
+              35
+            ],
+            "combined": [
+              29,
+              29
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            30602,
+            30603
+          ],
+          "hp_source_models": [
+            "CIVIC EX"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            197
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              29,
+              29
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            30604
+          ],
+          "hp_source_models": [
+            "CIVIC SI"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.3,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            110
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              39,
+              39
+            ],
+            "hwy": [
+              43,
+              43
+            ],
+            "combined": [
+              41,
+              41
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            30627
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.3L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2012": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            110
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              27,
+              27
+            ],
+            "hwy": [
+              38,
+              38
+            ],
+            "combined": [
+              31,
+              31
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Civic Natural Gas"
+          ],
+          "epa_ids": [
+            32336
+          ],
+          "hp_source_models": [
+            "CIVIC GX"
+          ],
+          "label": "1.8L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              28
+            ],
+            "hwy": [
+              35,
+              39
+            ],
+            "combined": [
+              31,
+              32
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic",
+            "Civic HF"
+          ],
+          "epa_ids": [
+            31186,
+            31187,
+            31189
+          ],
+          "hp_source_models": [
+            "CIVIC HF",
+            "CIVIC LX"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            201
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            31188
+          ],
+          "hp_source_models": [
+            "CIVIC SI"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            90,
+            113
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              43,
+              43
+            ],
+            "hwy": [
+              44,
+              44
+            ],
+            "combined": [
+              44,
+              44
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            31190
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2013": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            110
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              27,
+              27
+            ],
+            "hwy": [
+              38,
+              38
+            ],
+            "combined": [
+              31,
+              31
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Civic Natural Gas"
+          ],
+          "epa_ids": [
+            33503
+          ],
+          "hp_source_models": [
+            "CIVIC GX"
+          ],
+          "label": "1.8L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            140
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              28,
+              29
+            ],
+            "hwy": [
+              35,
+              41
+            ],
+            "combined": [
+              31,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic",
+            "Civic HF"
+          ],
+          "epa_ids": [
+            33504,
+            33505,
+            33506
+          ],
+          "hp_source_models": [
+            "CIVIC",
+            "CIVIC HF"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            201
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            33471
+          ],
+          "hp_source_models": [
+            "CIVIC SI"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            90,
+            113
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              43,
+              43
+            ],
+            "hwy": [
+              44,
+              44
+            ],
+            "combined": [
+              44,
+              44
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            33507
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2014": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            110
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              27,
+              27
+            ],
+            "hwy": [
+              38,
+              38
+            ],
+            "combined": [
+              31,
+              31
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Civic Natural Gas"
+          ],
+          "epa_ids": [
+            34728
+          ],
+          "hp_source_models": [
+            "CIVIC GX"
+          ],
+          "label": "1.8L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            143
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              31
+            ],
+            "hwy": [
+              35,
+              40
+            ],
+            "combined": [
+              31,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic",
+            "Civic HF"
+          ],
+          "epa_ids": [
+            34772,
+            34774,
+            34784,
+            34785
+          ],
+          "hp_source_models": [
+            "CIVIC",
+            "CIVIC HF"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            201
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            34773
+          ],
+          "hp_source_models": [
+            "CIVIC SI"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            110
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              43,
+              43
+            ],
+            "hwy": [
+              45,
+              45
+            ],
+            "combined": [
+              44,
+              44
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            34719
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2015": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "cng",
+          "fuel": [
+            "Natural Gas"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            110
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              27,
+              27
+            ],
+            "hwy": [
+              38,
+              38
+            ],
+            "combined": [
+              31,
+              31
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Civic Natural Gas"
+          ],
+          "epa_ids": [
+            35886
+          ],
+          "hp_source_models": [
+            "CIVIC GX"
+          ],
+          "label": "1.8L 4-cyl CNG"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            143
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              31
+            ],
+            "hwy": [
+              35,
+              40
+            ],
+            "combined": [
+              31,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Civic",
+            "Civic HF"
+          ],
+          "epa_ids": [
+            35668,
+            35669,
+            35670,
+            35671
+          ],
+          "hp_source_models": [
+            "CIVIC",
+            "CIVIC HF"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            201
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic"
+          ],
+          "epa_ids": [
+            35672
+          ],
+          "hp_source_models": [
+            "CIVIC SI"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            110
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              43,
+              43
+            ],
+            "hwy": [
+              45,
+              45
+            ],
+            "combined": [
+              44,
+              44
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic Hybrid"
+          ],
+          "epa_ids": [
+            35667
+          ],
+          "hp_source_models": [
+            "CIVIC HYBRID"
+          ],
+          "label": "1.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2016": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            174
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              31,
+              31
+            ],
+            "hwy": [
+              41,
+              42
+            ],
+            "combined": [
+              35,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic 2Dr",
+            "Civic 4Dr"
+          ],
+          "epa_ids": [
+            37075,
+            37284
+          ],
+          "hp_source_models": [
+            "CIVIC 2DR COUPE 1.5L",
+            "CIVIC 4DR SEDAN 1.5L"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            153,
+            158
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              26,
+              30
+            ],
+            "hwy": [
+              37,
+              40
+            ],
+            "combined": [
+              30,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 2Dr",
+            "Civic 4Dr"
+          ],
+          "epa_ids": [
+            37076,
+            37077,
+            37285,
+            37286
+          ],
+          "hp_source_models": [
+            "CIVIC 2DR COUPE 2.0L",
+            "CIVIC 4DR SEDAN 2.0L"
+          ],
+          "label": "2.0L 4-cyl"
+        }
+      ]
+    },
+    "2017": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            174,
+            180,
+            205
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              32
+            ],
+            "hwy": [
+              36,
+              42
+            ],
+            "combined": [
+              32,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 2Dr",
+            "Civic 4Dr",
+            "Civic 5Dr",
+            "Civic 5Dr Sport",
+            "Civic Si 2Dr",
+            "Civic Si 4Dr"
+          ],
+          "epa_ids": [
+            38238,
+            38239,
+            38248,
+            38249,
+            38255,
+            38256,
+            38257,
+            38258,
+            38771,
+            38772
+          ],
+          "hp_source_models": [
+            "CIVIC 2DR COUPE 1.5L",
+            "CIVIC 4DR SEDAN 1.5L",
+            "CIVIC 5DR",
+            "CIVIC SI"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            153,
+            158
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              31
+            ],
+            "hwy": [
+              39,
+              40
+            ],
+            "combined": [
+              32,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 2Dr",
+            "Civic 4Dr"
+          ],
+          "epa_ids": [
+            38236,
+            38237,
+            38246,
+            38247
+          ],
+          "hp_source_models": [
+            "CIVIC 2.0L",
+            "CIVIC 4DR SEDAN 2.0L"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            306
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 5Dr - Type R"
+          ],
+          "epa_ids": [
+            38696
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR TYPE-R"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        }
+      ]
+    },
+    "2018": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            174,
+            180,
+            205
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              28,
+              32
+            ],
+            "hwy": [
+              36,
+              42
+            ],
+            "combined": [
+              32,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 2Dr",
+            "Civic 4Dr",
+            "Civic 5Dr",
+            "Civic 5Dr Sport",
+            "Civic Si 2Dr",
+            "Civic Si 4Dr"
+          ],
+          "epa_ids": [
+            39348,
+            39349,
+            39350,
+            39351,
+            39560,
+            39561,
+            39562,
+            39567,
+            39568,
+            39569
+          ],
+          "hp_source_models": [
+            "CIVIC 2DR COUPE 1.5L",
+            "CIVIC 4DR SEDAN 1.5L",
+            "CIVIC 5DR",
+            "CIVIC SI"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            153,
+            158
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              31
+            ],
+            "hwy": [
+              39,
+              40
+            ],
+            "combined": [
+              32,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 2Dr",
+            "Civic 4Dr"
+          ],
+          "epa_ids": [
+            39558,
+            39559,
+            39565,
+            39566
+          ],
+          "hp_source_models": [
+            "CIVIC 2.0L",
+            "CIVIC 4DR SEDAN 2.0L"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            306
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 5Dr - Type R"
+          ],
+          "epa_ids": [
+            39576
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR TYPE-R"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        }
+      ]
+    },
+    "2019": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            174,
+            180,
+            205
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              28,
+              32
+            ],
+            "hwy": [
+              36,
+              42
+            ],
+            "combined": [
+              32,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 2Dr",
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            40836,
+            40837,
+            40838,
+            40843,
+            40844,
+            40845,
+            41094,
+            41095,
+            41096
+          ],
+          "hp_source_models": [
+            "CIVIC 2DR COUPE 1.5L",
+            "CIVIC 4DR SEDAN 1.5L",
+            "CIVIC 5DR",
+            "CIVIC SI"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            158
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              25,
+              30
+            ],
+            "hwy": [
+              35,
+              38
+            ],
+            "combined": [
+              29,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 2Dr",
+            "Civic 4Dr"
+          ],
+          "epa_ids": [
+            40839,
+            40840,
+            40841,
+            40846,
+            40847,
+            40848
+          ],
+          "hp_source_models": [
+            "CIVIC 2DR COUPE 2.0L",
+            "CIVIC 4DR SEDAN 2.0L"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            306
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            41097
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR TYPE-R"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        }
+      ]
+    },
+    "2020": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            174,
+            180,
+            205
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              26,
+              32
+            ],
+            "hwy": [
+              35,
+              42
+            ],
+            "combined": [
+              30,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 2Dr",
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            41747,
+            41748,
+            41749,
+            41884,
+            41889,
+            42140,
+            42141,
+            42149,
+            42150
+          ],
+          "hp_source_models": [
+            "CIVIC 2DR",
+            "CIVIC 2DR COUPE 1.5L",
+            "CIVIC 4DR SEDAN 1.5L",
+            "CIVIC 5DR"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            158
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              25,
+              30
+            ],
+            "hwy": [
+              35,
+              38
+            ],
+            "combined": [
+              29,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 2Dr",
+            "Civic 4Dr"
+          ],
+          "epa_ids": [
+            42142,
+            42143,
+            42144,
+            42151,
+            42152,
+            42153
+          ],
+          "hp_source_models": [
+            "CIVIC 2DR COUPE 2.0L",
+            "CIVIC 4DR SEDAN 2.0L"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            306
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            42501
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        }
+      ]
+    },
+    "2021": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            174,
+            180
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              29,
+              32
+            ],
+            "hwy": [
+              35,
+              42
+            ],
+            "combined": [
+              32,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            43055,
+            43056,
+            43057,
+            43355,
+            43356
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR SEDAN 1.5L",
+            "CIVIC 5DR"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            158
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              29,
+              30
+            ],
+            "hwy": [
+              37,
+              38
+            ],
+            "combined": [
+              32,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic 4Dr"
+          ],
+          "epa_ids": [
+            43357,
+            43358
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR SEDAN 2.0L"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            306
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            43643
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        }
+      ]
+    },
+    "2022": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            180,
+            200
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              27,
+              33
+            ],
+            "hwy": [
+              37,
+              42
+            ],
+            "combined": [
+              31,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            44131,
+            44132,
+            44545,
+            44546,
+            44547,
+            44846
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR",
+            "CIVIC 5DR"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            158
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              26,
+              31
+            ],
+            "hwy": [
+              36,
+              40
+            ],
+            "combined": [
+              29,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            44133,
+            44134,
+            44548,
+            44549,
+            44550
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR",
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl"
+        }
+      ]
+    },
+    "2023": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            180,
+            200
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              27,
+              33
+            ],
+            "hwy": [
+              37,
+              42
+            ],
+            "combined": [
+              31,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            46051,
+            46052,
+            46053,
+            46137,
+            46138,
+            46139
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR",
+            "CIVIC 5DR"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            158
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              26,
+              31
+            ],
+            "hwy": [
+              36,
+              40
+            ],
+            "combined": [
+              29,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            46054,
+            46140,
+            46141,
+            46506,
+            46509
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR",
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            315
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            46142
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        }
+      ]
+    },
+    "2024": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            180,
+            200
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              27,
+              33
+            ],
+            "hwy": [
+              37,
+              42
+            ],
+            "combined": [
+              31,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            47068,
+            47069,
+            47070,
+            47097,
+            47098,
+            47099
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR",
+            "CIVIC 5DR"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            158
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              26,
+              31
+            ],
+            "hwy": [
+              36,
+              40
+            ],
+            "combined": [
+              29,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            47071,
+            47072,
+            47100,
+            47101,
+            47102
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR",
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            315
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            47582
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        }
+      ]
+    },
+    "2025": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            200
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              27,
+              27
+            ],
+            "hwy": [
+              37,
+              37
+            ],
+            "combined": [
+              31,
+              31
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 4Dr"
+          ],
+          "epa_ids": [
+            48178
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            150
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              30,
+              32
+            ],
+            "hwy": [
+              38,
+              41
+            ],
+            "combined": [
+              34,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            48016,
+            48017,
+            48502
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR",
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            315
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            48042
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            141
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              50,
+              50
+            ],
+            "hwy": [
+              45,
+              47
+            ],
+            "combined": [
+              48,
+              49
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            48018,
+            48503
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2026": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            200
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              27,
+              27
+            ],
+            "hwy": [
+              37,
+              37
+            ],
+            "combined": [
+              31,
+              31
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 4Dr"
+          ],
+          "epa_ids": [
+            49286
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            150
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              30,
+              32
+            ],
+            "hwy": [
+              38,
+              41
+            ],
+            "combined": [
+              34,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            49287,
+            49288,
+            49315
+          ],
+          "hp_source_models": [
+            "CIVIC 4DR",
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            315
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            50069
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            141
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              50,
+              50
+            ],
+            "hwy": [
+              45,
+              47
+            ],
+            "combined": [
+              48,
+              49
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Civic 4Dr",
+            "Civic 5Dr"
+          ],
+          "epa_ids": [
+            49289,
+            49316
+          ],
+          "hp_source_models": [
+            "CIVIC 5DR"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    }
+  }
+}

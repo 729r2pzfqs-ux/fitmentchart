@@ -1,0 +1,1233 @@
+{
+  "slug": "jeep/wrangler",
+  "source": {
+    "name": "ANKUSI Wheel Fitment Dataset",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "landing_page": "https://ankusiwheels.com/wheel-fitment-dataset/",
+    "doi": "10.6084/m9.figshare.33921994",
+    "via": "figshare",
+    "url": "https://ndownloader.figshare.com/files/69985473",
+    "version": 8,
+    "title": "ANKUSI Open Wheel Fitment Dataset: bolt pattern, centre bore and OE wheel specifications for 10,081 vehicle variants",
+    "md5": "5ccd30bf2366aaaa465451d307c74f92"
+  },
+  "matched_rows": 22,
+  "skipped_rows": [
+    {
+      "model": "Jeep Wrangler 4xe [EU]",
+      "year": "2021",
+      "reason": "regional variant"
+    },
+    {
+      "model": "Jeep Wrangler [EU]",
+      "year": "2018",
+      "reason": "regional variant"
+    },
+    {
+      "model": "Jeep Wrangler [UK]",
+      "year": "2005",
+      "reason": "regional variant"
+    },
+    {
+      "model": "Jeep Wrangler Unlimited [EU]",
+      "year": "2018",
+      "reason": "regional variant"
+    }
+  ],
+  "years": {
+    "2005": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "TJ"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Unlimited",
+            "year": "2004",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-2004/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2006": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "TJ"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Unlimited",
+            "year": "2004",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-2004/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2007": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-2007/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "Rubicon"
+          },
+          {
+            "diameter_in": 16,
+            "width_in": 7.0,
+            "offset_mm": null,
+            "trim": "Unlimited"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2008": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Arctic",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-arctic/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty Black Ops",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-black-ops/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty MW3",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-mw3/"
+          },
+          {
+            "model": "Jeep Wrangler Freedom Edition",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-freedom-edition/"
+          },
+          {
+            "model": "Jeep Wrangler Mojave",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-mojave/"
+          },
+          {
+            "model": "Jeep Wrangler Polar",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 10th Anniversary",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-2007/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Altitude",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-altitude/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Moab",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-moab/"
+          },
+          {
+            "model": "Jeep Wrangler Willys Wheeler",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys-wheeler/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2009": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Arctic",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-arctic/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty Black Ops",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-black-ops/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty MW3",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-mw3/"
+          },
+          {
+            "model": "Jeep Wrangler Freedom Edition",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-freedom-edition/"
+          },
+          {
+            "model": "Jeep Wrangler Mojave",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-mojave/"
+          },
+          {
+            "model": "Jeep Wrangler Polar",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 10th Anniversary",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-2007/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Altitude",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-altitude/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Moab",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-moab/"
+          },
+          {
+            "model": "Jeep Wrangler Willys Wheeler",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys-wheeler/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2010": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Arctic",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-arctic/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty Black Ops",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-black-ops/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty MW3",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-mw3/"
+          },
+          {
+            "model": "Jeep Wrangler Freedom Edition",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-freedom-edition/"
+          },
+          {
+            "model": "Jeep Wrangler Mojave",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-mojave/"
+          },
+          {
+            "model": "Jeep Wrangler Polar",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 10th Anniversary",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-2007/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Altitude",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-altitude/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Moab",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-moab/"
+          },
+          {
+            "model": "Jeep Wrangler Willys Wheeler",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys-wheeler/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2011": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Call of Duty Black Ops",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-black-ops/"
+          },
+          {
+            "model": "Jeep Wrangler Mojave",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-mojave/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "Call of Duty Black Ops"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Mojave"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2012": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Arctic",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-arctic/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty MW3",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-mw3/"
+          },
+          {
+            "model": "Jeep Wrangler Freedom Edition",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-freedom-edition/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Altitude",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-altitude/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Arctic"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Call of Duty MW3"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Freedom Edition"
+          },
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "Unlimited Altitude"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2013": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Rubicon 10th Anniversary",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Moab",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-moab/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "Rubicon 10th Anniversary"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "Unlimited Moab"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2014": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Polar",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
+          },
+          {
+            "model": "Jeep Wrangler Willys Wheeler",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys-wheeler/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Polar"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "Willys Wheeler"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2015": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Arctic",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-arctic/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty Black Ops",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-black-ops/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty MW3",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-mw3/"
+          },
+          {
+            "model": "Jeep Wrangler Freedom Edition",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-freedom-edition/"
+          },
+          {
+            "model": "Jeep Wrangler Mojave",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-mojave/"
+          },
+          {
+            "model": "Jeep Wrangler Polar",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 10th Anniversary",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-2007/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Altitude",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-altitude/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Moab",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-moab/"
+          },
+          {
+            "model": "Jeep Wrangler Willys Wheeler",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys-wheeler/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2016": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Arctic",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-arctic/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty Black Ops",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-black-ops/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty MW3",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-mw3/"
+          },
+          {
+            "model": "Jeep Wrangler Freedom Edition",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-freedom-edition/"
+          },
+          {
+            "model": "Jeep Wrangler Mojave",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-mojave/"
+          },
+          {
+            "model": "Jeep Wrangler Polar",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 10th Anniversary",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-2007/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Altitude",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-altitude/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Moab",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-moab/"
+          },
+          {
+            "model": "Jeep Wrangler Willys Wheeler",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys-wheeler/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2017": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "JK"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Arctic",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-arctic/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty Black Ops",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-black-ops/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty MW3",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-mw3/"
+          },
+          {
+            "model": "Jeep Wrangler Freedom Edition",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-freedom-edition/"
+          },
+          {
+            "model": "Jeep Wrangler Mojave",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-mojave/"
+          },
+          {
+            "model": "Jeep Wrangler Polar",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 10th Anniversary",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-2007/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Altitude",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-altitude/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Moab",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-moab/"
+          },
+          {
+            "model": "Jeep Wrangler Willys Wheeler",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys-wheeler/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2018": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "JK",
+          "JL"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler/"
+          },
+          {
+            "model": "Jeep Wrangler 1941 by Mopar",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-1941-by-mopar/"
+          },
+          {
+            "model": "Jeep Wrangler 4xe",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-4xe-2024/"
+          },
+          {
+            "model": "Jeep Wrangler Arctic",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-arctic/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty Black Ops",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-black-ops/"
+          },
+          {
+            "model": "Jeep Wrangler Call of Duty MW3",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-call-of-duty-mw3/"
+          },
+          {
+            "model": "Jeep Wrangler Freedom Edition",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-freedom-edition/"
+          },
+          {
+            "model": "Jeep Wrangler Moab 392",
+            "year": "2026",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-moab-392/"
+          },
+          {
+            "model": "Jeep Wrangler Mojave",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-mojave/"
+          },
+          {
+            "model": "Jeep Wrangler Polar",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 10th Anniversary",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 392",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-392/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 4xe",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-4xe/"
+          },
+          {
+            "model": "Jeep Wrangler Sarge",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-sarge/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-2007/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Altitude",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-altitude/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited EcoDiesel [US]",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-ecodiesel/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited Moab",
+            "year": "2013",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-moab/"
+          },
+          {
+            "model": "Jeep Wrangler Willys",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys/"
+          },
+          {
+            "model": "Jeep Wrangler Willys Wheeler",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys-wheeler/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2019": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JL"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler 1941 by Mopar",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-1941-by-mopar/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "1941 by Mopar"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2020": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JL"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Unlimited EcoDiesel [US]",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-ecodiesel/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Unlimited EcoDiesel [US]"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2021": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JL"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Rubicon 392",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-392/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 4xe",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-4xe/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 8.0,
+            "offset_mm": null,
+            "trim": "Rubicon 392"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Rubicon 4xe"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2022": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "JL"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler/"
+          },
+          {
+            "model": "Jeep Wrangler 1941 by Mopar",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-1941-by-mopar/"
+          },
+          {
+            "model": "Jeep Wrangler 4xe",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-4xe-2024/"
+          },
+          {
+            "model": "Jeep Wrangler Moab 392",
+            "year": "2026",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-moab-392/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 392",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-392/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 4xe",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-4xe/"
+          },
+          {
+            "model": "Jeep Wrangler Sarge",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-sarge/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited EcoDiesel [US]",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-ecodiesel/"
+          },
+          {
+            "model": "Jeep Wrangler Willys",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2023": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "generation",
+        "generations": [
+          "JL"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler/"
+          },
+          {
+            "model": "Jeep Wrangler 1941 by Mopar",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-1941-by-mopar/"
+          },
+          {
+            "model": "Jeep Wrangler 4xe",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-4xe-2024/"
+          },
+          {
+            "model": "Jeep Wrangler Moab 392",
+            "year": "2026",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-moab-392/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 392",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-392/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon 4xe",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-4xe/"
+          },
+          {
+            "model": "Jeep Wrangler Sarge",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-sarge/"
+          },
+          {
+            "model": "Jeep Wrangler Unlimited EcoDiesel [US]",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-unlimited-ecodiesel/"
+          },
+          {
+            "model": "Jeep Wrangler Willys",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2024": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JL"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler 4xe",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-4xe-2024/"
+          },
+          {
+            "model": "Jeep Wrangler Willys",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-willys/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 20,
+            "width_in": 8.0,
+            "offset_mm": null,
+            "trim": "4xe"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Willys"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2025": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JL"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2026": {
+      "wheel": {
+        "bolt_pattern": "5x127",
+        "lug_count": 5,
+        "pcd_mm": 127.0,
+        "pcd_in": 5.0,
+        "center_bore_mm": 71.5,
+        "basis": "exact",
+        "generations": [
+          "JL"
+        ],
+        "evidence": [
+          {
+            "model": "Jeep Wrangler Moab 392",
+            "year": "2026",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-moab-392/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 8.0,
+            "offset_mm": null,
+            "trim": "Moab 392"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    }
+  }
+}

@@ -1,0 +1,937 @@
+{
+  "slug": "ford/f-150",
+  "source": {
+    "name": "ANKUSI Wheel Fitment Dataset",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "landing_page": "https://ankusiwheels.com/wheel-fitment-dataset/",
+    "doi": "10.6084/m9.figshare.33921994",
+    "via": "figshare",
+    "url": "https://ndownloader.figshare.com/files/69985473",
+    "version": 8,
+    "title": "ANKUSI Open Wheel Fitment Dataset: bolt pattern, centre bore and OE wheel specifications for 10,081 vehicle variants",
+    "md5": "5ccd30bf2366aaaa465451d307c74f92"
+  },
+  "matched_rows": 26,
+  "skipped_rows": [],
+  "years": {
+    "2005": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "11th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford King Ranch F150 SuperCrew",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-king-ranch-f150-supercrew/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "King Ranch SuperCrew"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2006": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "11th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F150 Harley Davidson",
+            "year": "2006",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f150-harley-davidson/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 22,
+            "width_in": 9.0,
+            "offset_mm": 44,
+            "trim": "Harley Davidson"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2007": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "generation",
+        "generations": [
+          "11th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 Foose Edition",
+            "year": "2008",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-foose-edition/"
+          },
+          {
+            "model": "Ford F150 Harley Davidson",
+            "year": "2006",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f150-harley-davidson/"
+          },
+          {
+            "model": "Ford King Ranch F150 SuperCrew",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-king-ranch-f150-supercrew/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2008": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "11th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 Foose Edition",
+            "year": "2008",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-foose-edition/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 22,
+            "width_in": 9.5,
+            "offset_mm": 44,
+            "trim": "Foose Edition"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2009": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "12th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 FX4",
+            "year": "2009",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-fx4/"
+          },
+          {
+            "model": "Ford F-150 Platinum",
+            "year": "2009",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-platinum/"
+          },
+          {
+            "model": "Ford F-150 SFE",
+            "year": "2009",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-sfe/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "FX4"
+          },
+          {
+            "diameter_in": 20,
+            "width_in": 8.5,
+            "offset_mm": 44,
+            "trim": "Platinum"
+          },
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "SFE"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2010": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "12th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 SVT Raptor R",
+            "year": "2010",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-svt-raptor-r/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 8.5,
+            "offset_mm": 34,
+            "trim": "SVT Raptor R"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2011": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "12th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 Harley-Davidson",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-harley-davidson/"
+          },
+          {
+            "model": "Ford F-150 SVT Raptor SuperCrew",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-svt-raptor-supercrew/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 22,
+            "width_in": 9.0,
+            "offset_mm": 44,
+            "trim": "Harley-Davidson"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 8.5,
+            "offset_mm": 34,
+            "trim": "SVT Raptor SuperCrew"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2012": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "generation",
+        "generations": [
+          "12th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 FX4",
+            "year": "2009",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-fx4/"
+          },
+          {
+            "model": "Ford F-150 Harley-Davidson",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-harley-davidson/"
+          },
+          {
+            "model": "Ford F-150 Platinum",
+            "year": "2009",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-platinum/"
+          },
+          {
+            "model": "Ford F-150 SFE",
+            "year": "2009",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-sfe/"
+          },
+          {
+            "model": "Ford F-150 STX SuperCrew",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-stx-supercrew/"
+          },
+          {
+            "model": "Ford F-150 SVT Raptor R",
+            "year": "2010",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-svt-raptor-r/"
+          },
+          {
+            "model": "Ford F-150 SVT Raptor Special Edition",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-svt-raptor-special-edition/"
+          },
+          {
+            "model": "Ford F-150 SVT Raptor SuperCrew",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-svt-raptor-supercrew/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2013": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "generation",
+        "generations": [
+          "12th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 FX4",
+            "year": "2009",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-fx4/"
+          },
+          {
+            "model": "Ford F-150 Harley-Davidson",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-harley-davidson/"
+          },
+          {
+            "model": "Ford F-150 Platinum",
+            "year": "2009",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-platinum/"
+          },
+          {
+            "model": "Ford F-150 SFE",
+            "year": "2009",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-sfe/"
+          },
+          {
+            "model": "Ford F-150 STX SuperCrew",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-stx-supercrew/"
+          },
+          {
+            "model": "Ford F-150 SVT Raptor R",
+            "year": "2010",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-svt-raptor-r/"
+          },
+          {
+            "model": "Ford F-150 SVT Raptor Special Edition",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-svt-raptor-special-edition/"
+          },
+          {
+            "model": "Ford F-150 SVT Raptor SuperCrew",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-svt-raptor-supercrew/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2014": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "12th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 STX SuperCrew",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-stx-supercrew/"
+          },
+          {
+            "model": "Ford F-150 SVT Raptor Special Edition",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-svt-raptor-special-edition/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": 44,
+            "trim": "STX SuperCrew"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 8.5,
+            "offset_mm": 34,
+            "trim": "SVT Raptor Special Edition"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2015": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "13th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-2015/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2016": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "13th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 Limited",
+            "year": "2016",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-limited-2016/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 22,
+            "width_in": 9.0,
+            "offset_mm": null,
+            "trim": "Limited"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2017": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "13th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 Raptor",
+            "year": "2017",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-2017/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 8.5,
+            "offset_mm": null,
+            "trim": "Raptor"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2018": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "13th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150",
+            "year": "2018",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-2018/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2019": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "13th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 Raptor",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-2019/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 8.5,
+            "offset_mm": null,
+            "trim": "Raptor"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2020": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "generation",
+        "generations": [
+          "13th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-2015/"
+          },
+          {
+            "model": "Ford F-150",
+            "year": "2018",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-2018/"
+          },
+          {
+            "model": "Ford F-150 Limited",
+            "year": "2016",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-limited-2016/"
+          },
+          {
+            "model": "Ford F-150 Raptor",
+            "year": "2017",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-2017/"
+          },
+          {
+            "model": "Ford F-150 Raptor",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-2019/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2021": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "14th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-2021/"
+          },
+          {
+            "model": "Ford F-150 Raptor",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-2021/"
+          },
+          {
+            "model": "Ford F-150 Tremor",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-tremor-2021/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "base"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 8.5,
+            "offset_mm": null,
+            "trim": "Raptor"
+          },
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Tremor"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2022": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "generation",
+        "generations": [
+          "14th generation"
+        ],
+        "evidence": [
+          {
+            "model": "F-150 Lobo",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-lobo/"
+          },
+          {
+            "model": "Ford F-150",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-2021/"
+          },
+          {
+            "model": "Ford F-150",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150/"
+          },
+          {
+            "model": "Ford F-150 Lobo",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-lobo-2025/"
+          },
+          {
+            "model": "Ford F-150 Raptor",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-2021/"
+          },
+          {
+            "model": "Ford F-150 Raptor",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-2024/"
+          },
+          {
+            "model": "Ford F-150 Raptor R",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-r-2023/"
+          },
+          {
+            "model": "Ford F-150 Rattler",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-rattler-2023/"
+          },
+          {
+            "model": "Ford F-150 Tremor",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-tremor-2021/"
+          },
+          {
+            "model": "Ford F-150 Tremor",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-tremor-2024/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2023": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "14th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150 Raptor R",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-r-2023/"
+          },
+          {
+            "model": "Ford F-150 Rattler",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-rattler-2023/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 8.5,
+            "offset_mm": null,
+            "trim": "Raptor R"
+          },
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Rattler"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2024": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "14th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Ford F-150",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150/"
+          },
+          {
+            "model": "Ford F-150 Raptor",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-2024/"
+          },
+          {
+            "model": "Ford F-150 Tremor",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-tremor-2024/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "base"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 8.5,
+            "offset_mm": null,
+            "trim": "Raptor"
+          },
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Tremor"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2025": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "exact",
+        "generations": [
+          "14th generation"
+        ],
+        "evidence": [
+          {
+            "model": "F-150 Lobo",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-lobo/"
+          },
+          {
+            "model": "Ford F-150 Lobo",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-lobo-2025/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 22,
+            "width_in": 9.0,
+            "offset_mm": 44,
+            "trim": "Lobo"
+          },
+          {
+            "diameter_in": 22,
+            "width_in": 9.0,
+            "offset_mm": null,
+            "trim": "Lobo"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2026": {
+      "wheel": {
+        "bolt_pattern": "6x135",
+        "lug_count": 6,
+        "pcd_mm": 135.0,
+        "pcd_in": null,
+        "center_bore_mm": 87.1,
+        "basis": "generation",
+        "generations": [
+          "14th generation"
+        ],
+        "evidence": [
+          {
+            "model": "F-150 Lobo",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-lobo/"
+          },
+          {
+            "model": "Ford F-150",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-2021/"
+          },
+          {
+            "model": "Ford F-150",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150/"
+          },
+          {
+            "model": "Ford F-150 Lobo",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-lobo-2025/"
+          },
+          {
+            "model": "Ford F-150 Raptor",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-2021/"
+          },
+          {
+            "model": "Ford F-150 Raptor",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-2024/"
+          },
+          {
+            "model": "Ford F-150 Raptor R",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-raptor-r-2023/"
+          },
+          {
+            "model": "Ford F-150 Rattler",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-rattler-2023/"
+          },
+          {
+            "model": "Ford F-150 Tremor",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-tremor-2021/"
+          },
+          {
+            "model": "Ford F-150 Tremor",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/ford-f-150-tremor-2024/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    }
+  }
+}

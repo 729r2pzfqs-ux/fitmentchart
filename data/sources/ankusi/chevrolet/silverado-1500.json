@@ -1,0 +1,818 @@
+{
+  "slug": "chevrolet/silverado-1500",
+  "source": {
+    "name": "ANKUSI Wheel Fitment Dataset",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "landing_page": "https://ankusiwheels.com/wheel-fitment-dataset/",
+    "doi": "10.6084/m9.figshare.33921994",
+    "via": "figshare",
+    "url": "https://ndownloader.figshare.com/files/69985473",
+    "version": 8,
+    "title": "ANKUSI Open Wheel Fitment Dataset: bolt pattern, centre bore and OE wheel specifications for 10,081 vehicle variants",
+    "md5": "5ccd30bf2366aaaa465451d307c74f92"
+  },
+  "matched_rows": 19,
+  "skipped_rows": [],
+  "years": {
+    "2005": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "exact",
+        "generations": [
+          "1st generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado Hybrid",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-hybrid/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 16,
+            "width_in": 7.0,
+            "offset_mm": 31,
+            "trim": "Hybrid"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2006": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "exact",
+        "generations": [
+          "1st generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado Intimidator SS",
+            "year": "2006",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-intimidator-ss/"
+          },
+          {
+            "model": "Chevrolet Silverado Z71 Extended Cab",
+            "year": "2006",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-z71-extended-cab/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2007": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "exact",
+        "generations": [
+          "1st generation",
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado Crew Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-crew-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Extended Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-extended-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Regular Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-regular-cab-2007/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Crew Cab"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Extended Cab"
+          },
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "Regular Cab"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2008": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2012/"
+          },
+          {
+            "model": "Chevrolet Silverado Crew Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-crew-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Extended Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-extended-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Regular Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-regular-cab-2007/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2009": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2012/"
+          },
+          {
+            "model": "Chevrolet Silverado Crew Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-crew-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Extended Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-extended-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Regular Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-regular-cab-2007/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2010": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2012/"
+          },
+          {
+            "model": "Chevrolet Silverado Crew Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-crew-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Extended Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-extended-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Regular Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-regular-cab-2007/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2011": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2012/"
+          },
+          {
+            "model": "Chevrolet Silverado Crew Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-crew-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Extended Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-extended-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Regular Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-regular-cab-2007/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2012": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "exact",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2012/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 31,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2013": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2012/"
+          },
+          {
+            "model": "Chevrolet Silverado Crew Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-crew-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Extended Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-extended-cab-2007/"
+          },
+          {
+            "model": "Chevrolet Silverado Regular Cab",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-regular-cab-2007/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2014": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "exact",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2014/"
+          },
+          {
+            "model": "Chevrolet Silverado High Country",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-high-country-2014/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 20,
+            "width_in": 9.0,
+            "offset_mm": 24,
+            "trim": "base"
+          },
+          {
+            "diameter_in": 20,
+            "width_in": 9.0,
+            "offset_mm": null,
+            "trim": "High Country"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2015": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "exact",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado Midnight Edition",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-midnight-edition-2015/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.5,
+            "offset_mm": null,
+            "trim": "Midnight Edition"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2016": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "exact",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2016",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2016/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 20,
+            "width_in": 9.0,
+            "offset_mm": 24,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2017": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2014/"
+          },
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2016",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2016/"
+          },
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
+          },
+          {
+            "model": "Chevrolet Silverado High Country",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-high-country-2014/"
+          },
+          {
+            "model": "Chevrolet Silverado Midnight Edition",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-midnight-edition-2015/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2018": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2014/"
+          },
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2016",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2016/"
+          },
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
+          },
+          {
+            "model": "Chevrolet Silverado High Country",
+            "year": "2014",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-high-country-2014/"
+          },
+          {
+            "model": "Chevrolet Silverado Midnight Edition",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-midnight-edition-2015/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2019": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "exact",
+        "generations": [
+          "3rd generation",
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 20,
+            "width_in": 9.0,
+            "offset_mm": 24,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2020": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
+          },
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2022",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
+          },
+          {
+            "model": "Chevrolet Silverado 1500",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
+          },
+          {
+            "model": "Chevrolet Silverado ZR2 Bison",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-zr2-bison/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2021": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
+          },
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2022",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
+          },
+          {
+            "model": "Chevrolet Silverado 1500",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
+          },
+          {
+            "model": "Chevrolet Silverado ZR2 Bison",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-zr2-bison/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2022": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "exact",
+        "generations": [
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2022",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 20,
+            "width_in": 9.0,
+            "offset_mm": 24,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2023": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "exact",
+        "generations": [
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado ZR2 Bison",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-zr2-bison/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.5,
+            "offset_mm": 24,
+            "trim": "ZR2 Bison"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2024": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
+          },
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2022",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
+          },
+          {
+            "model": "Chevrolet Silverado 1500",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
+          },
+          {
+            "model": "Chevrolet Silverado ZR2 Bison",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-zr2-bison/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2025": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
+          },
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2022",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
+          },
+          {
+            "model": "Chevrolet Silverado 1500",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
+          },
+          {
+            "model": "Chevrolet Silverado ZR2 Bison",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-zr2-bison/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2026": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 78.1,
+        "basis": "generation",
+        "generations": [
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
+          },
+          {
+            "model": "Chevrolet Silverado",
+            "year": "2022",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
+          },
+          {
+            "model": "Chevrolet Silverado 1500",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
+          },
+          {
+            "model": "Chevrolet Silverado ZR2 Bison",
+            "year": "2023",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-zr2-bison/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    }
+  }
+}

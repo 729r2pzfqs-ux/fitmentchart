@@ -1,0 +1,781 @@
+{
+  "slug": "toyota/tacoma",
+  "source": {
+    "name": "ANKUSI Wheel Fitment Dataset",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "landing_page": "https://ankusiwheels.com/wheel-fitment-dataset/",
+    "doi": "10.6084/m9.figshare.33921994",
+    "via": "figshare",
+    "url": "https://ndownloader.figshare.com/files/69985473",
+    "version": 8,
+    "title": "ANKUSI Open Wheel Fitment Dataset: bolt pattern, centre bore and OE wheel specifications for 10,081 vehicle variants",
+    "md5": "5ccd30bf2366aaaa465451d307c74f92"
+  },
+  "matched_rows": 11,
+  "skipped_rows": [],
+  "years": {
+    "2005": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "exact",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma XRunner",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-xrunner/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.5,
+            "offset_mm": 30,
+            "trim": "XRunner"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2006": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2011/"
+          },
+          {
+            "model": "Toyota Tacoma",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2012/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro Series",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-series/"
+          },
+          {
+            "model": "Toyota Tacoma XRunner",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-xrunner/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2007": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2011/"
+          },
+          {
+            "model": "Toyota Tacoma",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2012/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro Series",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-series/"
+          },
+          {
+            "model": "Toyota Tacoma XRunner",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-xrunner/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2008": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2011/"
+          },
+          {
+            "model": "Toyota Tacoma",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2012/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro Series",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-series/"
+          },
+          {
+            "model": "Toyota Tacoma XRunner",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-xrunner/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2009": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2011/"
+          },
+          {
+            "model": "Toyota Tacoma",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2012/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro Series",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-series/"
+          },
+          {
+            "model": "Toyota Tacoma XRunner",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-xrunner/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2010": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2011/"
+          },
+          {
+            "model": "Toyota Tacoma",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2012/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro Series",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-series/"
+          },
+          {
+            "model": "Toyota Tacoma XRunner",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-xrunner/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2011": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "exact",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2011/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 16,
+            "width_in": 7.0,
+            "offset_mm": 30,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2012": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "exact",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2012/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 16,
+            "width_in": 7.0,
+            "offset_mm": 30,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2013": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2011/"
+          },
+          {
+            "model": "Toyota Tacoma",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2012/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro Series",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-series/"
+          },
+          {
+            "model": "Toyota Tacoma XRunner",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-xrunner/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2014": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "generation",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2011",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2011/"
+          },
+          {
+            "model": "Toyota Tacoma",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2012/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro Series",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-series/"
+          },
+          {
+            "model": "Toyota Tacoma XRunner",
+            "year": "2005",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-xrunner/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2015": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "exact",
+        "generations": [
+          "2nd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma TRD Pro Series",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-series/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 16,
+            "width_in": 7.0,
+            "offset_mm": 30,
+            "trim": "TRD Pro Series"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2016": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "exact",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2016",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2016/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 16,
+            "width_in": 7.0,
+            "offset_mm": 30,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2017": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "exact",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2017",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2017/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 16,
+            "width_in": 7.0,
+            "offset_mm": 30,
+            "trim": "TRD Pro"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2018": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "generation",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2016",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2016/"
+          },
+          {
+            "model": "Toyota Tacoma",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2020/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2017",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2017/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2019/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2022",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2022/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2019": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "exact",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2019/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 16,
+            "width_in": 7.0,
+            "offset_mm": 30,
+            "trim": "TRD Pro"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2020": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "exact",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2020/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 16,
+            "width_in": 7.0,
+            "offset_mm": 30,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2021": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "generation",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2016",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2016/"
+          },
+          {
+            "model": "Toyota Tacoma",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2020/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2017",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2017/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2019/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2022",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2022/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2022": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "exact",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2022",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2022/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 16,
+            "width_in": 7.0,
+            "offset_mm": 30,
+            "trim": "TRD Pro"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2023": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 106.1,
+        "basis": "generation",
+        "generations": [
+          "3rd generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2016",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2016/"
+          },
+          {
+            "model": "Toyota Tacoma",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-2020/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2017",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2017/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2019",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2019/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2022",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2022/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2024": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 95.1,
+        "basis": "exact",
+        "generations": [
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2024/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": null,
+            "trim": "base"
+          },
+          {
+            "diameter_in": 18,
+            "width_in": 7.5,
+            "offset_mm": 35,
+            "trim": "TRD Pro"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2025": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 95.1,
+        "basis": "generation",
+        "generations": [
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2024/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2026": {
+      "wheel": {
+        "bolt_pattern": "6x139.7",
+        "lug_count": 6,
+        "pcd_mm": 139.7,
+        "pcd_in": 5.5,
+        "center_bore_mm": 95.1,
+        "basis": "generation",
+        "generations": [
+          "4th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Tacoma",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma/"
+          },
+          {
+            "model": "Toyota Tacoma TRD Pro",
+            "year": "2024",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-tacoma-trd-pro-2024/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    }
+  }
+}

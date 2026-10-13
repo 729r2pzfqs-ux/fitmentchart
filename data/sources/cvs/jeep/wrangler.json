@@ -1,0 +1,4601 @@
+{
+  "slug": "jeep/wrangler",
+  "source": {
+    "name": "Transport Canada Canadian Vehicle Specifications via NHTSA vPIC",
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetCanadianVehicleSpecifications/"
+  },
+  "years": {
+    "2005": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3760,
+            4130
+          ],
+          "width_mm": [
+            1680,
+            1690
+          ],
+          "height_mm": [
+            1760,
+            1780
+          ],
+          "wheelbase_mm": [
+            2370,
+            2630
+          ],
+          "track_front_mm": [
+            1470,
+            1490
+          ],
+          "track_rear_mm": [
+            1480,
+            1490
+          ],
+          "curb_weight_kg": [
+            1467,
+            1689
+          ],
+          "length_in": [
+            148.0,
+            162.6
+          ],
+          "width_in": [
+            66.1,
+            66.5
+          ],
+          "height_in": [
+            69.3,
+            70.1
+          ],
+          "wheelbase_in": [
+            93.3,
+            103.5
+          ],
+          "curb_weight_lb": [
+            3234,
+            3724
+          ]
+        },
+        "variants": [
+          {
+            "name": "TJ 2DR SUV 4WD /RUBICON",
+            "length_mm": 3760,
+            "length_in": 148.0,
+            "width_mm": 1690,
+            "width_in": 66.5,
+            "height_mm": 1760,
+            "height_in": 69.3,
+            "wheelbase_mm": 2370,
+            "wheelbase_in": 93.3,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1480,
+            "track_rear_in": 58.3,
+            "curb_weight_kg": 1686,
+            "curb_weight_lb": 3717,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "TJ 2DR SUV 4WD /SE",
+            "length_mm": 3760,
+            "length_in": 148.0,
+            "width_mm": 1690,
+            "width_in": 66.5,
+            "height_mm": 1760,
+            "height_in": 69.3,
+            "wheelbase_mm": 2370,
+            "wheelbase_in": 93.3,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1480,
+            "track_rear_in": 58.3,
+            "curb_weight_kg": 1467,
+            "curb_weight_lb": 3234,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "TJ 2DR SUV 4WD /SPORT",
+            "length_mm": 3760,
+            "length_in": 148.0,
+            "width_mm": 1690,
+            "width_in": 66.5,
+            "height_mm": 1760,
+            "height_in": 69.3,
+            "wheelbase_mm": 2370,
+            "wheelbase_in": 93.3,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1480,
+            "track_rear_in": 58.3,
+            "curb_weight_kg": 1565,
+            "curb_weight_lb": 3450,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "TJ 2DR SUV LWB 4WD UNLIMITED/RUBICON",
+            "length_mm": 4130,
+            "length_in": 162.6,
+            "width_mm": 1680,
+            "width_in": 66.1,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 2630,
+            "wheelbase_in": 103.5,
+            "track_front_mm": 1490,
+            "track_front_in": 58.7,
+            "track_rear_mm": 1490,
+            "track_rear_in": 58.7,
+            "curb_weight_kg": 1689,
+            "curb_weight_lb": 3724,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2006": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3760,
+            4130
+          ],
+          "width_mm": [
+            1680,
+            1690
+          ],
+          "height_mm": [
+            1760,
+            1780
+          ],
+          "wheelbase_mm": [
+            2370,
+            2630
+          ],
+          "track_front_mm": [
+            1470,
+            1490
+          ],
+          "track_rear_mm": [
+            1480,
+            1490
+          ],
+          "curb_weight_kg": [
+            1467,
+            1689
+          ],
+          "length_in": [
+            148.0,
+            162.6
+          ],
+          "width_in": [
+            66.1,
+            66.5
+          ],
+          "height_in": [
+            69.3,
+            70.1
+          ],
+          "wheelbase_in": [
+            93.3,
+            103.5
+          ],
+          "curb_weight_lb": [
+            3234,
+            3724
+          ]
+        },
+        "variants": [
+          {
+            "name": "TJ 2DR SUV 4WD /RUBICON",
+            "length_mm": 3760,
+            "length_in": 148.0,
+            "width_mm": 1690,
+            "width_in": 66.5,
+            "height_mm": 1760,
+            "height_in": 69.3,
+            "wheelbase_mm": 2370,
+            "wheelbase_in": 93.3,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1480,
+            "track_rear_in": 58.3,
+            "curb_weight_kg": 1686,
+            "curb_weight_lb": 3717,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "TJ 2DR SUV 4WD /SE",
+            "length_mm": 3760,
+            "length_in": 148.0,
+            "width_mm": 1690,
+            "width_in": 66.5,
+            "height_mm": 1760,
+            "height_in": 69.3,
+            "wheelbase_mm": 2370,
+            "wheelbase_in": 93.3,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1480,
+            "track_rear_in": 58.3,
+            "curb_weight_kg": 1467,
+            "curb_weight_lb": 3234,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "TJ 2DR SUV 4WD /SPORT",
+            "length_mm": 3760,
+            "length_in": 148.0,
+            "width_mm": 1690,
+            "width_in": 66.5,
+            "height_mm": 1760,
+            "height_in": 69.3,
+            "wheelbase_mm": 2370,
+            "wheelbase_in": 93.3,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1480,
+            "track_rear_in": 58.3,
+            "curb_weight_kg": 1565,
+            "curb_weight_lb": 3450,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "TJ 2DR SUV LWB 4WD UNLIMITED/RUBICON",
+            "length_mm": 4130,
+            "length_in": 162.6,
+            "width_mm": 1680,
+            "width_in": 66.1,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 2630,
+            "wheelbase_in": 103.5,
+            "track_front_mm": 1490,
+            "track_front_in": 58.7,
+            "track_rear_mm": 1490,
+            "track_rear_in": 58.7,
+            "curb_weight_kg": 1689,
+            "curb_weight_lb": 3724,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2007": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1800
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1570
+          ],
+          "track_rear_mm": [
+            1570,
+            1570
+          ],
+          "curb_weight_kg": [
+            1706,
+            1936
+          ],
+          "length_in": [
+            152.8,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            70.9
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            3761,
+            4268
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1862,
+            "curb_weight_lb": 4105,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SAHARA",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1792,
+            "curb_weight_lb": 3951,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD X",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1706,
+            "curb_weight_lb": 3761,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SAHARA/RUBICON",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1936,
+            "curb_weight_lb": 4268,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD X",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1848,
+            "curb_weight_lb": 4074,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2008": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3960,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1840
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1590
+          ],
+          "curb_weight_kg": [
+            1854,
+            1936
+          ],
+          "length_in": [
+            155.9,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            72.4
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            4087,
+            4268
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD X/SAHARA/RUBICON",
+            "length_mm": 3960,
+            "length_in": 155.9,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1854,
+            "curb_weight_lb": 4087,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER UNLIMITED X/SAHARA/RUBICON 4DR SUV 4",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1936,
+            "curb_weight_lb": 4268,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2009": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1840
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1590
+          ],
+          "curb_weight_kg": [
+            1854,
+            1936
+          ],
+          "length_in": [
+            152.8,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            72.4
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            4087,
+            4268
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD X/SAHARA/RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1854,
+            "curb_weight_lb": 4087,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER UNLIMITED X/SAHARA/RUBICON 4DR SUV 4",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1936,
+            "curb_weight_lb": 4268,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2010": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1840
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1590
+          ],
+          "curb_weight_kg": [
+            1746,
+            2062
+          ],
+          "length_in": [
+            152.8,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            72.4
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            3849,
+            4546
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1889,
+            "curb_weight_lb": 4165,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SAHARA",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 2010,
+            "curb_weight_lb": 4431,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SPORT",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1746,
+            "curb_weight_lb": 3849,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD RUBICON",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 2062,
+            "curb_weight_lb": 4546,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SAHARA",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 2007,
+            "curb_weight_lb": 4425,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SPORT",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1919,
+            "curb_weight_lb": 4231,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2011": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1840
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1590
+          ],
+          "curb_weight_kg": [
+            1746,
+            2062
+          ],
+          "length_in": [
+            152.8,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            72.4
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            3849,
+            4546
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1889,
+            "curb_weight_lb": 4165,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SAHARA",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 2010,
+            "curb_weight_lb": 4431,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SPORT",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1746,
+            "curb_weight_lb": 3849,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD RUBICON",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 2062,
+            "curb_weight_lb": 4546,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SAHARA",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 2007,
+            "curb_weight_lb": 4425,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SPORT",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1919,
+            "curb_weight_lb": 4231,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2012": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1840
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1590
+          ],
+          "curb_weight_kg": [
+            1759,
+            2051
+          ],
+          "length_in": [
+            152.8,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            72.4
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            3878,
+            4522
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1874,
+            "curb_weight_lb": 4131,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SAHARA",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1839,
+            "curb_weight_lb": 4054,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SPORT/SPORT S",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1759,
+            "curb_weight_lb": 3878,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD RUBICON",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 2051,
+            "curb_weight_lb": 4522,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SAHARA",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1994,
+            "curb_weight_lb": 4396,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SPORT",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1940,
+            "curb_weight_lb": 4277,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2013": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1840
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1590
+          ],
+          "curb_weight_kg": [
+            1759,
+            2051
+          ],
+          "length_in": [
+            152.8,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            72.4
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            3878,
+            4522
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1874,
+            "curb_weight_lb": 4131,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SAHARA",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1839,
+            "curb_weight_lb": 4054,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SPORT/SPORT S",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1759,
+            "curb_weight_lb": 3878,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD RUBICON",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 2051,
+            "curb_weight_lb": 4522,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SAHARA",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1994,
+            "curb_weight_lb": 4396,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SPORT S",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1940,
+            "curb_weight_lb": 4277,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2014": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1840
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1590
+          ],
+          "curb_weight_kg": [
+            1759,
+            2051
+          ],
+          "length_in": [
+            152.8,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            72.4
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            3878,
+            4522
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1874,
+            "curb_weight_lb": 4131,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SAHARA",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1839,
+            "curb_weight_lb": 4054,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SPORT/SPORT S",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1759,
+            "curb_weight_lb": 3878,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD RUBICON",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 2051,
+            "curb_weight_lb": 4522,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SAHARA",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1994,
+            "curb_weight_lb": 4396,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SPORT S",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1940,
+            "curb_weight_lb": 4277,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2015": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1840
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1590
+          ],
+          "curb_weight_kg": [
+            1759,
+            2051
+          ],
+          "length_in": [
+            152.8,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            72.4
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            3878,
+            4522
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1874,
+            "curb_weight_lb": 4131,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SAHARA",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1839,
+            "curb_weight_lb": 4054,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SPORT/SPORT S",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1759,
+            "curb_weight_lb": 3878,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD RUBICON",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 2051,
+            "curb_weight_lb": 4522,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SAHARA",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1994,
+            "curb_weight_lb": 4396,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SPORT S",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1940,
+            "curb_weight_lb": 4277,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2016": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1840
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1590
+          ],
+          "curb_weight_kg": [
+            1717,
+            1969
+          ],
+          "length_in": [
+            152.8,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            72.4
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            3785,
+            4341
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SAHARA",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1803,
+            "curb_weight_lb": 3975,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SPORT/WILLYS WHEELER",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1717,
+            "curb_weight_lb": 3785,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD RUBICON",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1969,
+            "curb_weight_lb": 4341,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SAHARA",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1948,
+            "curb_weight_lb": 4295,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SPORT/WILLYS WHEELER",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1860,
+            "curb_weight_lb": 4101,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2017": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4400
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1840
+          ],
+          "wheelbase_mm": [
+            2420,
+            2950
+          ],
+          "track_front_mm": [
+            1560,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1590
+          ],
+          "curb_weight_kg": [
+            1717,
+            1969
+          ],
+          "length_in": [
+            152.8,
+            173.2
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            72.4
+          ],
+          "wheelbase_in": [
+            95.3,
+            116.1
+          ],
+          "curb_weight_lb": [
+            3785,
+            4341
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 2DR SUV 4WD RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SAHARA",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1803,
+            "curb_weight_lb": 3975,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER 2DR SUV 4WD SPORT/WILLYS WHEELER",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1717,
+            "curb_weight_lb": 3785,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD RUBICON",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1969,
+            "curb_weight_lb": 4341,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SAHARA",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1948,
+            "curb_weight_lb": 4295,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          },
+          {
+            "name": "WRANGLER UNLIMITED 4DR SUV 4WD SPORT/WILLYS WHEELER",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1860,
+            "curb_weight_lb": 4101,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2018": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            3880,
+            4620
+          ],
+          "width_mm": [
+            1870,
+            1880
+          ],
+          "height_mm": [
+            1800,
+            1870
+          ],
+          "wheelbase_mm": [
+            2420,
+            3010
+          ],
+          "track_front_mm": [
+            1560,
+            1600
+          ],
+          "track_rear_mm": [
+            1570,
+            1600
+          ],
+          "curb_weight_kg": [
+            1717,
+            2021
+          ],
+          "length_in": [
+            152.8,
+            181.9
+          ],
+          "width_in": [
+            73.6,
+            74.0
+          ],
+          "height_in": [
+            70.9,
+            73.6
+          ],
+          "wheelbase_in": [
+            95.3,
+            118.5
+          ],
+          "curb_weight_lb": [
+            3785,
+            4456
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER JK 2DR SUV 4WD RUBICON",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER JK 2DR SUV 4WD SAHARA",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1803,
+            "curb_weight_lb": 3975,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER JK 2DR SUV 4WD SPORT/WILLYS WHEELER",
+            "length_mm": 3880,
+            "length_in": 152.8,
+            "width_mm": 1870,
+            "width_in": 73.6,
+            "height_mm": 1840,
+            "height_in": 72.4,
+            "wheelbase_mm": 2420,
+            "wheelbase_in": 95.3,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1717,
+            "curb_weight_lb": 3785,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER JK UNLIMITED 4DR SUV 4WD RUBICON",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1969,
+            "curb_weight_lb": 4341,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER JK UNLIMITED 4DR SUV 4WD SAHARA",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1948,
+            "curb_weight_lb": 4295,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER JK UNLIMITED 4DR SUV 4WD SPORT/WILLYS WHEELER",
+            "length_mm": 4400,
+            "length_in": 173.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1800,
+            "height_in": 70.9,
+            "wheelbase_mm": 2950,
+            "wheelbase_in": 116.1,
+            "track_front_mm": 1560,
+            "track_front_in": 61.4,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1860,
+            "curb_weight_lb": 4101,
+            "weight_dist_front_pct": 50,
+            "weight_dist_rear_pct": 50,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1880,
+            "curb_weight_lb": 4145,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2021,
+            "curb_weight_lb": 4456,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1971,
+            "curb_weight_lb": 4345,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1794,
+            "curb_weight_lb": 3955,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1905,
+            "curb_weight_lb": 4200,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2019": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4070,
+            4620
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1870,
+            1870
+          ],
+          "wheelbase_mm": [
+            2460,
+            3010
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1600,
+            1600
+          ],
+          "curb_weight_kg": [
+            1778,
+            2031
+          ],
+          "length_in": [
+            160.2,
+            181.9
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            73.6,
+            73.6
+          ],
+          "wheelbase_in": [
+            96.9,
+            118.5
+          ],
+          "curb_weight_lb": [
+            3920,
+            4478
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1915,
+            "curb_weight_lb": 4222,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2031,
+            "curb_weight_lb": 4478,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1903,
+            "curb_weight_lb": 4195,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1902,
+            "curb_weight_lb": 4193,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2018,
+            "curb_weight_lb": 4449,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1778,
+            "curb_weight_lb": 3920,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1890,
+            "curb_weight_lb": 4167,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2020": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4070,
+            4620
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1870,
+            1870
+          ],
+          "wheelbase_mm": [
+            2460,
+            3010
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1600,
+            1600
+          ],
+          "curb_weight_kg": [
+            1778,
+            2031
+          ],
+          "length_in": [
+            160.2,
+            181.9
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            73.6,
+            73.6
+          ],
+          "wheelbase_in": [
+            96.9,
+            118.5
+          ],
+          "curb_weight_lb": [
+            3920,
+            4478
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1915,
+            "curb_weight_lb": 4222,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2031,
+            "curb_weight_lb": 4478,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1903,
+            "curb_weight_lb": 4195,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1902,
+            "curb_weight_lb": 4193,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2018,
+            "curb_weight_lb": 4449,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1778,
+            "curb_weight_lb": 3920,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1890,
+            "curb_weight_lb": 4167,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2021": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4070,
+            4620
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1870,
+            1870
+          ],
+          "wheelbase_mm": [
+            2460,
+            3010
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1600,
+            1600
+          ],
+          "curb_weight_kg": [
+            1778,
+            2369
+          ],
+          "length_in": [
+            160.2,
+            181.9
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            73.6,
+            73.6
+          ],
+          "wheelbase_in": [
+            96.9,
+            118.5
+          ],
+          "curb_weight_lb": [
+            3920,
+            5223
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 4xe / SAHARA 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2268,
+            "curb_weight_lb": 5000,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1915,
+            "curb_weight_lb": 4222,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2031,
+            "curb_weight_lb": 4478,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1903,
+            "curb_weight_lb": 4195,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1902,
+            "curb_weight_lb": 4193,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2018,
+            "curb_weight_lb": 4449,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1778,
+            "curb_weight_lb": 3920,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1890,
+            "curb_weight_lb": 4167,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER Rubicon 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2369,
+            "curb_weight_lb": 5223,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2022": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4070,
+            4620
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1870,
+            1870
+          ],
+          "wheelbase_mm": [
+            2460,
+            3010
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1600,
+            1600
+          ],
+          "curb_weight_kg": [
+            1778,
+            2369
+          ],
+          "length_in": [
+            160.2,
+            181.9
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            73.6,
+            73.6
+          ],
+          "wheelbase_in": [
+            96.9,
+            118.5
+          ],
+          "curb_weight_lb": [
+            3920,
+            5223
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 4xe / SAHARA 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2268,
+            "curb_weight_lb": 5000,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1915,
+            "curb_weight_lb": 4222,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2031,
+            "curb_weight_lb": 4478,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1903,
+            "curb_weight_lb": 4195,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1902,
+            "curb_weight_lb": 4193,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2018,
+            "curb_weight_lb": 4449,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1778,
+            "curb_weight_lb": 3920,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1890,
+            "curb_weight_lb": 4167,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER Rubicon 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2369,
+            "curb_weight_lb": 5223,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2023": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4070,
+            4620
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1870,
+            1870
+          ],
+          "wheelbase_mm": [
+            2460,
+            3010
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1600,
+            1600
+          ],
+          "curb_weight_kg": [
+            1778,
+            2369
+          ],
+          "length_in": [
+            160.2,
+            181.9
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            73.6,
+            73.6
+          ],
+          "wheelbase_in": [
+            96.9,
+            118.5
+          ],
+          "curb_weight_lb": [
+            3920,
+            5223
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 4xe / SAHARA 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2268,
+            "curb_weight_lb": 5000,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1915,
+            "curb_weight_lb": 4222,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2031,
+            "curb_weight_lb": 4478,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1903,
+            "curb_weight_lb": 4195,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1902,
+            "curb_weight_lb": 4193,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2018,
+            "curb_weight_lb": 4449,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1778,
+            "curb_weight_lb": 3920,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1890,
+            "curb_weight_lb": 4167,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER Rubicon 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2369,
+            "curb_weight_lb": 5223,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2024": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4070,
+            4620
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1870,
+            1870
+          ],
+          "wheelbase_mm": [
+            2460,
+            3010
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1600,
+            1600
+          ],
+          "curb_weight_kg": [
+            1778,
+            2369
+          ],
+          "length_in": [
+            160.2,
+            181.9
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            73.6,
+            73.6
+          ],
+          "wheelbase_in": [
+            96.9,
+            118.5
+          ],
+          "curb_weight_lb": [
+            3920,
+            5223
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 4xe / SAHARA 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2268,
+            "curb_weight_lb": 5000,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1915,
+            "curb_weight_lb": 4222,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2031,
+            "curb_weight_lb": 4478,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1903,
+            "curb_weight_lb": 4195,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1902,
+            "curb_weight_lb": 4193,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2018,
+            "curb_weight_lb": 4449,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1778,
+            "curb_weight_lb": 3920,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1890,
+            "curb_weight_lb": 4167,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER Rubicon 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2369,
+            "curb_weight_lb": 5223,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2025": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4070,
+            4620
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1870,
+            1870
+          ],
+          "wheelbase_mm": [
+            2460,
+            3010
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1600,
+            1600
+          ],
+          "curb_weight_kg": [
+            1778,
+            2369
+          ],
+          "length_in": [
+            160.2,
+            181.9
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            73.6,
+            73.6
+          ],
+          "wheelbase_in": [
+            96.9,
+            118.5
+          ],
+          "curb_weight_lb": [
+            3920,
+            5223
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 4xe / SAHARA 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2268,
+            "curb_weight_lb": 5000,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1915,
+            "curb_weight_lb": 4222,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2031,
+            "curb_weight_lb": 4478,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1903,
+            "curb_weight_lb": 4195,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1902,
+            "curb_weight_lb": 4193,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2018,
+            "curb_weight_lb": 4449,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1778,
+            "curb_weight_lb": 3920,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1890,
+            "curb_weight_lb": 4167,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER Rubicon 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2369,
+            "curb_weight_lb": 5223,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2026": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4070,
+            4620
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1870,
+            1870
+          ],
+          "wheelbase_mm": [
+            2460,
+            3010
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1600,
+            1600
+          ],
+          "curb_weight_kg": [
+            1778,
+            2369
+          ],
+          "length_in": [
+            160.2,
+            181.9
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            73.6,
+            73.6
+          ],
+          "wheelbase_in": [
+            96.9,
+            118.5
+          ],
+          "curb_weight_lb": [
+            3920,
+            5223
+          ]
+        },
+        "variants": [
+          {
+            "name": "WRANGLER 4xe / SAHARA 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2268,
+            "curb_weight_lb": 5000,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1915,
+            "curb_weight_lb": 4222,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2031,
+            "curb_weight_lb": 4478,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 2.0L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1903,
+            "curb_weight_lb": 4195,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1902,
+            "curb_weight_lb": 4193,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L RUBICON 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2018,
+            "curb_weight_lb": 4449,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SAHARA 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1999,
+            "curb_weight_lb": 4407,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 2DR SUV",
+            "length_mm": 4070,
+            "length_in": 160.2,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 2460,
+            "wheelbase_in": 96.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1778,
+            "curb_weight_lb": 3920,
+            "weight_dist_front_pct": 51,
+            "weight_dist_rear_pct": 49,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER JL 3.6L SPORT 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1890,
+            "curb_weight_lb": 4167,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "WRANGLER Rubicon 4xe 4DR SUV",
+            "length_mm": 4620,
+            "length_in": 181.9,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1870,
+            "height_in": 73.6,
+            "wheelbase_mm": 3010,
+            "wheelbase_in": 118.5,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 2369,
+            "curb_weight_lb": 5223,
+            "weight_dist_front_pct": 52,
+            "weight_dist_rear_pct": 48,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    }
+  }
+}

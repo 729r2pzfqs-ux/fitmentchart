@@ -1,0 +1,3581 @@
+{
+  "slug": "honda/civic",
+  "source": {
+    "name": "Transport Canada Canadian Vehicle Specifications via NHTSA vPIC",
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetCanadianVehicleSpecifications/"
+  },
+  "years": {
+    "2005": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4440,
+            4440
+          ],
+          "width_mm": [
+            1700,
+            1720
+          ],
+          "height_mm": [
+            1400,
+            1440
+          ],
+          "wheelbase_mm": [
+            2620,
+            2620
+          ],
+          "track_front_mm": [
+            1470,
+            1470
+          ],
+          "track_rear_mm": [
+            1470,
+            1470
+          ],
+          "curb_weight_kg": [
+            1117,
+            1239
+          ],
+          "length_in": [
+            174.8,
+            174.8
+          ],
+          "width_in": [
+            66.9,
+            67.7
+          ],
+          "height_in": [
+            55.1,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.1,
+            103.1
+          ],
+          "curb_weight_lb": [
+            2463,
+            2732
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE FWD DX/LX/Si",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1700,
+            "width_in": 66.9,
+            "height_mm": 1400,
+            "height_in": 55.1,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1470,
+            "track_rear_in": 57.9,
+            "curb_weight_kg": 1140,
+            "curb_weight_lb": 2513,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2001
+          },
+          {
+            "name": "CIVIC 4DR SEDAN FWD DX",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1720,
+            "width_in": 67.7,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1470,
+            "track_rear_in": 57.9,
+            "curb_weight_kg": 1117,
+            "curb_weight_lb": 2463,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2001
+          },
+          {
+            "name": "CIVIC 4DR SEDAN FWD LX",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1720,
+            "width_in": 67.7,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1470,
+            "track_rear_in": 57.9,
+            "curb_weight_kg": 1163,
+            "curb_weight_lb": 2564,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2001
+          },
+          {
+            "name": "CIVIC 4DR SEDAN FWD Si",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1720,
+            "width_in": 67.7,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1470,
+            "track_rear_in": 57.9,
+            "curb_weight_kg": 1187,
+            "curb_weight_lb": 2617,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2001
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN FWD",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1720,
+            "width_in": 67.7,
+            "height_mm": 1430,
+            "height_in": 56.3,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1470,
+            "track_rear_in": 57.9,
+            "curb_weight_kg": 1239,
+            "curb_weight_lb": 2732,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2003
+          }
+        ]
+      }
+    },
+    "2006": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4440,
+            4490
+          ],
+          "width_mm": [
+            1750,
+            1750
+          ],
+          "height_mm": [
+            1360,
+            1440
+          ],
+          "wheelbase_mm": [
+            2650,
+            2700
+          ],
+          "track_front_mm": [
+            1480,
+            1500
+          ],
+          "track_rear_mm": [
+            1510,
+            1510
+          ],
+          "curb_weight_kg": [
+            1224,
+            1307
+          ],
+          "length_in": [
+            174.8,
+            176.8
+          ],
+          "width_in": [
+            68.9,
+            68.9
+          ],
+          "height_in": [
+            53.5,
+            56.7
+          ],
+          "wheelbase_in": [
+            104.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2698,
+            2881
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE FWD DX/DG-G/LX/EX",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1227,
+            "curb_weight_lb": 2705,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD Si",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1307,
+            "curb_weight_lb": 2881,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 4DR SEDAN FWD DX/DX-G/LX/EX",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1224,
+            "curb_weight_lb": 2698,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN FWD",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1304,
+            "curb_weight_lb": 2875,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          }
+        ]
+      }
+    },
+    "2007": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4440,
+            4490
+          ],
+          "width_mm": [
+            1750,
+            1750
+          ],
+          "height_mm": [
+            1360,
+            1440
+          ],
+          "wheelbase_mm": [
+            2650,
+            2700
+          ],
+          "track_front_mm": [
+            1480,
+            1500
+          ],
+          "track_rear_mm": [
+            1510,
+            1510
+          ],
+          "curb_weight_kg": [
+            1224,
+            1307
+          ],
+          "length_in": [
+            174.8,
+            176.8
+          ],
+          "width_in": [
+            68.9,
+            68.9
+          ],
+          "height_in": [
+            53.5,
+            56.7
+          ],
+          "wheelbase_in": [
+            104.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2698,
+            2881
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE FWD DX/DG-G/LX/EX",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1227,
+            "curb_weight_lb": 2705,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD Si",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1307,
+            "curb_weight_lb": 2881,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 4DR SEDAN FWD DX/DX-G/LX/EX",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1224,
+            "curb_weight_lb": 2698,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN FWD",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1304,
+            "curb_weight_lb": 2875,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          }
+        ]
+      }
+    },
+    "2008": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4440,
+            4490
+          ],
+          "width_mm": [
+            1750,
+            1750
+          ],
+          "height_mm": [
+            1360,
+            1440
+          ],
+          "wheelbase_mm": [
+            2650,
+            2700
+          ],
+          "track_front_mm": [
+            1480,
+            1500
+          ],
+          "track_rear_mm": [
+            1510,
+            1510
+          ],
+          "curb_weight_kg": [
+            1178,
+            1310
+          ],
+          "length_in": [
+            174.8,
+            176.8
+          ],
+          "width_in": [
+            68.9,
+            68.9
+          ],
+          "height_in": [
+            53.5,
+            56.7
+          ],
+          "wheelbase_in": [
+            104.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2597,
+            2888
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE FWD DX/DX-G/LX",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1178,
+            "curb_weight_lb": 2597,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD EX-L",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1226,
+            "curb_weight_lb": 2703,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD Si",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1310,
+            "curb_weight_lb": 2888,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 4DR SEDAN FWD DX/DX-G/LX/EX-L",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1199,
+            "curb_weight_lb": 2643,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 4DR SEDAN Si",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1305,
+            "curb_weight_lb": 2877,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN FWD",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1304,
+            "curb_weight_lb": 2875,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          }
+        ]
+      }
+    },
+    "2009": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4440,
+            4490
+          ],
+          "width_mm": [
+            1750,
+            1750
+          ],
+          "height_mm": [
+            1360,
+            1440
+          ],
+          "wheelbase_mm": [
+            2650,
+            2700
+          ],
+          "track_front_mm": [
+            1480,
+            1500
+          ],
+          "track_rear_mm": [
+            1510,
+            1510
+          ],
+          "curb_weight_kg": [
+            1178,
+            1310
+          ],
+          "length_in": [
+            174.8,
+            176.8
+          ],
+          "width_in": [
+            68.9,
+            68.9
+          ],
+          "height_in": [
+            53.5,
+            56.7
+          ],
+          "wheelbase_in": [
+            104.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2597,
+            2888
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE FWD DX/DX-G/LX",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1178,
+            "curb_weight_lb": 2597,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD EX-L",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1226,
+            "curb_weight_lb": 2703,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD Si",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1310,
+            "curb_weight_lb": 2888,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 4DR SEDAN FWD DX/DX-G/LX/EX-L",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1199,
+            "curb_weight_lb": 2643,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 4DR SEDAN Si",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1305,
+            "curb_weight_lb": 2877,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN FWD",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1304,
+            "curb_weight_lb": 2875,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          }
+        ]
+      }
+    },
+    "2010": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4440,
+            4490
+          ],
+          "width_mm": [
+            1750,
+            1750
+          ],
+          "height_mm": [
+            1360,
+            1440
+          ],
+          "wheelbase_mm": [
+            2650,
+            2700
+          ],
+          "track_front_mm": [
+            1480,
+            1500
+          ],
+          "track_rear_mm": [
+            1510,
+            1510
+          ],
+          "curb_weight_kg": [
+            1178,
+            1345
+          ],
+          "length_in": [
+            174.8,
+            176.8
+          ],
+          "width_in": [
+            68.9,
+            68.9
+          ],
+          "height_in": [
+            53.5,
+            56.7
+          ],
+          "wheelbase_in": [
+            104.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2597,
+            2965
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE FWD DX/DX-G/LX",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1178,
+            "curb_weight_lb": 2597,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD EX-L",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1226,
+            "curb_weight_lb": 2703,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD Si",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1310,
+            "curb_weight_lb": 2888,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 4DR SEDAN FWD DX/DX-G/LX/EX-L",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1199,
+            "curb_weight_lb": 2643,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 4DR SEDAN Si",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1345,
+            "curb_weight_lb": 2965,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN FWD",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1304,
+            "curb_weight_lb": 2875,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          }
+        ]
+      }
+    },
+    "2011": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4440,
+            4490
+          ],
+          "width_mm": [
+            1750,
+            1750
+          ],
+          "height_mm": [
+            1360,
+            1440
+          ],
+          "wheelbase_mm": [
+            2650,
+            2700
+          ],
+          "track_front_mm": [
+            1480,
+            1500
+          ],
+          "track_rear_mm": [
+            1510,
+            1510
+          ],
+          "curb_weight_kg": [
+            1178,
+            1345
+          ],
+          "length_in": [
+            174.8,
+            176.8
+          ],
+          "width_in": [
+            68.9,
+            68.9
+          ],
+          "height_in": [
+            53.5,
+            56.7
+          ],
+          "wheelbase_in": [
+            104.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2597,
+            2965
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE FWD DX-G/SE",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1178,
+            "curb_weight_lb": 2597,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD EX-L",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1226,
+            "curb_weight_lb": 2703,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD Si",
+            "length_mm": 4440,
+            "length_in": 174.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1360,
+            "height_in": 53.5,
+            "wheelbase_mm": 2650,
+            "wheelbase_in": 104.3,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1310,
+            "curb_weight_lb": 2888,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 4DR SEDAN FWD DX/DX-G/SE/EX-L",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1199,
+            "curb_weight_lb": 2643,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC 4DR SEDAN Si",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1345,
+            "curb_weight_lb": 2965,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN FWD",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1480,
+            "track_front_in": 58.3,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1304,
+            "curb_weight_lb": 2875,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          }
+        ]
+      }
+    },
+    "2012": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4470,
+            4500
+          ],
+          "width_mm": [
+            1750,
+            1750
+          ],
+          "height_mm": [
+            1400,
+            1440
+          ],
+          "wheelbase_mm": [
+            2620,
+            2670
+          ],
+          "track_front_mm": [
+            1500,
+            1500
+          ],
+          "track_rear_mm": [
+            1520,
+            1520
+          ],
+          "curb_weight_kg": [
+            1202,
+            1311
+          ],
+          "length_in": [
+            176.0,
+            177.2
+          ],
+          "width_in": [
+            68.9,
+            68.9
+          ],
+          "height_in": [
+            55.1,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.1,
+            105.1
+          ],
+          "curb_weight_lb": [
+            2650,
+            2890
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE FWD LX/EX (manual)",
+            "length_mm": 4470,
+            "length_in": 176.0,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1400,
+            "height_in": 55.1,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1220,
+            "curb_weight_lb": 2690,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD LX/EX/EX-L (automatic) /",
+            "length_mm": 4470,
+            "length_in": 176.0,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1400,
+            "height_in": 55.1,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1278,
+            "curb_weight_lb": 2818,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CIVIC 4DR SEDAN DX/EX/LX (manual)",
+            "length_mm": 4500,
+            "length_in": 177.2,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1202,
+            "curb_weight_lb": 2650,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CIVIC 4DR SEDAN EX (automatic) / Si (manual)",
+            "length_mm": 4500,
+            "length_in": 177.2,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1311,
+            "curb_weight_lb": 2890,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CIVIC 4DR SEDAN EX-L/LX (automatic)",
+            "length_mm": 4500,
+            "length_in": 177.2,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1267,
+            "curb_weight_lb": 2793,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN FWD",
+            "length_mm": 4500,
+            "length_in": 177.2,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1305,
+            "curb_weight_lb": 2877,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2012
+          }
+        ]
+      }
+    },
+    "2013": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4470,
+            4560
+          ],
+          "width_mm": [
+            1750,
+            1750
+          ],
+          "height_mm": [
+            1400,
+            1440
+          ],
+          "wheelbase_mm": [
+            2620,
+            2670
+          ],
+          "track_front_mm": [
+            1500,
+            1500
+          ],
+          "track_rear_mm": [
+            1520,
+            1520
+          ],
+          "curb_weight_kg": [
+            1187,
+            1305
+          ],
+          "length_in": [
+            176.0,
+            179.5
+          ],
+          "width_in": [
+            68.9,
+            68.9
+          ],
+          "height_in": [
+            55.1,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.1,
+            105.1
+          ],
+          "curb_weight_lb": [
+            2617,
+            2877
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE FWD LX/EX (manual)",
+            "length_mm": 4470,
+            "length_in": 176.0,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1400,
+            "height_in": 55.1,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1220,
+            "curb_weight_lb": 2690,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CIVIC 2DR COUPE FWD LX/EX/EX-L (automatic) /",
+            "length_mm": 4470,
+            "length_in": 176.0,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1400,
+            "height_in": 55.1,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1278,
+            "curb_weight_lb": 2818,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CIVIC DX 4DR SEDAN",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1187,
+            "curb_weight_lb": 2617,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1305,
+            "curb_weight_lb": 2877,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "CIVIC LX/EX 4DR SEDAN",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1236,
+            "curb_weight_lb": 2725,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "CIVIC TOURING/Si 4DR SEDAN",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1295,
+            "curb_weight_lb": 2855,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2013
+          }
+        ]
+      }
+    },
+    "2014": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4500,
+            4560
+          ],
+          "width_mm": [
+            1750,
+            1750
+          ],
+          "height_mm": [
+            1400,
+            1440
+          ],
+          "wheelbase_mm": [
+            2620,
+            2670
+          ],
+          "track_front_mm": [
+            1500,
+            1500
+          ],
+          "track_rear_mm": [
+            1520,
+            1520
+          ],
+          "curb_weight_kg": [
+            1230,
+            1369
+          ],
+          "length_in": [
+            177.2,
+            179.5
+          ],
+          "width_in": [
+            68.9,
+            68.9
+          ],
+          "height_in": [
+            55.1,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.1,
+            105.1
+          ],
+          "curb_weight_lb": [
+            2712,
+            3018
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE LX/EX/EX-L NAVI",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1400,
+            "height_in": 55.1,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1304,
+            "curb_weight_lb": 2875,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2014
+          },
+          {
+            "name": "CIVIC 2DR COUPE Si",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1400,
+            "height_in": 55.1,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1361,
+            "curb_weight_lb": 3000,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2014
+          },
+          {
+            "name": "CIVIC DX 4DR SEDAN",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1230,
+            "curb_weight_lb": 2712,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN",
+            "length_mm": 4500,
+            "length_in": 177.2,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1305,
+            "curb_weight_lb": 2877,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CIVIC LX/EX 4DR SEDAN",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1284,
+            "curb_weight_lb": 2831,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "CIVIC TOURING/Si 4DR SEDAN",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1369,
+            "curb_weight_lb": 3018,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2013
+          }
+        ]
+      }
+    },
+    "2015": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4520,
+            4560
+          ],
+          "width_mm": [
+            1750,
+            1750
+          ],
+          "height_mm": [
+            1400,
+            1440
+          ],
+          "wheelbase_mm": [
+            2620,
+            2670
+          ],
+          "track_front_mm": [
+            1500,
+            1500
+          ],
+          "track_rear_mm": [
+            1520,
+            1520
+          ],
+          "curb_weight_kg": [
+            1230,
+            1361
+          ],
+          "length_in": [
+            178.0,
+            179.5
+          ],
+          "width_in": [
+            68.9,
+            68.9
+          ],
+          "height_in": [
+            55.1,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.1,
+            105.1
+          ],
+          "curb_weight_lb": [
+            2712,
+            3000
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 2DR COUPE LX/EX/EX-L NAVI",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1400,
+            "height_in": 55.1,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1281,
+            "curb_weight_lb": 2824,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2014
+          },
+          {
+            "name": "CIVIC 2DR COUPE Si",
+            "length_mm": 4540,
+            "length_in": 178.7,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1400,
+            "height_in": 55.1,
+            "wheelbase_mm": 2620,
+            "wheelbase_in": 103.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1361,
+            "curb_weight_lb": 3000,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2014
+          },
+          {
+            "name": "CIVIC 4DR SEDAN DX",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1230,
+            "curb_weight_lb": 2712,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "CIVIC 4DR SEDAN LX/EX",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1258,
+            "curb_weight_lb": 2773,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "CIVIC 4DR SEDAN TOURING/Si",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1349,
+            "curb_weight_lb": 2974,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2013
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN",
+            "length_mm": 4560,
+            "length_in": 179.5,
+            "width_mm": 1750,
+            "width_in": 68.9,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2670,
+            "wheelbase_in": 105.1,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1305,
+            "curb_weight_lb": 2877,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2013
+          }
+        ]
+      }
+    },
+    "2016": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4490,
+            4630
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1390,
+            1420
+          ],
+          "wheelbase_mm": [
+            2700,
+            2700
+          ],
+          "track_front_mm": [
+            1550,
+            1550
+          ],
+          "track_rear_mm": [
+            1560,
+            1560
+          ],
+          "curb_weight_kg": [
+            1244,
+            1324
+          ],
+          "length_in": [
+            176.8,
+            182.3
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            54.7,
+            55.9
+          ],
+          "wheelbase_in": [
+            106.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2743,
+            2919
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC DX/LX/EX 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1244,
+            "curb_weight_lb": 2743,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC EX-T/TOURING 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1313,
+            "curb_weight_lb": 2895,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC EX-T/TOURING 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1324,
+            "curb_weight_lb": 2919,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC LX 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1256,
+            "curb_weight_lb": 2769,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2017": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4490,
+            4630
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1390,
+            1430
+          ],
+          "wheelbase_mm": [
+            2700,
+            2700
+          ],
+          "track_front_mm": [
+            1550,
+            1550
+          ],
+          "track_rear_mm": [
+            1560,
+            1560
+          ],
+          "curb_weight_kg": [
+            1244,
+            1324
+          ],
+          "length_in": [
+            176.8,
+            182.3
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            54.7,
+            56.3
+          ],
+          "wheelbase_in": [
+            106.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2743,
+            2919
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 5DR HATCH",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1430,
+            "height_in": 56.3,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1323,
+            "curb_weight_lb": 2917,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CIVIC DX/LX/EX 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1244,
+            "curb_weight_lb": 2743,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC EX-T/TOURING 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1313,
+            "curb_weight_lb": 2895,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC EX-T/TOURING 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1324,
+            "curb_weight_lb": 2919,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC LX 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1256,
+            "curb_weight_lb": 2769,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2018": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4490,
+            4630
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1390,
+            1430
+          ],
+          "wheelbase_mm": [
+            2700,
+            2700
+          ],
+          "track_front_mm": [
+            1550,
+            1550
+          ],
+          "track_rear_mm": [
+            1560,
+            1560
+          ],
+          "curb_weight_kg": [
+            1244,
+            1324
+          ],
+          "length_in": [
+            176.8,
+            182.3
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            54.7,
+            56.3
+          ],
+          "wheelbase_in": [
+            106.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2743,
+            2919
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 5DR HATCH",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1430,
+            "height_in": 56.3,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1323,
+            "curb_weight_lb": 2917,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CIVIC DX/LX/EX 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1244,
+            "curb_weight_lb": 2743,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC EX-T/TOURING 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1313,
+            "curb_weight_lb": 2895,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC EX-T/TOURING 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1324,
+            "curb_weight_lb": 2919,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC LX 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1256,
+            "curb_weight_lb": 2769,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2019": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4490,
+            4630
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1390,
+            1430
+          ],
+          "wheelbase_mm": [
+            2700,
+            2700
+          ],
+          "track_front_mm": [
+            1550,
+            1550
+          ],
+          "track_rear_mm": [
+            1560,
+            1560
+          ],
+          "curb_weight_kg": [
+            1252,
+            1415
+          ],
+          "length_in": [
+            176.8,
+            182.3
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            54.7,
+            56.3
+          ],
+          "wheelbase_in": [
+            106.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2760,
+            3120
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 5DR HATCH",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1430,
+            "height_in": 56.3,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1323,
+            "curb_weight_lb": 2917,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CIVIC DX/LX/EX 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1252,
+            "curb_weight_lb": 2760,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC LX 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1256,
+            "curb_weight_lb": 2769,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC SPORT/TOURING 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1312,
+            "curb_weight_lb": 2892,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC SPORT/TOURING/Si 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1295,
+            "curb_weight_lb": 2855,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC TYPE R 5DR HATCH",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1430,
+            "height_in": 56.3,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1415,
+            "curb_weight_lb": 3120,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2020": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4490,
+            4630
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1390,
+            1430
+          ],
+          "wheelbase_mm": [
+            2700,
+            2700
+          ],
+          "track_front_mm": [
+            1550,
+            1550
+          ],
+          "track_rear_mm": [
+            1560,
+            1560
+          ],
+          "curb_weight_kg": [
+            1252,
+            1415
+          ],
+          "length_in": [
+            176.8,
+            182.3
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            54.7,
+            56.3
+          ],
+          "wheelbase_in": [
+            106.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2760,
+            3120
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 5DR HATCH",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1430,
+            "height_in": 56.3,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1323,
+            "curb_weight_lb": 2917,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CIVIC DX/LX/EX 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1252,
+            "curb_weight_lb": 2760,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC LX 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1256,
+            "curb_weight_lb": 2769,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC SPORT/TOURING 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1312,
+            "curb_weight_lb": 2892,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC SPORT/TOURING/Si 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1295,
+            "curb_weight_lb": 2855,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC TYPE R 5DR HATCH",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1430,
+            "height_in": 56.3,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1415,
+            "curb_weight_lb": 3120,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2021": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4490,
+            4630
+          ],
+          "width_mm": [
+            1880,
+            1880
+          ],
+          "height_mm": [
+            1390,
+            1430
+          ],
+          "wheelbase_mm": [
+            2700,
+            2700
+          ],
+          "track_front_mm": [
+            1550,
+            1550
+          ],
+          "track_rear_mm": [
+            1560,
+            1560
+          ],
+          "curb_weight_kg": [
+            1252,
+            1415
+          ],
+          "length_in": [
+            176.8,
+            182.3
+          ],
+          "width_in": [
+            74.0,
+            74.0
+          ],
+          "height_in": [
+            54.7,
+            56.3
+          ],
+          "wheelbase_in": [
+            106.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2760,
+            3120
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 5DR HATCH",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1430,
+            "height_in": 56.3,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1323,
+            "curb_weight_lb": 2917,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CIVIC DX/LX/EX 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1252,
+            "curb_weight_lb": 2760,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC LX 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1256,
+            "curb_weight_lb": 2769,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC SPORT/TOURING 4DR SEDAN",
+            "length_mm": 4630,
+            "length_in": 182.3,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1312,
+            "curb_weight_lb": 2892,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC SPORT/TOURING/Si 2DR COUPE",
+            "length_mm": 4490,
+            "length_in": 176.8,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1390,
+            "height_in": 54.7,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1295,
+            "curb_weight_lb": 2855,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "CIVIC TYPE R 5DR HATCH",
+            "length_mm": 4520,
+            "length_in": 178.0,
+            "width_mm": 1880,
+            "width_in": 74.0,
+            "height_mm": 1430,
+            "height_in": 56.3,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1415,
+            "curb_weight_lb": 3120,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2022": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4550,
+            4670
+          ],
+          "width_mm": [
+            1800,
+            1800
+          ],
+          "height_mm": [
+            1420,
+            1420
+          ],
+          "wheelbase_mm": [
+            2730,
+            2740
+          ],
+          "track_front_mm": [
+            1550,
+            1550
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1313,
+            1391
+          ],
+          "length_in": [
+            179.1,
+            183.9
+          ],
+          "width_in": [
+            70.9,
+            70.9
+          ],
+          "height_in": [
+            55.9,
+            55.9
+          ],
+          "wheelbase_in": [
+            107.5,
+            107.9
+          ],
+          "curb_weight_lb": [
+            2895,
+            3067
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 1.5L 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1391,
+            "curb_weight_lb": 3067,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 1.5L 5DR HATCH",
+            "length_mm": 4550,
+            "length_in": 179.1,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2730,
+            "wheelbase_in": 107.5,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1360,
+            "curb_weight_lb": 2998,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 2.0L 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1333,
+            "curb_weight_lb": 2939,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 2.0L 5DR HATCH",
+            "length_mm": 4550,
+            "length_in": 179.1,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2730,
+            "wheelbase_in": 107.5,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1313,
+            "curb_weight_lb": 2895,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2022
+          }
+        ]
+      }
+    },
+    "2023": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4550,
+            4670
+          ],
+          "width_mm": [
+            1800,
+            1800
+          ],
+          "height_mm": [
+            1420,
+            1420
+          ],
+          "wheelbase_mm": [
+            2730,
+            2740
+          ],
+          "track_front_mm": [
+            1550,
+            1550
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1313,
+            1391
+          ],
+          "length_in": [
+            179.1,
+            183.9
+          ],
+          "width_in": [
+            70.9,
+            70.9
+          ],
+          "height_in": [
+            55.9,
+            55.9
+          ],
+          "wheelbase_in": [
+            107.5,
+            107.9
+          ],
+          "curb_weight_lb": [
+            2895,
+            3067
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 1.5L 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1391,
+            "curb_weight_lb": 3067,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 1.5L 5DR HATCH",
+            "length_mm": 4550,
+            "length_in": 179.1,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2730,
+            "wheelbase_in": 107.5,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1360,
+            "curb_weight_lb": 2998,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 2.0L 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1333,
+            "curb_weight_lb": 2939,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 2.0L 5DR HATCH",
+            "length_mm": 4550,
+            "length_in": 179.1,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2730,
+            "wheelbase_in": 107.5,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1313,
+            "curb_weight_lb": 2895,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2022
+          }
+        ]
+      }
+    },
+    "2024": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4550,
+            4670
+          ],
+          "width_mm": [
+            1800,
+            1800
+          ],
+          "height_mm": [
+            1420,
+            1420
+          ],
+          "wheelbase_mm": [
+            2730,
+            2740
+          ],
+          "track_front_mm": [
+            1550,
+            1550
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1313,
+            1391
+          ],
+          "length_in": [
+            179.1,
+            183.9
+          ],
+          "width_in": [
+            70.9,
+            70.9
+          ],
+          "height_in": [
+            55.9,
+            55.9
+          ],
+          "wheelbase_in": [
+            107.5,
+            107.9
+          ],
+          "curb_weight_lb": [
+            2895,
+            3067
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 1.5L 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1391,
+            "curb_weight_lb": 3067,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 1.5L 5DR HATCH",
+            "length_mm": 4550,
+            "length_in": 179.1,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2730,
+            "wheelbase_in": 107.5,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1360,
+            "curb_weight_lb": 2998,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 2.0L 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1333,
+            "curb_weight_lb": 2939,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 2.0L 5DR HATCH",
+            "length_mm": 4550,
+            "length_in": 179.1,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2730,
+            "wheelbase_in": 107.5,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1313,
+            "curb_weight_lb": 2895,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2022
+          }
+        ]
+      }
+    },
+    "2025": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4550,
+            4670
+          ],
+          "width_mm": [
+            1800,
+            1800
+          ],
+          "height_mm": [
+            1410,
+            1420
+          ],
+          "wheelbase_mm": [
+            2730,
+            2740
+          ],
+          "track_front_mm": [
+            1550,
+            1630
+          ],
+          "track_rear_mm": [
+            1580,
+            1610
+          ],
+          "curb_weight_kg": [
+            1313,
+            1462
+          ],
+          "length_in": [
+            179.1,
+            183.9
+          ],
+          "width_in": [
+            70.9,
+            70.9
+          ],
+          "height_in": [
+            55.5,
+            55.9
+          ],
+          "wheelbase_in": [
+            107.5,
+            107.9
+          ],
+          "curb_weight_lb": [
+            2895,
+            3223
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 1.5L 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1391,
+            "curb_weight_lb": 3067,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 1.5L 5DR HATCH",
+            "length_mm": 4550,
+            "length_in": 179.1,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2730,
+            "wheelbase_in": 107.5,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1360,
+            "curb_weight_lb": 2998,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 2.0L 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1333,
+            "curb_weight_lb": 2939,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 2.0L 5DR HATCH",
+            "length_mm": 4550,
+            "length_in": 179.1,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2730,
+            "wheelbase_in": 107.5,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1313,
+            "curb_weight_lb": 2895,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1462,
+            "curb_weight_lb": 3223,
+            "weight_dist_front_pct": 64,
+            "weight_dist_rear_pct": 36,
+            "measured_model_year": 2025
+          },
+          {
+            "name": "CIVIC TYPE-R 4DR HATCH",
+            "length_mm": 4590,
+            "length_in": 180.7,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1410,
+            "height_in": 55.5,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1630,
+            "track_front_in": 64.2,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1447,
+            "curb_weight_lb": 3190,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2025
+          }
+        ]
+      }
+    },
+    "2026": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4550,
+            4670
+          ],
+          "width_mm": [
+            1800,
+            1800
+          ],
+          "height_mm": [
+            1410,
+            1420
+          ],
+          "wheelbase_mm": [
+            2730,
+            2740
+          ],
+          "track_front_mm": [
+            1550,
+            1630
+          ],
+          "track_rear_mm": [
+            1580,
+            1610
+          ],
+          "curb_weight_kg": [
+            1313,
+            1462
+          ],
+          "length_in": [
+            179.1,
+            183.9
+          ],
+          "width_in": [
+            70.9,
+            70.9
+          ],
+          "height_in": [
+            55.5,
+            55.9
+          ],
+          "wheelbase_in": [
+            107.5,
+            107.9
+          ],
+          "curb_weight_lb": [
+            2895,
+            3223
+          ]
+        },
+        "variants": [
+          {
+            "name": "CIVIC 1.5L 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1391,
+            "curb_weight_lb": 3067,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 1.5L 5DR HATCH",
+            "length_mm": 4550,
+            "length_in": 179.1,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2730,
+            "wheelbase_in": 107.5,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1360,
+            "curb_weight_lb": 2998,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 2.0L 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1333,
+            "curb_weight_lb": 2939,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC 2.0L 5DR HATCH",
+            "length_mm": 4550,
+            "length_in": 179.1,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2730,
+            "wheelbase_in": 107.5,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1313,
+            "curb_weight_lb": 2895,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2022
+          },
+          {
+            "name": "CIVIC HYBRID 4DR SEDAN",
+            "length_mm": 4670,
+            "length_in": 183.9,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1462,
+            "curb_weight_lb": 3223,
+            "weight_dist_front_pct": 64,
+            "weight_dist_rear_pct": 36,
+            "measured_model_year": 2025
+          },
+          {
+            "name": "CIVIC TYPE-R 4DR HATCH",
+            "length_mm": 4590,
+            "length_in": 180.7,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1410,
+            "height_in": 55.5,
+            "wheelbase_mm": 2740,
+            "wheelbase_in": 107.9,
+            "track_front_mm": 1630,
+            "track_front_in": 64.2,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1447,
+            "curb_weight_lb": 3190,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2025
+          }
+        ]
+      }
+    }
+  }
+}

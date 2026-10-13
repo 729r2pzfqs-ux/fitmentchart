@@ -1,0 +1,509 @@
+{
+  "make": "Chevrolet",
+  "model": "Silverado 1500",
+  "slug": "chevrolet/silverado-1500",
+  "body": "pickup",
+  "vpic": {
+    "make_id": 467,
+    "model_names": [
+      "Silverado",
+      "Silverado LD"
+    ],
+    "model_ids": [
+      1850,
+      25279
+    ],
+    "by_year": {
+      "2005": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2006": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2007": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2008": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2009": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2010": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2011": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2012": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2013": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2014": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2015": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2016": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2017": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2018": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2019": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          },
+          {
+            "name": "Silverado LD",
+            "id": 25279
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2020": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2021": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2022": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2023": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2024": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2025": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      },
+      "2026": {
+        "models": [
+          {
+            "name": "Silverado",
+            "id": 1850
+          }
+        ],
+        "body": [
+          "pickup"
+        ]
+      }
+    }
+  },
+  "years": {
+    "2005": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2006": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2007": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2008": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2009": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2010": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2011": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2012": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2013": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2014": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2015": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2016": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2017": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2018": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2019": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2020": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2021": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2022": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2023": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2024": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2025": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2026": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    }
+  }
+}

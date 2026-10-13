@@ -1,0 +1,563 @@
+{
+  "make": "Honda",
+  "model": "Civic",
+  "slug": "honda/civic",
+  "body": "car",
+  "vpic": {
+    "make_id": 474,
+    "model_names": [
+      "Civic",
+      "Civic Si",
+      "Civic Type R"
+    ],
+    "model_ids": [
+      1863,
+      29417,
+      31535
+    ],
+    "by_year": {
+      "2005": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2006": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2007": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2008": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2009": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2010": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2011": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2012": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2013": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2014": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2015": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2016": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2017": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          },
+          {
+            "name": "Civic Type R",
+            "id": 31535
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2018": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          },
+          {
+            "name": "Civic Type R",
+            "id": 31535
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2019": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          },
+          {
+            "name": "Civic Type R",
+            "id": 31535
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2020": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          },
+          {
+            "name": "Civic Type R",
+            "id": 31535
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2021": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          },
+          {
+            "name": "Civic Type R",
+            "id": 31535
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2022": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          },
+          {
+            "name": "Civic Si",
+            "id": 29417
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2023": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          },
+          {
+            "name": "Civic Si",
+            "id": 29417
+          },
+          {
+            "name": "Civic Type R",
+            "id": 31535
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2024": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          },
+          {
+            "name": "Civic Si",
+            "id": 29417
+          },
+          {
+            "name": "Civic Type R",
+            "id": 31535
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2025": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          },
+          {
+            "name": "Civic Si",
+            "id": 29417
+          },
+          {
+            "name": "Civic Type R",
+            "id": 31535
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2026": {
+        "models": [
+          {
+            "name": "Civic",
+            "id": 1863
+          },
+          {
+            "name": "Civic Si",
+            "id": 29417
+          },
+          {
+            "name": "Civic Type R",
+            "id": 31535
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      }
+    }
+  },
+  "years": {
+    "2005": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2006": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2007": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2008": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2009": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2010": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2011": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2012": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2013": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2014": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2015": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2016": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2017": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2018": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2019": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2020": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2021": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2022": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2023": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2024": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2025": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2026": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    }
+  }
+}

@@ -79,11 +79,14 @@ def generation_for(slug: str, year: int, gens: dict | None = None) -> list[dict]
 # --------------------------------------------------------------------------- HTTP
 
 def get_json(url: str, params: dict | None = None, *, refresh: bool = False,
-             retries: int = 5, accept_empty: bool = False) -> dict:
+             retries: int = 5, accept_empty: bool = False,
+             ok_status: tuple[int, ...] = (200,)) -> dict:
     """GET a JSON endpoint with an on-disk cache and retry/backoff.
 
     NHTSA endpoints intermittently answer 200 with an empty body when hit in
     quick succession, so an empty/invalid body is treated as retryable.
+    `ok_status` lists extra statuses whose JSON body is a valid answer (NHTSA
+    recalls answers 400 + {"Count":0,"results":[]} for a name with no recalls).
     """
     req = requests.Request("GET", url, params=params).prepare()
     key = hashlib.sha1(req.url.encode()).hexdigest()
@@ -98,7 +101,8 @@ def get_json(url: str, params: dict | None = None, *, refresh: bool = False,
             if r.status_code == 404 and accept_empty:
                 body = {}
                 break
-            r.raise_for_status()
+            if r.status_code not in ok_status:
+                r.raise_for_status()
             body = r.json()
             break
         except (requests.RequestException, ValueError) as e:

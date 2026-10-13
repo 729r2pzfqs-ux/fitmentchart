@@ -1,0 +1,3243 @@
+{
+  "slug": "toyota/tacoma",
+  "source": {
+    "name": "Transport Canada Canadian Vehicle Specifications via NHTSA vPIC",
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetCanadianVehicleSpecifications/"
+  },
+  "years": {
+    "2005": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3250,
+            3570
+          ],
+          "track_front_mm": [
+            1610,
+            1610
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1567,
+            1873
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            128.0,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3455,
+            4129
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX 4WD/V6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1567,
+            "curb_weight_lb": 3455,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5300,
+            "length_in": 208.7,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3260,
+            "wheelbase_in": 128.3,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1837,
+            "curb_weight_lb": 4050,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA PRERUNNER P/U EXT CAB L/BOX RWD",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1767,
+            "curb_weight_lb": 3896,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2006": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3250,
+            3570
+          ],
+          "track_front_mm": [
+            1610,
+            1610
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1567,
+            1873
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            128.0,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3455,
+            4129
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX 4WD/V6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1567,
+            "curb_weight_lb": 3455,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5300,
+            "length_in": 208.7,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3260,
+            "wheelbase_in": 128.3,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1837,
+            "curb_weight_lb": 4050,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA PRERUNNER P/U EXT CAB L/BOX RWD",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1767,
+            "curb_weight_lb": 3896,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2007": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3250,
+            3570
+          ],
+          "track_front_mm": [
+            1610,
+            1610
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1567,
+            1873
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            128.0,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3455,
+            4129
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX 4WD/V6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1567,
+            "curb_weight_lb": 3455,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5300,
+            "length_in": 208.7,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3260,
+            "wheelbase_in": 128.3,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1837,
+            "curb_weight_lb": 4050,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA PRERUNNER P/U EXT CAB L/BOX RWD",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1767,
+            "curb_weight_lb": 3896,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2008": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3250,
+            3570
+          ],
+          "track_front_mm": [
+            1610,
+            1610
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1567,
+            1873
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            128.0,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3455,
+            4129
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX 4WD/V6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1567,
+            "curb_weight_lb": 3455,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5300,
+            "length_in": 208.7,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3260,
+            "wheelbase_in": 128.3,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1837,
+            "curb_weight_lb": 4050,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA PRERUNNER P/U EXT CAB L/BOX RWD",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1767,
+            "curb_weight_lb": 3896,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2009": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3250,
+            3570
+          ],
+          "track_front_mm": [
+            1610,
+            1610
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1567,
+            1873
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            128.0,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3455,
+            4129
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX 4WD/V6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1567,
+            "curb_weight_lb": 3455,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5300,
+            "length_in": 208.7,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3260,
+            "wheelbase_in": 128.3,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1837,
+            "curb_weight_lb": 4050,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA PRERUNNER P/U EXT CAB L/BOX RWD",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1767,
+            "curb_weight_lb": 3896,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2010": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3250,
+            3570
+          ],
+          "track_front_mm": [
+            1610,
+            1610
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1567,
+            1873
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            128.0,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3455,
+            4129
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX 4WD/V6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1791,
+            "curb_weight_lb": 3948,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA ACCESS P/U EXT CAB S/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1567,
+            "curb_weight_lb": 3455,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5300,
+            "length_in": 208.7,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3260,
+            "wheelbase_in": 128.3,
+            "track_front_mm": 1610,
+            "track_front_in": 63.4,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1837,
+            "curb_weight_lb": 4050,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2011": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3250,
+            3570
+          ],
+          "track_front_mm": [
+            1550,
+            1600
+          ],
+          "track_rear_mm": [
+            1550,
+            1610
+          ],
+          "curb_weight_kg": [
+            1614,
+            1900
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            128.0,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3558,
+            4189
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1900,
+            "curb_weight_lb": 4189,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5300,
+            "length_in": 208.7,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3260,
+            "wheelbase_in": 128.3,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1837,
+            "curb_weight_lb": 4050,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX 4WD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1794,
+            "curb_weight_lb": 3955,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX 4WD V-6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1834,
+            "curb_weight_lb": 4043,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1550,
+            "track_rear_in": 61.0,
+            "curb_weight_kg": 1614,
+            "curb_weight_lb": 3558,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2012": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3250,
+            3570
+          ],
+          "track_front_mm": [
+            1550,
+            1600
+          ],
+          "track_rear_mm": [
+            1550,
+            1610
+          ],
+          "curb_weight_kg": [
+            1614,
+            1900
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            128.0,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3558,
+            4189
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1900,
+            "curb_weight_lb": 4189,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5300,
+            "length_in": 208.7,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX 4WD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1794,
+            "curb_weight_lb": 3955,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX 4WD V-6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1834,
+            "curb_weight_lb": 4043,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1550,
+            "track_rear_in": 61.0,
+            "curb_weight_kg": 1614,
+            "curb_weight_lb": 3558,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2013": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3250,
+            3570
+          ],
+          "track_front_mm": [
+            1550,
+            1600
+          ],
+          "track_rear_mm": [
+            1550,
+            1610
+          ],
+          "curb_weight_kg": [
+            1644,
+            1914
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            128.0,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3624,
+            4220
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1914,
+            "curb_weight_lb": 4220,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1887,
+            "curb_weight_lb": 4160,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX 4WD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1823,
+            "curb_weight_lb": 4019,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX 4WD V-6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1860,
+            "curb_weight_lb": 4101,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1550,
+            "track_rear_in": 61.0,
+            "curb_weight_kg": 1644,
+            "curb_weight_lb": 3624,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2014": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3250,
+            3570
+          ],
+          "track_front_mm": [
+            1550,
+            1600
+          ],
+          "track_rear_mm": [
+            1550,
+            1610
+          ],
+          "curb_weight_kg": [
+            1644,
+            1914
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            128.0,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3624,
+            4220
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1914,
+            "curb_weight_lb": 4220,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE P/U EXT CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1887,
+            "curb_weight_lb": 4160,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX 4WD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1823,
+            "curb_weight_lb": 4019,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX 4WD V-6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1860,
+            "curb_weight_lb": 4101,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA P/U ACCESS CAB L/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3250,
+            "wheelbase_in": 128.0,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1550,
+            "track_rear_in": 61.0,
+            "curb_weight_kg": 1644,
+            "curb_weight_lb": 3624,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2015": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5290,
+            5620
+          ],
+          "width_mm": [
+            1840,
+            1900
+          ],
+          "height_mm": [
+            1670,
+            1780
+          ],
+          "wheelbase_mm": [
+            3240,
+            3570
+          ],
+          "track_front_mm": [
+            1550,
+            1600
+          ],
+          "track_rear_mm": [
+            1550,
+            1610
+          ],
+          "curb_weight_kg": [
+            1635,
+            1914
+          ],
+          "length_in": [
+            208.3,
+            221.3
+          ],
+          "width_in": [
+            72.4,
+            74.8
+          ],
+          "height_in": [
+            65.7,
+            70.1
+          ],
+          "wheelbase_in": [
+            127.6,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3605,
+            4220
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1814,
+            "curb_weight_lb": 3999,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD V-6",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1848,
+            "curb_weight_lb": 4074,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA ACCESS CAB L/BOX RWD",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1670,
+            "height_in": 65.7,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1550,
+            "track_front_in": 61.0,
+            "track_rear_mm": 1550,
+            "track_rear_in": 61.0,
+            "curb_weight_kg": 1635,
+            "curb_weight_lb": 3605,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5620,
+            "length_in": 221.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1914,
+            "curb_weight_lb": 4220,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5290,
+            "length_in": 208.3,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1780,
+            "height_in": 70.1,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1887,
+            "curb_weight_lb": 4160,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2005
+          }
+        ]
+      }
+    },
+    "2016": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5390,
+            5720
+          ],
+          "width_mm": [
+            1890,
+            1900
+          ],
+          "height_mm": [
+            1790,
+            1790
+          ],
+          "wheelbase_mm": [
+            3240,
+            3570
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1775,
+            1984
+          ],
+          "length_in": [
+            212.2,
+            225.2
+          ],
+          "width_in": [
+            74.4,
+            74.8
+          ],
+          "height_in": [
+            70.5,
+            70.5
+          ],
+          "wheelbase_in": [
+            127.6,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3913,
+            4374
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD V-6",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1927,
+            "curb_weight_lb": 4248,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA ACCESS CAB L/BOX RWD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1890,
+            "width_in": 74.4,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1775,
+            "curb_weight_lb": 3913,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5720,
+            "length_in": 225.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1975,
+            "curb_weight_lb": 4354,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1984,
+            "curb_weight_lb": 4374,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2017": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5390,
+            5720
+          ],
+          "width_mm": [
+            1890,
+            1900
+          ],
+          "height_mm": [
+            1790,
+            1790
+          ],
+          "wheelbase_mm": [
+            3240,
+            3570
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1775,
+            1984
+          ],
+          "length_in": [
+            212.2,
+            225.2
+          ],
+          "width_in": [
+            74.4,
+            74.8
+          ],
+          "height_in": [
+            70.5,
+            70.5
+          ],
+          "wheelbase_in": [
+            127.6,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3913,
+            4374
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD V-6",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1927,
+            "curb_weight_lb": 4248,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA ACCESS CAB L/BOX RWD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1890,
+            "width_in": 74.4,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1775,
+            "curb_weight_lb": 3913,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5720,
+            "length_in": 225.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1975,
+            "curb_weight_lb": 4354,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1984,
+            "curb_weight_lb": 4374,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2018": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5390,
+            5720
+          ],
+          "width_mm": [
+            1890,
+            1900
+          ],
+          "height_mm": [
+            1790,
+            1790
+          ],
+          "wheelbase_mm": [
+            3240,
+            3570
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1775,
+            1984
+          ],
+          "length_in": [
+            212.2,
+            225.2
+          ],
+          "width_in": [
+            74.4,
+            74.8
+          ],
+          "height_in": [
+            70.5,
+            70.5
+          ],
+          "wheelbase_in": [
+            127.6,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3913,
+            4374
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD V-6",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1927,
+            "curb_weight_lb": 4248,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA ACCESS CAB L/BOX RWD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1890,
+            "width_in": 74.4,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1775,
+            "curb_weight_lb": 3913,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5720,
+            "length_in": 225.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1975,
+            "curb_weight_lb": 4354,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1984,
+            "curb_weight_lb": 4374,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2019": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5390,
+            5720
+          ],
+          "width_mm": [
+            1890,
+            1900
+          ],
+          "height_mm": [
+            1790,
+            1790
+          ],
+          "wheelbase_mm": [
+            3240,
+            3570
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1775,
+            1984
+          ],
+          "length_in": [
+            212.2,
+            225.2
+          ],
+          "width_in": [
+            74.4,
+            74.8
+          ],
+          "height_in": [
+            70.5,
+            70.5
+          ],
+          "wheelbase_in": [
+            127.6,
+            140.6
+          ],
+          "curb_weight_lb": [
+            3913,
+            4374
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1873,
+            "curb_weight_lb": 4129,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD V-6",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1927,
+            "curb_weight_lb": 4248,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA ACCESS CAB L/BOX RWD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1890,
+            "width_in": 74.4,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1775,
+            "curb_weight_lb": 3913,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD (AUTO)",
+            "length_mm": 5720,
+            "length_in": 225.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1975,
+            "curb_weight_lb": 4354,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD (MANUAL)",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1984,
+            "curb_weight_lb": 4374,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2020": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5390,
+            5720
+          ],
+          "width_mm": [
+            1900,
+            1900
+          ],
+          "height_mm": [
+            1790,
+            1790
+          ],
+          "wheelbase_mm": [
+            3240,
+            3570
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1948,
+            2032
+          ],
+          "length_in": [
+            212.2,
+            225.2
+          ],
+          "width_in": [
+            74.8,
+            74.8
+          ],
+          "height_in": [
+            70.5,
+            70.5
+          ],
+          "wheelbase_in": [
+            127.6,
+            140.6
+          ],
+          "curb_weight_lb": [
+            4295,
+            4480
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1948,
+            "curb_weight_lb": 4295,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD",
+            "length_mm": 5720,
+            "length_in": 225.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 2032,
+            "curb_weight_lb": 4480,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 2007,
+            "curb_weight_lb": 4425,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2021": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5390,
+            5720
+          ],
+          "width_mm": [
+            1900,
+            1900
+          ],
+          "height_mm": [
+            1790,
+            1790
+          ],
+          "wheelbase_mm": [
+            3240,
+            3570
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1948,
+            2032
+          ],
+          "length_in": [
+            212.2,
+            225.2
+          ],
+          "width_in": [
+            74.8,
+            74.8
+          ],
+          "height_in": [
+            70.5,
+            70.5
+          ],
+          "wheelbase_in": [
+            127.6,
+            140.6
+          ],
+          "curb_weight_lb": [
+            4295,
+            4480
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1948,
+            "curb_weight_lb": 4295,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD",
+            "length_mm": 5720,
+            "length_in": 225.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 2032,
+            "curb_weight_lb": 4480,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 2007,
+            "curb_weight_lb": 4425,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2022": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5390,
+            5720
+          ],
+          "width_mm": [
+            1900,
+            1900
+          ],
+          "height_mm": [
+            1790,
+            1790
+          ],
+          "wheelbase_mm": [
+            3240,
+            3570
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1948,
+            2032
+          ],
+          "length_in": [
+            212.2,
+            225.2
+          ],
+          "width_in": [
+            74.8,
+            74.8
+          ],
+          "height_in": [
+            70.5,
+            70.5
+          ],
+          "wheelbase_in": [
+            127.6,
+            140.6
+          ],
+          "curb_weight_lb": [
+            4295,
+            4480
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1948,
+            "curb_weight_lb": 4295,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD",
+            "length_mm": 5720,
+            "length_in": 225.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 2032,
+            "curb_weight_lb": 4480,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 2007,
+            "curb_weight_lb": 4425,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2023": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5390,
+            5720
+          ],
+          "width_mm": [
+            1900,
+            1900
+          ],
+          "height_mm": [
+            1790,
+            1790
+          ],
+          "wheelbase_mm": [
+            3240,
+            3570
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1610,
+            1610
+          ],
+          "curb_weight_kg": [
+            1948,
+            2032
+          ],
+          "length_in": [
+            212.2,
+            225.2
+          ],
+          "width_in": [
+            74.8,
+            74.8
+          ],
+          "height_in": [
+            70.5,
+            70.5
+          ],
+          "wheelbase_in": [
+            127.6,
+            140.6
+          ],
+          "curb_weight_lb": [
+            4295,
+            4480
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA ACCESS CAB L/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 1948,
+            "curb_weight_lb": 4295,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD",
+            "length_mm": 5720,
+            "length_in": 225.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3570,
+            "wheelbase_in": 140.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 2032,
+            "curb_weight_lb": 4480,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD",
+            "length_mm": 5390,
+            "length_in": 212.2,
+            "width_mm": 1900,
+            "width_in": 74.8,
+            "height_mm": 1790,
+            "height_in": 70.5,
+            "wheelbase_mm": 3240,
+            "wheelbase_in": 127.6,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1610,
+            "track_rear_in": 63.4,
+            "curb_weight_kg": 2007,
+            "curb_weight_lb": 4425,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2016
+          }
+        ]
+      }
+    },
+    "2024": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5410,
+            5750
+          ],
+          "width_mm": [
+            1950,
+            1950
+          ],
+          "height_mm": [
+            1880,
+            1880
+          ],
+          "wheelbase_mm": [
+            3350,
+            3690
+          ],
+          "track_front_mm": [
+            1670,
+            1670
+          ],
+          "track_rear_mm": [
+            1680,
+            1680
+          ],
+          "curb_weight_kg": [
+            1880,
+            2315
+          ],
+          "length_in": [
+            213.0,
+            226.4
+          ],
+          "width_in": [
+            76.8,
+            76.8
+          ],
+          "height_in": [
+            74.0,
+            74.0
+          ],
+          "wheelbase_in": [
+            131.9,
+            145.3
+          ],
+          "curb_weight_lb": [
+            4145,
+            5104
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA DOUBLE CAB HYBRID",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2315,
+            "curb_weight_lb": 5104,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 2WD",
+            "length_mm": 5750,
+            "length_in": 226.4,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3690,
+            "wheelbase_in": 145.3,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1980,
+            "curb_weight_lb": 4365,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD",
+            "length_mm": 5750,
+            "length_in": 226.4,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3690,
+            "wheelbase_in": 145.3,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2140,
+            "curb_weight_lb": 4718,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 2WD",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1935,
+            "curb_weight_lb": 4266,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2034,
+            "curb_weight_lb": 4484,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA XTRA CAB L/BOX 2WD",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1880,
+            "curb_weight_lb": 4145,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA XTRA CAB L/BOX 4WD",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1984,
+            "curb_weight_lb": 4374,
+            "measured_model_year": 2024
+          }
+        ]
+      }
+    },
+    "2025": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5410,
+            5750
+          ],
+          "width_mm": [
+            1950,
+            1950
+          ],
+          "height_mm": [
+            1880,
+            1880
+          ],
+          "wheelbase_mm": [
+            3350,
+            3690
+          ],
+          "track_front_mm": [
+            1670,
+            1670
+          ],
+          "track_rear_mm": [
+            1680,
+            1680
+          ],
+          "curb_weight_kg": [
+            1984,
+            2315
+          ],
+          "length_in": [
+            213.0,
+            226.4
+          ],
+          "width_in": [
+            76.8,
+            76.8
+          ],
+          "height_in": [
+            74.0,
+            74.0
+          ],
+          "wheelbase_in": [
+            131.9,
+            145.3
+          ],
+          "curb_weight_lb": [
+            4374,
+            5104
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA DOUBLE CAB HYBRID",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2315,
+            "curb_weight_lb": 5104,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD",
+            "length_mm": 5750,
+            "length_in": 226.4,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3690,
+            "wheelbase_in": 145.3,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2140,
+            "curb_weight_lb": 4718,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2034,
+            "curb_weight_lb": 4484,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA XTRA CAB L/BOX 4WD",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1984,
+            "curb_weight_lb": 4374,
+            "measured_model_year": 2024
+          }
+        ]
+      }
+    },
+    "2026": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            5410,
+            5750
+          ],
+          "width_mm": [
+            1950,
+            1950
+          ],
+          "height_mm": [
+            1880,
+            1880
+          ],
+          "wheelbase_mm": [
+            3350,
+            3690
+          ],
+          "track_front_mm": [
+            1670,
+            1670
+          ],
+          "track_rear_mm": [
+            1680,
+            1680
+          ],
+          "curb_weight_kg": [
+            1984,
+            2315
+          ],
+          "length_in": [
+            213.0,
+            226.4
+          ],
+          "width_in": [
+            76.8,
+            76.8
+          ],
+          "height_in": [
+            74.0,
+            74.0
+          ],
+          "wheelbase_in": [
+            131.9,
+            145.3
+          ],
+          "curb_weight_lb": [
+            4374,
+            5104
+          ]
+        },
+        "variants": [
+          {
+            "name": "TACOMA DOUBLE CAB HYBRID",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2315,
+            "curb_weight_lb": 5104,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA DOUBLE CAB L/BOX 4WD",
+            "length_mm": 5750,
+            "length_in": 226.4,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3690,
+            "wheelbase_in": 145.3,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2140,
+            "curb_weight_lb": 4718,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA DOUBLE CAB S/BOX 4WD",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 2034,
+            "curb_weight_lb": 4484,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "TACOMA XTRA CAB L/BOX 4WD",
+            "length_mm": 5410,
+            "length_in": 213.0,
+            "width_mm": 1950,
+            "width_in": 76.8,
+            "height_mm": 1880,
+            "height_in": 74.0,
+            "wheelbase_mm": 3350,
+            "wheelbase_in": 131.9,
+            "track_front_mm": 1670,
+            "track_front_in": 65.7,
+            "track_rear_mm": 1680,
+            "track_rear_in": 66.1,
+            "curb_weight_kg": 1984,
+            "curb_weight_lb": 4374,
+            "measured_model_year": 2024
+          }
+        ]
+      }
+    }
+  }
+}

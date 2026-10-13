@@ -60,8 +60,24 @@ for s in pipeline/0*.py; do .venv/bin/python "$s" || break; done
   - Licence: CC BY 4.0. Pages must credit "ANKUSI Wheel Fitment Dataset" with a link.
   - The year column can be a range (`2017-2025`, en dash too).
   - `oe_wheel` is free text.
-- EPA `vehicles.csv` has no horsepower. HP comes from the EPA "Data on Cars Used for Testing Fuel Economy" files (one per model year, CSV to 2016, XLSX after). Those are scraped from the EPA page, so the file URLs change.
-- NHTSA recall/complaint model names drift by year ("SILVERADO" → "SILVERADO 1500" / "SILVERADO LD 1500"; "WRANGLER" + "WRANGLER UNLIMITED"). Step 06 discovers the names via `/products/vehicle/models`, queries each one and dedupes by campaign number / ODI number.
+- EPA `vehicles.csv` has no horsepower. HP comes from the EPA "Data on Cars Used for Testing Fuel Economy" files. Those are scraped from the EPA page, so the file URLs change.
+  - There's one file per model year: CSV up to 2016, XLSX after.
+  - 2005-2009 use the old column names: `CL_NM` carline, `GBE_CID_MSR` displacement in cubic inches, a fuel code, and the manufacturer instead of the make.
+  - Joining: test cars have no turbo flag, so displacement + cylinders can't tell a 2.0 from a 2.0 turbo. The primary join matches the test result (FTP/HWY, rounded to 0.1 mpg) to vehicles.csv `UCity`/`UHighway` within 0.6%.
+  - Fallback is model-name tokens. `FFV` stays a meaningful token: Ford's "F-150 FFV" separates the 3.5 NA from the EcoBoost.
+  - `hp_match` records the method: `fe` / `name` / `mixed`.
+  - The test-car data has manufacturer typos. The 2018 F-150 2.7L lists "400" HP, which is its torque. `reject_hp_outliers` moves values that contradict both neighbouring years into `hp_rejected`. It never substitutes a value.
+  - GM is absent from the 2010 file entirely, so 2010 Silverado HP is a real gap.
+- NHTSA recall/complaint model names drift by year ("SILVERADO" → "SILVERADO 1500" / "SILVERADO LD 1500"; "WRANGLER" + "WRANGLER UNLIMITED").
+  - Step 06 discovers the names via `/products/vehicle/models`, adds the `always` names from makes.yaml, queries each one, and dedupes by campaign number / ODI number.
+  - The discovery list is incomplete: 2010 shows only "TACOMA ACCESS CAB" etc., while the recalls are filed under plain "TACOMA".
+  - The recalls endpoint answers HTTP 400 with a valid empty JSON body for a name with no recalls. `get_json(ok_status=...)` accepts that.
+- NCAP before MY2011 has no overall rating, only frontal / side / rollover stars.
 - Pre-2019 NHTSA "SILVERADO" records can include HD trucks. They can't be separated.
 - NHTSA APIs sometimes return an empty 200 body. `common.get_json` retries with backoff.
 - CVS (`GetCanadianVehicleSpecifications`) values are metric: cm and kg. Step 03 converts them to mm and inches.
+  - The 2005-06 Wrangler is listed as "TJ ...".
+  - `measured_model_year` is often older than the query year, because CVS reuses measurements for unchanged years.
+- ANKUSI is a sparse sample of years and trims, so most years are filled by generation inference.
+  - Regional rows tagged [EU] / [UK] are skipped.
+  - The Civic Type R's 5x120 is kept as a `trim_exceptions` entry; the Civic itself is 5x114.3.

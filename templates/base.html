@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ title }}{% endblock %}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ site_url }}{{ path }}">
+<link rel="stylesheet" href="/static/css/site.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/">FitmentChart</a>
+  <nav><a href="/">All vehicles</a></nav>
+</header>
+<main>
+{% if crumbs %}<nav class="crumbs" aria-label="Breadcrumb">{% for href, label in crumbs %}{% if not loop.last %}<a href="{{ href }}">{{ label }}</a> / {% else %}<span>{{ label }}</span>{% endif %}{% endfor %}</nav>{% endif %}
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <p>Data sources: NHTSA vPIC, recalls, complaints &amp; NCAP; EPA fueleconomy.gov and fuel-economy test-car data;
+  Transport Canada Canadian Vehicle Specifications (via NHTSA);
+  <a href="https://ankusiwheels.com/wheel-fitment-dataset/">ANKUSI Wheel Fitment Dataset</a>
+  (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).
+  Always confirm fitment against your vehicle's placard or owner's manual.</p>
+</footer>
+</body>
+</html>
