@@ -1,0 +1,403 @@
+{
+  "slug": "honda/civic",
+  "source": {
+    "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
+    "file": "data/manuals/honda/civic.yaml",
+    "documents": 14,
+    "document_types": [
+      "aftermarket_fitment",
+      "oem_manual"
+    ]
+  },
+  "notes": [],
+  "years": {
+    "2005": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2005 Honda Civic Owner's Manual (31S5A640), section 00142: Driving: Towing a Trailer",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00142A.pdf",
+              "type": "oem_manual",
+              "page": 3,
+              "quote": "Your vehicle is not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "DX, Canadian SE",
+          "size": "P185/70R14",
+          "load_speed": "87S",
+          "src": [
+            {
+              "doc": "2005 Honda Civic Owner's Manual (31S5A640), section 00206: Technical Information: Specifications",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00206A.pdf",
+              "type": "oem_manual",
+              "page": 4,
+              "quote": "P185/70R14 87S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Canadian LX-G",
+          "size": "P185/65R15",
+          "load_speed": "86H",
+          "src": [
+            {
+              "doc": "2005 Honda Civic Owner's Manual (31S5A640), section 00206: Technical Information: Specifications",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00206A.pdf",
+              "type": "oem_manual",
+              "page": 4,
+              "quote": "P185/65R15 86H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "U.S. LX, EX; Canadian Si",
+          "size": "P195/60R15",
+          "load_speed": "87H",
+          "src": [
+            {
+              "doc": "2005 Honda Civic Owner's Manual (31S5A640), section 00206: Technical Information: Specifications",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00206A.pdf",
+              "type": "oem_manual",
+              "page": 4,
+              "quote": "P195/60R15 87H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.7,
+            "engine": "1.7 L SOHC (DX, LX, Canadian SE, LX-G)",
+            "grade": "5W-20",
+            "capacity_qt": 3.4,
+            "capacity_l": 3.2,
+            "src": [
+              {
+                "doc": "2005 Honda Civic Owner's Manual (31S5A640), section 00206: Technical Information: Specifications",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00206A.pdf",
+                "type": "oem_manual",
+                "page": 3,
+                "quote": "Including filter 3.4 US qt (3.2",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2005 Honda Civic Owner's Manual (31S5A640), section 00206: Technical Information: Specifications",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00206A.pdf",
+                "type": "oem_manual",
+                "page": 3,
+                "quote": "＊3 : DX, LX, Canadian SE, LX-G",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2005 Honda Civic Owner's Manual (31S5A640), section 00153: Maintenance: Engine Oil",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00153A.pdf",
+                "type": "oem_manual",
+                "page": 2,
+                "quote": "5W-20 oil is formulated for yearround protection of your Honda",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.7,
+            "engine": "1.7 L SOHC VTEC (EX, Canadian Si)",
+            "grade": "5W-20",
+            "capacity_qt": 3.7,
+            "capacity_l": 3.5,
+            "src": [
+              {
+                "doc": "2005 Honda Civic Owner's Manual (31S5A640), section 00206: Technical Information: Specifications",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00206A.pdf",
+                "type": "oem_manual",
+                "page": 3,
+                "quote": "3.7 US qt (3.5",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2005 Honda Civic Owner's Manual (31S5A640), section 00206: Technical Information: Specifications",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00206A.pdf",
+                "type": "oem_manual",
+                "page": 3,
+                "quote": "＊4 : EX, Canadian Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2005 Honda Civic Owner's Manual (31S5A640), section 00153: Maintenance: Engine Oil",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00153A.pdf",
+                "type": "oem_manual",
+                "page": 2,
+                "quote": "5W-20 oil is formulated for yearround protection of your Honda",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 24,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2005 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2016": {
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 17,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2016 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2016 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 17\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2017": {
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 17,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2017 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2017 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 17\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2018": {
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 18,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2018 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2018 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 18\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2019": {
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 18,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2019 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2019 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 18\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2020": {
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 18,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2020 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2020 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 18\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2021": {
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 18,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2021 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2021 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 18\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2022": {
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 19,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2022 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2022 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 19\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2024": {
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 19,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2024 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2024 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 19\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2025": {
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 19,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2025 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2025 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 19\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2026": {
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 19,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2026 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2026 Honda Civic",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Honda&bf-model=Civic",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 19\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    }
+  }
+}

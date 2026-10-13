@@ -20,6 +20,8 @@ dl.specs dd { margin: 0; }
 table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
 th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { background: var(--soft); font-weight: 600; white-space: nowrap; }
+.cite { font-size: 0.8em; color: var(--muted); }
+.cite a { color: var(--muted); }
 .recalls li { margin-bottom: 4px; }
 .year-nav { display: flex; justify-content: space-between; gap: 12px; margin: 2.5em 0 1em; }
 .site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; padding: 16px; max-width: 960px; margin: 2em auto 0; }

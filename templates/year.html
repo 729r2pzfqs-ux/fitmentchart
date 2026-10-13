@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% macro cite(src) %}<span class="cite">{% set seen = [] %}{% for c in src %}{% set k = c.doc ~ "|" ~ c.page %}{% if k not in seen %}{% if seen %}; {% endif %}{% do seen.append(k) %}<a href="{{ c.url }}" title="{{ c.quote }}">{{ c.doc }}{% if c.page %}, p. {{ c.page }}{% endif %}</a>{% endif %}{% endfor %}</span>{% endmacro %}
 {% block content %}
 <h1>{{ year }} {{ m.make }} {{ m.model }} specs &amp; fitment</h1>
 {% if y.generation %}<p class="lede">{{ y.generation|join(" / ") }}{% if y.dims.summary and y.dims.summary.curb_weight_lb %} · curb weight {{ y.dims.summary.curb_weight_lb|join("–") }} lb{% endif %}</p>{% endif %}
@@ -43,6 +44,76 @@
     </tbody>
   </table>
   </div>
+</section>
+{% endif %}
+
+{% if y.towing %}
+<section>
+  <h2>Towing capacity</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Configuration</th><th>Max trailer</th><th>Tongue</th><th>GCWR</th><th>Required</th><th>Source</th></tr></thead>
+    <tbody>{% for t in y.towing %}
+      <tr>
+        <td>{{ [t.engine or (t.displacement_l ~ "L" if t.displacement_l else ""), t.drive, t.cab, t.bed, t.trim, t.axle]|select|join(", ") or "All" }}{% if t.note %} <span class="muted">({{ t.note }})</span>{% endif %}</td>
+        <td>{% if t.max_lb %}{{ "{:,}".format(t.max_lb) }} lb{% else %}Not rated{% endif %}</td>
+        <td>{% if t.tongue_lb %}{{ "{:,}".format(t.tongue_lb) }} lb{% else %}—{% endif %}</td>
+        <td>{% if t.gcwr_lb %}{{ "{:,}".format(t.gcwr_lb) }} lb{% else %}—{% endif %}</td>
+        <td>{{ t.package or "—" }}</td>
+        <td>{{ cite(t.src) }}</td>
+      </tr>{% endfor %}
+    </tbody>
+  </table>
+  </div>
+</section>
+{% endif %}
+
+{% if y.tires %}
+<section>
+  <h2>Tire sizes</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Size</th><th>Trim</th><th>Source</th></tr></thead>
+    <tbody>{% for t in y.tires %}
+      <tr><td><strong>{{ t.size }}</strong>{% if t.load_speed %} {{ t.load_speed }}{% endif %}{% if t.position %} <span class="muted">({{ t.position }})</span>{% endif %}</td><td>{{ t.trim or "—" }}</td><td>{{ cite(t.src) }}</td></tr>
+    {% endfor %}</tbody>
+  </table>
+  </div>
+</section>
+{% endif %}
+
+{% if y.oil and y.oil.engines %}
+<section>
+  <h2>Engine oil</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Engine</th><th>Oil grade</th><th>Capacity with filter</th><th>Source</th></tr></thead>
+    <tbody>{% for o in y.oil.engines %}
+      <tr>
+        <td>{{ o.engine or (o.displacement_l ~ "L" if o.displacement_l else "All") }}{% if o.condition %} <span class="muted">({{ o.condition }})</span>{% endif %}</td>
+        <td>{{ o.grade or "—" }}{% if o.alt_grades %} <span class="muted">(alt. {{ o.alt_grades|join(", ") }})</span>{% endif %}</td>
+        <td>{% if o.capacity_qt %}{{ o.capacity_qt }} qt{% if o.capacity_l %} ({{ o.capacity_l }} L){% endif %}{% else %}—{% endif %}</td>
+        <td>{{ cite(o.src) }}</td>
+      </tr>{% endfor %}
+    </tbody>
+  </table>
+  </div>
+</section>
+{% endif %}
+
+{% if (y.battery and y.battery.options) or y.wipers %}
+<section>
+  <h2>Battery &amp; wiper blades</h2>
+  <dl class="specs">
+    {% for b in (y.battery.options if y.battery else []) %}
+    <dt>Battery{% if b.engine or b.displacement_l %} ({{ b.engine or b.displacement_l ~ "L" }}){% endif %}</dt>
+    <dd>Group <strong>{{ b.group }}</strong>{% if b.cca %}, {{ b.cca }} CCA{% endif %} {{ cite(b.src) }}</dd>
+    {% endfor %}
+    {% if y.wipers %}
+    <dt>Wiper blades</dt>
+    <dd>{% if y.wipers.driver_in %}Driver {{ y.wipers.driver_in }}"{% endif %}{% if y.wipers.passenger_in %}, passenger {{ y.wipers.passenger_in }}"{% endif %}{% if y.wipers.rear_in %}, rear {{ y.wipers.rear_in }}"{% endif %} {{ cite(y.wipers.src) }}</dd>
+    {% endif %}
+  </dl>
 </section>
 {% endif %}
 

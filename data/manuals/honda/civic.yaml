@@ -1,0 +1,272 @@
+# Generated from OEM documents (quotes verified against the cited PDF page) plus Rain-X wiper fitment pages.
+slug: honda/civic
+sources:
+  cv0505_00142:
+    doc: '2005 Honda Civic Owner''s Manual (31S5A640), section 00142: Driving: Towing a Trailer'
+    url: https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00142A.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  cv0505_00153:
+    doc: '2005 Honda Civic Owner''s Manual (31S5A640), section 00153: Maintenance: Engine Oil'
+    url: https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00153A.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  cv0505_00206:
+    doc: '2005 Honda Civic Owner''s Manual (31S5A640), section 00206: Technical Information: Specifications'
+    url: https://techinfo.honda.com/rjanisis/pubs/om/CV0505/CV0505O00206A.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  rainx2005:
+    doc: 'Rain-X Blade Size Finder: 2005 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2016:
+    doc: 'Rain-X Blade Size Finder: 2016 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2017:
+    doc: 'Rain-X Blade Size Finder: 2017 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2018:
+    doc: 'Rain-X Blade Size Finder: 2018 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2019:
+    doc: 'Rain-X Blade Size Finder: 2019 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2020:
+    doc: 'Rain-X Blade Size Finder: 2020 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2021:
+    doc: 'Rain-X Blade Size Finder: 2021 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2022:
+    doc: 'Rain-X Blade Size Finder: 2022 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2024:
+    doc: 'Rain-X Blade Size Finder: 2024 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2025:
+    doc: 'Rain-X Blade Size Finder: 2025 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2026:
+    doc: 'Rain-X Blade Size Finder: 2026 Honda Civic'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Honda&bf-model=Civic
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+records:
+- field: oil
+  years:
+  - 2005
+  - 2005
+  displacement_l: 1.7
+  engine: 1.7 L SOHC (DX, LX, Canadian SE, LX-G)
+  grade: 5W-20
+  capacity_qt: 3.4
+  capacity_l: 3.2
+  src:
+  - ref: cv0505_00206
+    page: 3
+    quote: Including filter 3.4 US qt (3.2
+  - ref: cv0505_00206
+    page: 3
+    quote: '＊3 : DX, LX, Canadian SE, LX-G'
+  - &id001
+    ref: cv0505_00153
+    page: 2
+    quote: 5W-20 oil is formulated for yearround protection of your Honda
+- field: oil
+  years:
+  - 2005
+  - 2005
+  displacement_l: 1.7
+  engine: 1.7 L SOHC VTEC (EX, Canadian Si)
+  grade: 5W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: cv0505_00206
+    page: 3
+    quote: 3.7 US qt (3.5
+  - ref: cv0505_00206
+    page: 3
+    quote: '＊4 : EX, Canadian Si'
+  - *id001
+- field: tires
+  years:
+  - 2005
+  - 2005
+  trim: DX, Canadian SE
+  size: P185/70R14
+  load_speed: 87S
+  src:
+  - ref: cv0505_00206
+    page: 4
+    quote: P185/70R14 87S
+- field: tires
+  years:
+  - 2005
+  - 2005
+  trim: Canadian LX-G
+  size: P185/65R15
+  load_speed: 86H
+  src:
+  - ref: cv0505_00206
+    page: 4
+    quote: P185/65R15 86H
+- field: tires
+  years:
+  - 2005
+  - 2005
+  trim: U.S. LX, EX; Canadian Si
+  size: P195/60R15
+  load_speed: 87H
+  src:
+  - ref: cv0505_00206
+    page: 4
+    quote: P195/60R15 87H
+- field: towing
+  years:
+  - 2005
+  - 2005
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: cv0505_00142
+    page: 3
+    quote: Your vehicle is not designed to tow a trailer
+- field: wipers
+  years:
+  - 2005
+  - 2005
+  driver_in: 24
+  src:
+  - ref: rainx2005
+    quote: 'Position: Driver Length (in.): 24"'
+- field: wipers
+  years:
+  - 2016
+  - 2016
+  driver_in: 26
+  passenger_in: 17
+  src:
+  - ref: rainx2016
+    quote: 'Position: Driver Length (in.): 26"'
+  - ref: rainx2016
+    quote: 'Position: Passenger Length (in.): 17"'
+- field: wipers
+  years:
+  - 2017
+  - 2017
+  driver_in: 26
+  passenger_in: 17
+  src:
+  - ref: rainx2017
+    quote: 'Position: Driver Length (in.): 26"'
+  - ref: rainx2017
+    quote: 'Position: Passenger Length (in.): 17"'
+- field: wipers
+  years:
+  - 2018
+  - 2018
+  driver_in: 26
+  passenger_in: 18
+  src:
+  - ref: rainx2018
+    quote: 'Position: Driver Length (in.): 26"'
+  - ref: rainx2018
+    quote: 'Position: Passenger Length (in.): 18"'
+- field: wipers
+  years:
+  - 2019
+  - 2019
+  driver_in: 26
+  passenger_in: 18
+  src:
+  - ref: rainx2019
+    quote: 'Position: Driver Length (in.): 26"'
+  - ref: rainx2019
+    quote: 'Position: Passenger Length (in.): 18"'
+- field: wipers
+  years:
+  - 2020
+  - 2020
+  driver_in: 26
+  passenger_in: 18
+  src:
+  - ref: rainx2020
+    quote: 'Position: Driver Length (in.): 26"'
+  - ref: rainx2020
+    quote: 'Position: Passenger Length (in.): 18"'
+- field: wipers
+  years:
+  - 2021
+  - 2021
+  driver_in: 26
+  passenger_in: 18
+  src:
+  - ref: rainx2021
+    quote: 'Position: Driver Length (in.): 26"'
+  - ref: rainx2021
+    quote: 'Position: Passenger Length (in.): 18"'
+- field: wipers
+  years:
+  - 2022
+  - 2022
+  driver_in: 24
+  passenger_in: 19
+  src:
+  - ref: rainx2022
+    quote: 'Position: Driver Length (in.): 24"'
+  - ref: rainx2022
+    quote: 'Position: Passenger Length (in.): 19"'
+- field: wipers
+  years:
+  - 2024
+  - 2024
+  driver_in: 24
+  passenger_in: 19
+  src:
+  - ref: rainx2024
+    quote: 'Position: Driver Length (in.): 24"'
+  - ref: rainx2024
+    quote: 'Position: Passenger Length (in.): 19"'
+- field: wipers
+  years:
+  - 2025
+  - 2025
+  driver_in: 24
+  passenger_in: 19
+  src:
+  - ref: rainx2025
+    quote: 'Position: Driver Length (in.): 24"'
+  - ref: rainx2025
+    quote: 'Position: Passenger Length (in.): 19"'
+- field: wipers
+  years:
+  - 2026
+  - 2026
+  driver_in: 24
+  passenger_in: 19
+  src:
+  - ref: rainx2026
+    quote: 'Position: Driver Length (in.): 24"'
+  - ref: rainx2026
+    quote: 'Position: Passenger Length (in.): 19"'

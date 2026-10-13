@@ -3,7 +3,7 @@
     "models": 5,
     "errors": 0,
     "warnings": 51,
-    "gaps": 26
+    "gaps": 23
   },
   "coverage": {
     "chevrolet/silverado-1500": {
@@ -13,25 +13,13 @@
         "missing_years": []
       },
       "towing": {
-        "filled": 0,
+        "filled": 12,
         "total": 22,
         "missing_years": [
-          "2005",
-          "2006",
-          "2007",
-          "2008",
-          "2009",
-          "2010",
-          "2011",
-          "2012",
-          "2013",
-          "2014",
           "2015",
           "2016",
           "2017",
           "2018",
-          "2019",
-          "2020",
           "2021",
           "2022",
           "2023",
@@ -46,7 +34,7 @@
         "missing_years": []
       },
       "tires": {
-        "filled": 0,
+        "filled": 1,
         "total": 22,
         "missing_years": [
           "2005",
@@ -63,7 +51,6 @@
           "2016",
           "2017",
           "2018",
-          "2019",
           "2020",
           "2021",
           "2022",
@@ -102,53 +89,15 @@
         ]
       },
       "wipers": {
-        "filled": 0,
+        "filled": 22,
         "total": 22,
-        "missing_years": [
-          "2005",
-          "2006",
-          "2007",
-          "2008",
-          "2009",
-          "2010",
-          "2011",
-          "2012",
-          "2013",
-          "2014",
-          "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023",
-          "2024",
-          "2025",
-          "2026"
-        ]
+        "missing_years": []
       },
       "oil": {
-        "filled": 0,
+        "filled": 15,
         "total": 22,
         "missing_years": [
-          "2005",
-          "2006",
-          "2007",
-          "2008",
-          "2009",
-          "2010",
           "2011",
-          "2012",
-          "2013",
-          "2014",
-          "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019",
-          "2020",
           "2021",
           "2022",
           "2023",
@@ -187,30 +136,9 @@
         "missing_years": []
       },
       "towing": {
-        "filled": 0,
+        "filled": 21,
         "total": 22,
         "missing_years": [
-          "2005",
-          "2006",
-          "2007",
-          "2008",
-          "2009",
-          "2010",
-          "2011",
-          "2012",
-          "2013",
-          "2014",
-          "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023",
-          "2024",
-          "2025",
           "2026"
         ]
       },
@@ -276,32 +204,9 @@
         ]
       },
       "wipers": {
-        "filled": 0,
+        "filled": 22,
         "total": 22,
-        "missing_years": [
-          "2005",
-          "2006",
-          "2007",
-          "2008",
-          "2009",
-          "2010",
-          "2011",
-          "2012",
-          "2013",
-          "2014",
-          "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023",
-          "2024",
-          "2025",
-          "2026"
-        ]
+        "missing_years": []
       },
       "oil": {
         "filled": 0,
@@ -361,10 +266,9 @@
         "missing_years": []
       },
       "towing": {
-        "filled": 0,
+        "filled": 1,
         "total": 22,
         "missing_years": [
-          "2005",
           "2006",
           "2007",
           "2008",
@@ -400,10 +304,9 @@
         ]
       },
       "tires": {
-        "filled": 0,
+        "filled": 1,
         "total": 22,
         "missing_years": [
-          "2005",
           "2006",
           "2007",
           "2008",
@@ -456,10 +359,9 @@
         ]
       },
       "wipers": {
-        "filled": 0,
+        "filled": 11,
         "total": 22,
         "missing_years": [
-          "2005",
           "2006",
           "2007",
           "2008",
@@ -470,24 +372,13 @@
           "2013",
           "2014",
           "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023",
-          "2024",
-          "2025",
-          "2026"
+          "2023"
         ]
       },
       "oil": {
-        "filled": 0,
+        "filled": 1,
         "total": 22,
         "missing_years": [
-          "2005",
           "2006",
           "2007",
           "2008",
@@ -542,7 +433,7 @@
         "missing_years": []
       },
       "towing": {
-        "filled": 0,
+        "filled": 6,
         "total": 22,
         "missing_years": [
           "2005",
@@ -556,14 +447,8 @@
           "2013",
           "2014",
           "2015",
-          "2016",
-          "2017",
-          "2018",
           "2019",
           "2020",
-          "2021",
-          "2022",
-          "2023",
           "2024",
           "2025",
           "2026"
@@ -631,38 +516,16 @@
         ]
       },
       "wipers": {
-        "filled": 0,
+        "filled": 21,
         "total": 22,
         "missing_years": [
-          "2005",
-          "2006",
-          "2007",
-          "2008",
-          "2009",
-          "2010",
-          "2011",
-          "2012",
-          "2013",
-          "2014",
-          "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023",
-          "2024",
-          "2025",
-          "2026"
+          "2014"
         ]
       },
       "oil": {
-        "filled": 0,
+        "filled": 8,
         "total": 22,
         "missing_years": [
-          "2005",
           "2006",
           "2007",
           "2008",
@@ -673,17 +536,10 @@
           "2013",
           "2014",
           "2015",
-          "2016",
-          "2017",
-          "2018",
           "2019",
           "2020",
-          "2021",
-          "2022",
-          "2023",
           "2024",
-          "2025",
-          "2026"
+          "2025"
         ]
       },
       "dims": {
@@ -716,30 +572,13 @@
         "missing_years": []
       },
       "towing": {
-        "filled": 0,
+        "filled": 17,
         "total": 22,
         "missing_years": [
           "2005",
           "2006",
           "2007",
-          "2008",
-          "2009",
-          "2010",
-          "2011",
-          "2012",
           "2013",
-          "2014",
-          "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023",
-          "2024",
-          "2025",
           "2026"
         ]
       },
@@ -749,30 +588,13 @@
         "missing_years": []
       },
       "tires": {
-        "filled": 0,
+        "filled": 17,
         "total": 22,
         "missing_years": [
           "2005",
           "2006",
           "2007",
-          "2008",
-          "2009",
-          "2010",
-          "2011",
-          "2012",
           "2013",
-          "2014",
-          "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023",
-          "2024",
-          "2025",
           "2026"
         ]
       },
@@ -805,58 +627,18 @@
         ]
       },
       "wipers": {
-        "filled": 0,
+        "filled": 22,
         "total": 22,
-        "missing_years": [
-          "2005",
-          "2006",
-          "2007",
-          "2008",
-          "2009",
-          "2010",
-          "2011",
-          "2012",
-          "2013",
-          "2014",
-          "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023",
-          "2024",
-          "2025",
-          "2026"
-        ]
+        "missing_years": []
       },
       "oil": {
-        "filled": 0,
+        "filled": 17,
         "total": 22,
         "missing_years": [
           "2005",
           "2006",
           "2007",
-          "2008",
-          "2009",
-          "2010",
-          "2011",
-          "2012",
           "2013",
-          "2014",
-          "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023",
-          "2024",
-          "2025",
           "2026"
         ]
       },
@@ -1058,14 +840,14 @@
       "slug": "chevrolet/silverado-1500",
       "year": null,
       "field": "towing",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2015', '2016', '2017', '2018', '2021', '2022', '2023', '2024', '2025', '2026']"
     },
     {
       "severity": "gap",
       "slug": "chevrolet/silverado-1500",
       "year": null,
       "field": "tires",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2020', '2021', '2022', '2023', '2024', '2025', '2026']"
     },
     {
       "severity": "gap",
@@ -1078,15 +860,8 @@
       "severity": "gap",
       "slug": "chevrolet/silverado-1500",
       "year": null,
-      "field": "wipers",
-      "msg": "no source provides this field yet"
-    },
-    {
-      "severity": "gap",
-      "slug": "chevrolet/silverado-1500",
-      "year": null,
       "field": "oil",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2011', '2021', '2022', '2023', '2024', '2025', '2026']"
     },
     {
       "severity": "warning",
@@ -1198,7 +973,7 @@
       "slug": "ford/f-150",
       "year": null,
       "field": "towing",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2026']"
     },
     {
       "severity": "gap",
@@ -1212,13 +987,6 @@
       "slug": "ford/f-150",
       "year": null,
       "field": "battery",
-      "msg": "no source provides this field yet"
-    },
-    {
-      "severity": "gap",
-      "slug": "ford/f-150",
-      "year": null,
-      "field": "wipers",
       "msg": "no source provides this field yet"
     },
     {
@@ -1303,7 +1071,7 @@
       "slug": "honda/civic",
       "year": null,
       "field": "towing",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']"
     },
     {
       "severity": "gap",
@@ -1317,7 +1085,7 @@
       "slug": "honda/civic",
       "year": null,
       "field": "tires",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']"
     },
     {
       "severity": "gap",
@@ -1331,14 +1099,14 @@
       "slug": "honda/civic",
       "year": null,
       "field": "wipers",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2023']"
     },
     {
       "severity": "gap",
       "slug": "honda/civic",
       "year": null,
       "field": "oil",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']"
     },
     {
       "severity": "warning",
@@ -1359,7 +1127,7 @@
       "slug": "jeep/wrangler",
       "year": null,
       "field": "towing",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2019', '2020', '2024', '2025', '2026']"
     },
     {
       "severity": "gap",
@@ -1380,28 +1148,28 @@
       "slug": "jeep/wrangler",
       "year": null,
       "field": "wipers",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2014']"
     },
     {
       "severity": "gap",
       "slug": "jeep/wrangler",
       "year": null,
       "field": "oil",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2019', '2020', '2024', '2025']"
     },
     {
       "severity": "gap",
       "slug": "toyota/tacoma",
       "year": null,
       "field": "towing",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2005', '2006', '2007', '2013', '2026']"
     },
     {
       "severity": "gap",
       "slug": "toyota/tacoma",
       "year": null,
       "field": "tires",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2005', '2006', '2007', '2013', '2026']"
     },
     {
       "severity": "gap",
@@ -1414,15 +1182,8 @@
       "severity": "gap",
       "slug": "toyota/tacoma",
       "year": null,
-      "field": "wipers",
-      "msg": "no source provides this field yet"
-    },
-    {
-      "severity": "gap",
-      "slug": "toyota/tacoma",
-      "year": null,
       "field": "oil",
-      "msg": "no source provides this field yet"
+      "msg": "missing for ['2005', '2006', '2007', '2013', '2026']"
     }
   ]
 }

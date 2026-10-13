@@ -1,0 +1,1799 @@
+# Generated from OEM documents (quotes verified against the cited PDF page) plus Rain-X wiper fitment pages.
+slug: ford/f-150
+sources:
+  tg2005:
+    doc: 2005 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2005_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2006:
+    doc: 2006 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2006_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2007:
+    doc: 2007 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2007_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2008:
+    doc: 2008 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2008_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2009:
+    doc: 2009 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2009_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2010:
+    doc: 2010 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2010_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2011:
+    doc: 2011 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2011_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2012:
+    doc: 2012 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2012_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2013:
+    doc: 2013 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2013_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2014:
+    doc: 2014 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2014_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2015:
+    doc: 2015 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2015_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2016:
+    doc: 2016 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2016_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2017:
+    doc: 2017 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2017_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2018:
+    doc: 2018 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2018_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2019:
+    doc: 2019 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2019_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2020:
+    doc: 2020 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2020_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2021:
+    doc: 2021 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2021_ford_towing_guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2022:
+    doc: 2022 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2022_RV_Trailer_Towing_Guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2023:
+    doc: 2023 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2023-Ford-RV-and-Trailer-Towing-Guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2024:
+    doc: 2024 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2024-Ford-RV-and-Trailer-Towing-Guide.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  tg2025:
+    doc: 2025 Ford RV & Trailer Towing Guide
+    url: https://blueovaltrucks.com/tech/pdf_documents/2025-Ford-RV-and-Trailer-Towing-Guide_v1.pdf
+    type: oem_towing_guide
+    accessed: '2026-10-13'
+    note: Ford-published guide; copy hosted by blueovaltrucks.com
+  rainx2005:
+    doc: 'Rain-X Blade Size Finder: 2005 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2006:
+    doc: 'Rain-X Blade Size Finder: 2006 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2007:
+    doc: 'Rain-X Blade Size Finder: 2007 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2007&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2008:
+    doc: 'Rain-X Blade Size Finder: 2008 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2008&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2009:
+    doc: 'Rain-X Blade Size Finder: 2009 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2009&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2010:
+    doc: 'Rain-X Blade Size Finder: 2010 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2010&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2011:
+    doc: 'Rain-X Blade Size Finder: 2011 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2011&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2012:
+    doc: 'Rain-X Blade Size Finder: 2012 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2012&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2013:
+    doc: 'Rain-X Blade Size Finder: 2013 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2013&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2014:
+    doc: 'Rain-X Blade Size Finder: 2014 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2014&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2015:
+    doc: 'Rain-X Blade Size Finder: 2015 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2015&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2016:
+    doc: 'Rain-X Blade Size Finder: 2016 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2017:
+    doc: 'Rain-X Blade Size Finder: 2017 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2018:
+    doc: 'Rain-X Blade Size Finder: 2018 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2019:
+    doc: 'Rain-X Blade Size Finder: 2019 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2020:
+    doc: 'Rain-X Blade Size Finder: 2020 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2021:
+    doc: 'Rain-X Blade Size Finder: 2021 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2022:
+    doc: 'Rain-X Blade Size Finder: 2022 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2023:
+    doc: 'Rain-X Blade Size Finder: 2023 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2023&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2024:
+    doc: 'Rain-X Blade Size Finder: 2024 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2025:
+    doc: 'Rain-X Blade Size Finder: 2025 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2026:
+    doc: 'Rain-X Blade Size Finder: 2026 Ford F-150'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Ford&bf-model=F-150
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+records:
+- field: towing
+  years:
+  - 2005
+  - 2005
+  displacement_l: 4.2
+  engine: 4.2L SEFI V6
+  axle: '3.73'
+  max_lb: 5600
+  gcwr_lb: 10500
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2005
+    page: 16
+    quote: 3.73 10,500 5,600 5,500 – – – – – – – – – –
+- field: towing
+  years:
+  - 2005
+  - 2005
+  displacement_l: 4.6
+  engine: 4.6L SEFI V8
+  max_lb: 7100
+  gcwr_lb: 12200
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2005
+    page: 16
+    quote: 12,200 – 7,100 – 6,800 – 6,900 – – 6,600 – 6,800 6,500
+- field: towing
+  years:
+  - 2005
+  - 2005
+  displacement_l: 5.4
+  engine: 5.4L SEFI V8 3V
+  axle: '4.10'
+  max_lb: 9900
+  gcwr_lb: 15300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2005
+    page: 16
+    quote: 4.10 15,300 – 9,900 – 9,500 – – 9,500 – – 9,300 – –
+- field: towing
+  years:
+  - 2006
+  - 2006
+  displacement_l: 4.2
+  engine: 4.2L SEFI V6
+  axle: '3.73'
+  max_lb: 5700
+  gcwr_lb: 10500
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2006
+    page: 16
+    quote: 3.73 10,500 5,700 5,600 – – – – – – – – – – – –
+- field: towing
+  years:
+  - 2006
+  - 2006
+  displacement_l: 4.6
+  engine: 4.6L SEFI V8
+  max_lb: 7200
+  gcwr_lb: 12200
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2006
+    page: 16
+    quote: 12,200 – 7,200 – 6,900 – 6,900 – – 6,700 – 6,800 6,700 6,500 6,400
+- field: towing
+  years:
+  - 2006
+  - 2006
+  displacement_l: 5.4
+  engine: 5.4L SEFI V8 3V
+  axle: '4.10'
+  max_lb: 9900
+  gcwr_lb: 15300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2006
+    page: 16
+    quote: 4.10 15,300 – 9,900 – 9,500 – – 9,500 – – 9,300 – – – –
+- field: towing
+  years:
+  - 2007
+  - 2007
+  displacement_l: 4.2
+  engine: 4.2L SEFI V6
+  axle: '3.73'
+  max_lb: 5600
+  gcwr_lb: 10500
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2007
+    page: 16
+    quote: 3.73 10,500 5,600 5,500 – – – – – – – – – – – –
+- field: towing
+  years:
+  - 2007
+  - 2007
+  displacement_l: 4.6
+  engine: 4.6L SEFI V8
+  max_lb: 7200
+  gcwr_lb: 12200
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2007
+    page: 16
+    quote: 12,200 – 7,200 – 6,900 – 7,000 – – 6,700 – 6,900 6,700 6,600 6,500
+- field: towing
+  years:
+  - 2007
+  - 2007
+  displacement_l: 5.4
+  engine: 5.4L SEFI V8 3V
+  max_lb: 11000
+  gcwr_lb: 16400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2007
+    page: 16
+    quote: 16,400 – 11,000 – – – – – – – – – – – –
+- field: towing
+  years:
+  - 2008
+  - 2008
+  displacement_l: 4.2
+  engine: 4.2L SEFI V6
+  axle: '3.73'
+  max_lb: 5700
+  gcwr_lb: 10500
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2008
+    page: 17
+    quote: 3.73 10,500 5,700 5,600 – – – – – – – – – – – –
+- field: towing
+  years:
+  - 2008
+  - 2008
+  displacement_l: 4.6
+  engine: 4.6L SEFI V8
+  max_lb: 7200
+  gcwr_lb: 12200
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2008
+    page: 17
+    quote: 12,200 – 7,200 – 6,900 – 7,000 – – 6,700 – 6,900 6,800 6,600 6,600
+- field: towing
+  years:
+  - 2008
+  - 2008
+  displacement_l: 5.4
+  engine: 5.4L SEFI V8 3V
+  max_lb: 11000
+  gcwr_lb: 16400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2008
+    page: 17
+    quote: 16,400(5) – 11,000 – – – – – – – – – – – –
+- field: towing
+  years:
+  - 2010
+  - 2010
+  displacement_l: 4.6
+  engine: 4.6L 2-Valve V8
+  max_lb: 6000
+  gcwr_lb: 11100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2010
+    page: 18
+    quote: 11,100 – 6,000 – 5,800 5,800 – – 5,500 – 5,700 5,600 – –
+- field: towing
+  years:
+  - 2010
+  - 2010
+  displacement_l: 4.6
+  engine: 4.6L 3-Valve V8
+  max_lb: 9500
+  gcwr_lb: 14900
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2010
+    page: 18
+    quote: 14,900(1) – – – – 9,500 – – – – 9,400 9,300 – –
+- field: towing
+  years:
+  - 2010
+  - 2010
+  displacement_l: 5.4
+  engine: 5.4L 3-Valve V8
+  max_lb: 11300
+  gcwr_lb: 16700
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2010
+    page: 18
+    quote: 16,700(3)(4) – 11,300 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2011
+  - 2011
+  displacement_l: 3.7
+  engine: 3.7L 4-Valve V6
+  max_lb: 6100
+  gcwr_lb: 11100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2011
+    page: 19
+    quote: 11,100 – 6,100 – 5,800 5,800 – – 5,500 – 5,700 – – –
+- field: towing
+  years:
+  - 2011
+  - 2011
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 10000
+  gcwr_lb: 15300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2011
+    page: 19
+    quote: 15,300(2) – 10,000 – 9,700 – 9,600 – – 9,300 – – – –
+- field: towing
+  years:
+  - 2011
+  - 2011
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 11300
+  gcwr_lb: 16700
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2011
+    page: 19
+    quote: 16,700(2)(3) – 11,300 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2011
+  - 2011
+  displacement_l: 6.2
+  engine: 6.2L 2-Valve V8
+  max_lb: 11300
+  gcwr_lb: 17100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2011
+    page: 19
+    quote: 17,100(3) – – – – – – – – – 11,300 – 11,100 –
+- field: towing
+  years:
+  - 2012
+  - 2012
+  displacement_l: 3.7
+  engine: 3.7L 4-Valve V6
+  max_lb: 6100
+  gcwr_lb: 11100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2012
+    page: 18
+    quote: 11,100 – 6,100 – 5,900 5,800 – – 5,500 – 5,700 – – –
+- field: towing
+  years:
+  - 2012
+  - 2012
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 10000
+  gcwr_lb: 15300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2012
+    page: 18
+    quote: 15,300(2) – 10,000 – 9,700 – 9,600 – – 9,300 – 9,500 – 9,200
+- field: towing
+  years:
+  - 2012
+  - 2012
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 11300
+  gcwr_lb: 16600
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2012
+    page: 18
+    quote: 16,600(2) – 11,300 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2012
+  - 2012
+  displacement_l: 6.2
+  engine: 6.2L 2-Valve V8
+  max_lb: 11300
+  gcwr_lb: 17100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2012
+    page: 18
+    quote: 17,100(3) – – – – – – – – – 11,300 11,200 11,100 10,900
+- field: towing
+  years:
+  - 2013
+  - 2013
+  displacement_l: 3.7
+  engine: 3.7L 4-Valve V6
+  max_lb: 6700
+  gcwr_lb: 11700
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2013
+    page: 15
+    quote: 11,700 – 6,700 – 6,500 6,400 – – 6,100 – 6,300 – – –
+- field: towing
+  years:
+  - 2013
+  - 2013
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 10000
+  gcwr_lb: 15300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2013
+    page: 15
+    quote: 15,300(3) – 10,000 – 9,700 – 9,600 – – 9,300 – 9,500 – 9,200
+- field: towing
+  years:
+  - 2013
+  - 2013
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 11300
+  gcwr_lb: 16600
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2013
+    page: 15
+    quote: 16,600(3) – 11,300 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2013
+  - 2013
+  displacement_l: 6.2
+  engine: 6.2L 2-Valve V8
+  max_lb: 11300
+  gcwr_lb: 17000
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2013
+    page: 15
+    quote: 17,000 – – – – 11,300 – – – – – – – –
+- field: towing
+  years:
+  - 2014
+  - 2014
+  displacement_l: 3.7
+  engine: 3.7L 4-Valve V6
+  max_lb: 6700
+  gcwr_lb: 11700
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2014
+    page: 15
+    quote: 11,700 – 6,700 – 6,500 6,400 – – 6,100 – 6,300 – – –
+- field: towing
+  years:
+  - 2014
+  - 2014
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 10000
+  gcwr_lb: 15300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2014
+    page: 15
+    quote: 15,300(3) – 10,000 – 9,700 – 9,600 – – 9,300 – 9,500 – 9,200
+- field: towing
+  years:
+  - 2014
+  - 2014
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 11300
+  gcwr_lb: 16600
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2014
+    page: 15
+    quote: 16,600(3) – 11,300 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2014
+  - 2014
+  displacement_l: 6.2
+  engine: 6.2L 2-Valve V8
+  axle: '3.73'
+  max_lb: 11300
+  gcwr_lb: 17000
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2014
+    page: 15
+    quote: 3.73 17,000 – – – – 11,300 – – – – – – – –
+- field: towing
+  years:
+  - 2015
+  - 2015
+  displacement_l: 3.5
+  engine: 3.5L 4-Valve V6
+  axle: '3.73'
+  max_lb: 7600
+  gcwr_lb: 12000
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2015
+    page: 16
+    quote: 3.73 12,000 7,600 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2015
+  - 2015
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  axle: '3.73'
+  max_lb: 8500
+  gcwr_lb: 13100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2015
+    page: 16
+    quote: 3.73 13,100 8,500 8,400 – – 8,200 8,100 – – 8,100 8,100 – –
+- field: towing
+  years:
+  - 2015
+  - 2015
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 11000
+  gcwr_lb: 16200
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2015
+    page: 16
+    quote: 16,200 – – 11,000 10,900 – 10,900 10,800
+- field: towing
+  years:
+  - 2015
+  - 2015
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 12200
+  gcwr_lb: 17000
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2015
+    page: 16
+    quote: 17,000(7) – 12,200 – – – – – – 11,900 – – –
+- field: towing
+  years:
+  - 2016
+  - 2016
+  displacement_l: 3.5
+  engine: 3.5L 4-Valve V6
+  axle: '3.73'
+  max_lb: 7600
+  gcwr_lb: 12000
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2016
+    page: 16
+    quote: 3.73 12,000 7,600 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2016
+  - 2016
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  axle: '3.73'
+  max_lb: 8500
+  gcwr_lb: 13100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2016
+    page: 16
+    quote: 3.73 13,100 8,500 8,400 – – 8,200 8,000 – – 8,100 8,100 – –
+- field: towing
+  years:
+  - 2016
+  - 2016
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 11100
+  gcwr_lb: 16200
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2016
+    page: 16
+    quote: 16,200 – – – 11,100 – – 10,900 10,700 – – 10,800 10,800
+- field: towing
+  years:
+  - 2016
+  - 2016
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 12200
+  gcwr_lb: 17100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2016
+    page: 16
+    quote: 17,100(7) – 12,200 – 12,000 12,000 11,800 11,700 11,600 – 11,900 – 11,600
+- field: towing
+  years:
+  - 2017
+  - 2017
+  displacement_l: 3.5
+  engine: 3.5L 4-Valve V6
+  axle: '3.73'
+  max_lb: 7600
+  gcwr_lb: 12000
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2017
+    page: 18
+    quote: 3.73 12,000 7,600 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2017
+  - 2017
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  axle: '3.73'
+  max_lb: 8500
+  gcwr_lb: 13100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2017
+    page: 18
+    quote: 3.73 13,100 8,500 8,400 – – 8,200 8,000 – – 8,100 8,100 – –
+- field: towing
+  years:
+  - 2017
+  - 2017
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 11000
+  gcwr_lb: 16000
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply; footnote marker (5)(6)
+  src:
+  - ref: tg2017
+    page: 18
+    quote: 16,000(4) – 11,000(5)(6) – – – – – – – – – –
+- field: towing
+  years:
+  - 2017
+  - 2017
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 12200
+  gcwr_lb: 17000
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2017
+    page: 18
+    quote: 17,000(7) – 12,200 – – – – – – 11,900 – – –
+- field: towing
+  years:
+  - 2018
+  - 2018
+  displacement_l: 3.3
+  engine: 3.3L PFDI V6
+  axle: '3.73'
+  max_lb: 7700
+  gcwr_lb: 12100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2018
+    page: 18
+    quote: 3.73 12,100 7,700 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2018
+  - 2018
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 11600
+  gcwr_lb: 16900
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2018
+    page: 18
+    quote: 16,900 – – – – – – – – – – – 11,600
+- field: towing
+  years:
+  - 2018
+  - 2018
+  displacement_l: 3.0
+  engine: 3.0L Turbo
+  max_lb: 11400
+  gcwr_lb: 17100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2018
+    page: 18
+    quote: 17,100 – – – – 11,400 – 11,400(6)/11,100(7) – 11,000 11,400 11,200(6)/10,700(7) 11,300(6)/11,000(7)
+- field: towing
+  years:
+  - 2018
+  - 2018
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  max_lb: 9100
+  gcwr_lb: 14300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply; footnote marker (3)
+  src:
+  - ref: tg2018
+    page: 19
+    quote: 14,300 – – – – – – 9,100(3) – – – 9,000(3) –
+- field: towing
+  years:
+  - 2018
+  - 2018
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 13200
+  gcwr_lb: 18400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply; footnote marker (11)
+  src:
+  - ref: tg2018
+    page: 19
+    quote: 18,400(7) – – – – – – – – – 13,200(11) – 13,000(11)
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 3.3
+  engine: 3.3L PFDI V6
+  axle: '3.73'
+  max_lb: 7700
+  gcwr_lb: 12200
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2019
+    page: 18
+    quote: 3.73 12,200 7,700 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 11500
+  gcwr_lb: 16900
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2019
+    page: 18
+    quote: 16,900 – – – – – – – – – – – 11,500
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 3.0
+  engine: 3.0L Turbo
+  max_lb: 11500
+  gcwr_lb: 17100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2019
+    page: 18
+    quote: 17,100 – – – – 11,500 – – 11,200 11,300
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  max_lb: 9000
+  gcwr_lb: 14100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply; footnote marker (2)
+  src:
+  - ref: tg2019
+    page: 19
+    quote: 14,100 – – – 9,000(2) – – – – – 9,000(2) – –
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 13200
+  gcwr_lb: 18400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply; footnote marker (9)
+  src:
+  - ref: tg2019
+    page: 19
+    quote: 18,400(4) – – – – – – – – – 13,200(9) – 12,900(9)
+- field: towing
+  years:
+  - 2020
+  - 2020
+  displacement_l: 3.3
+  engine: 3.3L PFDI V6
+  axle: '3.73'
+  max_lb: 7700
+  gcwr_lb: 12200
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2020
+    page: 18
+    quote: 3.73 12,200 7,700 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2020
+  - 2020
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 11500
+  gcwr_lb: 16900
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2020
+    page: 18
+    quote: 16,900 – – – – – – – – – – – 11,500
+- field: towing
+  years:
+  - 2020
+  - 2020
+  displacement_l: 3.0
+  engine: 3.0L Turbo
+  max_lb: 11500
+  gcwr_lb: 17100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2020
+    page: 18
+    quote: 17,100 – – – – 11,500 – 11,3003/ – 11,200 – 11,3003/ 11,3003/
+- field: towing
+  years:
+  - 2020
+  - 2020
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  max_lb: 9000
+  gcwr_lb: 14100
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2020
+    page: 19
+    quote: 14,100 – – – 9,0002 – – – – – 9,0002 – –
+- field: towing
+  years:
+  - 2020
+  - 2020
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 13200
+  gcwr_lb: 18600
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2020
+    page: 19
+    quote: 18,6004 – – – – – – – – – 13,2009 – 12,7009
+- field: towing
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.3
+  engine: 3.3L PFDI V6
+  axle: '3.73'
+  max_lb: 8200
+  gcwr_lb: 12600
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2021
+    page: 19
+    quote: 3.73 12,600 8,200 – – – – – – – – – – –
+- field: towing
+  years:
+  - 2021
+  - 2021
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 13000
+  gcwr_lb: 17900
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2021
+    page: 19
+    quote: 17,900 1 – 13,000 – 12,800 – – – – – – – –
+- field: towing
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.0
+  engine: 3.0L Turbo
+  max_lb: 12100
+  gcwr_lb: 17900
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2021
+    page: 19
+    quote: 17,900 1 – – – – – – 12,100 – – – – –
+- field: towing
+  years:
+  - 2021
+  - 2021
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  max_lb: 10100
+  gcwr_lb: 15300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2021
+    page: 20
+    quote: 15,300 1 – – – – – – 10,100 – – – – –
+- field: towing
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 14000
+  gcwr_lb: 19300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2021
+    page: 20
+    quote: 19,300 2 – – – – – – – – 14,000 – – –
+- field: towing
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6 H. O
+  axle: '4.10'
+  max_lb: 8200
+  gcwr_lb: 14500
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2021
+    page: 20
+    quote: 3.5L GTDI V6 H. O.6 4.10 14,500 – – – – – – – – – – 8,200 –
+- field: towing
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.5
+  engine: 3.5L Hybrid V6
+  max_lb: 12700
+  gcwr_lb: 18400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2021
+    page: 20
+    quote: 18,400 2 – – – – – – – – 12,700 12,700 – –
+- field: towing
+  years:
+  - 2022
+  - 2022
+  displacement_l: 3.3
+  engine: 3.3L PFDI V6
+  axle: '3.73'
+  max_lb: 8200
+  gcwr_lb: 12700
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2022
+    page: 21
+    quote: 3.73 12,700 8,200
+- field: towing
+  years:
+  - 2022
+  - 2022
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 13000
+  gcwr_lb: 17900
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2022
+    page: 21
+    quote: 17,900 3 13,000 12,800
+- field: towing
+  years:
+  - 2022
+  - 2022
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  max_lb: 10100
+  gcwr_lb: 15400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2022
+    page: 22
+    quote: 15,400 4 10,100
+- field: towing
+  years:
+  - 2022
+  - 2022
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 14000
+  gcwr_lb: 19400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2022
+    page: 22
+    quote: 19,400 5 14,000 13,900 14,000 13,800 13,800
+- field: towing
+  years:
+  - 2022
+  - 2022
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6 H. O
+  axle: '4.10'
+  max_lb: 8200
+  gcwr_lb: 14500
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2022
+    page: 22
+    quote: 3.5L GTDI V6 H. O.3 4.10 14,500 8,200
+- field: towing
+  years:
+  - 2022
+  - 2022
+  displacement_l: 3.5
+  engine: 3.5L Hybrid V6
+  max_lb: 12700
+  gcwr_lb: 18500
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2022
+    page: 23
+    quote: 18,500 2 12,700 12,700 18,500 2 10,200 10,400
+- field: towing
+  years:
+  - 2023
+  - 2023
+  displacement_l: 3.3
+  engine: 3.3L PFDI V6
+  axle: '3.73'
+  max_lb: 8200
+  gcwr_lb: 12700
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2023
+    page: 22
+    quote: 3.73 12,700 8,200
+- field: towing
+  years:
+  - 2023
+  - 2023
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 13000
+  gcwr_lb: 17900
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2023
+    page: 22
+    quote: 17,900 3 13,000 12,800
+- field: towing
+  years:
+  - 2023
+  - 2023
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  max_lb: 10100
+  gcwr_lb: 15400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2023
+    page: 23
+    quote: 15,400 4 10,100
+- field: towing
+  years:
+  - 2023
+  - 2023
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 14000
+  gcwr_lb: 19400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2023
+    page: 23
+    quote: 19,400 5 14,000 14,000 13,800 13,800
+- field: towing
+  years:
+  - 2023
+  - 2023
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6 H. O
+  axle: '4.10'
+  max_lb: 8200
+  gcwr_lb: 14500
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2023
+    page: 23
+    quote: 3.5L GTDI V6 H. O.3 4.10 14,500 8,200
+- field: towing
+  years:
+  - 2023
+  - 2023
+  displacement_l: 5.2
+  engine: 5.2L Supercharged
+  axle: '4.10'
+  max_lb: 8700
+  gcwr_lb: 15300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2023
+    page: 23
+    quote: 5.2L Supercharged 4.10 15,300 8,700
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 12900
+  gcwr_lb: 18400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2024
+    page: 18
+    quote: 18,400 12,900 2 12,800 2
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  axle: '3.73'
+  max_lb: 8400
+  gcwr_lb: 13300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2024
+    page: 19
+    quote: 3.73 13,300 8,400
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 13500
+  gcwr_lb: 19400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2024
+    page: 19
+    quote: 19,400 3 13,100 13,500
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6 H. O
+  axle: '4.10'
+  max_lb: 8200
+  gcwr_lb: 14600
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2024
+    page: 19
+    quote: 3.5L GTDI V6 H. O.1 4.10 14,600 8,200
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 5.2
+  engine: 5.2L Supercharged V8
+  axle: '4.10'
+  max_lb: 8700
+  gcwr_lb: 15300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2024
+    page: 19
+    quote: 5.2L Supercharged V8 2 4.10 15,300 8,700
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 3.5
+  engine: 3.5L Hybrid V6
+  max_lb: 11200
+  gcwr_lb: 18400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2024
+    page: 20
+    quote: 18,400 1 11,200 11,000
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 5.0
+  engine: 5.0L 4-Valve V8
+  max_lb: 12900
+  gcwr_lb: 18400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2025
+    page: 15
+    quote: 18,400 12,900 3 12,800 3
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.7
+  engine: 2.7L GTDI V6
+  axle: '3.73'
+  max_lb: 8400
+  gcwr_lb: 13300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2025
+    page: 16
+    quote: 3.73 13,300 8,400
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6
+  max_lb: 13500
+  gcwr_lb: 19400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2025
+    page: 16
+    quote: 19,400 4 13,100 13,500
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 3.5
+  engine: 3.5L GTDI V6 H. O
+  axle: '4.10'
+  max_lb: 8200
+  gcwr_lb: 14600
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2025
+    page: 16
+    quote: 3.5L GTDI V6 H. O.2 4.10 14,600 8,200
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 5.2
+  engine: 5.2L Supercharged V8
+  axle: '4.10'
+  max_lb: 8700
+  gcwr_lb: 15300
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2025
+    page: 16
+    quote: 5.2L Supercharged V8 3 4.10 15,300 8,700
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 3.5
+  engine: 3.5L Hybrid V6
+  max_lb: 11200
+  gcwr_lb: 18400
+  note: max conventional-towing rating across cab/wheelbase/drive columns for this engine; guide footnotes on that cell (equipment
+    packages) apply
+  src:
+  - ref: tg2025
+    page: 17
+    quote: 18,400 2 11,200 11,000 18,400 2 7,100 7,000
+- field: towing
+  years:
+  - 2009
+  - 2009
+  displacement_l: 4.6
+  engine: 4.6L 2V
+  axle: '3.73'
+  max_lb: 6000
+  gcwr_lb: 11100
+  note: max conventional tow capacity in the 2009 F-150 GCWR/Max. Trailer Summary
+  src:
+  - ref: tg2009
+    page: 17
+    quote: – – – – 3.73 11,100 6,000 6,000
+- field: towing
+  years:
+  - 2009
+  - 2009
+  displacement_l: 4.6
+  engine: 4.6L 3V
+  axle: '3.55'
+  max_lb: 9500
+  gcwr_lb: 14900
+  note: max conventional tow capacity in the 2009 F-150 GCWR/Max. Trailer Summary
+  src:
+  - ref: tg2009
+    page: 17
+    quote: 3.55 14,900 9,500 9,500 (3)
+- field: towing
+  years:
+  - 2009
+  - 2009
+  displacement_l: 5.4
+  engine: 5.4L
+  axle: '3.73'
+  max_lb: 11300
+  gcwr_lb: 16700
+  note: max conventional tow capacity in the 2009 F-150 GCWR/Max. Trailer Summary
+  src:
+  - ref: tg2009
+    page: 17
+    quote: 145 8,200 5.4L 6R80E 3.73 16,700 11,300 11,300
+- field: wipers
+  years:
+  - 2005
+  - 2005
+  driver_in: 20
+  passenger_in: 20
+  src:
+  - ref: rainx2005
+    quote: 'Position: Driver Length (in.): 20"'
+  - ref: rainx2005
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2006
+  - 2006
+  driver_in: 20
+  passenger_in: 20
+  src:
+  - ref: rainx2006
+    quote: 'Position: Driver Length (in.): 20"'
+  - ref: rainx2006
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2007
+  - 2007
+  driver_in: 20
+  passenger_in: 20
+  src:
+  - ref: rainx2007
+    quote: 'Position: Driver Length (in.): 20"'
+  - ref: rainx2007
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2008
+  - 2008
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2008
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2008
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2009
+  - 2009
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2009
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2009
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2010
+  - 2010
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2010
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2010
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2011
+  - 2011
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2011
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2011
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2012
+  - 2012
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2012
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2012
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2013
+  - 2013
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2013
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2013
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2014
+  - 2014
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2014
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2014
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2015
+  - 2015
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2015
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2015
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2016
+  - 2016
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2016
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2016
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2017
+  - 2017
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2017
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2017
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2018
+  - 2018
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2018
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2018
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2019
+  - 2019
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2019
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2019
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2020
+  - 2020
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2020
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2020
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2021
+  - 2021
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2021
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2021
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2022
+  - 2022
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2022
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2022
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2023
+  - 2023
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2023
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2023
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2024
+  - 2024
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2024
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2024
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2025
+  - 2025
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2025
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2025
+    quote: 'Position: Passenger Length (in.): 22"'
+- field: wipers
+  years:
+  - 2026
+  - 2026
+  driver_in: 22
+  passenger_in: 22
+  src:
+  - ref: rainx2026
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2026
+    quote: 'Position: Passenger Length (in.): 22"'

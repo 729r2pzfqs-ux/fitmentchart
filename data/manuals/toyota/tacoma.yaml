@@ -1,0 +1,2664 @@
+# Generated from OEM documents (quotes verified against the cited PDF page) plus Rain-X wiper fitment pages.
+slug: toyota/tacoma
+sources:
+  OM04005U:
+    doc: 2016 Toyota Tacoma Owner's Manual (OM04005U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04009U:
+    doc: 2015 Toyota Tacoma Owner's Manual (OM04009U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04011U:
+    doc: 2025 Toyota Tacoma Owner's Manual (OM04011U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04011U/OM04011U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04012U:
+    doc: 2025 Toyota Tacoma Hybrid Owner's Manual (OM04012U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04012U/OM04012U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04013U:
+    doc: 2017 Toyota Tacoma Owner's Manual (OM04013U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04017U:
+    doc: 2018 Toyota Tacoma Owner's Manual (OM04017U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04021U:
+    doc: 2019 Toyota Tacoma Owner's Manual (OM04021U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04025U:
+    doc: 2020 Toyota Tacoma Owner's Manual (OM04025U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04029U:
+    doc: 2021 Toyota Tacoma Owner's Manual (OM04029U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04037U:
+    doc: 2022 Toyota Tacoma Owner's Manual (OM04037U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04041U:
+    doc: 2024 Toyota Tacoma Owner's Manual (OM04041U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04041U/OM04041U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04042U:
+    doc: 2024 Toyota Tacoma Hybrid Owner's Manual (OM04042U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04042U/OM04042U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM04047U:
+    doc: 2023 Toyota Tacoma Owner's Manual (OM04047U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM35883U:
+    doc: 2009 Toyota Tacoma Owner's Manual (OM35883U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM35892U:
+    doc: 2008 Toyota Tacoma Owner's Manual (OM35892U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM35A20U:
+    doc: 2010 Toyota Tacoma Owner's Manual (OM35A20U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM35A34U:
+    doc: 2011 Toyota Tacoma Owner's Manual (OM35A34U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM35A38U:
+    doc: 2014 Toyota Tacoma Owner's Manual (OM35A38U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  OM35A48U:
+    doc: 2012 Toyota Tacoma Owner's Manual (OM35A48U)
+    url: https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  rainx2005:
+    doc: 'Rain-X Blade Size Finder: 2005 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2006:
+    doc: 'Rain-X Blade Size Finder: 2006 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2007:
+    doc: 'Rain-X Blade Size Finder: 2007 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2007&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2008:
+    doc: 'Rain-X Blade Size Finder: 2008 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2008&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2009:
+    doc: 'Rain-X Blade Size Finder: 2009 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2009&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2010:
+    doc: 'Rain-X Blade Size Finder: 2010 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2010&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2011:
+    doc: 'Rain-X Blade Size Finder: 2011 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2011&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2012:
+    doc: 'Rain-X Blade Size Finder: 2012 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2012&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2013:
+    doc: 'Rain-X Blade Size Finder: 2013 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2013&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2014:
+    doc: 'Rain-X Blade Size Finder: 2014 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2014&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2015:
+    doc: 'Rain-X Blade Size Finder: 2015 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2015&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2016:
+    doc: 'Rain-X Blade Size Finder: 2016 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2017:
+    doc: 'Rain-X Blade Size Finder: 2017 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2018:
+    doc: 'Rain-X Blade Size Finder: 2018 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2019:
+    doc: 'Rain-X Blade Size Finder: 2019 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2020:
+    doc: 'Rain-X Blade Size Finder: 2020 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2021:
+    doc: 'Rain-X Blade Size Finder: 2021 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2022:
+    doc: 'Rain-X Blade Size Finder: 2022 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2023:
+    doc: 'Rain-X Blade Size Finder: 2023 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2023&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2024:
+    doc: 'Rain-X Blade Size Finder: 2024 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2025:
+    doc: 'Rain-X Blade Size Finder: 2025 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+  rainx2026:
+    doc: 'Rain-X Blade Size Finder: 2026 Toyota Tacoma'
+    url: https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Toyota&bf-model=Tacoma
+    type: aftermarket_fitment
+    accessed: '2026-10-13'
+records:
+- field: oil
+  years:
+  - 2008
+  - 2008
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  grade: 5W-20
+  alt_grades:
+  - 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM35892U
+    page: 420
+    quote: With filter 5.8 (6.1, 5.1)
+  - ref: OM35892U
+    page: 385
+    quote: 2.7 L 4−cylinder (2TR−FE) engine— SAE 5W−20 or 0W−20
+- field: oil
+  years:
+  - 2008
+  - 2008
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 2WD except PreRunner
+  grade: 5W-30
+  capacity_qt: 4.8
+  capacity_l: 4.5
+  src:
+  - ref: OM35892U
+    page: 420
+    quote: Two−wheel drive models except PreRunner With filter 4.5 (4.8, 4.0)
+  - &id001
+    ref: OM35892U
+    page: 385
+    quote: 4.0 L V6 (1GR−FE) engine— SAE 5W−30
+- field: oil
+  years:
+  - 2008
+  - 2008
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 4WD and PreRunner
+  grade: 5W-30
+  capacity_qt: 5.5
+  capacity_l: 5.2
+  src:
+  - ref: OM35892U
+    page: 420
+    quote: PreRunner DENSO K20HR−U11 Outside temperature NGK LFR6C11 With filter 5.2 (5.5, 4.6)
+  - *id001
+- field: oil
+  years:
+  - 2009
+  - 2009
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  grade: 5W-20
+  alt_grades:
+  - 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM35883U
+    page: 472
+    quote: 6.1 qt. (5.8 L, 5.1 Imp.qt.)
+  - ref: OM35883U
+    page: 364
+    quote: 2TR-FE) engine SAE 5W-20 or 0W-20
+- field: oil
+  years:
+  - 2009
+  - 2009
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 2WD except PreRunner
+  grade: 5W-30
+  capacity_qt: 4.8
+  capacity_l: 4.5
+  src:
+  - ref: OM35883U
+    page: 473
+    quote: 2WD models except With filter PreRunner 4.8 qt. (4.5 L, 4.0 Imp.qt.)
+  - &id002
+    ref: OM35883U
+    page: 364
+    quote: 1GR-FE) engine SAE 5W-30
+- field: oil
+  years:
+  - 2009
+  - 2009
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 4WD and PreRunner
+  grade: 5W-30
+  capacity_qt: 5.5
+  capacity_l: 5.2
+  src:
+  - ref: OM35883U
+    page: 473
+    quote: 4WD models and With filter PreRunner 5.5 qt. (5.2 L, 4.6 Imp.qt.)
+  - *id002
+- field: oil
+  years:
+  - 2010
+  - 2010
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  grade: 5W-20
+  alt_grades:
+  - 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM35A20U
+    page: 478
+    quote: 6.1 qt. (5.8 L, 5.1 Imp.qt.)
+  - ref: OM35A20U
+    page: 478
+    quote: 'Recommended viscosity: SAE 5W-20 or 0W-20'
+- field: oil
+  years:
+  - 2010
+  - 2010
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 2WD except PreRunner
+  grade: 5W-30
+  capacity_qt: 4.8
+  capacity_l: 4.5
+  src:
+  - ref: OM35A20U
+    page: 479
+    quote: 2WD models except With filter PreRunner 4.8 qt. (4.5 L, 4.0 Imp.qt.)
+  - &id003
+    ref: OM35A20U
+    page: 480
+    quote: 'Recommended viscosity: SAE 5W-30'
+- field: oil
+  years:
+  - 2010
+  - 2010
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 4WD and PreRunner
+  grade: 5W-30
+  capacity_qt: 5.5
+  capacity_l: 5.2
+  src:
+  - ref: OM35A20U
+    page: 479
+    quote: 4WD models and With filter PreRunner 5.5 qt. (5.2 L, 4.6 Imp.qt.)
+  - *id003
+- field: oil
+  years:
+  - 2011
+  - 2011
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  grade: 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM35A34U
+    page: 494
+    quote: 6.1 qt. (5.8 L, 5.1 Imp.qt.)
+  - ref: OM35A34U
+    page: 494
+    quote: 'Recommended viscosity: SAE 0W-20'
+- field: oil
+  years:
+  - 2011
+  - 2011
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 2WD except PreRunner
+  grade: 5W-30
+  capacity_qt: 4.8
+  capacity_l: 4.5
+  src:
+  - ref: OM35A34U
+    page: 495
+    quote: 2WD models except With filter PreRunner 4.8 qt. (4.5 L, 4.0 Imp.qt.)
+  - &id004
+    ref: OM35A34U
+    page: 496
+    quote: 'Recommended viscosity: SAE 5W-30'
+- field: oil
+  years:
+  - 2011
+  - 2011
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 4WD and PreRunner
+  grade: 5W-30
+  capacity_qt: 5.5
+  capacity_l: 5.2
+  src:
+  - ref: OM35A34U
+    page: 495
+    quote: 4WD models and With filter PreRunner 5.5 qt. (5.2 L, 4.6 Imp.qt.)
+  - *id004
+- field: oil
+  years:
+  - 2012
+  - 2012
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  grade: 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM35A48U
+    page: 558
+    quote: 6.1 qt. (5.8 L, 5.1 Imp.qt.)
+  - ref: OM35A48U
+    page: 559
+    quote: 2TR-FE) engine SAE 0W-20
+- field: oil
+  years:
+  - 2012
+  - 2012
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 2WD except PreRunner
+  grade: 5W-30
+  capacity_qt: 4.8
+  capacity_l: 4.5
+  src:
+  - ref: OM35A48U
+    page: 558
+    quote: '2WD models except PreRunner: 4.8 qt. (4.5 L, 4.0 Imp.qt.)'
+  - &id005
+    ref: OM35A48U
+    page: 560
+    quote: 1GR-FE) engine SAE 5W-30
+- field: oil
+  years:
+  - 2012
+  - 2012
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 4WD and PreRunner
+  grade: 5W-30
+  capacity_qt: 5.5
+  capacity_l: 5.2
+  src:
+  - ref: OM35A48U
+    page: 558
+    quote: '4WD models and PreRunner: 5.5 qt. (5.2 L, 4.6 Imp.qt.)'
+  - *id005
+- field: oil
+  years:
+  - 2014
+  - 2014
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  grade: 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM35A38U
+    page: 536
+    quote: 6.1 qt. (5.8 L, 5.1 Imp.qt.)
+  - ref: OM35A38U
+    page: 537
+    quote: 2TR-FE) engine SAE 0W-20
+- field: oil
+  years:
+  - 2014
+  - 2014
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 2WD except PreRunner
+  grade: 5W-30
+  capacity_qt: 4.8
+  capacity_l: 4.5
+  src:
+  - ref: OM35A38U
+    page: 536
+    quote: '2WD models except PreRunner: 4.8 qt. (4.5 L, 4.0 Imp.qt.)'
+  - &id006
+    ref: OM35A38U
+    page: 538
+    quote: 1GR-FE) engine SAE 5W-30
+- field: oil
+  years:
+  - 2014
+  - 2014
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 4WD and PreRunner
+  grade: 5W-30
+  capacity_qt: 5.5
+  capacity_l: 5.2
+  src:
+  - ref: OM35A38U
+    page: 536
+    quote: '4WD models and PreRunner: 5.5 qt. (5.2 L, 4.6 Imp.qt.)'
+  - *id006
+- field: oil
+  years:
+  - 2015
+  - 2015
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  grade: 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM04009U
+    page: 526
+    quote: 6.1 qt. (5.8 L, 5.1 Imp.qt.)
+  - ref: OM04009U
+    page: 527
+    quote: 2TR-FE) engine SAE 0W-20
+- field: oil
+  years:
+  - 2015
+  - 2015
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 2WD except PreRunner
+  grade: 5W-30
+  capacity_qt: 4.8
+  capacity_l: 4.5
+  src:
+  - ref: OM04009U
+    page: 526
+    quote: '2WD models except PreRunner: 4.8 qt. (4.5 L, 4.0 Imp.qt.)'
+  - &id007
+    ref: OM04009U
+    page: 528
+    quote: 1GR-FE) engine SAE 5W-30
+- field: oil
+  years:
+  - 2015
+  - 2015
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  condition: 4WD and PreRunner
+  grade: 5W-30
+  capacity_qt: 5.5
+  capacity_l: 5.2
+  src:
+  - ref: OM04009U
+    page: 526
+    quote: '4WD models and PreRunner: 5.5 qt. (5.2 L, 4.6 Imp.qt.)'
+  - *id007
+- field: oil
+  years:
+  - 2016
+  - 2016
+  displacement_l: 2.7
+  engine: 2TR-FE engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - ref: OM04005U
+    page: 573
+    quote: 6.2 qt. 5.8 qt. 2TR-FE engine
+  - &id008
+    ref: OM04005U
+    page: 573
+    quote: 'Recommended viscosity: SAE 0W-20'
+- field: oil
+  years:
+  - 2016
+  - 2016
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  condition: without towing package
+  grade: 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM04005U
+    page: 573
+    quote: without towing 6.1 qt.
+  - *id008
+- field: oil
+  years:
+  - 2016
+  - 2016
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  condition: with towing package
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - ref: OM04005U
+    page: 573
+    quote: with towing 6.2 qt.
+  - *id008
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 2.7
+  engine: 2TR-FE engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - ref: OM04013U
+    page: 575
+    quote: 6.2 qt. 5.8 qt. 2TR-FE engine
+  - &id009
+    ref: OM04013U
+    page: 575
+    quote: 'Recommended viscosity: SAE 0W-20'
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  condition: without towing package
+  grade: 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM04013U
+    page: 575
+    quote: without towing 6.1 qt.
+  - *id009
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  condition: with towing package
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - ref: OM04013U
+    page: 575
+    quote: with towing 6.2 qt.
+  - *id009
+- field: oil
+  years:
+  - 2018
+  - 2018
+  displacement_l: 2.7
+  engine: 2TR-FE engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - ref: OM04017U
+    page: 629
+    quote: 6.2 qt. 5.8 qt. 2TR-FE engine
+  - &id010
+    ref: OM04017U
+    page: 629
+    quote: 'Recommended viscosity: SAE 0W-20'
+- field: oil
+  years:
+  - 2018
+  - 2018
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  condition: without towing package
+  grade: 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM04017U
+    page: 629
+    quote: without towing 6.1 qt.
+  - *id010
+- field: oil
+  years:
+  - 2018
+  - 2018
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  condition: with towing package
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - ref: OM04017U
+    page: 629
+    quote: with towing 6.2 qt.
+  - *id010
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 2.7
+  engine: 2TR-FE engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - ref: OM04021U
+    page: 633
+    quote: 6.2 qt. 5.8 qt. 2TR-FE engine
+  - &id011
+    ref: OM04021U
+    page: 633
+    quote: 'Recommended viscosity: SAE 0W-20'
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  condition: without towing package
+  grade: 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM04021U
+    page: 633
+    quote: without towing 6.1 qt.
+  - *id011
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  condition: with towing package
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - ref: OM04021U
+    page: 633
+    quote: with towing 6.2 qt.
+  - *id011
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 2.7
+  engine: 2TR-FE engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - ref: OM04025U
+    page: 539
+    quote: 6.2 qt. 5.8 qt. 2TR-FE engine
+  - &id012
+    ref: OM04025U
+    page: 539
+    quote: 'Recommended viscosity: SAE 0W-20'
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  condition: without towing package
+  grade: 0W-20
+  capacity_qt: 6.1
+  capacity_l: 5.8
+  src:
+  - ref: OM04025U
+    page: 539
+    quote: without towing 6.1 qt.
+  - *id012
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  condition: with towing package
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - ref: OM04025U
+    page: 539
+    quote: with towing 6.2 qt.
+  - *id012
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 2.7
+  engine: 2TR-FE engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - &id013
+    ref: OM04029U
+    page: 541
+    quote: 2TR-FE engine 2GR-FKS engine With filter Without filter 6.2 qt.
+  - &id014
+    ref: OM04029U
+    page: 541
+    quote: 'Recommended viscosity: SAE 0W-20'
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - *id013
+  - *id014
+- field: oil
+  years:
+  - 2022
+  - 2022
+  displacement_l: 2.7
+  engine: 2TR-FE engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - &id015
+    ref: OM04037U
+    page: 547
+    quote: 2TR-FE engine 2GR-FKS engine With filter Without filter 6.2 qt.
+  - &id016
+    ref: OM04037U
+    page: 547
+    quote: 'Recommended viscosity: SAE 0W-20'
+- field: oil
+  years:
+  - 2022
+  - 2022
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - *id015
+  - *id016
+- field: oil
+  years:
+  - 2023
+  - 2023
+  displacement_l: 2.7
+  engine: 2TR-FE engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - &id017
+    ref: OM04047U
+    page: 547
+    quote: 2TR-FE engine 2GR-FKS engine With filter Without filter 6.2 qt.
+  - &id018
+    ref: OM04047U
+    page: 547
+    quote: 'Recommended viscosity: SAE 0W-20'
+- field: oil
+  years:
+  - 2023
+  - 2023
+  displacement_l: 3.5
+  engine: 2GR-FKS engine
+  grade: 0W-20
+  capacity_qt: 6.2
+  capacity_l: 5.9
+  src:
+  - *id017
+  - *id018
+- field: oil
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.4
+  engine: 2.4 L turbo
+  grade: 0W-20
+  capacity_qt: 5.9
+  capacity_l: 5.6
+  src:
+  - ref: OM04041U
+    page: 617
+    quote: 5.9 qt. (5.6 L, 4.9 Imp.
+  - ref: OM04041U
+    page: 617
+    quote: SAE 0W-20 is the best choice
+- field: oil
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.4
+  engine: 2.4 L turbo
+  grade: 0W-20
+  capacity_qt: 5.9
+  capacity_l: 5.6
+  src:
+  - ref: OM04011U
+    page: 616
+    quote: 5.9 qt. (5.6 L, 4.9 Imp.
+  - ref: OM04011U
+    page: 617
+    quote: SAE 0W-20 is the best choice
+- field: oil
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.4
+  engine: 2.4 L turbo hybrid (i-FORCE MAX)
+  grade: 0W-20
+  capacity_qt: 5.9
+  capacity_l: 5.6
+  src:
+  - ref: OM04042U
+    page: 587
+    quote: 5.9 qt. (5.6 L, 4.9 Imp.
+  - ref: OM04042U
+    page: 587
+    quote: SAE 0W-20 is the best choice
+- field: oil
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.4
+  engine: 2.4 L turbo hybrid (i-FORCE MAX)
+  grade: 0W-20
+  capacity_qt: 5.9
+  capacity_l: 5.6
+  src:
+  - ref: OM04012U
+    page: 600
+    quote: 5.9 qt. (5.6 L, 4.9 Imp.
+  - ref: OM04012U
+    page: 601
+    quote: SAE 0W-20 is the best choice
+- field: towing
+  years:
+  - 2008
+  - 2008
+  max_lb: 6500
+  package: Towing package
+  note: model-wide rating in the specifications; trailer weight + cargo
+  src:
+  - ref: OM35892U
+    page: 419
+    quote: With towing package 2948 kg (6500 lb.)
+- field: towing
+  years:
+  - 2008
+  - 2008
+  max_lb: 3500
+  note: without towing package; model-wide rating in the specifications
+  src:
+  - ref: OM35892U
+    page: 419
+    quote: Without towing package 1587 kg (3500 lb.)
+- field: towing
+  years:
+  - 2009
+  - 2009
+  max_lb: 6500
+  package: Towing package
+  note: model-wide rating in the specifications; trailer weight + cargo
+  src:
+  - ref: OM35883U
+    page: 469
+    quote: With towing package 6500 lb.
+- field: towing
+  years:
+  - 2009
+  - 2009
+  max_lb: 3500
+  note: without towing package; model-wide rating in the specifications
+  src:
+  - ref: OM35883U
+    page: 469
+    quote: Without towing package Towing capacity 3500 lb.
+- field: towing
+  years:
+  - 2010
+  - 2010
+  max_lb: 6500
+  package: Towing package
+  note: model-wide rating in the specifications; trailer weight + cargo
+  src:
+  - ref: OM35A20U
+    page: 475
+    quote: With towing package 6500 lb.
+- field: towing
+  years:
+  - 2010
+  - 2010
+  max_lb: 3500
+  note: without towing package; model-wide rating in the specifications
+  src:
+  - ref: OM35A20U
+    page: 475
+    quote: Without towing package Towing capacity 3500 lb.
+- field: towing
+  years:
+  - 2011
+  - 2011
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  max_lb: 3500
+  note: 3,400 lb on Double Cab 2WD TRN225L-PRPDKA
+  src:
+  - ref: OM35A34U
+    page: 490
+    quote: TRN225L-PRPDKA 2.7 L 4-cylinder 3400 lb.
+  - ref: OM35A34U
+    page: 490
+    quote: TRN265L-PRPDKA (2TR-FE) engine 3500 lb.
+- field: towing
+  years:
+  - 2011
+  - 2011
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  max_lb: 6500
+  package: Towing package
+  note: 6,300-6,500 lb by cab/drive/bed (model code)
+  src:
+  - ref: OM35A34U
+    page: 490
+    quote: 6500 lb. (2948 kg)*3
+  - ref: OM35A34U
+    page: 490
+    quote: 6300 lb. (2857 kg)*3
+- field: towing
+  years:
+  - 2011
+  - 2011
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  max_lb: 3500
+  note: without towing package; 3,300-3,500 lb by model code
+  src:
+  - ref: OM35A34U
+    page: 489
+    quote: 3300 lb. (1496 kg)
+  - ref: OM35A34U
+    page: 490
+    quote: 3500 lb. (1587 kg)*2
+- field: towing
+  years:
+  - 2012
+  - 2012
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  max_lb: 3500
+  note: 3,400 lb on Double Cab 2WD TRN225L-PRPDKA
+  src:
+  - ref: OM35A48U
+    page: 554
+    quote: TRN225L-PRPDKA 2.7 L 4-cylinder 3400 lb.
+  - ref: OM35A48U
+    page: 554
+    quote: TRN265L-PRPDKA (2TR-FE) engine 3500 lb.
+- field: towing
+  years:
+  - 2012
+  - 2012
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  max_lb: 6500
+  package: Towing package
+  note: 6,400-6,500 lb by cab/drive/bed (model code)
+  src:
+  - ref: OM35A48U
+    page: 554
+    quote: 6500 lb. (2945 kg)*3
+  - ref: OM35A48U
+    page: 554
+    quote: 6400 lb. (2900 kg)*3
+- field: towing
+  years:
+  - 2012
+  - 2012
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  max_lb: 3500
+  note: without towing package; 3,300-3,500 lb by model code
+  src:
+  - ref: OM35A48U
+    page: 553
+    quote: 3300 lb. (1495 kg)
+  - ref: OM35A48U
+    page: 554
+    quote: 3500 lb. (1585 kg)*2
+- field: towing
+  years:
+  - 2014
+  - 2014
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  max_lb: 3500
+  note: 3,400 lb on Double Cab 2WD TRN225L-PRPDKA
+  src:
+  - ref: OM35A38U
+    page: 532
+    quote: TRN225L-PRPDKA 2.7 L 4-cylinder 3400 lb.
+  - ref: OM35A38U
+    page: 532
+    quote: TRN265L-PRPDKA (2TR-FE) engine 3500 lb.
+- field: towing
+  years:
+  - 2014
+  - 2014
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  max_lb: 6500
+  package: Towing package
+  note: 6,200-6,500 lb by cab/drive/bed (model code)
+  src:
+  - ref: OM35A38U
+    page: 532
+    quote: 6500 lb. (2945 kg)*3
+  - ref: OM35A38U
+    page: 532
+    quote: 6200 lb. (2810 kg)*3
+- field: towing
+  years:
+  - 2014
+  - 2014
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  max_lb: 3500
+  note: without towing package; 3,300-3,500 lb by model code
+  src:
+  - ref: OM35A38U
+    page: 531
+    quote: 3300 lb. (1495 kg)
+  - ref: OM35A38U
+    page: 532
+    quote: 3500 lb. (1585 kg)*2
+- field: towing
+  years:
+  - 2015
+  - 2015
+  displacement_l: 2.7
+  engine: 2.7 L 4-cylinder (2TR-FE)
+  max_lb: 3500
+  note: 3,400 lb on Double Cab 2WD TRN225L-PRPDKA
+  src:
+  - ref: OM04009U
+    page: 522
+    quote: TRN225L-PRPDKA 2.7 L 4-cylinder 3400 lb.
+  - ref: OM04009U
+    page: 522
+    quote: TRN265L-PRPDKA (2TR-FE) engine 3500 lb.
+- field: towing
+  years:
+  - 2015
+  - 2015
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  max_lb: 6500
+  package: Towing package
+  note: 6,200-6,500 lb by cab/drive/bed (model code)
+  src:
+  - ref: OM04009U
+    page: 522
+    quote: 6500 lb. (2945 kg)*3
+  - ref: OM04009U
+    page: 522
+    quote: 6200 lb. (2810 kg)*3
+- field: towing
+  years:
+  - 2015
+  - 2015
+  displacement_l: 4.0
+  engine: 4.0 L V6 (1GR-FE)
+  max_lb: 3500
+  note: without towing package; 3,300-3,500 lb by model code
+  src:
+  - ref: OM04009U
+    page: 521
+    quote: 3300 lb. (1495 kg)
+  - ref: OM04009U
+    page: 522
+    quote: 3500 lb. (1585 kg)*2
+- field: towing
+  years:
+  - 2016
+  - 2016
+  displacement_l: 2.7
+  engine: 2TR-FE
+  max_lb: 3500
+  src:
+  - ref: OM04005U
+    page: 175
+    quote: 2TR-FE 7920 lb. 3500 lb.
+- field: towing
+  years:
+  - 2016
+  - 2016
+  displacement_l: 3.5
+  engine: 2GR-FKS
+  drive: 2WD
+  cab: Access Cab
+  max_lb: 6800
+  gcwr_lb: 11310
+  package: Towing package
+  note: max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed
+  src:
+  - ref: OM04005U
+    page: 174
+    quote: 11310 lb.*3 6800 lb.*3
+  - ref: OM04005U
+    page: 176
+    quote: 11090 lb.*3 6000 lb.*3
+- field: towing
+  years:
+  - 2016
+  - 2016
+  displacement_l: 3.5
+  engine: 2GR-FKS
+  max_lb: 3500
+  note: without towing package
+  src:
+  - ref: OM04005U
+    page: 174
+    quote: 7890 lb.*2 3500 lb.*2
+- field: towing
+  years:
+  - 2017
+  - 2017
+  displacement_l: 2.7
+  engine: 2TR-FE
+  max_lb: 3500
+  src:
+  - ref: OM04013U
+    page: 177
+    quote: 2TR-FE 7920 lb. 3500 lb.
+- field: towing
+  years:
+  - 2017
+  - 2017
+  displacement_l: 3.5
+  engine: 2GR-FKS
+  drive: 2WD
+  cab: Access Cab
+  max_lb: 6800
+  gcwr_lb: 11310
+  package: Towing package
+  note: max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed
+  src:
+  - ref: OM04013U
+    page: 176
+    quote: 11310 lb.*3 6800 lb.*3
+  - ref: OM04013U
+    page: 178
+    quote: 11090 lb.*3 6000 lb.*3
+- field: towing
+  years:
+  - 2017
+  - 2017
+  displacement_l: 3.5
+  engine: 2GR-FKS
+  max_lb: 3500
+  note: without towing package
+  src:
+  - ref: OM04013U
+    page: 176
+    quote: 7890 lb.*2 3500 lb.*2
+- field: towing
+  years:
+  - 2018
+  - 2018
+  displacement_l: 2.7
+  engine: 2TR-FE
+  drive: 2WD
+  cab: Double Cab
+  max_lb: 3500
+  gcwr_lb: 7860
+  src:
+  - ref: OM04017U
+    page: 182
+    quote: 2TR-FE 7860 lb. 3500 lb.
+- field: towing
+  years:
+  - 2018
+  - 2018
+  displacement_l: 3.5
+  engine: 2GR-FKS
+  drive: 2WD
+  cab: Access Cab
+  max_lb: 6800
+  gcwr_lb: 11240
+  note: max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed
+  src:
+  - ref: OM04017U
+    page: 181
+    quote: 11240 lb. 6800 lb.
+  - ref: OM04017U
+    page: 182
+    quote: 11020 lb. 6000 lb.
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 2.7
+  engine: 2TR-FE
+  drive: 2WD
+  cab: Double Cab
+  max_lb: 3500
+  gcwr_lb: 7860
+  src:
+  - ref: OM04021U
+    page: 182
+    quote: 2TR-FE 7860 lb. 3500 lb.
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 3.5
+  engine: 2GR-FKS
+  drive: 2WD
+  cab: Access Cab
+  max_lb: 6800
+  gcwr_lb: 11240
+  note: max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed
+  src:
+  - ref: OM04021U
+    page: 181
+    quote: 11240 lb. 6800 lb.
+  - ref: OM04021U
+    page: 182
+    quote: 11020 lb. 6000 lb.
+- field: towing
+  years:
+  - 2020
+  - 2020
+  displacement_l: 2.7
+  engine: 2TR-FE
+  drive: 2WD
+  cab: Double Cab
+  max_lb: 3500
+  gcwr_lb: 7870
+  src:
+  - ref: OM04025U
+    page: 190
+    quote: 2TR-FE 7870 lb. 3500 lb.
+- field: towing
+  years:
+  - 2020
+  - 2020
+  displacement_l: 3.5
+  engine: 2GR-FKS
+  drive: 2WD
+  cab: Access Cab
+  max_lb: 6800
+  gcwr_lb: 11270
+  note: max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed
+  src:
+  - ref: OM04025U
+    page: 189
+    quote: 11270 lb. 6800 lb.
+  - ref: OM04025U
+    page: 190
+    quote: 11040 lb. 6000 lb.
+- field: towing
+  years:
+  - 2021
+  - 2021
+  displacement_l: 2.7
+  engine: 2TR-FE
+  drive: 2WD
+  cab: Double Cab
+  max_lb: 3500
+  gcwr_lb: 7870
+  src:
+  - ref: OM04029U
+    page: 190
+    quote: 2TR-FE 7870 lb. 3500 lb.
+- field: towing
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.5
+  engine: 2GR-FKS
+  drive: 2WD
+  cab: Access Cab
+  max_lb: 6800
+  gcwr_lb: 11270
+  note: max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed
+  src:
+  - ref: OM04029U
+    page: 189
+    quote: 11270 lb. 6800 lb.
+  - ref: OM04029U
+    page: 190
+    quote: 11040 lb. 6000 lb.
+- field: towing
+  years:
+  - 2022
+  - 2022
+  displacement_l: 2.7
+  engine: 2TR-FE
+  drive: 2WD
+  cab: Double Cab
+  max_lb: 3500
+  gcwr_lb: 7870
+  src:
+  - ref: OM04037U
+    page: 190
+    quote: 2TR-FE 7870 lb. 3500 lb.
+- field: towing
+  years:
+  - 2022
+  - 2022
+  displacement_l: 3.5
+  engine: 2GR-FKS
+  drive: 2WD
+  cab: Access Cab
+  max_lb: 6800
+  gcwr_lb: 11270
+  note: max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed
+  src:
+  - ref: OM04037U
+    page: 189
+    quote: 11270 lb. 6800 lb.
+  - ref: OM04037U
+    page: 190
+    quote: 11040 lb. 6000 lb.
+- field: towing
+  years:
+  - 2023
+  - 2023
+  displacement_l: 2.7
+  engine: 2TR-FE
+  drive: 2WD
+  cab: Double Cab
+  max_lb: 3500
+  gcwr_lb: 7870
+  src:
+  - ref: OM04047U
+    page: 190
+    quote: 2TR-FE 7870 lb. 3500 lb.
+- field: towing
+  years:
+  - 2023
+  - 2023
+  displacement_l: 3.5
+  engine: 2GR-FKS
+  drive: 2WD
+  cab: Access Cab
+  max_lb: 6800
+  gcwr_lb: 11270
+  note: max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed
+  src:
+  - ref: OM04047U
+    page: 189
+    quote: 11270 lb. 6800 lb.
+  - ref: OM04047U
+    page: 190
+    quote: 11040 lb. 6000 lb.
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.4
+  engine: 2.4 L turbo
+  cab: XtraCab
+  max_lb: 6500
+  gcwr_lb: 11335
+  note: max rating (XtraCab SR5 / TRD PreRunner); Double Cab grades 6,300-6,400 lb
+  src:
+  - ref: OM04041U
+    page: 206
+    quote: TZNA45L- 11335 lb. 6500 lb.
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.4
+  engine: 2.4 L turbo
+  cab: Double Cab
+  max_lb: 3500
+  gcwr_lb: 8210
+  note: SR grade
+  src:
+  - ref: OM04041U
+    page: 205
+    quote: TZNA41L-PRZ- 8210 lb. 3500 lb.
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.4
+  engine: 2.4 L turbo
+  cab: XtraCab
+  max_lb: 6500
+  gcwr_lb: 11335
+  note: max rating (XtraCab SR5 / TRD PreRunner); Double Cab grades 6,300-6,400 lb
+  src:
+  - ref: OM04011U
+    page: 205
+    quote: TZNA45L- 11335 lb. 6500 lb.
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.4
+  engine: 2.4 L turbo
+  cab: Double Cab
+  max_lb: 3500
+  gcwr_lb: 8210
+  note: SR grade
+  src:
+  - ref: OM04011U
+    page: 204
+    quote: TZNA41L-PRZ- 8210 lb. 3500 lb.
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.4
+  engine: 2.4 L turbo hybrid (i-FORCE MAX)
+  max_lb: 6000
+  note: short bed grades
+  src:
+  - ref: OM04042U
+    page: 192
+    quote: Short Limited 11675 lb. (5295 kg) 6000 lb.
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.4
+  engine: 2.4 L turbo hybrid (i-FORCE MAX)
+  max_lb: 5950
+  gcwr_lb: 11825
+  note: long bed TRAILHUNTER
+  src:
+  - ref: OM04042U
+    page: 192
+    quote: Long TRAILHUNTER 11825 lb. (5365 kg) 5950 lb.
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.4
+  engine: 2.4 L turbo hybrid (i-FORCE MAX)
+  max_lb: 6000
+  note: short bed grades
+  src:
+  - ref: OM04012U
+    page: 197
+    quote: Short Limited 11675 lb. (5295 kg) 6000 lb.
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.4
+  engine: 2.4 L turbo hybrid (i-FORCE MAX)
+  max_lb: 5950
+  gcwr_lb: 11825
+  note: long bed TRAILHUNTER
+  src:
+  - ref: OM04012U
+    page: 197
+    quote: Long TRAILHUNTER 11825 lb. (5365 kg) 5950 lb.
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P215/70R15
+  load_speed: 97S
+  src:
+  - ref: OM35892U
+    page: 424
+    quote: P215/70R15 97S
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM35892U
+    page: 424
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P265/70R16
+  load_speed: 111T
+  src:
+  - ref: OM35892U
+    page: 424
+    quote: P265/70R16 111T
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM35892U
+    page: 424
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P255/45R18
+  load_speed: 99V
+  src:
+  - ref: OM35892U
+    page: 424
+    quote: P255/45R18 99V
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P215/70R15
+  load_speed: 97S
+  src:
+  - ref: OM35883U
+    page: 479
+    quote: P215/70R15 97S
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM35883U
+    page: 480
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P265/70R16
+  load_speed: 111T
+  src:
+  - ref: OM35883U
+    page: 480
+    quote: P265/70R16 111T
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM35883U
+    page: 481
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P255/45R18
+  load_speed: 99V
+  src:
+  - ref: OM35883U
+    page: 481
+    quote: P255/45R18 99V
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P215/70R15
+  load_speed: 97S
+  src:
+  - ref: OM35A20U
+    page: 486
+    quote: P215/70R15 97S
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM35A20U
+    page: 487
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P265/70R16
+  load_speed: 111T
+  src:
+  - ref: OM35A20U
+    page: 487
+    quote: P265/70R16 111T
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM35A20U
+    page: 488
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P255/45R18
+  load_speed: 99V
+  src:
+  - ref: OM35A20U
+    page: 488
+    quote: P255/45R18 99V
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P215/70R15
+  load_speed: 97S
+  src:
+  - ref: OM35A34U
+    page: 502
+    quote: P215/70R15 97S
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM35A34U
+    page: 503
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P265/70R16
+  load_speed: 111T
+  src:
+  - ref: OM35A34U
+    page: 503
+    quote: P265/70R16 111T
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM35A34U
+    page: 504
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P255/45R18
+  load_speed: 99V
+  src:
+  - ref: OM35A34U
+    page: 504
+    quote: P255/45R18 99V
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P215/70R15
+  load_speed: 97S
+  src:
+  - ref: OM35A48U
+    page: 566
+    quote: P215/70R15 97S
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM35A48U
+    page: 567
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P265/70R16
+  load_speed: 111T
+  src:
+  - ref: OM35A48U
+    page: 567
+    quote: P265/70R16 111T
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM35A48U
+    page: 568
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P255/45R18
+  load_speed: 99V
+  src:
+  - ref: OM35A48U
+    page: 568
+    quote: P255/45R18 99V
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM35A48U
+    page: 569
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P215/70R15
+  load_speed: 97S
+  src:
+  - ref: OM35A38U
+    page: 544
+    quote: P215/70R15 97S
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM35A38U
+    page: 545
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P265/70R16
+  load_speed: 111T
+  src:
+  - ref: OM35A38U
+    page: 545
+    quote: P265/70R16 111T
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM35A38U
+    page: 546
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P255/45R18
+  load_speed: 99V
+  src:
+  - ref: OM35A38U
+    page: 546
+    quote: P255/45R18 99V
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM35A38U
+    page: 547
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: P215/70R15
+  load_speed: 97S
+  src:
+  - ref: OM04009U
+    page: 534
+    quote: P215/70R15 97S
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM04009U
+    page: 535
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: P265/70R16
+  load_speed: 111T
+  src:
+  - ref: OM04009U
+    page: 535
+    quote: P265/70R16 111T
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM04009U
+    page: 536
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: P255/45R18
+  load_speed: 99V
+  src:
+  - ref: OM04009U
+    page: 536
+    quote: P255/45R18 99V
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM04009U
+    page: 537
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM04005U
+    page: 579
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: 265/70R16
+  load_speed: 112T
+  src:
+  - ref: OM04005U
+    page: 579
+    quote: 265/70R16 112T
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM04005U
+    page: 579
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM04005U
+    page: 579
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM04013U
+    page: 581
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: 265/70R16
+  load_speed: 112T
+  src:
+  - ref: OM04013U
+    page: 581
+    quote: 265/70R16 112T
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM04013U
+    page: 581
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM04013U
+    page: 581
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM04017U
+    page: 635
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: 265/70R16
+  load_speed: 112T
+  src:
+  - ref: OM04017U
+    page: 635
+    quote: 265/70R16 112T
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM04017U
+    page: 635
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM04017U
+    page: 635
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM04021U
+    page: 639
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: 265/70R16
+  load_speed: 112T
+  src:
+  - ref: OM04021U
+    page: 639
+    quote: 265/70R16 112T
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM04021U
+    page: 639
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM04021U
+    page: 639
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM04025U
+    page: 545
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: 265/70R16
+  load_speed: 112T
+  src:
+  - ref: OM04025U
+    page: 545
+    quote: 265/70R16 112T
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM04025U
+    page: 546
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM04025U
+    page: 546
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM04029U
+    page: 547
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: 265/70R16
+  load_speed: 112T
+  src:
+  - ref: OM04029U
+    page: 547
+    quote: 265/70R16 112T
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM04029U
+    page: 548
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM04029U
+    page: 548
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM04037U
+    page: 553
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: 265/70R16
+  load_speed: 112T
+  src:
+  - ref: OM04037U
+    page: 553
+    quote: 265/70R16 112T
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM04037U
+    page: 554
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM04037U
+    page: 554
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: P245/75R16
+  load_speed: 109S
+  src:
+  - ref: OM04047U
+    page: 553
+    quote: P245/75R16 109S
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: 265/70R16
+  load_speed: 112T
+  src:
+  - ref: OM04047U
+    page: 553
+    quote: 265/70R16 112T
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: P265/65R17
+  load_speed: 110S
+  src:
+  - ref: OM04047U
+    page: 554
+    quote: P265/65R17 110S
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: P265/60R18
+  load_speed: 109H
+  src:
+  - ref: OM04047U
+    page: 554
+    quote: P265/60R18 109H
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 245/70R17
+  load_speed: 110T
+  src:
+  - ref: OM04041U
+    page: 622
+    quote: 245/70R17 110T
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 245/75R17
+  load_speed: 112S
+  src:
+  - ref: OM04041U
+    page: 622
+    quote: 245/75R17 112S
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 265/70R17
+  load_speed: 115T
+  src:
+  - ref: OM04041U
+    page: 622
+    quote: 265/70R17 115T
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 265/65R18
+  load_speed: 114T
+  src:
+  - ref: OM04041U
+    page: 623
+    quote: 265/65R18 114T
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 265/65R18
+  load_speed: 114T
+  trim: Hybrid (i-FORCE MAX)
+  src:
+  - ref: OM04042U
+    page: 591
+    quote: 265/65R18 114T
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 245/75R17
+  load_speed: 112S
+  trim: Hybrid (i-FORCE MAX)
+  src:
+  - ref: OM04042U
+    page: 591
+    quote: 245/75R17 112S
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 265/70R18
+  load_speed: 116T
+  trim: Hybrid (i-FORCE MAX)
+  src:
+  - ref: OM04042U
+    page: 591
+    quote: 265/70R18 116T
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 245/70R17
+  load_speed: 110T
+  src:
+  - ref: OM04011U
+    page: 621
+    quote: 245/70R17 110T
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 245/75R17
+  load_speed: 112S
+  src:
+  - ref: OM04011U
+    page: 621
+    quote: 245/75R17 112S
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 265/70R17
+  load_speed: 115T
+  src:
+  - ref: OM04011U
+    page: 621
+    quote: 265/70R17 115T
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 265/65R18
+  load_speed: 114T
+  src:
+  - ref: OM04011U
+    page: 622
+    quote: 265/65R18 114T
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 265/65R18
+  load_speed: 114T
+  trim: Hybrid (i-FORCE MAX)
+  src:
+  - ref: OM04012U
+    page: 604
+    quote: 265/65R18 114T
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 245/75R17
+  load_speed: 112S
+  trim: Hybrid (i-FORCE MAX)
+  src:
+  - ref: OM04012U
+    page: 604
+    quote: 245/75R17 112S
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 265/70R18
+  load_speed: 116T
+  trim: Hybrid (i-FORCE MAX)
+  src:
+  - ref: OM04012U
+    page: 605
+    quote: 265/70R18 116T
+- field: wipers
+  years:
+  - 2005
+  - 2005
+  driver_in: 22
+  passenger_in: 21
+  src:
+  - ref: rainx2005
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2005
+    quote: 'Position: Passenger Length (in.): 21"'
+- field: wipers
+  years:
+  - 2006
+  - 2006
+  driver_in: 22
+  passenger_in: 21
+  src:
+  - ref: rainx2006
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2006
+    quote: 'Position: Passenger Length (in.): 21"'
+- field: wipers
+  years:
+  - 2007
+  - 2007
+  driver_in: 22
+  passenger_in: 21
+  src:
+  - ref: rainx2007
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2007
+    quote: 'Position: Passenger Length (in.): 21"'
+- field: wipers
+  years:
+  - 2008
+  - 2008
+  driver_in: 22
+  passenger_in: 21
+  src:
+  - ref: rainx2008
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2008
+    quote: 'Position: Passenger Length (in.): 21"'
+- field: wipers
+  years:
+  - 2009
+  - 2009
+  driver_in: 22
+  passenger_in: 21
+  src:
+  - ref: rainx2009
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2009
+    quote: 'Position: Passenger Length (in.): 21"'
+- field: wipers
+  years:
+  - 2010
+  - 2010
+  driver_in: 22
+  passenger_in: 21
+  src:
+  - ref: rainx2010
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2010
+    quote: 'Position: Passenger Length (in.): 21"'
+- field: wipers
+  years:
+  - 2011
+  - 2011
+  driver_in: 22
+  passenger_in: 21
+  src:
+  - ref: rainx2011
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2011
+    quote: 'Position: Passenger Length (in.): 21"'
+- field: wipers
+  years:
+  - 2012
+  - 2012
+  driver_in: 22
+  passenger_in: 21
+  src:
+  - ref: rainx2012
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2012
+    quote: 'Position: Passenger Length (in.): 21"'
+- field: wipers
+  years:
+  - 2013
+  - 2013
+  driver_in: 22
+  passenger_in: 21
+  src:
+  - ref: rainx2013
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2013
+    quote: 'Position: Passenger Length (in.): 21"'
+- field: wipers
+  years:
+  - 2014
+  - 2014
+  driver_in: 22
+  passenger_in: 21
+  src:
+  - ref: rainx2014
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2014
+    quote: 'Position: Passenger Length (in.): 21"'
+- field: wipers
+  years:
+  - 2015
+  - 2015
+  driver_in: 22
+  passenger_in: 20
+  src:
+  - ref: rainx2015
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2015
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2016
+  - 2016
+  driver_in: 22
+  passenger_in: 20
+  src:
+  - ref: rainx2016
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2016
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2017
+  - 2017
+  driver_in: 22
+  passenger_in: 20
+  src:
+  - ref: rainx2017
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2017
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2018
+  - 2018
+  driver_in: 22
+  passenger_in: 20
+  src:
+  - ref: rainx2018
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2018
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2019
+  - 2019
+  driver_in: 22
+  passenger_in: 20
+  src:
+  - ref: rainx2019
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2019
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2020
+  - 2020
+  driver_in: 22
+  passenger_in: 20
+  src:
+  - ref: rainx2020
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2020
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2021
+  - 2021
+  driver_in: 22
+  passenger_in: 20
+  src:
+  - ref: rainx2021
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2021
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2022
+  - 2022
+  driver_in: 22
+  passenger_in: 20
+  src:
+  - ref: rainx2022
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2022
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2023
+  - 2023
+  driver_in: 22
+  passenger_in: 20
+  src:
+  - ref: rainx2023
+    quote: 'Position: Driver Length (in.): 22"'
+  - ref: rainx2023
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2024
+  - 2024
+  driver_in: 24
+  passenger_in: 20
+  src:
+  - ref: rainx2024
+    quote: 'Position: Driver Length (in.): 24"'
+  - ref: rainx2024
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2025
+  - 2025
+  driver_in: 24
+  passenger_in: 20
+  src:
+  - ref: rainx2025
+    quote: 'Position: Driver Length (in.): 24"'
+  - ref: rainx2025
+    quote: 'Position: Passenger Length (in.): 20"'
+- field: wipers
+  years:
+  - 2026
+  - 2026
+  driver_in: 24
+  passenger_in: 20
+  src:
+  - ref: rainx2026
+    quote: 'Position: Driver Length (in.): 24"'
+  - ref: rainx2026
+    quote: 'Position: Passenger Length (in.): 20"'

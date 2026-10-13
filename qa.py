@@ -160,6 +160,32 @@ def check_nhtsa(r: Report, slug, y, n):
                 r.add("error", slug, y, "nhtsa", f"NCAP {k} rating {v[k]} out of range")
 
 
+OEM_TYPES = {"oem_manual", "oem_towing_guide", "oem_spec_sheet", "oem_parts_catalog"}
+
+
+def check_manual_fields(r: Report, slug, y, blk):
+    """Step 05 already validated formats; here: provenance and cross-field consistency."""
+    displs = {e.get("displacement_l") for e in blk.get("engines") or []}
+    items = [("towing", t) for t in blk.get("towing") or []]
+    items += [("tires", t) for t in blk.get("tires") or []]
+    items += [("oil", o) for o in (blk.get("oil") or {}).get("engines", [])]
+    items += [("battery", b) for b in (blk.get("battery") or {}).get("options", [])]
+    if blk.get("wipers"):
+        items.append(("wipers", blk["wipers"]))
+    for field, it in items:
+        src = it.get("src") or []
+        if not src:
+            r.add("error", slug, y, field, f"value without source: {it}")
+            continue
+        if any(not s.get("quote") for s in src):
+            r.add("error", slug, y, field, "source without verbatim quote")
+        if field == "towing" and it.get("max_lb") and not any(s.get("type") in OEM_TYPES for s in src):
+            r.add("warning", slug, y, field, f"towing {it['max_lb']} lb has no OEM source")
+        d = it.get("displacement_l")
+        if d is not None and displs and not any(x and abs(x - d) <= 0.06 for x in displs):
+            r.add("warning", slug, y, field, f"{d}L does not match any EPA engine this year {sorted(x for x in displs if x)}")
+
+
 def check_model(r: Report, m: dict) -> dict:
     slug = m["slug"]
     years = sorted(m["years"], key=int)
@@ -179,6 +205,7 @@ def check_model(r: Report, m: dict) -> dict:
         check_engines(r, slug, y, blk.get("engines") or [])
         check_dims(r, slug, y, blk.get("dims"), m.get("body"))
         check_nhtsa(r, slug, y, blk.get("nhtsa"))
+        check_manual_fields(r, slug, y, blk)
 
         # bolt pattern should only change at a generation boundary
         w = blk.get("wheel") or {}

@@ -45,6 +45,15 @@
       "title": "ANKUSI Open Wheel Fitment Dataset: bolt pattern, centre bore and OE wheel specifications for 10,081 vehicle variants",
       "md5": "5ccd30bf2366aaaa465451d307c74f92"
     },
+    "manuals": {
+      "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
+      "file": "data/manuals/toyota/tacoma.yaml",
+      "documents": 41,
+      "document_types": [
+        "aftermarket_fitment",
+        "oem_manual"
+      ]
+    },
     "nhtsa": {
       "name": "NHTSA",
       "url": "https://api.nhtsa.gov",
@@ -192,7 +201,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 21,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2005 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2005 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 21\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -723,7 +753,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 21,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2006 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2006 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 21\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -1267,7 +1318,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 21,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2007 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2007&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2007 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2007&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 21\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -1759,7 +1831,37 @@
           "label": "4.0L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "max_lb": 6500,
+          "package": "Towing package",
+          "note": "model-wide rating in the specifications; trailer weight + cargo",
+          "src": [
+            {
+              "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+              "type": "oem_manual",
+              "page": 419,
+              "quote": "With towing package 2948 kg (6500 lb.)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "max_lb": 3500,
+          "note": "without towing package; model-wide rating in the specifications",
+          "src": [
+            {
+              "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+              "type": "oem_manual",
+              "page": 419,
+              "quote": "Without towing package 1587 kg (3500 lb.)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -1796,10 +1898,185 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P215/70R15",
+          "load_speed": "97S",
+          "src": [
+            {
+              "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+              "type": "oem_manual",
+              "page": 424,
+              "quote": "P215/70R15 97S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+              "type": "oem_manual",
+              "page": 424,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R16",
+          "load_speed": "111T",
+          "src": [
+            {
+              "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+              "type": "oem_manual",
+              "page": 424,
+              "quote": "P265/70R16 111T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+              "type": "oem_manual",
+              "page": 424,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/45R18",
+          "load_speed": "99V",
+          "src": [
+            {
+              "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+              "type": "oem_manual",
+              "page": 424,
+              "quote": "P255/45R18 99V",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 21,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2008 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2008&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2008 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2008&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 21\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7 L 4-cylinder (2TR-FE)",
+            "grade": "5W-20",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+                "type": "oem_manual",
+                "page": 420,
+                "quote": "With filter 5.8 (6.1, 5.1)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+                "type": "oem_manual",
+                "page": 385,
+                "quote": "2.7 L 4−cylinder (2TR−FE) engine— SAE 5W−20 or 0W−20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "2WD except PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 4.8,
+            "capacity_l": 4.5,
+            "src": [
+              {
+                "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+                "type": "oem_manual",
+                "page": 420,
+                "quote": "Two−wheel drive models except PreRunner With filter 4.5 (4.8, 4.0)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+                "type": "oem_manual",
+                "page": 385,
+                "quote": "4.0 L V6 (1GR−FE) engine— SAE 5W−30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "4WD and PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+                "type": "oem_manual",
+                "page": 420,
+                "quote": "PreRunner DENSO K20HR−U11 Outside temperature NGK LFR6C11 With filter 5.2 (5.5, 4.6)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2008 Toyota Tacoma Owner's Manual (OM35892U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35892U/OM35892U.pdf",
+                "type": "oem_manual",
+                "page": 385,
+                "quote": "4.0 L V6 (1GR−FE) engine— SAE 5W−30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -2303,7 +2580,37 @@
           "label": "4.0L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "max_lb": 6500,
+          "package": "Towing package",
+          "note": "model-wide rating in the specifications; trailer weight + cargo",
+          "src": [
+            {
+              "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+              "type": "oem_manual",
+              "page": 469,
+              "quote": "With towing package 6500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "max_lb": 3500,
+          "note": "without towing package; model-wide rating in the specifications",
+          "src": [
+            {
+              "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+              "type": "oem_manual",
+              "page": 469,
+              "quote": "Without towing package Towing capacity 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -2340,10 +2647,185 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P215/70R15",
+          "load_speed": "97S",
+          "src": [
+            {
+              "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+              "type": "oem_manual",
+              "page": 479,
+              "quote": "P215/70R15 97S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+              "type": "oem_manual",
+              "page": 480,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R16",
+          "load_speed": "111T",
+          "src": [
+            {
+              "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+              "type": "oem_manual",
+              "page": 480,
+              "quote": "P265/70R16 111T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+              "type": "oem_manual",
+              "page": 481,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/45R18",
+          "load_speed": "99V",
+          "src": [
+            {
+              "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+              "type": "oem_manual",
+              "page": 481,
+              "quote": "P255/45R18 99V",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 21,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2009 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2009&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2009 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2009&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 21\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7 L 4-cylinder (2TR-FE)",
+            "grade": "5W-20",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+                "type": "oem_manual",
+                "page": 472,
+                "quote": "6.1 qt. (5.8 L, 5.1 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+                "type": "oem_manual",
+                "page": 364,
+                "quote": "2TR-FE) engine SAE 5W-20 or 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "2WD except PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 4.8,
+            "capacity_l": 4.5,
+            "src": [
+              {
+                "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+                "type": "oem_manual",
+                "page": 473,
+                "quote": "2WD models except With filter PreRunner 4.8 qt. (4.5 L, 4.0 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+                "type": "oem_manual",
+                "page": 364,
+                "quote": "1GR-FE) engine SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "4WD and PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+                "type": "oem_manual",
+                "page": 473,
+                "quote": "4WD models and With filter PreRunner 5.5 qt. (5.2 L, 4.6 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2009 Toyota Tacoma Owner's Manual (OM35883U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35883U/OM35883U.pdf",
+                "type": "oem_manual",
+                "page": 364,
+                "quote": "1GR-FE) engine SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -2873,7 +3355,37 @@
           "label": "4.0L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "max_lb": 6500,
+          "package": "Towing package",
+          "note": "model-wide rating in the specifications; trailer weight + cargo",
+          "src": [
+            {
+              "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+              "type": "oem_manual",
+              "page": 475,
+              "quote": "With towing package 6500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "max_lb": 3500,
+          "note": "without towing package; model-wide rating in the specifications",
+          "src": [
+            {
+              "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+              "type": "oem_manual",
+              "page": 475,
+              "quote": "Without towing package Towing capacity 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -2910,10 +3422,185 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P215/70R15",
+          "load_speed": "97S",
+          "src": [
+            {
+              "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+              "type": "oem_manual",
+              "page": 486,
+              "quote": "P215/70R15 97S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+              "type": "oem_manual",
+              "page": 487,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R16",
+          "load_speed": "111T",
+          "src": [
+            {
+              "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+              "type": "oem_manual",
+              "page": 487,
+              "quote": "P265/70R16 111T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+              "type": "oem_manual",
+              "page": 488,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/45R18",
+          "load_speed": "99V",
+          "src": [
+            {
+              "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+              "type": "oem_manual",
+              "page": 488,
+              "quote": "P255/45R18 99V",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 21,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2010 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2010&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2010 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2010&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 21\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7 L 4-cylinder (2TR-FE)",
+            "grade": "5W-20",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+                "type": "oem_manual",
+                "page": 478,
+                "quote": "6.1 qt. (5.8 L, 5.1 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+                "type": "oem_manual",
+                "page": 478,
+                "quote": "Recommended viscosity: SAE 5W-20 or 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "2WD except PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 4.8,
+            "capacity_l": 4.5,
+            "src": [
+              {
+                "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+                "type": "oem_manual",
+                "page": 479,
+                "quote": "2WD models except With filter PreRunner 4.8 qt. (4.5 L, 4.0 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+                "type": "oem_manual",
+                "page": 480,
+                "quote": "Recommended viscosity: SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "4WD and PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+                "type": "oem_manual",
+                "page": 479,
+                "quote": "4WD models and With filter PreRunner 5.5 qt. (5.2 L, 4.6 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2010 Toyota Tacoma Owner's Manual (OM35A20U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A20U/OM35A20U.pdf",
+                "type": "oem_manual",
+                "page": 480,
+                "quote": "Recommended viscosity: SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -3428,7 +4115,81 @@
           "label": "4.0L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2.7 L 4-cylinder (2TR-FE)",
+          "max_lb": 3500,
+          "note": "3,400 lb on Double Cab 2WD TRN225L-PRPDKA",
+          "src": [
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 490,
+              "quote": "TRN225L-PRPDKA 2.7 L 4-cylinder 3400 lb.",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 490,
+              "quote": "TRN265L-PRPDKA (2TR-FE) engine 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 4.0,
+          "engine": "4.0 L V6 (1GR-FE)",
+          "max_lb": 6500,
+          "package": "Towing package",
+          "note": "6,300-6,500 lb by cab/drive/bed (model code)",
+          "src": [
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 490,
+              "quote": "6500 lb. (2948 kg)*3",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 490,
+              "quote": "6300 lb. (2857 kg)*3",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 4.0,
+          "engine": "4.0 L V6 (1GR-FE)",
+          "max_lb": 3500,
+          "note": "without towing package; 3,300-3,500 lb by model code",
+          "src": [
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 489,
+              "quote": "3300 lb. (1496 kg)",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 490,
+              "quote": "3500 lb. (1587 kg)*2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -3457,10 +4218,182 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P215/70R15",
+          "load_speed": "97S",
+          "src": [
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 502,
+              "quote": "P215/70R15 97S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 503,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R16",
+          "load_speed": "111T",
+          "src": [
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 503,
+              "quote": "P265/70R16 111T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 504,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/45R18",
+          "load_speed": "99V",
+          "src": [
+            {
+              "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+              "type": "oem_manual",
+              "page": 504,
+              "quote": "P255/45R18 99V",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 21,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2011 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2011&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2011 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2011&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 21\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7 L 4-cylinder (2TR-FE)",
+            "grade": "0W-20",
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+                "type": "oem_manual",
+                "page": 494,
+                "quote": "6.1 qt. (5.8 L, 5.1 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+                "type": "oem_manual",
+                "page": 494,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "2WD except PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 4.8,
+            "capacity_l": 4.5,
+            "src": [
+              {
+                "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+                "type": "oem_manual",
+                "page": 495,
+                "quote": "2WD models except With filter PreRunner 4.8 qt. (4.5 L, 4.0 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+                "type": "oem_manual",
+                "page": 496,
+                "quote": "Recommended viscosity: SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "4WD and PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+                "type": "oem_manual",
+                "page": 495,
+                "quote": "4WD models and With filter PreRunner 5.5 qt. (5.2 L, 4.6 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2011 Toyota Tacoma Owner's Manual (OM35A34U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A34U/OM35A34U.pdf",
+                "type": "oem_manual",
+                "page": 496,
+                "quote": "Recommended viscosity: SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -3978,7 +4911,81 @@
           "label": "4.0L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2.7 L 4-cylinder (2TR-FE)",
+          "max_lb": 3500,
+          "note": "3,400 lb on Double Cab 2WD TRN225L-PRPDKA",
+          "src": [
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "TRN225L-PRPDKA 2.7 L 4-cylinder 3400 lb.",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "TRN265L-PRPDKA (2TR-FE) engine 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 4.0,
+          "engine": "4.0 L V6 (1GR-FE)",
+          "max_lb": 6500,
+          "package": "Towing package",
+          "note": "6,400-6,500 lb by cab/drive/bed (model code)",
+          "src": [
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "6500 lb. (2945 kg)*3",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "6400 lb. (2900 kg)*3",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 4.0,
+          "engine": "4.0 L V6 (1GR-FE)",
+          "max_lb": 3500,
+          "note": "without towing package; 3,300-3,500 lb by model code",
+          "src": [
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 553,
+              "quote": "3300 lb. (1495 kg)",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "3500 lb. (1585 kg)*2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -4007,10 +5014,196 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P215/70R15",
+          "load_speed": "97S",
+          "src": [
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 566,
+              "quote": "P215/70R15 97S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 567,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R16",
+          "load_speed": "111T",
+          "src": [
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 567,
+              "quote": "P265/70R16 111T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 568,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/45R18",
+          "load_speed": "99V",
+          "src": [
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 568,
+              "quote": "P255/45R18 99V",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+              "type": "oem_manual",
+              "page": 569,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 21,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2012 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2012&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2012 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2012&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 21\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7 L 4-cylinder (2TR-FE)",
+            "grade": "0W-20",
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+                "type": "oem_manual",
+                "page": 558,
+                "quote": "6.1 qt. (5.8 L, 5.1 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+                "type": "oem_manual",
+                "page": 559,
+                "quote": "2TR-FE) engine SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "2WD except PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 4.8,
+            "capacity_l": 4.5,
+            "src": [
+              {
+                "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+                "type": "oem_manual",
+                "page": 558,
+                "quote": "2WD models except PreRunner: 4.8 qt. (4.5 L, 4.0 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+                "type": "oem_manual",
+                "page": 560,
+                "quote": "1GR-FE) engine SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "4WD and PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+                "type": "oem_manual",
+                "page": 558,
+                "quote": "4WD models and PreRunner: 5.5 qt. (5.2 L, 4.6 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2012 Toyota Tacoma Owner's Manual (OM35A48U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A48U/OM35A48U.pdf",
+                "type": "oem_manual",
+                "page": 560,
+                "quote": "1GR-FE) engine SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -4541,7 +5734,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 21,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2013 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2013&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2013 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2013&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 21\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -5021,7 +6235,81 @@
           "label": "4.0L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2.7 L 4-cylinder (2TR-FE)",
+          "max_lb": 3500,
+          "note": "3,400 lb on Double Cab 2WD TRN225L-PRPDKA",
+          "src": [
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 532,
+              "quote": "TRN225L-PRPDKA 2.7 L 4-cylinder 3400 lb.",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 532,
+              "quote": "TRN265L-PRPDKA (2TR-FE) engine 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 4.0,
+          "engine": "4.0 L V6 (1GR-FE)",
+          "max_lb": 6500,
+          "package": "Towing package",
+          "note": "6,200-6,500 lb by cab/drive/bed (model code)",
+          "src": [
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 532,
+              "quote": "6500 lb. (2945 kg)*3",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 532,
+              "quote": "6200 lb. (2810 kg)*3",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 4.0,
+          "engine": "4.0 L V6 (1GR-FE)",
+          "max_lb": 3500,
+          "note": "without towing package; 3,300-3,500 lb by model code",
+          "src": [
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 531,
+              "quote": "3300 lb. (1495 kg)",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 532,
+              "quote": "3500 lb. (1585 kg)*2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -5058,10 +6346,196 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P215/70R15",
+          "load_speed": "97S",
+          "src": [
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 544,
+              "quote": "P215/70R15 97S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 545,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R16",
+          "load_speed": "111T",
+          "src": [
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 545,
+              "quote": "P265/70R16 111T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 546,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/45R18",
+          "load_speed": "99V",
+          "src": [
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 546,
+              "quote": "P255/45R18 99V",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+              "type": "oem_manual",
+              "page": 547,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 21,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2014 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2014&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2014 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2014&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 21\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7 L 4-cylinder (2TR-FE)",
+            "grade": "0W-20",
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+                "type": "oem_manual",
+                "page": 536,
+                "quote": "6.1 qt. (5.8 L, 5.1 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+                "type": "oem_manual",
+                "page": 537,
+                "quote": "2TR-FE) engine SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "2WD except PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 4.8,
+            "capacity_l": 4.5,
+            "src": [
+              {
+                "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+                "type": "oem_manual",
+                "page": 536,
+                "quote": "2WD models except PreRunner: 4.8 qt. (4.5 L, 4.0 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+                "type": "oem_manual",
+                "page": 538,
+                "quote": "1GR-FE) engine SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "4WD and PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+                "type": "oem_manual",
+                "page": 536,
+                "quote": "4WD models and PreRunner: 5.5 qt. (5.2 L, 4.6 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2014 Toyota Tacoma Owner's Manual (OM35A38U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM35A38U/OM35A38U.pdf",
+                "type": "oem_manual",
+                "page": 538,
+                "quote": "1GR-FE) engine SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -5514,7 +6988,81 @@
           "label": "4.0L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2.7 L 4-cylinder (2TR-FE)",
+          "max_lb": 3500,
+          "note": "3,400 lb on Double Cab 2WD TRN225L-PRPDKA",
+          "src": [
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 522,
+              "quote": "TRN225L-PRPDKA 2.7 L 4-cylinder 3400 lb.",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 522,
+              "quote": "TRN265L-PRPDKA (2TR-FE) engine 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 4.0,
+          "engine": "4.0 L V6 (1GR-FE)",
+          "max_lb": 6500,
+          "package": "Towing package",
+          "note": "6,200-6,500 lb by cab/drive/bed (model code)",
+          "src": [
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 522,
+              "quote": "6500 lb. (2945 kg)*3",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 522,
+              "quote": "6200 lb. (2810 kg)*3",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 4.0,
+          "engine": "4.0 L V6 (1GR-FE)",
+          "max_lb": 3500,
+          "note": "without towing package; 3,300-3,500 lb by model code",
+          "src": [
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 521,
+              "quote": "3300 lb. (1495 kg)",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 522,
+              "quote": "3500 lb. (1585 kg)*2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -5543,10 +7091,196 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P215/70R15",
+          "load_speed": "97S",
+          "src": [
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 534,
+              "quote": "P215/70R15 97S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 535,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R16",
+          "load_speed": "111T",
+          "src": [
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 535,
+              "quote": "P265/70R16 111T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 536,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/45R18",
+          "load_speed": "99V",
+          "src": [
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 536,
+              "quote": "P255/45R18 99V",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+              "type": "oem_manual",
+              "page": 537,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2015 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2015&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2015 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2015&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7 L 4-cylinder (2TR-FE)",
+            "grade": "0W-20",
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+                "type": "oem_manual",
+                "page": 526,
+                "quote": "6.1 qt. (5.8 L, 5.1 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+                "type": "oem_manual",
+                "page": 527,
+                "quote": "2TR-FE) engine SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "2WD except PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 4.8,
+            "capacity_l": 4.5,
+            "src": [
+              {
+                "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+                "type": "oem_manual",
+                "page": 526,
+                "quote": "2WD models except PreRunner: 4.8 qt. (4.5 L, 4.0 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+                "type": "oem_manual",
+                "page": 528,
+                "quote": "1GR-FE) engine SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 L V6 (1GR-FE)",
+            "condition": "4WD and PreRunner",
+            "grade": "5W-30",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+                "type": "oem_manual",
+                "page": 526,
+                "quote": "4WD models and PreRunner: 5.5 qt. (5.2 L, 4.6 Imp.qt.)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2015 Toyota Tacoma Owner's Manual (OM04009U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04009U/OM04009U.pdf",
+                "type": "oem_manual",
+                "page": 528,
+                "quote": "1GR-FE) engine SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -5974,7 +7708,67 @@
           "label": "3.5L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2TR-FE",
+          "max_lb": 3500,
+          "src": [
+            {
+              "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+              "type": "oem_manual",
+              "page": 175,
+              "quote": "2TR-FE 7920 lb. 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.5,
+          "engine": "2GR-FKS",
+          "drive": "2WD",
+          "cab": "Access Cab",
+          "max_lb": 6800,
+          "gcwr_lb": 11310,
+          "package": "Towing package",
+          "note": "max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed",
+          "src": [
+            {
+              "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+              "type": "oem_manual",
+              "page": 174,
+              "quote": "11310 lb.*3 6800 lb.*3",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+              "type": "oem_manual",
+              "page": 176,
+              "quote": "11090 lb.*3 6000 lb.*3",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.5,
+          "engine": "2GR-FKS",
+          "max_lb": 3500,
+          "note": "without towing package",
+          "src": [
+            {
+              "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+              "type": "oem_manual",
+              "page": 174,
+              "quote": "7890 lb.*2 3500 lb.*2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -6003,10 +7797,168 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+              "type": "oem_manual",
+              "page": 579,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R16",
+          "load_speed": "112T",
+          "src": [
+            {
+              "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+              "type": "oem_manual",
+              "page": 579,
+              "quote": "265/70R16 112T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+              "type": "oem_manual",
+              "page": 579,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+              "type": "oem_manual",
+              "page": 579,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2016 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2016 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2TR-FE engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+                "type": "oem_manual",
+                "page": 573,
+                "quote": "6.2 qt. 5.8 qt. 2TR-FE engine",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+                "type": "oem_manual",
+                "page": 573,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "condition": "without towing package",
+            "grade": "0W-20",
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+                "type": "oem_manual",
+                "page": 573,
+                "quote": "without towing 6.1 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+                "type": "oem_manual",
+                "page": 573,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "condition": "with towing package",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+                "type": "oem_manual",
+                "page": 573,
+                "quote": "with towing 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2016 Toyota Tacoma Owner's Manual (OM04005U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04005U/OM04005U.pdf",
+                "type": "oem_manual",
+                "page": 573,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -6434,7 +8386,67 @@
           "label": "3.5L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2TR-FE",
+          "max_lb": 3500,
+          "src": [
+            {
+              "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+              "type": "oem_manual",
+              "page": 177,
+              "quote": "2TR-FE 7920 lb. 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.5,
+          "engine": "2GR-FKS",
+          "drive": "2WD",
+          "cab": "Access Cab",
+          "max_lb": 6800,
+          "gcwr_lb": 11310,
+          "package": "Towing package",
+          "note": "max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed",
+          "src": [
+            {
+              "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+              "type": "oem_manual",
+              "page": 176,
+              "quote": "11310 lb.*3 6800 lb.*3",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+              "type": "oem_manual",
+              "page": 178,
+              "quote": "11090 lb.*3 6000 lb.*3",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.5,
+          "engine": "2GR-FKS",
+          "max_lb": 3500,
+          "note": "without towing package",
+          "src": [
+            {
+              "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+              "type": "oem_manual",
+              "page": 176,
+              "quote": "7890 lb.*2 3500 lb.*2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -6463,10 +8475,168 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+              "type": "oem_manual",
+              "page": 581,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R16",
+          "load_speed": "112T",
+          "src": [
+            {
+              "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+              "type": "oem_manual",
+              "page": 581,
+              "quote": "265/70R16 112T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+              "type": "oem_manual",
+              "page": 581,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+              "type": "oem_manual",
+              "page": 581,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2017 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2017 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2TR-FE engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+                "type": "oem_manual",
+                "page": 575,
+                "quote": "6.2 qt. 5.8 qt. 2TR-FE engine",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+                "type": "oem_manual",
+                "page": 575,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "condition": "without towing package",
+            "grade": "0W-20",
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+                "type": "oem_manual",
+                "page": 575,
+                "quote": "without towing 6.1 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+                "type": "oem_manual",
+                "page": 575,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "condition": "with towing package",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+                "type": "oem_manual",
+                "page": 575,
+                "quote": "with towing 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Toyota Tacoma Owner's Manual (OM04013U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04013U/OM04013U.pdf",
+                "type": "oem_manual",
+                "page": 575,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -6905,7 +9075,53 @@
           "label": "3.5L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2TR-FE",
+          "drive": "2WD",
+          "cab": "Double Cab",
+          "max_lb": 3500,
+          "gcwr_lb": 7860,
+          "src": [
+            {
+              "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+              "type": "oem_manual",
+              "page": 182,
+              "quote": "2TR-FE 7860 lb. 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.5,
+          "engine": "2GR-FKS",
+          "drive": "2WD",
+          "cab": "Access Cab",
+          "max_lb": 6800,
+          "gcwr_lb": 11240,
+          "note": "max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed",
+          "src": [
+            {
+              "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+              "type": "oem_manual",
+              "page": 181,
+              "quote": "11240 lb. 6800 lb.",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+              "type": "oem_manual",
+              "page": 182,
+              "quote": "11020 lb. 6000 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -6947,10 +9163,168 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+              "type": "oem_manual",
+              "page": 635,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R16",
+          "load_speed": "112T",
+          "src": [
+            {
+              "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+              "type": "oem_manual",
+              "page": 635,
+              "quote": "265/70R16 112T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+              "type": "oem_manual",
+              "page": 635,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+              "type": "oem_manual",
+              "page": 635,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2018 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2018 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2TR-FE engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+                "type": "oem_manual",
+                "page": 629,
+                "quote": "6.2 qt. 5.8 qt. 2TR-FE engine",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+                "type": "oem_manual",
+                "page": 629,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "condition": "without towing package",
+            "grade": "0W-20",
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+                "type": "oem_manual",
+                "page": 629,
+                "quote": "without towing 6.1 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+                "type": "oem_manual",
+                "page": 629,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "condition": "with towing package",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+                "type": "oem_manual",
+                "page": 629,
+                "quote": "with towing 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Toyota Tacoma Owner's Manual (OM04017U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04017U/OM04017U.pdf",
+                "type": "oem_manual",
+                "page": 629,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -7366,7 +9740,53 @@
           "label": "3.5L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2TR-FE",
+          "drive": "2WD",
+          "cab": "Double Cab",
+          "max_lb": 3500,
+          "gcwr_lb": 7860,
+          "src": [
+            {
+              "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+              "type": "oem_manual",
+              "page": 182,
+              "quote": "2TR-FE 7860 lb. 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.5,
+          "engine": "2GR-FKS",
+          "drive": "2WD",
+          "cab": "Access Cab",
+          "max_lb": 6800,
+          "gcwr_lb": 11240,
+          "note": "max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed",
+          "src": [
+            {
+              "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+              "type": "oem_manual",
+              "page": 181,
+              "quote": "11240 lb. 6800 lb.",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+              "type": "oem_manual",
+              "page": 182,
+              "quote": "11020 lb. 6000 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -7395,10 +9815,168 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+              "type": "oem_manual",
+              "page": 639,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R16",
+          "load_speed": "112T",
+          "src": [
+            {
+              "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+              "type": "oem_manual",
+              "page": 639,
+              "quote": "265/70R16 112T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+              "type": "oem_manual",
+              "page": 639,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+              "type": "oem_manual",
+              "page": 639,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2019 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2019 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2TR-FE engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+                "type": "oem_manual",
+                "page": 633,
+                "quote": "6.2 qt. 5.8 qt. 2TR-FE engine",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+                "type": "oem_manual",
+                "page": 633,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "condition": "without towing package",
+            "grade": "0W-20",
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+                "type": "oem_manual",
+                "page": 633,
+                "quote": "without towing 6.1 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+                "type": "oem_manual",
+                "page": 633,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "condition": "with towing package",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+                "type": "oem_manual",
+                "page": 633,
+                "quote": "with towing 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Toyota Tacoma Owner's Manual (OM04021U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04021U/OM04021U.pdf",
+                "type": "oem_manual",
+                "page": 633,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -7824,7 +10402,53 @@
           "label": "3.5L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2TR-FE",
+          "drive": "2WD",
+          "cab": "Double Cab",
+          "max_lb": 3500,
+          "gcwr_lb": 7870,
+          "src": [
+            {
+              "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+              "type": "oem_manual",
+              "page": 190,
+              "quote": "2TR-FE 7870 lb. 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.5,
+          "engine": "2GR-FKS",
+          "drive": "2WD",
+          "cab": "Access Cab",
+          "max_lb": 6800,
+          "gcwr_lb": 11270,
+          "note": "max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed",
+          "src": [
+            {
+              "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+              "type": "oem_manual",
+              "page": 189,
+              "quote": "11270 lb. 6800 lb.",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+              "type": "oem_manual",
+              "page": 190,
+              "quote": "11040 lb. 6000 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -7853,10 +10477,168 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+              "type": "oem_manual",
+              "page": 545,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R16",
+          "load_speed": "112T",
+          "src": [
+            {
+              "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+              "type": "oem_manual",
+              "page": 545,
+              "quote": "265/70R16 112T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+              "type": "oem_manual",
+              "page": 546,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+              "type": "oem_manual",
+              "page": 546,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2020 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2020 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2TR-FE engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+                "type": "oem_manual",
+                "page": 539,
+                "quote": "6.2 qt. 5.8 qt. 2TR-FE engine",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+                "type": "oem_manual",
+                "page": 539,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "condition": "without towing package",
+            "grade": "0W-20",
+            "capacity_qt": 6.1,
+            "capacity_l": 5.8,
+            "src": [
+              {
+                "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+                "type": "oem_manual",
+                "page": 539,
+                "quote": "without towing 6.1 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+                "type": "oem_manual",
+                "page": 539,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "condition": "with towing package",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+                "type": "oem_manual",
+                "page": 539,
+                "quote": "with towing 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Toyota Tacoma Owner's Manual (OM04025U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04025U/OM04025U.pdf",
+                "type": "oem_manual",
+                "page": 539,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -8203,7 +10985,53 @@
           "label": "3.5L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2TR-FE",
+          "drive": "2WD",
+          "cab": "Double Cab",
+          "max_lb": 3500,
+          "gcwr_lb": 7870,
+          "src": [
+            {
+              "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+              "type": "oem_manual",
+              "page": 190,
+              "quote": "2TR-FE 7870 lb. 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.5,
+          "engine": "2GR-FKS",
+          "drive": "2WD",
+          "cab": "Access Cab",
+          "max_lb": 6800,
+          "gcwr_lb": 11270,
+          "note": "max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed",
+          "src": [
+            {
+              "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+              "type": "oem_manual",
+              "page": 189,
+              "quote": "11270 lb. 6800 lb.",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+              "type": "oem_manual",
+              "page": 190,
+              "quote": "11040 lb. 6000 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -8245,10 +11073,141 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+              "type": "oem_manual",
+              "page": 547,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R16",
+          "load_speed": "112T",
+          "src": [
+            {
+              "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+              "type": "oem_manual",
+              "page": 547,
+              "quote": "265/70R16 112T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+              "type": "oem_manual",
+              "page": 548,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+              "type": "oem_manual",
+              "page": 548,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2021 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2021 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2TR-FE engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+                "type": "oem_manual",
+                "page": 541,
+                "quote": "2TR-FE engine 2GR-FKS engine With filter Without filter 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+                "type": "oem_manual",
+                "page": 541,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+                "type": "oem_manual",
+                "page": 541,
+                "quote": "2TR-FE engine 2GR-FKS engine With filter Without filter 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 Toyota Tacoma Owner's Manual (OM04029U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04029U/OM04029U.pdf",
+                "type": "oem_manual",
+                "page": 541,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -8581,7 +11540,53 @@
           "label": "3.5L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2TR-FE",
+          "drive": "2WD",
+          "cab": "Double Cab",
+          "max_lb": 3500,
+          "gcwr_lb": 7870,
+          "src": [
+            {
+              "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+              "type": "oem_manual",
+              "page": 190,
+              "quote": "2TR-FE 7870 lb. 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.5,
+          "engine": "2GR-FKS",
+          "drive": "2WD",
+          "cab": "Access Cab",
+          "max_lb": 6800,
+          "gcwr_lb": 11270,
+          "note": "max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed",
+          "src": [
+            {
+              "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+              "type": "oem_manual",
+              "page": 189,
+              "quote": "11270 lb. 6800 lb.",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+              "type": "oem_manual",
+              "page": 190,
+              "quote": "11040 lb. 6000 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -8610,10 +11615,141 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+              "type": "oem_manual",
+              "page": 553,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R16",
+          "load_speed": "112T",
+          "src": [
+            {
+              "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+              "type": "oem_manual",
+              "page": 553,
+              "quote": "265/70R16 112T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2022 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2022 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2TR-FE engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+                "type": "oem_manual",
+                "page": 547,
+                "quote": "2TR-FE engine 2GR-FKS engine With filter Without filter 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+                "type": "oem_manual",
+                "page": 547,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+                "type": "oem_manual",
+                "page": 547,
+                "quote": "2TR-FE engine 2GR-FKS engine With filter Without filter 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Toyota Tacoma Owner's Manual (OM04037U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04037U/OM04037U.pdf",
+                "type": "oem_manual",
+                "page": 547,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -8986,7 +12122,53 @@
           "label": "3.5L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2TR-FE",
+          "drive": "2WD",
+          "cab": "Double Cab",
+          "max_lb": 3500,
+          "gcwr_lb": 7870,
+          "src": [
+            {
+              "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+              "type": "oem_manual",
+              "page": 190,
+              "quote": "2TR-FE 7870 lb. 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.5,
+          "engine": "2GR-FKS",
+          "drive": "2WD",
+          "cab": "Access Cab",
+          "max_lb": 6800,
+          "gcwr_lb": 11270,
+          "note": "max on Access Cab 2WD GRN325L-CRTSHA; 6,000-6,800 lb by cab/drive/bed",
+          "src": [
+            {
+              "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+              "type": "oem_manual",
+              "page": 189,
+              "quote": "11270 lb. 6800 lb.",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+              "type": "oem_manual",
+              "page": 190,
+              "quote": "11040 lb. 6000 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -9028,10 +12210,141 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "P245/75R16",
+          "load_speed": "109S",
+          "src": [
+            {
+              "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+              "type": "oem_manual",
+              "page": 553,
+              "quote": "P245/75R16 109S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R16",
+          "load_speed": "112T",
+          "src": [
+            {
+              "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+              "type": "oem_manual",
+              "page": 553,
+              "quote": "265/70R16 112T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/65R17",
+          "load_speed": "110S",
+          "src": [
+            {
+              "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "P265/65R17 110S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "load_speed": "109H",
+          "src": [
+            {
+              "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "P265/60R18 109H",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 22,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2023 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2023&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 22\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2023 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2023&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2TR-FE engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+                "type": "oem_manual",
+                "page": 547,
+                "quote": "2TR-FE engine 2GR-FKS engine With filter Without filter 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+                "type": "oem_manual",
+                "page": 547,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "2GR-FKS engine",
+            "grade": "0W-20",
+            "capacity_qt": 6.2,
+            "capacity_l": 5.9,
+            "src": [
+              {
+                "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+                "type": "oem_manual",
+                "page": 547,
+                "quote": "2TR-FE engine 2GR-FKS engine With filter Without filter 6.2 qt.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2023 Toyota Tacoma Owner's Manual (OM04047U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04047U/OM04047U.pdf",
+                "type": "oem_manual",
+                "page": 547,
+                "quote": "Recommended viscosity: SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -9422,7 +12735,77 @@
           "label": "2.4L 4-cyl turbo hybrid"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.4,
+          "engine": "2.4 L turbo",
+          "cab": "XtraCab",
+          "max_lb": 6500,
+          "gcwr_lb": 11335,
+          "note": "max rating (XtraCab SR5 / TRD PreRunner); Double Cab grades 6,300-6,400 lb",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Owner's Manual (OM04041U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04041U/OM04041U.pdf",
+              "type": "oem_manual",
+              "page": 206,
+              "quote": "TZNA45L- 11335 lb. 6500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.4,
+          "engine": "2.4 L turbo",
+          "cab": "Double Cab",
+          "max_lb": 3500,
+          "gcwr_lb": 8210,
+          "note": "SR grade",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Owner's Manual (OM04041U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04041U/OM04041U.pdf",
+              "type": "oem_manual",
+              "page": 205,
+              "quote": "TZNA41L-PRZ- 8210 lb. 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.4,
+          "engine": "2.4 L turbo hybrid (i-FORCE MAX)",
+          "max_lb": 6000,
+          "note": "short bed grades",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Hybrid Owner's Manual (OM04042U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04042U/OM04042U.pdf",
+              "type": "oem_manual",
+              "page": 192,
+              "quote": "Short Limited 11675 lb. (5295 kg) 6000 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.4,
+          "engine": "2.4 L turbo hybrid (i-FORCE MAX)",
+          "max_lb": 5950,
+          "gcwr_lb": 11825,
+          "note": "long bed TRAILHUNTER",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Hybrid Owner's Manual (OM04042U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04042U/OM04042U.pdf",
+              "type": "oem_manual",
+              "page": 192,
+              "quote": "Long TRAILHUNTER 11825 lb. (5365 kg) 5950 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -9462,10 +12845,186 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "load_speed": "110T",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Owner's Manual (OM04041U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04041U/OM04041U.pdf",
+              "type": "oem_manual",
+              "page": 622,
+              "quote": "245/70R17 110T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "245/75R17",
+          "load_speed": "112S",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Owner's Manual (OM04041U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04041U/OM04041U.pdf",
+              "type": "oem_manual",
+              "page": 622,
+              "quote": "245/75R17 112S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "load_speed": "115T",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Owner's Manual (OM04041U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04041U/OM04041U.pdf",
+              "type": "oem_manual",
+              "page": 622,
+              "quote": "265/70R17 115T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/65R18",
+          "load_speed": "114T",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Owner's Manual (OM04041U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04041U/OM04041U.pdf",
+              "type": "oem_manual",
+              "page": 623,
+              "quote": "265/65R18 114T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/65R18",
+          "load_speed": "114T",
+          "trim": "Hybrid (i-FORCE MAX)",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Hybrid Owner's Manual (OM04042U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04042U/OM04042U.pdf",
+              "type": "oem_manual",
+              "page": 591,
+              "quote": "265/65R18 114T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "245/75R17",
+          "load_speed": "112S",
+          "trim": "Hybrid (i-FORCE MAX)",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Hybrid Owner's Manual (OM04042U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04042U/OM04042U.pdf",
+              "type": "oem_manual",
+              "page": 591,
+              "quote": "245/75R17 112S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R18",
+          "load_speed": "116T",
+          "trim": "Hybrid (i-FORCE MAX)",
+          "src": [
+            {
+              "doc": "2024 Toyota Tacoma Hybrid Owner's Manual (OM04042U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04042U/OM04042U.pdf",
+              "type": "oem_manual",
+              "page": 591,
+              "quote": "265/70R18 116T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2024 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2024 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4 L turbo",
+            "grade": "0W-20",
+            "capacity_qt": 5.9,
+            "capacity_l": 5.6,
+            "src": [
+              {
+                "doc": "2024 Toyota Tacoma Owner's Manual (OM04041U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04041U/OM04041U.pdf",
+                "type": "oem_manual",
+                "page": 617,
+                "quote": "5.9 qt. (5.6 L, 4.9 Imp.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2024 Toyota Tacoma Owner's Manual (OM04041U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04041U/OM04041U.pdf",
+                "type": "oem_manual",
+                "page": 617,
+                "quote": "SAE 0W-20 is the best choice",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4 L turbo hybrid (i-FORCE MAX)",
+            "grade": "0W-20",
+            "capacity_qt": 5.9,
+            "capacity_l": 5.6,
+            "src": [
+              {
+                "doc": "2024 Toyota Tacoma Hybrid Owner's Manual (OM04042U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04042U/OM04042U.pdf",
+                "type": "oem_manual",
+                "page": 587,
+                "quote": "5.9 qt. (5.6 L, 4.9 Imp.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2024 Toyota Tacoma Hybrid Owner's Manual (OM04042U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04042U/OM04042U.pdf",
+                "type": "oem_manual",
+                "page": 587,
+                "quote": "SAE 0W-20 is the best choice",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -9952,7 +13511,77 @@
           "label": "2.4L 4-cyl turbo hybrid"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.4,
+          "engine": "2.4 L turbo",
+          "cab": "XtraCab",
+          "max_lb": 6500,
+          "gcwr_lb": 11335,
+          "note": "max rating (XtraCab SR5 / TRD PreRunner); Double Cab grades 6,300-6,400 lb",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Owner's Manual (OM04011U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04011U/OM04011U.pdf",
+              "type": "oem_manual",
+              "page": 205,
+              "quote": "TZNA45L- 11335 lb. 6500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.4,
+          "engine": "2.4 L turbo",
+          "cab": "Double Cab",
+          "max_lb": 3500,
+          "gcwr_lb": 8210,
+          "note": "SR grade",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Owner's Manual (OM04011U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04011U/OM04011U.pdf",
+              "type": "oem_manual",
+              "page": 204,
+              "quote": "TZNA41L-PRZ- 8210 lb. 3500 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.4,
+          "engine": "2.4 L turbo hybrid (i-FORCE MAX)",
+          "max_lb": 6000,
+          "note": "short bed grades",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Hybrid Owner's Manual (OM04012U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04012U/OM04012U.pdf",
+              "type": "oem_manual",
+              "page": 197,
+              "quote": "Short Limited 11675 lb. (5295 kg) 6000 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.4,
+          "engine": "2.4 L turbo hybrid (i-FORCE MAX)",
+          "max_lb": 5950,
+          "gcwr_lb": 11825,
+          "note": "long bed TRAILHUNTER",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Hybrid Owner's Manual (OM04012U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04012U/OM04012U.pdf",
+              "type": "oem_manual",
+              "page": 197,
+              "quote": "Long TRAILHUNTER 11825 lb. (5365 kg) 5950 lb.",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -9979,10 +13608,186 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "load_speed": "110T",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Owner's Manual (OM04011U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04011U/OM04011U.pdf",
+              "type": "oem_manual",
+              "page": 621,
+              "quote": "245/70R17 110T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "245/75R17",
+          "load_speed": "112S",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Owner's Manual (OM04011U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04011U/OM04011U.pdf",
+              "type": "oem_manual",
+              "page": 621,
+              "quote": "245/75R17 112S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "load_speed": "115T",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Owner's Manual (OM04011U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04011U/OM04011U.pdf",
+              "type": "oem_manual",
+              "page": 621,
+              "quote": "265/70R17 115T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/65R18",
+          "load_speed": "114T",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Owner's Manual (OM04011U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04011U/OM04011U.pdf",
+              "type": "oem_manual",
+              "page": 622,
+              "quote": "265/65R18 114T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/65R18",
+          "load_speed": "114T",
+          "trim": "Hybrid (i-FORCE MAX)",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Hybrid Owner's Manual (OM04012U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04012U/OM04012U.pdf",
+              "type": "oem_manual",
+              "page": 604,
+              "quote": "265/65R18 114T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "245/75R17",
+          "load_speed": "112S",
+          "trim": "Hybrid (i-FORCE MAX)",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Hybrid Owner's Manual (OM04012U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04012U/OM04012U.pdf",
+              "type": "oem_manual",
+              "page": 604,
+              "quote": "245/75R17 112S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R18",
+          "load_speed": "116T",
+          "trim": "Hybrid (i-FORCE MAX)",
+          "src": [
+            {
+              "doc": "2025 Toyota Tacoma Hybrid Owner's Manual (OM04012U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04012U/OM04012U.pdf",
+              "type": "oem_manual",
+              "page": 605,
+              "quote": "265/70R18 116T",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2025 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2025 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4 L turbo",
+            "grade": "0W-20",
+            "capacity_qt": 5.9,
+            "capacity_l": 5.6,
+            "src": [
+              {
+                "doc": "2025 Toyota Tacoma Owner's Manual (OM04011U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04011U/OM04011U.pdf",
+                "type": "oem_manual",
+                "page": 616,
+                "quote": "5.9 qt. (5.6 L, 4.9 Imp.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2025 Toyota Tacoma Owner's Manual (OM04011U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04011U/OM04011U.pdf",
+                "type": "oem_manual",
+                "page": 617,
+                "quote": "SAE 0W-20 is the best choice",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4 L turbo hybrid (i-FORCE MAX)",
+            "grade": "0W-20",
+            "capacity_qt": 5.9,
+            "capacity_l": 5.6,
+            "src": [
+              {
+                "doc": "2025 Toyota Tacoma Hybrid Owner's Manual (OM04012U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04012U/OM04012U.pdf",
+                "type": "oem_manual",
+                "page": 600,
+                "quote": "5.9 qt. (5.6 L, 4.9 Imp.",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2025 Toyota Tacoma Hybrid Owner's Manual (OM04012U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM04012U/OM04012U.pdf",
+                "type": "oem_manual",
+                "page": 601,
+                "quote": "SAE 0W-20 is the best choice",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -10444,7 +14249,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 20,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2026 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2026 Toyota Tacoma",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Toyota&bf-model=Tacoma",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 20\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {

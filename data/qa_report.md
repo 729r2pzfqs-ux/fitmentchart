@@ -2,18 +2,18 @@
 
 Generated 2026-10-13.
 
-**5 models**: 0 errors, 51 warnings, 26 coverage gaps.
+**5 models**: 0 errors, 51 warnings, 23 coverage gaps.
 
 ## Coverage (model-years with a value)
 
 | model | years | engines | towing | wheel | tires | battery | wipers | oil | dims | nhtsa |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| chevrolet/silverado-1500 | 22 | 22/22 | - | 22/22 | - | - | - | - | 22/22 | 22/22 |
-| ford/f-150 | 22 | 22/22 | - | 22/22 | - | - | - | - | 22/22 | 22/22 |
-| honda/civic | 22 | 22/22 | - | 17/22 | - | - | - | - | 22/22 | 22/22 |
-| jeep/wrangler | 22 | 22/22 | - | 22/22 | - | - | - | - | 22/22 | 22/22 |
-| toyota/tacoma | 22 | 22/22 | - | 22/22 | - | - | - | - | 22/22 | 22/22 |
-| **all** | | **100%** | **0%** | **95%** | **0%** | **0%** | **0%** | **0%** | **100%** | **100%** |
+| chevrolet/silverado-1500 | 22 | 22/22 | 12/22 | 22/22 | 1/22 | - | 22/22 | 15/22 | 22/22 | 22/22 |
+| ford/f-150 | 22 | 22/22 | 21/22 | 22/22 | - | - | 22/22 | - | 22/22 | 22/22 |
+| honda/civic | 22 | 22/22 | 1/22 | 17/22 | 1/22 | - | 11/22 | 1/22 | 22/22 | 22/22 |
+| jeep/wrangler | 22 | 22/22 | 6/22 | 22/22 | - | - | 21/22 | 8/22 | 22/22 | 22/22 |
+| toyota/tacoma | 22 | 22/22 | 17/22 | 22/22 | 17/22 | - | 22/22 | 17/22 | 22/22 | 22/22 |
+| **all** | | **100%** | **51%** | **95%** | **17%** | **0%** | **89%** | **37%** | **100%** | **100%** |
 
 ## Detail
 
@@ -83,31 +83,28 @@ None.
 - `jeep/wrangler` 2005 **engines**: 2.4L 4-cyl: HP matched by model name only [150]
 - `jeep/wrangler` 2006 **engines**: 2.4L 4-cyl: HP matched by model name only [150]
 
-## Gaps (26)
+## Gaps (23)
 
-- `chevrolet/silverado-1500`  **towing**: no source provides this field yet
-- `chevrolet/silverado-1500`  **tires**: no source provides this field yet
+- `chevrolet/silverado-1500`  **towing**: missing for ['2015', '2016', '2017', '2018', '2021', '2022', '2023', '2024', '2025', '2026']
+- `chevrolet/silverado-1500`  **tires**: missing for ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
 - `chevrolet/silverado-1500`  **battery**: no source provides this field yet
-- `chevrolet/silverado-1500`  **wipers**: no source provides this field yet
-- `chevrolet/silverado-1500`  **oil**: no source provides this field yet
-- `ford/f-150`  **towing**: no source provides this field yet
+- `chevrolet/silverado-1500`  **oil**: missing for ['2011', '2021', '2022', '2023', '2024', '2025', '2026']
+- `ford/f-150`  **towing**: missing for ['2026']
 - `ford/f-150`  **tires**: no source provides this field yet
 - `ford/f-150`  **battery**: no source provides this field yet
-- `ford/f-150`  **wipers**: no source provides this field yet
 - `ford/f-150`  **oil**: no source provides this field yet
-- `honda/civic`  **towing**: no source provides this field yet
+- `honda/civic`  **towing**: missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
 - `honda/civic`  **wheel**: missing for ['2005', '2012', '2013', '2014', '2015']
-- `honda/civic`  **tires**: no source provides this field yet
+- `honda/civic`  **tires**: missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
 - `honda/civic`  **battery**: no source provides this field yet
-- `honda/civic`  **wipers**: no source provides this field yet
-- `honda/civic`  **oil**: no source provides this field yet
-- `jeep/wrangler`  **towing**: no source provides this field yet
+- `honda/civic`  **wipers**: missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2023']
+- `honda/civic`  **oil**: missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
+- `jeep/wrangler`  **towing**: missing for ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2019', '2020', '2024', '2025', '2026']
 - `jeep/wrangler`  **tires**: no source provides this field yet
 - `jeep/wrangler`  **battery**: no source provides this field yet
-- `jeep/wrangler`  **wipers**: no source provides this field yet
-- `jeep/wrangler`  **oil**: no source provides this field yet
-- `toyota/tacoma`  **towing**: no source provides this field yet
-- `toyota/tacoma`  **tires**: no source provides this field yet
+- `jeep/wrangler`  **wipers**: missing for ['2014']
+- `jeep/wrangler`  **oil**: missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2019', '2020', '2024', '2025']
+- `toyota/tacoma`  **towing**: missing for ['2005', '2006', '2007', '2013', '2026']
+- `toyota/tacoma`  **tires**: missing for ['2005', '2006', '2007', '2013', '2026']
 - `toyota/tacoma`  **battery**: no source provides this field yet
-- `toyota/tacoma`  **wipers**: no source provides this field yet
-- `toyota/tacoma`  **oil**: no source provides this field yet
+- `toyota/tacoma`  **oil**: missing for ['2005', '2006', '2007', '2013', '2026']

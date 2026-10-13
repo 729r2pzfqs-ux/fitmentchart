@@ -45,6 +45,15 @@
       "title": "ANKUSI Open Wheel Fitment Dataset: bolt pattern, centre bore and OE wheel specifications for 10,081 vehicle variants",
       "md5": "5ccd30bf2366aaaa465451d307c74f92"
     },
+    "manuals": {
+      "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
+      "file": "data/manuals/jeep/wrangler.yaml",
+      "documents": 29,
+      "document_types": [
+        "aftermarket_fitment",
+        "oem_manual"
+      ]
+    },
     "nhtsa": {
       "name": "NHTSA",
       "url": "https://api.nhtsa.gov",
@@ -174,8 +183,75 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 13,
+        "passenger_in": 13,
+        "rear_in": 18,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2005 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 13\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2005 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 13\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2005 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Rear Length (in.): 18\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4 Liter Engine",
+            "grade": "5W-30",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.7,
+            "src": [
+              {
+                "doc": "2005 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2005/Wrangler/1590.pdf",
+                "type": "oem_manual",
+                "page": 295,
+                "quote": "2.4 Liter Engine (SAE 5W-30, API Certified Engine Oil) 5 Qts 4.7 Liters",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.0,
+            "engine": "4.0 Liter Engine",
+            "grade": "10W-30",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "2005 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2005/Wrangler/1590.pdf",
+                "type": "oem_manual",
+                "page": 295,
+                "quote": "4.0 Liter Engine (SAE 10W-30, API Certified Engine Oil) 6 Qts 5.7 Liters",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -530,7 +606,37 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 13,
+        "passenger_in": 13,
+        "rear_in": 18,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2006 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 13\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2006 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 13\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2006 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Rear Length (in.): 18\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -876,7 +982,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 15,
+        "passenger_in": 15,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2007 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2007&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2007 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2007&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -1384,7 +1511,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 15,
+        "passenger_in": 15,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2008 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2008&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2008 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2008&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -1819,7 +1967,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 15,
+        "passenger_in": 15,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2009 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2009&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2009 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2009&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -2228,7 +2397,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 15,
+        "passenger_in": 15,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2010 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2010&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2010 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2010&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -2727,7 +2917,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 15,
+        "passenger_in": 15,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2011 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2011&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2011 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2011&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -3251,7 +3462,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 15,
+        "passenger_in": 15,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2012 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2012&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2012 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2012&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -3740,7 +3972,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 15,
+        "passenger_in": 15,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2013 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2013&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2013 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2013&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -4638,7 +4891,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 15,
+        "passenger_in": 15,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2015 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2015&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2015 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2015&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -4994,7 +5268,92 @@
           "label": "3.6L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Manual",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 6900,
+          "src": [
+            {
+              "doc": "2016 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2016/Wrangler/73.pdf",
+              "type": "oem_manual",
+              "page": 560,
+              "quote": "3.6L/Manual 3.21 Two–Door 6,900 lbs 25 sq ft 2,000 lbs 200 lbs Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Manual",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8400,
+          "src": [
+            {
+              "doc": "2016 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2016/Wrangler/73.pdf",
+              "type": "oem_manual",
+              "page": 560,
+              "quote": "3.6L/Manual 3.73 Two–Door 8,400 lbs 25 sq ft 3,500 lbs 350 lbs Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Automatic",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 6900,
+          "src": [
+            {
+              "doc": "2016 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2016/Wrangler/73.pdf",
+              "type": "oem_manual",
+              "page": 560,
+              "quote": "3.6L/ 3.21 Two–Door 6,900 lbs 25 sq ft 2,000 lbs 200 lbs Automatic Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Automatic",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8400,
+          "src": [
+            {
+              "doc": "2016 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2016/Wrangler/73.pdf",
+              "type": "oem_manual",
+              "page": 560,
+              "quote": "3.6L/ 3.73 Two–Door 8,400 lbs 25 sq ft 3,500 lbs 350 lbs Automatic Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "5x127",
         "lug_count": 5,
@@ -5073,8 +5432,57 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 15,
+        "passenger_in": 15,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2016 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2016 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L Engine",
+            "grade": "5W-20",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.6,
+            "src": [
+              {
+                "doc": "2016 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2016/Wrangler/73.pdf",
+                "type": "oem_manual",
+                "page": 672,
+                "quote": "Engine Oil with Filter 3.6L Engine 6 Quarts 5.6 Liters",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2016 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2016/Wrangler/73.pdf",
+                "type": "oem_manual",
+                "page": 612,
+                "quote": "Engine Oil Viscosity (SAE Grade) — 3.6L Engine MOPAR SAE 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -5455,7 +5863,323 @@
           "label": "3.6L 6-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Manual",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 6900,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 316,
+              "quote": "3.6L/Manual 3.21 Two–Door 6,900 lbs 25 sq ft 2,000 lbs 200 lbs (91 kg) Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Manual",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8400,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 316,
+              "quote": "3.6L/Manual 3.73 Two–Door 8,400 lbs 25 sq ft 3,500 lbs 350 lbs Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Automatic",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 6900,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 316,
+              "quote": "3.6L/ 3.21 Two–Door 6,900 lbs 25 sq ft 2,000 lbs 200 lbs (91 kg) Automatic Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Automatic",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8400,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 316,
+              "quote": "3.6L/ 3.73 Two–Door 8,400 lbs 25 sq ft 3,500 lbs 350 lbs Automatic Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Manual",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sahara",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 7000,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 316,
+              "quote": "3.6L/Manual 3.21 Two–Door 7,000 lbs 25 sq ft 2,000 lbs 200 lbs (91 kg) Sahara Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Manual",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sahara",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8500,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 316,
+              "quote": "3.6L/Manual 3.73 Two–Door 8,500 lbs 25 sq ft 3,500 lbs 350 lbs Sahara Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Automatic",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sahara",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 7000,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 317,
+              "quote": "3.6L/ 3.21 Two–Door 7,000 lbs 25 sq ft 2,000 lbs 200 lbs (91 kg) Automatic Sahara Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Automatic",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sahara",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8500,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 317,
+              "quote": "3.6L/ 3.73 Two–Door 8,500 lbs 25 sq ft 3,500 lbs 350 lbs Automatic Sahara Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Manual",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Sport",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 7400,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 317,
+              "quote": "3.6L/Manual 3.21 Four–Door 7,400 lbs 32 sq ft 2,000 lbs 200 lbs (91 kg) Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Manual",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Sport",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8900,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "3.6L/Manual 3.73 Four–Door 8,900 lbs 32 sq ft 3,500 lbs 350 lbs Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Automatic",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Sport",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 7400,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "3.6L/ 3.21 Four–Door 7,400 lbs 32 sq ft 2,000 lbs 200 lbs (91 kg) Automatic Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Automatic",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Sport",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8900,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "3.6L/ 3.73 Four–Door 8,900 lbs 32 sq ft 3,500 lbs 350 lbs Automatic Sport Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Manual",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Sahara",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 7500,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "3.6L/Manual 3.21 Four–Door 7,500 lbs 32 sq ft 2,000 lbs 200 lbs (91 kg) Sahara Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Manual",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Sahara",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 9000,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "3.6L/Manual 3.73 Four–Door 9,000 lbs 32 sq ft 3,500 lbs 350 lbs Sahara Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L/Automatic",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Sahara",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 7500,
+          "src": [
+            {
+              "doc": "2017 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "3.6L/ 3.21 Four–Door 7,500 lbs 32 sq ft 2,000 lbs 200 lbs (91 kg) Automatic Sahara Model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "5x127",
         "lug_count": 5,
@@ -5534,8 +6258,57 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 15,
+        "passenger_in": 15,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2017 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2017 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 15\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L Engine",
+            "grade": "5W-20",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.6,
+            "src": [
+              {
+                "doc": "2017 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+                "type": "oem_manual",
+                "page": 436,
+                "quote": "Engine Oil with Filter 3.6L Engine 6 Quarts 5.6 Liters",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2017/Wrangler/2049.pdf",
+                "type": "oem_manual",
+                "page": 375,
+                "quote": "Engine Oil Viscosity (SAE Grade) — 3.6L Engine Mopar SAE 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -5974,7 +6747,84 @@
           "label": "2.0L 4-cyl turbo hybrid"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 8016,
+          "src": [
+            {
+              "doc": "2018 Jeep Wrangler (JL) Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2018/Wrangler_JL/9510.pdf",
+              "type": "oem_manual",
+              "page": 368,
+              "quote": "Two–Door 8,016 lbs (3 20 ft2 (1.86 m2) 2,000 lbs 200 lbs",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8117,
+          "src": [
+            {
+              "doc": "2018 Jeep Wrangler (JL) Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2018/Wrangler_JL/9510.pdf",
+              "type": "oem_manual",
+              "page": 368,
+              "quote": "Four–Door 8,117 lbs (3 30 ft2 (2.79 m2) 3,500 lbs (1 350 lbs",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 8016,
+          "src": [
+            {
+              "doc": "2018 Jeep Wrangler (JL) Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2018/Wrangler_JL/9510.pdf",
+              "type": "oem_manual",
+              "page": 368,
+              "quote": "Two–Door 8,016 lbs (3 20 ft2 (1.86 m2) 2,000 lbs 200 lbs",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8117,
+          "src": [
+            {
+              "doc": "2018 Jeep Wrangler (JL) Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2018/Wrangler_JL/9510.pdf",
+              "type": "oem_manual",
+              "page": 368,
+              "quote": "Four–Door 8,117 lbs (3 30 ft2 (2.79 m2) 3,500 lbs (1 350 lbs",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "5x127",
         "lug_count": 5,
@@ -6099,8 +6949,82 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 16,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2018 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2018 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L Engine",
+            "grade": "5W-30",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.73,
+            "src": [
+              {
+                "doc": "2018 Jeep Wrangler (JL) Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2018/Wrangler_JL/9510.pdf",
+                "type": "oem_manual",
+                "page": 511,
+                "quote": "2.0L Engine 5 Quarts 4.73 Liters",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Jeep Wrangler (JL) Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2018/Wrangler_JL/9510.pdf",
+                "type": "oem_manual",
+                "page": 514,
+                "quote": "Engine Oil — 2.0L Engine We recommend you use Mopar API SN PLUS Certified SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L Engine",
+            "grade": "0W-20",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.73,
+            "src": [
+              {
+                "doc": "2018 Jeep Wrangler (JL) Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2018/Wrangler_JL/9510.pdf",
+                "type": "oem_manual",
+                "page": 511,
+                "quote": "3.6L Engine 5 Quarts 4.73 Liters",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Jeep Wrangler (JL) Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2018/Wrangler_JL/9510.pdf",
+                "type": "oem_manual",
+                "page": 514,
+                "quote": "Engine Oil — 3.6L Engine We recommend you use API Certified SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -6803,7 +7727,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 16,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2019 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2019 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -7534,7 +8479,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 16,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2020 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2020 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -8334,7 +9300,102 @@
           "label": "3.6L 6-cyl hybrid"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 8016,
+          "src": [
+            {
+              "doc": "2021 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "Two–Door 8,016 lb (3,636 kg) 20 ft2 (1.86 m2) 2,000 lb (907 kg) 200 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8117,
+          "src": [
+            {
+              "doc": "2021 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "Four–Door 8,117 lb (3,682 kg) 30 ft2 (2.79 m2) 3,500 lb (1,587 kg) 350 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 8016,
+          "src": [
+            {
+              "doc": "2021 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "Two–Door 8,016 lb (3,636 kg) 20 ft2 (1.86 m2) 2,000 lb (907 kg) 200 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8117,
+          "src": [
+            {
+              "doc": "2021 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "Four–Door 8,117 lb (3,682 kg) 30 ft2 (2.79 m2) 3,500 lb (1,587 kg) 350 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "3.0L Diesel",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "gcwr_lb": 8427,
+          "src": [
+            {
+              "doc": "2021 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "3.0L Diesel Four–Door 8,427 lb (3,822 kg) 30 ft2 (2.79 m2) 3,500 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "5x127",
         "lug_count": 5,
@@ -8376,8 +9437,98 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 16,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2021 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2021 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L Engine",
+            "grade": "5W-30",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.73,
+            "src": [
+              {
+                "doc": "2021 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+                "type": "oem_manual",
+                "page": 359,
+                "quote": "2.0L Engine 5 Quarts 4.73 Liters",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+                "type": "oem_manual",
+                "page": 360,
+                "quote": "Engine Oil — 2.0L Engine We recommend you use Mopar® API SP/GF-6A Certified SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L Engine",
+            "grade": "0W-20",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.73,
+            "src": [
+              {
+                "doc": "2021 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+                "type": "oem_manual",
+                "page": 359,
+                "quote": "3.6L Engine 5 Quarts 4.73 Liters",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+                "type": "oem_manual",
+                "page": 360,
+                "quote": "Engine Oil — 3.6L Engine We recommend you use API Certified SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Diesel Engine",
+            "capacity_qt": 9.0,
+            "capacity_l": 8.5,
+            "src": [
+              {
+                "doc": "2021 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+                "type": "oem_manual",
+                "page": 359,
+                "quote": "3.0L Diesel Engine 9 Quarts 8.5 Liters",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -9297,7 +10448,102 @@
           "label": "3.6L 6-cyl hybrid"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 8016,
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "Two–Door 8,016 lb (3,636 kg) 20 ft2 (1.86 m2) 2,000 lb (907 kg) 200 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8117,
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "Four–Door 8,117 lb (3,682 kg) 30 ft2 (2.79 m2) 3,500 lb (1,587 kg) 350 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 8016,
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "Two–Door 8,016 lb (3,636 kg) 20 ft2 (1.86 m2) 2,000 lb (907 kg) 200 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8117,
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "Four–Door 8,117 lb (3,682 kg) 30 ft2 (2.79 m2) 3,500 lb (1,587 kg) 350 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "3.0L Diesel",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "gcwr_lb": 8427,
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "3.0L Diesel Four–Door 8,427 lb (3,822 kg) 30 ft2 (2.79 m2) 3,500 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "5x127",
         "lug_count": 5,
@@ -9361,8 +10607,98 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 16,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2022 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2022 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L Engine",
+            "grade": "5W-30",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.73,
+            "src": [
+              {
+                "doc": "2022 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 356,
+                "quote": "2.0L Engine 5 Quarts 4.73 Liters",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 357,
+                "quote": "Engine Oil — 2.0L Engine We recommend using Mopar® API SP/GF-6A Certified SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L Engine",
+            "grade": "0W-20",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.73,
+            "src": [
+              {
+                "doc": "2022 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 356,
+                "quote": "3.6L Engine 5 Quarts 4.73 Liters",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 357,
+                "quote": "Engine Oil — 3.6L Engine We recommend using Mopar® SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Diesel Engine",
+            "capacity_qt": 9.0,
+            "capacity_l": 8.5,
+            "src": [
+              {
+                "doc": "2022 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 356,
+                "quote": "3.0L Diesel Engine 9 Quarts 8.5 Liters",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -10282,7 +11618,102 @@
           "label": "3.6L 6-cyl hybrid"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 8016,
+          "src": [
+            {
+              "doc": "2023 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+              "type": "oem_manual",
+              "page": 168,
+              "quote": "Two–Door 8,016 lb (3,636 kg) 20 ft2 (1.86 m2) 2,000 lb (907 kg) 200 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8117,
+          "src": [
+            {
+              "doc": "2023 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+              "type": "oem_manual",
+              "page": 168,
+              "quote": "Four–Door 8,117 lb (3,682 kg) 30 ft2 (2.79 m2) 3,500 lb (1,587 kg) 350 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "tongue_lb": 200,
+          "gcwr_lb": 8016,
+          "src": [
+            {
+              "doc": "2023 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+              "type": "oem_manual",
+              "page": 168,
+              "quote": "Two–Door 8,016 lb (3,636 kg) 20 ft2 (1.86 m2) 2,000 lb (907 kg) 200 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "tongue_lb": 350,
+          "gcwr_lb": 8117,
+          "src": [
+            {
+              "doc": "2023 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+              "type": "oem_manual",
+              "page": 168,
+              "quote": "Four–Door 8,117 lb (3,682 kg) 30 ft2 (2.79 m2) 3,500 lb (1,587 kg) 350 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "3.0L Diesel",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "gcwr_lb": 8427,
+          "src": [
+            {
+              "doc": "2023 Jeep Wrangler Owner's Manual",
+              "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+              "type": "oem_manual",
+              "page": 168,
+              "quote": "3.0L Diesel Four–Door 8,427 lb (3,822 kg) 30 ft2 (2.79 m2) 3,500 lb",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "5x127",
         "lug_count": 5,
@@ -10346,8 +11777,98 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 16,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2023 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2023&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2023 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2023&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L Engine",
+            "grade": "5W-30",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.73,
+            "src": [
+              {
+                "doc": "2023 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 362,
+                "quote": "2.0L Engine 5 qt 4.73 L",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2023 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 363,
+                "quote": "Engine Oil — 2.0L Engine We recommend using Mopar® API SP/GF-6A Certified SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L Engine",
+            "grade": "0W-20",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.73,
+            "src": [
+              {
+                "doc": "2023 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 362,
+                "quote": "3.6L Engine 5 qt 4.73 L",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2023 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 363,
+                "quote": "Engine Oil — 3.6L Engine We recommend using Mopar® SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Diesel Engine",
+            "capacity_qt": 9.0,
+            "capacity_l": 8.5,
+            "src": [
+              {
+                "doc": "2023 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 362,
+                "quote": "3.0L Diesel Engine 9 qt 8.5 L",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -11204,7 +12725,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 16,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2024 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2024 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -11995,7 +13537,28 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
+      "wipers": {
+        "driver_in": 16,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2025 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2025 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -12695,8 +14258,107 @@
       },
       "tires": [],
       "battery": {},
-      "wipers": {},
-      "oil": {},
+      "wipers": {
+        "driver_in": 16,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2026 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2026 Jeep Wrangler",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Jeep&bf-model=Wrangler",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      },
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L Engine",
+            "grade": "5W-30",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.73,
+            "src": [
+              {
+                "doc": "2026 Jeep Wrangler Owner's Manual (US/Canada)",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us-ca/2026/Jeep/Wrangler/102316_26_JL_OM_EN_USC_DIGITAL_E1.pdf",
+                "type": "oem_manual",
+                "page": 354,
+                "quote": "2.0L Engine 5 qt 4.73 L",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2026 Jeep Wrangler Owner's Manual (US/Canada)",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us-ca/2026/Jeep/Wrangler/102316_26_JL_OM_EN_USC_DIGITAL_E1.pdf",
+                "type": "oem_manual",
+                "page": 351,
+                "quote": "Engine Oil — 2.0L Engine We recommend using Mopar® API SP/GF-6A Certified SAE 5W-30",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L Engine",
+            "grade": "0W-20",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.73,
+            "src": [
+              {
+                "doc": "2026 Jeep Wrangler Owner's Manual (US/Canada)",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us-ca/2026/Jeep/Wrangler/102316_26_JL_OM_EN_USC_DIGITAL_E1.pdf",
+                "type": "oem_manual",
+                "page": 354,
+                "quote": "3.6L Engine 5 qt 4.73 L",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2026 Jeep Wrangler Owner's Manual (US/Canada)",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us-ca/2026/Jeep/Wrangler/102316_26_JL_OM_EN_USC_DIGITAL_E1.pdf",
+                "type": "oem_manual",
+                "page": 352,
+                "quote": "Engine Oil — 3.6L Engine We recommend using Mopar® SAE 0W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.4,
+            "engine": "6.4L Engine",
+            "grade": "0W-40",
+            "capacity_qt": 7.5,
+            "capacity_l": 7.1,
+            "src": [
+              {
+                "doc": "2026 Jeep Wrangler Owner's Manual (US/Canada)",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us-ca/2026/Jeep/Wrangler/102316_26_JL_OM_EN_USC_DIGITAL_E1.pdf",
+                "type": "oem_manual",
+                "page": 354,
+                "quote": "6.4L Engine 7.5 qt 7.1 L",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2026 Jeep Wrangler Owner's Manual (US/Canada)",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us-ca/2026/Jeep/Wrangler/102316_26_JL_OM_EN_USC_DIGITAL_E1.pdf",
+                "type": "oem_manual",
+                "page": 352,
+                "quote": "Engine Oil — 6.4L Engine We recommend using Mopar® API Certified SAE 0W-40",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [

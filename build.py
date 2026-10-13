@@ -32,7 +32,7 @@ DOMAIN = "fitmentchart.com"
 
 
 def env() -> Environment:
-    return Environment(loader=FileSystemLoader(ROOT / "templates"),
+    return Environment(loader=FileSystemLoader(ROOT / "templates"), extensions=["jinja2.ext.do"],
                        autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
 
 
