@@ -1,0 +1,88 @@
+# Canonical make list + per-model source matching rules.
+#
+# Every pipeline step reads this file. Each model lists how its name appears in
+# each upstream source, because no two sources agree:
+#   vPIC        "Silverado" / "Silverado LD"      NHTSA   "SILVERADO 1500" / "SILVERADO LD 1500"
+#   EPA         "Silverado C15 2WD"               ANKUSI  "Chevrolet Silverado Crew Cab"
+#   CVS         "SILVERADO 1500 CREW CAB 4WD"
+#
+# Regexes are Python `re`, matched case-insensitively with re.search against the
+# source's model string (ANKUSI strings have the make prefix stripped first).
+# `exclude` removes sibling models that share the name (HD trucks, EVs, ...).
+
+years: {start: 2005, end: 2026}
+
+makes:
+  - name: Toyota
+    slug: toyota
+    vpic_make: toyota
+    epa_make: Toyota
+    models:
+      - name: Tacoma
+        slug: tacoma
+        vpic:   {include: '^Tacoma$'}
+        epa:    {include: '^Tacoma\b'}
+        testcar: {include: '\bTACOMA\b'}
+        cvs:    {query: [Tacoma], include: '^TACOMA\b'}
+        ankusi: {include: '^Tacoma\b'}
+        nhtsa:  {include: '^TACOMA\b'}
+
+  - name: Ford
+    slug: ford
+    vpic_make: ford
+    epa_make: Ford
+    models:
+      - name: F-150
+        slug: f-150
+        vpic:   {include: '^F-?150$'}
+        epa:    {include: '^F-?150\b', exclude: 'Lightning'}
+        testcar: {include: '\bF-?150\b', exclude: 'LIGHTNING|\bBEV\b'}
+        cvs:    {query: [F-150, F150], include: '^F-?150\b', exclude: 'LIGHTNING'}
+        ankusi: {include: '\bF-?150\b', exclude: 'Lightning'}
+        nhtsa:  {include: '^F-?150\b', exclude: 'LIGHTNING|\bBEV\b'}
+
+  - name: Honda
+    slug: honda
+    vpic_make: honda
+    epa_make: Honda
+    models:
+      - name: Civic
+        slug: civic
+        vpic:   {include: '^Civic\b'}
+        epa:    {include: '^Civic\b'}
+        testcar: {include: '\bCIVIC\b'}
+        cvs:    {query: [Civic], include: '^CIVIC\b'}
+        ankusi: {include: '\bCivic\b', exclude: 'Mugen|Racecar|Pro Drag|Concept'}
+        nhtsa:  {include: '^CIVIC\b'}
+
+  - name: Chevrolet
+    slug: chevrolet
+    vpic_make: chevrolet
+    epa_make: Chevrolet
+    models:
+      - name: Silverado 1500
+        slug: silverado-1500
+        # vPIC uses "Silverado" for the 1500 (plus "Silverado LD" for the 2019
+        # carry-over K2XX); HD trucks are "Silverado HD" from 2019 on.
+        vpic:   {include: '^Silverado( LD)?$'}
+        # EPA only certifies light-duty trucks, so "Silverado 2WD/4WD/C15/K15"
+        # are 1500s. 2500 HD CNG rows and the separate Silverado EV are excluded.
+        epa:    {include: '^Silverado\b', exclude: '2500|3500|\bHD\b|\bEV\b'}
+        testcar: {include: '\bSILVERADO\b', exclude: '2500|3500|\bHD\b|\bEV\b'}
+        cvs:    {query: [Silverado], include: '^SILVERADO\b', exclude: '2500|3500|\bHD\b|\bEV\b'}
+        ankusi: {include: '^Silverado\b', exclude: '2500|3500|\bHD\b|\bEV\b'}
+        nhtsa:  {include: '^SILVERADO\b', exclude: '2500|3500|4500|5500|6500|\bHD\b|\bEV\b|duplicate'}
+
+  - name: Jeep
+    slug: jeep
+    vpic_make: jeep
+    epa_make: Jeep
+    models:
+      - name: Wrangler
+        slug: wrangler
+        vpic:   {include: '^Wrangler\b'}
+        epa:    {include: '\bWrangler\b'}
+        testcar: {include: '\bWRANGLER\b'}
+        cvs:    {query: [Wrangler], include: '^WRANGLER\b'}
+        ankusi: {include: '^Wrangler\b'}
+        nhtsa:  {include: '^WRANGLER\b'}

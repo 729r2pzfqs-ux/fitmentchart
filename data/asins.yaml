@@ -1,0 +1,23 @@
+# Spec value -> affiliate products.
+#
+# Keyed by the normalised spec value the product fits, so one entry serves every
+# model-year that shares the spec. Only add ASINs that have been checked by hand
+# against the manufacturer's fitment data. Unverified guesses do not go here.
+#
+# Shape:
+#   battery_group:
+#     "35":   [{asin: B0XXXXXXXX, title: "...", brand: "..."}]
+#   wiper_in:
+#     "22":   [...]
+#   oil_viscosity:
+#     "0W-20": [...]
+#   bolt_pattern:
+#     "6x139.7": [...]   # lug nuts, hub-centric rings, spacers
+#
+# Empty in Phase 0: the battery, wiper and oil specs don't have a data source
+# yet (see 05_manuals_extract.py), so there's nothing to map products to.
+
+battery_group: {}
+wiper_in: {}
+oil_viscosity: {}
+bolt_pattern: {}
