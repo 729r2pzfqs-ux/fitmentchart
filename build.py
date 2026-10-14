@@ -38,7 +38,7 @@ DOMAIN = "fitmentchart.com"
 SITE_NAME = "FitmentChart"
 CONTACT_EMAIL = "info@fitmentchart.com"
 ADSENSE_PUB = "ca-pub-5861928596436289"
-GA_ID = ""            # TODO: GA4 measurement id (G-XXXXXXXXXX); analytics tags are omitted while empty
+GA_ID = "G-9V072G350X"
 AD_SLOTS: dict[str, str] = {}   # TODO: AdSense slot ids, e.g. {"top": "1234567890", "bottom": "..."}; empty = auto ads only
 TODAY = date.today()
 
