@@ -3,10 +3,12 @@
   "source": {
     "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
     "file": "data/manuals/honda/civic.yaml",
-    "documents": 14,
+    "documents": 92,
     "document_types": [
       "aftermarket_fitment",
-      "oem_manual"
+      "oem_manual",
+      "oem_parts_catalog",
+      "oem_spec_sheet"
     ]
   },
   "notes": [],
@@ -159,6 +161,2068 @@
         ]
       }
     },
+    "2006": {
+      "towing": [
+        {
+          "trim": "Coupe",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+              "type": "oem_manual",
+              "page": 209,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2006 Civic Hybrid Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0606/NC0606OM.pdf",
+              "type": "oem_manual",
+              "page": 179,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Coupe DX and Canadian DX-G",
+          "size": "P195/65R15",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+              "type": "oem_manual",
+              "page": 246,
+              "quote": "DX and Canadian DX-G Tire Size P195/65R15",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe LX, EX",
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+              "type": "oem_manual",
+              "page": 246,
+              "quote": "LX, EX Tire Size P205/55R16",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe Si",
+          "size": "P215/45R17",
+          "load_speed": "87V",
+          "src": [
+            {
+              "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+              "type": "oem_manual",
+              "page": 246,
+              "quote": "Si Tire Size P215/45R17",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2006 Civic Hybrid Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0606/NC0606OM.pdf",
+              "type": "oem_manual",
+              "page": 212,
+              "quote": "Tire Size P195/65R15 89S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L SOHC i-VTEC (all models except Si)",
+            "grade": "5W-20",
+            "capacity_qt": 3.9,
+            "capacity_l": 3.7,
+            "src": [
+              {
+                "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+                "type": "oem_manual",
+                "page": 283,
+                "quote": "3.9 US qt (3.7 )＊3",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+                "type": "oem_manual",
+                "page": 283,
+                "quote": "＊3 : U.S.: DX, LX, EX",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+                "type": "oem_manual",
+                "page": 225,
+                "quote": "DX, Canadian DX-G, LX, and EX models: Honda Motor Oil is the preferred 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L DOHC i-VTEC (Si)",
+            "grade": "5W-30",
+            "capacity_qt": 4.6,
+            "capacity_l": 4.4,
+            "src": [
+              {
+                "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+                "type": "oem_manual",
+                "page": 283,
+                "quote": "4.6 US qt (4.4 )＊4",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+                "type": "oem_manual",
+                "page": 283,
+                "quote": "＊4 : Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+                "type": "oem_manual",
+                "page": 225,
+                "quote": "Si model:",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2006 Civic Coupe Owner's Manual (31SVA600) (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf",
+                "type": "oem_manual",
+                "page": 225,
+                "quote": "An oil with a viscosity of 5W-30 is preferred",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.3,
+            "engine": "1.3 L i-VTEC IMA hybrid",
+            "condition": "Civic Hybrid",
+            "grade": "0W-20",
+            "capacity_qt": 3.4,
+            "capacity_l": 3.2,
+            "src": [
+              {
+                "doc": "2006 Civic Hybrid Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0606/NC0606OM.pdf",
+                "type": "oem_manual",
+                "page": 246,
+                "quote": "Including filter 3.4 US qt (3.2",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2006 Civic Hybrid Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0606/NC0606OM.pdf",
+                "type": "oem_manual",
+                "page": 158,
+                "quote": "low- viscosity 0W-20 oil recommended",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 22.6,
+        "body": "4-door",
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2006 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2006-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2006 Honda Civic Blade, Windshield Wiper (650MM) (Driver Side) Part Number: 76620-SNE-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2006 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2006-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2006 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNE-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2006 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2006-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2006 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2006 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2006-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2006 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
+    "2007": {
+      "towing": [
+        {
+          "trim": "Coupe",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+              "type": "oem_manual",
+              "page": 211,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2007 Civic Hybrid Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0707/NC0707OM.pdf",
+              "type": "oem_manual",
+              "page": 178,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Coupe DX and Canadian DX-G",
+          "size": "P195/65R15",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+              "type": "oem_manual",
+              "page": 247,
+              "quote": "DX and Canadian DX-G Tire Size P195/65R15",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe LX, EX",
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+              "type": "oem_manual",
+              "page": 247,
+              "quote": "LX, EX Tire Size P205/55R16",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe Si",
+          "size": "P215/45R17",
+          "load_speed": "87V",
+          "src": [
+            {
+              "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+              "type": "oem_manual",
+              "page": 248,
+              "quote": "Si model only P215/45R17 87V",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2007 Civic Hybrid Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0707/NC0707OM.pdf",
+              "type": "oem_manual",
+              "page": 211,
+              "quote": "Tire Size P195/65R15 89S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L SOHC i-VTEC (all models except Si)",
+            "grade": "5W-20",
+            "capacity_qt": 3.9,
+            "capacity_l": 3.7,
+            "src": [
+              {
+                "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+                "type": "oem_manual",
+                "page": 283,
+                "quote": "3.9 US qt (3.7 )＊3",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+                "type": "oem_manual",
+                "page": 283,
+                "quote": "＊3 : U.S.: DX, LX, EX",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+                "type": "oem_manual",
+                "page": 226,
+                "quote": "DX, Canadian DX-G, LX, and EX models: Honda Motor Oil is the preferred 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L DOHC i-VTEC (Si)",
+            "grade": "5W-30",
+            "capacity_qt": 4.6,
+            "capacity_l": 4.4,
+            "src": [
+              {
+                "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+                "type": "oem_manual",
+                "page": 283,
+                "quote": "4.6 US qt (4.4 )＊4",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+                "type": "oem_manual",
+                "page": 283,
+                "quote": "＊4 : Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+                "type": "oem_manual",
+                "page": 226,
+                "quote": "Si model:",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2007 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf",
+                "type": "oem_manual",
+                "page": 226,
+                "quote": "An oil with a viscosity of 5W-30 is preferred",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.3,
+            "engine": "1.3 L i-VTEC IMA hybrid",
+            "condition": "Civic Hybrid",
+            "grade": "0W-20",
+            "capacity_qt": 3.4,
+            "capacity_l": 3.2,
+            "src": [
+              {
+                "doc": "2007 Civic Hybrid Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0707/NC0707OM.pdf",
+                "type": "oem_manual",
+                "page": 245,
+                "quote": "Including filter 3.4 US qt (3.2",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2007 Civic Hybrid Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0707/NC0707OM.pdf",
+                "type": "oem_manual",
+                "page": 157,
+                "quote": "the viscosity 0W-20 oil recommended",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 22.6,
+        "body": "4-door",
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2007 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2007-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2007 Honda Civic Blade, Windshield Wiper (650MM) (Driver Side) Part Number: 76620-SNE-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2007 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2007-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2007 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNE-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2007 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2007-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2007 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2007 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2007-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2007 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
+    "2008": {
+      "towing": [
+        {
+          "trim": "Sedan",
+          "max_lb": 1000,
+          "note": "total trailer weight",
+          "src": [
+            {
+              "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+              "type": "oem_manual",
+              "page": 218,
+              "quote": "must not exceed 1,000 lbs (450 kg)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2008 Civic Hybrid Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0808/NC0808OM.pdf",
+              "type": "oem_manual",
+              "page": 204,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sedan DX, Canadian DX-G with automatic transmission",
+          "size": "P195/65R15",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+              "type": "oem_manual",
+              "page": 258,
+              "quote": "DX, Canadian DX-G with automatic transmission) Tire Size P195/65R15",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Canadian DX-G with manual transmission",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+              "type": "oem_manual",
+              "page": 258,
+              "quote": "Canadian DX-G with manual transmission) Tire Size P195/65R15",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan LX, EX, EX-L",
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+              "type": "oem_manual",
+              "page": 258,
+              "quote": "LX, EX, EX-L) Tire Size P205/55R16",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Si",
+          "size": "P215/45R17",
+          "load_speed": "87V",
+          "src": [
+            {
+              "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+              "type": "oem_manual",
+              "page": 258,
+              "quote": "Si) Tire Size P215/45R17",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Optional for Si",
+          "size": "215/45ZR17",
+          "load_speed": "91W",
+          "src": [
+            {
+              "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+              "type": "oem_manual",
+              "page": 258,
+              "quote": "Optional for Si Tire Size 215/45ZR17",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2008 Civic Hybrid Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0808/NC0808OM.pdf",
+              "type": "oem_manual",
+              "page": 237,
+              "quote": "Tire Size P195/65R15 89S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L SOHC i-VTEC (all models except Si)",
+            "grade": "5W-20",
+            "capacity_qt": 3.9,
+            "capacity_l": 3.7,
+            "src": [
+              {
+                "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+                "type": "oem_manual",
+                "page": 296,
+                "quote": "3.9 US qt (3.7 ) ＊3",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+                "type": "oem_manual",
+                "page": 296,
+                "quote": "＊3 : Except Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+                "type": "oem_manual",
+                "page": 236,
+                "quote": "All models except Si: Honda Motor Oil is the preferred 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L DOHC i-VTEC (Si)",
+            "grade": "5W-30",
+            "capacity_qt": 4.6,
+            "capacity_l": 4.4,
+            "src": [
+              {
+                "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+                "type": "oem_manual",
+                "page": 296,
+                "quote": "4.6 US qt (4.4 ) ＊4",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+                "type": "oem_manual",
+                "page": 296,
+                "quote": "＊4 : Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+                "type": "oem_manual",
+                "page": 236,
+                "quote": "Si model:",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2008 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf",
+                "type": "oem_manual",
+                "page": 236,
+                "quote": "An oil with a viscosity of 5W-30 is preferred",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.3,
+            "engine": "1.3 L i-VTEC IMA hybrid",
+            "condition": "Civic Hybrid",
+            "grade": "0W-20",
+            "capacity_qt": 3.4,
+            "capacity_l": 3.2,
+            "src": [
+              {
+                "doc": "2008 Civic Hybrid Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0808/NC0808OM.pdf",
+                "type": "oem_manual",
+                "page": 271,
+                "quote": "Including filter 3.4 US qt (3.2",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2008 Civic Hybrid Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0808/NC0808OM.pdf",
+                "type": "oem_manual",
+                "page": 218,
+                "quote": "if 0W-20 is not available",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 22.6,
+        "body": "4-door",
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2008 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2008-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2008 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-SNA-A12",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2008 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2008-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2008 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNA-A11",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2008 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2008-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2008 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2008 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2008-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2008 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
+    "2009": {
+      "towing": [
+        {
+          "trim": "Sedan",
+          "max_lb": 1000,
+          "note": "total trailer weight",
+          "src": [
+            {
+              "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+              "type": "oem_manual",
+              "page": 286,
+              "quote": "must not exceed 1,000 lbs (450 kg)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2009 Civic Hybrid Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0909/NC0909OM.pdf",
+              "type": "oem_manual",
+              "page": 284,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sedan DX, Canadian DX-G with automatic transmission",
+          "size": "P195/65R15",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+              "type": "oem_manual",
+              "page": 328,
+              "quote": "DX, Canadian DX-G with automatic transmission) Tire Size P195/65R15",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Canadian DX-G with manual transmission",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+              "type": "oem_manual",
+              "page": 328,
+              "quote": "Canadian DX-G with manual transmission) Tire Size P195/65R15",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan LX, LX-S, EX, Canadian Sport",
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+              "type": "oem_manual",
+              "page": 328,
+              "quote": "LX, LX-S, EX, Canadian Sport) Tire Size P205/55R16",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Si",
+          "size": "P215/45R17",
+          "load_speed": "87V",
+          "src": [
+            {
+              "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+              "type": "oem_manual",
+              "page": 328,
+              "quote": "Si) Tire Size P215/45R17",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Optional for Si",
+          "size": "215/45ZR17",
+          "load_speed": "91W",
+          "src": [
+            {
+              "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+              "type": "oem_manual",
+              "page": 328,
+              "quote": "Optional for Si Tire Size 215/45ZR17",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2009 Civic Hybrid Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0909/NC0909OM.pdf",
+              "type": "oem_manual",
+              "page": 319,
+              "quote": "Tire Size P195/65R15 89S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L SOHC i-VTEC (all models except Si)",
+            "grade": "5W-20",
+            "capacity_qt": 3.9,
+            "capacity_l": 3.7,
+            "src": [
+              {
+                "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+                "type": "oem_manual",
+                "page": 368,
+                "quote": "3.9 US qt (3.7 ) ＊3",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+                "type": "oem_manual",
+                "page": 368,
+                "quote": "＊3 : Except Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+                "type": "oem_manual",
+                "page": 304,
+                "quote": "All models except Si: Honda Motor Oil is the preferred 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L DOHC i-VTEC (Si)",
+            "grade": "5W-30",
+            "capacity_qt": 4.6,
+            "capacity_l": 4.4,
+            "src": [
+              {
+                "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+                "type": "oem_manual",
+                "page": 368,
+                "quote": "4.6 US qt (4.4 ) ＊4",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+                "type": "oem_manual",
+                "page": 368,
+                "quote": "＊4 : Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+                "type": "oem_manual",
+                "page": 304,
+                "quote": "Si model:",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2009 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf",
+                "type": "oem_manual",
+                "page": 304,
+                "quote": "An oil with a viscosity of 5W-30 is preferred",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.3,
+            "engine": "1.3 L i-VTEC IMA hybrid",
+            "condition": "Civic Hybrid",
+            "grade": "0W-20",
+            "capacity_qt": 3.4,
+            "capacity_l": 3.2,
+            "src": [
+              {
+                "doc": "2009 Civic Hybrid Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0909/NC0909OM.pdf",
+                "type": "oem_manual",
+                "page": 353,
+                "quote": "Including filter 3.4 US qt (3.2",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2009 Civic Hybrid Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC0909/NC0909OM.pdf",
+                "type": "oem_manual",
+                "page": 300,
+                "quote": "if 0W-20 is not available",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 22.6,
+        "body": "4-door",
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2009 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2009-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2009 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-SNA-A12",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2009 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2009-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2009 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNA-A11",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2009 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2009-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2009 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2009 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2009-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2009 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
+    "2010": {
+      "towing": [
+        {
+          "trim": "Sedan",
+          "max_lb": 1000,
+          "note": "total trailer weight",
+          "src": [
+            {
+              "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+              "type": "oem_manual",
+              "page": 276,
+              "quote": "must not exceed 1,000 lbs (450 kg)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2010 Civic Hybrid Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC1010/NC1010OM.pdf",
+              "type": "oem_manual",
+              "page": 277,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sedan DX, Canadian DX-G with automatic transmission",
+          "size": "P195/65R15",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "DX, Canadian DX-G with automatic transmission) Tire Size P195/65R15",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Canadian DX-G with manual transmission",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "Canadian DX-G with manual transmission) Tire Size P195/65R15",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan LX, LX-S, EX, Canadian Sport",
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "LX, LX-S, EX, Canadian Sport) Tire Size P205/55R16",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Si",
+          "size": "P215/45R17",
+          "load_speed": "87V",
+          "src": [
+            {
+              "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "Si) Tire Size P215/45R17",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Si",
+          "size": "215/45ZR17",
+          "load_speed": "91W",
+          "src": [
+            {
+              "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+              "type": "oem_manual",
+              "page": 318,
+              "quote": "Si Tire Size 215/45ZR17",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2010 Civic Hybrid Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC1010/NC1010OM.pdf",
+              "type": "oem_manual",
+              "page": 307,
+              "quote": "Tire Size P195/65R15 89S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L SOHC i-VTEC (all models except Si)",
+            "grade": "5W-20",
+            "capacity_qt": 3.9,
+            "capacity_l": 3.7,
+            "src": [
+              {
+                "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+                "type": "oem_manual",
+                "page": 358,
+                "quote": "3.9 US qt (3.7 ) ＊3",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+                "type": "oem_manual",
+                "page": 358,
+                "quote": "＊3 : Except Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+                "type": "oem_manual",
+                "page": 294,
+                "quote": "All models except Si: Honda Motor Oil is the preferred 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L DOHC i-VTEC (Si)",
+            "grade": "5W-30",
+            "capacity_qt": 4.6,
+            "capacity_l": 4.4,
+            "src": [
+              {
+                "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+                "type": "oem_manual",
+                "page": 358,
+                "quote": "4.6 US qt (4.4 ) ＊4",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+                "type": "oem_manual",
+                "page": 358,
+                "quote": "＊4 : Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+                "type": "oem_manual",
+                "page": 294,
+                "quote": "Si model:",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2010 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf",
+                "type": "oem_manual",
+                "page": 294,
+                "quote": "An oil with a viscosity of 5W-30 is preferred",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.3,
+            "engine": "1.3 L i-VTEC IMA hybrid",
+            "condition": "Civic Hybrid",
+            "grade": "0W-20",
+            "capacity_qt": 3.4,
+            "capacity_l": 3.2,
+            "src": [
+              {
+                "doc": "2010 Civic Hybrid Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC1010/NC1010OM.pdf",
+                "type": "oem_manual",
+                "page": 341,
+                "quote": "Including filter 3.4 US qt (3.2",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2010 Civic Hybrid Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC1010/NC1010OM.pdf",
+                "type": "oem_manual",
+                "page": 288,
+                "quote": "if 0W-20 is not available",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 22.6,
+        "body": "4-door",
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2010 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2010-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2010 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-SNA-A12",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2010 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2010-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2010 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNA-A11",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2010 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2010-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2010 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2010 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2010-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2010 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
+    "2011": {
+      "towing": [
+        {
+          "trim": "Sedan",
+          "max_lb": 1000,
+          "note": "total trailer weight",
+          "src": [
+            {
+              "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+              "type": "oem_manual",
+              "page": 279,
+              "quote": "must not exceed 1,000 lbs (450 kg)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2011 Civic Hybrid Owner's Manual (NC1111) (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC1111/NC1111OM.pdf",
+              "type": "oem_manual",
+              "page": 280,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sedan DX, Canadian DX-G with automatic transmission",
+          "size": "P195/65R15",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+              "type": "oem_manual",
+              "page": 321,
+              "quote": "DX, Canadian DX-G with automatic transmission) Tire Size P195/65R15",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Canadian DX-G with manual transmission",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+              "type": "oem_manual",
+              "page": 321,
+              "quote": "Canadian DX-G with manual transmission) Tire Size P195/65R15",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan LX, LX-S, EX, Canadian SE",
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+              "type": "oem_manual",
+              "page": 321,
+              "quote": "LX, LX-S, EX, Canadian SE) Tire Size P205/55R16",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Si",
+          "size": "P215/45R17",
+          "load_speed": "87V",
+          "src": [
+            {
+              "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+              "type": "oem_manual",
+              "page": 321,
+              "quote": "Si) Tire Size P215/45R17",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Si",
+          "size": "215/45ZR17",
+          "load_speed": "91W",
+          "src": [
+            {
+              "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+              "type": "oem_manual",
+              "page": 321,
+              "quote": "Si Tire Size 215/45ZR17",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2011 Civic Hybrid Owner's Manual (NC1111) (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC1111/NC1111OM.pdf",
+              "type": "oem_manual",
+              "page": 310,
+              "quote": "Tire Size P195/65R15 89S",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L SOHC i-VTEC (all models except Si)",
+            "grade": "5W-20",
+            "capacity_qt": 3.9,
+            "capacity_l": 3.7,
+            "src": [
+              {
+                "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+                "type": "oem_manual",
+                "page": 361,
+                "quote": "3.9 US qt (3.7 ) ＊3",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+                "type": "oem_manual",
+                "page": 361,
+                "quote": "＊3 : Except Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+                "type": "oem_manual",
+                "page": 297,
+                "quote": "All models except Si: Honda Motor Oil is the preferred 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L DOHC i-VTEC (Si)",
+            "grade": "5W-30",
+            "capacity_qt": 4.6,
+            "capacity_l": 4.4,
+            "src": [
+              {
+                "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+                "type": "oem_manual",
+                "page": 361,
+                "quote": "4.6 US qt (4.4 ) ＊4",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+                "type": "oem_manual",
+                "page": 361,
+                "quote": "＊4 : Si",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+                "type": "oem_manual",
+                "page": 297,
+                "quote": "Si model:",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2011 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf",
+                "type": "oem_manual",
+                "page": 297,
+                "quote": "An oil with a viscosity of 5W-30 is preferred",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.3,
+            "engine": "1.3 L i-VTEC IMA hybrid",
+            "condition": "Civic Hybrid",
+            "grade": "0W-20",
+            "capacity_qt": 3.4,
+            "capacity_l": 3.2,
+            "src": [
+              {
+                "doc": "2011 Civic Hybrid Owner's Manual (NC1111) (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC1111/NC1111OM.pdf",
+                "type": "oem_manual",
+                "page": 344,
+                "quote": "Including filter 3.4 US qt (3.2",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2011 Civic Hybrid Owner's Manual (NC1111) (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/NC1111/NC1111OM.pdf",
+                "type": "oem_manual",
+                "page": 291,
+                "quote": "if 0W-20 is not available",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 22.6,
+        "body": "4-door",
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2011 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2011-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2011 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-SNA-A12",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2011 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2011-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2011 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNA-A11",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2011 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2011-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2011 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2011 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2011-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2011 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
+    "2012": {
+      "towing": [
+        {
+          "trim": "Sedan except HF",
+          "max_lb": 1000,
+          "note": "total trailer weight",
+          "src": [
+            {
+              "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+              "type": "oem_manual",
+              "page": 208,
+              "quote": "must not exceed 1,000 lbs (450 kg)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "HF",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+              "type": "oem_manual",
+              "page": 208,
+              "quote": "HF model Your vehicle is not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "DX and LX models",
+          "size": "P195/65R15",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+              "type": "oem_manual",
+              "page": 326,
+              "quote": "P195/65R15 89H*1",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+              "type": "oem_manual",
+              "page": 326,
+              "quote": "*1: DX and LX models",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "HF model",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+              "type": "oem_manual",
+              "page": 326,
+              "quote": "P195/65R15 89S*2",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+              "type": "oem_manual",
+              "page": 326,
+              "quote": "*2: HF model",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "EX and EX-L models",
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+              "type": "oem_manual",
+              "page": 326,
+              "quote": "P205/55R16 89H*3",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+              "type": "oem_manual",
+              "page": 326,
+              "quote": "*3: EX and EX-L models",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "2.4 L engine models (Si)",
+          "size": "P215/45R17",
+          "load_speed": "87V",
+          "src": [
+            {
+              "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+              "type": "oem_manual",
+              "page": 286,
+              "quote": "Tire Size P215/45R17 87V",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L engine models",
+            "grade": "0W-20",
+            "capacity_qt": 3.9,
+            "capacity_l": 3.7,
+            "src": [
+              {
+                "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+                "type": "oem_manual",
+                "page": 261,
+                "quote": "1.8 ℓ engine models 3.9 US qt (3.7 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+                "type": "oem_manual",
+                "page": 255,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4 L engine models (Si)",
+            "grade": "0W-20",
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+                "type": "oem_manual",
+                "page": 261,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2012 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf",
+                "type": "oem_manual",
+                "page": 255,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 22.6,
+        "body": "4-door",
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2012 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2012-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2012 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-TR0-A02",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2012 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2012-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2012 Honda Civic Blade, Windshield Wiper (575Mm) Part Number: 76630-TR0-A02",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2012 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2012-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2012 Honda Civic Blade, Windshield Wiper (700Mm) Part Number: 76620-TR0-G12",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2012 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2012-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2012 Honda Civic Blade, Windshield Wiper (600Mm) Part Number: 76630-TS8-A02",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
+    "2013": {
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 22.6,
+        "body": "4-door",
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2013 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2013-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2013 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-TR0-A02",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2013 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2013-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2013 Honda Civic Blade, Windshield Wiper (575Mm) Part Number: 76630-TR0-A02",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2013 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2013-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2013 Honda Civic Blade, Windshield Wiper (700Mm) Part Number: 76620-TR0-G12",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2013 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2013-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2013 Honda Civic Blade, Windshield Wiper (600Mm) Part Number: 76630-TS8-A02",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
+    "2014": {
+      "towing": [
+        {
+          "trim": "Sedan except HF",
+          "max_lb": 1000,
+          "note": "total trailer weight",
+          "src": [
+            {
+              "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+              "type": "oem_manual",
+              "page": 311,
+              "quote": "must not exceed 1,000 lbs (450 kg)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "HF",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+              "type": "oem_manual",
+              "page": 311,
+              "quote": "HF model Your vehicle is not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Canadian DX model / LX model",
+          "size": "P195/65R15",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+              "type": "oem_manual",
+              "page": 447,
+              "quote": "P195/65R15 89H*1, *2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "HF model",
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+              "type": "oem_manual",
+              "page": 447,
+              "quote": "P195/65R15 89S*3",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "EX model",
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+              "type": "oem_manual",
+              "page": 447,
+              "quote": "P205/55R16 89H*4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "U.S. EX-L and Canadian Touring models",
+          "size": "P215/45R17",
+          "load_speed": "87V",
+          "src": [
+            {
+              "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+              "type": "oem_manual",
+              "page": 447,
+              "quote": "P215/45R17 87V*5",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Si (18-inch)",
+          "size": "225/40R18",
+          "load_speed": "92V",
+          "note": "225/40R18 92Y optional for U.S. Si",
+          "src": [
+            {
+              "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+              "type": "oem_manual",
+              "page": 398,
+              "quote": "Tire Size 225/40R18 92V 225/40R18 92Y*1",
+              "accessed": "2026-10-13"
+            },
+            {
+              "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+              "type": "oem_manual",
+              "page": 398,
+              "quote": "*1: Optional for U.S. Si",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L engine models",
+            "grade": "0W-20",
+            "capacity_qt": 3.9,
+            "capacity_l": 3.7,
+            "src": [
+              {
+                "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+                "type": "oem_manual",
+                "page": 372,
+                "quote": "1.8 ℓ engine models 3.9 US qt (3.7 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+                "type": "oem_manual",
+                "page": 366,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4 L engine models (Si)",
+            "grade": "0W-20",
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+                "type": "oem_manual",
+                "page": 372,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2014 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf",
+                "type": "oem_manual",
+                "page": 366,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 22.6,
+        "body": "4-door",
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2014 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2014-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2014 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-TR0-A02",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2014 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2014-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2014 Honda Civic Blade, Windshield Wiper (575Mm) Part Number: 76630-TR0-A02",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2014 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2014-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2014 Honda Civic Blade, Windshield Wiper (700Mm) Part Number: 76620-TR0-G12",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2014 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2014-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2014 Honda Civic Blade, Windshield Wiper (600Mm) Part Number: 76630-TS8-A02",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
+    "2015": {
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 22.6,
+        "body": "4-door",
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2015 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2015-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2015 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-TR0-A02",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2015 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2015-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2015 Honda Civic Blade, Windshield Wiper (575Mm) Part Number: 76630-TR0-A02",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2015 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2015-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2015 Honda Civic Blade, Windshield Wiper (700Mm) Part Number: 76620-TR0-G12",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2015 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2015-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2015 Honda Civic Blade, Windshield Wiper (600Mm) Part Number: 76630-TS8-A02",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
     "2016": {
       "wipers": {
         "driver_in": 26,
@@ -184,6 +2248,181 @@
       }
     },
     "2017": {
+      "towing": [
+        {
+          "trim": "Sedan",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2017 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1717OM/enu/ATBA1717OM.PDF",
+              "type": "oem_manual",
+              "page": 425,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2017 Civic Hatchback Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1717OM/enu/ATGG1717OM.PDF",
+              "type": "oem_manual",
+              "page": 436,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2017 Civic Coupe Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1717OM/enu/ATBG1717OM.PDF",
+              "type": "oem_manual",
+              "page": 413,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5 L turbo engine models",
+            "grade": "0W-20",
+            "capacity_qt": 3.7,
+            "capacity_l": 3.5,
+            "src": [
+              {
+                "doc": "2017 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1717OM/enu/ATBA1717OM.PDF",
+                "type": "oem_manual",
+                "page": 532,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1717OM/enu/ATBA1717OM.PDF",
+                "type": "oem_manual",
+                "page": 526,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1717OM/enu/ATGG1717OM.PDF",
+                "type": "oem_manual",
+                "page": 569,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1717OM/enu/ATGG1717OM.PDF",
+                "type": "oem_manual",
+                "page": 563,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1717OM/enu/ATBG1717OM.PDF",
+                "type": "oem_manual",
+                "page": 523,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1717OM/enu/ATBG1717OM.PDF",
+                "type": "oem_manual",
+                "page": 517,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L engine models",
+            "grade": "0W-20",
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2017 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1717OM/enu/ATBA1717OM.PDF",
+                "type": "oem_manual",
+                "page": 532,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1717OM/enu/ATBA1717OM.PDF",
+                "type": "oem_manual",
+                "page": 526,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1717OM/enu/ATBG1717OM.PDF",
+                "type": "oem_manual",
+                "page": 523,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1717OM/enu/ATBG1717OM.PDF",
+                "type": "oem_manual",
+                "page": 517,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L turbo engine models (Type R)",
+            "condition": "Hatchback 2.0 L (Type R)",
+            "grade": "0W-20",
+            "capacity_qt": 5.7,
+            "capacity_l": 5.4,
+            "src": [
+              {
+                "doc": "2017 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1717OM/enu/ATGG1717OM.PDF",
+                "type": "oem_manual",
+                "page": 569,
+                "quote": "5.7 US qt (5.4 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2017 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1717OM/enu/ATGG1717OM.PDF",
+                "type": "oem_manual",
+                "page": 563,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 17,
@@ -208,6 +2447,365 @@
       }
     },
     "2018": {
+      "towing": [
+        {
+          "trim": "Sedan",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2018 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1818OM/enu/ATBA1818OM.PDF",
+              "type": "oem_manual",
+              "page": 427,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2018 Civic Hatchback Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1818OM/enu/ATGG1818OM.PDF",
+              "type": "oem_manual",
+              "page": 450,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2018 Civic Coupe Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1818OM/enu/ATBG1818OM.PDF",
+              "type": "oem_manual",
+              "page": 413,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Civic LX/LX-P (Coupe)",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic LX/LX-P Coupes wear 16-inch alloy wheels with 215/55 R16 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX-T/EX-L Coupe",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on Civic EX-T/EX-L Coupe models; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Touring Coupe",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Touring Coupe shows off its own unique 17-inch alloy wheel design, with 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Si Coupe",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Si Coupe trim dazzles with an exclusive 18-inch alloy design and comes standard with 235/40 R18 all-season tires; high-performance, summer-only tires are available LX / LX-P 16-inch Alloy Wheels L",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Hatchback",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Hatchback comes with its own spin on 16-inch alloys and 215/55 R16 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX/EX-L Navi Hatchback",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic EX/EX-L Navi Hatchback models roll with 17-inch alloys and 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport and Sport Touring Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport and Sport Touring Hatchback models make a strong impression with 18-inch alloys and beefy 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Type R (Hatchback)",
+          "size": "245/30ZR20",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Type R tops the performance lineup with big 20-inch alloy wheels wrapped in maximum-performance 245/30 ZR20 tires; these gummy tires trade stickiness for shorter tread life—a compromise perfectly",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Sedan",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX Sedan",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic EX Sedan wears 16-inch alloy wheels with 215/55 R16 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX-T/EX-L Sedan",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on Civic EX-T/EX-L Sedan models; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Touring Sedan",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Touring Sedan shows off its own unique 17-inch alloy wheel design, with 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Si Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Si Sedan trim dazzles with its exclusive 18-inch alloy design and comes standard with 235/40 R18 all-season tires; high-performance, summer-only tires are available.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5 L turbo engine models",
+            "grade": "0W-20",
+            "capacity_qt": 3.7,
+            "capacity_l": 3.5,
+            "src": [
+              {
+                "doc": "2018 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1818OM/enu/ATBA1818OM.PDF",
+                "type": "oem_manual",
+                "page": 534,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1818OM/enu/ATBA1818OM.PDF",
+                "type": "oem_manual",
+                "page": 528,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1818OM/enu/ATGG1818OM.PDF",
+                "type": "oem_manual",
+                "page": 583,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1818OM/enu/ATGG1818OM.PDF",
+                "type": "oem_manual",
+                "page": 577,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1818OM/enu/ATBG1818OM.PDF",
+                "type": "oem_manual",
+                "page": 523,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1818OM/enu/ATBG1818OM.PDF",
+                "type": "oem_manual",
+                "page": 517,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L engine models",
+            "grade": "0W-20",
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2018 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1818OM/enu/ATBA1818OM.PDF",
+                "type": "oem_manual",
+                "page": 534,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1818OM/enu/ATBA1818OM.PDF",
+                "type": "oem_manual",
+                "page": 528,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1818OM/enu/ATBG1818OM.PDF",
+                "type": "oem_manual",
+                "page": 523,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1818OM/enu/ATBG1818OM.PDF",
+                "type": "oem_manual",
+                "page": 517,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L turbo engine models (Type R)",
+            "condition": "Hatchback 2.0 L (Type R)",
+            "grade": "0W-20",
+            "capacity_qt": 5.7,
+            "capacity_l": 5.4,
+            "src": [
+              {
+                "doc": "2018 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1818OM/enu/ATGG1818OM.PDF",
+                "type": "oem_manual",
+                "page": 583,
+                "quote": "5.7 US qt (5.4 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2018 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1818OM/enu/ATGG1818OM.PDF",
+                "type": "oem_manual",
+                "page": 577,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 18,
@@ -232,6 +2830,379 @@
       }
     },
     "2019": {
+      "towing": [
+        {
+          "trim": "Sedan",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2019 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1919OM/enu/ATBA1919OM.PDF",
+              "type": "oem_manual",
+              "page": 435,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2019 Civic Hatchback Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1919OM/enu/ATGG1919OM.PDF",
+              "type": "oem_manual",
+              "page": 446,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2019 Civic Coupe Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1919OM/enu/ATBG1919OM.PDF",
+              "type": "oem_manual",
+              "page": 433,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Civic LX (Coupe)",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic LX Coupes wear 16-inch alloy wheels with 215/55 R16 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Coupe",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport Coupe flashes 18-inch alloys and the sporty 235/40 R18 tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX Coupe",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on Civic EX Coupe models; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Touring Coupe",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Touring Coupe shows off its own unique 18-inch alloy wheel design, with 235/45 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Si Coupe",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Si Coupe trim dazzles with an exclusive 18-inch alloy design and comes standard with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Hatchback",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Hatchback comes with its own spin on 16-inch alloys and 215/55 R16 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX/EX-L Navi Hatchback",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic EX/EX-L Navi Hatchback models roll with 17-inch alloys and 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport and Sport Touring Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport and Sport Touring Hatchback models make a strong impression with 18-inch alloys and beefy 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Type R (Hatchback)",
+          "size": "245/30ZR20",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Type R tops the performance lineup with big 20-inch alloy wheels wrapped in maximum-performance 245/30 ZR20 tires; these gummy tires trade stickiness for shorter tread life—a compromise perfectly",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Sedan",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX/EX-L Sedan",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on Civic EX/EX-L Sedan models; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Touring Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Si Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Si Sedan trim dazzles with its exclusive 18-inch alloy design and comes standard with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5 L turbo engine models",
+            "grade": "0W-20",
+            "capacity_qt": 3.7,
+            "capacity_l": 3.5,
+            "src": [
+              {
+                "doc": "2019 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1919OM/enu/ATBA1919OM.PDF",
+                "type": "oem_manual",
+                "page": 568,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1919OM/enu/ATBA1919OM.PDF",
+                "type": "oem_manual",
+                "page": 562,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1919OM/enu/ATGG1919OM.PDF",
+                "type": "oem_manual",
+                "page": 578,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1919OM/enu/ATGG1919OM.PDF",
+                "type": "oem_manual",
+                "page": 572,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1919OM/enu/ATBG1919OM.PDF",
+                "type": "oem_manual",
+                "page": 566,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1919OM/enu/ATBG1919OM.PDF",
+                "type": "oem_manual",
+                "page": 560,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L engine models",
+            "grade": "0W-20",
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2019 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1919OM/enu/ATBA1919OM.PDF",
+                "type": "oem_manual",
+                "page": 568,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1919OM/enu/ATBA1919OM.PDF",
+                "type": "oem_manual",
+                "page": 562,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1919OM/enu/ATBG1919OM.PDF",
+                "type": "oem_manual",
+                "page": 566,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1919OM/enu/ATBG1919OM.PDF",
+                "type": "oem_manual",
+                "page": 560,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L turbo engine models (Type R)",
+            "condition": "Hatchback 2.0 L (Type R)",
+            "grade": "0W-20",
+            "capacity_qt": 5.7,
+            "capacity_l": 5.4,
+            "src": [
+              {
+                "doc": "2019 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1919OM/enu/ATGG1919OM.PDF",
+                "type": "oem_manual",
+                "page": 578,
+                "quote": "5.7 US qt (5.4 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2019 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1919OM/enu/ATGG1919OM.PDF",
+                "type": "oem_manual",
+                "page": 572,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 18,
@@ -256,6 +3227,379 @@
       }
     },
     "2020": {
+      "towing": [
+        {
+          "trim": "Sedan",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2020 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2020OM/enu/ATBA2020OM.PDF",
+              "type": "oem_manual",
+              "page": 435,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2020 Civic Hatchback Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2020OM/enu/ATGG2020OM.PDF",
+              "type": "oem_manual",
+              "page": 448,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2020 Civic Coupe Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG2020OM/enu/ATBG2020OM.PDF",
+              "type": "oem_manual",
+              "page": 433,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Civic LX (Coupe)",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic LX Coupes wear 16-inch alloy wheels with 215/55 R16 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Coupe",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport Coupe flashes 18-inch alloys and the sporty 235/40 R18 tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX Coupe",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on Civic EX Coupe models; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Touring Coupe",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Touring Coupe shows off its own unique 18-inch alloy wheel design, with 235/45 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Hatchback",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Hatchback comes with its own spin on 16-inch alloys and 215/55 R16 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX/EX-L Hatchback",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic EX/EX-L Hatchback models roll with 17-inch alloys and 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport and Sport Touring Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport and Sport Touring Hatchback models make a strong impression with 18-inch alloys and beefy 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Sedan",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX/EX-L Sedan",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on Civic EX/EX-L Sedan models; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Touring Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Si Coupe",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Si Coupe Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Si-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Feature: The Civic Si Coupe dazzles with its exclusive 18-inch alloy design and comes standard with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Si Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Si Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Si-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Feature: The Civic Si Sedan dazzles with its exclusive 18-inch alloy design and comes standard with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Type R",
+          "size": "245/30ZR20",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Civic Type R Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Civic-Type-R/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Type R tops the performance lineup with big 20-inch alloy wheels wrapped in super-sticky maximum-performance 245/30 ZR20 tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5 L turbo engine models",
+            "grade": "0W-20",
+            "capacity_qt": 3.7,
+            "capacity_l": 3.5,
+            "src": [
+              {
+                "doc": "2020 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2020OM/enu/ATBA2020OM.PDF",
+                "type": "oem_manual",
+                "page": 564,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2020OM/enu/ATBA2020OM.PDF",
+                "type": "oem_manual",
+                "page": 558,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2020OM/enu/ATGG2020OM.PDF",
+                "type": "oem_manual",
+                "page": 586,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2020OM/enu/ATGG2020OM.PDF",
+                "type": "oem_manual",
+                "page": 580,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG2020OM/enu/ATBG2020OM.PDF",
+                "type": "oem_manual",
+                "page": 562,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG2020OM/enu/ATBG2020OM.PDF",
+                "type": "oem_manual",
+                "page": 556,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L engine models",
+            "grade": "0W-20",
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2020 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2020OM/enu/ATBA2020OM.PDF",
+                "type": "oem_manual",
+                "page": 564,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2020OM/enu/ATBA2020OM.PDF",
+                "type": "oem_manual",
+                "page": 558,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG2020OM/enu/ATBG2020OM.PDF",
+                "type": "oem_manual",
+                "page": 562,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Civic Coupe Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG2020OM/enu/ATBG2020OM.PDF",
+                "type": "oem_manual",
+                "page": 556,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L turbo engine models (Type R)",
+            "condition": "Hatchback 2.0 L (Type R)",
+            "grade": "0W-20",
+            "capacity_qt": 5.7,
+            "capacity_l": 5.4,
+            "src": [
+              {
+                "doc": "2020 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2020OM/enu/ATGG2020OM.PDF",
+                "type": "oem_manual",
+                "page": 586,
+                "quote": "5.7 US qt (5.4 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2020 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2020OM/enu/ATGG2020OM.PDF",
+                "type": "oem_manual",
+                "page": 580,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 18,
@@ -280,6 +3624,248 @@
       }
     },
     "2021": {
+      "towing": [
+        {
+          "trim": "Sedan",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2021 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2121OM/enu/ATBA2121OM.PDF",
+              "type": "oem_manual",
+              "page": 423,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2021 Civic Hatchback Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2121OM/enu/ATGG2121OM.PDF",
+              "type": "oem_manual",
+              "page": 452,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Civic LX Hatchback",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Hatchback comes with its own spin on 16-inch alloys and 215/55 R16 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX Hatchback",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic EX Hatchback models roll with 17-inch alloys and 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport and Sport Touring Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport and Sport Touring Hatchback models make a strong impression with 18-inch alloys and beefy 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Sedan",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX/EX-L Sedan",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on Civic EX/EX-L Sedan models; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Touring Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Type R Touring",
+          "size": "245/30ZR20",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Civic Type R Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Civic-Type-R/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Type R Touring shows off big 20-inch alloy wheels wrapped in super-sticky maximum-performance 245/30 ZR20 tires </strong> <h3>High-Performance Summer Tires</h3> <p> <span>High-performance summer t",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5 L turbo engine models",
+            "grade": "0W-20",
+            "capacity_qt": 3.7,
+            "capacity_l": 3.5,
+            "src": [
+              {
+                "doc": "2021 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2121OM/enu/ATBA2121OM.PDF",
+                "type": "oem_manual",
+                "page": 532,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2121OM/enu/ATBA2121OM.PDF",
+                "type": "oem_manual",
+                "page": 526,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2121OM/enu/ATGG2121OM.PDF",
+                "type": "oem_manual",
+                "page": 590,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2121OM/enu/ATGG2121OM.PDF",
+                "type": "oem_manual",
+                "page": 584,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L engine models",
+            "grade": "0W-20",
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2021 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2121OM/enu/ATBA2121OM.PDF",
+                "type": "oem_manual",
+                "page": 532,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2121OM/enu/ATBA2121OM.PDF",
+                "type": "oem_manual",
+                "page": 526,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L turbo engine models (Type R)",
+            "condition": "Hatchback 2.0 L (Type R)",
+            "grade": "0W-20",
+            "capacity_qt": 5.7,
+            "capacity_l": 5.4,
+            "src": [
+              {
+                "doc": "2021 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2121OM/enu/ATGG2121OM.PDF",
+                "type": "oem_manual",
+                "page": 590,
+                "quote": "5.7 US qt (5.4 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2121OM/enu/ATGG2121OM.PDF",
+                "type": "oem_manual",
+                "page": 584,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 18,
@@ -304,97 +3890,882 @@
       }
     },
     "2022": {
-      "wipers": {
-        "driver_in": 24,
-        "passenger_in": 19,
-        "src": [
+      "towing": [
+        {
+          "trim": "Sedan",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2022 Civic Sedan Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT202222OM/enu/AT202222OM.PDF",
+              "type": "oem_manual",
+              "page": 457,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "not designed to tow a trailer",
+          "src": [
+            {
+              "doc": "2022 Civic Hatchback Owner's Manual (Honda)",
+              "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT402222OM/enu/AT402222OM.PDF",
+              "type": "oem_manual",
+              "page": 449,
+              "quote": "not designed to tow a trailer",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Civic LX Hatchback",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Hatchback is fitted with 16-inch alloy wheels; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport Hatchback wears 18-inch alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Hatchback",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on the Civic EX-L Hatchback ; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Touring Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Touring Hatchback shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Sedan",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX Sedan",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on Civic EX Sedan models; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Touring Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Si",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Civic Si Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Civic-Si/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Feature: The Civic Si shows off aggressive 18-inch matte black alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
           {
-            "doc": "Rain-X Blade Size Finder: 2022 Honda Civic",
-            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Honda&bf-model=Civic",
-            "type": "aftermarket_fitment",
-            "page": null,
-            "quote": "Position: Driver Length (in.): 24\"",
-            "accessed": "2026-10-13"
+            "displacement_l": 1.5,
+            "engine": "1.5 L turbo engine models",
+            "grade": "0W-20",
+            "capacity_qt": 3.7,
+            "capacity_l": 3.5,
+            "src": [
+              {
+                "doc": "2022 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT202222OM/enu/AT202222OM.PDF",
+                "type": "oem_manual",
+                "page": 668,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT202222OM/enu/AT202222OM.PDF",
+                "type": "oem_manual",
+                "page": 662,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT402222OM/enu/AT402222OM.PDF",
+                "type": "oem_manual",
+                "page": 656,
+                "quote": "3.7 US qt (3.5 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT402222OM/enu/AT402222OM.PDF",
+                "type": "oem_manual",
+                "page": 650,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
           },
           {
-            "doc": "Rain-X Blade Size Finder: 2022 Honda Civic",
-            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Honda&bf-model=Civic",
-            "type": "aftermarket_fitment",
+            "displacement_l": 2.0,
+            "engine": "2.0 L engine models",
+            "grade": "0W-20",
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2022 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT202222OM/enu/AT202222OM.PDF",
+                "type": "oem_manual",
+                "page": 668,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Civic Sedan Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT202222OM/enu/AT202222OM.PDF",
+                "type": "oem_manual",
+                "page": 662,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT402222OM/enu/AT402222OM.PDF",
+                "type": "oem_manual",
+                "page": 656,
+                "quote": "4.4 US qt (4.2 L)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Civic Hatchback Owner's Manual (Honda)",
+                "url": "https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT402222OM/enu/AT402222OM.PDF",
+                "type": "oem_manual",
+                "page": 650,
+                "quote": "Premium-grade 0W-20 detergent oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 23.6,
+        "passenger_in": 18.7,
+        "rear_in": 11.8,
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2022 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2022-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
             "page": null,
-            "quote": "Position: Passenger Length (in.): 19\"",
-            "accessed": "2026-10-13"
+            "quote": "2022 Honda Civic BLADE, WSW (600MM) Part Number: 76620-T20-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2022 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2022-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2022 Honda Civic BLADE, WSW (475MM) Part Number: 76630-T20-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2022 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2022-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2022 Honda Civic BLADE, WSW (300MM) Part Number: 76730-T43-003",
+            "accessed": "2026-10-14"
+          }
+        ]
+      }
+    },
+    "2023": {
+      "tires": [
+        {
+          "trim": "Civic LX Hatchback",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Hatchback is fitted with 16-inch alloy wheels; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport Hatchback wears 18-inch alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Hatchback",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on the Civic EX-L Hatchback ; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Touring Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Touring Hatchback shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Sedan",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX Sedan",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on Civic EX Sedan models; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Touring Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Si",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Civic Si Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Civic-Si/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Feature: The Civic Si shows off aggressive 18-inch matte black alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Type R",
+          "size": "265/30ZR19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Civic Type R Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Civic-Type-R/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Type R shows off 19-inch alloy wheels wrapped in super-sticky maximum-performance 265/30 ZR19 Michelin Pilot Sport 4S tires </strong> <h3>High-Performance Summer Tires</h3> <p> <span>High-pe",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "wipers": {
+        "driver_in": 23.6,
+        "passenger_in": 18.7,
+        "rear_in": 11.8,
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2023 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2023-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2023 Honda Civic BLADE, WSW (600MM) Part Number: 76620-T20-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2023 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2023-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2023 Honda Civic BLADE, WSW (475MM) Part Number: 76630-T20-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2023 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2023-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2023 Honda Civic BLADE, WSW (300MM) Part Number: 76730-T43-003",
+            "accessed": "2026-10-14"
           }
         ]
       }
     },
     "2024": {
+      "tires": [
+        {
+          "trim": "Civic LX Hatchback",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Hatchback is fitted with 16-inch alloy wheels; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport Hatchback wears 18-inch alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Hatchback",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on the Civic EX-L Hatchback ; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Touring Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Touring Hatchback shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Sedan",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic EX Sedan",
+          "size": "215/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome 17-inch alloys are standard on Civic EX Sedan models; they’re surrounded by 215/50 R17 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Touring Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Si",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Civic Si Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Civic-Si/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Feature: The Civic Si shows off aggressive 18-inch matte black alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Type R",
+          "size": "265/30ZR19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Civic Type R Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Civic-Type-R/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Type R shows off 19-inch alloy wheels wrapped in super-sticky maximum-performance 265/30 ZR19 Michelin Pilot Sport 4S tires </strong> <h3>High-Performance Summer Tires</h3> <p> <span>High-pe",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "wipers": {
-        "driver_in": 24,
-        "passenger_in": 19,
+        "driver_in": 23.6,
+        "passenger_in": 18.7,
+        "rear_in": 11.8,
         "src": [
           {
-            "doc": "Rain-X Blade Size Finder: 2024 Honda Civic",
-            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Honda&bf-model=Civic",
-            "type": "aftermarket_fitment",
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2024 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2024-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
             "page": null,
-            "quote": "Position: Driver Length (in.): 24\"",
-            "accessed": "2026-10-13"
+            "quote": "2024 Honda Civic BLADE, WSW (600MM) Part Number: 76620-T20-A01",
+            "accessed": "2026-10-14"
           },
           {
-            "doc": "Rain-X Blade Size Finder: 2024 Honda Civic",
-            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Honda&bf-model=Civic",
-            "type": "aftermarket_fitment",
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2024 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2024-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
             "page": null,
-            "quote": "Position: Passenger Length (in.): 19\"",
-            "accessed": "2026-10-13"
+            "quote": "2024 Honda Civic BLADE, WSW (475MM) Part Number: 76630-T20-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2024 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2024-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2024 Honda Civic BLADE, WSW (300MM) Part Number: 76730-T43-003",
+            "accessed": "2026-10-14"
           }
         ]
       }
     },
     "2025": {
+      "tires": [
+        {
+          "trim": "Civic Sport Hatchback and Sport Hybrid Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport Hatchback and Sport Hybrid Hatchback wear 18-inch gloss black alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Touring Hybrid Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Touring Hybrid Hatchback shows off its own unique machine-finished 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Sedan",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Sedan and Sport Hybrid Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Sedan and Sport Hybrid Sedan wear 18-inch gloss black alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Touring Hybrid Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Touring Hybrid Sedan shows off its own unique 18-inch machine-finished alloy-wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Si",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Civic Si Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Civic-Si/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Feature: The Civic Si shows off aggressive 18-inch matte black alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Type R",
+          "size": "265/30ZR19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Civic Type R Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Civic-Type-R/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Type R shows off 19-inch alloy wheels wrapped in super-sticky maximum-performance 265/30 ZR19 Michelin Pilot Sport 4S tires </strong> <h3>High-Performance Summer Tires</h3> <p> <span>High-pe",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "wipers": {
-        "driver_in": 24,
-        "passenger_in": 19,
+        "driver_in": 23.6,
+        "passenger_in": 18.7,
+        "rear_in": 11.8,
         "src": [
           {
-            "doc": "Rain-X Blade Size Finder: 2025 Honda Civic",
-            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Honda&bf-model=Civic",
-            "type": "aftermarket_fitment",
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2025 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2025-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
             "page": null,
-            "quote": "Position: Driver Length (in.): 24\"",
-            "accessed": "2026-10-13"
+            "quote": "2025 Honda Civic BLADE, WSW (600MM) Part Number: 76620-T20-A01",
+            "accessed": "2026-10-14"
           },
           {
-            "doc": "Rain-X Blade Size Finder: 2025 Honda Civic",
-            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Honda&bf-model=Civic",
-            "type": "aftermarket_fitment",
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2025 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2025-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
             "page": null,
-            "quote": "Position: Passenger Length (in.): 19\"",
-            "accessed": "2026-10-13"
+            "quote": "2025 Honda Civic BLADE, WSW (475MM) Part Number: 76630-T20-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2025 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2025-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2025 Honda Civic BLADE, WSW (300MM) Part Number: 76730-T43-003",
+            "accessed": "2026-10-14"
           }
         ]
       }
     },
     "2026": {
+      "tires": [
+        {
+          "trim": "Civic Sport Hatchback and Sport Hybrid Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic Sport Hatchback and Sport Hybrid Hatchback wear 18-inch gloss black alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Touring Hybrid Hatchback",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Civic Hatchback Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Touring Hybrid Hatchback shows off its own unique machine-finished 18-inch alloy wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic LX Sedan",
+          "size": "215/55R16",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Sedan and Sport Hybrid Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Sedan and Sport Hybrid Sedan wear 18-inch gloss black alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Sport Touring Hybrid Sedan",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Civic Sedan Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Civic Sport Touring Hybrid Sedan shows off its own unique 18-inch machine-finished alloy-wheel design, with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Civic Si",
+          "size": "235/40R18",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Civic Si Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Civic-Si/Feature-Guide/Exterior-Features/Wheels-and-Tires",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Feature: The Civic Si shows off aggressive 18-inch matte black alloy wheels with 235/40 R18 all-season tires.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "wipers": {
-        "driver_in": 24,
-        "passenger_in": 19,
+        "driver_in": 23.6,
+        "passenger_in": 18.7,
+        "rear_in": 11.8,
         "src": [
           {
-            "doc": "Rain-X Blade Size Finder: 2026 Honda Civic",
-            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Honda&bf-model=Civic",
-            "type": "aftermarket_fitment",
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2026 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2026-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
             "page": null,
-            "quote": "Position: Driver Length (in.): 24\"",
-            "accessed": "2026-10-13"
+            "quote": "2026 Honda Civic BLADE, WSW (600MM) Part Number: 76620-T20-A01",
+            "accessed": "2026-10-14"
           },
           {
-            "doc": "Rain-X Blade Size Finder: 2026 Honda Civic",
-            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Honda&bf-model=Civic",
-            "type": "aftermarket_fitment",
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2026 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2026-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
             "page": null,
-            "quote": "Position: Passenger Length (in.): 19\"",
-            "accessed": "2026-10-13"
+            "quote": "2026 Honda Civic BLADE, WSW (475MM) Part Number: 76630-T20-A01",
+            "accessed": "2026-10-14"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2026 Honda Civic Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2026-honda-civic-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2026 Honda Civic BLADE, WSW (300MM) Part Number: 76730-T43-003",
+            "accessed": "2026-10-14"
           }
         ]
       }

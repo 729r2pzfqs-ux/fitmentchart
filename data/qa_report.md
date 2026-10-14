@@ -1,19 +1,19 @@
 # QA report
 
-Generated 2026-10-13.
+Generated 2026-10-14.
 
-**5 models**: 0 errors, 51 warnings, 23 coverage gaps.
+**5 models**: 0 errors, 85 warnings, 20 coverage gaps.
 
 ## Coverage (model-years with a value)
 
 | model | years | engines | towing | wheel | tires | battery | wipers | oil | dims | nhtsa |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| chevrolet/silverado-1500 | 22 | 22/22 | 12/22 | 22/22 | 1/22 | - | 22/22 | 15/22 | 22/22 | 22/22 |
-| ford/f-150 | 22 | 22/22 | 21/22 | 22/22 | - | - | 22/22 | - | 22/22 | 22/22 |
-| honda/civic | 22 | 22/22 | 1/22 | 17/22 | 1/22 | - | 11/22 | 1/22 | 22/22 | 22/22 |
-| jeep/wrangler | 22 | 22/22 | 6/22 | 22/22 | - | - | 21/22 | 8/22 | 22/22 | 22/22 |
+| chevrolet/silverado-1500 | 22 | 22/22 | 18/22 | 22/22 | 22/22 | - | 22/22 | 21/22 | 22/22 | 22/22 |
+| ford/f-150 | 22 | 22/22 | 21/22 | 22/22 | 22/22 | 1/22 | 22/22 | 16/22 | 22/22 | 22/22 |
+| honda/civic | 22 | 22/22 | 15/22 | 17/22 | 18/22 | - | 22/22 | 15/22 | 22/22 | 22/22 |
+| jeep/wrangler | 22 | 22/22 | 14/22 | 22/22 | 12/22 | - | 21/22 | 15/22 | 22/22 | 22/22 |
 | toyota/tacoma | 22 | 22/22 | 17/22 | 22/22 | 17/22 | - | 22/22 | 17/22 | 22/22 | 22/22 |
-| **all** | | **100%** | **51%** | **95%** | **17%** | **0%** | **89%** | **37%** | **100%** | **100%** |
+| **all** | | **100%** | **77%** | **95%** | **82%** | **0%** | **99%** | **76%** | **100%** | **100%** |
 
 ## Detail
 
@@ -29,7 +29,7 @@ Generated 2026-10-13.
 
 None.
 
-## Warnings (51)
+## Warnings (85)
 
 - `chevrolet/silverado-1500` 2005 **engines**: 6.0L 8-cyl: no rated HP in EPA test-car data
 - `chevrolet/silverado-1500` 2007 **engines**: 5.3L 8-cyl hybrid: no rated HP in EPA test-car data
@@ -56,17 +56,51 @@ None.
 - `chevrolet/silverado-1500` 2024 **engines**: 6.2L 8-cyl: HP matched by model name only [420]
 - `chevrolet/silverado-1500` 2025 **engines**: 6.2L 8-cyl: HP matched by model name only [420]
 - `ford/f-150` 2005 **engines**: 4.6L 8-cyl: HP matched by model name only [231]
+- `ford/f-150` 2005 **oil**: 4.2L V6: oil spec from a third-party reference only
+- `ford/f-150` 2005 **oil**: 4.6L V8: oil spec from a third-party reference only
+- `ford/f-150` 2005 **oil**: 5.4L V8: oil spec from a third-party reference only
 - `ford/f-150` 2006 **engines**: 4.6L 8-cyl: HP matched by model name only [231]
+- `ford/f-150` 2006 **oil**: 4.2L V6: oil spec from a third-party reference only
+- `ford/f-150` 2006 **oil**: 4.6L V8: oil spec from a third-party reference only
+- `ford/f-150` 2006 **oil**: 5.4L V8: oil spec from a third-party reference only
 - `ford/f-150` 2007 **wheel**: inferred across the generation from special-trim rows only: Ford F-150 Foose Edition 2008, Ford F150 Harley Davidson 2006, Ford King Ranch F150 SuperCrew 2005
+- `ford/f-150` 2007 **oil**: 4.2L V6: oil spec from a third-party reference only
+- `ford/f-150` 2007 **oil**: 4.6L V8: oil spec from a third-party reference only
+- `ford/f-150` 2007 **oil**: 5.4L V8: oil spec from a third-party reference only
+- `ford/f-150` 2008 **oil**: 4.2L V6: oil spec from a third-party reference only
+- `ford/f-150` 2008 **oil**: 4.6L V8: oil spec from a third-party reference only
+- `ford/f-150` 2008 **oil**: 5.4L V8: oil spec from a third-party reference only
+- `ford/f-150` 2009 **oil**: 4.6L V8: oil spec from a third-party reference only
+- `ford/f-150` 2009 **oil**: 5.4L V8: oil spec from a third-party reference only
+- `ford/f-150` 2010 **oil**: 4.6L V8: oil spec from a third-party reference only
+- `ford/f-150` 2010 **oil**: 5.4L V8: oil spec from a third-party reference only
 - `ford/f-150` 2011 **engines**: 3.7L 6-cyl: HP matched by model name only [275]
+- `ford/f-150` 2011 **oil**: 3.7L V6: oil spec from a third-party reference only
+- `ford/f-150` 2011 **oil**: 6.2L V8: oil spec from a third-party reference only
+- `ford/f-150` 2011 **oil**: 5.0L V8: oil spec from a third-party reference only
 - `ford/f-150` 2012 **wheel**: inferred across the generation from special-trim rows only: Ford F-150 FX4 2009, Ford F-150 Harley-Davidson 2011, Ford F-150 Platinum 2009, Ford F-150 SFE 2009, Ford F-150 STX SuperCrew 2014, Ford F-150 SVT Raptor R 2010, Ford F-150 SVT Raptor Special Edition 2014, Ford F-150 SVT Raptor SuperCrew 2011
 - `ford/f-150` 2012 **engines**: 3.7L 6-cyl: HP matched by model name only [275]
 - `ford/f-150` 2012 **engines**: 5.0L 8-cyl: HP matched by model name only [360]
+- `ford/f-150` 2012 **oil**: 3.7L V6: oil spec from a third-party reference only
+- `ford/f-150` 2012 **oil**: 6.2L V8: oil spec from a third-party reference only
+- `ford/f-150` 2012 **oil**: 5.0L V8: oil spec from a third-party reference only
 - `ford/f-150` 2013 **wheel**: inferred across the generation from special-trim rows only: Ford F-150 FX4 2009, Ford F-150 Harley-Davidson 2011, Ford F-150 Platinum 2009, Ford F-150 SFE 2009, Ford F-150 STX SuperCrew 2014, Ford F-150 SVT Raptor R 2010, Ford F-150 SVT Raptor Special Edition 2014, Ford F-150 SVT Raptor SuperCrew 2011
 - `ford/f-150` 2013 **engines**: 5.0L 8-cyl: HP matched by model name only [360]
+- `ford/f-150` 2013 **oil**: 3.7L V6: oil spec from a third-party reference only
+- `ford/f-150` 2013 **oil**: 6.2L V8: oil spec from a third-party reference only
+- `ford/f-150` 2013 **oil**: 5.0L V8: oil spec from a third-party reference only
 - `ford/f-150` 2014 **engines**: 5.0L 8-cyl: HP matched by model name only [360]
+- `ford/f-150` 2014 **oil**: 3.7L V6: oil spec from a third-party reference only
+- `ford/f-150` 2014 **oil**: 6.2L V8: oil spec from a third-party reference only
+- `ford/f-150` 2014 **oil**: 5.0L V8: oil spec from a third-party reference only
 - `ford/f-150` 2015 **engines**: 2.7L 6-cyl turbo: HP matched by model name only [325]
 - `ford/f-150` 2015 **engines**: 3.5L 6-cyl: HP matched by model name only [282]
+- `ford/f-150` 2015 **oil**: 5.0L V8: oil spec from a third-party reference only
+- `ford/f-150` 2015 **oil**: 3.5L Ti-VCT V6 (naturally aspirated): oil spec from a third-party reference only
+- `ford/f-150` 2016 **oil**: 5.0L V8: oil spec from a third-party reference only
+- `ford/f-150` 2016 **oil**: 3.5L Ti-VCT V6 (naturally aspirated): oil spec from a third-party reference only
+- `ford/f-150` 2017 **oil**: 5.0L V8: oil spec from a third-party reference only
+- `ford/f-150` 2017 **oil**: 3.5L Ti-VCT V6 (naturally aspirated): oil spec from a third-party reference only
 - `ford/f-150` 2018 **engines**: 2.7L 6-cyl turbo: EPA HP [400] rejected, contradicts 2017 and 2019 ([325])
 - `ford/f-150` 2021 **engines**: 3.5L 6-cyl turbo hybrid: no rated HP in EPA test-car data
 - `ford/f-150` 2026 **engines**: 3.5L 6-cyl turbo hybrid: HP matched by model name only [400]
@@ -83,27 +117,24 @@ None.
 - `jeep/wrangler` 2005 **engines**: 2.4L 4-cyl: HP matched by model name only [150]
 - `jeep/wrangler` 2006 **engines**: 2.4L 4-cyl: HP matched by model name only [150]
 
-## Gaps (23)
+## Gaps (20)
 
-- `chevrolet/silverado-1500`  **towing**: missing for ['2015', '2016', '2017', '2018', '2021', '2022', '2023', '2024', '2025', '2026']
-- `chevrolet/silverado-1500`  **tires**: missing for ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
+- `chevrolet/silverado-1500`  **towing**: missing for ['2015', '2016', '2018', '2021']
 - `chevrolet/silverado-1500`  **battery**: no source provides this field yet
-- `chevrolet/silverado-1500`  **oil**: missing for ['2011', '2021', '2022', '2023', '2024', '2025', '2026']
+- `chevrolet/silverado-1500`  **oil**: missing for ['2011']
 - `ford/f-150`  **towing**: missing for ['2026']
-- `ford/f-150`  **tires**: no source provides this field yet
-- `ford/f-150`  **battery**: no source provides this field yet
-- `ford/f-150`  **oil**: no source provides this field yet
-- `honda/civic`  **towing**: missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
+- `ford/f-150`  **battery**: missing for ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2025', '2026']
+- `ford/f-150`  **oil**: missing for ['2018', '2019', '2022', '2023', '2024', '2025']
+- `honda/civic`  **towing**: missing for ['2013', '2015', '2016', '2023', '2024', '2025', '2026']
 - `honda/civic`  **wheel**: missing for ['2005', '2012', '2013', '2014', '2015']
-- `honda/civic`  **tires**: missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
+- `honda/civic`  **tires**: missing for ['2013', '2015', '2016', '2017']
 - `honda/civic`  **battery**: no source provides this field yet
-- `honda/civic`  **wipers**: missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2023']
-- `honda/civic`  **oil**: missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
-- `jeep/wrangler`  **towing**: missing for ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2019', '2020', '2024', '2025', '2026']
-- `jeep/wrangler`  **tires**: no source provides this field yet
+- `honda/civic`  **oil**: missing for ['2013', '2015', '2016', '2023', '2024', '2025', '2026']
+- `jeep/wrangler`  **towing**: missing for ['2005', '2006', '2007', '2008', '2009', '2010', '2015', '2020']
+- `jeep/wrangler`  **tires**: missing for ['2005', '2006', '2007', '2008', '2009', '2010', '2015', '2017', '2018', '2020']
 - `jeep/wrangler`  **battery**: no source provides this field yet
 - `jeep/wrangler`  **wipers**: missing for ['2014']
-- `jeep/wrangler`  **oil**: missing for ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2019', '2020', '2024', '2025']
+- `jeep/wrangler`  **oil**: missing for ['2006', '2007', '2008', '2009', '2010', '2015', '2020']
 - `toyota/tacoma`  **towing**: missing for ['2005', '2006', '2007', '2013', '2026']
 - `toyota/tacoma`  **tires**: missing for ['2005', '2006', '2007', '2013', '2026']
 - `toyota/tacoma`  **battery**: no source provides this field yet

@@ -17,7 +17,7 @@ sources:                       # documents cited by the records below
   om2019:
     doc: "2019 Toyota Tacoma Owner's Manual (OM04011U)"
     url: https://www.toyota.com/t3Portal/document/om-s/OM04011U/pdf/OM04011U.pdf
-    type: oem_manual           # oem_manual | oem_towing_guide | oem_spec_sheet | oem_parts_catalog | aftermarket_fitment
+    type: oem_manual           # oem_manual | oem_towing_guide | oem_spec_sheet | oem_parts_catalog | aftermarket_fitment | third_party_reference
     accessed: 2026-10-13
 
 records:
@@ -72,4 +72,7 @@ records:
 - Each `src` entry needs `ref` (a key in `sources`), plus `page` when the source is a PDF, plus a short verbatim `quote` (at most 200 characters) that shows the value.
 - Prefer OEM documents: owner's manuals, OEM towing guides and OEM spec sheets. Use an aftermarket fitment lookup (a battery or wiper maker's catalogue) only when no OEM document gives the value. Mark it `type: aftermarket_fitment`.
 - Owner's manuals rarely list battery group or wiper lengths, so those two usually come from fitment lookups.
+- `third_party_reference` is an enthusiast or reference site that isn't the OEM or a parts maker (e.g. f150hub.com).
+  - Use it only for values the page states verbatim.
+  - Never let it override an OEM value for the same year.
 - Units: pounds, US quarts and inches. Use the numbers as printed. Don't convert unless the source only gives metric; in that case write the metric value in the quote.

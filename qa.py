@@ -179,6 +179,8 @@ def check_manual_fields(r: Report, slug, y, blk):
             continue
         if any(not s.get("quote") for s in src):
             r.add("error", slug, y, field, "source without verbatim quote")
+        if field == "oil" and src and all(s.get("type") == "third_party_reference" for s in src):
+            r.add("warning", slug, y, field, f"{it.get('engine')}: oil spec from a third-party reference only")
         if field == "towing" and it.get("max_lb") and not any(s.get("type") in OEM_TYPES for s in src):
             r.add("warning", slug, y, field, f"towing {it['max_lb']} lb has no OEM source")
         d = it.get("displacement_l")

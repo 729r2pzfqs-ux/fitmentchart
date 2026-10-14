@@ -12,6 +12,11 @@ python tools/manuals/build_wrangler.py    # Mopar owner's manuals
 python tools/manuals/build_civic.py       # 2005 Civic owner's manual (Honda techinfo sections)
 python tools/manuals/rxrun.py data/cache/rainx   # fetch Rain-X wiper pages (slow; cached)
 python tools/manuals/add_wipers.py
+python tools/manuals/add_f150_oil.py     # F-150 oil: Ford 2020/2021 tech-spec sheets + f150hub.com (third_party_reference)
+python tools/manuals/add_chunk2.py       # F-150 tires/battery/2026 oil (Ford sheets, tirepressure.com), Civic oil 2006-2022 (Honda manuals)
+python tools/manuals/add_chunk3.py       # Civic tires (manuals + Honda Info Center), wipers (HondaPartsNow), towing (manuals)
+python tools/manuals/add_chunk4.py       # Silverado towing (GM guides/charts 2017, 2022-26), oil (GM TechLink 2021-26), tires (tirepressure.com)
+python tools/manuals/add_chunk5.py       # Wrangler towing/tires/oil capacity (FCA/Stellantis spec sheets 2011-26), EcoDiesel grade (manuals)
 ```
 
 `mkyaml.cite()` is the safety net.

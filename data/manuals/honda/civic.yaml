@@ -1,4 +1,5 @@
-# Generated from OEM documents (quotes verified against the cited PDF page) plus Rain-X wiper fitment pages.
+# Generated from Honda owner's manuals (quotes verified against the cited PDF page), Honda Info Center pages,
+# the HondaPartsNow genuine-parts catalog and Rain-X wiper pages.
 slug: honda/civic
 sources:
   cv0505_00142:
@@ -71,6 +72,396 @@ sources:
     url: https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Honda&bf-model=Civic
     type: aftermarket_fitment
     accessed: '2026-10-13'
+  NA0606:
+    doc: 2006 Civic Coupe Owner's Manual (31SVA600) (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NA0606/NA0606OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NA0707:
+    doc: 2007 Civic Coupe Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NA0707/NA0707OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NA0808:
+    doc: 2008 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NA0808/NA0808OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NA0909:
+    doc: 2009 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NA0909/NA0909OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NA1010:
+    doc: 2010 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NA1010/NA1010OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NA1111:
+    doc: 2011 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NA1111/NA1111OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NC0606:
+    doc: 2006 Civic Hybrid Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NC0606/NC0606OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NC0707:
+    doc: 2007 Civic Hybrid Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NC0707/NC0707OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NC0808:
+    doc: 2008 Civic Hybrid Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NC0808/NC0808OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NC0909:
+    doc: 2009 Civic Hybrid Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NC0909/NC0909OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NC1010:
+    doc: 2010 Civic Hybrid Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NC1010/NC1010OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  NC1111:
+    doc: 2011 Civic Hybrid Owner's Manual (NC1111) (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/NC1111/NC1111OM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  R01212:
+    doc: 2012 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/om/r01212/r01212om.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  R0144D:
+    doc: 2014 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/R0144D/R0144DOM.pdf
+    type: oem_manual
+    accessed: '2026-10-13'
+  AT2022:
+    doc: 2022 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT202222OM/enu/AT202222OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  AT4022:
+    doc: 2022 Civic Hatchback Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT402222OM/enu/AT402222OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATBA17:
+    doc: 2017 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1717OM/enu/ATBA1717OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATBA18:
+    doc: 2018 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1818OM/enu/ATBA1818OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATBA19:
+    doc: 2019 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA1919OM/enu/ATBA1919OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATBA20:
+    doc: 2020 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2020OM/enu/ATBA2020OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATBA21:
+    doc: 2021 Civic Sedan Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBA2121OM/enu/ATBA2121OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATGG17:
+    doc: 2017 Civic Hatchback Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1717OM/enu/ATGG1717OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATGG18:
+    doc: 2018 Civic Hatchback Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1818OM/enu/ATGG1818OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATGG19:
+    doc: 2019 Civic Hatchback Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG1919OM/enu/ATGG1919OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATGG20:
+    doc: 2020 Civic Hatchback Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2020OM/enu/ATGG2020OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATGG21:
+    doc: 2021 Civic Hatchback Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATGG2121OM/enu/ATGG2121OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATBG17:
+    doc: 2017 Civic Coupe Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1717OM/enu/ATBG1717OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATBG18:
+    doc: 2018 Civic Coupe Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1818OM/enu/ATBG1818OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATBG19:
+    doc: 2019 Civic Coupe Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG1919OM/enu/ATBG1919OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  ATBG20:
+    doc: 2020 Civic Coupe Owner's Manual (Honda)
+    url: https://techinfo.honda.com/rjanisis/pubs/OM/AH/ATBG2020OM/enu/ATBG2020OM.PDF
+    type: oem_manual
+    accessed: '2026-10-13'
+  hic2018CivicCoupe:
+    doc: 'Honda Info Center: 2018 Civic Coupe Wheels and Tires'
+    url: https://www.hondainfocenter.com/2018/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2018CivicHatchback:
+    doc: 'Honda Info Center: 2018 Civic Hatchback Wheels and Tires'
+    url: https://www.hondainfocenter.com/2018/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2018CivicSedan:
+    doc: 'Honda Info Center: 2018 Civic Sedan Wheels and Tires'
+    url: https://www.hondainfocenter.com/2018/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2019CivicCoupe:
+    doc: 'Honda Info Center: 2019 Civic Coupe Wheels and Tires'
+    url: https://www.hondainfocenter.com/2019/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2019CivicHatchback:
+    doc: 'Honda Info Center: 2019 Civic Hatchback Wheels and Tires'
+    url: https://www.hondainfocenter.com/2019/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2019CivicSedan:
+    doc: 'Honda Info Center: 2019 Civic Sedan Wheels and Tires'
+    url: https://www.hondainfocenter.com/2019/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2020CivicCoupe:
+    doc: 'Honda Info Center: 2020 Civic Coupe Wheels and Tires'
+    url: https://www.hondainfocenter.com/2020/Civic-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2020CivicHatchback:
+    doc: 'Honda Info Center: 2020 Civic Hatchback Wheels and Tires'
+    url: https://www.hondainfocenter.com/2020/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2020CivicSedan:
+    doc: 'Honda Info Center: 2020 Civic Sedan Wheels and Tires'
+    url: https://www.hondainfocenter.com/2020/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2020CivicSiCoupe:
+    doc: 'Honda Info Center: 2020 Civic Si Coupe Wheels and Tires'
+    url: https://www.hondainfocenter.com/2020/Civic-Si-Coupe/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2020CivicSiSedan:
+    doc: 'Honda Info Center: 2020 Civic Si Sedan Wheels and Tires'
+    url: https://www.hondainfocenter.com/2020/Civic-Si-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2020CivicTypeR:
+    doc: 'Honda Info Center: 2020 Civic Type R Wheels and Tires'
+    url: https://www.hondainfocenter.com/2020/Civic-Type-R/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2021CivicHatchback:
+    doc: 'Honda Info Center: 2021 Civic Hatchback Wheels and Tires'
+    url: https://www.hondainfocenter.com/2021/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2021CivicSedan:
+    doc: 'Honda Info Center: 2021 Civic Sedan Wheels and Tires'
+    url: https://www.hondainfocenter.com/2021/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2021CivicTypeR:
+    doc: 'Honda Info Center: 2021 Civic Type R Wheels and Tires'
+    url: https://www.hondainfocenter.com/2021/Civic-Type-R/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2022CivicHatchback:
+    doc: 'Honda Info Center: 2022 Civic Hatchback Wheels and Tires'
+    url: https://www.hondainfocenter.com/2022/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2022CivicSedan:
+    doc: 'Honda Info Center: 2022 Civic Sedan Wheels and Tires'
+    url: https://www.hondainfocenter.com/2022/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2022CivicSi:
+    doc: 'Honda Info Center: 2022 Civic Si Wheels and Tires'
+    url: https://www.hondainfocenter.com/2022/Civic-Si/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2023CivicHatchback:
+    doc: 'Honda Info Center: 2023 Civic Hatchback Wheels and Tires'
+    url: https://www.hondainfocenter.com/2023/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2023CivicSedan:
+    doc: 'Honda Info Center: 2023 Civic Sedan Wheels and Tires'
+    url: https://www.hondainfocenter.com/2023/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2023CivicSi:
+    doc: 'Honda Info Center: 2023 Civic Si Wheels and Tires'
+    url: https://www.hondainfocenter.com/2023/Civic-Si/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2023CivicTypeR:
+    doc: 'Honda Info Center: 2023 Civic Type R Wheels and Tires'
+    url: https://www.hondainfocenter.com/2023/Civic-Type-R/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2024CivicHatchback:
+    doc: 'Honda Info Center: 2024 Civic Hatchback Wheels and Tires'
+    url: https://www.hondainfocenter.com/2024/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2024CivicSedan:
+    doc: 'Honda Info Center: 2024 Civic Sedan Wheels and Tires'
+    url: https://www.hondainfocenter.com/2024/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2024CivicSi:
+    doc: 'Honda Info Center: 2024 Civic Si Wheels and Tires'
+    url: https://www.hondainfocenter.com/2024/Civic-Si/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2024CivicTypeR:
+    doc: 'Honda Info Center: 2024 Civic Type R Wheels and Tires'
+    url: https://www.hondainfocenter.com/2024/Civic-Type-R/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2025CivicHatchback:
+    doc: 'Honda Info Center: 2025 Civic Hatchback Wheels and Tires'
+    url: https://www.hondainfocenter.com/2025/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2025CivicSedan:
+    doc: 'Honda Info Center: 2025 Civic Sedan Wheels and Tires'
+    url: https://www.hondainfocenter.com/2025/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2025CivicSi:
+    doc: 'Honda Info Center: 2025 Civic Si Wheels and Tires'
+    url: https://www.hondainfocenter.com/2025/Civic-Si/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2025CivicTypeR:
+    doc: 'Honda Info Center: 2025 Civic Type R Wheels and Tires'
+    url: https://www.hondainfocenter.com/2025/Civic-Type-R/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2026CivicHatchback:
+    doc: 'Honda Info Center: 2026 Civic Hatchback Wheels and Tires'
+    url: https://www.hondainfocenter.com/2026/Civic-Hatchback/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2026CivicSedan:
+    doc: 'Honda Info Center: 2026 Civic Sedan Wheels and Tires'
+    url: https://www.hondainfocenter.com/2026/Civic-Sedan/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hic2026CivicSi:
+    doc: 'Honda Info Center: 2026 Civic Si Wheels and Tires'
+    url: https://www.hondainfocenter.com/2026/Civic-Si/Feature-Guide/Exterior-Features/Wheels-and-Tires
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  hpn2006:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2006 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2006-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2007:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2007 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2007-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2008:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2008 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2008-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2009:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2009 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2009-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2010:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2010 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2010-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2011:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2011 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2011-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2012:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2012 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2012-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2013:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2013 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2013-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2014:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2014 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2014-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2015:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2015 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2015-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2022:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2022 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2022-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2023:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2023 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2023-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2024:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2024 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2024-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2025:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2025 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2025-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
+  hpn2026:
+    doc: 'HondaPartsNow (genuine Honda parts catalog): 2026 Honda Civic Wiper Blade'
+    url: https://www.hondapartsnow.com/oem-2026-honda-civic-wiper_blade.html
+    type: oem_parts_catalog
+    accessed: '2026-10-14'
 records:
 - field: oil
   years:
@@ -226,47 +617,2830 @@ records:
     quote: 'Position: Driver Length (in.): 26"'
   - ref: rainx2021
     quote: 'Position: Passenger Length (in.): 18"'
+- field: oil
+  years:
+  - 2006
+  - 2006
+  displacement_l: 1.8
+  engine: 1.8 L SOHC i-VTEC (all models except Si)
+  grade: 5W-20
+  capacity_qt: 3.9
+  capacity_l: 3.7
+  src:
+  - ref: NA0606
+    page: 283
+    quote: 3.9 US qt (3.7 )＊3
+  - ref: NA0606
+    page: 283
+    quote: '＊3 : U.S.: DX, LX, EX'
+  - ref: NA0606
+    page: 225
+    quote: 'DX, Canadian DX-G, LX, and EX models: Honda Motor Oil is the preferred 5W-20'
+- field: oil
+  years:
+  - 2006
+  - 2006
+  displacement_l: 2.0
+  engine: 2.0 L DOHC i-VTEC (Si)
+  grade: 5W-30
+  capacity_qt: 4.6
+  capacity_l: 4.4
+  src:
+  - ref: NA0606
+    page: 283
+    quote: 4.6 US qt (4.4 )＊4
+  - ref: NA0606
+    page: 283
+    quote: '＊4 : Si'
+  - ref: NA0606
+    page: 225
+    quote: 'Si model:'
+  - ref: NA0606
+    page: 225
+    quote: An oil with a viscosity of 5W-30 is preferred
+- field: oil
+  years:
+  - 2007
+  - 2007
+  displacement_l: 1.8
+  engine: 1.8 L SOHC i-VTEC (all models except Si)
+  grade: 5W-20
+  capacity_qt: 3.9
+  capacity_l: 3.7
+  src:
+  - ref: NA0707
+    page: 283
+    quote: 3.9 US qt (3.7 )＊3
+  - ref: NA0707
+    page: 283
+    quote: '＊3 : U.S.: DX, LX, EX'
+  - ref: NA0707
+    page: 226
+    quote: 'DX, Canadian DX-G, LX, and EX models: Honda Motor Oil is the preferred 5W-20'
+- field: oil
+  years:
+  - 2007
+  - 2007
+  displacement_l: 2.0
+  engine: 2.0 L DOHC i-VTEC (Si)
+  grade: 5W-30
+  capacity_qt: 4.6
+  capacity_l: 4.4
+  src:
+  - ref: NA0707
+    page: 283
+    quote: 4.6 US qt (4.4 )＊4
+  - ref: NA0707
+    page: 283
+    quote: '＊4 : Si'
+  - ref: NA0707
+    page: 226
+    quote: 'Si model:'
+  - ref: NA0707
+    page: 226
+    quote: An oil with a viscosity of 5W-30 is preferred
+- field: oil
+  years:
+  - 2008
+  - 2008
+  displacement_l: 1.8
+  engine: 1.8 L SOHC i-VTEC (all models except Si)
+  grade: 5W-20
+  capacity_qt: 3.9
+  capacity_l: 3.7
+  src:
+  - ref: NA0808
+    page: 296
+    quote: 3.9 US qt (3.7 ) ＊3
+  - ref: NA0808
+    page: 296
+    quote: '＊3 : Except Si'
+  - ref: NA0808
+    page: 236
+    quote: 'All models except Si: Honda Motor Oil is the preferred 5W-20'
+- field: oil
+  years:
+  - 2008
+  - 2008
+  displacement_l: 2.0
+  engine: 2.0 L DOHC i-VTEC (Si)
+  grade: 5W-30
+  capacity_qt: 4.6
+  capacity_l: 4.4
+  src:
+  - ref: NA0808
+    page: 296
+    quote: 4.6 US qt (4.4 ) ＊4
+  - ref: NA0808
+    page: 296
+    quote: '＊4 : Si'
+  - ref: NA0808
+    page: 236
+    quote: 'Si model:'
+  - ref: NA0808
+    page: 236
+    quote: An oil with a viscosity of 5W-30 is preferred
+- field: oil
+  years:
+  - 2009
+  - 2009
+  displacement_l: 1.8
+  engine: 1.8 L SOHC i-VTEC (all models except Si)
+  grade: 5W-20
+  capacity_qt: 3.9
+  capacity_l: 3.7
+  src:
+  - ref: NA0909
+    page: 368
+    quote: 3.9 US qt (3.7 ) ＊3
+  - ref: NA0909
+    page: 368
+    quote: '＊3 : Except Si'
+  - ref: NA0909
+    page: 304
+    quote: 'All models except Si: Honda Motor Oil is the preferred 5W-20'
+- field: oil
+  years:
+  - 2009
+  - 2009
+  displacement_l: 2.0
+  engine: 2.0 L DOHC i-VTEC (Si)
+  grade: 5W-30
+  capacity_qt: 4.6
+  capacity_l: 4.4
+  src:
+  - ref: NA0909
+    page: 368
+    quote: 4.6 US qt (4.4 ) ＊4
+  - ref: NA0909
+    page: 368
+    quote: '＊4 : Si'
+  - ref: NA0909
+    page: 304
+    quote: 'Si model:'
+  - ref: NA0909
+    page: 304
+    quote: An oil with a viscosity of 5W-30 is preferred
+- field: oil
+  years:
+  - 2010
+  - 2010
+  displacement_l: 1.8
+  engine: 1.8 L SOHC i-VTEC (all models except Si)
+  grade: 5W-20
+  capacity_qt: 3.9
+  capacity_l: 3.7
+  src:
+  - ref: NA1010
+    page: 358
+    quote: 3.9 US qt (3.7 ) ＊3
+  - ref: NA1010
+    page: 358
+    quote: '＊3 : Except Si'
+  - ref: NA1010
+    page: 294
+    quote: 'All models except Si: Honda Motor Oil is the preferred 5W-20'
+- field: oil
+  years:
+  - 2010
+  - 2010
+  displacement_l: 2.0
+  engine: 2.0 L DOHC i-VTEC (Si)
+  grade: 5W-30
+  capacity_qt: 4.6
+  capacity_l: 4.4
+  src:
+  - ref: NA1010
+    page: 358
+    quote: 4.6 US qt (4.4 ) ＊4
+  - ref: NA1010
+    page: 358
+    quote: '＊4 : Si'
+  - ref: NA1010
+    page: 294
+    quote: 'Si model:'
+  - ref: NA1010
+    page: 294
+    quote: An oil with a viscosity of 5W-30 is preferred
+- field: oil
+  years:
+  - 2011
+  - 2011
+  displacement_l: 1.8
+  engine: 1.8 L SOHC i-VTEC (all models except Si)
+  grade: 5W-20
+  capacity_qt: 3.9
+  capacity_l: 3.7
+  src:
+  - ref: NA1111
+    page: 361
+    quote: 3.9 US qt (3.7 ) ＊3
+  - ref: NA1111
+    page: 361
+    quote: '＊3 : Except Si'
+  - ref: NA1111
+    page: 297
+    quote: 'All models except Si: Honda Motor Oil is the preferred 5W-20'
+- field: oil
+  years:
+  - 2011
+  - 2011
+  displacement_l: 2.0
+  engine: 2.0 L DOHC i-VTEC (Si)
+  grade: 5W-30
+  capacity_qt: 4.6
+  capacity_l: 4.4
+  src:
+  - ref: NA1111
+    page: 361
+    quote: 4.6 US qt (4.4 ) ＊4
+  - ref: NA1111
+    page: 361
+    quote: '＊4 : Si'
+  - ref: NA1111
+    page: 297
+    quote: 'Si model:'
+  - ref: NA1111
+    page: 297
+    quote: An oil with a viscosity of 5W-30 is preferred
+- field: oil
+  years:
+  - 2006
+  - 2006
+  displacement_l: 1.3
+  engine: 1.3 L i-VTEC IMA hybrid
+  condition: Civic Hybrid
+  grade: 0W-20
+  capacity_qt: 3.4
+  capacity_l: 3.2
+  src:
+  - ref: NC0606
+    page: 246
+    quote: Including filter 3.4 US qt (3.2
+  - ref: NC0606
+    page: 158
+    quote: low- viscosity 0W-20 oil recommended
+- field: oil
+  years:
+  - 2007
+  - 2007
+  displacement_l: 1.3
+  engine: 1.3 L i-VTEC IMA hybrid
+  condition: Civic Hybrid
+  grade: 0W-20
+  capacity_qt: 3.4
+  capacity_l: 3.2
+  src:
+  - ref: NC0707
+    page: 245
+    quote: Including filter 3.4 US qt (3.2
+  - ref: NC0707
+    page: 157
+    quote: the viscosity 0W-20 oil recommended
+- field: oil
+  years:
+  - 2008
+  - 2008
+  displacement_l: 1.3
+  engine: 1.3 L i-VTEC IMA hybrid
+  condition: Civic Hybrid
+  grade: 0W-20
+  capacity_qt: 3.4
+  capacity_l: 3.2
+  src:
+  - ref: NC0808
+    page: 271
+    quote: Including filter 3.4 US qt (3.2
+  - ref: NC0808
+    page: 218
+    quote: if 0W-20 is not available
+- field: oil
+  years:
+  - 2009
+  - 2009
+  displacement_l: 1.3
+  engine: 1.3 L i-VTEC IMA hybrid
+  condition: Civic Hybrid
+  grade: 0W-20
+  capacity_qt: 3.4
+  capacity_l: 3.2
+  src:
+  - ref: NC0909
+    page: 353
+    quote: Including filter 3.4 US qt (3.2
+  - ref: NC0909
+    page: 300
+    quote: if 0W-20 is not available
+- field: oil
+  years:
+  - 2010
+  - 2010
+  displacement_l: 1.3
+  engine: 1.3 L i-VTEC IMA hybrid
+  condition: Civic Hybrid
+  grade: 0W-20
+  capacity_qt: 3.4
+  capacity_l: 3.2
+  src:
+  - ref: NC1010
+    page: 341
+    quote: Including filter 3.4 US qt (3.2
+  - ref: NC1010
+    page: 288
+    quote: if 0W-20 is not available
+- field: oil
+  years:
+  - 2011
+  - 2011
+  displacement_l: 1.3
+  engine: 1.3 L i-VTEC IMA hybrid
+  condition: Civic Hybrid
+  grade: 0W-20
+  capacity_qt: 3.4
+  capacity_l: 3.2
+  src:
+  - ref: NC1111
+    page: 344
+    quote: Including filter 3.4 US qt (3.2
+  - ref: NC1111
+    page: 291
+    quote: if 0W-20 is not available
+- field: oil
+  years:
+  - 2012
+  - 2012
+  displacement_l: 1.8
+  engine: 1.8 L engine models
+  grade: 0W-20
+  capacity_qt: 3.9
+  capacity_l: 3.7
+  src:
+  - ref: R01212
+    page: 261
+    quote: 1.8 ℓ engine models 3.9 US qt (3.7 L)
+  - &id002
+    ref: R01212
+    page: 255
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2012
+  - 2012
+  displacement_l: 2.4
+  engine: 2.4 L engine models (Si)
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: R01212
+    page: 261
+    quote: 4.4 US qt (4.2 L)
+  - *id002
+- field: oil
+  years:
+  - 2014
+  - 2014
+  displacement_l: 1.8
+  engine: 1.8 L engine models
+  grade: 0W-20
+  capacity_qt: 3.9
+  capacity_l: 3.7
+  src:
+  - ref: R0144D
+    page: 372
+    quote: 1.8 ℓ engine models 3.9 US qt (3.7 L)
+  - &id003
+    ref: R0144D
+    page: 366
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2014
+  - 2014
+  displacement_l: 2.4
+  engine: 2.4 L engine models (Si)
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: R0144D
+    page: 372
+    quote: 4.4 US qt (4.2 L)
+  - *id003
+- field: oil
+  years:
+  - 2022
+  - 2022
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: AT2022
+    page: 668
+    quote: 3.7 US qt (3.5 L)
+  - &id004
+    ref: AT2022
+    page: 662
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2022
+  - 2022
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: AT2022
+    page: 668
+    quote: 4.4 US qt (4.2 L)
+  - *id004
+- field: oil
+  years:
+  - 2022
+  - 2022
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: AT4022
+    page: 656
+    quote: 3.7 US qt (3.5 L)
+  - &id005
+    ref: AT4022
+    page: 650
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2022
+  - 2022
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: AT4022
+    page: 656
+    quote: 4.4 US qt (4.2 L)
+  - *id005
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATBA17
+    page: 532
+    quote: 3.7 US qt (3.5 L)
+  - &id006
+    ref: ATBA17
+    page: 526
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: ATBA17
+    page: 532
+    quote: 4.4 US qt (4.2 L)
+  - *id006
+- field: oil
+  years:
+  - 2018
+  - 2018
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATBA18
+    page: 534
+    quote: 3.7 US qt (3.5 L)
+  - &id007
+    ref: ATBA18
+    page: 528
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2018
+  - 2018
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: ATBA18
+    page: 534
+    quote: 4.4 US qt (4.2 L)
+  - *id007
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATBA19
+    page: 568
+    quote: 3.7 US qt (3.5 L)
+  - &id008
+    ref: ATBA19
+    page: 562
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: ATBA19
+    page: 568
+    quote: 4.4 US qt (4.2 L)
+  - *id008
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATBA20
+    page: 564
+    quote: 3.7 US qt (3.5 L)
+  - &id009
+    ref: ATBA20
+    page: 558
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: ATBA20
+    page: 564
+    quote: 4.4 US qt (4.2 L)
+  - *id009
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATBA21
+    page: 532
+    quote: 3.7 US qt (3.5 L)
+  - &id010
+    ref: ATBA21
+    page: 526
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: ATBA21
+    page: 532
+    quote: 4.4 US qt (4.2 L)
+  - *id010
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATGG17
+    page: 569
+    quote: 3.7 US qt (3.5 L)
+  - &id011
+    ref: ATGG17
+    page: 563
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 2.0
+  engine: 2.0 L turbo engine models (Type R)
+  condition: Hatchback 2.0 L (Type R)
+  grade: 0W-20
+  capacity_qt: 5.7
+  capacity_l: 5.4
+  src:
+  - ref: ATGG17
+    page: 569
+    quote: 5.7 US qt (5.4 L)
+  - *id011
+- field: oil
+  years:
+  - 2018
+  - 2018
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATGG18
+    page: 583
+    quote: 3.7 US qt (3.5 L)
+  - &id012
+    ref: ATGG18
+    page: 577
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2018
+  - 2018
+  displacement_l: 2.0
+  engine: 2.0 L turbo engine models (Type R)
+  condition: Hatchback 2.0 L (Type R)
+  grade: 0W-20
+  capacity_qt: 5.7
+  capacity_l: 5.4
+  src:
+  - ref: ATGG18
+    page: 583
+    quote: 5.7 US qt (5.4 L)
+  - *id012
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATGG19
+    page: 578
+    quote: 3.7 US qt (3.5 L)
+  - &id013
+    ref: ATGG19
+    page: 572
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 2.0
+  engine: 2.0 L turbo engine models (Type R)
+  condition: Hatchback 2.0 L (Type R)
+  grade: 0W-20
+  capacity_qt: 5.7
+  capacity_l: 5.4
+  src:
+  - ref: ATGG19
+    page: 578
+    quote: 5.7 US qt (5.4 L)
+  - *id013
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATGG20
+    page: 586
+    quote: 3.7 US qt (3.5 L)
+  - &id014
+    ref: ATGG20
+    page: 580
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 2.0
+  engine: 2.0 L turbo engine models (Type R)
+  condition: Hatchback 2.0 L (Type R)
+  grade: 0W-20
+  capacity_qt: 5.7
+  capacity_l: 5.4
+  src:
+  - ref: ATGG20
+    page: 586
+    quote: 5.7 US qt (5.4 L)
+  - *id014
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATGG21
+    page: 590
+    quote: 3.7 US qt (3.5 L)
+  - &id015
+    ref: ATGG21
+    page: 584
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 2.0
+  engine: 2.0 L turbo engine models (Type R)
+  condition: Hatchback 2.0 L (Type R)
+  grade: 0W-20
+  capacity_qt: 5.7
+  capacity_l: 5.4
+  src:
+  - ref: ATGG21
+    page: 590
+    quote: 5.7 US qt (5.4 L)
+  - *id015
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATBG17
+    page: 523
+    quote: 3.7 US qt (3.5 L)
+  - &id016
+    ref: ATBG17
+    page: 517
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: ATBG17
+    page: 523
+    quote: 4.4 US qt (4.2 L)
+  - *id016
+- field: oil
+  years:
+  - 2018
+  - 2018
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATBG18
+    page: 523
+    quote: 3.7 US qt (3.5 L)
+  - &id017
+    ref: ATBG18
+    page: 517
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2018
+  - 2018
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: ATBG18
+    page: 523
+    quote: 4.4 US qt (4.2 L)
+  - *id017
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATBG19
+    page: 566
+    quote: 3.7 US qt (3.5 L)
+  - &id018
+    ref: ATBG19
+    page: 560
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: ATBG19
+    page: 566
+    quote: 4.4 US qt (4.2 L)
+  - *id018
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 1.5
+  engine: 1.5 L turbo engine models
+  grade: 0W-20
+  capacity_qt: 3.7
+  capacity_l: 3.5
+  src:
+  - ref: ATBG20
+    page: 562
+    quote: 3.7 US qt (3.5 L)
+  - &id019
+    ref: ATBG20
+    page: 556
+    quote: Premium-grade 0W-20 detergent oil
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 2.0
+  engine: 2.0 L engine models
+  grade: 0W-20
+  capacity_qt: 4.4
+  capacity_l: 4.2
+  src:
+  - ref: ATBG20
+    page: 562
+    quote: 4.4 US qt (4.2 L)
+  - *id019
+- field: tires
+  years:
+  - 2006
+  - 2006
+  trim: Coupe DX and Canadian DX-G
+  size: P195/65R15
+  load_speed: 89H
+  src:
+  - ref: NA0606
+    page: 246
+    quote: DX and Canadian DX-G Tire Size P195/65R15
+- field: tires
+  years:
+  - 2006
+  - 2006
+  trim: Coupe LX, EX
+  size: P205/55R16
+  load_speed: 89H
+  src:
+  - ref: NA0606
+    page: 246
+    quote: LX, EX Tire Size P205/55R16
+- field: tires
+  years:
+  - 2006
+  - 2006
+  trim: Coupe Si
+  size: P215/45R17
+  load_speed: 87V
+  src:
+  - ref: NA0606
+    page: 246
+    quote: Si Tire Size P215/45R17
+- field: tires
+  years:
+  - 2007
+  - 2007
+  trim: Coupe DX and Canadian DX-G
+  size: P195/65R15
+  load_speed: 89H
+  src:
+  - ref: NA0707
+    page: 247
+    quote: DX and Canadian DX-G Tire Size P195/65R15
+- field: tires
+  years:
+  - 2007
+  - 2007
+  trim: Coupe LX, EX
+  size: P205/55R16
+  load_speed: 89H
+  src:
+  - ref: NA0707
+    page: 247
+    quote: LX, EX Tire Size P205/55R16
+- field: tires
+  years:
+  - 2007
+  - 2007
+  trim: Coupe Si
+  size: P215/45R17
+  load_speed: 87V
+  src:
+  - ref: NA0707
+    page: 248
+    quote: Si model only P215/45R17 87V
+- field: tires
+  years:
+  - 2008
+  - 2008
+  trim: Sedan DX, Canadian DX-G with automatic transmission
+  size: P195/65R15
+  load_speed: 89H
+  src:
+  - ref: NA0808
+    page: 258
+    quote: DX, Canadian DX-G with automatic transmission) Tire Size P195/65R15
+- field: tires
+  years:
+  - 2008
+  - 2008
+  trim: Sedan Canadian DX-G with manual transmission
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: NA0808
+    page: 258
+    quote: Canadian DX-G with manual transmission) Tire Size P195/65R15
+- field: tires
+  years:
+  - 2008
+  - 2008
+  trim: Sedan LX, EX, EX-L
+  size: P205/55R16
+  load_speed: 89H
+  src:
+  - ref: NA0808
+    page: 258
+    quote: LX, EX, EX-L) Tire Size P205/55R16
+- field: tires
+  years:
+  - 2008
+  - 2008
+  trim: Sedan Si
+  size: P215/45R17
+  load_speed: 87V
+  src:
+  - ref: NA0808
+    page: 258
+    quote: Si) Tire Size P215/45R17
+- field: tires
+  years:
+  - 2008
+  - 2008
+  trim: Sedan Optional for Si
+  size: 215/45ZR17
+  load_speed: 91W
+  src:
+  - ref: NA0808
+    page: 258
+    quote: Optional for Si Tire Size 215/45ZR17
+- field: tires
+  years:
+  - 2009
+  - 2009
+  trim: Sedan DX, Canadian DX-G with automatic transmission
+  size: P195/65R15
+  load_speed: 89H
+  src:
+  - ref: NA0909
+    page: 328
+    quote: DX, Canadian DX-G with automatic transmission) Tire Size P195/65R15
+- field: tires
+  years:
+  - 2009
+  - 2009
+  trim: Sedan Canadian DX-G with manual transmission
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: NA0909
+    page: 328
+    quote: Canadian DX-G with manual transmission) Tire Size P195/65R15
+- field: tires
+  years:
+  - 2009
+  - 2009
+  trim: Sedan LX, LX-S, EX, Canadian Sport
+  size: P205/55R16
+  load_speed: 89H
+  src:
+  - ref: NA0909
+    page: 328
+    quote: LX, LX-S, EX, Canadian Sport) Tire Size P205/55R16
+- field: tires
+  years:
+  - 2009
+  - 2009
+  trim: Sedan Si
+  size: P215/45R17
+  load_speed: 87V
+  src:
+  - ref: NA0909
+    page: 328
+    quote: Si) Tire Size P215/45R17
+- field: tires
+  years:
+  - 2009
+  - 2009
+  trim: Sedan Optional for Si
+  size: 215/45ZR17
+  load_speed: 91W
+  src:
+  - ref: NA0909
+    page: 328
+    quote: Optional for Si Tire Size 215/45ZR17
+- field: tires
+  years:
+  - 2010
+  - 2010
+  trim: Sedan DX, Canadian DX-G with automatic transmission
+  size: P195/65R15
+  load_speed: 89H
+  src:
+  - ref: NA1010
+    page: 318
+    quote: DX, Canadian DX-G with automatic transmission) Tire Size P195/65R15
+- field: tires
+  years:
+  - 2010
+  - 2010
+  trim: Sedan Canadian DX-G with manual transmission
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: NA1010
+    page: 318
+    quote: Canadian DX-G with manual transmission) Tire Size P195/65R15
+- field: tires
+  years:
+  - 2010
+  - 2010
+  trim: Sedan LX, LX-S, EX, Canadian Sport
+  size: P205/55R16
+  load_speed: 89H
+  src:
+  - ref: NA1010
+    page: 318
+    quote: LX, LX-S, EX, Canadian Sport) Tire Size P205/55R16
+- field: tires
+  years:
+  - 2010
+  - 2010
+  trim: Sedan Si
+  size: P215/45R17
+  load_speed: 87V
+  src:
+  - ref: NA1010
+    page: 318
+    quote: Si) Tire Size P215/45R17
+- field: tires
+  years:
+  - 2010
+  - 2010
+  trim: Sedan Si
+  size: 215/45ZR17
+  load_speed: 91W
+  src:
+  - ref: NA1010
+    page: 318
+    quote: Si Tire Size 215/45ZR17
+- field: tires
+  years:
+  - 2011
+  - 2011
+  trim: Sedan DX, Canadian DX-G with automatic transmission
+  size: P195/65R15
+  load_speed: 89H
+  src:
+  - ref: NA1111
+    page: 321
+    quote: DX, Canadian DX-G with automatic transmission) Tire Size P195/65R15
+- field: tires
+  years:
+  - 2011
+  - 2011
+  trim: Sedan Canadian DX-G with manual transmission
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: NA1111
+    page: 321
+    quote: Canadian DX-G with manual transmission) Tire Size P195/65R15
+- field: tires
+  years:
+  - 2011
+  - 2011
+  trim: Sedan LX, LX-S, EX, Canadian SE
+  size: P205/55R16
+  load_speed: 89H
+  src:
+  - ref: NA1111
+    page: 321
+    quote: LX, LX-S, EX, Canadian SE) Tire Size P205/55R16
+- field: tires
+  years:
+  - 2011
+  - 2011
+  trim: Sedan Si
+  size: P215/45R17
+  load_speed: 87V
+  src:
+  - ref: NA1111
+    page: 321
+    quote: Si) Tire Size P215/45R17
+- field: tires
+  years:
+  - 2011
+  - 2011
+  trim: Sedan Si
+  size: 215/45ZR17
+  load_speed: 91W
+  src:
+  - ref: NA1111
+    page: 321
+    quote: Si Tire Size 215/45ZR17
+- field: tires
+  years:
+  - 2006
+  - 2006
+  trim: Hybrid
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: NC0606
+    page: 212
+    quote: Tire Size P195/65R15 89S
+- field: tires
+  years:
+  - 2007
+  - 2007
+  trim: Hybrid
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: NC0707
+    page: 211
+    quote: Tire Size P195/65R15 89S
+- field: tires
+  years:
+  - 2008
+  - 2008
+  trim: Hybrid
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: NC0808
+    page: 237
+    quote: Tire Size P195/65R15 89S
+- field: tires
+  years:
+  - 2009
+  - 2009
+  trim: Hybrid
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: NC0909
+    page: 319
+    quote: Tire Size P195/65R15 89S
+- field: tires
+  years:
+  - 2010
+  - 2010
+  trim: Hybrid
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: NC1010
+    page: 307
+    quote: Tire Size P195/65R15 89S
+- field: tires
+  years:
+  - 2011
+  - 2011
+  trim: Hybrid
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: NC1111
+    page: 310
+    quote: Tire Size P195/65R15 89S
+- field: tires
+  years:
+  - 2012
+  - 2012
+  trim: DX and LX models
+  size: P195/65R15
+  load_speed: 89H
+  src:
+  - ref: R01212
+    page: 326
+    quote: P195/65R15 89H*1
+  - ref: R01212
+    page: 326
+    quote: '*1: DX and LX models'
+- field: tires
+  years:
+  - 2012
+  - 2012
+  trim: HF model
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: R01212
+    page: 326
+    quote: P195/65R15 89S*2
+  - ref: R01212
+    page: 326
+    quote: '*2: HF model'
+- field: tires
+  years:
+  - 2012
+  - 2012
+  trim: EX and EX-L models
+  size: P205/55R16
+  load_speed: 89H
+  src:
+  - ref: R01212
+    page: 326
+    quote: P205/55R16 89H*3
+  - ref: R01212
+    page: 326
+    quote: '*3: EX and EX-L models'
+- field: tires
+  years:
+  - 2012
+  - 2012
+  trim: 2.4 L engine models (Si)
+  size: P215/45R17
+  load_speed: 87V
+  src:
+  - ref: R01212
+    page: 286
+    quote: Tire Size P215/45R17 87V
+- field: tires
+  years:
+  - 2014
+  - 2014
+  trim: Canadian DX model / LX model
+  size: P195/65R15
+  load_speed: 89H
+  src:
+  - ref: R0144D
+    page: 447
+    quote: P195/65R15 89H*1, *2
+- field: tires
+  years:
+  - 2014
+  - 2014
+  trim: HF model
+  size: P195/65R15
+  load_speed: 89S
+  src:
+  - ref: R0144D
+    page: 447
+    quote: P195/65R15 89S*3
+- field: tires
+  years:
+  - 2014
+  - 2014
+  trim: EX model
+  size: P205/55R16
+  load_speed: 89H
+  src:
+  - ref: R0144D
+    page: 447
+    quote: P205/55R16 89H*4
+- field: tires
+  years:
+  - 2014
+  - 2014
+  trim: U.S. EX-L and Canadian Touring models
+  size: P215/45R17
+  load_speed: 87V
+  src:
+  - ref: R0144D
+    page: 447
+    quote: P215/45R17 87V*5
+- field: tires
+  years:
+  - 2014
+  - 2014
+  trim: Si (18-inch)
+  size: 225/40R18
+  load_speed: 92V
+  note: 225/40R18 92Y optional for U.S. Si
+  src:
+  - ref: R0144D
+    page: 398
+    quote: Tire Size 225/40R18 92V 225/40R18 92Y*1
+  - ref: R0144D
+    page: 398
+    quote: '*1: Optional for U.S. Si'
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Civic LX/LX-P (Coupe)
+  size: 215/55R16
+  src:
+  - ref: hic2018CivicCoupe
+    quote: Civic LX/LX-P Coupes wear 16-inch alloy wheels with 215/55 R16 all-season tires.
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Civic EX-T/EX-L Coupe
+  size: 215/50R17
+  src:
+  - ref: hic2018CivicCoupe
+    quote: Handsome 17-inch alloys are standard on Civic EX-T/EX-L Coupe models; they’re surrounded by 215/50 R17 all-season
+      tires.
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Civic Touring Coupe
+  size: 215/50R17
+  src:
+  - ref: hic2018CivicCoupe
+    quote: Civic Touring Coupe shows off its own unique 17-inch alloy wheel design, with 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Si Coupe
+  size: 235/40R18
+  src:
+  - ref: hic2018CivicCoupe
+    quote: The Si Coupe trim dazzles with an exclusive 18-inch alloy design and comes standard with 235/40 R18 all-season
+      tires; high-performance, summer-only tires are available LX / LX-P 16-inch Alloy Wheels L
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Civic LX Hatchback
+  size: 215/55R16
+  src:
+  - ref: hic2018CivicHatchback
+    quote: The Civic LX Hatchback comes with its own spin on 16-inch alloys and 215/55 R16 all-season tires.
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Civic EX/EX-L Navi Hatchback
+  size: 215/50R17
+  src:
+  - ref: hic2018CivicHatchback
+    quote: Civic EX/EX-L Navi Hatchback models roll with 17-inch alloys and 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Civic Sport and Sport Touring Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2018CivicHatchback
+    quote: The Civic Sport and Sport Touring Hatchback models make a strong impression with 18-inch alloys and beefy 235/40
+      R18 all-season tires.
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Type R (Hatchback)
+  size: 245/30ZR20
+  src:
+  - ref: hic2018CivicHatchback
+    quote: 'The Type R tops the performance lineup with big 20-inch alloy wheels wrapped in maximum-performance 245/30 ZR20
+      tires; these gummy tires trade stickiness for shorter tread life—a compromise perfectly '
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Civic LX Sedan
+  size: 215/55R16
+  src:
+  - ref: hic2018CivicSedan
+    quote: The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Civic EX Sedan
+  size: 215/55R16
+  src:
+  - ref: hic2018CivicSedan
+    quote: Civic EX Sedan wears 16-inch alloy wheels with 215/55 R16 all-season tires.
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Civic EX-T/EX-L Sedan
+  size: 215/50R17
+  src:
+  - ref: hic2018CivicSedan
+    quote: Handsome 17-inch alloys are standard on Civic EX-T/EX-L Sedan models; they’re surrounded by 215/50 R17 all-season
+      tires.
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Civic Touring Sedan
+  size: 215/50R17
+  src:
+  - ref: hic2018CivicSedan
+    quote: Civic Touring Sedan shows off its own unique 17-inch alloy wheel design, with 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2018
+  - 2018
+  trim: Si Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2018CivicSedan
+    quote: The Si Sedan trim dazzles with its exclusive 18-inch alloy design and comes standard with 235/40 R18 all-season
+      tires; high-performance, summer-only tires are available.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic LX (Coupe)
+  size: 215/55R16
+  src:
+  - ref: hic2019CivicCoupe
+    quote: Civic LX Coupes wear 16-inch alloy wheels with 215/55 R16 all-season tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic Sport Coupe
+  size: 235/40R18
+  src:
+  - ref: hic2019CivicCoupe
+    quote: The Civic Sport Coupe flashes 18-inch alloys and the sporty 235/40 R18 tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic EX Coupe
+  size: 215/50R17
+  src:
+  - ref: hic2019CivicCoupe
+    quote: Handsome 17-inch alloys are standard on Civic EX Coupe models; they’re surrounded by 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic Touring Coupe
+  size: 235/45R18
+  src:
+  - ref: hic2019CivicCoupe
+    quote: Civic Touring Coupe shows off its own unique 18-inch alloy wheel design, with 235/45 R18 all-season tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Si Coupe
+  size: 235/40R18
+  src:
+  - ref: hic2019CivicCoupe
+    quote: The Si Coupe trim dazzles with an exclusive 18-inch alloy design and comes standard with 235/40 R18 all-season
+      tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic LX Hatchback
+  size: 215/55R16
+  src:
+  - ref: hic2019CivicHatchback
+    quote: The Civic LX Hatchback comes with its own spin on 16-inch alloys and 215/55 R16 all-season tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic EX/EX-L Navi Hatchback
+  size: 215/50R17
+  src:
+  - ref: hic2019CivicHatchback
+    quote: Civic EX/EX-L Navi Hatchback models roll with 17-inch alloys and 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic Sport and Sport Touring Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2019CivicHatchback
+    quote: The Civic Sport and Sport Touring Hatchback models make a strong impression with 18-inch alloys and beefy 235/40
+      R18 all-season tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Type R (Hatchback)
+  size: 245/30ZR20
+  src:
+  - ref: hic2019CivicHatchback
+    quote: 'The Type R tops the performance lineup with big 20-inch alloy wheels wrapped in maximum-performance 245/30 ZR20
+      tires; these gummy tires trade stickiness for shorter tread life—a compromise perfectly '
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic LX Sedan
+  size: 215/55R16
+  src:
+  - ref: hic2019CivicSedan
+    quote: The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic Sport Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2019CivicSedan
+    quote: Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic EX/EX-L Sedan
+  size: 215/50R17
+  src:
+  - ref: hic2019CivicSedan
+    quote: Handsome 17-inch alloys are standard on Civic EX/EX-L Sedan models; they’re surrounded by 215/50 R17 all-season
+      tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Civic Touring Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2019CivicSedan
+    quote: Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Si Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2019CivicSedan
+    quote: The Si Sedan trim dazzles with its exclusive 18-inch alloy design and comes standard with 235/40 R18 all-season
+      tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic LX (Coupe)
+  size: 215/55R16
+  src:
+  - ref: hic2020CivicCoupe
+    quote: Civic LX Coupes wear 16-inch alloy wheels with 215/55 R16 all-season tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic Sport Coupe
+  size: 235/40R18
+  src:
+  - ref: hic2020CivicCoupe
+    quote: The Civic Sport Coupe flashes 18-inch alloys and the sporty 235/40 R18 tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic EX Coupe
+  size: 215/50R17
+  src:
+  - ref: hic2020CivicCoupe
+    quote: Handsome 17-inch alloys are standard on Civic EX Coupe models; they’re surrounded by 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic Touring Coupe
+  size: 235/45R18
+  src:
+  - ref: hic2020CivicCoupe
+    quote: Civic Touring Coupe shows off its own unique 18-inch alloy wheel design, with 235/45 R18 all-season tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic LX Hatchback
+  size: 215/55R16
+  src:
+  - ref: hic2020CivicHatchback
+    quote: The Civic LX Hatchback comes with its own spin on 16-inch alloys and 215/55 R16 all-season tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic EX/EX-L Hatchback
+  size: 215/50R17
+  src:
+  - ref: hic2020CivicHatchback
+    quote: Civic EX/EX-L Hatchback models roll with 17-inch alloys and 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic Sport and Sport Touring Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2020CivicHatchback
+    quote: The Civic Sport and Sport Touring Hatchback models make a strong impression with 18-inch alloys and beefy 235/40
+      R18 all-season tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic LX Sedan
+  size: 215/55R16
+  src:
+  - ref: hic2020CivicSedan
+    quote: The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic Sport Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2020CivicSedan
+    quote: Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic EX/EX-L Sedan
+  size: 215/50R17
+  src:
+  - ref: hic2020CivicSedan
+    quote: Handsome 17-inch alloys are standard on Civic EX/EX-L Sedan models; they’re surrounded by 215/50 R17 all-season
+      tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic Touring Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2020CivicSedan
+    quote: Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic Si Coupe
+  size: 235/40R18
+  src:
+  - ref: hic2020CivicSiCoupe
+    quote: 'The Feature: The Civic Si Coupe dazzles with its exclusive 18-inch alloy design and comes standard with 235/40
+      R18 all-season tires.'
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Civic Si Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2020CivicSiSedan
+    quote: 'The Feature: The Civic Si Sedan dazzles with its exclusive 18-inch alloy design and comes standard with 235/40
+      R18 all-season tires.'
+- field: tires
+  years:
+  - 2020
+  - 2020
+  trim: Type R
+  size: 245/30ZR20
+  src:
+  - ref: hic2020CivicTypeR
+    quote: The Type R tops the performance lineup with big 20-inch alloy wheels wrapped in super-sticky maximum-performance
+      245/30 ZR20 tires.
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Civic LX Hatchback
+  size: 215/55R16
+  src:
+  - ref: hic2021CivicHatchback
+    quote: The Civic LX Hatchback comes with its own spin on 16-inch alloys and 215/55 R16 all-season tires.
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Civic EX Hatchback
+  size: 215/50R17
+  src:
+  - ref: hic2021CivicHatchback
+    quote: Civic EX Hatchback models roll with 17-inch alloys and 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Civic Sport and Sport Touring Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2021CivicHatchback
+    quote: The Civic Sport and Sport Touring Hatchback models make a strong impression with 18-inch alloys and beefy 235/40
+      R18 all-season tires.
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Civic LX Sedan
+  size: 215/55R16
+  src:
+  - ref: hic2021CivicSedan
+    quote: The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Civic Sport Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2021CivicSedan
+    quote: Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Civic EX/EX-L Sedan
+  size: 215/50R17
+  src:
+  - ref: hic2021CivicSedan
+    quote: Handsome 17-inch alloys are standard on Civic EX/EX-L Sedan models; they’re surrounded by 215/50 R17 all-season
+      tires.
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Civic Touring Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2021CivicSedan
+    quote: Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Type R Touring
+  size: 245/30ZR20
+  src:
+  - ref: hic2021CivicTypeR
+    quote: The Type R Touring shows off big 20-inch alloy wheels wrapped in super-sticky maximum-performance 245/30 ZR20 tires
+      </strong> <h3>High-Performance Summer Tires</h3> <p> <span>High-performance summer t
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Civic LX Hatchback
+  size: 215/55R16
+  src:
+  - ref: hic2022CivicHatchback
+    quote: The Civic LX Hatchback is fitted with 16-inch alloy wheels; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Civic Sport Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2022CivicHatchback
+    quote: The Civic Sport Hatchback wears 18-inch alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Civic Hatchback
+  size: 215/50R17
+  src:
+  - ref: hic2022CivicHatchback
+    quote: Handsome 17-inch alloys are standard on the Civic EX-L Hatchback ; they’re surrounded by 215/50 R17 all-season
+      tires.
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Civic Sport Touring Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2022CivicHatchback
+    quote: Civic Sport Touring Hatchback shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Civic LX Sedan
+  size: 215/55R16
+  src:
+  - ref: hic2022CivicSedan
+    quote: The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Civic Sport Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2022CivicSedan
+    quote: Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Civic EX Sedan
+  size: 215/50R17
+  src:
+  - ref: hic2022CivicSedan
+    quote: Handsome 17-inch alloys are standard on Civic EX Sedan models; they’re surrounded by 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Civic Touring Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2022CivicSedan
+    quote: Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Civic Si
+  size: 235/40R18
+  src:
+  - ref: hic2022CivicSi
+    quote: 'The Feature: The Civic Si shows off aggressive 18-inch matte black alloy wheels with 235/40 R18 all-season tires.'
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Civic LX Hatchback
+  size: 215/55R16
+  src:
+  - ref: hic2023CivicHatchback
+    quote: The Civic LX Hatchback is fitted with 16-inch alloy wheels; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Civic Sport Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2023CivicHatchback
+    quote: The Civic Sport Hatchback wears 18-inch alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Civic Hatchback
+  size: 215/50R17
+  src:
+  - ref: hic2023CivicHatchback
+    quote: Handsome 17-inch alloys are standard on the Civic EX-L Hatchback ; they’re surrounded by 215/50 R17 all-season
+      tires.
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Civic Sport Touring Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2023CivicHatchback
+    quote: Civic Sport Touring Hatchback shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Civic LX Sedan
+  size: 215/55R16
+  src:
+  - ref: hic2023CivicSedan
+    quote: The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Civic Sport Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2023CivicSedan
+    quote: Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Civic EX Sedan
+  size: 215/50R17
+  src:
+  - ref: hic2023CivicSedan
+    quote: Handsome 17-inch alloys are standard on Civic EX Sedan models; they’re surrounded by 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Civic Touring Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2023CivicSedan
+    quote: Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Civic Si
+  size: 235/40R18
+  src:
+  - ref: hic2023CivicSi
+    quote: 'The Feature: The Civic Si shows off aggressive 18-inch matte black alloy wheels with 235/40 R18 all-season tires.'
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Civic Type R
+  size: 265/30ZR19
+  src:
+  - ref: hic2023CivicTypeR
+    quote: The Civic Type R shows off 19-inch alloy wheels wrapped in super-sticky maximum-performance 265/30 ZR19 Michelin
+      Pilot Sport 4S tires </strong> <h3>High-Performance Summer Tires</h3> <p> <span>High-pe
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Civic LX Hatchback
+  size: 215/55R16
+  src:
+  - ref: hic2024CivicHatchback
+    quote: The Civic LX Hatchback is fitted with 16-inch alloy wheels; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Civic Sport Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2024CivicHatchback
+    quote: The Civic Sport Hatchback wears 18-inch alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Civic Hatchback
+  size: 215/50R17
+  src:
+  - ref: hic2024CivicHatchback
+    quote: Handsome 17-inch alloys are standard on the Civic EX-L Hatchback ; they’re surrounded by 215/50 R17 all-season
+      tires.
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Civic Sport Touring Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2024CivicHatchback
+    quote: Civic Sport Touring Hatchback shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Civic LX Sedan
+  size: 215/55R16
+  src:
+  - ref: hic2024CivicSedan
+    quote: The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Civic Sport Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2024CivicSedan
+    quote: Civic Sport Sedan wears 18-inch alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Civic EX Sedan
+  size: 215/50R17
+  src:
+  - ref: hic2024CivicSedan
+    quote: Handsome 17-inch alloys are standard on Civic EX Sedan models; they’re surrounded by 215/50 R17 all-season tires.
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Civic Touring Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2024CivicSedan
+    quote: Civic Touring Sedan shows off its own unique 18-inch alloy wheel design, with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Civic Si
+  size: 235/40R18
+  src:
+  - ref: hic2024CivicSi
+    quote: 'The Feature: The Civic Si shows off aggressive 18-inch matte black alloy wheels with 235/40 R18 all-season tires.'
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Civic Type R
+  size: 265/30ZR19
+  src:
+  - ref: hic2024CivicTypeR
+    quote: The Civic Type R shows off 19-inch alloy wheels wrapped in super-sticky maximum-performance 265/30 ZR19 Michelin
+      Pilot Sport 4S tires </strong> <h3>High-Performance Summer Tires</h3> <p> <span>High-pe
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Civic Sport Hatchback and Sport Hybrid Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2025CivicHatchback
+    quote: The Civic Sport Hatchback and Sport Hybrid Hatchback wear 18-inch gloss black alloy wheels with 235/40 R18 all-season
+      tires.
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Civic Sport Touring Hybrid Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2025CivicHatchback
+    quote: Civic Sport Touring Hybrid Hatchback shows off its own unique machine-finished 18-inch alloy wheel design, with
+      235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Civic LX Sedan
+  size: 215/55R16
+  src:
+  - ref: hic2025CivicSedan
+    quote: The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Civic Sport Sedan and Sport Hybrid Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2025CivicSedan
+    quote: Civic Sport Sedan and Sport Hybrid Sedan wear 18-inch gloss black alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Civic Sport Touring Hybrid Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2025CivicSedan
+    quote: Civic Sport Touring Hybrid Sedan shows off its own unique 18-inch machine-finished alloy-wheel design, with 235/40
+      R18 all-season tires.
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Civic Si
+  size: 235/40R18
+  src:
+  - ref: hic2025CivicSi
+    quote: 'The Feature: The Civic Si shows off aggressive 18-inch matte black alloy wheels with 235/40 R18 all-season tires.'
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Civic Type R
+  size: 265/30ZR19
+  src:
+  - ref: hic2025CivicTypeR
+    quote: The Civic Type R shows off 19-inch alloy wheels wrapped in super-sticky maximum-performance 265/30 ZR19 Michelin
+      Pilot Sport 4S tires </strong> <h3>High-Performance Summer Tires</h3> <p> <span>High-pe
+- field: tires
+  years:
+  - 2026
+  - 2026
+  trim: Civic Sport Hatchback and Sport Hybrid Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2026CivicHatchback
+    quote: The Civic Sport Hatchback and Sport Hybrid Hatchback wear 18-inch gloss black alloy wheels with 235/40 R18 all-season
+      tires.
+- field: tires
+  years:
+  - 2026
+  - 2026
+  trim: Civic Sport Touring Hybrid Hatchback
+  size: 235/40R18
+  src:
+  - ref: hic2026CivicHatchback
+    quote: Civic Sport Touring Hybrid Hatchback shows off its own unique machine-finished 18-inch alloy wheel design, with
+      235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2026
+  - 2026
+  trim: Civic LX Sedan
+  size: 215/55R16
+  src:
+  - ref: hic2026CivicSedan
+    quote: The Civic LX Sedan is fitted with 16-inch steel wheels and wheel covers; its tires are 215/55 R16 all-season.
+- field: tires
+  years:
+  - 2026
+  - 2026
+  trim: Civic Sport Sedan and Sport Hybrid Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2026CivicSedan
+    quote: Civic Sport Sedan and Sport Hybrid Sedan wear 18-inch gloss black alloy wheels with 235/40 R18 all-season tires.
+- field: tires
+  years:
+  - 2026
+  - 2026
+  trim: Civic Sport Touring Hybrid Sedan
+  size: 235/40R18
+  src:
+  - ref: hic2026CivicSedan
+    quote: Civic Sport Touring Hybrid Sedan shows off its own unique 18-inch machine-finished alloy-wheel design, with 235/40
+      R18 all-season tires.
+- field: tires
+  years:
+  - 2026
+  - 2026
+  trim: Civic Si
+  size: 235/40R18
+  src:
+  - ref: hic2026CivicSi
+    quote: 'The Feature: The Civic Si shows off aggressive 18-inch matte black alloy wheels with 235/40 R18 all-season tires.'
+- field: wipers
+  years:
+  - 2006
+  - 2006
+  driver_in: 25.6
+  passenger_in: 22.6
+  body: 4-door
+  note: '4-door blades 650/575 mm; 2-door: driver 700 mm, passenger 625 mm'
+  src:
+  - ref: hpn2006
+    quote: '2006 Honda Civic Blade, Windshield Wiper (650MM) (Driver Side) Part Number: 76620-SNE-A01'
+  - ref: hpn2006
+    quote: '2006 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNE-A01'
+  - ref: hpn2006
+    quote: '2006 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03'
+  - ref: hpn2006
+    quote: '2006 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04'
+- field: wipers
+  years:
+  - 2007
+  - 2007
+  driver_in: 25.6
+  passenger_in: 22.6
+  body: 4-door
+  note: '4-door blades 650/575 mm; 2-door: driver 700 mm, passenger 625 mm'
+  src:
+  - ref: hpn2007
+    quote: '2007 Honda Civic Blade, Windshield Wiper (650MM) (Driver Side) Part Number: 76620-SNE-A01'
+  - ref: hpn2007
+    quote: '2007 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNE-A01'
+  - ref: hpn2007
+    quote: '2007 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03'
+  - ref: hpn2007
+    quote: '2007 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04'
+- field: wipers
+  years:
+  - 2008
+  - 2008
+  driver_in: 25.6
+  passenger_in: 22.6
+  body: 4-door
+  note: '4-door blades 650/575 mm; 2-door: driver 700 mm, passenger 625 mm'
+  src:
+  - ref: hpn2008
+    quote: '2008 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-SNA-A12'
+  - ref: hpn2008
+    quote: '2008 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNA-A11'
+  - ref: hpn2008
+    quote: '2008 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03'
+  - ref: hpn2008
+    quote: '2008 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04'
+- field: wipers
+  years:
+  - 2009
+  - 2009
+  driver_in: 25.6
+  passenger_in: 22.6
+  body: 4-door
+  note: '4-door blades 650/575 mm; 2-door: driver 700 mm, passenger 625 mm'
+  src:
+  - ref: hpn2009
+    quote: '2009 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-SNA-A12'
+  - ref: hpn2009
+    quote: '2009 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNA-A11'
+  - ref: hpn2009
+    quote: '2009 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03'
+  - ref: hpn2009
+    quote: '2009 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04'
+- field: wipers
+  years:
+  - 2010
+  - 2010
+  driver_in: 25.6
+  passenger_in: 22.6
+  body: 4-door
+  note: '4-door blades 650/575 mm; 2-door: driver 700 mm, passenger 625 mm'
+  src:
+  - ref: hpn2010
+    quote: '2010 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-SNA-A12'
+  - ref: hpn2010
+    quote: '2010 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNA-A11'
+  - ref: hpn2010
+    quote: '2010 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03'
+  - ref: hpn2010
+    quote: '2010 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04'
+- field: wipers
+  years:
+  - 2011
+  - 2011
+  driver_in: 25.6
+  passenger_in: 22.6
+  body: 4-door
+  note: '4-door blades 650/575 mm; 2-door: driver 700 mm, passenger 625 mm'
+  src:
+  - ref: hpn2011
+    quote: '2011 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-SNA-A12'
+  - ref: hpn2011
+    quote: '2011 Honda Civic Blade, Windshield Wiper (575MM) (Passenger Side) Part Number: 76630-SNA-A11'
+  - ref: hpn2011
+    quote: '2011 Honda Civic Blade, Windshield Wiper (700MM) (Driver Side) Part Number: 76620-SVA-A03'
+  - ref: hpn2011
+    quote: '2011 Honda Civic Blade, Windshield Wiper (625MM) (Passenger Side) Part Number: 76630-SVA-A04'
+- field: wipers
+  years:
+  - 2012
+  - 2012
+  driver_in: 25.6
+  passenger_in: 22.6
+  body: 4-door
+  note: '4-door blades 650/575 mm; 2-door: driver 700 mm, passenger 600 mm'
+  src:
+  - ref: hpn2012
+    quote: '2012 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-TR0-A02'
+  - ref: hpn2012
+    quote: '2012 Honda Civic Blade, Windshield Wiper (575Mm) Part Number: 76630-TR0-A02'
+  - ref: hpn2012
+    quote: '2012 Honda Civic Blade, Windshield Wiper (700Mm) Part Number: 76620-TR0-G12'
+  - ref: hpn2012
+    quote: '2012 Honda Civic Blade, Windshield Wiper (600Mm) Part Number: 76630-TS8-A02'
+- field: wipers
+  years:
+  - 2013
+  - 2013
+  driver_in: 25.6
+  passenger_in: 22.6
+  body: 4-door
+  note: '4-door blades 650/575 mm; 2-door: driver 700 mm, passenger 600 mm; 4-door Hybrid listed with the 700 mm driver blade'
+  src:
+  - ref: hpn2013
+    quote: '2013 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-TR0-A02'
+  - ref: hpn2013
+    quote: '2013 Honda Civic Blade, Windshield Wiper (575Mm) Part Number: 76630-TR0-A02'
+  - ref: hpn2013
+    quote: '2013 Honda Civic Blade, Windshield Wiper (700Mm) Part Number: 76620-TR0-G12'
+  - ref: hpn2013
+    quote: '2013 Honda Civic Blade, Windshield Wiper (600Mm) Part Number: 76630-TS8-A02'
+- field: wipers
+  years:
+  - 2014
+  - 2014
+  driver_in: 25.6
+  passenger_in: 22.6
+  body: 4-door
+  note: '4-door blades 650/575 mm; 2-door: driver 700 mm, passenger 600 mm; 4-door Hybrid listed with the 700 mm driver blade'
+  src:
+  - ref: hpn2014
+    quote: '2014 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-TR0-A02'
+  - ref: hpn2014
+    quote: '2014 Honda Civic Blade, Windshield Wiper (575Mm) Part Number: 76630-TR0-A02'
+  - ref: hpn2014
+    quote: '2014 Honda Civic Blade, Windshield Wiper (700Mm) Part Number: 76620-TR0-G12'
+  - ref: hpn2014
+    quote: '2014 Honda Civic Blade, Windshield Wiper (600Mm) Part Number: 76630-TS8-A02'
+- field: wipers
+  years:
+  - 2015
+  - 2015
+  driver_in: 25.6
+  passenger_in: 22.6
+  body: 4-door
+  note: '4-door blades 650/575 mm; 2-door: driver 700 mm, passenger 600 mm; 4-door Hybrid listed with the 700 mm driver blade'
+  src:
+  - ref: hpn2015
+    quote: '2015 Honda Civic Blade, Windshield Wiper (650Mm) Part Number: 76620-TR0-A02'
+  - ref: hpn2015
+    quote: '2015 Honda Civic Blade, Windshield Wiper (575Mm) Part Number: 76630-TR0-A02'
+  - ref: hpn2015
+    quote: '2015 Honda Civic Blade, Windshield Wiper (700Mm) Part Number: 76620-TR0-G12'
+  - ref: hpn2015
+    quote: '2015 Honda Civic Blade, Windshield Wiper (600Mm) Part Number: 76630-TS8-A02'
 - field: wipers
   years:
   - 2022
   - 2022
-  driver_in: 24
-  passenger_in: 19
+  driver_in: 23.6
+  passenger_in: 18.7
+  rear_in: 11.8
+  note: 4-door/5-door front blades 600/475 mm; rear 300 mm on 5-door. Positions follow Honda's part families (76620 driver,
+    76630 passenger, 76730 rear); the catalog lists no position for these.
   src:
-  - ref: rainx2022
-    quote: 'Position: Driver Length (in.): 24"'
-  - ref: rainx2022
-    quote: 'Position: Passenger Length (in.): 19"'
+  - ref: hpn2022
+    quote: '2022 Honda Civic BLADE, WSW (600MM) Part Number: 76620-T20-A01'
+  - ref: hpn2022
+    quote: '2022 Honda Civic BLADE, WSW (475MM) Part Number: 76630-T20-A01'
+  - ref: hpn2022
+    quote: '2022 Honda Civic BLADE, WSW (300MM) Part Number: 76730-T43-003'
+- field: wipers
+  years:
+  - 2023
+  - 2023
+  driver_in: 23.6
+  passenger_in: 18.7
+  rear_in: 11.8
+  note: 4-door/5-door front blades 600/475 mm; rear 300 mm on 5-door. Positions follow Honda's part families (76620 driver,
+    76630 passenger, 76730 rear); the catalog lists no position for these.
+  src:
+  - ref: hpn2023
+    quote: '2023 Honda Civic BLADE, WSW (600MM) Part Number: 76620-T20-A01'
+  - ref: hpn2023
+    quote: '2023 Honda Civic BLADE, WSW (475MM) Part Number: 76630-T20-A01'
+  - ref: hpn2023
+    quote: '2023 Honda Civic BLADE, WSW (300MM) Part Number: 76730-T43-003'
 - field: wipers
   years:
   - 2024
   - 2024
-  driver_in: 24
-  passenger_in: 19
+  driver_in: 23.6
+  passenger_in: 18.7
+  rear_in: 11.8
+  note: 4-door/5-door front blades 600/475 mm; rear 300 mm on 5-door. Positions follow Honda's part families (76620 driver,
+    76630 passenger, 76730 rear); the catalog lists no position for these.
   src:
-  - ref: rainx2024
-    quote: 'Position: Driver Length (in.): 24"'
-  - ref: rainx2024
-    quote: 'Position: Passenger Length (in.): 19"'
+  - ref: hpn2024
+    quote: '2024 Honda Civic BLADE, WSW (600MM) Part Number: 76620-T20-A01'
+  - ref: hpn2024
+    quote: '2024 Honda Civic BLADE, WSW (475MM) Part Number: 76630-T20-A01'
+  - ref: hpn2024
+    quote: '2024 Honda Civic BLADE, WSW (300MM) Part Number: 76730-T43-003'
 - field: wipers
   years:
   - 2025
   - 2025
-  driver_in: 24
-  passenger_in: 19
+  driver_in: 23.6
+  passenger_in: 18.7
+  rear_in: 11.8
+  note: 4-door/5-door front blades 600/475 mm; rear 300 mm on 5-door. Positions follow Honda's part families (76620 driver,
+    76630 passenger, 76730 rear); the catalog lists no position for these.
   src:
-  - ref: rainx2025
-    quote: 'Position: Driver Length (in.): 24"'
-  - ref: rainx2025
-    quote: 'Position: Passenger Length (in.): 19"'
+  - ref: hpn2025
+    quote: '2025 Honda Civic BLADE, WSW (600MM) Part Number: 76620-T20-A01'
+  - ref: hpn2025
+    quote: '2025 Honda Civic BLADE, WSW (475MM) Part Number: 76630-T20-A01'
+  - ref: hpn2025
+    quote: '2025 Honda Civic BLADE, WSW (300MM) Part Number: 76730-T43-003'
 - field: wipers
   years:
   - 2026
   - 2026
-  driver_in: 24
-  passenger_in: 19
+  driver_in: 23.6
+  passenger_in: 18.7
+  rear_in: 11.8
+  note: 4-door/5-door front blades 600/475 mm; rear 300 mm on 5-door. Positions follow Honda's part families (76620 driver,
+    76630 passenger, 76730 rear); the catalog lists no position for these.
   src:
-  - ref: rainx2026
-    quote: 'Position: Driver Length (in.): 24"'
-  - ref: rainx2026
-    quote: 'Position: Passenger Length (in.): 19"'
+  - ref: hpn2026
+    quote: '2026 Honda Civic BLADE, WSW (600MM) Part Number: 76620-T20-A01'
+  - ref: hpn2026
+    quote: '2026 Honda Civic BLADE, WSW (475MM) Part Number: 76630-T20-A01'
+  - ref: hpn2026
+    quote: '2026 Honda Civic BLADE, WSW (300MM) Part Number: 76730-T43-003'
+- field: towing
+  years:
+  - 2006
+  - 2006
+  trim: Coupe
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: NA0606
+    page: 209
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2007
+  - 2007
+  trim: Coupe
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: NA0707
+    page: 211
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2008
+  - 2008
+  trim: Sedan
+  max_lb: 1000
+  note: total trailer weight
+  src:
+  - ref: NA0808
+    page: 218
+    quote: must not exceed 1,000 lbs (450 kg)
+- field: towing
+  years:
+  - 2009
+  - 2009
+  trim: Sedan
+  max_lb: 1000
+  note: total trailer weight
+  src:
+  - ref: NA0909
+    page: 286
+    quote: must not exceed 1,000 lbs (450 kg)
+- field: towing
+  years:
+  - 2010
+  - 2010
+  trim: Sedan
+  max_lb: 1000
+  note: total trailer weight
+  src:
+  - ref: NA1010
+    page: 276
+    quote: must not exceed 1,000 lbs (450 kg)
+- field: towing
+  years:
+  - 2011
+  - 2011
+  trim: Sedan
+  max_lb: 1000
+  note: total trailer weight
+  src:
+  - ref: NA1111
+    page: 279
+    quote: must not exceed 1,000 lbs (450 kg)
+- field: towing
+  years:
+  - 2006
+  - 2006
+  trim: Hybrid
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: NC0606
+    page: 179
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2007
+  - 2007
+  trim: Hybrid
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: NC0707
+    page: 178
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2008
+  - 2008
+  trim: Hybrid
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: NC0808
+    page: 204
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2009
+  - 2009
+  trim: Hybrid
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: NC0909
+    page: 284
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2010
+  - 2010
+  trim: Hybrid
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: NC1010
+    page: 277
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2011
+  - 2011
+  trim: Hybrid
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: NC1111
+    page: 280
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2012
+  - 2012
+  trim: Sedan except HF
+  max_lb: 1000
+  note: total trailer weight
+  src:
+  - ref: R01212
+    page: 208
+    quote: must not exceed 1,000 lbs (450 kg)
+- field: towing
+  years:
+  - 2012
+  - 2012
+  trim: HF
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: R01212
+    page: 208
+    quote: HF model Your vehicle is not designed to tow a trailer
+- field: towing
+  years:
+  - 2014
+  - 2014
+  trim: Sedan except HF
+  max_lb: 1000
+  note: total trailer weight
+  src:
+  - ref: R0144D
+    page: 311
+    quote: must not exceed 1,000 lbs (450 kg)
+- field: towing
+  years:
+  - 2014
+  - 2014
+  trim: HF
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: R0144D
+    page: 311
+    quote: HF model Your vehicle is not designed to tow a trailer
+- field: towing
+  years:
+  - 2022
+  - 2022
+  trim: Sedan
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: AT2022
+    page: 457
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2022
+  - 2022
+  trim: Hatchback
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: AT4022
+    page: 449
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2017
+  - 2017
+  trim: Sedan
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATBA17
+    page: 425
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2018
+  - 2018
+  trim: Sedan
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATBA18
+    page: 427
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2019
+  - 2019
+  trim: Sedan
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATBA19
+    page: 435
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2020
+  - 2020
+  trim: Sedan
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATBA20
+    page: 435
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2021
+  - 2021
+  trim: Sedan
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATBA21
+    page: 423
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2017
+  - 2017
+  trim: Hatchback
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATGG17
+    page: 436
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2018
+  - 2018
+  trim: Hatchback
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATGG18
+    page: 450
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2019
+  - 2019
+  trim: Hatchback
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATGG19
+    page: 446
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2020
+  - 2020
+  trim: Hatchback
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATGG20
+    page: 448
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2021
+  - 2021
+  trim: Hatchback
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATGG21
+    page: 452
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2017
+  - 2017
+  trim: Coupe
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATBG17
+    page: 413
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2018
+  - 2018
+  trim: Coupe
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATBG18
+    page: 413
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2019
+  - 2019
+  trim: Coupe
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATBG19
+    page: 433
+    quote: not designed to tow a trailer
+- field: towing
+  years:
+  - 2020
+  - 2020
+  trim: Coupe
+  max_lb: 0
+  note: not designed to tow a trailer
+  src:
+  - ref: ATBG20
+    page: 433
+    quote: not designed to tow a trailer

@@ -3,7 +3,7 @@
   "model": "F-150",
   "slug": "ford/f-150",
   "body": "pickup",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "generations": [
     {
       "name": "11th generation",
@@ -54,10 +54,12 @@
     "manuals": {
       "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
       "file": "data/manuals/ford/f-150.yaml",
-      "documents": 43,
+      "documents": 73,
       "document_types": [
         "aftermarket_fitment",
-        "oem_towing_guide"
+        "oem_spec_sheet",
+        "oem_towing_guide",
+        "third_party_reference"
       ]
     },
     "nhtsa": {
@@ -301,7 +303,120 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "LT245/70R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2005-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 50 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "FX4 King Ranch Lariat 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2005-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 45 psi 50 psi FX4 King Ranch Lariat 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/70R17",
+          "trim": "XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2005-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/70R17 38 psi 38 psi XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/75R17",
+          "trim": "XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2005-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R17 35 psi 35 psi XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/65R17",
+          "trim": "STX 4x2 XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2005-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/70R17",
+          "trim": "FX4 STX 4x4 XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2005-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/70R17 35 psi 35 psi FX4 STX 4x4 XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "trim": "Lariat 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2005-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/60R18 35 psi 35 psi Lariat 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/65R18",
+          "trim": "FX4 King Ranch Lariat 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2005-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/65R18 35 psi 35 psi FX4 King Ranch Lariat 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 20,
@@ -325,7 +440,65 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 4.2,
+            "engine": "4.2L V6",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 4.2L V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-4.2.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.6,
+            "engine": "4.6L V8",
+            "grade": "5W-20",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (4.6L) SAE 5W-20 full synthetic engine oil 6 U.S. quarts w/ filter change",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.4,
+            "engine": "5.4L V8",
+            "grade": "5W-20",
+            "capacity_qt": 7.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "7 U.S. quarts w/ filter change (2004+ model years)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (5.4L) SAE 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -1139,7 +1312,148 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "LT245/70R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2006-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 50 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "FX4 Lariat 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2006-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 45 psi 50 psi FX4 Lariat 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/70R17",
+          "trim": "XL 4x2 XLT 4x2 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2006-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/70R17 38 psi 38 psi XL 4x2 XLT 4x2 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/75R17",
+          "trim": "XL 4x4 XLT 4x4 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2006-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R17 35 psi 35 psi XL 4x4 XLT 4x4 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/65R17",
+          "trim": "STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2006-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/70R17",
+          "trim": "STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2006-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/70R17 35 psi 35 psi STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "trim": "King Ranch 4x2 Lariat 4x2 XLT 4x2 (18 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2006-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2 (18 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Harley-Davidson Edition",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2006-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Harley-Davidson Edition",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2006-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/65R18",
+          "trim": "FX4 King Ranch 4x4 Lariat 4x4 XLT 4x4 (18 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2006-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 XLT 4x4 (18 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 20,
@@ -1163,7 +1477,65 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 4.2,
+            "engine": "4.2L V6",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 4.2L V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-4.2.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.6,
+            "engine": "4.6L V8",
+            "grade": "5W-20",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (4.6L) SAE 5W-20 full synthetic engine oil 6 U.S. quarts w/ filter change",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.4,
+            "engine": "5.4L V8",
+            "grade": "5W-20",
+            "capacity_qt": 7.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "7 U.S. quarts w/ filter change (2004+ model years)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (5.4L) SAE 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -2022,7 +2394,148 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "LT245/70R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2007-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 50 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "FX4 Lariat 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2007-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 45 psi 50 psi FX4 Lariat 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/70R17",
+          "trim": "XL 4x2 XLT 4x2 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2007-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/70R17 38 psi 38 psi XL 4x2 XLT 4x2 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/75R17",
+          "trim": "XL 4x4 XLT 4x4 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2007-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R17 35 psi 35 psi XL 4x4 XLT 4x4 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/65R17",
+          "trim": "STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2007-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/70R17",
+          "trim": "STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2007-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/70R17 35 psi 35 psi STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "trim": "FX2 King Ranch 4x2 Lariat 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2007-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/60R18 35 psi 35 psi FX2 King Ranch 4x2 Lariat 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Harley-Davidson Edition",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2007-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Harley-Davidson Edition",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2007-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/65R18",
+          "trim": "FX4 King Ranch 4x4 Lariat 4x4 XLT 4x4 (18 Inch Option) XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2007-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 XLT 4x4 (18 Inch Option) XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 20,
@@ -2046,7 +2559,65 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 4.2,
+            "engine": "4.2L V6",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 4.2L V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-4.2.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.6,
+            "engine": "4.6L V8",
+            "grade": "5W-20",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (4.6L) SAE 5W-20 full synthetic engine oil 6 U.S. quarts w/ filter change",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.4,
+            "engine": "5.4L V8",
+            "grade": "5W-20",
+            "capacity_qt": 7.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "7 U.S. quarts w/ filter change (2004+ model years)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (5.4L) SAE 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -2814,7 +3385,148 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "LT245/70R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2008-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 50 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "FX4 Lariat 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2008-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 45 psi 50 psi FX4 Lariat 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/70R17",
+          "trim": "XL 4x2 XLT 4x2 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2008-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/70R17 38 psi 38 psi XL 4x2 XLT 4x2 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/75R17",
+          "trim": "XL 4x4 XLT 4x4 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2008-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R17 35 psi 35 psi XL 4x4 XLT 4x4 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/65R17",
+          "trim": "STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2008-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/70R17",
+          "trim": "STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2008-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/70R17 35 psi 35 psi STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "trim": "FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2008-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/60R18 35 psi 35 psi FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Harley-Davidson Edition Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2008-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Harley-Davidson Edition Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) XLT 4x4 (20 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2008-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) XLT 4x4 (20 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/65R18",
+          "trim": "FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option) XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2008-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option) XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -2838,7 +3550,65 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 4.2,
+            "engine": "4.2L V6",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 4.2L V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-4.2.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.6,
+            "engine": "4.6L V8",
+            "grade": "5W-20",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (4.6L) SAE 5W-20 full synthetic engine oil 6 U.S. quarts w/ filter change",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.4,
+            "engine": "5.4L V8",
+            "grade": "5W-20",
+            "capacity_qt": 7.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "7 U.S. quarts w/ filter change (2004+ model years)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (5.4L) SAE 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -3499,7 +4269,148 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "LT245/70R17",
+          "trim": "XL (LT Tire Option) XLT (LT Tire Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2009-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 50 psi 60 psi XL (LT Tire Option) XLT (LT Tire Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT245/75R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2009-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/75R17 55 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "FX4 Lariat 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2009-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 45 psi 50 psi FX4 Lariat 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/70R17",
+          "trim": "XL 4x2 Regular/Super Cab XLT 4x2 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2009-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/70R17 38 psi 38 psi XL 4x2 Regular/Super Cab XLT 4x2 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/75R17",
+          "trim": "XL 4x4 Regular/Super Cab XLT 4x4 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2009-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R17 35 psi 35 psi XL 4x4 Regular/Super Cab XLT 4x4 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/65R17",
+          "trim": "STX 4x2 XL 4x2 Regular/Super Cab XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2009-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 Regular/Super Cab XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/70R17",
+          "trim": "STX 4x4 XL 4x4 Regular/Super Cab XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2009-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/70R17 35 psi 35 psi STX 4x4 XL 4x4 Regular/Super Cab XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "trim": "King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (XLT Chrome Package) XLT 4x2 Super Cab (18 Inch Option) XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2009-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (XLT Chrome Package) XLT 4x2 Super Cab (18 Inch Option) XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) Lariat 4x2 Platinum XLT 4x2 (XLT Chrome Package) XLT 4x2 Super Cab (20 Inch Option) XLT 4x4 ",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2009-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) Lariat 4x2 Platinum XLT 4x2 (XLT Chrome Package) XLT 4x2 Super Cab (20 Inch Option) XLT 4x4 (XLT Chrome Package)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/65R18",
+          "trim": "FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (XLT Chrome Package) XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2009-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (XLT Chrome Package) XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -3523,7 +4434,50 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 4.6,
+            "engine": "4.6L V8",
+            "grade": "5W-20",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (4.6L) SAE 5W-20 full synthetic engine oil 6 U.S. quarts w/ filter change",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.4,
+            "engine": "5.4L V8",
+            "grade": "5W-20",
+            "capacity_qt": 7.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "7 U.S. quarts w/ filter change (2004+ model years)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (5.4L) SAE 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -4144,7 +5098,162 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "LT245/75R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/75R17 55 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "FX4 Lariat 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 45 psi 50 psi FX4 Lariat 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "SVT Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 44 psi 44 psi SVT Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/70R17",
+          "trim": "XL 4x2 XLT 4x2 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/70R17 38 psi 38 psi XL 4x2 XLT 4x2 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/75R17",
+          "trim": "XL 4x4 XLT 4x4 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R17 35 psi 35 psi XL 4x4 XLT 4x4 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/65R17",
+          "trim": "STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "trim": "FX2 4x2 Super Cab FX2 4x2 Super Crew Cab King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 (XLT Chrome Package) XLT 4x2 Super Crew Ca",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/60R18 35 psi 35 psi FX2 4x2 Super Cab FX2 4x2 Super Crew Cab King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 (XLT Chrome Package) XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R17",
+          "trim": "STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Harley-Davidson Edition",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Harley-Davidson Edition",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "FX2 4x2 Super Cab FX2 4x2 Super Crew Cab FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) Lariat 4x2 Platinum XLT 4x2 (XLT Chrome Package) XL",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi FX2 4x2 Super Cab FX2 4x2 Super Crew Cab FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) Lariat 4x2 Platinum XLT 4x2 (XLT Chrome Package) XLT 4x4 (20 Inch Option) XL",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/65R18",
+          "trim": "FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 Super Cab (XLT Chrome Package) XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2010-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 Super Cab (XLT Chrome Package) XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -4168,7 +5277,50 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 4.6,
+            "engine": "4.6L V8",
+            "grade": "5W-20",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (4.6L) SAE 5W-20 full synthetic engine oil 6 U.S. quarts w/ filter change",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.4,
+            "engine": "5.4L V8",
+            "grade": "5W-20",
+            "capacity_qt": 7.0,
+            "src": [
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "7 U.S. quarts w/ filter change (2004+ model years)",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "F150hub: 4.6L/5.4L F-150 maintenance",
+                "url": "https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine oil (5.4L) SAE 5W-20",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -4895,7 +6047,148 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "LT245/75R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2011-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/75R17 55 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "FX4 Lariat 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2011-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 40 psi 40 psi FX4 Lariat 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "SVT Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2011-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 44 psi 44 psi SVT Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/75R17",
+          "trim": "XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2011-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R17 35 psi 35 psi XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/65R17",
+          "trim": "STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2011-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "trim": "FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2011-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/60R18 35 psi 35 psi FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R17",
+          "trim": "STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2011-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Harley-Davidson Edition Lariat Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2011-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Harley-Davidson Edition Lariat Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 (20 Inch Option) XLT 4x4 (20 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2011-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 (20 Inch Option) XLT 4x4 (20 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/65R18",
+          "trim": "FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2011-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -4919,7 +6212,55 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.7,
+            "engine": "3.7L V6",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 3.7L V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-3.7.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6 quarts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "capacity_qt": 7.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 6.2L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-6.2.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.0,
+            "engine": "5.0L V8",
+            "capacity_qt": 7.7,
+            "src": [
+              {
+                "doc": "F150hub: Ford 5.0L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-5.0.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 - 2017 7.7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -5783,7 +7124,148 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "LT245/75R17",
+          "trim": "Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2012-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/75R17 55 psi 60 psi Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "FX4 Lariat 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2012-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 40 psi 40 psi FX4 Lariat 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "SVT Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2012-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 44 psi 44 psi SVT Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/75R17",
+          "trim": "XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2012-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R17 35 psi 35 psi XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/65R17",
+          "trim": "STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2012-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "trim": "FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2012-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/60R18 35 psi 35 psi FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R17",
+          "trim": "STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2012-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Harley-Davidson Edition",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2012-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Harley-Davidson Edition",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 (20 Inch Option) XLT 4x4 (20 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2012-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 (20 Inch Option) XLT 4x4 (20 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/65R18",
+          "trim": "FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option)",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2012-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -5807,7 +7289,55 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.7,
+            "engine": "3.7L V6",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 3.7L V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-3.7.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6 quarts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "capacity_qt": 7.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 6.2L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-6.2.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.0,
+            "engine": "5.0L V8",
+            "capacity_qt": 7.7,
+            "src": [
+              {
+                "doc": "F150hub: Ford 5.0L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-5.0.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 - 2017 7.7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -6669,7 +8199,148 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "LT245/75R17",
+          "trim": "Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2013-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/75R17 55 psi 60 psi Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "FX4 Lariat 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2013-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 40 psi 40 psi FX4 Lariat 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "SVT Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2013-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 44 psi 44 psi SVT Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/75R17",
+          "trim": "XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2013-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R17 35 psi 35 psi XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/65R17",
+          "trim": "STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2013-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "trim": "FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2013-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/60R18 35 psi 35 psi FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R17",
+          "trim": "STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2013-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2013-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2013-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/65R18",
+          "trim": "FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2013-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -6693,7 +8364,55 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.7,
+            "engine": "3.7L V6",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 3.7L V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-3.7.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6 quarts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "capacity_qt": 7.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 6.2L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-6.2.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.0,
+            "engine": "5.0L V8",
+            "capacity_qt": 7.7,
+            "src": [
+              {
+                "doc": "F150hub: Ford 5.0L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-5.0.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 - 2017 7.7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -7527,7 +9246,148 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "LT245/75R17",
+          "trim": "King Ranch 4x4 with Off-Road Package Lariat 4x4 with Off-Road Package XL with Heavy Duty Payload Package XLT 4x4 with Off-Road Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2014-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/75R17 40 psi 40 psi King Ranch 4x4 with Off-Road Package Lariat 4x4 with Off-Road Package XL with Heavy Duty Payload Package XLT 4x4 with Off-Road Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "FX4 Super Crew with Super Cab King Ranch 4x4 with Off-Road Package Lariat 4x4 with Off-Road Package XLT 4x4 with Off-Road Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2014-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 40 psi 40 psi FX4 Super Crew with Super Cab King Ranch 4x4 with Off-Road Package Lariat 4x4 with Off-Road Package XLT 4x4 with Off-Road Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "SVT Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2014-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 44 psi 44 psi SVT Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P235/75R17",
+          "trim": "STX 4x2 Regular/Super Cab XL 4x2 XL 4x4 XLT 4x2 Regular Cab XLT 4x2 Super Cab XLT 4x4 Regular/Super Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2014-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R17 35 psi 35 psi STX 4x2 Regular/Super Cab XL 4x2 XL 4x4 XLT 4x2 Regular Cab XLT 4x2 Super Cab XLT 4x4 Regular/Super Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P255/65R17",
+          "trim": "XL 4x2 XLT 4x2 Regular Cab XLT 4x2 Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2014-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/65R17 35 psi 35 psi XL 4x2 XLT 4x2 Regular Cab XLT 4x2 Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/60R18",
+          "trim": "FX2 Super Crew with Super Cab King Ranch 4x2 Lariat 4x2 STX 4x2 Regular/Super Cab STX 4x2 Super Crew Cab XLT 4x2 Super Cab XLT 4x2 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2014-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/60R18 35 psi 35 psi FX2 Super Crew with Super Cab King Ranch 4x2 Lariat 4x2 STX 4x2 Regular/Super Cab STX 4x2 Super Crew Cab XLT 4x2 Super Cab XLT 4x2 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P265/70R17",
+          "trim": "STX 4x4 Regular/Super Cab XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2014-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi STX 4x4 Regular/Super Cab XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2014-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "FX2 Regular Cab FX2 Super Crew with Super Cab FX4 Regular Cab FX4 Super Crew with Super Cab King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platin",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2014-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi FX2 Regular Cab FX2 Super Crew with Super Cab FX4 Regular Cab FX4 Super Crew with Super Cab King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum STX 4x2 Regular/Super",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/65R18",
+          "trim": "FX2 Super Crew with Super Cab FX4 Super Crew with Super Cab King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 STX 4x2 Regular/Super Cab STX 4x4 Regu",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2014-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/65R18 35 psi 35 psi FX2 Super Crew with Super Cab FX4 Super Crew with Super Cab King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 STX 4x2 Regular/Super Cab STX 4x4 Regular/Super Cab STX 4x4 Sup",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -7551,7 +9411,55 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.7,
+            "engine": "3.7L V6",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 3.7L V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-3.7.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6 quarts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "capacity_qt": 7.0,
+            "src": [
+              {
+                "doc": "F150hub: Ford 6.2L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-6.2.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.0,
+            "engine": "5.0L V8",
+            "capacity_qt": 7.7,
+            "src": [
+              {
+                "doc": "F150hub: Ford 5.0L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-5.0.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 - 2017 7.7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -8426,7 +10334,120 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "265/60R18",
+          "trim": "King Ranch 4x2 Lariat 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2015-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2015-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/55R20",
+          "trim": "King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2015-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2015-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT245/70R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2015-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 40 psi 40 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Packa",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2015-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 40 psi 40 psi King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P245/70R17",
+          "trim": "XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2015-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2015-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -8450,7 +10471,40 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 5.0,
+            "engine": "5.0L V8",
+            "capacity_qt": 7.7,
+            "src": [
+              {
+                "doc": "F150hub: Ford 5.0L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-5.0.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 - 2017 7.7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L Ti-VCT V6 (naturally aspirated)",
+            "capacity_qt": 6.3,
+            "src": [
+              {
+                "doc": "F150hub: Ford 3.5L Ti-VCT V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-3.5.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6.3 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -9380,7 +11434,134 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "265/60R18",
+          "trim": "King Ranch 4x2 Lariat 4x2 XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2016-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2016-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/55R20",
+          "trim": "King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2016-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2016-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT245/70R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2016-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 40 psi 40 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Packa",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2016-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 40 psi 40 psi King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P245/70R17",
+          "trim": "XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2016-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2016-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/55R20",
+          "trim": "King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2016-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -9404,7 +11585,40 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 5.0,
+            "engine": "5.0L V8",
+            "capacity_qt": 7.7,
+            "src": [
+              {
+                "doc": "F150hub: Ford 5.0L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-5.0.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 - 2017 7.7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L Ti-VCT V6 (naturally aspirated)",
+            "capacity_qt": 6.3,
+            "src": [
+              {
+                "doc": "F150hub: Ford 3.5L Ti-VCT V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-3.5.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6.3 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -10346,7 +12560,134 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "trim": "XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2017-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "245/70R17 35 psi 35 psi XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "trim": "King Ranch 4x2 Lariat 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2017-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2017-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/55R20",
+          "trim": "King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2017-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "King Ranch 4x4 Lariat 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2017-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT245/70R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2017-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 40 psi 40 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Packa",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2017-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 40 psi 40 psi King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2017-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 38 psi 38 psi Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2017-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -10370,7 +12711,40 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 5.0,
+            "engine": "5.0L V8",
+            "capacity_qt": 7.7,
+            "src": [
+              {
+                "doc": "F150hub: Ford 5.0L V8 specs",
+                "url": "https://www.f150hub.com/specs/ford-5.0.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 - 2017 7.7 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L Ti-VCT V6 (naturally aspirated)",
+            "capacity_qt": 6.3,
+            "src": [
+              {
+                "doc": "F150hub: Ford 3.5L Ti-VCT V6 specs",
+                "url": "https://www.f150hub.com/specs/ford-3.5.html",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "Engine Oil Capacity: 6.3 qts w/ filter",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -11506,7 +13880,134 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "trim": "XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2018-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "245/70R17 35 psi 35 psi XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "trim": "King Ranch 4x2 Lariat 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2018-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2018-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/55R20",
+          "trim": "King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2018-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "King Ranch 4x4 Lariat 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2018-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT245/70R17",
+          "trim": "XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2018-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 40 psi 40 psi XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2018-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 40 psi 40 psi King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2018-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 38 psi 38 psi Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2018-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -12659,7 +15160,134 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "trim": "XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2019-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "245/70R17   XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "trim": "King Ranch 4x2 Lariat 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2019-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2019-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17   XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/55R20",
+          "trim": "King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2019-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "King Ranch 4x4 Lariat 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2019-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT245/70R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2019-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17   XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Packa",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2019-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 40 psi 40 psi King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2019-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 38 psi 38 psi Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2019-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -13721,7 +16349,134 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "trim": "XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2020-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "245/70R17 35 psi 35 psi XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "trim": "King Ranch 4x2 Lariat 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2020-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2020-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/55R20",
+          "trim": "King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2020-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "King Ranch 4x4 Lariat 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2020-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT245/70R17",
+          "trim": "XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2020-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 40 psi 40 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT275/65R18",
+          "trim": "King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Packa",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2020-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 40 psi 40 psi King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2020-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 38 psi 38 psi Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "P275/45R22",
+          "trim": "Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2020-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/45R22 35 psi 35 psi Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -13745,7 +16500,85 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.3,
+            "engine": "3.3L Ti-VCT V6 FFV",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "2020 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2020/specs/2020-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil capacity/grade 6 quarts 6 quarts 8.85 quarts",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L EcoBoost V6",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "2020 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2020/specs/2020-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil capacity/grade 6 quarts 6 quarts 8.85 quarts",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.0,
+            "engine": "5.0L V8",
+            "capacity_qt": 8.85,
+            "src": [
+              {
+                "doc": "2020 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2020/specs/2020-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil capacity/grade 6 quarts 6 quarts 8.85 quarts",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L EcoBoost V6 (incl. High Output)",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "2020 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2020/specs/2020-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil capacity/grade 6 quarts 6.5 quarts 6 quarts",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Power Stroke V6 diesel",
+            "capacity_qt": 6.5,
+            "src": [
+              {
+                "doc": "2020 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2020/specs/2020-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil capacity/grade 6 quarts 6.5 quarts 6 quarts",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -14915,7 +17748,121 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "note": "standard; also OWL all-terrain",
+          "src": [
+            {
+              "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "245/70R17 black side wall (BSW) all-season tires",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT265/70R17C",
+          "note": "standard",
+          "src": [
+            {
+              "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "LT265/70R17C BSW all-terrain tires",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "note": "standard",
+          "src": [
+            {
+              "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "265/60R18 BSW all-season tires",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "note": "standard",
+          "src": [
+            {
+              "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "275/65R18 OWL all-terrain tires",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT265/70R18C",
+          "note": "standard",
+          "src": [
+            {
+              "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "LT265/70R18C OWL all-terrain tires",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/60R20",
+          "note": "optional; also OWL/BSW all-terrain",
+          "src": [
+            {
+              "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "275/60R20 BSW all-season tires",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/50R22",
+          "note": "optional",
+          "src": [
+            {
+              "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "275/50R22 BSW all-season tires",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/70R18",
+          "trim": "Tremor",
+          "note": "optional",
+          "src": [
+            {
+              "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "275/70R18 BSW all-terrain tires, Tremor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -14939,7 +17886,131 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.3,
+            "engine": "3.3-liter Ti-VCT V6 FFV",
+            "grade": "5W-20",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "6 quarts with Filter 6 quarts with Filter 7.75 quarts",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "(5W-20 SAE GF6) (5W-30 SAE GF6) (5W-30 SAE GF6)",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7-liter EcoBoost V6",
+            "grade": "5W-30",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "6 quarts with Filter 6 quarts with Filter 7.75 quarts",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "(5W-20 SAE GF6) (5W-30 SAE GF6) (5W-30 SAE GF6)",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.0,
+            "engine": "5.0-liter Ti-VCT V8",
+            "grade": "5W-30",
+            "capacity_qt": 7.75,
+            "src": [
+              {
+                "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "6 quarts with Filter 6 quarts with Filter 7.75 quarts",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "(5W-20 SAE GF6) (5W-30 SAE GF6) (5W-30 SAE GF6)",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0-liter Power Stroke V6 diesel",
+            "grade": "5W-30",
+            "capacity_qt": 6.5,
+            "src": [
+              {
+                "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "6.5 quarts (5W-30 SAE FA4) 6 quarts with Filter (5W-30 SAE GF6) 6 quarts with Filter (5W-30 SAE GF6)",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5-liter EcoBoost V6",
+            "grade": "5W-30",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "6.5 quarts (5W-30 SAE FA4) 6 quarts with Filter (5W-30 SAE GF6) 6 quarts with Filter (5W-30 SAE GF6)",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5-liter PowerBoost full hybrid V6",
+            "condition": "PowerBoost hybrid",
+            "grade": "5W-30",
+            "capacity_qt": 6.0,
+            "src": [
+              {
+                "doc": "2021 F-150 Technical Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "6.5 quarts (5W-30 SAE FA4) 6 quarts with Filter (5W-30 SAE GF6) 6 quarts with Filter (5W-30 SAE GF6)",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -16307,7 +19378,162 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "trim": "XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "245/70R17 36 psi 36 psi XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "trim": "King Ranch 4x2 Lariat 4x2 XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/60R18 36 psi 36 psi King Ranch 4x2 Lariat 4x2 XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/50R22",
+          "trim": "Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22 35 psi 35 psi Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/60R20",
+          "trim": "King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum 4x2 Platinum 4x4 XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum 4x2 Platinum 4x4 XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/70R18",
+          "trim": "Tremor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/70R18 35 psi 35 psi Tremor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "37x12.50R17",
+          "trim": "Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "37x12.50R17 38 psi 38 psi Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT265/70R17",
+          "trim": "XL with XL Chrome Appearance Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 41 psi 41 psi XL with XL Chrome Appearance Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT265/70R18",
+          "trim": "Lariat with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R18 48 psi 48 psi Lariat with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2022-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 38 psi 38 psi Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -17644,7 +20870,162 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "trim": "XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "245/70R17 36 psi 36 psi XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "trim": "Lariat 4x2 XL 4x2 XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/60R18 36 psi 36 psi Lariat 4x2 XL 4x2 XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/50R22",
+          "trim": "Limited",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22 35 psi 35 psi Limited",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/60R20",
+          "trim": "King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum 4x2 Platinum 4x4 XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum 4x2 Platinum 4x4 XL 4x2 XL 4x4 XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "Lariat 4x4 XL 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/65R18 35 psi 35 psi Lariat 4x4 XL 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/70R18",
+          "trim": "Tremor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/70R18 35 psi 35 psi Tremor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "37x12.50R17",
+          "trim": "Raptor Raptor R",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "37x12.50R17 38 psi 38 psi Raptor Raptor R",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT265/70R17",
+          "trim": "XL with XL Chrome Appearance Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17   XL with XL Chrome Appearance Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT265/70R18",
+          "trim": "Police Responder XL 4x4 XLT 4x4 XLT with Heavy Duty Payload Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R18 48 psi 48 psi Police Responder XL 4x4 XLT 4x4 XLT with Heavy Duty Payload Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2023-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 38 psi 38 psi Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -18745,8 +22126,188 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
-      "battery": {},
+      "tires": [
+        {
+          "size": "LT315/70R17",
+          "trim": "Raptor",
+          "src": [
+            {
+              "doc": "2024 Ford Raptor and Raptor R Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2024/specs/2024-Ford-Raptor-and-Raptor-R-Tech-Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 3,
+              "quote": "LT315/70R17",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "37x12.5R17LT",
+          "trim": "Raptor R (optional on Raptor)",
+          "src": [
+            {
+              "doc": "2024 Ford Raptor and Raptor R Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2024/specs/2024-Ford-Raptor-and-Raptor-R-Tech-Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 3,
+              "quote": "37x12.5R17LT BFGoodrich All-Terrain T/A KO2 Tires",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "245/70R17",
+          "trim": "XL 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2024-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "245/70R17   XL 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "trim": "XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2024-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/60R18   XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2024-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17   XL 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/50R22",
+          "trim": "King Ranch Lariat Platinum",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2024-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22   King Ranch Lariat Platinum",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/60R20",
+          "trim": "King Ranch Lariat Platinum STX 4x2 STX 4x4 XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2024-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20   King Ranch Lariat Platinum STX 4x2 STX 4x4 XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2024-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/65R18   XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/70R18",
+          "trim": "Tremor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2024-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/70R18   Tremor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT265/70R18",
+          "trim": "Police Responder STX FX4 Off-Road Package XLT FX4 Off-Road Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2024-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R18   Police Responder STX FX4 Off-Road Package XLT FX4 Off-Road Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L EcoBoost High-Output (Raptor)",
+            "trim": "Raptor / Raptor R",
+            "group": "H7",
+            "cca": 800,
+            "note": "AGM, 80 Ah; H7 = BCI group 94R",
+            "src": [
+              {
+                "doc": "2024 Ford Raptor and Raptor R Tech Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2024/specs/2024-Ford-Raptor-and-Raptor-R-Tech-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Battery group, CCA H7 AGM 80AH 800CCA",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.2,
+            "engine": "5.2L Supercharged V8 (Raptor R)",
+            "trim": "Raptor / Raptor R",
+            "group": "H7",
+            "cca": 800,
+            "note": "AGM, 80 Ah; H7 = BCI group 94R",
+            "src": [
+              {
+                "doc": "2024 Ford Raptor and Raptor R Tech Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2024/specs/2024-Ford-Raptor-and-Raptor-R-Tech-Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Battery group, CCA H7 AGM 80AH 800CCA",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -19787,7 +23348,148 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "trim": "XL 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2025-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "245/70R17 36 psi 36 psi XL 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "trim": "XLT 4x2",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2025-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/60R18 36 psi 36 psi XLT 4x2",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2025-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi XL 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/50R22",
+          "trim": "King Ranch Lariat Hybrid Platinum Gas Platinum Hybrid",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2025-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22 35 psi 35 psi King Ranch Lariat Hybrid Platinum Gas Platinum Hybrid",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/60R20",
+          "trim": "King Ranch Lariat Gas Lariat Hybrid Platinum Gas Platinum Hybrid STX 4x2 STX 4x4 XLT 4x2 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2025-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20 35 psi 35 psi King Ranch Lariat Gas Lariat Hybrid Platinum Gas Platinum Hybrid STX 4x2 STX 4x4 XLT 4x2 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "Lariat Gas Lariat Hybrid STX 4x4 XLT 4x4",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2025-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/65R18 35 psi 35 psi Lariat Gas Lariat Hybrid STX 4x4 XLT 4x4",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/70R18",
+          "trim": "Tremor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2025-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/70R18 35 psi 35 psi Tremor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "37x12.50R17",
+          "trim": "Raptor Raptor R",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2025-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "37x12.50R17 38 psi 38 psi Raptor Raptor R",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT265/70R18",
+          "trim": "STX FX4 Off-Road Package XLT FX4 Off-Road Package",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2025-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R18 41 psi 41 psi STX FX4 Off-Road Package XLT FX4 Off-Road Package",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "Raptor",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Ford F-150 Tire Pressure",
+              "url": "https://tirepressure.com/2025-ford-f-150-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT315/70R17 38 psi 38 psi Raptor",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -20764,7 +24466,218 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "size": "245/70R17",
+          "trim": "XL, XLT 4x2",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "245/70R17 all-season (XL, XLT 4x2)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17",
+          "trim": "XL 4x4",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "265/70R17 all-terrain (XL 4x4)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "trim": "STX, Lariat 4x2",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "265/60R18 all-season (STX, Lariat 4x2)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/65R18",
+          "trim": "STX, XLT, Lariat 4x4",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "275/65R18 all-terrain (STX, XLT, Lariat 4x4)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/70R18",
+          "trim": "Tremor",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "275/70R18 all-terrain (Tremor)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/60R20",
+          "trim": "King Ranch, Platinum 4x2",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "275/60R20 all-season (King Ranch, Platinum 4x2)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/60R20",
+          "trim": "King Ranch, Platinum 4x4",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "275/60R20 all-terrain (King Ranch, Platinum 4x4)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "LT315/70R17",
+          "trim": "Raptor",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "LT315/70R17 all-terrain (Raptor)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R17C",
+          "trim": "XL Fleet, FX4 Package",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "265/70R17C all-terrain (XL Fleet, FX4 Package)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/60R18",
+          "trim": "XLT 4x2",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "265/60R18 all-season (XLT 4x2)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "265/70R18C",
+          "trim": "XLT 4x4",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "265/70R18C all-terrain (XLT 4x4)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/60R20",
+          "trim": "STX, Lariat 4x2",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "275/60R20 all-season (STX, Lariat 4x2)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/60R20",
+          "trim": "STX, Lariat 4x4",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "275/60R20 all-terrain (STX, Lariat 4x4)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "275/50R22",
+          "trim": "STX Lobo Package, King Ranch, Platinum",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "275/50R22 all-season (STX Lobo Package, King Ranch, Platinum)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "size": "37x12.5R17",
+          "trim": "Raptor 37 Package",
+          "src": [
+            {
+              "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+              "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "37x12.5R17 all-terrain (Raptor 37 Package)",
+              "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -20788,7 +24701,108 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L EcoBoost V6",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "Oil Capacity (quarts/liters) 6.0/5.7 7.75/7.33 6.0/5.7 6.0/5.7 6.0/5.7 11.5/10.9",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.0,
+            "engine": "5.0L PFDI V8",
+            "capacity_qt": 7.75,
+            "capacity_l": 7.33,
+            "src": [
+              {
+                "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "Oil Capacity (quarts/liters) 6.0/5.7 7.75/7.33 6.0/5.7 6.0/5.7 6.0/5.7 11.5/10.9",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L EcoBoost V6",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "Oil Capacity (quarts/liters) 6.0/5.7 7.75/7.33 6.0/5.7 6.0/5.7 6.0/5.7 11.5/10.9",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L PowerBoost Full Hybrid V6",
+            "condition": "PowerBoost hybrid",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "Oil Capacity (quarts/liters) 6.0/5.7 7.75/7.33 6.0/5.7 6.0/5.7 6.0/5.7 11.5/10.9",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L EcoBoost V6 High-Output",
+            "condition": "High-Output (Raptor)",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "Oil Capacity (quarts/liters) 6.0/5.7 7.75/7.33 6.0/5.7 6.0/5.7 6.0/5.7 11.5/10.9",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.2,
+            "engine": "5.2L Supercharged V8",
+            "capacity_qt": 11.5,
+            "capacity_l": 10.9,
+            "src": [
+              {
+                "doc": "2026 Ford F-150 Tech Specs (Ford Motor Company)",
+                "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "Oil Capacity (quarts/liters) 6.0/5.7 7.75/7.33 6.0/5.7 6.0/5.7 6.0/5.7 11.5/10.9",
+                "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [

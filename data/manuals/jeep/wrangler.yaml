@@ -1,4 +1,5 @@
-# Generated from OEM documents (quotes verified against the cited PDF page) plus Rain-X wiper fitment pages.
+# Generated from Mopar owner's manuals and FCA/Stellantis media spec sheets (quotes verified against the
+# cited PDF page) plus Rain-X wiper fitment pages (aftermarket_fitment).
 slug: jeep/wrangler
 sources:
   om2005:
@@ -146,6 +147,77 @@ sources:
     url: https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Jeep&bf-model=Wrangler
     type: aftermarket_fitment
     accessed: '2026-10-13'
+  sp2011:
+    doc: 2011 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2011_JP_Wrangler_Specs.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2012:
+    doc: 2012 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2012_JP_Wrangler_Specs.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2013:
+    doc: 2013 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2013u:
+    doc: 2013 Jeep Wrangler Unlimited Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler_Unl.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2014:
+    doc: 2014 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2014_JP_Wrangler_SP.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2016:
+    doc: 2016 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2016_JP_Wrangler_SPdqfdrtdro7i79bi1ga997266g4.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2019:
+    doc: 2019 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_JP_Wrangler_SPmk1alba10mregeqq9v39oek881.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2021:
+    doc: 2021 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2021_JP_Wrangler_SPpr9cq0ipusqbj1krgeoq0pu45s.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2022:
+    doc: 2022 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2022_JP_Wrangler_SP.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2023:
+    doc: 2023 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_JP_Wrangler_SP.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2024:
+    doc: 2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2024x:
+    doc: 2024 Jeep Wrangler 4xe Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_4xe_SP.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+  sp2025ca:
+    doc: 2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
+    note: Canadian-market sheet; no US 2025 sheet was reachable (403)
+  sp2026:
+    doc: 2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)
+    url: https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-14'
 records:
 - field: oil
   years:
@@ -281,6 +353,10 @@ records:
   - ref: om2021
     page: 359
     quote: 3.0L Diesel Engine 9 Quarts 8.5 Liters
+  - ref: om2021
+    page: 361
+    quote: We recommend you use 5W-40 synthetic engine oil such as Mopar
+  grade: 5W-40
 - field: oil
   years:
   - 2022
@@ -325,6 +401,10 @@ records:
   - ref: om2022
     page: 356
     quote: 3.0L Diesel Engine 9 Quarts 8.5 Liters
+  - ref: om2022
+    page: 358
+    quote: We recommend using Mopar® API Certified SAE 5W-40 Full Synthetic Engine Oil
+  grade: 5W-40
 - field: oil
   years:
   - 2023
@@ -369,6 +449,10 @@ records:
   - ref: om2023
     page: 362
     quote: 3.0L Diesel Engine 9 qt 8.5 L
+  - ref: om2023
+    page: 364
+    quote: We recommend using Mopar® API Certified SAE 5W-40 Full Synthetic Engine Oil
+  grade: 5W-40
 - field: oil
   years:
   - 2026
@@ -1259,3 +1343,1161 @@ records:
     quote: 'Position: Driver Length (in.): 16"'
   - ref: rainx2026
     quote: 'Position: Passenger Length (in.): 16"'
+- field: towing
+  years:
+  - 2011
+  - 2011
+  displacement_l: 3.8
+  engine: 3.8L V-6
+  drive: 4WD
+  cab: Two-Door
+  trim: Sport, Sahara
+  axle: '3.21'
+  max_lb: 1000
+  note: AHT trailer-tow package not available with the 3.21 axle
+  src:
+  - ref: sp2011
+    page: 6
+    quote: 3.8L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.21** 880 4005 2009 1996 2775 3200 5155 1000
+- field: towing
+  years:
+  - 2011
+  - 2011
+  displacement_l: 3.8
+  engine: 3.8L V-6
+  drive: 4WD
+  cab: Two-Door
+  trim: Sport, Sahara
+  axle: '3.73'
+  max_lb: 2000
+  src:
+  - ref: sp2011
+    page: 6
+    quote: 3.8L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.73 880 4005 2009 1996 2775 3200 6155 2000
+- field: towing
+  years:
+  - 2011
+  - 2011
+  displacement_l: 3.8
+  engine: 3.8L V-6
+  drive: 4WD
+  cab: Two-Door
+  trim: Rubicon
+  axle: '4.10'
+  max_lb: 2000
+  src:
+  - ref: sp2011
+    page: 6
+    quote: 3.8L V-6 gas (EGT) A4 42RLE VLP 4-SPD AUTO (DGV) 4.10 892 4107 2064 2043 2775 3200 6257 2000
+- field: towing
+  years:
+  - 2012
+  - 2012
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  drive: 4WD
+  cab: Two-Door
+  trim: Sport, Sahara, Rubicon
+  max_lb: 2000
+  note: every 2-door row on the sheet (3.21, 3.73 and 4.10 axles) is 2,000 lb
+  src:
+  - ref: sp2012
+    page: 7
+    quote: 3.6L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.73 1000 3879 1966 1913 2775 3200 6029 2000
+  - ref: sp2012
+    page: 7
+    quote: 3.6L V-6 gas (EGT) A5 WA580 5-SPD AUTO (DGV) 4.10 892 4146 2079 2067 2775 3200 6296 2000
+- field: towing
+  years:
+  - 2013
+  - 2013
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  drive: 4WD
+  cab: Two-Door
+  trim: Sport, Sahara, Rubicon
+  max_lb: 2000
+  note: every 2-door row on the sheet (3.21, 3.73 and 4.10 axles) is 2,000 lb
+  src:
+  - ref: sp2013
+    page: 7
+    quote: 3.6L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.73 1000 3879 1966 1913 2775 3200 6029 2000
+  - ref: sp2013
+    page: 7
+    quote: 3.6L V-6 gas (EGT) A5 WA580 5-SPD AUTO (DGV) 4.10 892 4146 2079 2067 2775 3200 6296 2000
+- field: towing
+  years:
+  - 2014
+  - 2014
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  drive: 4WD
+  cab: Two-Door
+  trim: Sport, Sahara, Rubicon
+  max_lb: 2000
+  note: every 2-door row on the sheet (3.21, 3.73 and 4.10 axles) is 2,000 lb
+  src:
+  - ref: sp2014
+    page: 7
+    quote: 3.6L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.73 1000 3879 1966 1913 2775 3200 6029 2000
+  - ref: sp2014
+    page: 8
+    quote: 3.6L V-6 gas (EGT) A5 WA580 5-SPD AUTO (DGV) 4.10 892 4146 2079 2067 2775 3200 6296 2000
+- field: towing
+  years:
+  - 2013
+  - 2013
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  drive: 4WD
+  cab: Four-Door
+  trim: Unlimited Sport, Unlimited Sahara
+  axle: '3.21'
+  max_lb: 2000
+  src:
+  - ref: sp2013u
+    page: 7
+    quote: 3.6L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.21 880 4397 2273 2124 2775 3200 6547 2000
+- field: towing
+  years:
+  - 2013
+  - 2013
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  drive: 4WD
+  cab: Four-Door
+  trim: Unlimited Sport, Unlimited Sahara
+  axle: '3.73'
+  max_lb: 3500
+  src:
+  - ref: sp2013u
+    page: 7
+    quote: 3.6L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.73 880 4397 2273 2124 2775 3200 8047 3500
+- field: towing
+  years:
+  - 2013
+  - 2013
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  drive: 4WD
+  cab: Four-Door
+  trim: Unlimited Rubicon
+  axle: '4.10'
+  max_lb: 3500
+  src:
+  - ref: sp2013u
+    page: 7
+    quote: 3.6L V-6 gas (EGT) A5 WA580 5-SPD AUTO (DGV) 4.10 892 4535 2350 2185 2775 3200 8185 3500
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Two-Door
+  max_lb: 2000
+  src:
+  - &id001
+    ref: sp2019
+    page: 1
+    quote: Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Four-Door
+  max_lb: 3500
+  src:
+  - *id001
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Two-Door
+  max_lb: 2000
+  src:
+  - &id002
+    ref: sp2019
+    page: 2
+    quote: Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)
+- field: towing
+  years:
+  - 2019
+  - 2019
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Four-Door
+  max_lb: 3500
+  src:
+  - *id002
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Two-Door
+  max_lb: 2000
+  src:
+  - &id003
+    ref: sp2024
+    page: 2
+    quote: Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Four-Door
+  max_lb: 3500
+  note: 'Rubicon 4.10 automatic: see the 5,000 lb row'
+  src:
+  - *id003
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Two-Door
+  max_lb: 2000
+  src:
+  - &id004
+    ref: sp2024
+    page: 2
+    quote: Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Four-Door
+  max_lb: 3500
+  note: 'Rubicon 4.10 automatic: see the 5,000 lb row'
+  src:
+  - *id004
+- field: towing
+  years:
+  - 2026
+  - 2026
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Two-Door
+  max_lb: 2000
+  src:
+  - &id005
+    ref: sp2026
+    page: 2
+    quote: Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)
+- field: towing
+  years:
+  - 2026
+  - 2026
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Four-Door
+  max_lb: 3500
+  note: 'Rubicon 4.10 automatic: see the 5,000 lb row'
+  src:
+  - *id005
+- field: towing
+  years:
+  - 2026
+  - 2026
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Two-Door
+  max_lb: 2000
+  src:
+  - &id006
+    ref: sp2026
+    page: 2
+    quote: Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)
+- field: towing
+  years:
+  - 2026
+  - 2026
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Four-Door
+  max_lb: 3500
+  note: 'Rubicon 4.10 automatic: see the 5,000 lb row'
+  src:
+  - *id006
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Two-Door
+  max_lb: 2000
+  src:
+  - &id007
+    ref: sp2025ca
+    page: 2
+    quote: Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Four-Door
+  max_lb: 3500
+  note: 'Rubicon 4.10 automatic: see the 5,000 lb row'
+  src:
+  - *id007
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Two-Door
+  max_lb: 2000
+  src:
+  - &id008
+    ref: sp2025ca
+    page: 3
+    quote: 907 kg (2,000 lbs.) (2-door), 1,587 kg (3,500 lbs.) (4-door), 2,276 kg (5,000 lbs.) (4-door Rubicon, automatic
+      4.10 axle ratio with LT285/70R17C tire)
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Four-Door
+  max_lb: 3500
+  note: 'Rubicon 4.10 automatic: see the 5,000 lb row'
+  src:
+  - *id008
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Four-Door
+  trim: Rubicon
+  axle: '4.10'
+  max_lb: 5000
+  gcwr_lb: 9950
+  package: 8-speed automatic, LT285/70R17C tires
+  note: GCWR from the sheet's Rubicon table
+  src:
+  - *id008
+  - ref: sp2025ca
+    page: 11
+    quote: (1,298) (4,602) (2,421) (2,181) (3,100) (3,550) (9,950) (5,000)
+- field: towing
+  years:
+  - 2025
+  - 2025
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Four-Door
+  trim: Rubicon
+  max_lb: 5000
+  package: automatic
+  note: sheet line reads '5,000 lbs. (4-door Rubicon, automatic)'
+  src:
+  - ref: sp2025ca
+    page: 2
+    quote: 5,000 lbs. (4-door Rubicon,
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Four-Door
+  trim: Rubicon
+  axle: '4.10'
+  max_lb: 5000
+  gcwr_lb: 10300
+  package: 8-speed automatic
+  src:
+  - ref: sp2024
+    page: 11
+    quote: 3.6-liter V-6 gas A8 850RE 8-speed automatic 4.10 1298 4604 2424 2180 3100 3550 10300 5000
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Four-Door
+  trim: Rubicon
+  axle: '4.10'
+  max_lb: 5000
+  gcwr_lb: 9950
+  package: 8-speed automatic
+  src:
+  - ref: sp2024
+    page: 11
+    quote: 2.0-liter I-4 gas A8 850RE 8-speed automatic 4.10 1298 4602 2421 2181 3100 3550 9950 5000
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 6.4
+  engine: 6.4L V-8
+  drive: 4WD
+  cab: Four-Door
+  trim: Rubicon 392
+  axle: '4.56'
+  max_lb: 3500
+  gcwr_lb: 10800
+  src:
+  - ref: sp2024
+    page: 11
+    quote: 6.4-liter V-8 gas A8 8HP75 8-speed automatic 4.56 1088 5268 2797 2471 3400 3550 10800 3500
+- field: towing
+  years:
+  - 2026
+  - 2026
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  drive: 4WD
+  cab: Four-Door
+  trim: Rubicon
+  axle: '4.10'
+  max_lb: 5000
+  gcwr_lb: 10300
+  package: 8-speed automatic
+  src:
+  - ref: sp2026
+    page: 12
+    quote: 3.6-liter A8 850RE 8-speed 4.10 1,328 4,623 2,451 2,172 3,100 3,550 10,300 5,000
+- field: towing
+  years:
+  - 2026
+  - 2026
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  drive: 4WD
+  cab: Four-Door
+  trim: Rubicon
+  axle: '4.10'
+  max_lb: 5000
+  gcwr_lb: 10300
+  package: 8-speed automatic
+  src:
+  - ref: sp2026
+    page: 12
+    quote: 2.0-liter A8 850RE 8-speed 4.10 1,310 4,640 2,460 2,180 3,100 3,550 10,300 5,000
+- field: towing
+  years:
+  - 2026
+  - 2026
+  displacement_l: 6.4
+  engine: 6.4L V-8
+  drive: 4WD
+  cab: Four-Door
+  trim: Moab 392
+  axle: '4.56'
+  max_lb: 3500
+  gcwr_lb: 9400
+  src:
+  - ref: sp2026
+    page: 12
+    quote: 6.4-liter A8 8HP75 8-speed 4.56 1,088 5,268 2,797 2,471 3,400 3,550 9,400 3,500
+- field: towing
+  years:
+  - 2022
+  - 2022
+  displacement_l: 6.4
+  engine: 6.4L V-8
+  drive: 4WD
+  cab: Four-Door
+  trim: Rubicon 392
+  axle: '4.56'
+  max_lb: 3500
+  note: sheet's GCWR figure (6,250) is inconsistent with its base weight, omitted
+  src:
+  - ref: sp2022
+    page: 15
+    quote: 6.4-liter V-8 gas A8 8HP75 8-speed automatic 4.56 1028 5222 2773 2449 3450 3550 6250 3500
+- field: towing
+  years:
+  - 2023
+  - 2023
+  displacement_l: 6.4
+  engine: 6.4L V-8
+  drive: 4WD
+  cab: Four-Door
+  trim: Rubicon 392
+  axle: '4.56'
+  max_lb: 3500
+  note: sheet's GCWR figure (6,250) is inconsistent with its base weight, omitted
+  src:
+  - ref: sp2023
+    page: 13
+    quote: 6.4-liter V-8 gas A8 8HP75 8-speed automatic 4.56 1028 5222 2773 2449 3450 3550 6250 3500
+- field: towing
+  years:
+  - 2022
+  - 2022
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4 PHEV (4xe)
+  drive: 4WD
+  cab: Four-Door
+  trim: Sahara 4xe
+  axle: '3.73'
+  max_lb: 3500
+  gcwr_lb: 9000
+  src:
+  - ref: sp2022
+    page: 15
+    quote: 2.0-liter I-4 gas PHEV A8 8P75PH 8-speed automatic 3.73 1191 5009 2540 2469 3100 3550 9000 3500
+- field: towing
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4 PHEV (4xe)
+  drive: 4WD
+  cab: Four-Door
+  trim: all 4xe
+  max_lb: 3500
+  src:
+  - ref: sp2024x
+    page: 1
+    quote: Max. Gross Trailer Weight 3,500 lbs.
+- field: tires
+  years:
+  - 2011
+  - 2011
+  trim: Sport
+  size: P225/75R16
+  src:
+  - ref: sp2011
+    page: 5
+    quote: Availability Standard on Wrangler Sport Size and Type P225/75R16
+- field: tires
+  years:
+  - 2011
+  - 2011
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2011
+    page: 5
+    quote: Availability Standard on Wrangler Sahara Size and Type P255/70R18
+- field: tires
+  years:
+  - 2011
+  - 2011
+  trim: Rubicon
+  size: LT255/75R17
+  src:
+  - ref: sp2011
+    page: 5
+    quote: Availability Standard on Wrangler Rubicon Size and Type LT255/75R17
+- field: tires
+  years:
+  - 2012
+  - 2012
+  trim: Sport
+  size: P225/75R16
+  src:
+  - ref: sp2012
+    page: 6
+    quote: Availability Standard on Wrangler Sport Size and Type P225/75R16
+- field: tires
+  years:
+  - 2012
+  - 2012
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2012
+    page: 6
+    quote: Availability Standard on Wrangler Sahara Size and Type P255/70R18
+- field: tires
+  years:
+  - 2012
+  - 2012
+  trim: Rubicon
+  size: LT255/75R17
+  src:
+  - ref: sp2012
+    page: 6
+    quote: Availability Standard on Wrangler Rubicon Size and Type LT255/75R17
+- field: tires
+  years:
+  - 2013
+  - 2013
+  trim: Sport
+  size: P225/75R16
+  src:
+  - ref: sp2013
+    page: 6
+    quote: Availability Standard on Wrangler Sport Size and Type P225/75R16
+- field: tires
+  years:
+  - 2013
+  - 2013
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2013
+    page: 6
+    quote: Availability Standard on Wrangler Sahara Size and Type P255/70R18
+- field: tires
+  years:
+  - 2013
+  - 2013
+  trim: Rubicon
+  size: LT255/75R17
+  src:
+  - ref: sp2013
+    page: 6
+    quote: Availability Standard on Wrangler Rubicon Size and Type LT255/75R17
+- field: tires
+  years:
+  - 2014
+  - 2014
+  trim: Sport
+  size: P225/75R16
+  src:
+  - ref: sp2014
+    page: 6
+    quote: Availability Standard on Wrangler Sport Size and Type P225/75R16
+- field: tires
+  years:
+  - 2014
+  - 2014
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2014
+    page: 7
+    quote: Availability Standard on Wrangler Sahara Size and Type P255/70R18
+- field: tires
+  years:
+  - 2014
+  - 2014
+  trim: Rubicon
+  size: LT255/75R17
+  src:
+  - ref: sp2014
+    page: 7
+    quote: Availability Standard on Wrangler Rubicon, Optional on Sport Size and Type LT255/75R17
+- field: tires
+  years:
+  - 2016
+  - 2016
+  trim: Sport
+  size: P225/75R16
+  src:
+  - ref: sp2016
+    page: 7
+    quote: Availability Standard — Wrangler Sport Size and Type P225/75R16
+- field: tires
+  years:
+  - 2016
+  - 2016
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2016
+    page: 7
+    quote: Availability Standard — Wrangler Sahara Size and Type P255/70R18
+- field: tires
+  years:
+  - 2016
+  - 2016
+  trim: Rubicon
+  size: LT255/75R17
+  src:
+  - ref: sp2016
+    page: 7
+    quote: Availability Standard — Wrangler Rubicon Size and Type LT255/75R17
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Sport
+  size: P245/75R17
+  src:
+  - ref: sp2019
+    page: 8
+    quote: Availability Standard (Sport) Size and Type P245/75R17
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2019
+    page: 8
+    quote: Availability Standard (Sahara) Size and Type P255/70R18
+- field: tires
+  years:
+  - 2019
+  - 2019
+  trim: Rubicon
+  size: LT285/70R17C
+  src:
+  - ref: sp2019
+    page: 8
+    quote: Availability Standard (Rubicon) Size and Type LT285/70R17C
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Sport
+  size: P245/75R17
+  src:
+  - ref: sp2021
+    page: 10
+    quote: Availability Standard (Sport) Size and type P245/75R17
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2021
+    page: 10
+    quote: Availability Standard (Sahara) Size and type P255/70R18
+- field: tires
+  years:
+  - 2021
+  - 2021
+  trim: Rubicon
+  size: LT285/70R17C
+  src:
+  - ref: sp2021
+    page: 10
+    quote: Availability Standard (Rubicon) Size and type LT285/70R17C
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Sport
+  size: P245/75R17
+  src:
+  - ref: sp2022
+    page: 13
+    quote: Availability Standard (Sport) Size and type P245/75R17
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2022
+    page: 13
+    quote: Availability Standard (Sahara) Size and type P255/70R18
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Sahara 4xe
+  size: 275/55R20
+  src:
+  - ref: sp2022
+    page: 13
+    quote: Availability Standard (Sahara 4xe) Size and type 275/55R20
+- field: tires
+  years:
+  - 2022
+  - 2022
+  trim: Rubicon, Rubicon 4xe, Rubicon 392
+  size: LT285/70R17C
+  src:
+  - ref: sp2022
+    page: 14
+    quote: Availability Standard (Rubicon, Rubicon 4xe, Rubicon 392) Size and type LT285/70R17C
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Sport
+  size: P245/75R17
+  src:
+  - ref: sp2023
+    page: 12
+    quote: Availability Standard (Sport) Size and type P245/75R17
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2023
+    page: 12
+    quote: Availability Standard (Sahara) Size and type P255/70R18
+- field: tires
+  years:
+  - 2023
+  - 2023
+  trim: Rubicon, Rubicon 392
+  size: LT285/70R17C
+  src:
+  - ref: sp2023
+    page: 12
+    quote: Availability Standard (Rubicon, Rubicon 392) Size and type LT285/70R17C
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Sport
+  size: P245/75R17
+  src:
+  - ref: sp2024
+    page: 10
+    quote: Availability Standard (Sport) Size and type P245/75R17
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2024
+    page: 10
+    quote: Availability Standard (Sahara) Size and type P255/70R18
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Rubicon and Willys
+  size: LT285/70R17C
+  src:
+  - ref: sp2024
+    page: 10
+    quote: Availability Standard (Rubicon and Willys) Size and type LT285/70R17C
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Xtreme 35 and Rubicon 392
+  size: LT315/70R17C
+  src:
+  - ref: sp2024
+    page: 10
+    quote: Availability Standard (Xtreme 35 and Rubicon 392) Size and type LT315/70R17C
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Sport S 4xe
+  size: 255/60R20
+  src:
+  - ref: sp2024x
+    page: 6
+    quote: Availability Standard (Sport S 4xe) Size and type 255/60R20
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Sahara 4xe
+  size: 255/55R20
+  src:
+  - ref: sp2024x
+    page: 6
+    quote: Availability Standard (Sahara 4xe) Size and type 255/55R20
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: High Altitude 4xe
+  size: 275/55R20
+  src:
+  - ref: sp2024x
+    page: 7
+    quote: Availability Standard (High Altitude 4xe) Size and type 275/55R20
+- field: tires
+  years:
+  - 2024
+  - 2024
+  trim: Rubicon and Willys 4xe
+  size: LT285/70R17C
+  src:
+  - ref: sp2024x
+    page: 7
+    quote: Availability Standard (Rubicon and Willys 4xe) Size and type LT285/70R17C
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Sport
+  size: P245/75R17
+  src:
+  - ref: sp2025ca
+    page: 9
+    quote: Availability Standard (Sport) Size and type P245/75R17
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2025ca
+    page: 9
+    quote: Availability Standard (Sahara) Size and type P255/70R18
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Rubicon and Willys
+  size: LT285/70R17C
+  src:
+  - ref: sp2025ca
+    page: 10
+    quote: Availability Standard (Rubicon and Willys) Size and type LT285/70R17C
+- field: tires
+  years:
+  - 2025
+  - 2025
+  trim: Xtreme 35
+  size: LT315/70R17C
+  src:
+  - ref: sp2025ca
+    page: 10
+    quote: Availability Standard (Xtreme 35) Size and type LT315/70R17C
+- field: tires
+  years:
+  - 2026
+  - 2026
+  trim: Sport
+  size: P245/75R17
+  src:
+  - ref: sp2026
+    page: 10
+    quote: Availability Standard (Sport) Size and type P245/75R17
+- field: tires
+  years:
+  - 2026
+  - 2026
+  trim: Sahara
+  size: P255/70R18
+  src:
+  - ref: sp2026
+    page: 11
+    quote: Availability Standard (Sahara) Size and type P255/70R18
+- field: tires
+  years:
+  - 2026
+  - 2026
+  trim: Rubicon and Willys
+  size: LT285/70R17C
+  src:
+  - ref: sp2026
+    page: 11
+    quote: Availability Standard (Rubicon and Willys) Size and type LT285/70R17C
+- field: tires
+  years:
+  - 2026
+  - 2026
+  trim: Xtreme 35 and Moab 392
+  size: LT315/70R17C
+  src:
+  - ref: sp2026
+    page: 11
+    quote: Availability Standard (Xtreme 35 and Moab 392) Size and type LT315/70R17C
+- field: oil
+  years:
+  - 2011
+  - 2011
+  displacement_l: 3.8
+  engine: 3.8L V-6
+  capacity_qt: 6.0
+  capacity_l: 5.7
+  src:
+  - ref: sp2011
+    page: 1
+    quote: Oil Capacity 6.0 qt. (5.7L) plus filter
+- field: oil
+  years:
+  - 2012
+  - 2012
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  capacity_qt: 6.0
+  capacity_l: 5.7
+  src:
+  - ref: sp2012
+    page: 1
+    quote: Oil Capacity 6.0 qt. (5.7L)
+- field: oil
+  years:
+  - 2013
+  - 2013
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  capacity_qt: 6.0
+  capacity_l: 5.7
+  src:
+  - ref: sp2013
+    page: 1
+    quote: Oil Capacity 6.0 qt. (5.7-liter)
+- field: oil
+  years:
+  - 2014
+  - 2014
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  capacity_qt: 6.0
+  capacity_l: 5.7
+  src:
+  - ref: sp2014
+    page: 1
+    quote: Oil Capacity 6.0 qt. (5.7 liter)
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  capacity_qt: 5.0
+  capacity_l: 4.7
+  src:
+  - ref: sp2019
+    page: 1
+    quote: Oil Capacity 5.0 quarts (4.7 liters)
+- field: oil
+  years:
+  - 2019
+  - 2019
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  capacity_qt: 5.0
+  capacity_l: 4.7
+  src:
+  - ref: sp2019
+    page: 2
+    quote: Oil Capacity 5 quarts (4.7 liters)
+- field: oil
+  years:
+  - 2022
+  - 2022
+  displacement_l: 6.4
+  engine: 6.4L V-8
+  capacity_qt: 7.0
+  capacity_l: 6.6
+  src:
+  - ref: sp2022
+    page: 4
+    quote: Oil Capacity 7 quarts (6.6 liters)
+- field: oil
+  years:
+  - 2023
+  - 2023
+  displacement_l: 6.4
+  engine: 6.4L V-8
+  capacity_qt: 7.0
+  capacity_l: 6.6
+  src:
+  - ref: sp2023
+    page: 4
+    quote: Oil Capacity 7 quarts (6.6 liters)
+- field: oil
+  years:
+  - 2024
+  - 2024
+  displacement_l: 6.4
+  engine: 6.4L V-8
+  capacity_qt: 7.0
+  capacity_l: 6.6
+  src:
+  - ref: sp2024
+    page: 3
+    quote: Oil Capacity 7 quarts (6.6 liters)
+- field: oil
+  years:
+  - 2024
+  - 2024
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  capacity_qt: 5.0
+  capacity_l: 4.7
+  src:
+  - ref: sp2024
+    page: 1
+    quote: Oil Capacity 5.0 quarts (4.7 liters)
+- field: oil
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  capacity_qt: 5.0
+  capacity_l: 4.7
+  src:
+  - ref: sp2024
+    page: 2
+    quote: Oil Capacity 5 quarts (4.7 liters)
+- field: oil
+  years:
+  - 2024
+  - 2024
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4 PHEV
+  condition: 4xe plug-in hybrid
+  capacity_qt: 5.0
+  capacity_l: 4.7
+  src:
+  - ref: sp2024x
+    page: 1
+    quote: Oil Capacity 5 quarts (4.7 liters)
+- field: oil
+  years:
+  - 2025
+  - 2025
+  displacement_l: 3.6
+  engine: 3.6L Pentastar V-6
+  capacity_qt: 5.0
+  capacity_l: 4.7
+  src:
+  - ref: sp2025ca
+    page: 1
+    quote: Oil Capacity, litres (quarts) 4.7 (5.0)
+- field: oil
+  years:
+  - 2025
+  - 2025
+  displacement_l: 2.0
+  engine: 2.0L Turbo I-4
+  capacity_qt: 5.0
+  capacity_l: 4.7
+  src:
+  - ref: sp2025ca
+    page: 1
+    quote: Oil Capacity, litres (quarts) 4.7 (5.0)

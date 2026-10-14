@@ -28,10 +28,10 @@ from common import DATA, iter_models, load_config, log, read_json, source_path, 
 
 MANUALS = DATA / "manuals"
 SOURCE_TYPES = {"oem_manual", "oem_towing_guide", "oem_spec_sheet", "oem_parts_catalog",
-                "aftermarket_fitment"}
+                "aftermarket_fitment", "third_party_reference"}
 FIELDS = {"towing", "tires", "oil", "battery", "wipers"}
 
-TIRE_RE = re.compile(r"^(P|LT)?\d{3}/\d{2}Z?R\d{2}(\.\d)?$|^\d{2}x\d{1,2}\.\d{2}R\d{2}(LT)?$", re.I)
+TIRE_RE = re.compile(r"^(P|LT)?\d{3}/\d{2}Z?R\d{2}(\.\d)?C?$|^\d{2}x\d{1,2}\.\d{1,2}R\d{2}(LT)?$", re.I)
 OIL_RE = re.compile(r"^\d{1,2}W-\d{2}$")
 BATTERY_RE = re.compile(r"^[A-Z]{0,2}\d{1,3}[A-Z]{0,2}(-\d)?$|^H\d$|^T\d$", re.I)
 

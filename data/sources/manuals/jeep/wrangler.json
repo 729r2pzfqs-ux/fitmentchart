@@ -3,10 +3,11 @@
   "source": {
     "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
     "file": "data/manuals/jeep/wrangler.yaml",
-    "documents": 29,
+    "documents": 43,
     "document_types": [
       "aftermarket_fitment",
-      "oem_manual"
+      "oem_manual",
+      "oem_spec_sheet"
     ]
   },
   "notes": [],
@@ -212,6 +213,130 @@
       }
     },
     "2011": {
+      "towing": [
+        {
+          "displacement_l": 3.8,
+          "engine": "3.8L V-6",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport, Sahara",
+          "axle": "3.21",
+          "max_lb": 1000,
+          "note": "AHT trailer-tow package not available with the 3.21 axle",
+          "src": [
+            {
+              "doc": "2011 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2011_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "3.8L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.21** 880 4005 2009 1996 2775 3200 5155 1000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.8,
+          "engine": "3.8L V-6",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport, Sahara",
+          "axle": "3.73",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2011 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2011_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "3.8L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.73 880 4005 2009 1996 2775 3200 6155 2000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.8,
+          "engine": "3.8L V-6",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Rubicon",
+          "axle": "4.10",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2011 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2011_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "3.8L V-6 gas (EGT) A4 42RLE VLP 4-SPD AUTO (DGV) 4.10 892 4107 2064 2043 2775 3200 6257 2000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P225/75R16",
+          "src": [
+            {
+              "doc": "2011 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2011_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 5,
+              "quote": "Availability Standard on Wrangler Sport Size and Type P225/75R16",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2011 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2011_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 5,
+              "quote": "Availability Standard on Wrangler Sahara Size and Type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon",
+          "size": "LT255/75R17",
+          "src": [
+            {
+              "doc": "2011 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2011_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 5,
+              "quote": "Availability Standard on Wrangler Rubicon Size and Type LT255/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.8,
+            "engine": "3.8L V-6",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "2011 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2011_JP_Wrangler_Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil Capacity 6.0 qt. (5.7L) plus filter",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -236,6 +361,99 @@
       }
     },
     "2012": {
+      "towing": [
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L V-6",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport, Sahara, Rubicon",
+          "max_lb": 2000,
+          "note": "every 2-door row on the sheet (3.21, 3.73 and 4.10 axles) is 2,000 lb",
+          "src": [
+            {
+              "doc": "2012 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2012_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "3.6L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.73 1000 3879 1966 1913 2775 3200 6029 2000",
+              "accessed": "2026-10-14"
+            },
+            {
+              "doc": "2012 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2012_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "3.6L V-6 gas (EGT) A5 WA580 5-SPD AUTO (DGV) 4.10 892 4146 2079 2067 2775 3200 6296 2000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P225/75R16",
+          "src": [
+            {
+              "doc": "2012 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2012_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "Availability Standard on Wrangler Sport Size and Type P225/75R16",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2012 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2012_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "Availability Standard on Wrangler Sahara Size and Type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon",
+          "size": "LT255/75R17",
+          "src": [
+            {
+              "doc": "2012 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2012_JP_Wrangler_Specs.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "Availability Standard on Wrangler Rubicon Size and Type LT255/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L V-6",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "2012 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2012_JP_Wrangler_Specs.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil Capacity 6.0 qt. (5.7L)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -260,6 +478,156 @@
       }
     },
     "2013": {
+      "towing": [
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L V-6",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport, Sahara, Rubicon",
+          "max_lb": 2000,
+          "note": "every 2-door row on the sheet (3.21, 3.73 and 4.10 axles) is 2,000 lb",
+          "src": [
+            {
+              "doc": "2013 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "3.6L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.73 1000 3879 1966 1913 2775 3200 6029 2000",
+              "accessed": "2026-10-14"
+            },
+            {
+              "doc": "2013 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "3.6L V-6 gas (EGT) A5 WA580 5-SPD AUTO (DGV) 4.10 892 4146 2079 2067 2775 3200 6296 2000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L V-6",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Unlimited Sport, Unlimited Sahara",
+          "axle": "3.21",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2013 Jeep Wrangler Unlimited Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler_Unl.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "3.6L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.21 880 4397 2273 2124 2775 3200 6547 2000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L V-6",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Unlimited Sport, Unlimited Sahara",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "src": [
+            {
+              "doc": "2013 Jeep Wrangler Unlimited Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler_Unl.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "3.6L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.73 880 4397 2273 2124 2775 3200 8047 3500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L V-6",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Unlimited Rubicon",
+          "axle": "4.10",
+          "max_lb": 3500,
+          "src": [
+            {
+              "doc": "2013 Jeep Wrangler Unlimited Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler_Unl.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "3.6L V-6 gas (EGT) A5 WA580 5-SPD AUTO (DGV) 4.10 892 4535 2350 2185 2775 3200 8185 3500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P225/75R16",
+          "src": [
+            {
+              "doc": "2013 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "Availability Standard on Wrangler Sport Size and Type P225/75R16",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2013 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "Availability Standard on Wrangler Sahara Size and Type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon",
+          "size": "LT255/75R17",
+          "src": [
+            {
+              "doc": "2013 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "Availability Standard on Wrangler Rubicon Size and Type LT255/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L V-6",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "2013 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2013_SP_Wrangler.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil Capacity 6.0 qt. (5.7-liter)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -279,6 +647,101 @@
             "page": null,
             "quote": "Position: Passenger Length (in.): 15\"",
             "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2014": {
+      "towing": [
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L V-6",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "trim": "Sport, Sahara, Rubicon",
+          "max_lb": 2000,
+          "note": "every 2-door row on the sheet (3.21, 3.73 and 4.10 axles) is 2,000 lb",
+          "src": [
+            {
+              "doc": "2014 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2014_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "3.6L V-6 gas (EGT) M6 NSG370 6-SPD MANUAL (DEH) 3.73 1000 3879 1966 1913 2775 3200 6029 2000",
+              "accessed": "2026-10-14"
+            },
+            {
+              "doc": "2014 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2014_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 8,
+              "quote": "3.6L V-6 gas (EGT) A5 WA580 5-SPD AUTO (DGV) 4.10 892 4146 2079 2067 2775 3200 6296 2000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P225/75R16",
+          "src": [
+            {
+              "doc": "2014 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2014_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "Availability Standard on Wrangler Sport Size and Type P225/75R16",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2014 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2014_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "Availability Standard on Wrangler Sahara Size and Type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon",
+          "size": "LT255/75R17",
+          "src": [
+            {
+              "doc": "2014 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2014_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "Availability Standard on Wrangler Rubicon, Optional on Sport Size and Type LT255/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L V-6",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "2014 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2014_JP_Wrangler_SP.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil Capacity 6.0 qt. (5.7 liter)",
+                "accessed": "2026-10-14"
+              }
+            ]
           }
         ]
       }
@@ -390,6 +853,50 @@
               "page": 560,
               "quote": "3.6L/ 3.73 Two–Door 8,400 lbs 25 sq ft 3,500 lbs 350 lbs Automatic Sport Model",
               "accessed": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P225/75R16",
+          "src": [
+            {
+              "doc": "2016 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2016_JP_Wrangler_SPdqfdrtdro7i79bi1ga997266g4.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "Availability Standard — Wrangler Sport Size and Type P225/75R16",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2016 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2016_JP_Wrangler_SPdqfdrtdro7i79bi1ga997266g4.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "Availability Standard — Wrangler Sahara Size and Type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon",
+          "size": "LT255/75R17",
+          "src": [
+            {
+              "doc": "2016 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2016_JP_Wrangler_SPdqfdrtdro7i79bi1ga997266g4.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "Availability Standard — Wrangler Rubicon Size and Type LT255/75R17",
+              "accessed": "2026-10-14"
             }
           ]
         }
@@ -973,6 +1480,156 @@
       }
     },
     "2019": {
+      "towing": [
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2019 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_JP_Wrangler_SPmk1alba10mregeqq9v39oek881.pdf",
+              "type": "oem_spec_sheet",
+              "page": 1,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "src": [
+            {
+              "doc": "2019 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_JP_Wrangler_SPmk1alba10mregeqq9v39oek881.pdf",
+              "type": "oem_spec_sheet",
+              "page": 1,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2019 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_JP_Wrangler_SPmk1alba10mregeqq9v39oek881.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "src": [
+            {
+              "doc": "2019 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_JP_Wrangler_SPmk1alba10mregeqq9v39oek881.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P245/75R17",
+          "src": [
+            {
+              "doc": "2019 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_JP_Wrangler_SPmk1alba10mregeqq9v39oek881.pdf",
+              "type": "oem_spec_sheet",
+              "page": 8,
+              "quote": "Availability Standard (Sport) Size and Type P245/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2019 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_JP_Wrangler_SPmk1alba10mregeqq9v39oek881.pdf",
+              "type": "oem_spec_sheet",
+              "page": 8,
+              "quote": "Availability Standard (Sahara) Size and Type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon",
+          "size": "LT285/70R17C",
+          "src": [
+            {
+              "doc": "2019 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_JP_Wrangler_SPmk1alba10mregeqq9v39oek881.pdf",
+              "type": "oem_spec_sheet",
+              "page": 8,
+              "quote": "Availability Standard (Rubicon) Size and Type LT285/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L Pentastar V-6",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.7,
+            "src": [
+              {
+                "doc": "2019 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_JP_Wrangler_SPmk1alba10mregeqq9v39oek881.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil Capacity 5.0 quarts (4.7 liters)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L Turbo I-4",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.7,
+            "src": [
+              {
+                "doc": "2019 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_JP_Wrangler_SPmk1alba10mregeqq9v39oek881.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "Oil Capacity 5 quarts (4.7 liters)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -1117,6 +1774,50 @@
           ]
         }
       ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P245/75R17",
+          "src": [
+            {
+              "doc": "2021 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2021_JP_Wrangler_SPpr9cq0ipusqbj1krgeoq0pu45s.pdf",
+              "type": "oem_spec_sheet",
+              "page": 10,
+              "quote": "Availability Standard (Sport) Size and type P245/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2021 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2021_JP_Wrangler_SPpr9cq0ipusqbj1krgeoq0pu45s.pdf",
+              "type": "oem_spec_sheet",
+              "page": 10,
+              "quote": "Availability Standard (Sahara) Size and type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon",
+          "size": "LT285/70R17C",
+          "src": [
+            {
+              "doc": "2021 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2021_JP_Wrangler_SPpr9cq0ipusqbj1krgeoq0pu45s.pdf",
+              "type": "oem_spec_sheet",
+              "page": 10,
+              "quote": "Availability Standard (Rubicon) Size and type LT285/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "oil": {
         "engines": [
           {
@@ -1174,6 +1875,7 @@
             "engine": "3.0L Diesel Engine",
             "capacity_qt": 9.0,
             "capacity_l": 8.5,
+            "grade": "5W-40",
             "src": [
               {
                 "doc": "2021 Jeep Wrangler Owner's Manual",
@@ -1181,6 +1883,14 @@
                 "type": "oem_manual",
                 "page": 359,
                 "quote": "3.0L Diesel Engine 9 Quarts 8.5 Liters",
+                "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2021 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2021/Wrangler/5690670_21_JL_OM_EN_USC_DIGITAL_E5.pdf",
+                "type": "oem_manual",
+                "page": 361,
+                "quote": "We recommend you use 5W-40 synthetic engine oil such as Mopar",
                 "accessed": "2026-10-13"
               }
             ]
@@ -1305,6 +2015,104 @@
               "accessed": "2026-10-13"
             }
           ]
+        },
+        {
+          "displacement_l": 6.4,
+          "engine": "6.4L V-8",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Rubicon 392",
+          "axle": "4.56",
+          "max_lb": 3500,
+          "note": "sheet's GCWR figure (6,250) is inconsistent with its base weight, omitted",
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2022_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 15,
+              "quote": "6.4-liter V-8 gas A8 8HP75 8-speed automatic 4.56 1028 5222 2773 2449 3450 3550 6250 3500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4 PHEV (4xe)",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Sahara 4xe",
+          "axle": "3.73",
+          "max_lb": 3500,
+          "gcwr_lb": 9000,
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2022_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 15,
+              "quote": "2.0-liter I-4 gas PHEV A8 8P75PH 8-speed automatic 3.73 1191 5009 2540 2469 3100 3550 9000 3500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P245/75R17",
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2022_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 13,
+              "quote": "Availability Standard (Sport) Size and type P245/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2022_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 13,
+              "quote": "Availability Standard (Sahara) Size and type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara 4xe",
+          "size": "275/55R20",
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2022_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 13,
+              "quote": "Availability Standard (Sahara 4xe) Size and type 275/55R20",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon, Rubicon 4xe, Rubicon 392",
+          "size": "LT285/70R17C",
+          "src": [
+            {
+              "doc": "2022 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2022_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 14,
+              "quote": "Availability Standard (Rubicon, Rubicon 4xe, Rubicon 392) Size and type LT285/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
         }
       ],
       "oil": {
@@ -1364,6 +2172,7 @@
             "engine": "3.0L Diesel Engine",
             "capacity_qt": 9.0,
             "capacity_l": 8.5,
+            "grade": "5W-40",
             "src": [
               {
                 "doc": "2022 Jeep Wrangler Owner's Manual",
@@ -1372,6 +2181,30 @@
                 "page": 356,
                 "quote": "3.0L Diesel Engine 9 Quarts 8.5 Liters",
                 "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2022 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2022/Wrangler/5690672_22_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 358,
+                "quote": "We recommend using Mopar® API Certified SAE 5W-40 Full Synthetic Engine Oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.4,
+            "engine": "6.4L V-8",
+            "capacity_qt": 7.0,
+            "capacity_l": 6.6,
+            "src": [
+              {
+                "doc": "2022 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2022_JP_Wrangler_SP.pdf",
+                "type": "oem_spec_sheet",
+                "page": 4,
+                "quote": "Oil Capacity 7 quarts (6.6 liters)",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -1495,6 +2328,70 @@
               "accessed": "2026-10-13"
             }
           ]
+        },
+        {
+          "displacement_l": 6.4,
+          "engine": "6.4L V-8",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Rubicon 392",
+          "axle": "4.56",
+          "max_lb": 3500,
+          "note": "sheet's GCWR figure (6,250) is inconsistent with its base weight, omitted",
+          "src": [
+            {
+              "doc": "2023 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 13,
+              "quote": "6.4-liter V-8 gas A8 8HP75 8-speed automatic 4.56 1028 5222 2773 2449 3450 3550 6250 3500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P245/75R17",
+          "src": [
+            {
+              "doc": "2023 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 12,
+              "quote": "Availability Standard (Sport) Size and type P245/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2023 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 12,
+              "quote": "Availability Standard (Sahara) Size and type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon, Rubicon 392",
+          "size": "LT285/70R17C",
+          "src": [
+            {
+              "doc": "2023 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_JP_Wrangler_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 12,
+              "quote": "Availability Standard (Rubicon, Rubicon 392) Size and type LT285/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
         }
       ],
       "oil": {
@@ -1554,6 +2451,7 @@
             "engine": "3.0L Diesel Engine",
             "capacity_qt": 9.0,
             "capacity_l": 8.5,
+            "grade": "5W-40",
             "src": [
               {
                 "doc": "2023 Jeep Wrangler Owner's Manual",
@@ -1562,6 +2460,30 @@
                 "page": 362,
                 "quote": "3.0L Diesel Engine 9 qt 8.5 L",
                 "accessed": "2026-10-13"
+              },
+              {
+                "doc": "2023 Jeep Wrangler Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Wrangler/5690673_23_JL_OM_EN_USC_DIGITAL_E3.pdf",
+                "type": "oem_manual",
+                "page": 364,
+                "quote": "We recommend using Mopar® API Certified SAE 5W-40 Full Synthetic Engine Oil",
+                "accessed": "2026-10-13"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.4,
+            "engine": "6.4L V-8",
+            "capacity_qt": 7.0,
+            "capacity_l": 6.6,
+            "src": [
+              {
+                "doc": "2023 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_JP_Wrangler_SP.pdf",
+                "type": "oem_spec_sheet",
+                "page": 4,
+                "quote": "Oil Capacity 7 quarts (6.6 liters)",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -1591,6 +2513,341 @@
       }
     },
     "2024": {
+      "towing": [
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "note": "Rubicon 4.10 automatic: see the 5,000 lb row",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "note": "Rubicon 4.10 automatic: see the 5,000 lb row",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Rubicon",
+          "axle": "4.10",
+          "max_lb": 5000,
+          "gcwr_lb": 10300,
+          "package": "8-speed automatic",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 11,
+              "quote": "3.6-liter V-6 gas A8 850RE 8-speed automatic 4.10 1298 4604 2424 2180 3100 3550 10300 5000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Rubicon",
+          "axle": "4.10",
+          "max_lb": 5000,
+          "gcwr_lb": 9950,
+          "package": "8-speed automatic",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 11,
+              "quote": "2.0-liter I-4 gas A8 850RE 8-speed automatic 4.10 1298 4602 2421 2181 3100 3550 9950 5000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.4,
+          "engine": "6.4L V-8",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Rubicon 392",
+          "axle": "4.56",
+          "max_lb": 3500,
+          "gcwr_lb": 10800,
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 11,
+              "quote": "6.4-liter V-8 gas A8 8HP75 8-speed automatic 4.56 1088 5268 2797 2471 3400 3550 10800 3500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4 PHEV (4xe)",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "all 4xe",
+          "max_lb": 3500,
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler 4xe Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_4xe_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 1,
+              "quote": "Max. Gross Trailer Weight 3,500 lbs.",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P245/75R17",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 10,
+              "quote": "Availability Standard (Sport) Size and type P245/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 10,
+              "quote": "Availability Standard (Sahara) Size and type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon and Willys",
+          "size": "LT285/70R17C",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 10,
+              "quote": "Availability Standard (Rubicon and Willys) Size and type LT285/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Xtreme 35 and Rubicon 392",
+          "size": "LT315/70R17C",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+              "type": "oem_spec_sheet",
+              "page": 10,
+              "quote": "Availability Standard (Xtreme 35 and Rubicon 392) Size and type LT315/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sport S 4xe",
+          "size": "255/60R20",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler 4xe Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_4xe_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "Availability Standard (Sport S 4xe) Size and type 255/60R20",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara 4xe",
+          "size": "255/55R20",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler 4xe Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_4xe_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 6,
+              "quote": "Availability Standard (Sahara 4xe) Size and type 255/55R20",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "High Altitude 4xe",
+          "size": "275/55R20",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler 4xe Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_4xe_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "Availability Standard (High Altitude 4xe) Size and type 275/55R20",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon and Willys 4xe",
+          "size": "LT285/70R17C",
+          "src": [
+            {
+              "doc": "2024 Jeep Wrangler 4xe Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_4xe_SP.pdf",
+              "type": "oem_spec_sheet",
+              "page": 7,
+              "quote": "Availability Standard (Rubicon and Willys 4xe) Size and type LT285/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 6.4,
+            "engine": "6.4L V-8",
+            "capacity_qt": 7.0,
+            "capacity_l": 6.6,
+            "src": [
+              {
+                "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+                "type": "oem_spec_sheet",
+                "page": 3,
+                "quote": "Oil Capacity 7 quarts (6.6 liters)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L Pentastar V-6",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.7,
+            "src": [
+              {
+                "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil Capacity 5.0 quarts (4.7 liters)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L Turbo I-4",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.7,
+            "src": [
+              {
+                "doc": "2024 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_SP5fcgnuvfl399adn0lfjsosc427.pdf",
+                "type": "oem_spec_sheet",
+                "page": 2,
+                "quote": "Oil Capacity 5 quarts (4.7 liters)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L Turbo I-4 PHEV",
+            "condition": "4xe plug-in hybrid",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.7,
+            "src": [
+              {
+                "doc": "2024 Jeep Wrangler 4xe Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_JP_Wrangler_4xe_SP.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil Capacity 5 quarts (4.7 liters)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -1615,6 +2872,222 @@
       }
     },
     "2025": {
+      "towing": [
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "note": "Rubicon 4.10 automatic: see the 5,000 lb row",
+          "src": [
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 3,
+              "quote": "907 kg (2,000 lbs.) (2-door), 1,587 kg (3,500 lbs.) (4-door), 2,276 kg (5,000 lbs.) (4-door Rubicon, automatic 4.10 axle ratio with LT285/70R17C tire)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "note": "Rubicon 4.10 automatic: see the 5,000 lb row",
+          "src": [
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 3,
+              "quote": "907 kg (2,000 lbs.) (2-door), 1,587 kg (3,500 lbs.) (4-door), 2,276 kg (5,000 lbs.) (4-door Rubicon, automatic 4.10 axle ratio with LT285/70R17C tire)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Rubicon",
+          "axle": "4.10",
+          "max_lb": 5000,
+          "gcwr_lb": 9950,
+          "package": "8-speed automatic, LT285/70R17C tires",
+          "note": "GCWR from the sheet's Rubicon table",
+          "src": [
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 3,
+              "quote": "907 kg (2,000 lbs.) (2-door), 1,587 kg (3,500 lbs.) (4-door), 2,276 kg (5,000 lbs.) (4-door Rubicon, automatic 4.10 axle ratio with LT285/70R17C tire)",
+              "accessed": "2026-10-14"
+            },
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 11,
+              "quote": "(1,298) (4,602) (2,421) (2,181) (3,100) (3,550) (9,950) (5,000)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Rubicon",
+          "max_lb": 5000,
+          "package": "automatic",
+          "note": "sheet line reads '5,000 lbs. (4-door Rubicon, automatic)'",
+          "src": [
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "5,000 lbs. (4-door Rubicon,",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P245/75R17",
+          "src": [
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 9,
+              "quote": "Availability Standard (Sport) Size and type P245/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 9,
+              "quote": "Availability Standard (Sahara) Size and type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon and Willys",
+          "size": "LT285/70R17C",
+          "src": [
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 10,
+              "quote": "Availability Standard (Rubicon and Willys) Size and type LT285/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Xtreme 35",
+          "size": "LT315/70R17C",
+          "src": [
+            {
+              "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+              "type": "oem_spec_sheet",
+              "page": 10,
+              "quote": "Availability Standard (Xtreme 35) Size and type LT315/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L Pentastar V-6",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.7,
+            "src": [
+              {
+                "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil Capacity, litres (quarts) 4.7 (5.0)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L Turbo I-4",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.7,
+            "src": [
+              {
+                "doc": "2025 Jeep Wrangler Canada Specifications (FCA/Stellantis media spec sheet)",
+                "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/CANADA_2025_JP_Wrangler_SP_qv55u7tfafof1vfvc7hpkbq4lu.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Oil Capacity, litres (quarts) 4.7 (5.0)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -1639,6 +3112,198 @@
       }
     },
     "2026": {
+      "towing": [
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "note": "Rubicon 4.10 automatic: see the 5,000 lb row",
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Two-Door",
+          "max_lb": 2000,
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "max_lb": 3500,
+          "note": "Rubicon 4.10 automatic: see the 5,000 lb row",
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 2,
+              "quote": "Max. Gross Trailer Weight 2,000 lbs. (2-door), 3,500 lbs. (4-door)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.6,
+          "engine": "3.6L Pentastar V-6",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Rubicon",
+          "axle": "4.10",
+          "max_lb": 5000,
+          "gcwr_lb": 10300,
+          "package": "8-speed automatic",
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 12,
+              "quote": "3.6-liter A8 850RE 8-speed 4.10 1,328 4,623 2,451 2,172 3,100 3,550 10,300 5,000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.0,
+          "engine": "2.0L Turbo I-4",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Rubicon",
+          "axle": "4.10",
+          "max_lb": 5000,
+          "gcwr_lb": 10300,
+          "package": "8-speed automatic",
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 12,
+              "quote": "2.0-liter A8 850RE 8-speed 4.10 1,310 4,640 2,460 2,180 3,100 3,550 10,300 5,000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.4,
+          "engine": "6.4L V-8",
+          "drive": "4WD",
+          "cab": "Four-Door",
+          "trim": "Moab 392",
+          "axle": "4.56",
+          "max_lb": 3500,
+          "gcwr_lb": 9400,
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 12,
+              "quote": "6.4-liter A8 8HP75 8-speed 4.56 1,088 5,268 2,797 2,471 3,400 3,550 9,400 3,500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "trim": "Sport",
+          "size": "P245/75R17",
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 10,
+              "quote": "Availability Standard (Sport) Size and type P245/75R17",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Sahara",
+          "size": "P255/70R18",
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 11,
+              "quote": "Availability Standard (Sahara) Size and type P255/70R18",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Rubicon and Willys",
+          "size": "LT285/70R17C",
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 11,
+              "quote": "Availability Standard (Rubicon and Willys) Size and type LT285/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Xtreme 35 and Moab 392",
+          "size": "LT315/70R17C",
+          "src": [
+            {
+              "doc": "2026 Jeep Wrangler Specifications (FCA/Stellantis media spec sheet)",
+              "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2026_JP_Wrangler_SPl4u58u77eeicb0t51n2lc8s5fg.pdf",
+              "type": "oem_spec_sheet",
+              "page": 11,
+              "quote": "Availability Standard (Xtreme 35 and Moab 392) Size and type LT315/70R17C",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "oil": {
         "engines": [
           {

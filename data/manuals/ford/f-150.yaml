@@ -1,4 +1,5 @@
-# Generated from OEM documents (quotes verified against the cited PDF page) plus Rain-X wiper fitment pages.
+# Generated: OEM towing guides/tech-spec sheets (quotes verified against the cited PDF page),
+# f150hub.com and tirepressure.com (third_party_reference), Rain-X wiper pages.
 slug: ford/f-150
 sources:
   tg2005:
@@ -236,6 +237,156 @@ sources:
     doc: 'Rain-X Blade Size Finder: 2026 Ford F-150'
     url: https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Ford&bf-model=F-150
     type: aftermarket_fitment
+    accessed: '2026-10-13'
+  ts2020:
+    doc: 2020 F-150 Technical Specs (Ford Motor Company)
+    url: https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2020/specs/2020-F-150-Technical-Specs.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-13'
+  ts2021:
+    doc: 2021 F-150 Technical Specs (Ford Motor Company)
+    url: https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2021/specs/2021-F-150-Technical-Specs.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-13'
+  f150hub_42:
+    doc: 'F150hub: Ford 4.2L V6 specs'
+    url: https://www.f150hub.com/specs/ford-4.2.html
+    type: third_party_reference
+    accessed: '2026-10-13'
+  f150hub_4654:
+    doc: 'F150hub: 4.6L/5.4L F-150 maintenance'
+    url: https://www.f150hub.com/maintenance/4.6-5.4-f-150-maintenance.html
+    type: third_party_reference
+    accessed: '2026-10-13'
+  f150hub_62:
+    doc: 'F150hub: Ford 6.2L V8 specs'
+    url: https://www.f150hub.com/specs/ford-6.2.html
+    type: third_party_reference
+    accessed: '2026-10-13'
+  f150hub_37:
+    doc: 'F150hub: Ford 3.7L V6 specs'
+    url: https://www.f150hub.com/specs/ford-3.7.html
+    type: third_party_reference
+    accessed: '2026-10-13'
+  f150hub_50:
+    doc: 'F150hub: Ford 5.0L V8 specs'
+    url: https://www.f150hub.com/specs/ford-5.0.html
+    type: third_party_reference
+    accessed: '2026-10-13'
+  f150hub_35:
+    doc: 'F150hub: Ford 3.5L Ti-VCT V6 specs'
+    url: https://www.f150hub.com/specs/ford-3.5.html
+    type: third_party_reference
+    accessed: '2026-10-13'
+  ts2026:
+    doc: 2026 Ford F-150 Tech Specs (Ford Motor Company)
+    url: https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_F150_Specs.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-13'
+  raptor2024:
+    doc: 2024 Ford Raptor and Raptor R Tech Specs (Ford Motor Company)
+    url: https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2024/specs/2024-Ford-Raptor-and-Raptor-R-Tech-Specs.pdf
+    type: oem_spec_sheet
+    accessed: '2026-10-13'
+  tp2005:
+    doc: 'TirePressure.com: 2005 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2005-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2006:
+    doc: 'TirePressure.com: 2006 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2006-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2007:
+    doc: 'TirePressure.com: 2007 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2007-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2008:
+    doc: 'TirePressure.com: 2008 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2008-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2009:
+    doc: 'TirePressure.com: 2009 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2009-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2010:
+    doc: 'TirePressure.com: 2010 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2010-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2011:
+    doc: 'TirePressure.com: 2011 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2011-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2012:
+    doc: 'TirePressure.com: 2012 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2012-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2013:
+    doc: 'TirePressure.com: 2013 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2013-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2014:
+    doc: 'TirePressure.com: 2014 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2014-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2015:
+    doc: 'TirePressure.com: 2015 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2015-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2016:
+    doc: 'TirePressure.com: 2016 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2016-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2017:
+    doc: 'TirePressure.com: 2017 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2017-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2018:
+    doc: 'TirePressure.com: 2018 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2018-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2019:
+    doc: 'TirePressure.com: 2019 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2019-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2020:
+    doc: 'TirePressure.com: 2020 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2020-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2022:
+    doc: 'TirePressure.com: 2022 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2022-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2023:
+    doc: 'TirePressure.com: 2023 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2023-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2024:
+    doc: 'TirePressure.com: 2024 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2024-ford-f-150-tire-pressure
+    type: third_party_reference
+    accessed: '2026-10-13'
+  tp2025:
+    doc: 'TirePressure.com: 2025 Ford F-150 Tire Pressure'
+    url: https://tirepressure.com/2025-ford-f-150-tire-pressure
+    type: third_party_reference
     accessed: '2026-10-13'
 records:
 - field: towing
@@ -1797,3 +1948,2544 @@ records:
     quote: 'Position: Driver Length (in.): 22"'
   - ref: rainx2026
     quote: 'Position: Passenger Length (in.): 22"'
+- field: oil
+  years:
+  - 2005
+  - 2005
+  displacement_l: 4.2
+  engine: 4.2L V6
+  capacity_qt: 6.0
+  src: &id001
+  - ref: f150hub_42
+    quote: 'Engine Oil Capacity: 6 qts w/ filter'
+- field: oil
+  years:
+  - 2006
+  - 2006
+  displacement_l: 4.2
+  engine: 4.2L V6
+  capacity_qt: 6.0
+  src: *id001
+- field: oil
+  years:
+  - 2007
+  - 2007
+  displacement_l: 4.2
+  engine: 4.2L V6
+  capacity_qt: 6.0
+  src: *id001
+- field: oil
+  years:
+  - 2008
+  - 2008
+  displacement_l: 4.2
+  engine: 4.2L V6
+  capacity_qt: 6.0
+  src: *id001
+- field: oil
+  years:
+  - 2005
+  - 2005
+  displacement_l: 4.6
+  engine: 4.6L V8
+  grade: 5W-20
+  capacity_qt: 6.0
+  src: &id002
+  - ref: f150hub_4654
+    quote: Engine oil (4.6L) SAE 5W-20 full synthetic engine oil 6 U.S. quarts w/ filter change
+- field: oil
+  years:
+  - 2006
+  - 2006
+  displacement_l: 4.6
+  engine: 4.6L V8
+  grade: 5W-20
+  capacity_qt: 6.0
+  src: *id002
+- field: oil
+  years:
+  - 2007
+  - 2007
+  displacement_l: 4.6
+  engine: 4.6L V8
+  grade: 5W-20
+  capacity_qt: 6.0
+  src: *id002
+- field: oil
+  years:
+  - 2008
+  - 2008
+  displacement_l: 4.6
+  engine: 4.6L V8
+  grade: 5W-20
+  capacity_qt: 6.0
+  src: *id002
+- field: oil
+  years:
+  - 2009
+  - 2009
+  displacement_l: 4.6
+  engine: 4.6L V8
+  grade: 5W-20
+  capacity_qt: 6.0
+  src: *id002
+- field: oil
+  years:
+  - 2010
+  - 2010
+  displacement_l: 4.6
+  engine: 4.6L V8
+  grade: 5W-20
+  capacity_qt: 6.0
+  src: *id002
+- field: oil
+  years:
+  - 2005
+  - 2005
+  displacement_l: 5.4
+  engine: 5.4L V8
+  grade: 5W-20
+  capacity_qt: 7.0
+  src: &id003
+  - ref: f150hub_4654
+    quote: 7 U.S. quarts w/ filter change (2004+ model years)
+  - ref: f150hub_4654
+    quote: Engine oil (5.4L) SAE 5W-20
+- field: oil
+  years:
+  - 2006
+  - 2006
+  displacement_l: 5.4
+  engine: 5.4L V8
+  grade: 5W-20
+  capacity_qt: 7.0
+  src: *id003
+- field: oil
+  years:
+  - 2007
+  - 2007
+  displacement_l: 5.4
+  engine: 5.4L V8
+  grade: 5W-20
+  capacity_qt: 7.0
+  src: *id003
+- field: oil
+  years:
+  - 2008
+  - 2008
+  displacement_l: 5.4
+  engine: 5.4L V8
+  grade: 5W-20
+  capacity_qt: 7.0
+  src: *id003
+- field: oil
+  years:
+  - 2009
+  - 2009
+  displacement_l: 5.4
+  engine: 5.4L V8
+  grade: 5W-20
+  capacity_qt: 7.0
+  src: *id003
+- field: oil
+  years:
+  - 2010
+  - 2010
+  displacement_l: 5.4
+  engine: 5.4L V8
+  grade: 5W-20
+  capacity_qt: 7.0
+  src: *id003
+- field: oil
+  years:
+  - 2011
+  - 2011
+  displacement_l: 3.7
+  engine: 3.7L V6
+  capacity_qt: 6.0
+  src: &id004
+  - ref: f150hub_37
+    quote: 'Engine Oil Capacity: 6 quarts w/ filter'
+- field: oil
+  years:
+  - 2012
+  - 2012
+  displacement_l: 3.7
+  engine: 3.7L V6
+  capacity_qt: 6.0
+  src: *id004
+- field: oil
+  years:
+  - 2013
+  - 2013
+  displacement_l: 3.7
+  engine: 3.7L V6
+  capacity_qt: 6.0
+  src: *id004
+- field: oil
+  years:
+  - 2014
+  - 2014
+  displacement_l: 3.7
+  engine: 3.7L V6
+  capacity_qt: 6.0
+  src: *id004
+- field: oil
+  years:
+  - 2011
+  - 2011
+  displacement_l: 6.2
+  engine: 6.2L V8
+  capacity_qt: 7.0
+  src: &id005
+  - ref: f150hub_62
+    quote: 'Engine Oil Capacity: 7 qts w/ filter'
+- field: oil
+  years:
+  - 2012
+  - 2012
+  displacement_l: 6.2
+  engine: 6.2L V8
+  capacity_qt: 7.0
+  src: *id005
+- field: oil
+  years:
+  - 2013
+  - 2013
+  displacement_l: 6.2
+  engine: 6.2L V8
+  capacity_qt: 7.0
+  src: *id005
+- field: oil
+  years:
+  - 2014
+  - 2014
+  displacement_l: 6.2
+  engine: 6.2L V8
+  capacity_qt: 7.0
+  src: *id005
+- field: oil
+  years:
+  - 2011
+  - 2011
+  displacement_l: 5.0
+  engine: 5.0L V8
+  capacity_qt: 7.7
+  src: &id006
+  - ref: f150hub_50
+    quote: 2011 - 2017 7.7 qts w/ filter
+- field: oil
+  years:
+  - 2012
+  - 2012
+  displacement_l: 5.0
+  engine: 5.0L V8
+  capacity_qt: 7.7
+  src: *id006
+- field: oil
+  years:
+  - 2013
+  - 2013
+  displacement_l: 5.0
+  engine: 5.0L V8
+  capacity_qt: 7.7
+  src: *id006
+- field: oil
+  years:
+  - 2014
+  - 2014
+  displacement_l: 5.0
+  engine: 5.0L V8
+  capacity_qt: 7.7
+  src: *id006
+- field: oil
+  years:
+  - 2015
+  - 2015
+  displacement_l: 5.0
+  engine: 5.0L V8
+  capacity_qt: 7.7
+  src: *id006
+- field: oil
+  years:
+  - 2016
+  - 2016
+  displacement_l: 5.0
+  engine: 5.0L V8
+  capacity_qt: 7.7
+  src: *id006
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 5.0
+  engine: 5.0L V8
+  capacity_qt: 7.7
+  src: *id006
+- field: oil
+  years:
+  - 2015
+  - 2015
+  displacement_l: 3.5
+  engine: 3.5L Ti-VCT V6 (naturally aspirated)
+  capacity_qt: 6.3
+  src: &id007
+  - ref: f150hub_35
+    quote: 'Engine Oil Capacity: 6.3 qts w/ filter'
+- field: oil
+  years:
+  - 2016
+  - 2016
+  displacement_l: 3.5
+  engine: 3.5L Ti-VCT V6 (naturally aspirated)
+  capacity_qt: 6.3
+  src: *id007
+- field: oil
+  years:
+  - 2017
+  - 2017
+  displacement_l: 3.5
+  engine: 3.5L Ti-VCT V6 (naturally aspirated)
+  capacity_qt: 6.3
+  src: *id007
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 3.3
+  engine: 3.3L Ti-VCT V6 FFV
+  capacity_qt: 6.0
+  src:
+  - &id008
+    ref: ts2020
+    page: 1
+    quote: Oil capacity/grade 6 quarts 6 quarts 8.85 quarts
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 2.7
+  engine: 2.7L EcoBoost V6
+  capacity_qt: 6.0
+  src:
+  - *id008
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 5.0
+  engine: 5.0L V8
+  capacity_qt: 8.85
+  src:
+  - *id008
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 3.5
+  engine: 3.5L EcoBoost V6 (incl. High Output)
+  capacity_qt: 6.0
+  src:
+  - &id009
+    ref: ts2020
+    page: 1
+    quote: Oil capacity/grade 6 quarts 6.5 quarts 6 quarts
+- field: oil
+  years:
+  - 2020
+  - 2020
+  displacement_l: 3.0
+  engine: 3.0L Power Stroke V6 diesel
+  capacity_qt: 6.5
+  src:
+  - *id009
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.3
+  engine: 3.3-liter Ti-VCT V6 FFV
+  grade: 5W-20
+  capacity_qt: 6.0
+  src:
+  - &id010
+    ref: ts2021
+    page: 1
+    quote: 6 quarts with Filter 6 quarts with Filter 7.75 quarts
+  - &id011
+    ref: ts2021
+    page: 1
+    quote: (5W-20 SAE GF6) (5W-30 SAE GF6) (5W-30 SAE GF6)
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 2.7
+  engine: 2.7-liter EcoBoost V6
+  grade: 5W-30
+  capacity_qt: 6.0
+  src:
+  - *id010
+  - *id011
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 5.0
+  engine: 5.0-liter Ti-VCT V8
+  grade: 5W-30
+  capacity_qt: 7.75
+  src:
+  - *id010
+  - *id011
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.0
+  engine: 3.0-liter Power Stroke V6 diesel
+  grade: 5W-30
+  capacity_qt: 6.5
+  src:
+  - &id012
+    ref: ts2021
+    page: 2
+    quote: 6.5 quarts (5W-30 SAE FA4) 6 quarts with Filter (5W-30 SAE GF6) 6 quarts with Filter (5W-30 SAE GF6)
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.5
+  engine: 3.5-liter EcoBoost V6
+  grade: 5W-30
+  capacity_qt: 6.0
+  src:
+  - *id012
+- field: oil
+  years:
+  - 2021
+  - 2021
+  displacement_l: 3.5
+  engine: 3.5-liter PowerBoost full hybrid V6
+  condition: PowerBoost hybrid
+  grade: 5W-30
+  capacity_qt: 6.0
+  src:
+  - *id012
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: 245/70R17
+  note: standard; also OWL all-terrain
+  src:
+  - ref: ts2021
+    page: 6
+    quote: 245/70R17 black side wall (BSW) all-season tires
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: LT265/70R17C
+  note: standard
+  src:
+  - ref: ts2021
+    page: 6
+    quote: LT265/70R17C BSW all-terrain tires
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: 265/60R18
+  note: standard
+  src:
+  - ref: ts2021
+    page: 6
+    quote: 265/60R18 BSW all-season tires
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: 275/65R18
+  note: standard
+  src:
+  - ref: ts2021
+    page: 6
+    quote: 275/65R18 OWL all-terrain tires
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: LT265/70R18C
+  note: standard
+  src:
+  - ref: ts2021
+    page: 6
+    quote: LT265/70R18C OWL all-terrain tires
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: 275/60R20
+  note: optional; also OWL/BSW all-terrain
+  src:
+  - ref: ts2021
+    page: 6
+    quote: 275/60R20 BSW all-season tires
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: 275/50R22
+  note: optional
+  src:
+  - ref: ts2021
+    page: 6
+    quote: 275/50R22 BSW all-season tires
+- field: tires
+  years:
+  - 2021
+  - 2021
+  size: 275/70R18
+  trim: Tremor
+  note: optional
+  src:
+  - ref: ts2021
+    page: 6
+    quote: 275/70R18 BSW all-terrain tires, Tremor
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 245/70R17
+  trim: XL, XLT 4x2
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 245/70R17 all-season (XL, XLT 4x2)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 265/70R17
+  trim: XL 4x4
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 265/70R17 all-terrain (XL 4x4)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 265/60R18
+  trim: STX, Lariat 4x2
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 265/60R18 all-season (STX, Lariat 4x2)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 275/65R18
+  trim: STX, XLT, Lariat 4x4
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 275/65R18 all-terrain (STX, XLT, Lariat 4x4)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 275/70R18
+  trim: Tremor
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 275/70R18 all-terrain (Tremor)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 275/60R20
+  trim: King Ranch, Platinum 4x2
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 275/60R20 all-season (King Ranch, Platinum 4x2)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 275/60R20
+  trim: King Ranch, Platinum 4x4
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 275/60R20 all-terrain (King Ranch, Platinum 4x4)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: LT315/70R17
+  trim: Raptor
+  src:
+  - ref: ts2026
+    page: 7
+    quote: LT315/70R17 all-terrain (Raptor)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 265/70R17C
+  trim: XL Fleet, FX4 Package
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 265/70R17C all-terrain (XL Fleet, FX4 Package)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 265/60R18
+  trim: XLT 4x2
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 265/60R18 all-season (XLT 4x2)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 265/70R18C
+  trim: XLT 4x4
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 265/70R18C all-terrain (XLT 4x4)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 275/60R20
+  trim: STX, Lariat 4x2
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 275/60R20 all-season (STX, Lariat 4x2)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 275/60R20
+  trim: STX, Lariat 4x4
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 275/60R20 all-terrain (STX, Lariat 4x4)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 275/50R22
+  trim: STX Lobo Package, King Ranch, Platinum
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 275/50R22 all-season (STX Lobo Package, King Ranch, Platinum)
+- field: tires
+  years:
+  - 2026
+  - 2026
+  size: 37x12.5R17
+  trim: Raptor 37 Package
+  src:
+  - ref: ts2026
+    page: 7
+    quote: 37x12.5R17 all-terrain (Raptor 37 Package)
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: LT315/70R17
+  trim: Raptor
+  src:
+  - ref: raptor2024
+    page: 3
+    quote: LT315/70R17
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 37x12.5R17LT
+  trim: Raptor R (optional on Raptor)
+  src:
+  - ref: raptor2024
+    page: 3
+    quote: 37x12.5R17LT BFGoodrich All-Terrain T/A KO2 Tires
+- field: tires
+  years:
+  - 2005
+  - 2005
+  size: LT245/70R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2005
+    quote: LT245/70R17 50 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2005
+  - 2005
+  size: LT275/65R18
+  trim: FX4 King Ranch Lariat 4x4
+  src:
+  - ref: tp2005
+    quote: LT275/65R18 45 psi 50 psi FX4 King Ranch Lariat 4x4
+- field: tires
+  years:
+  - 2005
+  - 2005
+  size: P235/70R17
+  trim: XL 4x2 XLT 4x2
+  src:
+  - ref: tp2005
+    quote: P235/70R17 38 psi 38 psi XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2005
+  - 2005
+  size: P235/75R17
+  trim: XL 4x4 XLT 4x4
+  src:
+  - ref: tp2005
+    quote: P235/75R17 35 psi 35 psi XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2005
+  - 2005
+  size: P255/65R17
+  trim: STX 4x2 XL 4x2 XLT 4x2
+  src:
+  - ref: tp2005
+    quote: P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2005
+  - 2005
+  size: P255/70R17
+  trim: FX4 STX 4x4 XL 4x4 XLT 4x4
+  src:
+  - ref: tp2005
+    quote: P255/70R17 35 psi 35 psi FX4 STX 4x4 XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2005
+  - 2005
+  size: P265/60R18
+  trim: Lariat 4x2
+  src:
+  - ref: tp2005
+    quote: P265/60R18 35 psi 35 psi Lariat 4x2
+- field: tires
+  years:
+  - 2005
+  - 2005
+  size: P275/65R18
+  trim: FX4 King Ranch Lariat 4x4
+  src:
+  - ref: tp2005
+    quote: P275/65R18 35 psi 35 psi FX4 King Ranch Lariat 4x4
+- field: tires
+  years:
+  - 2006
+  - 2006
+  size: LT245/70R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2006
+    quote: LT245/70R17 50 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2006
+  - 2006
+  size: LT275/65R18
+  trim: FX4 Lariat 4x4
+  src:
+  - ref: tp2006
+    quote: LT275/65R18 45 psi 50 psi FX4 Lariat 4x4
+- field: tires
+  years:
+  - 2006
+  - 2006
+  size: P235/70R17
+  trim: XL 4x2 XLT 4x2 Regular/Super Cab
+  src:
+  - ref: tp2006
+    quote: P235/70R17 38 psi 38 psi XL 4x2 XLT 4x2 Regular/Super Cab
+- field: tires
+  years:
+  - 2006
+  - 2006
+  size: P235/75R17
+  trim: XL 4x4 XLT 4x4 Regular/Super Cab
+  src:
+  - ref: tp2006
+    quote: P235/75R17 35 psi 35 psi XL 4x4 XLT 4x4 Regular/Super Cab
+- field: tires
+  years:
+  - 2006
+  - 2006
+  size: P255/65R17
+  trim: STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2006
+    quote: P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2006
+  - 2006
+  size: P255/70R17
+  trim: STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2006
+    quote: P255/70R17 35 psi 35 psi STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2006
+  - 2006
+  size: P265/60R18
+  trim: King Ranch 4x2 Lariat 4x2 XLT 4x2 (18 Inch Option)
+  src:
+  - ref: tp2006
+    quote: P265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2 (18 Inch Option)
+- field: tires
+  years:
+  - 2006
+  - 2006
+  size: P275/45R22
+  trim: Harley-Davidson Edition
+  src:
+  - ref: tp2006
+    quote: P275/45R22 35 psi 35 psi Harley-Davidson Edition
+- field: tires
+  years:
+  - 2006
+  - 2006
+  size: P275/55R20
+  trim: FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option)
+  src:
+  - ref: tp2006
+    quote: P275/55R20 35 psi 35 psi FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option)
+- field: tires
+  years:
+  - 2006
+  - 2006
+  size: P275/65R18
+  trim: FX4 King Ranch 4x4 Lariat 4x4 XLT 4x4 (18 Inch Option)
+  src:
+  - ref: tp2006
+    quote: P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 XLT 4x4 (18 Inch Option)
+- field: tires
+  years:
+  - 2007
+  - 2007
+  size: LT245/70R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2007
+    quote: LT245/70R17 50 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2007
+  - 2007
+  size: LT275/65R18
+  trim: FX4 Lariat 4x4
+  src:
+  - ref: tp2007
+    quote: LT275/65R18 45 psi 50 psi FX4 Lariat 4x4
+- field: tires
+  years:
+  - 2007
+  - 2007
+  size: P235/70R17
+  trim: XL 4x2 XLT 4x2 Regular/Super Cab
+  src:
+  - ref: tp2007
+    quote: P235/70R17 38 psi 38 psi XL 4x2 XLT 4x2 Regular/Super Cab
+- field: tires
+  years:
+  - 2007
+  - 2007
+  size: P235/75R17
+  trim: XL 4x4 XLT 4x4 Regular/Super Cab
+  src:
+  - ref: tp2007
+    quote: P235/75R17 35 psi 35 psi XL 4x4 XLT 4x4 Regular/Super Cab
+- field: tires
+  years:
+  - 2007
+  - 2007
+  size: P255/65R17
+  trim: STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2007
+    quote: P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2007
+  - 2007
+  size: P255/70R17
+  trim: STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2007
+    quote: P255/70R17 35 psi 35 psi STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2007
+  - 2007
+  size: P265/60R18
+  trim: FX2 King Ranch 4x2 Lariat 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2007
+    quote: P265/60R18 35 psi 35 psi FX2 King Ranch 4x2 Lariat 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2007
+  - 2007
+  size: P275/45R22
+  trim: Harley-Davidson Edition
+  src:
+  - ref: tp2007
+    quote: P275/45R22 35 psi 35 psi Harley-Davidson Edition
+- field: tires
+  years:
+  - 2007
+  - 2007
+  size: P275/55R20
+  trim: FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option)
+  src:
+  - ref: tp2007
+    quote: P275/55R20 35 psi 35 psi FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option)
+- field: tires
+  years:
+  - 2007
+  - 2007
+  size: P275/65R18
+  trim: FX4 King Ranch 4x4 Lariat 4x4 XLT 4x4 (18 Inch Option) XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2007
+    quote: P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 XLT 4x4 (18 Inch Option) XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: LT245/70R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2008
+    quote: LT245/70R17 50 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: LT275/65R18
+  trim: FX4 Lariat 4x4
+  src:
+  - ref: tp2008
+    quote: LT275/65R18 45 psi 50 psi FX4 Lariat 4x4
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P235/70R17
+  trim: XL 4x2 XLT 4x2 Regular/Super Cab
+  src:
+  - ref: tp2008
+    quote: P235/70R17 38 psi 38 psi XL 4x2 XLT 4x2 Regular/Super Cab
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P235/75R17
+  trim: XL 4x4 XLT 4x4 Regular/Super Cab
+  src:
+  - ref: tp2008
+    quote: P235/75R17 35 psi 35 psi XL 4x4 XLT 4x4 Regular/Super Cab
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P255/65R17
+  trim: STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2008
+    quote: P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P255/70R17
+  trim: STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2008
+    quote: P255/70R17 35 psi 35 psi STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P265/60R18
+  trim: FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2008
+    quote: P265/60R18 35 psi 35 psi FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P275/45R22
+  trim: Harley-Davidson Edition Limited
+  src:
+  - ref: tp2008
+    quote: P275/45R22 35 psi 35 psi Harley-Davidson Edition Limited
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P275/55R20
+  trim: FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) XLT 4x4 (20 Inch Option)
+  src:
+  - ref: tp2008
+    quote: P275/55R20 35 psi 35 psi FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) XLT 4x4 (20 Inch Option)
+- field: tires
+  years:
+  - 2008
+  - 2008
+  size: P275/65R18
+  trim: FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option) XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2008
+    quote: P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option) XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: LT245/70R17
+  trim: XL (LT Tire Option) XLT (LT Tire Option)
+  src:
+  - ref: tp2009
+    quote: LT245/70R17 50 psi 60 psi XL (LT Tire Option) XLT (LT Tire Option)
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: LT245/75R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2009
+    quote: LT245/75R17 55 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: LT275/65R18
+  trim: FX4 Lariat 4x4
+  src:
+  - ref: tp2009
+    quote: LT275/65R18 45 psi 50 psi FX4 Lariat 4x4
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P235/70R17
+  trim: XL 4x2 Regular/Super Cab XLT 4x2 Regular/Super Cab
+  src:
+  - ref: tp2009
+    quote: P235/70R17 38 psi 38 psi XL 4x2 Regular/Super Cab XLT 4x2 Regular/Super Cab
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P235/75R17
+  trim: XL 4x4 Regular/Super Cab XLT 4x4 Regular/Super Cab
+  src:
+  - ref: tp2009
+    quote: P235/75R17 35 psi 35 psi XL 4x4 Regular/Super Cab XLT 4x4 Regular/Super Cab
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P255/65R17
+  trim: STX 4x2 XL 4x2 Regular/Super Cab XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2009
+    quote: P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 Regular/Super Cab XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2
+      Super Crew Cab
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P255/70R17
+  trim: STX 4x4 XL 4x4 Regular/Super Cab XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2009
+    quote: P255/70R17 35 psi 35 psi STX 4x4 XL 4x4 Regular/Super Cab XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4
+      Super Crew Cab
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P265/60R18
+  trim: King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (XLT Chrome Package) XLT 4x2 Super Cab (18 Inch Option) XLT 4x2 Super Crew
+    Cab
+  src:
+  - ref: tp2009
+    quote: P265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (XLT Chrome Package) XLT 4x2 Super Cab (18 Inch
+      Option) XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P275/55R20
+  trim: 'FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) Lariat 4x2 Platinum XLT 4x2 (XLT Chrome Package) XLT 4x2
+    Super Cab (20 Inch Option) XLT 4x4 '
+  src:
+  - ref: tp2009
+    quote: P275/55R20 35 psi 35 psi FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) Lariat 4x2 Platinum XLT 4x2
+      (XLT Chrome Package) XLT 4x2 Super Cab (20 Inch Option) XLT 4x4 (XLT Chrome Package)
+- field: tires
+  years:
+  - 2009
+  - 2009
+  size: P275/65R18
+  trim: FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (XLT Chrome Package) XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2009
+    quote: P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (XLT Chrome Package) XLT 4x4 Super Crew
+      Cab
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: LT245/75R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2010
+    quote: LT245/75R17 55 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: LT275/65R18
+  trim: FX4 Lariat 4x4
+  src:
+  - ref: tp2010
+    quote: LT275/65R18 45 psi 50 psi FX4 Lariat 4x4
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: LT315/70R17
+  trim: SVT Raptor
+  src:
+  - ref: tp2010
+    quote: LT315/70R17 44 psi 44 psi SVT Raptor
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P235/70R17
+  trim: XL 4x2 XLT 4x2 Regular/Super Cab
+  src:
+  - ref: tp2010
+    quote: P235/70R17 38 psi 38 psi XL 4x2 XLT 4x2 Regular/Super Cab
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P235/75R17
+  trim: XL 4x4 XLT 4x4 Regular/Super Cab
+  src:
+  - ref: tp2010
+    quote: P235/75R17 35 psi 35 psi XL 4x4 XLT 4x4 Regular/Super Cab
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P255/65R17
+  trim: STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2010
+    quote: P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P265/60R18
+  trim: FX2 4x2 Super Cab FX2 4x2 Super Crew Cab King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option) XLT 4x2 (XLT Chrome
+    Package) XLT 4x2 Super Crew Ca
+  src:
+  - ref: tp2010
+    quote: P265/60R18 35 psi 35 psi FX2 4x2 Super Cab FX2 4x2 Super Crew Cab King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18
+      Inch Option) XLT 4x2 (XLT Chrome Package) XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P265/70R17
+  trim: STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2010
+    quote: P265/70R17 35 psi 35 psi STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P275/45R22
+  trim: Harley-Davidson Edition
+  src:
+  - ref: tp2010
+    quote: P275/45R22 35 psi 35 psi Harley-Davidson Edition
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P275/55R20
+  trim: FX2 4x2 Super Cab FX2 4x2 Super Crew Cab FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20 Inch Option) Lariat 4x2 Platinum
+    XLT 4x2 (XLT Chrome Package) XL
+  src:
+  - ref: tp2010
+    quote: P275/55R20 35 psi 35 psi FX2 4x2 Super Cab FX2 4x2 Super Crew Cab FX4 King Ranch 4x2 King Ranch 4x4 Lariat (20
+      Inch Option) Lariat 4x2 Platinum XLT 4x2 (XLT Chrome Package) XLT 4x4 (20 Inch Option) XL
+- field: tires
+  years:
+  - 2010
+  - 2010
+  size: P275/65R18
+  trim: FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 Super Cab (XLT Chrome Package) XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2010
+    quote: P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 Super Cab (XLT Chrome Package) XLT 4x4 Super
+      Crew Cab
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: LT245/75R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2011
+    quote: LT245/75R17 55 psi 60 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: LT275/65R18
+  trim: FX4 Lariat 4x4
+  src:
+  - ref: tp2011
+    quote: LT275/65R18 40 psi 40 psi FX4 Lariat 4x4
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: LT315/70R17
+  trim: SVT Raptor
+  src:
+  - ref: tp2011
+    quote: LT315/70R17 44 psi 44 psi SVT Raptor
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P235/75R17
+  trim: XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab
+  src:
+  - ref: tp2011
+    quote: P235/75R17 35 psi 35 psi XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P255/65R17
+  trim: STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2011
+    quote: P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P265/60R18
+  trim: FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option)
+  src:
+  - ref: tp2011
+    quote: P265/60R18 35 psi 35 psi FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option)
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P265/70R17
+  trim: STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2011
+    quote: P265/70R17 35 psi 35 psi STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P275/45R22
+  trim: Harley-Davidson Edition Lariat Limited
+  src:
+  - ref: tp2011
+    quote: P275/45R22 35 psi 35 psi Harley-Davidson Edition Lariat Limited
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P275/55R20
+  trim: FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 (20 Inch Option) XLT 4x4 (20 Inch Option)
+  src:
+  - ref: tp2011
+    quote: P275/55R20 35 psi 35 psi FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 (20 Inch
+      Option) XLT 4x4 (20 Inch Option)
+- field: tires
+  years:
+  - 2011
+  - 2011
+  size: P275/65R18
+  trim: FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option)
+  src:
+  - ref: tp2011
+    quote: P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option)
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: LT245/75R17
+  trim: Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2012
+    quote: LT245/75R17 55 psi 60 psi Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy
+      Duty Payload Package
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: LT275/65R18
+  trim: FX4 Lariat 4x4
+  src:
+  - ref: tp2012
+    quote: LT275/65R18 40 psi 40 psi FX4 Lariat 4x4
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: LT315/70R17
+  trim: SVT Raptor
+  src:
+  - ref: tp2012
+    quote: LT315/70R17 44 psi 44 psi SVT Raptor
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P235/75R17
+  trim: XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab
+  src:
+  - ref: tp2012
+    quote: P235/75R17 35 psi 35 psi XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P255/65R17
+  trim: STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2012
+    quote: P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XL 4x2 Super Crew Cab XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P265/60R18
+  trim: FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option)
+  src:
+  - ref: tp2012
+    quote: P265/60R18 35 psi 35 psi FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 (18 Inch Option)
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P265/70R17
+  trim: STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2012
+    quote: P265/70R17 35 psi 35 psi STX 4x4 XL 4x4 XL 4x4 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P275/45R22
+  trim: Harley-Davidson Edition
+  src:
+  - ref: tp2012
+    quote: P275/45R22 35 psi 35 psi Harley-Davidson Edition
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P275/55R20
+  trim: FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 (20 Inch Option) XLT 4x4 (20 Inch Option)
+  src:
+  - ref: tp2012
+    quote: P275/55R20 35 psi 35 psi FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 (20 Inch
+      Option) XLT 4x4 (20 Inch Option)
+- field: tires
+  years:
+  - 2012
+  - 2012
+  size: P275/65R18
+  trim: FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option)
+  src:
+  - ref: tp2012
+    quote: P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 (18 Inch Option)
+- field: tires
+  years:
+  - 2013
+  - 2013
+  size: LT245/75R17
+  trim: Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2013
+    quote: LT245/75R17 55 psi 60 psi Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package XLT with Heavy
+      Duty Payload Package
+- field: tires
+  years:
+  - 2013
+  - 2013
+  size: LT275/65R18
+  trim: FX4 Lariat 4x4
+  src:
+  - ref: tp2013
+    quote: LT275/65R18 40 psi 40 psi FX4 Lariat 4x4
+- field: tires
+  years:
+  - 2013
+  - 2013
+  size: LT315/70R17
+  trim: SVT Raptor
+  src:
+  - ref: tp2013
+    quote: LT315/70R17 44 psi 44 psi SVT Raptor
+- field: tires
+  years:
+  - 2013
+  - 2013
+  size: P235/75R17
+  trim: XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab
+  src:
+  - ref: tp2013
+    quote: P235/75R17 35 psi 35 psi XL 4x2 XL 4x4 XLT 4x2 Regular/Super Cab XLT 4x4 Regular/Super Cab
+- field: tires
+  years:
+  - 2013
+  - 2013
+  size: P255/65R17
+  trim: STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2013
+    quote: P255/65R17 35 psi 35 psi STX 4x2 XL 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2013
+  - 2013
+  size: P265/60R18
+  trim: FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2013
+    quote: P265/60R18 35 psi 35 psi FX2 King Ranch 4x2 Lariat 4x2 STX 4x2 XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2013
+  - 2013
+  size: P265/70R17
+  trim: STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2013
+    quote: P265/70R17 35 psi 35 psi STX 4x4 XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2013
+  - 2013
+  size: P275/45R22
+  trim: Limited
+  src:
+  - ref: tp2013
+    quote: P275/45R22 35 psi 35 psi Limited
+- field: tires
+  years:
+  - 2013
+  - 2013
+  size: P275/55R20
+  trim: FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 Regular/Super Cab XLT 4x2 Super Crew
+    Cab XLT 4x4 Regular/Super Cab XLT 4x
+  src:
+  - ref: tp2013
+    quote: P275/55R20 35 psi 35 psi FX2 FX4 King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 Regular/Super
+      Cab XLT 4x2 Super Crew Cab XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2013
+  - 2013
+  size: P275/65R18
+  trim: FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2013
+    quote: P275/65R18 35 psi 35 psi FX4 King Ranch 4x4 Lariat 4x4 STX 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: LT245/75R17
+  trim: King Ranch 4x4 with Off-Road Package Lariat 4x4 with Off-Road Package XL with Heavy Duty Payload Package XLT 4x4 with
+    Off-Road Package
+  src:
+  - ref: tp2014
+    quote: LT245/75R17 40 psi 40 psi King Ranch 4x4 with Off-Road Package Lariat 4x4 with Off-Road Package XL with Heavy Duty
+      Payload Package XLT 4x4 with Off-Road Package
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: LT275/65R18
+  trim: FX4 Super Crew with Super Cab King Ranch 4x4 with Off-Road Package Lariat 4x4 with Off-Road Package XLT 4x4 with Off-Road
+    Package
+  src:
+  - ref: tp2014
+    quote: LT275/65R18 40 psi 40 psi FX4 Super Crew with Super Cab King Ranch 4x4 with Off-Road Package Lariat 4x4 with Off-Road
+      Package XLT 4x4 with Off-Road Package
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: LT315/70R17
+  trim: SVT Raptor
+  src:
+  - ref: tp2014
+    quote: LT315/70R17 44 psi 44 psi SVT Raptor
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P235/75R17
+  trim: STX 4x2 Regular/Super Cab XL 4x2 XL 4x4 XLT 4x2 Regular Cab XLT 4x2 Super Cab XLT 4x4 Regular/Super Cab
+  src:
+  - ref: tp2014
+    quote: P235/75R17 35 psi 35 psi STX 4x2 Regular/Super Cab XL 4x2 XL 4x4 XLT 4x2 Regular Cab XLT 4x2 Super Cab XLT 4x4
+      Regular/Super Cab
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P255/65R17
+  trim: XL 4x2 XLT 4x2 Regular Cab XLT 4x2 Super Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2014
+    quote: P255/65R17 35 psi 35 psi XL 4x2 XLT 4x2 Regular Cab XLT 4x2 Super Cab XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P265/60R18
+  trim: FX2 Super Crew with Super Cab King Ranch 4x2 Lariat 4x2 STX 4x2 Regular/Super Cab STX 4x2 Super Crew Cab XLT 4x2 Super
+    Cab XLT 4x2 Super Crew Cab
+  src:
+  - ref: tp2014
+    quote: P265/60R18 35 psi 35 psi FX2 Super Crew with Super Cab King Ranch 4x2 Lariat 4x2 STX 4x2 Regular/Super Cab STX
+      4x2 Super Crew Cab XLT 4x2 Super Cab XLT 4x2 Super Crew Cab
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P265/70R17
+  trim: STX 4x4 Regular/Super Cab XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+  src:
+  - ref: tp2014
+    quote: P265/70R17 35 psi 35 psi STX 4x4 Regular/Super Cab XL 4x4 XLT 4x4 Regular/Super Cab XLT 4x4 Super Crew Cab
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P275/45R22
+  trim: Limited
+  src:
+  - ref: tp2014
+    quote: P275/45R22 35 psi 35 psi Limited
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P275/55R20
+  trim: FX2 Regular Cab FX2 Super Crew with Super Cab FX4 Regular Cab FX4 Super Crew with Super Cab King Ranch 4x2 King Ranch
+    4x4 Lariat 4x2 Lariat 4x4 Platin
+  src:
+  - ref: tp2014
+    quote: 'P275/55R20 35 psi 35 psi FX2 Regular Cab FX2 Super Crew with Super Cab FX4 Regular Cab FX4 Super Crew with Super
+      Cab King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum STX 4x2 Regular/Super '
+- field: tires
+  years:
+  - 2014
+  - 2014
+  size: P275/65R18
+  trim: FX2 Super Crew with Super Cab FX4 Super Crew with Super Cab King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 STX
+    4x2 Regular/Super Cab STX 4x4 Regu
+  src:
+  - ref: tp2014
+    quote: P275/65R18 35 psi 35 psi FX2 Super Crew with Super Cab FX4 Super Crew with Super Cab King Ranch 4x2 King Ranch
+      4x4 Lariat 4x2 Lariat 4x4 STX 4x2 Regular/Super Cab STX 4x4 Regular/Super Cab STX 4x4 Sup
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: 265/60R18
+  trim: King Ranch 4x2 Lariat 4x2 XLT 4x2
+  src:
+  - ref: tp2015
+    quote: 265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: 265/70R17
+  trim: XL 4x4 XLT 4x4
+  src:
+  - ref: tp2015
+    quote: 265/70R17 35 psi 35 psi XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: 275/55R20
+  trim: King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2015
+    quote: 275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 XLT 4x4
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: 275/65R18
+  trim: King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4
+  src:
+  - ref: tp2015
+    quote: 275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: LT245/70R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2015
+    quote: LT245/70R17 40 psi 40 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: LT275/65R18
+  trim: King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package
+    XLT with Heavy Duty Payload Packa
+  src:
+  - ref: tp2015
+    quote: LT275/65R18 40 psi 40 psi King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL
+      with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: P245/70R17
+  trim: XL 4x2 XLT 4x2
+  src:
+  - ref: tp2015
+    quote: P245/70R17 35 psi 35 psi XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2015
+  - 2015
+  size: P275/55R20
+  trim: King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2015
+    quote: P275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XLT 4x2 XLT 4x4
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: 265/60R18
+  trim: King Ranch 4x2 Lariat 4x2 XL 4x2 XLT 4x2
+  src:
+  - ref: tp2016
+    quote: 265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: 265/70R17
+  trim: XL 4x4 XLT 4x4
+  src:
+  - ref: tp2016
+    quote: 265/70R17 35 psi 35 psi XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: 275/55R20
+  trim: King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2016
+    quote: 275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XLT 4x2 XLT 4x4
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: 275/65R18
+  trim: King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4
+  src:
+  - ref: tp2016
+    quote: 275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: LT245/70R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2016
+    quote: LT245/70R17 40 psi 40 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: LT275/65R18
+  trim: King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package
+    XLT with Heavy Duty Payload Packa
+  src:
+  - ref: tp2016
+    quote: LT275/65R18 40 psi 40 psi King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL
+      with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: P245/70R17
+  trim: XL 4x2 XLT 4x2
+  src:
+  - ref: tp2016
+    quote: P245/70R17 35 psi 35 psi XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: P275/45R22
+  trim: Limited
+  src:
+  - ref: tp2016
+    quote: P275/45R22 35 psi 35 psi Limited
+- field: tires
+  years:
+  - 2016
+  - 2016
+  size: P275/55R20
+  trim: King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2016
+    quote: P275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XLT 4x2 XLT 4x4
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: 245/70R17
+  trim: XL 4x2 XLT 4x2
+  src:
+  - ref: tp2017
+    quote: 245/70R17 35 psi 35 psi XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: 265/60R18
+  trim: King Ranch 4x2 Lariat 4x2 XLT 4x2
+  src:
+  - ref: tp2017
+    quote: 265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: 265/70R17
+  trim: XL 4x4 XLT 4x4
+  src:
+  - ref: tp2017
+    quote: 265/70R17 35 psi 35 psi XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: 275/55R20
+  trim: King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2017
+    quote: 275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT
+      4x4
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: 275/65R18
+  trim: King Ranch 4x4 Lariat 4x4 XLT 4x4
+  src:
+  - ref: tp2017
+    quote: 275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: LT245/70R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2017
+    quote: LT245/70R17 40 psi 40 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: LT275/65R18
+  trim: King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package
+    XLT with Heavy Duty Payload Packa
+  src:
+  - ref: tp2017
+    quote: LT275/65R18 40 psi 40 psi King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL
+      with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: LT315/70R17
+  trim: Raptor
+  src:
+  - ref: tp2017
+    quote: LT315/70R17 38 psi 38 psi Raptor
+- field: tires
+  years:
+  - 2017
+  - 2017
+  size: P275/45R22
+  trim: Limited
+  src:
+  - ref: tp2017
+    quote: P275/45R22 35 psi 35 psi Limited
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: 245/70R17
+  trim: XL 4x2 XLT 4x2
+  src:
+  - ref: tp2018
+    quote: 245/70R17 35 psi 35 psi XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: 265/60R18
+  trim: King Ranch 4x2 Lariat 4x2 XLT 4x2
+  src:
+  - ref: tp2018
+    quote: 265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: 265/70R17
+  trim: XL 4x4 XLT 4x4
+  src:
+  - ref: tp2018
+    quote: 265/70R17 35 psi 35 psi XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: 275/55R20
+  trim: King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2018
+    quote: 275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT
+      4x4
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: 275/65R18
+  trim: King Ranch 4x4 Lariat 4x4 XLT 4x4
+  src:
+  - ref: tp2018
+    quote: 275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: LT245/70R17
+  trim: XL 4x4 XLT 4x4
+  src:
+  - ref: tp2018
+    quote: LT245/70R17 40 psi 40 psi XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: LT275/65R18
+  trim: King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4
+  src:
+  - ref: tp2018
+    quote: LT275/65R18 40 psi 40 psi King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: LT315/70R17
+  trim: Raptor
+  src:
+  - ref: tp2018
+    quote: LT315/70R17 38 psi 38 psi Raptor
+- field: tires
+  years:
+  - 2018
+  - 2018
+  size: P275/45R22
+  trim: Limited
+  src:
+  - ref: tp2018
+    quote: P275/45R22 35 psi 35 psi Limited
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: 245/70R17
+  trim: XL 4x2 XLT 4x2
+  src:
+  - ref: tp2019
+    quote: 245/70R17   XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: 265/60R18
+  trim: King Ranch 4x2 Lariat 4x2 XLT 4x2
+  src:
+  - ref: tp2019
+    quote: 265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: 265/70R17
+  trim: XL 4x4 XLT 4x4
+  src:
+  - ref: tp2019
+    quote: 265/70R17   XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: 275/55R20
+  trim: King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2019
+    quote: 275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT
+      4x4
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: 275/65R18
+  trim: King Ranch 4x4 Lariat 4x4 XLT 4x4
+  src:
+  - ref: tp2019
+    quote: 275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: LT245/70R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2019
+    quote: LT245/70R17   XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: LT275/65R18
+  trim: King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package
+    XLT with Heavy Duty Payload Packa
+  src:
+  - ref: tp2019
+    quote: LT275/65R18 40 psi 40 psi King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL
+      with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: LT315/70R17
+  trim: Raptor
+  src:
+  - ref: tp2019
+    quote: LT315/70R17 38 psi 38 psi Raptor
+- field: tires
+  years:
+  - 2019
+  - 2019
+  size: P275/45R22
+  trim: Limited
+  src:
+  - ref: tp2019
+    quote: P275/45R22 35 psi 35 psi Limited
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: 245/70R17
+  trim: XL 4x2 XLT 4x2
+  src:
+  - ref: tp2020
+    quote: 245/70R17 35 psi 35 psi XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: 265/60R18
+  trim: King Ranch 4x2 Lariat 4x2 XLT 4x2
+  src:
+  - ref: tp2020
+    quote: 265/60R18 35 psi 35 psi King Ranch 4x2 Lariat 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: 265/70R17
+  trim: XL 4x4 XLT 4x4
+  src:
+  - ref: tp2020
+    quote: 265/70R17 35 psi 35 psi XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: 275/55R20
+  trim: King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2020
+    quote: 275/55R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum XL 4x2 XL 4x4 XLT 4x2 XLT
+      4x4
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: 275/65R18
+  trim: King Ranch 4x4 Lariat 4x4 XLT 4x4
+  src:
+  - ref: tp2020
+    quote: 275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: LT245/70R17
+  trim: XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2020
+    quote: LT245/70R17 40 psi 40 psi XL with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: LT275/65R18
+  trim: King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL with Heavy Duty Payload Package
+    XLT with Heavy Duty Payload Packa
+  src:
+  - ref: tp2020
+    quote: LT275/65R18 40 psi 40 psi King Ranch with Heavy Duty Payload Package Lariat with Heavy Duty Payload Package XL
+      with Heavy Duty Payload Package XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: LT315/70R17
+  trim: Raptor
+  src:
+  - ref: tp2020
+    quote: LT315/70R17 38 psi 38 psi Raptor
+- field: tires
+  years:
+  - 2020
+  - 2020
+  size: P275/45R22
+  trim: Limited
+  src:
+  - ref: tp2020
+    quote: P275/45R22 35 psi 35 psi Limited
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: 245/70R17
+  trim: XL 4x2 XLT 4x2
+  src:
+  - ref: tp2022
+    quote: 245/70R17 36 psi 36 psi XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: 265/60R18
+  trim: King Ranch 4x2 Lariat 4x2 XL 4x2 XLT 4x2
+  src:
+  - ref: tp2022
+    quote: 265/60R18 36 psi 36 psi King Ranch 4x2 Lariat 4x2 XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: 265/70R17
+  trim: XL 4x4 XLT 4x4
+  src:
+  - ref: tp2022
+    quote: 265/70R17 35 psi 35 psi XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: 275/50R22
+  trim: Limited
+  src:
+  - ref: tp2022
+    quote: 275/50R22 35 psi 35 psi Limited
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: 275/60R20
+  trim: King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum 4x2 Platinum 4x4 XL 4x2 XL 4x4 XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2022
+    quote: 275/60R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum 4x2 Platinum 4x4 XL 4x2 XL
+      4x4 XLT 4x2 XLT 4x4
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: 275/65R18
+  trim: King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4
+  src:
+  - ref: tp2022
+    quote: 275/65R18 35 psi 35 psi King Ranch 4x4 Lariat 4x4 XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: 275/70R18
+  trim: Tremor
+  src:
+  - ref: tp2022
+    quote: 275/70R18 35 psi 35 psi Tremor
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: 37x12.50R17
+  trim: Raptor
+  src:
+  - ref: tp2022
+    quote: 37x12.50R17 38 psi 38 psi Raptor
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: LT265/70R17
+  trim: XL with XL Chrome Appearance Package
+  src:
+  - ref: tp2022
+    quote: LT265/70R17 41 psi 41 psi XL with XL Chrome Appearance Package
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: LT265/70R18
+  trim: Lariat with Heavy Duty Payload Package
+  src:
+  - ref: tp2022
+    quote: LT265/70R18 48 psi 48 psi Lariat with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2022
+  - 2022
+  size: LT315/70R17
+  trim: Raptor
+  src:
+  - ref: tp2022
+    quote: LT315/70R17 38 psi 38 psi Raptor
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: 245/70R17
+  trim: XL 4x2 XLT 4x2
+  src:
+  - ref: tp2023
+    quote: 245/70R17 36 psi 36 psi XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: 265/60R18
+  trim: Lariat 4x2 XL 4x2 XLT 4x2
+  src:
+  - ref: tp2023
+    quote: 265/60R18 36 psi 36 psi Lariat 4x2 XL 4x2 XLT 4x2
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: 265/70R17
+  trim: XL 4x4 XLT 4x4
+  src:
+  - ref: tp2023
+    quote: 265/70R17 35 psi 35 psi XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: 275/50R22
+  trim: Limited
+  src:
+  - ref: tp2023
+    quote: 275/50R22 35 psi 35 psi Limited
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: 275/60R20
+  trim: King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum 4x2 Platinum 4x4 XL 4x2 XL 4x4 XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2023
+    quote: 275/60R20 35 psi 35 psi King Ranch 4x2 King Ranch 4x4 Lariat 4x2 Lariat 4x4 Platinum 4x2 Platinum 4x4 XL 4x2 XL
+      4x4 XLT 4x2 XLT 4x4
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: 275/65R18
+  trim: Lariat 4x4 XL 4x4 XLT 4x4
+  src:
+  - ref: tp2023
+    quote: 275/65R18 35 psi 35 psi Lariat 4x4 XL 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: 275/70R18
+  trim: Tremor
+  src:
+  - ref: tp2023
+    quote: 275/70R18 35 psi 35 psi Tremor
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: 37x12.50R17
+  trim: Raptor Raptor R
+  src:
+  - ref: tp2023
+    quote: 37x12.50R17 38 psi 38 psi Raptor Raptor R
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: LT265/70R17
+  trim: XL with XL Chrome Appearance Package
+  src:
+  - ref: tp2023
+    quote: LT265/70R17   XL with XL Chrome Appearance Package
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: LT265/70R18
+  trim: Police Responder XL 4x4 XLT 4x4 XLT with Heavy Duty Payload Package
+  src:
+  - ref: tp2023
+    quote: LT265/70R18 48 psi 48 psi Police Responder XL 4x4 XLT 4x4 XLT with Heavy Duty Payload Package
+- field: tires
+  years:
+  - 2023
+  - 2023
+  size: LT315/70R17
+  trim: Raptor
+  src:
+  - ref: tp2023
+    quote: LT315/70R17 38 psi 38 psi Raptor
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 245/70R17
+  trim: XL 4x2
+  src:
+  - ref: tp2024
+    quote: 245/70R17   XL 4x2
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 265/60R18
+  trim: XLT 4x2
+  src:
+  - ref: tp2024
+    quote: 265/60R18   XLT 4x2
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 265/70R17
+  trim: XL 4x4
+  src:
+  - ref: tp2024
+    quote: 265/70R17   XL 4x4
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 275/50R22
+  trim: King Ranch Lariat Platinum
+  src:
+  - ref: tp2024
+    quote: 275/50R22   King Ranch Lariat Platinum
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 275/60R20
+  trim: King Ranch Lariat Platinum STX 4x2 STX 4x4 XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2024
+    quote: 275/60R20   King Ranch Lariat Platinum STX 4x2 STX 4x4 XLT 4x2 XLT 4x4
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 275/65R18
+  trim: XLT 4x4
+  src:
+  - ref: tp2024
+    quote: 275/65R18   XLT 4x4
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: 275/70R18
+  trim: Tremor
+  src:
+  - ref: tp2024
+    quote: 275/70R18   Tremor
+- field: tires
+  years:
+  - 2024
+  - 2024
+  size: LT265/70R18
+  trim: Police Responder STX FX4 Off-Road Package XLT FX4 Off-Road Package
+  src:
+  - ref: tp2024
+    quote: LT265/70R18   Police Responder STX FX4 Off-Road Package XLT FX4 Off-Road Package
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 245/70R17
+  trim: XL 4x2
+  src:
+  - ref: tp2025
+    quote: 245/70R17 36 psi 36 psi XL 4x2
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 265/60R18
+  trim: XLT 4x2
+  src:
+  - ref: tp2025
+    quote: 265/60R18 36 psi 36 psi XLT 4x2
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 265/70R17
+  trim: XL 4x4
+  src:
+  - ref: tp2025
+    quote: 265/70R17 35 psi 35 psi XL 4x4
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 275/50R22
+  trim: King Ranch Lariat Hybrid Platinum Gas Platinum Hybrid
+  src:
+  - ref: tp2025
+    quote: 275/50R22 35 psi 35 psi King Ranch Lariat Hybrid Platinum Gas Platinum Hybrid
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 275/60R20
+  trim: King Ranch Lariat Gas Lariat Hybrid Platinum Gas Platinum Hybrid STX 4x2 STX 4x4 XLT 4x2 XLT 4x4
+  src:
+  - ref: tp2025
+    quote: 275/60R20 35 psi 35 psi King Ranch Lariat Gas Lariat Hybrid Platinum Gas Platinum Hybrid STX 4x2 STX 4x4 XLT 4x2
+      XLT 4x4
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 275/65R18
+  trim: Lariat Gas Lariat Hybrid STX 4x4 XLT 4x4
+  src:
+  - ref: tp2025
+    quote: 275/65R18 35 psi 35 psi Lariat Gas Lariat Hybrid STX 4x4 XLT 4x4
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 275/70R18
+  trim: Tremor
+  src:
+  - ref: tp2025
+    quote: 275/70R18 35 psi 35 psi Tremor
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: 37x12.50R17
+  trim: Raptor Raptor R
+  src:
+  - ref: tp2025
+    quote: 37x12.50R17 38 psi 38 psi Raptor Raptor R
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: LT265/70R18
+  trim: STX FX4 Off-Road Package XLT FX4 Off-Road Package
+  src:
+  - ref: tp2025
+    quote: LT265/70R18 41 psi 41 psi STX FX4 Off-Road Package XLT FX4 Off-Road Package
+- field: tires
+  years:
+  - 2025
+  - 2025
+  size: LT315/70R17
+  trim: Raptor
+  src:
+  - ref: tp2025
+    quote: LT315/70R17 38 psi 38 psi Raptor
+- field: battery
+  years:
+  - 2024
+  - 2024
+  displacement_l: 3.5
+  engine: 3.5L EcoBoost High-Output (Raptor)
+  trim: Raptor / Raptor R
+  group: H7
+  cca: 800
+  note: AGM, 80 Ah; H7 = BCI group 94R
+  src:
+  - &id013
+    ref: raptor2024
+    page: 1
+    quote: Battery group, CCA H7 AGM 80AH 800CCA
+- field: battery
+  years:
+  - 2024
+  - 2024
+  displacement_l: 5.2
+  engine: 5.2L Supercharged V8 (Raptor R)
+  trim: Raptor / Raptor R
+  group: H7
+  cca: 800
+  note: AGM, 80 Ah; H7 = BCI group 94R
+  src:
+  - *id013
+- field: oil
+  years:
+  - 2026
+  - 2026
+  displacement_l: 2.7
+  engine: 2.7L EcoBoost V6
+  capacity_qt: 6.0
+  capacity_l: 5.7
+  src:
+  - &id014
+    ref: ts2026
+    page: 2
+    quote: Oil Capacity (quarts/liters) 6.0/5.7 7.75/7.33 6.0/5.7 6.0/5.7 6.0/5.7 11.5/10.9
+- field: oil
+  years:
+  - 2026
+  - 2026
+  displacement_l: 5.0
+  engine: 5.0L PFDI V8
+  capacity_qt: 7.75
+  capacity_l: 7.33
+  src:
+  - *id014
+- field: oil
+  years:
+  - 2026
+  - 2026
+  displacement_l: 3.5
+  engine: 3.5L EcoBoost V6
+  capacity_qt: 6.0
+  capacity_l: 5.7
+  src:
+  - *id014
+- field: oil
+  years:
+  - 2026
+  - 2026
+  displacement_l: 3.5
+  engine: 3.5L PowerBoost Full Hybrid V6
+  condition: PowerBoost hybrid
+  capacity_qt: 6.0
+  capacity_l: 5.7
+  src:
+  - *id014
+- field: oil
+  years:
+  - 2026
+  - 2026
+  displacement_l: 3.5
+  engine: 3.5L EcoBoost V6 High-Output
+  condition: High-Output (Raptor)
+  capacity_qt: 6.0
+  capacity_l: 5.7
+  src:
+  - *id014
+- field: oil
+  years:
+  - 2026
+  - 2026
+  displacement_l: 5.2
+  engine: 5.2L Supercharged V8
+  capacity_qt: 11.5
+  capacity_l: 10.9
+  src:
+  - *id014

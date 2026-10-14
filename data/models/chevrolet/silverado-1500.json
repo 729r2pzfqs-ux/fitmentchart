@@ -3,7 +3,7 @@
   "model": "Silverado 1500",
   "slug": "chevrolet/silverado-1500",
   "body": "pickup",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "generations": [
     {
       "name": "1st generation",
@@ -54,11 +54,13 @@
     "manuals": {
       "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
       "file": "data/manuals/chevrolet/silverado-1500.yaml",
-      "documents": 28,
+      "documents": 61,
       "document_types": [
         "aftermarket_fitment",
         "oem_manual",
-        "oem_towing_guide"
+        "oem_spec_sheet",
+        "oem_towing_guide",
+        "third_party_reference"
       ]
     },
     "nhtsa": {
@@ -1019,7 +1021,78 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "Hybrid",
+          "size": "P235/75R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2005-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R16 35 psi 35 psi Hybrid",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "4x2 LS 4x2 LT 4x2",
+          "size": "P245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2005-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi 4x2 LS 4x2 LT 4x2",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P245/75R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2005-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/75R16 35 psi 35 psi Hybrid",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "4x2 4x4 LS 4x2 LS 4x4 LT 4x2 LT 4x4 Z71",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2005-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 30 psi 30 psi 4x2 4x4 LS 4x2 LS 4x4 LT 4x2 LT 4x4 Z71",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "SS",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2005-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 30 psi 30 psi SS",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22.0,
@@ -2790,7 +2863,78 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "Hybrid",
+          "size": "P235/75R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2006-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/75R16 35 psi 35 psi Hybrid",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x2 LT 4x2 WT 4x2",
+          "size": "P245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2006-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi LS 4x2 LT 4x2 WT 4x2",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P245/75R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2006-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/75R16 35 psi 35 psi Hybrid",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x2 LS 4x4 LT 4x2 LT 4x4 LT with Z71 Package WT 4x2 WT 4x4",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2006-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 30 psi 30 psi LS 4x2 LS 4x4 LT 4x2 LT 4x4 LT with Z71 Package WT 4x2 WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS (20 Inch Option) LT (20 Inch Option) SS",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2006-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 30 psi 30 psi LS (20 Inch Option) LT (20 Inch Option) SS",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22.0,
@@ -4485,7 +4629,78 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LS 4x4 LT 4x4 LTZ 4x4 WT 4x4",
+          "size": "LT245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2007-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 45 psi 45 psi LS 4x4 LT 4x4 LTZ 4x4 WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x2 LT 4x2 LTZ 4x2 WT 4x2",
+          "size": "P245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2007-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi LS 4x2 LT 4x2 LTZ 4x2 WT 4x2",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS with Z71 Package LT with Z71 Package LTZ with Z71 Package",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2007-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi LS with Z71 Package LT with Z71 Package LTZ with Z71 Package",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x2 LS 4x4 LS with Max Trailer Package LS with Z71 Package LT 4x2 LT 4x4 LT with Max Trailer Package LT with Z71 Package LTZ 4x2 LTZ 4x4 LTZ with M",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2007-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS 4x2 LS 4x4 LS with Max Trailer Package LS with Z71 Package LT 4x2 LT 4x4 LT with Max Trailer Package LT with Z71 Package LTZ 4x2 LTZ 4x4 LTZ with Max Trailer Package LTZ wi",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS (20 Inch Option) LS with Max Trailer Package LT (20 Inch Option) LT with Max Trailer Package LTZ (20 Inch Option) LTZ with Max Trailer Package",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2007-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 30 psi 30 psi LS (20 Inch Option) LS with Max Trailer Package LT (20 Inch Option) LT with Max Trailer Package LTZ (20 Inch Option) LTZ with Max Trailer Package",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22.0,
@@ -6126,7 +6341,78 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT 4x4 LTZ 4x4 WT 4x4",
+          "size": "LT245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2008-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 45 psi 45 psi LT 4x4 LTZ 4x4 WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x2 LT 4x2 LTZ 4x2 WT 4x2",
+          "size": "P245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2008-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi LS 4x2 LT 4x2 LTZ 4x2 WT 4x2",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT with Z71 Package LTZ with Z71 Package",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2008-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi LT with Z71 Package LTZ with Z71 Package",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x4 LT 4x2 LT 4x4 LT with Max Trailer Package LT with Z71 Package LTZ 4x2 LTZ 4x4 LTZ with Max Trailer Package LTZ with Z71 Package WT 4x4",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2008-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS 4x4 LT 4x2 LT 4x4 LT with Max Trailer Package LT with Z71 Package LTZ 4x2 LTZ 4x4 LTZ with Max Trailer Package LTZ with Z71 Package WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (20 Inch Option) LT with Max Trailer Package LTZ (20 Inch Option) LTZ with Max Trailer Package",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2008-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 30 psi 30 psi LT (20 Inch Option) LT with Max Trailer Package LTZ (20 Inch Option) LTZ with Max Trailer Package",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.6,
@@ -8328,7 +8614,78 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT 4x4 LTZ 4x4 WT 4x4",
+          "size": "LT245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2009-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 45 psi 45 psi LT 4x4 LTZ 4x4 WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x2 LT 4x2 LTZ 4x2 WT 4x2",
+          "size": "P245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2009-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi LS 4x2 LT 4x2 LTZ 4x2 WT 4x2",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid LT with Z71 Package LTZ with Z71 Package",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2009-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi Hybrid LT with Z71 Package LTZ with Z71 Package",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x4 LT 4x2 LT 4x4 LT with Max Trailer Package LT with Z71 Package LTZ 4x2 LTZ 4x4 LTZ with Max Trailer Package LTZ with Z71 Package WT 4x4",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2009-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS 4x4 LT 4x2 LT 4x4 LT with Max Trailer Package LT with Z71 Package LTZ 4x2 LTZ 4x4 LTZ with Max Trailer Package LTZ with Z71 Package WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (20 Inch Option) LT with Max Trailer Package LTZ (20 Inch Option) LTZ with Max Trailer Package",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2009-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 30 psi 30 psi LT (20 Inch Option) LT with Max Trailer Package LTZ (20 Inch Option) LTZ with Max Trailer Package",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.6,
@@ -9971,7 +10328,78 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT 4x4 LTZ 4x4 WT 4x4",
+          "size": "LT245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2010-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 45 psi 45 psi LT 4x4 LTZ 4x4 WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x2 LT 4x2 LTZ 4x2 WT 4x2 XFE",
+          "size": "P245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2010-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi LS 4x2 LT 4x2 LTZ 4x2 WT 4x2 XFE",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid LT with Z71 Package LTZ with Z71 Package",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2010-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi Hybrid LT with Z71 Package LTZ with Z71 Package",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x4 LT 4x2 LT 4x4 LT with Max Trailer Package LT with Z71 Package LTZ 4x2 LTZ 4x4 LTZ with Max Trailer Package LTZ with Z71 Package WT 4x4",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2010-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS 4x4 LT 4x2 LT 4x4 LT with Max Trailer Package LT with Z71 Package LTZ 4x2 LTZ 4x4 LTZ with Max Trailer Package LTZ with Z71 Package WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (20 Inch Option) LT with Max Trailer Package LTZ (20 Inch Option) LTZ with Max Trailer Package XFE",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2010-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 30 psi 30 psi LT (20 Inch Option) LT with Max Trailer Package LTZ (20 Inch Option) LTZ with Max Trailer Package XFE",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.6,
@@ -10931,7 +11359,78 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT 4x4 LTZ 4x4 WT 4x4",
+          "size": "LT245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2011-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 45 psi 45 psi LT 4x4 LTZ 4x4 WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x2 LT 4x2 LTZ 4x2 WT 4x2 XFE",
+          "size": "P245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2011-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi LS 4x2 LT 4x2 LTZ 4x2 WT 4x2 XFE",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid LT Z71 LTZ Z71",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2011-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi Hybrid LT Z71 LTZ Z71",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x4 LT 4x2 LT 4x4 LT 4x4 Extended Cab Long Box LT Z71 LTZ 4x2 LTZ 4x4 LTZ 4x4 Extended Cab Long Box LTZ Z71 WT 4x4 WT 4x4 Extended Cab Long Box",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2011-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS 4x4 LT 4x2 LT 4x4 LT 4x4 Extended Cab Long Box LT Z71 LTZ 4x2 LTZ 4x4 LTZ 4x4 Extended Cab Long Box LTZ Z71 WT 4x4 WT 4x4 Extended Cab Long Box",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (20 Inch Option) LTZ (20 Inch Option) XFE",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2011-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 30 psi 30 psi LT (20 Inch Option) LTZ (20 Inch Option) XFE",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -11863,7 +12362,78 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT 4x4 LTZ 4x4 WT 4x4",
+          "size": "LT245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2012-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 45 psi 45 psi LT 4x4 LTZ 4x4 WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x2 LT 4x2 LTZ 4x2 WT 4x2 XFE",
+          "size": "P245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2012-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi LS 4x2 LT 4x2 LTZ 4x2 WT 4x2 XFE",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid LT Z71 LTZ Z71",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2012-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi Hybrid LT Z71 LTZ Z71",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x4 LT 4x2 LT 4x4 LT 4x4 Extended Cab Long Box LT Z71 LTZ 4x2 LTZ 4x4 LTZ 4x4 Extended Cab Long Box LTZ Z71 WT 4x4 WT 4x4 Extended Cab Long Box",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2012-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS 4x4 LT 4x2 LT 4x4 LT 4x4 Extended Cab Long Box LT Z71 LTZ 4x2 LTZ 4x4 LTZ 4x4 Extended Cab Long Box LTZ Z71 WT 4x4 WT 4x4 Extended Cab Long Box",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (20 Inch Option) LTZ (20 Inch Option) XFE",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2012-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 30 psi 30 psi LT (20 Inch Option) LTZ (20 Inch Option) XFE",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.6,
@@ -12898,7 +13468,78 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT 4x4 LTZ 4x4 WT 4x4",
+          "size": "LT245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2013-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT245/70R17 45 psi 45 psi LT 4x4 LTZ 4x4 WT 4x4",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x2 LT 4x2 LTZ 4x2 WT 4x2 XFE",
+          "size": "P245/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2013-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P245/70R17 35 psi 35 psi LS 4x2 LT 4x2 LTZ 4x2 WT 4x2 XFE",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid LT Z71 LTZ Z71",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2013-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi Hybrid LT Z71 LTZ Z71",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS 4x4 LT 4x2 LT 4x4 LT 4x4 Extended Cab Long Box LT Z71 LTZ 4x2 LTZ 4x4 LTZ 4x4 Extended Cab Long Box LTZ Z71 WT 4x4 WT 4x4 Extended Cab Long Box",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2013-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS 4x4 LT 4x2 LT 4x4 LT 4x4 Extended Cab Long Box LT Z71 LTZ 4x2 LTZ 4x4 LTZ 4x4 Extended Cab Long Box LTZ Z71 WT 4x4 WT 4x4 Extended Cab Long Box",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (20 Inch Option) LTZ (20 Inch Option) XFE",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2013-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 30 psi 30 psi LT (20 Inch Option) LTZ (20 Inch Option) XFE",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.6,
@@ -13812,7 +14453,78 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT WT",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2014-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 45 psi 45 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT",
+          "size": "P255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2014-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/70R17 35 psi 35 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (18 Inch Option) LTZ",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2014-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi LT (18 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2014-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "High Country LT (20 Inch Option) LTZ",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2014-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi High Country LT (20 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.7,
@@ -14757,7 +15469,92 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LS LT WT",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2015-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 45 psi 45 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS LT WT",
+          "size": "P255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2015-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/70R17 35 psi 35 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (18 Inch Option) LTZ",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2015-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi LT (18 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS LT WT",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2015-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "High Country LT (20 Inch Option) LTZ",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2015-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 32 psi 32 psi High Country LT (20 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "High Country LT (22 Inch Option) LTZ",
+          "size": "P285/45R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2015-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P285/45R22 32 psi 32 psi High Country LT (22 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.7,
@@ -15722,7 +16519,92 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LS LT WT",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2016-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 45 psi 45 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS LT WT",
+          "size": "P255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2016-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/70R17 35 psi 35 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (18 Inch Option) LTZ",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2016-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi LT (18 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS LT WT",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2016-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom High Country LT (20 Inch Option) LTZ",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2016-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 32 psi 32 psi Custom High Country LT (20 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "High Country LT (22 Inch Option) LTZ",
+          "size": "P285/45R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2016-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P285/45R22 35 psi 35 psi High Country LT (22 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.7,
@@ -16619,7 +17501,119 @@
           "label": "5.3L 8-cyl hybrid"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 4.3,
+          "engine": "EcoTec3 4.3L V6",
+          "axle": "3.42",
+          "max_lb": 7600,
+          "gcwr_lb": 12800,
+          "note": "max conventional rating across cab/box/drive for this row",
+          "src": [
+            {
+              "doc": "2017 Chevrolet Trailering Guide (GM)",
+              "url": "https://xr793.com/wp-content/uploads/2017/07/2017-Chevrolet-Trailering-Towing-Guide.pdf",
+              "type": "oem_towing_guide",
+              "page": 9,
+              "quote": "3.42 12,800 — — 7,600",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 5.3,
+          "engine": "EcoTec3 5.3L V8",
+          "axle": "3.42",
+          "max_lb": 9800,
+          "gcwr_lb": 15000,
+          "note": "max conventional rating across cab/box/drive for this row",
+          "src": [
+            {
+              "doc": "2017 Chevrolet Trailering Guide (GM)",
+              "url": "https://xr793.com/wp-content/uploads/2017/07/2017-Chevrolet-Trailering-Towing-Guide.pdf",
+              "type": "oem_towing_guide",
+              "page": 9,
+              "quote": "3.42 15,000 — 9,800",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 5.3,
+          "engine": "EcoTec3 5.3L V8 with Max Trailering Package",
+          "axle": "3.73",
+          "max_lb": 11100,
+          "gcwr_lb": 16700,
+          "package": "Max Trailering Package",
+          "note": "max conventional rating across cab/box/drive for this row",
+          "src": [
+            {
+              "doc": "2017 Chevrolet Trailering Guide (GM)",
+              "url": "https://xr793.com/wp-content/uploads/2017/07/2017-Chevrolet-Trailering-Towing-Guide.pdf",
+              "type": "oem_towing_guide",
+              "page": 9,
+              "quote": "3.73 16,700 — — — — 11,100",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 5.3,
+          "engine": "EcoTec3 5.3L V8 (8-speed automatic) with Max Trailering Package",
+          "axle": "3.42",
+          "max_lb": 11000,
+          "gcwr_lb": 16700,
+          "package": "Max Trailering Package",
+          "note": "max conventional rating across cab/box/drive for this row",
+          "src": [
+            {
+              "doc": "2017 Chevrolet Trailering Guide (GM)",
+              "url": "https://xr793.com/wp-content/uploads/2017/07/2017-Chevrolet-Trailering-Towing-Guide.pdf",
+              "type": "oem_towing_guide",
+              "page": 9,
+              "quote": "3.42 16,700 — — — — — — 11,000",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.2,
+          "engine": "EcoTec3 6.2L V8",
+          "axle": "3.23",
+          "max_lb": 9400,
+          "gcwr_lb": 15000,
+          "note": "max conventional rating across cab/box/drive for this row",
+          "src": [
+            {
+              "doc": "2017 Chevrolet Trailering Guide (GM)",
+              "url": "https://xr793.com/wp-content/uploads/2017/07/2017-Chevrolet-Trailering-Towing-Guide.pdf",
+              "type": "oem_towing_guide",
+              "page": 9,
+              "quote": "EcoTec3 6.2L V8 3.23 15,000 — — — — 9,400",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.2,
+          "engine": "EcoTec3 6.2L V8 with Max Trailering Package",
+          "axle": "3.42",
+          "max_lb": 12500,
+          "gcwr_lb": 18200,
+          "package": "Max Trailering Package",
+          "note": "max conventional rating across cab/box/drive for this row",
+          "src": [
+            {
+              "doc": "2017 Chevrolet Trailering Guide (GM)",
+              "url": "https://xr793.com/wp-content/uploads/2017/07/2017-Chevrolet-Trailering-Towing-Guide.pdf",
+              "type": "oem_towing_guide",
+              "page": 9,
+              "quote": "18,200 12,500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -16661,7 +17655,92 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LS LT WT",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2017-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 45 psi 45 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS LT WT",
+          "size": "P255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2017-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/70R17 35 psi 35 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (18 Inch Option) LTZ",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2017-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi LT (18 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS LT WT",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2017-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom High Country LT (20 Inch Option) LTZ WT (20 Inch Option)",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2017-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi Custom High Country LT (20 Inch Option) LTZ WT (20 Inch Option)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom High Country LT (22 Inch Option) LTZ",
+          "size": "P285/45R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2017-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P285/45R22 35 psi 35 psi Custom High Country LT (22 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.7,
@@ -17509,7 +18588,92 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LS LT WT",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2018-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 45 psi 45 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS LT WT",
+          "size": "P255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2018-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P255/70R17 35 psi 35 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT (18 Inch Option) LTZ",
+          "size": "P265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2018-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/65R18 35 psi 35 psi LT (18 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LS LT WT",
+          "size": "P265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2018-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P265/70R17 35 psi 35 psi LS LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom High Country LT (20 Inch Option) LTZ WT (20 Inch Option)",
+          "size": "P275/55R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2018-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P275/55R20 35 psi 35 psi Custom High Country LT (20 Inch Option) LTZ WT (20 Inch Option)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom High Country LT (22 Inch Option) LTZ",
+          "size": "P285/45R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2018-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P285/45R22 35 psi 35 psi Custom High Country LT (22 Inch Option) LTZ",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.7,
@@ -19846,7 +21010,106 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT WT",
+          "size": "255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2020-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "255/70R17 35 psi 35 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT LTZ RST",
+          "size": "265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2020-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/65R18 35 psi 35 psi LT LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT",
+          "size": "265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2020-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom High Country LT LTZ RST",
+          "size": "275/50R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2020-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22 36 psi 36 psi Custom High Country LT LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Custom Trail Boss High Country LT LT Trail Boss LTZ RST",
+          "size": "275/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2020-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20 35 psi 35 psi Custom Custom Trail Boss High Country LT LT Trail Boss LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2020-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 45 psi 45 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT Trail Boss WT with Z71 Package",
+          "size": "LT275/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2020-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 41 psi 41 psi Custom Trail Boss LT Trail Boss WT with Z71 Package",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 21.7,
@@ -20826,7 +22089,120 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT WT",
+          "size": "255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2021-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "255/70R17 35 psi 35 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT LTZ RST",
+          "size": "265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2021-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/65R18 35 psi 35 psi LT LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT",
+          "size": "265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2021-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom High Country LT LTZ RST",
+          "size": "275/50R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2021-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22   Custom High Country LT LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom High Country LT LTZ RST",
+          "size": "275/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2021-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20 35 psi 35 psi Custom High Country LT LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT Trail Boss",
+          "size": "LT265/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2021-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/60R20 41 psi 41 psi Custom Trail Boss LT Trail Boss",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2021-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 45 psi 45 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT LT Trail Boss WT",
+          "size": "LT275/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2021-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 41 psi 41 psi Custom Trail Boss LT LT Trail Boss WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -20850,7 +22226,168 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "aluminum oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "L3B 5.2 5.5 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "plastic oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "L3B 5.7 6.0 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L L6 Diesel LM2",
+            "grade": "0W-20",
+            "spec": "dexosD",
+            "capacity_qt": 7.0,
+            "capacity_l": 6.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "3.0L L6 Diesel LM2 6.6 7.0 dexosD 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.3,
+            "engine": "4.3L V6 LV3",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "4.3L V6 LV3 5.7 6.0 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8 L82, L84",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "5.3L V8 L82, L84 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8 L87",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "6.2L V8 L87 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2021 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2021_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -21565,7 +23102,133 @@
           "label": "6.2L 8-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2.7L TurboMax",
+          "trim": "Silverado 1500 (new for 2022)",
+          "max_lb": 9500,
+          "gcwr_lb": 14500,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2022 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/2022-chevrolet-trailering-guide-ebrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 33,
+              "quote": "2.7L Turbo 14,500 9,500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 5.3,
+          "engine": "5.3L EcoTec3 V8",
+          "trim": "Silverado 1500 (new for 2022)",
+          "max_lb": 11200,
+          "gcwr_lb": 16800,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2022 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/2022-chevrolet-trailering-guide-ebrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 33,
+              "quote": "5.3L V8 16,800 11,200",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "Duramax 3.0L I-6 Turbo-Diesel",
+          "trim": "Silverado 1500 (new for 2022)",
+          "max_lb": 13300,
+          "gcwr_lb": 19000,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2022 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/2022-chevrolet-trailering-guide-ebrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 33,
+              "quote": "Duramax 3.0L I-6 19,000 13,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.2,
+          "engine": "6.2L EcoTec3 V8",
+          "trim": "Silverado 1500 (new for 2022)",
+          "max_lb": 13300,
+          "gcwr_lb": 19100,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2022 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/2022-chevrolet-trailering-guide-ebrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 33,
+              "quote": "6.2L V8 19,100 13,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.2,
+          "engine": "6.2L V8 (ZR2)",
+          "trim": "ZR2",
+          "max_lb": 8900,
+          "gcwr_lb": 15000,
+          "src": [
+            {
+              "doc": "2022 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/2022-chevrolet-trailering-guide-ebrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 34,
+              "quote": "ZR2 4x4 6.2L V8 15,000 8,900",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 2.7,
+          "engine": "2.7L TurboMax",
+          "trim": "Silverado 1500 LTD (carry-over body)",
+          "max_lb": 9500,
+          "gcwr_lb": 14500,
+          "note": "max conventional rating across cab/bed/drive",
+          "src": [
+            {
+              "doc": "2022 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/2022-chevrolet-trailering-guide-ebrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 38,
+              "quote": "2.7L Turbo 14,500 9,500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "Duramax 3.0L I-6 Turbo-Diesel",
+          "trim": "Silverado 1500 LTD (carry-over body)",
+          "max_lb": 9300,
+          "gcwr_lb": 15000,
+          "note": "max conventional rating across cab/bed/drive",
+          "src": [
+            {
+              "doc": "2022 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/2022-chevrolet-trailering-guide-ebrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 38,
+              "quote": "Duramax 3.0L I-6 15,000 9,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -21594,7 +23257,134 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT WT",
+          "size": "255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2022-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "255/70R17 35 psi 35 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT RST",
+          "size": "265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2022-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/65R18 35 psi 35 psi LT RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT",
+          "size": "265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2022-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "High Country LT LTZ RST",
+          "size": "275/50R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2022-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22 36 psi 36 psi High Country LT LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Custom Trail Boss High Country LT LT Trail Boss LTZ RST",
+          "size": "275/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2022-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20 35 psi 35 psi Custom Custom Trail Boss High Country LT LT Trail Boss LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT Trail Boss",
+          "size": "LT265/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2022-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/60R20 41 psi 41 psi Custom Trail Boss LT Trail Boss",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2022-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 41 psi 41 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT LT Trail Boss WT",
+          "size": "LT275/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2022-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 41 psi 41 psi Custom Trail Boss LT LT Trail Boss WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "ZR2",
+          "size": "LT275/70R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2022-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/70R18 38 psi 38 psi ZR2",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -21618,7 +23408,147 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "aluminum oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "note": "same values listed for Silverado 1500 and Silverado 1500 LTD",
+            "src": [
+              {
+                "doc": "GM TechLink: 2022 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2022_C.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "L3B 5.2 5.5 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2022 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2022_C.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "plastic oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "note": "same values listed for Silverado 1500 and Silverado 1500 LTD",
+            "src": [
+              {
+                "doc": "GM TechLink: 2022 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2022_C.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "L3B 5.7 6.0 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2022 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2022_C.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L L6 Diesel LM2",
+            "grade": "0W-20",
+            "spec": "dexosD",
+            "capacity_qt": 7.0,
+            "capacity_l": 6.6,
+            "note": "same values listed for Silverado 1500 and Silverado 1500 LTD",
+            "src": [
+              {
+                "doc": "GM TechLink: 2022 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2022_C.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "3.0L L6 Diesel LM2 6.6 7.0 dexosD 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2022 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2022_C.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8 L82, L84",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "note": "same values listed for Silverado 1500 and Silverado 1500 LTD",
+            "src": [
+              {
+                "doc": "GM TechLink: 2022 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2022_C.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "5.3L V8 L82, L84 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2022 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2022_C.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8 L87",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "note": "same values listed for Silverado 1500 and Silverado 1500 LTD",
+            "src": [
+              {
+                "doc": "GM TechLink: 2022 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2022_C.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "6.2L V8 L87 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2022 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2022_C.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -22372,7 +24302,93 @@
           "label": "6.2L 8-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2.7L TurboMax",
+          "max_lb": 9500,
+          "gcwr_lb": 14500,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2023 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/MY23-Trailering-Guide-eBrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 33,
+              "quote": "TurboMax™ 14,500 9,500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 5.3,
+          "engine": "5.3L EcoTec3 V8",
+          "max_lb": 11300,
+          "gcwr_lb": 16800,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2023 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/MY23-Trailering-Guide-eBrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 33,
+              "quote": "5.3L V8 16,800 11,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "Duramax 3.0L I-6 Turbo-Diesel",
+          "max_lb": 13300,
+          "gcwr_lb": 19000,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2023 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/MY23-Trailering-Guide-eBrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 33,
+              "quote": "Duramax 3.0L I-6 19,000 13,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.2,
+          "engine": "6.2L EcoTec3 V8",
+          "max_lb": 13300,
+          "gcwr_lb": 19100,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2023 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/MY23-Trailering-Guide-eBrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 33,
+              "quote": "6.2L V8 19,100 13,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.2,
+          "engine": "6.2L V8 (ZR2)",
+          "trim": "ZR2",
+          "max_lb": 8800,
+          "gcwr_lb": 15000,
+          "src": [
+            {
+              "doc": "2023 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/MY23-Trailering-Guide-eBrochure.pdf",
+              "type": "oem_towing_guide",
+              "page": 34,
+              "quote": "ZR2 4x4 6.2L V8 15,000 8,800",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -22401,7 +24417,134 @@
         ],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT SSV WT",
+          "size": "255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2023-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "255/70R17 35 psi 35 psi LT SSV WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT RST",
+          "size": "265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2023-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/65R18 35 psi 35 psi LT RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT SSV WT",
+          "size": "265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2023-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi LT SSV WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "High Country LT LTZ RST",
+          "size": "275/50R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2023-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22 36 psi 36 psi High Country LT LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Custom Trail Boss High Country LT LT Trail Boss LTZ PPV RST",
+          "size": "275/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2023-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20 35 psi 35 psi Custom Custom Trail Boss High Country LT LT Trail Boss LTZ PPV RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT Trail Boss",
+          "size": "LT265/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2023-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/60R20 41 psi 41 psi Custom Trail Boss LT Trail Boss",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2023-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 41 psi 41 psi LT WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT LT Trail Boss SSV WT",
+          "size": "LT275/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2023-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 41 psi 41 psi Custom Trail Boss LT LT Trail Boss SSV WT",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "ZR2",
+          "size": "LT275/70R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2023-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/70R18 38 psi 38 psi ZR2",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -22425,7 +24568,142 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "aluminum oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "GM TechLink: 2023 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2023_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "L3B 5.2 5.5 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2023 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2023_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "plastic oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "GM TechLink: 2023 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2023_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "L3B 5.7 6.0 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2023 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2023_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L L6 Diesel LZ0",
+            "grade": "0W-20",
+            "spec": "dexosD",
+            "capacity_qt": 7.0,
+            "capacity_l": 6.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2023 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2023_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "3.0L L6 Diesel LZ0 6.6 7.0 dexosD 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2023 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2023_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8 L84",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2023 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2023_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "5.3L V8 L84 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2023 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2023_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8 L87",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2023 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2023_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "6.2L V8 L87 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2023 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2023_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -23065,7 +25343,93 @@
           "label": "6.2L 8-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2.7L TurboMax",
+          "max_lb": 9500,
+          "gcwr_lb": 14500,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2024 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/CH-CAT-GEN-TRBRND020_2024%20Chevrolet%20Trailering%20Guide_UPDATED.pdf",
+              "type": "oem_towing_guide",
+              "page": 26,
+              "quote": "TurboMax® 14,500 9,500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 5.3,
+          "engine": "5.3L EcoTec3 V8",
+          "max_lb": 11300,
+          "gcwr_lb": 16800,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2024 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/CH-CAT-GEN-TRBRND020_2024%20Chevrolet%20Trailering%20Guide_UPDATED.pdf",
+              "type": "oem_towing_guide",
+              "page": 26,
+              "quote": "5.3L EcoTec3 V8 16,800 11,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "Duramax 3.0L I-6 Turbo-Diesel",
+          "max_lb": 13300,
+          "gcwr_lb": 19000,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2024 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/CH-CAT-GEN-TRBRND020_2024%20Chevrolet%20Trailering%20Guide_UPDATED.pdf",
+              "type": "oem_towing_guide",
+              "page": 26,
+              "quote": "Duramax 3.0L I-6 19,000 13,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.2,
+          "engine": "6.2L EcoTec3 V8",
+          "max_lb": 13200,
+          "gcwr_lb": 19100,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2024 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/CH-CAT-GEN-TRBRND020_2024%20Chevrolet%20Trailering%20Guide_UPDATED.pdf",
+              "type": "oem_towing_guide",
+              "page": 27,
+              "quote": "6.2L EcoTec3 V8 19,100 13,200",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "Duramax 3.0L I-6 (ZR2)",
+          "trim": "ZR2",
+          "max_lb": 8700,
+          "gcwr_lb": 15000,
+          "src": [
+            {
+              "doc": "2024 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/03-pdfs/CH-CAT-GEN-TRBRND020_2024%20Chevrolet%20Trailering%20Guide_UPDATED.pdf",
+              "type": "oem_towing_guide",
+              "page": 27,
+              "quote": "ZR2 4x4 Duramax 3.0L I-6 15,000 8,700",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -23102,7 +25466,134 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT SSV WT WT 4x4 Double/Crew Cab",
+          "size": "255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2024-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "255/70R17   LT SSV WT WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT RST",
+          "size": "265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2024-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/65R18   LT RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT SSV WT WT 4x4 Double/Crew Cab",
+          "size": "265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2024-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17   LT SSV WT WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "High Country LT LTZ RST",
+          "size": "275/50R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2024-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22   High Country LT LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Custom Trail Boss High Country LT LT Trail Boss LTZ PPV RST",
+          "size": "275/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2024-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20   Custom Custom Trail Boss High Country LT LT Trail Boss LTZ PPV RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss Custom Trail Boss (Standard Cab) (310 HP) LT Trail Boss",
+          "size": "LT265/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2024-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/60R20   Custom Trail Boss Custom Trail Boss (Standard Cab) (310 HP) LT Trail Boss",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT WT 4x4 Double/Crew Cab",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2024-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17   LT WT WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss Custom Trail Boss (Standard Cab) (310 HP) LT Trail Boss SSV WT 4x4 Double/Crew Cab",
+          "size": "LT275/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2024-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18   Custom Trail Boss Custom Trail Boss (Standard Cab) (310 HP) LT Trail Boss SSV WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "ZR2",
+          "size": "LT275/70R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2024-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/70R18   ZR2",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -23126,7 +25617,142 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "aluminum oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "GM TechLink: 2024 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2024_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "L3B with 2.7L L4 5.2 5.5 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2024 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2024_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "plastic oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "GM TechLink: 2024 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2024_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "L3B with 2.7L L4 5.7 6.0 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2024 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2024_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L L6 Diesel LZ0",
+            "grade": "0W-20",
+            "spec": "dexosD",
+            "capacity_qt": 7.0,
+            "capacity_l": 6.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2024 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2024_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "3.0L L6 Diesel LZ0 6.6 7.0 dexosD 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2024 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2024_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8 L84",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2024 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2024_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "5.3L V8 L84 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2024 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2024_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8 L87",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2024 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2024_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "6.2L V8 L87 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2024 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2024/11/TechLink-engine-oil-capacities-2024_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -23754,7 +26380,93 @@
           "label": "6.2L 8-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2.7L TurboMax",
+          "max_lb": 9500,
+          "gcwr_lb": 14500,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2025 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/07-pdfs/CH-CAT-GEN-TRBRND020_2025%20Chevrolet%20Trailering%20Guide.indd.pdf",
+              "type": "oem_towing_guide",
+              "page": 26,
+              "quote": "TurboMax® 14,500 9,500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 5.3,
+          "engine": "5.3L EcoTec3 V8",
+          "max_lb": 11300,
+          "gcwr_lb": 16800,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2025 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/07-pdfs/CH-CAT-GEN-TRBRND020_2025%20Chevrolet%20Trailering%20Guide.indd.pdf",
+              "type": "oem_towing_guide",
+              "page": 26,
+              "quote": "5.3L EcoTec3 V8 16,800 11,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "Duramax 3.0L I-6 Turbo-Diesel",
+          "max_lb": 13300,
+          "gcwr_lb": 19000,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2025 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/07-pdfs/CH-CAT-GEN-TRBRND020_2025%20Chevrolet%20Trailering%20Guide.indd.pdf",
+              "type": "oem_towing_guide",
+              "page": 26,
+              "quote": "Duramax 3.0L I-6 19,000 13,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.2,
+          "engine": "6.2L EcoTec3 V8",
+          "max_lb": 13200,
+          "gcwr_lb": 19100,
+          "note": "max conventional rating across cab/bed/drive; footnoted packages (Max Trailering, 20-inch wheels) apply",
+          "src": [
+            {
+              "doc": "2025 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/07-pdfs/CH-CAT-GEN-TRBRND020_2025%20Chevrolet%20Trailering%20Guide.indd.pdf",
+              "type": "oem_towing_guide",
+              "page": 27,
+              "quote": "6.2L EcoTec3 V8 19,100 13,200",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "Duramax 3.0L I-6 (ZR2)",
+          "trim": "ZR2",
+          "max_lb": 8700,
+          "gcwr_lb": 15000,
+          "src": [
+            {
+              "doc": "2025 Chevrolet Trailering Guide (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicle-groups/trailering-and-towing/trucks/07-pdfs/CH-CAT-GEN-TRBRND020_2025%20Chevrolet%20Trailering%20Guide.indd.pdf",
+              "type": "oem_towing_guide",
+              "page": 27,
+              "quote": "ZR2 4x4 Duramax 3.0L I-6 15,000 8,700",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -23791,7 +26503,134 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT WT WT 4x4 Double/Crew Cab",
+          "size": "255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2025-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "255/70R17 35 psi 35 psi LT WT WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT RST",
+          "size": "265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2025-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/65R18 35 psi 35 psi LT RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT WT 4x4 Double/Crew Cab",
+          "size": "265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2025-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi LT WT WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "High Country LT LTZ RST",
+          "size": "275/50R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2025-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22 36 psi 36 psi High Country LT LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Custom Trail Boss High Country LT LT Trail Boss LTZ RST",
+          "size": "275/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2025-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20 32 psi 35 psi Custom Custom Trail Boss High Country LT LT Trail Boss LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT Trail Boss",
+          "size": "LT265/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2025-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/60R20 41 psi 41 psi Custom Trail Boss LT Trail Boss",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT WT 4x4 Double/Crew Cab",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2025-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 41 psi 41 psi LT WT WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT Trail Boss WT 4x4 Double/Crew Cab",
+          "size": "LT275/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2025-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 41 psi 41 psi Custom Trail Boss LT Trail Boss WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "ZR2",
+          "size": "LT275/70R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2025-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/70R18 38 psi 38 psi ZR2",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -23815,7 +26654,142 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "aluminum oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 5.5,
+            "capacity_l": 5.2,
+            "src": [
+              {
+                "doc": "GM TechLink: 2025 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2025/02/TechLink-engine-oil-capacities-2025_A.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "L3B with 2.7L L4 5.2 5.5 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2025 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2025/02/TechLink-engine-oil-capacities-2025_A.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "plastic oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "GM TechLink: 2025 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2025/02/TechLink-engine-oil-capacities-2025_A.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "L3B with 2.7L L4 5.7 6.0 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2025 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2025/02/TechLink-engine-oil-capacities-2025_A.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L L6 Diesel LZ0",
+            "grade": "0W-20",
+            "spec": "dexosD",
+            "capacity_qt": 7.0,
+            "capacity_l": 6.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2025 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2025/02/TechLink-engine-oil-capacities-2025_A.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "3.0L L6 Diesel LZ0 6.6 7.0 dexosD 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2025 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2025/02/TechLink-engine-oil-capacities-2025_A.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8 L84",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2025 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2025/02/TechLink-engine-oil-capacities-2025_A.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "5.3L V8 L84 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2025 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2025/02/TechLink-engine-oil-capacities-2025_A.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8 L87",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2025 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2025/02/TechLink-engine-oil-capacities-2025_A.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "6.2L V8 L87 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2025 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2025/02/TechLink-engine-oil-capacities-2025_A.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
@@ -24424,7 +27398,113 @@
           "label": "6.2L 8-cyl"
         }
       ],
-      "towing": [],
+      "towing": [
+        {
+          "displacement_l": 2.7,
+          "engine": "2.7L Turbo",
+          "max_lb": 9500,
+          "gcwr_lb": 14500,
+          "note": "max across cab/bed/drive columns",
+          "src": [
+            {
+              "doc": "2026 Silverado 1500 Max Trailering chart (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/trucks/trailering-and-towing/2026_Silverado_1500_Max.pdf",
+              "type": "oem_towing_guide",
+              "page": 1,
+              "quote": "14,500 9,300 9,100 9,000 9,000 9,300 9,000 – 9,500",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 5.3,
+          "engine": "5.3L V8",
+          "max_lb": 11400,
+          "gcwr_lb": 16800,
+          "package": "Max Trailering Package",
+          "note": "max across cab/bed/drive columns",
+          "src": [
+            {
+              "doc": "2026 Silverado 1500 Max Trailering chart (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/trucks/trailering-and-towing/2026_Silverado_1500_Max.pdf",
+              "type": "oem_towing_guide",
+              "page": 1,
+              "quote": "16,8003 11,300 11,200 11,000 11,000 11,400",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.2,
+          "engine": "6.2L V8",
+          "max_lb": 13200,
+          "gcwr_lb": 19100,
+          "package": "RST with Max Trailering Package and 20-inch wheels",
+          "note": "max across cab/bed/drive columns",
+          "src": [
+            {
+              "doc": "2026 Silverado 1500 Max Trailering chart (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/trucks/trailering-and-towing/2026_Silverado_1500_Max.pdf",
+              "type": "oem_towing_guide",
+              "page": 1,
+              "quote": "19.100 4 – – 13,200 13,200",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 6.2,
+          "engine": "6.2L V8 (ZR2)",
+          "trim": "ZR2",
+          "max_lb": 8800,
+          "gcwr_lb": 15000,
+          "src": [
+            {
+              "doc": "2026 Silverado 1500 Max Trailering chart (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/trucks/trailering-and-towing/2026_Silverado_1500_Max.pdf",
+              "type": "oem_towing_guide",
+              "page": 1,
+              "quote": "6.2L V8 (ZR2) 15,000 – – 8,800",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "Duramax 3.0L I-6",
+          "max_lb": 13300,
+          "gcwr_lb": 19100,
+          "package": "Max Trailering Package and 20-inch wheels",
+          "note": "max across cab/bed/drive columns",
+          "src": [
+            {
+              "doc": "2026 Silverado 1500 Max Trailering chart (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/trucks/trailering-and-towing/2026_Silverado_1500_Max.pdf",
+              "type": "oem_towing_guide",
+              "page": 1,
+              "quote": "19.1005 13,200 13,100 13,000 12,800 13,300",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "displacement_l": 3.0,
+          "engine": "Duramax 3.0L I-6 (ZR2)",
+          "trim": "ZR2",
+          "max_lb": 8700,
+          "gcwr_lb": 15000,
+          "src": [
+            {
+              "doc": "2026 Silverado 1500 Max Trailering chart (Chevrolet)",
+              "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/trucks/trailering-and-towing/2026_Silverado_1500_Max.pdf",
+              "type": "oem_towing_guide",
+              "page": 1,
+              "quote": "Duramax 3.0L I-6 (ZR2) 15,000 – – 8,700",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "wheel": {
         "bolt_pattern": "6x139.7",
         "lug_count": 6,
@@ -24461,7 +27541,134 @@
         "oe_wheels": [],
         "trim_exceptions": []
       },
-      "tires": [],
+      "tires": [
+        {
+          "trim": "LT WT WT 4x4 Double/Crew Cab",
+          "size": "255/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2026-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "255/70R17 35 psi 35 psi LT WT WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT RST",
+          "size": "265/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2026-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/65R18 35 psi 35 psi LT RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT WT 4x4 Double/Crew Cab",
+          "size": "265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2026-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "265/70R17 35 psi 35 psi LT WT WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "High Country LT LTZ RST",
+          "size": "275/50R22",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2026-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/50R22 36 psi 36 psi High Country LT LTZ RST",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Custom Trail Boss High Country LT LT Trail Boss LTZ RST RST (Inflation Option)",
+          "size": "275/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2026-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "275/60R20 35 psi 35 psi Custom Custom Trail Boss High Country LT LT Trail Boss LTZ RST RST (Inflation Option)",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT Trail Boss",
+          "size": "LT265/60R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2026-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/60R20 41 psi 41 psi Custom Trail Boss LT Trail Boss",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "LT WT WT 4x4 Double/Crew Cab",
+          "size": "LT265/70R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2026-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT265/70R17 41 psi 41 psi LT WT WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "Custom Trail Boss LT Trail Boss WT 4x4 Double/Crew Cab",
+          "size": "LT275/65R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2026-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/65R18 41 psi 41 psi Custom Trail Boss LT Trail Boss WT 4x4 Double/Crew Cab",
+              "accessed": "2026-10-14"
+            }
+          ]
+        },
+        {
+          "trim": "ZR2",
+          "size": "LT275/70R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Chevrolet Silverado 1500 Tire Pressure",
+              "url": "https://tirepressure.com/2026-chevrolet-silverado-1500-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "LT275/70R18 38 psi 38 psi ZR2",
+              "accessed": "2026-10-14"
+            }
+          ]
+        }
+      ],
       "battery": {},
       "wipers": {
         "driver_in": 22,
@@ -24485,7 +27692,115 @@
           }
         ]
       },
-      "oil": {},
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L L4 L3B",
+            "condition": "aluminum or plastic oil pan",
+            "grade": "5W-30",
+            "spec": "dexos1",
+            "capacity_qt": 6.0,
+            "capacity_l": 5.7,
+            "src": [
+              {
+                "doc": "GM TechLink: 2026 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2026/02/TechLink-engine-oil-capacities-2026_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "2.7L L4 aluminum pan 5.7 6.0 dexos1 5W-30",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2026 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2026/02/TechLink-engine-oil-capacities-2026_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L L6 Diesel LZ0",
+            "grade": "0W-20",
+            "spec": "dexosD",
+            "capacity_qt": 7.0,
+            "capacity_l": 6.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2026 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2026/02/TechLink-engine-oil-capacities-2026_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "3.0L L6 Diesel LZ0 6.6 7.0 dexosD 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2026 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2026/02/TechLink-engine-oil-capacities-2026_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8 L84",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2026 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2026/02/TechLink-engine-oil-capacities-2026_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "5.3L V8 L84 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2026 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2026/02/TechLink-engine-oil-capacities-2026_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8 L87",
+            "grade": "0W-20",
+            "spec": "dexos1",
+            "capacity_qt": 8.0,
+            "capacity_l": 7.6,
+            "src": [
+              {
+                "doc": "GM TechLink: 2026 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2026/02/TechLink-engine-oil-capacities-2026_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "6.2L V8 L87 7.6 8.0 dexos1 0W-20",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "GM TechLink: 2026 Engine Oil Capacities (with filter)",
+                "url": "https://gm-techlink.com/wp-content/uploads/2026/02/TechLink-engine-oil-capacities-2026_B.pdf",
+                "type": "oem_spec_sheet",
+                "page": 1,
+                "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "dims": {
         "summary": {
           "length_mm": [
