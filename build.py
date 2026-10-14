@@ -41,6 +41,8 @@ ADSENSE_PUB = "ca-pub-5861928596436289"
 GA_ID = "G-9V072G350X"
 AD_SLOTS: dict[str, str] = {}   # TODO: AdSense slot ids, e.g. {"top": "1234567890", "bottom": "..."}; empty = auto ads only
 TODAY = date.today()
+POLICY_UPDATED = "2026-10-14"   # bump by hand when privacy/terms text changes
+TITLE_MAX = 59                  # titles must stay under 60 chars
 
 SPECS = {  # slug -> (label, short noun, guide slug)
     "towing-capacity": ("Towing capacity", "towing capacity", "towing-capacity-explained"),
@@ -114,7 +116,7 @@ def tow_config(t: dict) -> str:
 
 def fit_title(t: str) -> str:
     suffix = f" | {SITE_NAME}"
-    return t + suffix if len(t + suffix) <= 65 and SITE_NAME not in t else t
+    return t + suffix if len(t + suffix) <= TITLE_MAX and SITE_NAME not in t else t
 
 
 def fit_desc(d: str, n: int = 160) -> str:
@@ -122,7 +124,7 @@ def fit_desc(d: str, n: int = 160) -> str:
         return d
     cut = d[:n]
     dot = cut.rfind(". ")
-    if dot >= 100:
+    if dot >= 70:
         return cut[:dot + 1]
     return cut[:n - 1].rsplit(" ", 1)[0].rstrip(",;:") + "…"
 
@@ -142,7 +144,7 @@ T["base.html"] = r"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title }}</title>
 <meta name="description" content="{{ description }}">
-<link rel="canonical" href="{{ site_url }}{{ path }}">
+{% if path == "/404.html" %}<meta name="robots" content="noindex">{% else %}<link rel="canonical" href="{{ site_url }}{{ path }}">{% endif %}
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ site_url }}{{ path }}">
@@ -283,10 +285,25 @@ T["make.html"] = r"""{% extends "base.html" %}
 </a>
 {% endfor %}
 </div>
+<h2>{{ make.name }} quick facts</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Model</th><th>Years covered</th><th>Bolt pattern (latest)</th><th>Max towing</th><th>Specs with data</th></tr></thead>
+<tbody>{% for c in make.models %}
+<tr><td><a href="/{{ c.slug }}/">{{ c.make }} {{ c.model }}</a></td><td>{{ c.first }}–{{ c.last }}</td>
+<td>{% if c.bolt %}<a href="/{{ c.slug }}/bolt-pattern/">{{ c.bolt }}</a>{% else %}—{% endif %}</td>
+<td>{% if c.tow %}<a href="/{{ c.slug }}/towing-capacity/">{{ c.tow|commas }} lb</a>{% else %}—{% endif %}</td>
+<td>{{ c.available|length }} of {{ specs|length }}</td></tr>
+{% endfor %}</tbody></table></div>
+<p class="muted small">Max towing is the highest trailer rating any configuration reaches in the years covered. Each value links to the year-by-year table with its sources.</p>
 {% for c in make.models %}
 <h2>{{ c.make }} {{ c.model }} specs</h2>
 <ul class="link-list">{% for s in c.available %}<li><a href="/{{ c.slug }}/{{ s }}/">{{ c.model }} {{ specs[s][0]|lower }} by year</a></li>{% endfor %}</ul>
+<h3>{{ c.model }} by model year</h3>
+<p class="year-links">{% for y in c.years %}<a href="/{{ c.slug }}/{{ y }}/">{{ y }} {{ c.model }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
 {% endfor %}
+<p>Specs vary by trim, engine and package within a model year. Always confirm fitment against your vehicle's door placard,
+owner's manual or the part maker's fitment guide. See <a href="/sources/">where our data comes from</a> or read the
+<a href="/guides/">fitment guides</a> for what each number means.</p>
 {% endblock %}"""
 
 T["model.html"] = r"""{% extends "base.html" %}
@@ -522,7 +539,7 @@ T["guide.html"] = r"""{% extends "base.html" %}
 <h2>Look it up by vehicle</h2>
 <ul class="link-list">{% for s in all_models %}{% if g.spec in s.available %}<li><a href="/{{ s.slug }}/{{ g.spec }}/">{{ s.make }} {{ s.model }} {{ specs[g.spec][0]|lower }}</a></li>{% endif %}{% endfor %}</ul>
 {% endif %}
-<p class="muted small">Last reviewed {{ updated }}.</p>
+<p class="muted small">Last reviewed {{ g.reviewed }}.</p>
 </article>
 <h2>More guides</h2>
 <ul class="link-list">{% for o in guides if o.slug != g.slug %}<li><a href="/guides/{{ o.slug }}/">{{ o.title }}</a></li>{% endfor %}</ul>
@@ -546,7 +563,8 @@ T["404.html"] = r"""{% extends "base.html" %}
 
 # ------------------------------------------------------------------ guides (general explainers)
 GUIDES = [
-    {"slug": "bolt-pattern-explained", "spec": "bolt-pattern",
+    {"slug": "bolt-pattern-explained", "reviewed": "2026-10-14",
+     "desc": "A bolt pattern like 6x139.7 means 6 lug studs on a 139.7 mm (5.5 in) circle. How to measure it, and why center bore and offset matter too.", "spec": "bolt-pattern",
      "title": "Bolt pattern explained: what 6x139.7 means",
      "summary": "How lug count, pitch circle diameter and center bore decide whether a wheel fits.",
      "html": """
@@ -565,8 +583,9 @@ GUIDES = [
 <li><strong>Lug nut seat</strong> (conical, ball or flat) must match the wheel.</li>
 <li><strong>Thread size</strong> of the studs (for example M14x1.5) must match the lug nuts.</li></ul>
 """},
-    {"slug": "towing-capacity-explained", "spec": "towing-capacity",
-     "title": "Towing capacity explained: max trailer, tongue weight and GCWR",
+    {"slug": "towing-capacity-explained", "reviewed": "2026-10-14",
+     "desc": "Towing capacity is the heaviest trailer a configuration may pull. Tongue weight, payload and GCWR also limit you; whichever you hit first applies.", "spec": "towing-capacity",
+     "title": "Towing capacity explained: trailer, tongue weight, GCWR",
      "summary": "Why one truck has a dozen towing ratings, and which limit applies to you.",
      "html": """
 <h2>Max trailer weight</h2>
@@ -580,7 +599,8 @@ GUIDES = [
 <h2>Equipment</h2>
 <p>Higher ratings often require a factory towing package, a specific axle ratio, a weight-distributing hitch or trailer brakes. The "Required" column on our year pages lists what the source document says the rating needs.</p>
 """},
-    {"slug": "engine-oil-viscosity-explained", "spec": "oil-capacity",
+    {"slug": "engine-oil-viscosity-explained", "reviewed": "2026-10-14",
+     "desc": "In 5W-30, 5W rates cold-start flow (lower flows better) and 30 the hot viscosity. Use the grade in your manual; capacities include the filter.", "spec": "oil-capacity",
      "title": "Engine oil viscosity explained: what 0W-20 and 5W-30 mean",
      "summary": "Reading an SAE oil grade, and why the capacity figure includes the filter.",
      "html": """
@@ -592,7 +612,8 @@ GUIDES = [
 <h2>Capacity</h2>
 <p>The capacities we list are the refill amount <em>with a filter change</em>, as printed in the source. Add oil gradually and check the dipstick, since some oil always stays in the engine.</p>
 """},
-    {"slug": "how-to-read-a-tire-size", "spec": "tire-size",
+    {"slug": "how-to-read-a-tire-size", "reviewed": "2026-10-14",
+     "desc": "In P245/75R17, 245 is width in mm, 75 the sidewall height as % of width, R radial and 17 the rim in inches. Plus LT load ranges and flotation sizes.", "spec": "tire-size",
      "title": "How to read a tire size: P245/75R17 and LT285/70R17C",
      "summary": "Width, aspect ratio, construction, rim size and the P/LT prefix.",
      "html": """
@@ -611,7 +632,8 @@ GUIDES = [
 <p>The service description after the size, such as 109S, is the load index (109 = 2,271 lb per tire) and speed rating (S = 112 mph). Replacement tires should meet or exceed the original load index.</p>
 <p>The tire size your vehicle was built with is on the door-jamb placard. Different trims of the same model year often use different sizes.</p>
 """},
-    {"slug": "battery-group-sizes-explained", "spec": "battery-size",
+    {"slug": "battery-group-sizes-explained", "reviewed": "2026-10-14",
+     "desc": "A BCI battery group (24F, 48/H6, 94R/H7) sets case size and terminal layout, not capacity. R or F means reversed terminals; check your label.", "spec": "battery-size",
      "title": "Battery group sizes explained: 24F, 48 (H6), 94R (H7)",
      "summary": "What BCI group numbers mean, the H/L names, and how to check yours.",
      "html": """
@@ -624,7 +646,8 @@ GUIDES = [
 <h2>Check before you buy</h2>
 <p>Group sizes can change with engine, trim, cold-weather or towing packages, and start-stop systems (which usually need an AGM battery). Read the label on the battery that's in the vehicle, or the owner's manual, and match CCA at least to the original. Most battery group sizes on this site come from third-party references and are marked <em>low confidence</em>.</p>
 """},
-    {"slug": "wiper-blade-sizes-explained", "spec": "wiper-size",
+    {"slug": "wiper-blade-sizes-explained", "reviewed": "2026-10-14",
+     "desc": "Most vehicles use a longer driver blade than passenger blade, plus a rear blade on many SUVs. The connector type matters as much as the length.", "spec": "wiper-size",
      "title": "Wiper blade sizes explained: driver, passenger and rear",
      "summary": "Why the two front blades differ, and what to check besides length.",
      "html": """
@@ -642,7 +665,7 @@ def page_content() -> dict[str, tuple[str, str, str]]:
     ga = ("<li><strong>Google Analytics 4</strong> measures page views and general usage (pages visited, approximate location, device type). "
           "It uses cookies set by Google.</li>") if GA_ID else ""
     return {
-        "about": ("About FitmentChart", "About FitmentChart: a cited database of vehicle fitment and specs.", f"""
+        "about": ("About FitmentChart", "FitmentChart lists bolt patterns, towing capacity, oil, tire, battery and wiper specs by year, each linked to its source document. Gaps stay blank.", f"""
 <p>FitmentChart is a reference for the specs you need when buying parts or towing: bolt pattern and center bore, towing capacity,
 engine oil type and capacity, tire sizes, battery group and wiper blade sizes, plus engines, fuel economy, dimensions, recalls
 and crash ratings, organised by year, make and model.</p>
@@ -675,10 +698,10 @@ quote shown when you hover over the link.</li>
 <li><strong>Third-party references</strong> (labelled): wiper-maker fitment lookups, tire-pressure and enthusiast reference sites,
 and battery-size lookups. Battery group sizes from these sources are labelled <em>low confidence</em>.</li>
 </ul>
-<p>The data is rebuilt from these sources by an automated pipeline with quality checks. Pages show the date they were built.</p>
+<p>The data is rebuilt from these sources by an automated pipeline with quality checks before every site build.</p>
 """),
-        "privacy": ("Privacy policy", "FitmentChart privacy policy: cookies, advertising and analytics.", f"""
-<p>Last updated {TODAY.isoformat()}.</p>
+        "privacy": ("Privacy policy", "FitmentChart has no accounts and collects no personal data. Google AdSense" + (" and Google Analytics 4 use" if GA_ID else " uses") + " cookies; here is how to opt out and contact us.", f"""
+<p>Last updated {POLICY_UPDATED}.</p>
 <h2>What we collect</h2>
 <p>FitmentChart has no accounts, forms or comments, and does not ask for personal information. The vehicle search runs in your
 browser; your searches are not sent to us.</p>
@@ -700,8 +723,8 @@ consent mode is set to deny advertising and analytics storage by default.</p>
 <h2>Contact</h2>
 <p>Questions about this policy: <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.</p>
 """),
-        "terms": ("Terms of use", "FitmentChart terms of use and disclaimer.", f"""
-<p>Last updated {TODAY.isoformat()}.</p>
+        "terms": ("Terms of use", "FitmentChart specs are for reference only and provided as is. Confirm fitment with your owner's manual or door placard. Not affiliated with any automaker.", f"""
+<p>Last updated {POLICY_UPDATED}.</p>
 <h2>Information only</h2>
 <p>FitmentChart compiles vehicle specifications from public and manufacturer sources for general reference. Specifications vary
 by trim, package, market and production date, and sources can contain errors. Nothing on this site replaces your vehicle's
@@ -858,9 +881,10 @@ class Site:
         for c in self.cards:
             makes.setdefault(c["make_slug"], {"slug": c["make_slug"], "name": c["make"], "models": []})["models"].append(c)
         self.makes = sorted(makes.values(), key=lambda x: x["name"])
+        self.data_updated = max(m["updated"][:10] for m in models)  # sitemap lastmod for pages built from model data
         self.common = dict(site_url=SITE_URL, site_name=SITE_NAME, adsense_pub=ADSENSE_PUB, ga_id=GA_ID,
                            css_version=CSS_VERSION, nav_makes=self.makes, all_models=self.cards, specs=SPECS,
-                           year_now=TODAY.year, email=CONTACT_EMAIL, guides=GUIDES, updated=TODAY.isoformat())
+                           year_now=TODAY.year, email=CONTACT_EMAIL, guides=GUIDES)
 
     @staticmethod
     def ad(name: str):
@@ -879,10 +903,10 @@ class Site:
         tows = [towing_max(m["years"][y]) for y in ys]
         avail = [s for s in SPECS if any(has_spec(s, m["years"][y]) for y in ys)]
         return {"slug": m["slug"], "make": m["make"], "model": m["model"], "make_slug": make_slug(m),
-                "first": ys[0], "last": ys[-1], "n": len(ys), "bolt": latest_bolt,
+                "first": ys[0], "last": ys[-1], "n": len(ys), "years": ys, "bolt": latest_bolt,
                 "tow": max([t for t in tows if t] or [0]) or None, "available": avail}
 
-    def render(self, tpl: str, path: str, title: str, description: str, crumbs=(), jsonld=(), priority=0.5, **ctx):
+    def render(self, tpl: str, path: str, title: str, description: str, crumbs=(), jsonld=(), priority=0.5, lastmod=None, **ctx):
         ld = list(jsonld)
         if crumbs:
             ld.append({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -895,7 +919,7 @@ class Site:
         out = DOCS / ("404.html" if tpl == "404.html" else path.lstrip("/") + "index.html")
         write(out, html)
         if tpl != "404.html":
-            self.urls.append((path, priority))
+            self.urls.append((path, priority, lastmod or self.data_updated))
 
     # -- home / make
     def home(self):
@@ -904,17 +928,19 @@ class Site:
                                    "query-input": "required name=search_term_string"}},
               {"@context": "https://schema.org", "@type": "Organization", "name": SITE_NAME, "url": SITE_URL + "/",
                "email": CONTACT_EMAIL}]
-        names = ", ".join(f"{c['make']} {c['model']}" for c in self.cards)
-        self.render("home.html", "/", f"{SITE_NAME}: Bolt Patterns, Towing, Oil, Tire & Battery Specs",
-                    f"Cited vehicle specs by year: bolt pattern, towing capacity, oil type and capacity, tire, battery "
-                    f"and wiper sizes for the {names}.", jsonld=ld, priority=1.0, model_cards=self.cards)
+        self.render("home.html", "/", f"{SITE_NAME}: Bolt Patterns, Towing, Oil & Tire Specs",
+                    "Bolt patterns: " + ", ".join(f"{c['model']} {c['bolt']}" for c in self.cards if c["bolt"])
+                    + ". Plus towing, oil, tire, battery and wiper specs by year.", jsonld=ld, priority=1.0, model_cards=self.cards)
 
     def make_pages(self):
         for mk in self.makes:
             models = ", ".join(c["model"] for c in mk["models"])
             self.render("make.html", f"/{mk['slug']}/", f"{mk['name']} fitment & specs by model and year",
-                        f"{mk['name']} {models}: bolt pattern, towing capacity, oil capacity, tire, battery and wiper "
-                        f"sizes by model year, each with a cited source.",
+                        "; ".join(f"{c['make']} {c['model']} {c['first']}–{c['last']}: "
+                                  + ", ".join(x for x in [f"bolt pattern {c['bolt']}" if c["bolt"] else "",
+                                                          f"tows up to {commas(c['tow'])} lb" if c["tow"] else ""] if x)
+                                  for c in mk["models"])
+                        + ". Oil, tire, battery and wiper sizes by year, each with a cited source.",
                         crumbs=[("/", "Home"), (f"/{mk['slug']}/", mk["name"])], priority=0.7, make=mk)
             self.search.append({"t": mk["name"], "u": f"/{mk['slug']}/", "d": f"{len(mk['models'])} models"})
 
@@ -943,11 +969,12 @@ class Site:
         intro = (f"Bolt pattern {' / '.join(bolts)}" if bolts else "") + \
                 (f"; towing up to {commas(card['tow'])} lb" if card["tow"] else "") + "."
         name = f"{m['make']} {m['model']}"
-        self.render("model.html", f"/{m['slug']}/", f"{name} specs by year: towing, bolt pattern, oil",
-                    f"{name} {ys[0]}–{ys[-1]} specs by year: bolt pattern {', '.join(bolts) or 'n/a'}, towing capacity, "
-                    f"oil type and capacity, tire, battery and wiper sizes, engines and recalls.",
+        self.render("model.html", f"/{m['slug']}/", f"{name} specs by year: towing, bolts, oil",
+                    f"{name} {ys[0]}–{ys[-1]}: " + ", ".join(x for x in [f"bolt pattern {' / '.join(bolts)}" if bolts else "",
+                                                                    f"towing up to {commas(card['tow'])} lb" if card["tow"] else ""] if x)
+                    + ". Oil, tires, battery, wipers and recalls by year, with sources.",
                     crumbs=[("/", "Home"), (f"/{card['make_slug']}/", m["make"]), (f"/{m['slug']}/", m["model"])],
-                    priority=0.9, m=m, rows=rows, gens=gens, intro=intro, available=card["available"],
+                    priority=0.9, lastmod=m["updated"][:10], m=m, rows=rows, gens=gens, intro=intro, available=card["available"],
                     siblings=[c for c in self.cards if c["slug"] != m["slug"]])
         self.search.append({"t": name, "u": f"/{m['slug']}/", "d": f"{ys[0]}–{ys[-1]}", "k": " ".join(bolts)})
 
@@ -973,8 +1000,10 @@ class Site:
                 bits.append(f"tires {', '.join(sizes[:2])}" + (" and more" if len(sizes) > 2 else ""))
             summary = (f"The {y} {name} has " + ", ".join(bits) + "." if bits else
                        f"Specs for the {y} {name}.")
-            desc = f"{y} {name} specs: " + (", ".join(bits) if bits else "engines, fuel economy, dimensions") + \
-                   ". Plus battery, wipers, dimensions, recalls and crash ratings, with sources."
+            extra = [x for x, ok in [("battery", battery_groups(b)), ("wipers", b.get("wipers")),
+                                     ("dimensions", (b.get("dims") or {}).get("summary")), ("recalls", b.get("nhtsa"))] if ok]
+            desc = f"{y} {name} specs: " + (", ".join(bits) if bits else "engines, fuel economy, dimensions") + "." + \
+                   (f" Plus {', '.join(extra[:-1]) + ' and ' + extra[-1] if len(extra) > 1 else extra[0]}, with sources." if extra else "")
             if len(desc) > 300:
                 desc = desc[:297].rsplit(" ", 1)[0] + "…"
             same_year = [c for c in self.cards if c["slug"] != m["slug"] and int(c["first"]) <= int(y) <= int(c["last"])]
@@ -988,10 +1017,10 @@ class Site:
             if tmax:
                 ld["trailerWeight"] = {"@type": "QuantitativeValue", "maxValue": tmax, "unitCode": "LBR"}
             self.render("year.html", f"/{m['slug']}/{y}/",
-                        f"{y} {name} specs: bolt pattern, towing, oil", desc,
+                        f"{y} {name} bolt pattern, towing & oil", desc,
                         crumbs=[("/", "Home"), (f"/{card['make_slug']}/", m["make"]), (f"/{m['slug']}/", m["model"]),
                                 (f"/{m['slug']}/{y}/", y)],
-                        jsonld=[ld], priority=0.6, m=m, year=y, y=b, summary=summary, tow_max=tmax,
+                        jsonld=[ld], priority=0.6, lastmod=m["updated"][:10], m=m, year=y, y=b, summary=summary, tow_max=tmax,
                         prev_year=ys[i - 1] if i else None, next_year=ys[i + 1] if i + 1 < len(ys) else None,
                         available=[s for s in card["available"]], same_year=same_year)
             self.search.append({"t": f"{y} {name}", "u": f"/{m['slug']}/{y}/", "d": ", ".join(bits[:2]),
@@ -1058,7 +1087,7 @@ class Site:
                 maxes = {y: towing_max(m["years"][y]) for y in covered if towing_max(m["years"][y])}
                 top = max(maxes.values()) if maxes else None
                 ty = [y for y, v in maxes.items() if v == top]
-                intro = ((f"The {name} can tow up to {commas(top)} lb when properly equipped ({', '.join(ty[:3])}{'…' if len(ty) > 3 else ''}). "
+                intro = ((f"The {name} can tow up to {commas(top)} lb when properly equipped ({', '.join(ty[:3])}{' and later' if len(ty) > 3 else ''}). "
                           if top else f"The {name} has no published trailer rating in the years listed. ") +
                          "Ratings depend on engine, axle ratio, body, and towing equipment; the table shows each year's highest and lowest rating.")
                 rated = [y for y in covered if y in maxes]
@@ -1074,20 +1103,45 @@ class Site:
                 faq = [{"q": f"What is the {name} bolt pattern?",
                         "a": f"{' or '.join(bolts)} for the years listed here ({covered[0]}–{covered[-1]}). Check the year row for your model year."}]
             elif spec == "oil-capacity":
-                intro = (f"Engine oil grade and capacity (with filter) for each {name} engine by year, each taken from an owner's manual, "
-                         f"OEM chart or labelled reference.")
                 last = covered[-1]
                 o = oil_summary(m["years"][last])
-                desc_o = "; ".join(f"{x.get('engine') or str(x.get('displacement_l')) + 'L'}: {x.get('grade') or 'grade not listed'}"
-                                   + (f", {x['capacity_qt']} qt" if x.get("capacity_qt") else "") for x in o[:4])
+                oil_txt = lambda xs: "; ".join(f"{x.get('engine') or str(x.get('displacement_l')) + 'L'}: "
+                                               + ", ".join(v for v in [x.get("grade"), f"{x['capacity_qt']} qt" if x.get("capacity_qt") else ""] if v)
+                                               for x in xs)
+                desc_o = oil_txt(o)
+                intro = (f"{last} {name} oil: {oil_txt(o[:3])}{'; and more' if len(o) > 3 else ''}. Every engine from {covered[0]} to {last} is below, with capacity including "
+                         f"the filter and the owner's manual, OEM chart or labelled reference each value comes from.")
                 faq = [{"q": f"What oil does a {last} {name} take?", "a": desc_o + "."}]
             elif spec == "tire-size":
-                intro = f"Factory tire sizes for the {name} by model year and trim. Check your door-jamb placard for the size your vehicle was built with."
+                last = covered[-1]
+                sz = tire_sizes(m["years"][last])
+                intro = (f"The {last} {name} came with {' or '.join(sz[:3])}{' among other' if len(sz) > 3 else ''} tires, depending on trim. "
+                         f"Factory sizes for every year from {covered[0]} are below; your door-jamb placard shows the size your vehicle was built with.")
+                faq = [{"q": f"What size tires are on a {last} {name}?",
+                        "a": f"{', '.join(sz)}, depending on trim, according to the cited sources. Check the door-jamb placard for your exact vehicle."}]
             elif spec == "battery-size":
-                intro = (f"Battery group sizes reported for the {name} by year. Most values come from third-party lookups and are marked "
-                         f"low confidence; group sizes can change with engine, trim and options.")
+                last = covered[-1]
+                opts = battery_groups(m["years"][last])
+                groups = sorted({o["group"] + (f" ({o['din']})" if o.get("din") else "") for o in opts})
+                low = all(o.get("confidence") == "low" for o in opts)
+                intro = (f"The {last} {name} uses a group {' or '.join(groups)} battery"
+                         + (", according to third-party lookups (low confidence)" if low else "")
+                         + ". Group sizes can change with engine, trim and options, so verify on your battery label before buying.")
+                faq = [{"q": f"What battery group size does a {last} {name} use?",
+                        "a": f"Group {' or '.join(groups)}" + (" according to third-party lookups; treat it as low confidence" if low else "")
+                             + ". Check the label on the installed battery."}]
             else:
-                intro = f"Driver, passenger and rear wiper blade lengths for the {name} by year."
+                def blades(wp):
+                    return [f'{wp[k]}" {lbl}' for k, lbl in [("driver_in", "driver"), ("passenger_in", "passenger"), ("rear_in", "rear")] if wp.get(k)]
+                last = next((y for y in reversed(covered) if blades(m["years"][y]["wipers"])), None)
+                if last:
+                    parts = blades(m["years"][last]["wipers"])
+                    lens = (", ".join(parts[:-1]) + " and " + parts[-1]) if len(parts) > 1 else parts[0]
+                    intro = (f"The {last} {name} uses {lens} wiper blade{'s' if len(parts) > 1 else ''}. "
+                             f"Lengths for every year from {covered[0]} are below, with the source for each.")
+                    faq = [{"q": f"What size wiper blades fit a {last} {name}?", "a": f"{lens[0].upper() + lens[1:]}, according to the cited source."}]
+                else:
+                    intro = f"Driver, passenger and rear wiper blade lengths for the {name} by year."
             title = f"{name} {noun} by year"
             desc = plain(intro)
             if len(desc) > 300:
@@ -1099,7 +1153,7 @@ class Site:
             self.render("spec.html", f"/{m['slug']}/{spec}/", title, desc,
                         crumbs=[("/", "Home"), (f"/{card['make_slug']}/", m["make"]), (f"/{m['slug']}/", m["model"]),
                                 (f"/{m['slug']}/{spec}/", label)],
-                        jsonld=ld, priority=0.8, m=m, spec=spec, label=label, head=head, rows=rows, missing=missing,
+                        jsonld=ld, priority=0.8, lastmod=m["updated"][:10], m=m, spec=spec, label=label, head=head, rows=rows, missing=missing,
                         intro=intro, faq=faq, guide=guide[gslug], available=card["available"],
                         others=[c for c in self.cards if c["slug"] != m["slug"] and spec in c["available"]])
             self.search.append({"t": f"{name} {noun}", "u": f"/{m['slug']}/{spec}/", "d": "by year",
@@ -1109,27 +1163,27 @@ class Site:
     # -- guides and static pages
     def guide_pages(self):
         self.render("guides.html", "/guides/", f"Vehicle fitment guides",
-                    "Explainers for bolt patterns, towing capacity, oil viscosity, tire sizes, battery group sizes and wiper blades.",
-                    crumbs=[("/", "Home"), ("/guides/", "Guides")], priority=0.6)
+                    "Plain-English guides to bolt patterns (6x139.7), towing ratings and GCWR, oil grades (5W-30), tire sizes, battery group sizes and wiper blades.",
+                    crumbs=[("/", "Home"), ("/guides/", "Guides")], priority=0.6, lastmod=max(g["reviewed"] for g in GUIDES))
         for g in GUIDES:
             ld = {"@context": "https://schema.org", "@type": "Article", "headline": g["title"], "description": g["summary"],
-                  "dateModified": TODAY.isoformat(), "author": {"@type": "Organization", "name": SITE_NAME},
+                  "dateModified": g["reviewed"], "author": {"@type": "Organization", "name": SITE_NAME},
                   "publisher": {"@type": "Organization", "name": SITE_NAME}, "mainEntityOfPage": f"{SITE_URL}/guides/{g['slug']}/"}
-            self.render("guide.html", f"/guides/{g['slug']}/", f"{g['title']}", g["summary"],
+            self.render("guide.html", f"/guides/{g['slug']}/", g["title"], g["desc"],
                         crumbs=[("/", "Home"), ("/guides/", "Guides"), (f"/guides/{g['slug']}/", g["title"])],
-                        jsonld=[ld], priority=0.6, g=g, og_type="article")
+                        jsonld=[ld], priority=0.6, lastmod=g["reviewed"], g=g, og_type="article")
             self.search.append({"t": g["title"], "u": f"/guides/{g['slug']}/", "d": "Guide"})
 
     def static_pages(self):
         for slug, (heading, desc, html) in page_content().items():
             self.render("page.html", f"/{slug}/", f"{heading}", desc,
-                        crumbs=[("/", "Home"), (f"/{slug}/", heading)], priority=0.3, heading=heading, content=html)
+                        crumbs=[("/", "Home"), (f"/{slug}/", heading)], priority=0.3, lastmod=POLICY_UPDATED, heading=heading, content=html)
         self.render("404.html", "/404.html", "Page not found", "Page not found.", crumbs=[("/", "Home"), ("/404.html", "Page not found")])
 
     def finish(self):
         sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-        sm += [f"  <url><loc>{SITE_URL}{u}</loc><lastmod>{TODAY.isoformat()}</lastmod><priority>{p:.1f}</priority></url>"
-               for u, p in sorted(self.urls)]
+        sm += [f"  <url><loc>{SITE_URL}{u}</loc><lastmod>{lm}</lastmod><priority>{p:.1f}</priority></url>"
+               for u, p, lm in sorted(self.urls)]
         sm.append("</urlset>")
         write(DOCS / "sitemap.xml", "\n".join(sm) + "\n")
         write(DOCS / "robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n")

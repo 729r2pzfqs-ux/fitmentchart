@@ -74,7 +74,9 @@ for s in pipeline/0*.py; do .venv/bin/python "$s" || break; done
 ## Site build notes
 
 - Settings at the top of build.py: `ADSENSE_PUB` (set), `GA_ID` (empty = no GA tags; the privacy page mentions GA only when it's set), `AD_SLOTS` (empty = auto ads only), `CONTACT_EMAIL` info@fitmentchart.com. Never use a personal email.
-- `render()` adds " | FitmentChart" only when the title stays ≤65 chars, and trims descriptions to 160 chars. Titles and descriptions must stay unique; check with a page audit after template changes.
+- Titles must stay under 60 chars (`TITLE_MAX`); `render()` adds " | FitmentChart" only when it still fits. Descriptions are trimmed to 160 chars, preferring a sentence end. Write descriptions answer-first (lead with the value, e.g. "The 2026 Tacoma uses 24\" driver…"). Titles and descriptions must stay unique; check with a page audit after template changes.
+- Dates shown on pages are real, not the build date: `POLICY_UPDATED` (privacy/terms, bump by hand when their text changes), each guide's `reviewed`, and sitemap `lastmod` from the model JSON's `updated`.
+- 404.html is `noindex` with no canonical.
 - Badges: `low confidence` (battery `confidence: low`) and `third-party` (every source is third_party_reference/aftermarket_fitment). Battery sections always show the "Verify group size…" disclaimer.
 - Favicons live in `favicon/` (committed) and build.py copies them to the site root. Regenerate with `python3 scripts/make_favicons.py` (needs rsvg-convert + ImageMagick). The icon is a wheel hub with a 5-lug bolt pattern; 16/32 px use a bolder variant, and apple-touch-icon is full-bleed.
 - Breadcrumbs: pass `crumbs=[(href, label), …]` to `render()`. It draws the visible trail and the matching BreadcrumbList JSON-LD. Year = Home › Make › Model › Year; spec = Home › Make › Model › Spec. Only the home page has none.
