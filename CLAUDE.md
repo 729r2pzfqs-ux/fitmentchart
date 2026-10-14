@@ -34,7 +34,7 @@ build.py             renders docs/: all Jinja2 templates, CSS and JS are inline 
                      pages: / , /<make>/, /<make>/<model>/, /<make>/<model>/<year>/,
                      /<make>/<model>/<spec>/ (towing-capacity, bolt-pattern, oil-capacity, tire-size, battery-size,
                      wiper-size; built only when the spec has data), /guides/<slug>/, /about/ /sources/ /privacy/ /terms/, 404
-                     plus sitemap.xml, robots.txt, ads.txt, search-index.json, favicon.svg, CNAME
+                     plus sitemap.xml, robots.txt, ads.txt, search-index.json, CNAME, favicon/* copied to the root
 ```
 
 ## Running
@@ -76,6 +76,8 @@ for s in pipeline/0*.py; do .venv/bin/python "$s" || break; done
 - Settings at the top of build.py: `ADSENSE_PUB` (set), `GA_ID` (empty = no GA tags; the privacy page mentions GA only when it's set), `AD_SLOTS` (empty = auto ads only), `CONTACT_EMAIL` info@fitmentchart.com. Never use a personal email.
 - `render()` adds " | FitmentChart" only when the title stays ≤65 chars, and trims descriptions to 160 chars. Titles and descriptions must stay unique; check with a page audit after template changes.
 - Badges: `low confidence` (battery `confidence: low`) and `third-party` (every source is third_party_reference/aftermarket_fitment). Battery sections always show the "Verify group size…" disclaimer.
+- Favicons live in `favicon/` (committed) and build.py copies them to the site root. Regenerate with `python3 scripts/make_favicons.py` (needs rsvg-convert + ImageMagick). The icon is a wheel hub with a 5-lug bolt pattern; 16/32 px use a bolder variant, and apple-touch-icon is full-bleed.
+- Breadcrumbs: pass `crumbs=[(href, label), …]` to `render()`. It draws the visible trail and the matching BreadcrumbList JSON-LD. Year = Home › Make › Model › Year; spec = Home › Make › Model › Spec. Only the home page has none.
 - Local preview: `python3 -m http.server 8765 -d docs`.
 
 ## Source notes / gotchas
