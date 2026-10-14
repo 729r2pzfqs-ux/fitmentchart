@@ -43,6 +43,10 @@ AD_SLOTS: dict[str, str] = {}   # TODO: AdSense slot ids, e.g. {"top": "12345678
 TODAY = date.today()
 POLICY_UPDATED = "2026-10-14"   # bump by hand when privacy/terms text changes
 TITLE_MAX = 59                  # titles must stay under 60 chars
+DISAVOW = """# Disavow file for fitmentchart.com
+# Last updated: 2026-10-14
+# Submit at: https://search.google.com/search-console/disavow
+"""  # add "domain:example.com" or full URLs below the header; bump the date when entries change
 
 SPECS = {  # slug -> (label, short noun, guide slug)
     "towing-capacity": ("Towing capacity", "towing capacity", "towing-capacity-explained"),
@@ -1195,6 +1199,7 @@ class Site:
         write(DOCS / "CNAME", DOMAIN + "\n")
         write(DOCS / ".nojekyll", "")
         write(DOCS / "ads.txt", f"google.com, {ADSENSE_PUB.replace('ca-', '')}, DIRECT, f08c47fec0942fa0\n")
+        write(DOCS / "disavow.txt", DISAVOW)
 
 
 def main() -> int:
