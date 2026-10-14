@@ -905,7 +905,7 @@ class Site:
               {"@context": "https://schema.org", "@type": "Organization", "name": SITE_NAME, "url": SITE_URL + "/",
                "email": CONTACT_EMAIL}]
         names = ", ".join(f"{c['make']} {c['model']}" for c in self.cards)
-        self.render("home.html", "/", f"{SITE_NAME}: bolt patterns, towing, oil, tire & battery specs by year",
+        self.render("home.html", "/", f"{SITE_NAME}: Bolt Patterns, Towing, Oil, Tire & Battery Specs",
                     f"Cited vehicle specs by year: bolt pattern, towing capacity, oil type and capacity, tire, battery "
                     f"and wiper sizes for the {names}.", jsonld=ld, priority=1.0, model_cards=self.cards)
 
