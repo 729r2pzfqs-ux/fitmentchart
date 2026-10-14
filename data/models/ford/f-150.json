@@ -54,11 +54,12 @@
     "manuals": {
       "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
       "file": "data/manuals/ford/f-150.yaml",
-      "documents": 73,
+      "documents": 75,
       "document_types": [
         "aftermarket_fitment",
         "oem_spec_sheet",
         "oem_towing_guide",
+        "research_note",
         "third_party_reference"
       ]
     },
@@ -417,7 +418,99 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "4.2L / 4.6L / 5.4L",
+            "group": "65",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007; autopadre.com lists other groups (2008: 59)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2008 (4.2L/4.6L/5.4L): group=65, alt group=59",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Can HD 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Can HD 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Opt 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "4.2L / 4.6L / 5.4L",
+            "condition": "alternate fitment",
+            "group": "59",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2008 (4.2L/4.6L/5.4L): group=65, alt group=59",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V6/4.2L 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 20,
         "passenger_in": 20,
@@ -1454,7 +1547,99 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "4.2L / 4.6L / 5.4L",
+            "group": "65",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007; autopadre.com lists other groups (2008: 59)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2008 (4.2L/4.6L/5.4L): group=65, alt group=59",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Can HD 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Can HD 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Opt 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "4.2L / 4.6L / 5.4L",
+            "condition": "alternate fitment",
+            "group": "59",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2008 (4.2L/4.6L/5.4L): group=65, alt group=59",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V6/4.2L 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 20,
         "passenger_in": 20,
@@ -2536,7 +2721,99 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "4.2L / 4.6L / 5.4L",
+            "group": "65",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007; autopadre.com lists other groups (2008: 59)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2008 (4.2L/4.6L/5.4L): group=65, alt group=59",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Can HD 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Can HD 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Opt 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "4.2L / 4.6L / 5.4L",
+            "condition": "alternate fitment",
+            "group": "59",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2008 (4.2L/4.6L/5.4L): group=65, alt group=59",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V6/4.2L 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 20,
         "passenger_in": 20,
@@ -3527,7 +3804,99 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "4.2L / 4.6L / 5.4L",
+            "group": "65",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007; autopadre.com lists other groups (2008: 59)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2008 (4.2L/4.6L/5.4L): group=65, alt group=59",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Can HD 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Can HD 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Opt 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "4.2L / 4.6L / 5.4L",
+            "condition": "alternate fitment",
+            "group": "59",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2008 (4.2L/4.6L/5.4L): group=65, alt group=59",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Standard 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V6/4.2L 59 10 1/16\" x 7 5/8\" x 7 3/4\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -4411,7 +4780,74 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "65",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2009, 2010, 2011, 2012, 2013, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2009-2014 (all engines): group=65",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 V8/5.4L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard, Opt 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 V6/3.7L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.5L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -5254,7 +5690,74 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "65",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2009, 2010, 2011, 2012, 2013, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2009-2014 (all engines): group=65",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 V8/5.4L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard, Opt 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 V6/3.7L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.5L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -6189,7 +6692,74 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "65",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2009, 2010, 2011, 2012, 2013, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2009-2014 (all engines): group=65",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 V8/5.4L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard, Opt 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 V6/3.7L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.5L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -7266,7 +7836,74 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "65",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2009, 2010, 2011, 2012, 2013, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2009-2014 (all engines): group=65",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 V8/5.4L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard, Opt 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 V6/3.7L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.5L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -8341,7 +8978,74 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "65",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2009, 2010, 2011, 2012, 2013, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2009-2014 (all engines): group=65",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 V8/5.4L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard, Opt 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 V6/3.7L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.5L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -9388,7 +10092,74 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "65",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2009, 2010, 2011, 2012, 2013, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2009-2014 (all engines): group=65",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 V8/5.4L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard, Opt 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 V6/3.7L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.5L 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 65 12 1/16\" x 7 1/2\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -10448,7 +11219,94 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "gas engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas engines",
+            "condition": "higher trims (2015 may be H7 only)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/2.7L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -11562,7 +12420,94 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "gas engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas engines",
+            "condition": "higher trims (2015 may be H7 only)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/2.7L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -12688,7 +13633,94 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "gas engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas engines",
+            "condition": "higher trims (2015 may be H7 only)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/2.7L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -14008,7 +15040,113 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "gas engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas engines",
+            "condition": "higher trims (2015 may be H7 only)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/2.7L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Power Stroke diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2021 (3.0L diesel): group=49 (H8) AGM",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -15288,7 +16426,113 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "gas engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas engines",
+            "condition": "higher trims (2015 may be H7 only)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/2.7L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Power Stroke diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2021 (3.0L diesel): group=49 (H8) AGM",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -16477,7 +17721,113 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "gas engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/2.7L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas engines",
+            "condition": "higher trims (2015 may be H7 only)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015-2020 (gas): group=48 (H6) std; group=94R (H7) higher trims. 2015 may be H7 only.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: F 150 battery size",
+                "url": "https://www.autopadre.com/battery-size/ford-f-150",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/2.7L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Power Stroke diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2021 (3.0L diesel): group=49 (H8) AGM",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -17863,7 +19213,65 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Power Stroke diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2021 (3.0L diesel): group=49 (H8) AGM",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, optional",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -19534,7 +20942,46 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, optional",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -21026,7 +22473,46 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, optional",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -22305,6 +23791,42 @@
                 "accessed": "2026-10-13"
               }
             ]
+          },
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, optional",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
           }
         ]
       },
@@ -23490,7 +25012,46 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, optional",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -24678,7 +26239,46 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "gas / hybrid",
+            "condition": "AGM, optional",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2021-2026 (gas/hybrid): group=48 (H6) AGM std; group=94R (H7) AGM optional",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,

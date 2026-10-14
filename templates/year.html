@@ -107,8 +107,11 @@
   <dl class="specs">
     {% for b in (y.battery.options if y.battery else []) %}
     <dt>Battery{% if b.engine or b.displacement_l %} ({{ b.engine or b.displacement_l ~ "L" }}){% endif %}</dt>
-    <dd>Group <strong>{{ b.group }}</strong>{% if b.cca %}, {{ b.cca }} CCA{% endif %} {{ cite(b.src) }}</dd>
+    <dd>Group <strong>{{ b.group }}</strong>{% if b.din %} ({{ b.din }}){% endif %}{% if b.condition %}, {{ b.condition }}{% endif %}{% if b.cca %}, {{ b.cca }} CCA{% endif %}{% if b.confidence == "low" %} <span class="conf-low">third-party, low confidence</span>{% endif %} {{ cite(b.src) }}</dd>
     {% endfor %}
+    {% if y.battery and y.battery.options %}
+    <dd class="disclaimer">Verify group size on your battery label or owner's manual before purchasing.</dd>
+    {% endif %}
     {% if y.wipers %}
     <dt>Wiper blades</dt>
     <dd>{% if y.wipers.driver_in %}Driver {{ y.wipers.driver_in }}"{% endif %}{% if y.wipers.passenger_in %}, passenger {{ y.wipers.passenger_in }}"{% endif %}{% if y.wipers.rear_in %}, rear {{ y.wipers.rear_in }}"{% endif %} {{ cite(y.wipers.src) }}</dd>

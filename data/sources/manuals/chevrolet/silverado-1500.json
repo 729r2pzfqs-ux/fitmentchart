@@ -3,12 +3,13 @@
   "source": {
     "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
     "file": "data/manuals/chevrolet/silverado-1500.yaml",
-    "documents": 61,
+    "documents": 63,
     "document_types": [
       "aftermarket_fitment",
       "oem_manual",
       "oem_spec_sheet",
       "oem_towing_guide",
+      "research_note",
       "third_party_reference"
     ]
   },
@@ -853,6 +854,42 @@
                 "page": 414,
                 "quote": "SAE 5W-30 is best for your vehicle",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "75",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2006: group=75",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 V8/6.0L 75 9 1/16\" x 7 1/16\" x 7 11/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 V8/4.8L 75 9 1/16\" x 7 1/16\" x 7 11/16\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -1774,6 +1811,42 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "75",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2006: group=75",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 V8/6.0L 75 9 1/16\" x 7 1/16\" x 7 11/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 V8/4.8L 75 9 1/16\" x 7 1/16\" x 7 11/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22.0,
         "passenger_in": 22.0,
@@ -2627,6 +2700,83 @@
                 "page": 484,
                 "quote": "SAE 5W-30 is best for your vehicle",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2007, 2008, 2009, 2010, 2011, 2012, 2013",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2013: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 V8/6.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V8/5.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -3488,6 +3638,83 @@
                 "page": 423,
                 "quote": "SAE 5W-30 is best for your vehicle",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2007, 2008, 2009, 2010, 2011, 2012, 2013",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2013: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 V8/6.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V8/5.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -4856,6 +5083,83 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2007, 2008, 2009, 2010, 2011, 2012, 2013",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2013: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 V8/6.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V8/5.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 21.6,
         "passenger_in": 21.6,
@@ -5823,6 +6127,83 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2007, 2008, 2009, 2010, 2011, 2012, 2013",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2013: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 V8/6.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V8/5.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 21.6,
         "passenger_in": 21.6,
@@ -6004,6 +6385,83 @@
           ]
         }
       ],
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2007, 2008, 2009, 2010, 2011, 2012, 2013",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2013: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 V8/6.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V8/5.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -6292,6 +6750,83 @@
                 "page": 433,
                 "quote": "SAE 5W‐30 is the best viscosity grade for the vehicle",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2007, 2008, 2009, 2010, 2011, 2012, 2013",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2013: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 V8/6.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V8/5.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -6612,6 +7147,83 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2007, 2008, 2009, 2010, 2011, 2012, 2013",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2013: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 V8/6.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V8/5.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V8/6.2L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V8/4.8L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 21.6,
         "passenger_in": 21.6,
@@ -6868,6 +7480,102 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2014, 2016, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2014-2018: group=48 (H6) std; group=94R (H7) with trailering/HD packages",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 (1) Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/4.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with trailering / HD packages",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2014, 2015, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2014-2018: group=48 (H6) std; group=94R (H7) with trailering/HD packages",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V8/6.2L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V8/6.2L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 21.7,
         "passenger_in": 21.7,
@@ -7057,6 +7765,102 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2014, 2016, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2014-2018: group=48 (H6) std; group=94R (H7) with trailering/HD packages",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 (1) Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/4.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with trailering / HD packages",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2014, 2015, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2014-2018: group=48 (H6) std; group=94R (H7) with trailering/HD packages",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V8/6.2L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V8/6.2L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 21.7,
         "passenger_in": 21.7,
@@ -7241,6 +8045,102 @@
                 "page": 372,
                 "quote": "Use SAE 0W-20 viscosity grade for engine damage not covered by the the 5.3L and 6.2L V8 engines",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2014, 2016, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2014-2018: group=48 (H6) std; group=94R (H7) with trailering/HD packages",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 (1) Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/4.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with trailering / HD packages",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2014, 2015, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2014-2018: group=48 (H6) std; group=94R (H7) with trailering/HD packages",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V8/6.2L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V8/6.2L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -7548,6 +8448,102 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2014, 2016, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2014-2018: group=48 (H6) std; group=94R (H7) with trailering/HD packages",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 (1) Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/4.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with trailering / HD packages",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2014, 2015, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2014-2018: group=48 (H6) std; group=94R (H7) with trailering/HD packages",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V8/6.2L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V8/6.2L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 21.7,
         "passenger_in": 21.7,
@@ -7732,6 +8728,102 @@
                 "page": 346,
                 "quote": "For the 5.3L and 6.2L V8 engines, use SAE 0W-20 viscosity grade engine oil",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2014, 2016, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2014-2018: group=48 (H6) std; group=94R (H7) with trailering/HD packages",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 (1) Standard Opt H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 V6/4.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with trailering / HD packages",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2014, 2015, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2014-2018: group=48 (H6) std; group=94R (H7) with trailering/HD packages",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V8/6.2L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V8/6.2L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -8130,6 +9222,160 @@
                 "page": 325,
                 "quote": "Use SAE 0W-20 viscosity grade engine oil for the 5.3L and 6.2L V8 engines",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L turbo",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Duramax diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.3,
+            "engine": "4.3L V6",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2020; autopadre.com lists other groups (2019: 94R; 2021: 94R)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V8/5.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -8637,6 +9883,160 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L turbo",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Duramax diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.3,
+            "engine": "4.3L V6",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2020; autopadre.com lists other groups (2019: 94R; 2021: 94R)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V8/5.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 21.7,
         "passenger_in": 21.7,
@@ -8931,6 +10331,160 @@
                 "type": "oem_spec_sheet",
                 "page": 1,
                 "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L turbo",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Duramax diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 4.3,
+            "engine": "4.3L V6",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2020; autopadre.com lists other groups (2019: 94R; 2021: 94R)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V8/5.3L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
                 "accessed": "2026-10-14"
               }
             ]
@@ -9357,6 +10911,134 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L turbo",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Duramax diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -9726,6 +11408,134 @@
                 "type": "oem_spec_sheet",
                 "page": 1,
                 "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L turbo",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Duramax diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
                 "accessed": "2026-10-14"
               }
             ]
@@ -10107,6 +11917,134 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L turbo",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Duramax diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -10482,6 +12420,134 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L turbo",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Duramax diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 22,
@@ -10844,6 +12910,134 @@
                 "type": "oem_spec_sheet",
                 "page": 1,
                 "quote": "Silverado 1500",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.7,
+            "engine": "2.7L turbo",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 5.3,
+            "engine": "5.3L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 6.2,
+            "engine": "6.2L V8",
+            "condition": "AGM",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2019, 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Silverado 1500 battery size",
+                "url": "https://www.autopadre.com/battery-size/chevrolet-silverado-1500",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V8/5.3L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.0,
+            "engine": "3.0L Duramax diesel",
+            "condition": "AGM",
+            "group": "49",
+            "din": "H8",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2019-2026: 2.7L/5.3L/6.2L group=94R (H7) AGM; 3.0L Duramax group=49 (H8) AGM; 4.3L (2019-21) group=48 (H6)",
                 "accessed": "2026-10-14"
               }
             ]

@@ -60,12 +60,14 @@
     "manuals": {
       "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
       "file": "data/manuals/honda/civic.yaml",
-      "documents": 92,
+      "documents": 94,
       "document_types": [
         "aftermarket_fitment",
         "oem_manual",
         "oem_parts_catalog",
-        "oem_spec_sheet"
+        "oem_spec_sheet",
+        "research_note",
+        "third_party_reference"
       ]
     },
     "nhtsa": {
@@ -1204,7 +1206,106 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "1.8L, Si, GX",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2006-2015 (1.8L, Si, GX): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 25.6,
         "passenger_in": 22.6,
@@ -2120,7 +2221,106 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "1.8L, Si, GX",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2006-2015 (1.8L, Si, GX): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 25.6,
         "passenger_in": 22.6,
@@ -2977,7 +3177,106 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "1.8L, Si, GX",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2006-2015 (1.8L, Si, GX): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 25.6,
         "passenger_in": 22.6,
@@ -3835,7 +4134,106 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "1.8L, Si, GX",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2006-2015 (1.8L, Si, GX): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 25.6,
         "passenger_in": 22.6,
@@ -4707,7 +5105,106 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "1.8L, Si, GX",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2006-2015 (1.8L, Si, GX): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 25.6,
         "passenger_in": 22.6,
@@ -5581,7 +6078,106 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "1.8L, Si, GX",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2006-2015 (1.8L, Si, GX): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 25.6,
         "passenger_in": 22.6,
@@ -6446,7 +7042,106 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "1.8L, Si, GX",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2006-2015 (1.8L, Si, GX): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 25.6,
         "passenger_in": 22.6,
@@ -7074,7 +7769,106 @@
       "towing": [],
       "wheel": {},
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "1.8L, Si, GX",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2006-2015 (1.8L, Si, GX): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 25.6,
         "passenger_in": 22.6,
@@ -7713,7 +8507,106 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "1.8L, Si, GX",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2006-2015 (1.8L, Si, GX): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 25.6,
         "passenger_in": 22.6,
@@ -8315,7 +9208,106 @@
       "towing": [],
       "wheel": {},
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "1.8L, Si, GX",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2006-2015 (1.8L, Si, GX): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 L4/1.8L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 25.6,
         "passenger_in": 22.6,
@@ -8785,7 +9777,93 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L turbo (incl. Si)",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2020, 2021; autopadre.com lists other groups (2018: 47; 2019: 47)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 1.5T (incl. Si): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L / Type R",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018, 2019; autopadre.com lists other groups (2016: 51R; 2017: 51R; 2020: 51R; 2021: 51R)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 17,
@@ -9339,7 +10417,93 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L turbo (incl. Si)",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2020, 2021; autopadre.com lists other groups (2018: 47; 2019: 47)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 1.5T (incl. Si): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L / Type R",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018, 2019; autopadre.com lists other groups (2016: 51R; 2017: 51R; 2020: 51R; 2021: 51R)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 17,
@@ -10292,7 +11456,93 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L turbo (incl. Si)",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2020, 2021; autopadre.com lists other groups (2018: 47; 2019: 47)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 1.5T (incl. Si): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L / Type R",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018, 2019; autopadre.com lists other groups (2016: 51R; 2017: 51R; 2020: 51R; 2021: 51R)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 18,
@@ -11256,7 +12506,93 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L turbo (incl. Si)",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2020, 2021; autopadre.com lists other groups (2018: 47; 2019: 47)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 1.5T (incl. Si): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L / Type R",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018, 2019; autopadre.com lists other groups (2016: 51R; 2017: 51R; 2020: 51R; 2021: 51R)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 18,
@@ -12213,7 +13549,93 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L turbo (incl. Si)",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2020, 2021; autopadre.com lists other groups (2018: 47; 2019: 47)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 1.5T (incl. Si): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L / Type R",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018, 2019; autopadre.com lists other groups (2016: 51R; 2017: 51R; 2020: 51R; 2021: 51R)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 18,
@@ -13071,7 +14493,93 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L turbo (incl. Si)",
+            "group": "51R",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2020, 2021; autopadre.com lists other groups (2018: 47; 2019: 47)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 1.5T (incl. Si): group=51R",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 L4/1.5L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 L4/2.0L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L / Type R",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018, 2019; autopadre.com lists other groups (2016: 51R; 2017: 51R; 2020: 51R; 2021: 51R)",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2021 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Civic battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-civic",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 26,
         "passenger_in": 18,
@@ -13818,7 +15326,45 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L turbo",
+            "group": "51R",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2022-2024 1.5T: group=51R; 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L / Type R",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2022-2024 1.5T: group=51R; 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 23.6,
         "passenger_in": 18.7,
@@ -14566,7 +16112,45 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L turbo",
+            "group": "51R",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2022-2024 1.5T: group=51R; 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L / Type R",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2022-2024 1.5T: group=51R; 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 23.6,
         "passenger_in": 18.7,
@@ -15232,7 +16816,45 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L turbo",
+            "group": "51R",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2022-2024 1.5T: group=51R; 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L / Type R",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2022-2024 1.5T: group=51R; 2.0L/Type R: group=47 (H5)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 23.6,
         "passenger_in": 18.7,

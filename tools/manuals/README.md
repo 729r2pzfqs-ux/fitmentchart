@@ -17,6 +17,7 @@ python tools/manuals/add_chunk2.py       # F-150 tires/battery/2026 oil (Ford sh
 python tools/manuals/add_chunk3.py       # Civic tires (manuals + Honda Info Center), wipers (HondaPartsNow), towing (manuals)
 python tools/manuals/add_chunk4.py       # Silverado towing (GM guides/charts 2017, 2022-26), oil (GM TechLink 2021-26), tires (tirepressure.com)
 python tools/manuals/add_chunk5.py       # Wrangler towing/tires/oil capacity (FCA/Stellantis spec sheets 2011-26), EcoDiesel grade (manuals)
+python tools/manuals/add_battery.py      # battery groups, ALL confidence: low (research note + autopadre.com corroboration)
 ```
 
 `mkyaml.cite()` is the safety net.

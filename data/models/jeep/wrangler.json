@@ -48,11 +48,13 @@
     "manuals": {
       "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
       "file": "data/manuals/jeep/wrangler.yaml",
-      "documents": 43,
+      "documents": 45,
       "document_types": [
         "aftermarket_fitment",
         "oem_manual",
-        "oem_spec_sheet"
+        "oem_spec_sheet",
+        "research_note",
+        "third_party_reference"
       ]
     },
     "nhtsa": {
@@ -183,7 +185,43 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines (TJ)",
+            "condition": "dual-terminal",
+            "group": "34/78",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2006 TJ: group=34/78",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 L4/2.4L 78 10 1/4\" x 7 1/16\" x 7 11/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/2.4L 78 10 1/4\" x 7 1/16\" x 7 11/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 13,
         "passenger_in": 13,
@@ -606,7 +644,43 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines (TJ)",
+            "condition": "dual-terminal",
+            "group": "34/78",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2006 TJ: group=34/78",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 L4/2.4L 78 10 1/4\" x 7 1/16\" x 7 11/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 L4/2.4L 78 10 1/4\" x 7 1/16\" x 7 11/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 13,
         "passenger_in": 13,
@@ -982,7 +1056,27 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "3.8L (JK)",
+            "condition": "dual-terminal",
+            "group": "34/78",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2011 JK: group=34/78 (2007-10), 78 (2011)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -1511,7 +1605,27 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "3.8L (JK)",
+            "condition": "dual-terminal",
+            "group": "34/78",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2011 JK: group=34/78 (2007-10), 78 (2011)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -1967,7 +2081,27 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "3.8L (JK)",
+            "condition": "dual-terminal",
+            "group": "34/78",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2011 JK: group=34/78 (2007-10), 78 (2011)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -2397,7 +2531,27 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "3.8L (JK)",
+            "condition": "dual-terminal",
+            "group": "34/78",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2011 JK: group=34/78 (2007-10), 78 (2011)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -3019,7 +3173,34 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "3.8L (JK)",
+            "group": "78",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2011",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2007-2011 JK: group=34/78 (2007-10), 78 (2011)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 V6/3.8L 78 10 1/4\" x 7 1/16\" x 7 11/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -3654,7 +3835,84 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L (JK)",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2012, 2013, 2014, 2015, 2016, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2012-2018 JK: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -4311,7 +4569,84 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L (JK)",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2012, 2013, 2014, 2015, 2016, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2012-2018 JK: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -4872,7 +5207,84 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L (JK)",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2012, 2013, 2014, 2015, 2016, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2012-2018 JK: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {},
       "oil": {
         "engines": [
@@ -5339,7 +5751,84 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L (JK)",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2012, 2013, 2014, 2015, 2016, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2012-2018 JK: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -5923,7 +6412,84 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L (JK)",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2012, 2013, 2014, 2015, 2016, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2012-2018 JK: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -6749,7 +7315,84 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L (JK)",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2012, 2013, 2014, 2015, 2016, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2012-2018 JK: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 15,
         "passenger_in": 15,
@@ -7440,7 +8083,136 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.6,
+            "engine": "3.6L (JK)",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2012, 2013, 2014, 2015, 2016, 2017, 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2012-2018 JK: group=48 (H6)",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "JL",
+            "condition": "build-dependent (eTorque/ESS adds an AUX14 auxiliary battery)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V6/3.6L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "JL",
+            "condition": "build-dependent",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -8330,7 +9102,62 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "JL",
+            "condition": "build-dependent (eTorque/ESS adds an AUX14 auxiliary battery)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V6/3.6L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "JL",
+            "condition": "build-dependent",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -9117,7 +9944,62 @@
         "trim_exceptions": []
       },
       "tires": [],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "JL",
+            "condition": "build-dependent (eTorque/ESS adds an AUX14 auxiliary battery)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V6/3.6L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "JL",
+            "condition": "build-dependent",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -10118,7 +11000,62 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "JL",
+            "condition": "build-dependent (eTorque/ESS adds an AUX14 auxiliary battery)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V6/3.6L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "JL",
+            "condition": "build-dependent",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -11394,7 +12331,62 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "JL",
+            "condition": "build-dependent (eTorque/ESS adds an AUX14 auxiliary battery)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V6/3.6L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "JL",
+            "condition": "build-dependent",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -12652,7 +13644,62 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "JL",
+            "condition": "build-dependent (eTorque/ESS adds an AUX14 auxiliary battery)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V6/3.6L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "JL",
+            "condition": "build-dependent",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -13889,7 +14936,62 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "JL",
+            "condition": "build-dependent (eTorque/ESS adds an AUX14 auxiliary battery)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V6/3.6L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "JL",
+            "condition": "build-dependent",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -14947,7 +16049,62 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "JL",
+            "condition": "build-dependent (eTorque/ESS adds an AUX14 auxiliary battery)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V6/3.6L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "JL",
+            "condition": "build-dependent",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,
@@ -15893,7 +17050,62 @@
           ]
         }
       ],
-      "battery": {},
+      "battery": {
+        "options": [
+          {
+            "engine": "JL",
+            "condition": "build-dependent (eTorque/ESS adds an AUX14 auxiliary battery)",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2021",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 V6/3.6L H7 (94R) 12 3/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "JL",
+            "condition": "build-dependent",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2018",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2018-2026 JL: group=94R (H7) or 48 (H6), build-dependent. eTorque/ESS adds AUX14.",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Wrangler battery size",
+                "url": "https://www.autopadre.com/battery-size/jeep-wrangler",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 V6/3.6L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 16,
         "passenger_in": 16,

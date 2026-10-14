@@ -75,4 +75,5 @@ records:
 - `third_party_reference` is an enthusiast or reference site that isn't the OEM or a parts maker (e.g. f150hub.com).
   - Use it only for values the page states verbatim.
   - Never let it override an OEM value for the same year.
+- `research_note` sources are the gap-research summaries themselves (no URL; the quote is the research line). They are only allowed for battery records, which must then carry `confidence: low` and render with a disclaimer. The owner decided on 2026-10-14 to publish third-party battery groups this way, because no OEM document prints them.
 - Units: pounds, US quarts and inches. Use the numbers as printed. Don't convert unless the source only gives metric; in that case write the metric value in the quote.

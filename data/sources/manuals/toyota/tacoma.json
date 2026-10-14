@@ -3,15 +3,199 @@
   "source": {
     "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
     "file": "data/manuals/toyota/tacoma.yaml",
-    "documents": 41,
+    "documents": 43,
     "document_types": [
       "aftermarket_fitment",
-      "oem_manual"
+      "oem_manual",
+      "research_note",
+      "third_party_reference"
     ]
   },
   "notes": [],
   "years": {
     "2005": {
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 HD & Cold Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with tow package",
+            "group": "27F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Cold HD & Climate 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 21,
@@ -36,6 +220,188 @@
       }
     },
     "2006": {
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 HD & Cold Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with tow package",
+            "group": "27F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Cold HD & Climate 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 21,
@@ -60,6 +426,188 @@
       }
     },
     "2007": {
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 HD & Cold Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with tow package",
+            "group": "27F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Cold HD & Climate 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 21,
@@ -266,6 +814,188 @@
                 "page": 385,
                 "quote": "4.0 L V6 (1GR−FE) engine— SAE 5W−30",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 HD & Cold Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with tow package",
+            "group": "27F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Cold HD & Climate 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -482,6 +1212,188 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 HD & Cold Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with tow package",
+            "group": "27F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Cold HD & Climate 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 21,
@@ -688,6 +1600,188 @@
                 "page": 480,
                 "quote": "Recommended viscosity: SAE 5W-30",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 HD & Cold Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with tow package",
+            "group": "27F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Cold HD & Climate 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -940,6 +2034,188 @@
                 "page": 496,
                 "quote": "Recommended viscosity: SAE 5W-30",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 HD & Cold Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with tow package",
+            "group": "27F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Cold HD & Climate 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -1211,6 +2487,188 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 HD & Cold Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with tow package",
+            "group": "27F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Cold HD & Climate 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 21,
@@ -1235,6 +2693,188 @@
       }
     },
     "2013": {
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 HD & Cold Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with tow package",
+            "group": "27F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Cold HD & Climate 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 21,
@@ -1496,6 +3136,188 @@
                 "page": 538,
                 "quote": "1GR-FE) engine SAE 5W-30",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "condition": "standard",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 HD & Cold Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 or Cold TTPKG Climate Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "condition": "with tow package",
+            "group": "27F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2005-2014: group=24F std; 27F with tow package",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2006 Cold HD & Climate 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 Cold Climate or TTPKG 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 Standard 27F 12 1/2\" x 6 13/16\" x 8 15/16\"",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -1767,6 +3589,34 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2015",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2015: group=24F",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 L4/2.7L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 20,
@@ -1986,6 +3836,84 @@
                 "page": 573,
                 "quote": "Recommended viscosity: SAE 0W-20",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "2.7L / 3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 L4/2.7L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L V6",
+            "condition": "alternate fitment",
+            "group": "35",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -2215,6 +4143,84 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "2.7L / 3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 L4/2.7L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L V6",
+            "condition": "alternate fitment",
+            "group": "35",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 20,
@@ -2420,6 +4426,84 @@
                 "page": 629,
                 "quote": "Recommended viscosity: SAE 0W-20",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "2.7L / 3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 L4/2.7L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L V6",
+            "condition": "alternate fitment",
+            "group": "35",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -2635,6 +4719,84 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "2.7L / 3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 L4/2.7L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L V6",
+            "condition": "alternate fitment",
+            "group": "35",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 20,
@@ -2845,6 +5007,84 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "2.7L / 3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 L4/2.7L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L V6",
+            "condition": "alternate fitment",
+            "group": "35",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 20,
@@ -3023,6 +5263,84 @@
                 "page": 541,
                 "quote": "Recommended viscosity: SAE 0W-20",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "2.7L / 3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 L4/2.7L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L V6",
+            "condition": "alternate fitment",
+            "group": "35",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -3211,6 +5529,84 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "2.7L / 3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 L4/2.7L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L V6",
+            "condition": "alternate fitment",
+            "group": "35",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 22,
         "passenger_in": 20,
@@ -3389,6 +5785,84 @@
                 "page": 547,
                 "quote": "Recommended viscosity: SAE 0W-20",
                 "accessed": "2026-10-13"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "2.7L / 3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "note": "autopadre.com agrees for 2016, 2017, 2018, 2019, 2020",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 L4/2.7L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              },
+              {
+                "doc": "AutoPadre: Tacoma battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-tacoma",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-10-14"
+              }
+            ]
+          },
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L V6",
+            "condition": "alternate fitment",
+            "group": "35",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2016-2023: group=24F; group=35 alt on 3.5L V6",
+                "accessed": "2026-10-14"
               }
             ]
           }
@@ -3646,6 +6120,28 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "2.4L turbo",
+            "condition": "per owner reports; unverified",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2024-2026: group=94R (H7) per owner reports (flag as unverified)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 24,
         "passenger_in": 20,
@@ -3898,6 +6394,28 @@
           }
         ]
       },
+      "battery": {
+        "options": [
+          {
+            "engine": "2.4L turbo",
+            "condition": "per owner reports; unverified",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2024-2026: group=94R (H7) per owner reports (flag as unverified)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 24,
         "passenger_in": 20,
@@ -3922,6 +6440,28 @@
       }
     },
     "2026": {
+      "battery": {
+        "options": [
+          {
+            "engine": "2.4L turbo",
+            "condition": "per owner reports; unverified",
+            "group": "94R",
+            "din": "H7",
+            "confidence": "low",
+            "note": "no autopadre.com row for these years",
+            "src": [
+              {
+                "doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com and owner forums",
+                "url": null,
+                "type": "research_note",
+                "page": null,
+                "quote": "2024-2026: group=94R (H7) per owner reports (flag as unverified)",
+                "accessed": "2026-10-14"
+              }
+            ]
+          }
+        ]
+      },
       "wipers": {
         "driver_in": 24,
         "passenger_in": 20,

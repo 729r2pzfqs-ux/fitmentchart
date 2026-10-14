@@ -28,12 +28,12 @@ from common import DATA, iter_models, load_config, log, read_json, source_path, 
 
 MANUALS = DATA / "manuals"
 SOURCE_TYPES = {"oem_manual", "oem_towing_guide", "oem_spec_sheet", "oem_parts_catalog",
-                "aftermarket_fitment", "third_party_reference"}
+                "aftermarket_fitment", "third_party_reference", "research_note"}
 FIELDS = {"towing", "tires", "oil", "battery", "wipers"}
 
 TIRE_RE = re.compile(r"^(P|LT)?\d{3}/\d{2}Z?R\d{2}(\.\d)?C?$|^\d{2}x\d{1,2}\.\d{1,2}R\d{2}(LT)?$", re.I)
 OIL_RE = re.compile(r"^\d{1,2}W-\d{2}$")
-BATTERY_RE = re.compile(r"^[A-Z]{0,2}\d{1,3}[A-Z]{0,2}(-\d)?$|^H\d$|^T\d$", re.I)
+BATTERY_RE = re.compile(r"^[A-Z]{0,2}\d{1,3}[A-Z]{0,2}(-\d)?(/\d{1,3}[A-Z]?)?$|^H\d$|^T\d$", re.I)
 
 COMMON_KEYS = {"field", "years", "src", "note"}
 KEYS = {
@@ -41,7 +41,7 @@ KEYS = {
                "max_lb", "tongue_lb", "gcwr_lb", "package"},
     "tires": {"trim", "size", "load_speed", "position", "displacement_l"},
     "oil": {"displacement_l", "engine", "condition", "grade", "alt_grades", "spec", "capacity_qt", "capacity_l"},
-    "battery": {"displacement_l", "engine", "trim", "group", "cca", "ah"},
+    "battery": {"displacement_l", "engine", "trim", "condition", "group", "din", "cca", "ah", "confidence"},
     "wipers": {"driver_in", "passenger_in", "rear_in", "trim", "body"},
 }
 
@@ -119,6 +119,11 @@ def check_record(rec: dict, sources: dict) -> list[dict]:
             raise Invalid(f"battery group {rec.get('group')!r} not a BCI group")
         if rec.get("cca") is not None:
             num(rec["cca"], 250, 1300, "cca")
+        lowconf = rec.get("confidence") == "low"
+        if rec.get("confidence") not in (None, "low"):
+            raise Invalid(f"confidence must be 'low' or absent, got {rec['confidence']!r}")
+        if not lowconf and all(sources[s["ref"]]["type"] in ("third_party_reference", "research_note") for s in srcs):
+            raise Invalid("battery from third-party/research sources only must carry confidence: low")
     elif f == "wipers":
         if rec.get("driver_in") is None and rec.get("passenger_in") is None and rec.get("rear_in") is None:
             raise Invalid("wipers record has no lengths")
@@ -142,7 +147,7 @@ def build_model(slug: str, data: dict, years: set[str]) -> tuple[dict, list[str]
             errors.append(f"source {ref}: type {doc.get('type')!r} not one of {sorted(SOURCE_TYPES)}")
         if not doc.get("doc"):
             errors.append(f"source {ref}: missing doc name")
-        if not doc.get("url"):
+        if not doc.get("url") and doc.get("type") != "research_note":
             errors.append(f"source {ref}: missing url")
 
     out: dict[str, dict] = defaultdict(lambda: {"towing": [], "tires": [], "oil": {"engines": []},
