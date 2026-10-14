@@ -207,8 +207,7 @@ sources:
     type: aftermarket_fitment
     accessed: '2026-10-13'
   research_battery:
-    doc: Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, getjerry.com, optimabatteries.com
-      and owner forums
+    doc: Third-party battery research (autopadre.com, autofiles.com, forums)
     type: research_note
     accessed: '2026-10-14'
   autopadre_battery:

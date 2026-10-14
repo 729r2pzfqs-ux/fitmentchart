@@ -30,7 +30,11 @@ data/
   models/<make>/<model>.json          merged output consumed by build.py
   cache/             raw downloads + HTTP cache (gitignored)
 qa.py                quality gates (07 runs it; build.py refuses to build if it fails)
-build.py             renders docs/ + sitemap.xml + search-index.json
+build.py             renders docs/: all Jinja2 templates, CSS and JS are inline strings in build.py (DictLoader)
+                     pages: / , /<make>/, /<make>/<model>/, /<make>/<model>/<year>/,
+                     /<make>/<model>/<spec>/ (towing-capacity, bolt-pattern, oil-capacity, tire-size, battery-size,
+                     wiper-size; built only when the spec has data), /guides/<slug>/, /about/ /sources/ /privacy/ /terms/, 404
+                     plus sitemap.xml, robots.txt, ads.txt, search-index.json, favicon.svg, CNAME
 ```
 
 ## Running
@@ -66,6 +70,13 @@ for s in pipeline/0*.py; do .venv/bin/python "$s" || break; done
     - Wrangler manuals only for 2005, 2016-18, 2021-23 and 2026. FCA/Stellantis media spec sheets (s3 chryslermedia.iconicweb.com) fill 2011-14, 2019, 2024-26; none found for 2006-10, 2015, 2020. 2025 is the Canadian sheet (US one 403s).
     - Known OEM conflicts, manual kept: 2016-17 2-door 3.73 towing (manual 3,500 vs spec sheet 2,000); 2026 6.4L oil (manual 7.5 qt vs sheet 7 qt).
     - quadratec.com is behind a bot check; battery-group claims from autopadre/forums were not used.
+
+## Site build notes
+
+- Settings at the top of build.py: `ADSENSE_PUB` (set), `GA_ID` (empty = no GA tags; the privacy page mentions GA only when it's set), `AD_SLOTS` (empty = auto ads only), `CONTACT_EMAIL` info@fitmentchart.com. Never use a personal email.
+- `render()` adds " | FitmentChart" only when the title stays ≤65 chars, and trims descriptions to 160 chars. Titles and descriptions must stay unique; check with a page audit after template changes.
+- Badges: `low confidence` (battery `confidence: low`) and `third-party` (every source is third_party_reference/aftermarket_fitment). Battery sections always show the "Verify group size…" disclaimer.
+- Local preview: `python3 -m http.server 8765 -d docs`.
 
 ## Source notes / gotchas
 

@@ -16,8 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from autopadre import rows as ap_rows
 
-RESEARCH = {"doc": "Gap-research notes, battery section (2026-10-14); cites autopadre.com, autofiles.com, "
-                   "getjerry.com, optimabatteries.com and owner forums",
+RESEARCH = {"doc": "Third-party battery research (autopadre.com, autofiles.com, forums)",
             "type": "research_note", "accessed": "2026-10-14"}
 
 # (years, group, din, displacement filter or None, engine text, condition, research quote)
