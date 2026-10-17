@@ -40,7 +40,7 @@ CONTACT_EMAIL = "info@fitmentchart.com"
 ADSENSE_PUB = "ca-pub-5861928596436289"
 # Ahrefs Web Analytics (no cookies). Loaded last in <head>, after consent defaults, AdSense and gtag. Blank = tag omitted.
 AHREFS_KEY = "MCHaxzVvYxbSPHEA5/+q5Q"
-GA_ID = "G-9V072G350X"
+GA_ID = "G-9V072GS5DX"
 AD_SLOTS: dict[str, str] = {}   # TODO: AdSense slot ids, e.g. {"top": "1234567890", "bottom": "..."}; empty = auto ads only
 TODAY = date.today()
 POLICY_UPDATED = "2026-10-14"   # bump by hand when privacy/terms text changes
