@@ -188,6 +188,8 @@ gtag('consent', 'default', {
 {% if ahrefs_key %}<script src="https://analytics.ahrefs.com/analytics.js" data-key="{{ ahrefs_key }}" async></script>
 {% endif %}</head>
 <body>
+<!-- Cloudflare email obfuscation off: its /cdn-cgi/l/email-protection links 404 on GitHub Pages -->
+<!--email_off-->
 <header class="site-header">
 <div class="container header-inner">
 <a href="/" class="logo">Fitment<span>Chart</span></a>
@@ -228,6 +230,7 @@ your vehicle's door placard, owner's manual or the part maker before buying. Not
 </div>
 </footer>
 <script src="/static/site.js?v={{ css_version }}" defer></script>
+<!--/email_off-->
 </body>
 </html>"""
 
