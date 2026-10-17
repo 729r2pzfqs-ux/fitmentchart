@@ -38,6 +38,8 @@ DOMAIN = "fitmentchart.com"
 SITE_NAME = "FitmentChart"
 CONTACT_EMAIL = "info@fitmentchart.com"
 ADSENSE_PUB = "ca-pub-5861928596436289"
+# Ahrefs Web Analytics (no cookies). Loaded last in <head>, after consent defaults, AdSense and gtag. Blank = tag omitted.
+AHREFS_KEY = "MCHaxzVvYxbSPHEA5/+q5Q"
 GA_ID = "G-9V072G350X"
 AD_SLOTS: dict[str, str] = {}   # TODO: AdSense slot ids, e.g. {"top": "1234567890", "bottom": "..."}; empty = auto ads only
 TODAY = date.today()
@@ -183,7 +185,8 @@ gtag('consent', 'default', {
 {% endif %}
 {% for ld in jsonld %}<script type="application/ld+json">{{ ld|tojson }}</script>
 {% endfor %}
-</head>
+{% if ahrefs_key %}<script src="https://analytics.ahrefs.com/analytics.js" data-key="{{ ahrefs_key }}" async></script>
+{% endif %}</head>
 <body>
 <header class="site-header">
 <div class="container header-inner">
@@ -716,6 +719,7 @@ show ads based on your visits to this and other websites, and to measure ad perf
 advertising at <a href="https://adssettings.google.com/">Google Ad Settings</a>. See
 <a href="https://policies.google.com/technologies/ads">how Google uses information from sites that use its services</a>.</li>
 {ga}
+<li><strong>Ahrefs Web Analytics</strong> counts page views and shows which sites and searches send visitors here. It sets no cookies; your browser loads its script from analytics.ahrefs.com, so Ahrefs receives your IP address and browser details, governed by <a href="https://ahrefs.com/privacy">Ahrefs&rsquo; privacy policy</a>.</li>
 <li><strong>GitHub Pages</strong> hosts the site and may log IP addresses for security and operations; see GitHub's privacy statement.</li>
 </ul>
 <p>FitmentChart does not set its own cookies. For visitors in the European Economic Area, the UK and Switzerland, Google's
@@ -886,7 +890,7 @@ class Site:
             makes.setdefault(c["make_slug"], {"slug": c["make_slug"], "name": c["make"], "models": []})["models"].append(c)
         self.makes = sorted(makes.values(), key=lambda x: x["name"])
         self.data_updated = max(m["updated"][:10] for m in models)  # sitemap lastmod for pages built from model data
-        self.common = dict(site_url=SITE_URL, site_name=SITE_NAME, adsense_pub=ADSENSE_PUB, ga_id=GA_ID,
+        self.common = dict(site_url=SITE_URL, site_name=SITE_NAME, adsense_pub=ADSENSE_PUB, ga_id=GA_ID, ahrefs_key=AHREFS_KEY,
                            css_version=CSS_VERSION, nav_makes=self.makes, all_models=self.cards, specs=SPECS,
                            year_now=TODAY.year, email=CONTACT_EMAIL, guides=GUIDES)
 
