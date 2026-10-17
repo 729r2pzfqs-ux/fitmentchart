@@ -20,7 +20,6 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#14213d">
 <link rel="stylesheet" href="/static/style.css?v=1">
-<link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -33,7 +32,12 @@ gtag('consent', 'default', {
   'analytics_storage': 'granted', 'ad_storage': 'granted', 'ad_user_data': 'granted', 'ad_personalization': 'granted'
 });
 </script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5861928596436289" crossorigin="anonymous"></script>
+<script>
+/* AdSense (~225 KB plus ad requests) loads after the page's load event so it doesn't slow first paint or page load. */
+(function(){function tags(){var s=document.createElement('script');s.async=true;s.crossOrigin='anonymous';
+s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5861928596436289';document.head.appendChild(s);}
+if(document.readyState==='complete')setTimeout(tags,0);else window.addEventListener('load',function(){setTimeout(tags,0);});})();
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9V072G350X"></script>
 <script>gtag('js', new Date()); gtag('config', 'G-9V072G350X');</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Car", "brand": {"@type": "Brand", "name": "Jeep"}, "model": "Wrangler", "name": "2007 Jeep Wrangler", "url": "https://fitmentchart.com/jeep/wrangler/2007/", "vehicleEngine": [{"@type": "EngineSpecification", "enginePower": {"@type": "QuantitativeValue", "unitCode": "BHP", "value": 190}, "name": "3.8L 6-cyl"}], "vehicleModelDate": "2007"}</script>

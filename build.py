@@ -125,12 +125,14 @@ def fit_title(t: str) -> str:
     return t + suffix if len(t + suffix) <= TITLE_MAX and SITE_NAME not in t else t
 
 
-def fit_desc(d: str, n: int = 160) -> str:
+def fit_desc(d: str, n: int = 160, floor: int = 120) -> str:
+    """Trim to n chars: keep whole sentences when that leaves >= floor chars, else cut at a word."""
+    d = re.sub(r"\s+", " ", d).strip()
     if len(d) <= n:
         return d
     cut = d[:n]
     dot = cut.rfind(". ")
-    if dot >= 70:
+    if dot + 1 >= floor:
         return cut[:dot + 1]
     return cut[:n - 1].rsplit(" ", 1)[0].rstrip(",;:") + "…"
 
@@ -166,7 +168,6 @@ T["base.html"] = r"""<!DOCTYPE html>
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#14213d">
 <link rel="stylesheet" href="/static/style.css?v={{ css_version }}">
-<link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -179,7 +180,12 @@ gtag('consent', 'default', {
   'analytics_storage': 'granted', 'ad_storage': 'granted', 'ad_user_data': 'granted', 'ad_personalization': 'granted'
 });
 </script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense_pub }}" crossorigin="anonymous"></script>
+<script>
+/* AdSense (~225 KB plus ad requests) loads after the page's load event so it doesn't slow first paint or page load. */
+(function(){function tags(){var s=document.createElement('script');s.async=true;s.crossOrigin='anonymous';
+s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense_pub }}';document.head.appendChild(s);}
+if(document.readyState==='complete')setTimeout(tags,0);else window.addEventListener('load',function(){setTimeout(tags,0);});})();
+</script>
 {% if ga_id %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_id }}"></script>
 <script>gtag('js', new Date()); gtag('config', '{{ ga_id }}');</script>
 {% endif %}
@@ -691,7 +697,7 @@ the label on the part you're replacing, or the part maker's fitment guide.</p>
 <p>Found an error, or have a document that fills a gap? Email <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.
 Corrections with a source are especially welcome.</p>
 """),
-        "sources": ("Data sources", "Where FitmentChart's vehicle specs come from: NHTSA, EPA, Transport Canada, OEM manuals and more.", """
+        "sources": ("Data sources", "FitmentChart's specs come from NHTSA, the EPA, Transport Canada, OEM owner's manuals, towing guides and spec sheets, and the ANKUSI wheel dataset.", """
 <ul>
 <li><strong>NHTSA vPIC</strong>: makes, models and model years.</li>
 <li><strong>EPA fueleconomy.gov</strong>: engines, transmissions, drive types and fuel economy. Horsepower comes from the EPA's
@@ -1013,6 +1019,11 @@ class Site:
                        f"Specs for the {y} {name}.")
             extra = [x for x, ok in [("battery", battery_groups(b)), ("wipers", b.get("wipers")),
                                      ("dimensions", (b.get("dims") or {}).get("summary")), ("recalls", b.get("nhtsa"))] if ok]
+            if not bits and b.get("engines"):
+                labels = sorted({e["label"] for e in b["engines"]})
+                mpg = [v for e in b["engines"] for v in (e.get("mpg") or {}).get("combined", [])]
+                bits.append(f"{', '.join(labels[:3])} engine{'s' if len(labels) > 1 else ''}"
+                            + (f", {min(mpg)}–{max(mpg)} mpg combined (EPA)" if mpg and min(mpg) != max(mpg) else f", {mpg[0]} mpg combined (EPA)" if mpg else ""))
             desc = f"{y} {name} specs: " + (", ".join(bits) if bits else "engines, fuel economy, dimensions") + "." + \
                    (f" Plus {', '.join(extra[:-1]) + ' and ' + extra[-1] if len(extra) > 1 else extra[0]}, with sources." if extra else "")
             if len(desc) > 300:
@@ -1109,8 +1120,10 @@ class Site:
                                  f"The lowest listed rating that year is {commas(min(t['max_lb'] for t in m['years'][last]['towing'] if t.get('max_lb')))} lb."}]
             elif spec == "bolt-pattern":
                 bolts = sorted({m["years"][y]["wheel"]["bolt_pattern"] for y in covered})
-                intro = (f"The {name} uses a {' / '.join(bolts)} bolt pattern across {covered[0]}–{covered[-1]}. "
-                         f"Center bore and factory wheel sizes are listed by year.")
+                bores = sorted({m["years"][y]["wheel"].get("center_bore_mm") for y in covered} - {None})
+                bore_txt = (f" with {'an' if f'{bores[0]:g}'.startswith(('8', '11', '18')) else 'a'} {' / '.join(f'{b:g}' for b in bores)} mm center bore" if bores else "")
+                intro = (f"The {name} uses a {' / '.join(bolts)} bolt pattern{bore_txt} across {covered[0]}–{covered[-1]}. "
+                         f"Factory wheel sizes and offsets are listed for every year, with the source for each.")
                 faq = [{"q": f"What is the {name} bolt pattern?",
                         "a": f"{' or '.join(bolts)} for the years listed here ({covered[0]}–{covered[-1]}). Check the year row for your model year."}]
             elif spec == "oil-capacity":
@@ -1189,7 +1202,7 @@ class Site:
         for slug, (heading, desc, html) in page_content().items():
             self.render("page.html", f"/{slug}/", f"{heading}", desc,
                         crumbs=[("/", "Home"), (f"/{slug}/", heading)], priority=0.3, lastmod=POLICY_UPDATED, heading=heading, content=html)
-        self.render("404.html", "/404.html", "Page not found", "Page not found.", crumbs=[("/", "Home"), ("/404.html", "Page not found")])
+        self.render("404.html", "/404.html", "Page not found", "This FitmentChart page doesn't exist. Search by year, make and model, or browse bolt patterns, towing, oil and tire specs.", crumbs=[("/", "Home"), ("/404.html", "Page not found")])
 
     def finish(self):
         sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

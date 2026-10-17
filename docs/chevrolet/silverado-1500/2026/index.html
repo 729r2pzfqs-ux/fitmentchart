@@ -20,7 +20,6 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#14213d">
 <link rel="stylesheet" href="/static/style.css?v=1">
-<link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -33,7 +32,12 @@ gtag('consent', 'default', {
   'analytics_storage': 'granted', 'ad_storage': 'granted', 'ad_user_data': 'granted', 'ad_personalization': 'granted'
 });
 </script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5861928596436289" crossorigin="anonymous"></script>
+<script>
+/* AdSense (~225 KB plus ad requests) loads after the page's load event so it doesn't slow first paint or page load. */
+(function(){function tags(){var s=document.createElement('script');s.async=true;s.crossOrigin='anonymous';
+s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5861928596436289';document.head.appendChild(s);}
+if(document.readyState==='complete')setTimeout(tags,0);else window.addEventListener('load',function(){setTimeout(tags,0);});})();
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9V072G350X"></script>
 <script>gtag('js', new Date()); gtag('config', 'G-9V072G350X');</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Car", "brand": {"@type": "Brand", "name": "Chevrolet"}, "model": "Silverado 1500", "name": "2026 Chevrolet Silverado 1500", "trailerWeight": {"@type": "QuantitativeValue", "maxValue": 13300, "unitCode": "LBR"}, "url": "https://fitmentchart.com/chevrolet/silverado-1500/2026/", "vehicleEngine": [{"@type": "EngineSpecification", "enginePower": {"@type": "QuantitativeValue", "unitCode": "BHP", "value": 310}, "name": "2.7L 4-cyl turbo"}, {"@type": "EngineSpecification", "enginePower": {"@type": "QuantitativeValue", "unitCode": "BHP", "value": 305}, "name": "3.0L 6-cyl turbo diesel"}, {"@type": "EngineSpecification", "enginePower": {"@type": "QuantitativeValue", "unitCode": "BHP", "value": 355}, "name": "5.3L 8-cyl"}, {"@type": "EngineSpecification", "enginePower": {"@type": "QuantitativeValue", "unitCode": "BHP", "value": 420}, "name": "6.2L 8-cyl"}], "vehicleModelDate": "2026"}</script>
