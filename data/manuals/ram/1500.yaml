@@ -106,6 +106,16 @@ sources:
     url: https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2023/1500_DT/5690659_23_DT_OM_EN_USC_DIGITAL_E6.pdf
     type: oem_manual
     accessed: '2026-11-01'
+  om2024:
+    doc: 2024 Ram 1500 Owner's Manual
+    url: https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2024/1500_DT/5538888_24_DT_OM_EN_USC_DIGITAL_E1.pdf
+    type: oem_manual
+    accessed: '2026-11-01'
+  om2025:
+    doc: 2025 Ram 1500 Owner's Manual (E2)
+    url: https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2025/1500_DT/100531_25_DT_OM_EN_USC_DIGITAL_E2.pdf
+    type: oem_manual
+    accessed: '2026-11-01'
   om2026:
     doc: 2026 Ram 1500 Owner's Manual (US/Canada)
     url: https://vehicleinfo.mopar.com/assets/publications/en-us-ca/2026/Ram/1500/103960_26_DT_OM_EN_USC_DIGITAL_E1_V1.pdf
@@ -1365,15 +1375,55 @@ records:
   years:
   - 2024
   - 2024
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  condition: new-body 1500 (DT)
+  grade: 0W-20
+  capacity_qt: 5.0
+  capacity_l: 4.7
+  src:
+  - ref: om2024
+    page: 398
+    quote: 3.6L Engine 5 qt 4.7 L
+  - &id002
+    ref: om2024
+    page: 399
+    quote: Engine Oil – 3.6L & 5.7L Engine We recommend using Mopar® SAE 0W-20 Full Synthetic Engine Oil
+- field: oil
+  years:
+  - 2024
+  - 2024
   displacement_l: 5.7
   engine: 5.7L HEMI V-8 eTorque
   condition: new-body 1500 (DT)
+  grade: 0W-20
   capacity_qt: 7.0
   capacity_l: 6.6
   src:
+  - ref: om2024
+    page: 398
+    quote: 5.7L Engine 7 qt 6.6 L
+  - *id002
   - ref: sp2024
     page: 2
     quote: Oil Capacity 7.0 quarts (6.6 liters)
+- field: oil
+  years:
+  - 2025
+  - 2025
+  displacement_l: 3.6
+  engine: 3.6L V-6
+  condition: new-body 1500 (DT)
+  grade: 0W-20
+  capacity_qt: 5.0
+  capacity_l: 4.7
+  src:
+  - ref: om2025
+    page: 416
+    quote: 3.6L Engine 5 qt 4.7 L
+  - ref: om2025
+    page: 418
+    quote: Engine Oil — 3.6L Engine We recommend using Mopar® SAE 0W-20 Full Synthetic Engine Oil
 - field: oil
   years:
   - 2025
@@ -1387,6 +1437,9 @@ records:
   - ref: sp2025
     page: 2
     quote: Oil Capacity 7.5 quarts (7.1 liters) oil change with filter
+  - ref: om2025
+    page: 416
+    quote: 3.0L Engine 7.5 qt 7.1 L
 - field: oil
   years:
   - 2026

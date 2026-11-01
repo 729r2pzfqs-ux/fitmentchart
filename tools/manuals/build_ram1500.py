@@ -15,8 +15,10 @@ row's GCWR, axle, box and trim. The 1500 Tradesman HD rows (2012+) stay separate
 Conflicts, manual kept:
 - 3.6L DT oil: spec sheets 2019-2023 and 2026 say 6.0 qt, the DT manuals/user guide say 5 qt.
 - 3.0L EcoDiesel DT oil: spec sheets 2020-2023 say 10.5 qt, the DT manuals say 8.5 qt.
-No manual was found for 2024 and 2025. The 3.6L DT stays empty there: the only value is the sheet's 6.0 qt,
-which every DT manual contradicts (5 qt), and a wrong capacity overfills the engine.
+The 2024 and 2025 DT owner's manuals (found on vehicleinfo.mopar.com on 2026-11-01) both print 5 qt (4.7 L) for the
+3.6L, so the manual value is used for those years too; the 2024 sheet's 6.0 qt is not. The 2024 manual also prints
+7.5 qt for the 6.2L (after draining the oil cooler) against the TRX sheet's 7.9 qt; the sheet row is kept as the TRX
+figure, with the manual value noted.
 2013 towing is a gap: the Stellantis media PDF answered 403, so the chart is not used from any other host.
 """
 import json, re, subprocess, sys
@@ -66,6 +68,8 @@ OM = {  # ref: (year, title, url path)
     "om2022": ("2022 Ram 1500 Owner's Manual", "en-us/Ram/2022/1500_DT/5690658_22_DT_OM_EN_USC_DIGITAL_E5.pdf"),
     "om2022c": ("2022 Ram 1500 Classic Owner's Manual", "en-us/Ram/2022/1500_Classic/P136747_22_DS_OM_EN_USC_DIGITAL.pdf"),
     "om2023": ("2023 Ram 1500 Owner's Manual", "en-us/Ram/2023/1500_DT/5690659_23_DT_OM_EN_USC_DIGITAL_E6.pdf"),
+    "om2024": ("2024 Ram 1500 Owner's Manual", "en-us/Ram/2024/1500_DT/5538888_24_DT_OM_EN_USC_DIGITAL_E1.pdf"),
+    "om2025": ("2025 Ram 1500 Owner's Manual (E2)", "en-us/Ram/2025/1500_DT/100531_25_DT_OM_EN_USC_DIGITAL_E2.pdf"),
     "om2026": ("2026 Ram 1500 Owner's Manual (US/Canada)", "en-us-ca/2026/Ram/1500/103960_26_DT_OM_EN_USC_DIGITAL_E1_V1.pdf"),
 }
 for k, (t, u) in OM.items():
@@ -221,8 +225,16 @@ oil(2022, 5.7, "5.7L HEMI V-8", "0W-20", 7.0, 6.6, [cite(c, 348, r"5\.7L Engine 
 for y, c, rx in ((2021, "sptrx21", r"Oil Capacity 7\.9 quarts \(7\.4 liters\)"), (2022, "sp2022", r"Oil Capacity 7\.9 quarts \(7\.4 liters\)"),
                  (2023, "sp2023", r"Oil Capacity 7\.9 quarts \(7\.4 liters\)"), (2024, "sp2024", r"Oil Capacity 7\.9 quarts \(7\.4 liters\)")):
     oil(y, 6.2, "6.2L HEMI Supercharged V-8", None, 7.9, 7.4, [find(c, rx, ["7.9"])], cond="TRX")
-oil(2024, 5.7, "5.7L HEMI V-8 eTorque", None, 7.0, 6.6, [find("sp2024", r"Oil Capacity 7\.0 quarts \(6\.6 liters\)", ["7.0"])], cond=DT)
-oil(2025, 3.0, "3.0L Straight-Six Turbo", None, 7.5, 7.1, [find("sp2025", r"Oil Capacity 7\.5 quarts \(7\.1 liters\) oil change with filter", ["7.5"])], cond="Standard Output and High Output")
+c = "om2024"
+g24 = cite(c, 399, r"Engine Oil – 3\.6L & 5\.7L Engine We recommend using Mopar®? SAE 0W-20 Full Synthetic Engine Oil", ["0W-20"])
+oil(2024, 3.6, "3.6L V-6", "0W-20", 5.0, 4.7, [cite(c, 398, r"3\.6L Engine 5 qt 4\.7 L", ["5 qt"]), g24], cond=DT)
+oil(2024, 5.7, "5.7L HEMI V-8 eTorque", "0W-20", 7.0, 6.6, [cite(c, 398, r"5\.7L Engine 7 qt 6\.6 L", ["7 qt"]), g24,
+                                                            find("sp2024", r"Oil Capacity 7\.0 quarts \(6\.6 liters\)", ["7.0"])], cond=DT)
+c = "om2025"
+oil(2025, 3.6, "3.6L V-6", "0W-20", 5.0, 4.7, [cite(c, 416, r"3\.6L Engine 5 qt 4\.7 L", ["5 qt"]),
+                                               cite(c, 418, r"Engine Oil — 3\.6L Engine We recommend using Mopar®? SAE 0W-20 Full Synthetic Engine Oil", ["0W-20"])], cond=DT)
+oil(2025, 3.0, "3.0L Straight-Six Turbo", None, 7.5, 7.1, [find("sp2025", r"Oil Capacity 7\.5 quarts \(7\.1 liters\) oil change with filter", ["7.5"]),
+                                                          cite(c, 416, r"3\.0L Engine 7\.5 qt 7\.1 L", ["7.5"])], cond="Standard Output and High Output")
 c = "om2026"
 oil(2026, 3.6, "3.6L V-6", "0W-20", 5.0, 4.7, [cite(c, 379, r"3\.6L Engine 5 qt 4\.7 L", ["5 qt"]), cite(c, 376, r"Mopar®? SAE 0W-20 Full Synthetic Engine Oil", ["0W-20"])])
 oil(2026, 5.7, "5.7L HEMI V-8", "0W-20", 7.0, 6.6, [cite(c, 379, r"5\.7L Engine 7 qt 6\.6 ?L", ["7 qt"]), cite(c, 376, r"Mopar®? SAE 0W-20 Full Synthetic Engine Oil", ["0W-20"])])

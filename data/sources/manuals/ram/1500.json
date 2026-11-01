@@ -3,7 +3,7 @@
   "source": {
     "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
     "file": "data/manuals/ram/1500.yaml",
-    "documents": 99,
+    "documents": 101,
     "document_types": [
       "aftermarket_fitment",
       "oem_manual",
@@ -10544,12 +10544,55 @@
             ]
           },
           {
+            "displacement_l": 3.6,
+            "engine": "3.6L V-6",
+            "condition": "new-body 1500 (DT)",
+            "grade": "0W-20",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.7,
+            "src": [
+              {
+                "doc": "2024 Ram 1500 Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2024/1500_DT/5538888_24_DT_OM_EN_USC_DIGITAL_E1.pdf",
+                "type": "oem_manual",
+                "page": 398,
+                "quote": "3.6L Engine 5 qt 4.7 L",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2024 Ram 1500 Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2024/1500_DT/5538888_24_DT_OM_EN_USC_DIGITAL_E1.pdf",
+                "type": "oem_manual",
+                "page": 399,
+                "quote": "Engine Oil – 3.6L & 5.7L Engine We recommend using Mopar® SAE 0W-20 Full Synthetic Engine Oil",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
             "displacement_l": 5.7,
             "engine": "5.7L HEMI V-8 eTorque",
             "condition": "new-body 1500 (DT)",
+            "grade": "0W-20",
             "capacity_qt": 7.0,
             "capacity_l": 6.6,
             "src": [
+              {
+                "doc": "2024 Ram 1500 Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2024/1500_DT/5538888_24_DT_OM_EN_USC_DIGITAL_E1.pdf",
+                "type": "oem_manual",
+                "page": 398,
+                "quote": "5.7L Engine 7 qt 6.6 L",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2024 Ram 1500 Owner's Manual",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2024/1500_DT/5538888_24_DT_OM_EN_USC_DIGITAL_E1.pdf",
+                "type": "oem_manual",
+                "page": 399,
+                "quote": "Engine Oil – 3.6L & 5.7L Engine We recommend using Mopar® SAE 0W-20 Full Synthetic Engine Oil",
+                "accessed": "2026-11-01"
+              },
               {
                 "doc": "2024 Ram 1500 Specifications (FCA/Stellantis media spec sheet)",
                 "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2024_RAM_1500_SP.pdf",
@@ -11026,6 +11069,32 @@
       "oil": {
         "engines": [
           {
+            "displacement_l": 3.6,
+            "engine": "3.6L V-6",
+            "condition": "new-body 1500 (DT)",
+            "grade": "0W-20",
+            "capacity_qt": 5.0,
+            "capacity_l": 4.7,
+            "src": [
+              {
+                "doc": "2025 Ram 1500 Owner's Manual (E2)",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2025/1500_DT/100531_25_DT_OM_EN_USC_DIGITAL_E2.pdf",
+                "type": "oem_manual",
+                "page": 416,
+                "quote": "3.6L Engine 5 qt 4.7 L",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2025 Ram 1500 Owner's Manual (E2)",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2025/1500_DT/100531_25_DT_OM_EN_USC_DIGITAL_E2.pdf",
+                "type": "oem_manual",
+                "page": 418,
+                "quote": "Engine Oil — 3.6L Engine We recommend using Mopar® SAE 0W-20 Full Synthetic Engine Oil",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
             "displacement_l": 3.0,
             "engine": "3.0L Straight-Six Turbo",
             "condition": "Standard Output and High Output",
@@ -11038,6 +11107,14 @@
                 "type": "oem_spec_sheet",
                 "page": 2,
                 "quote": "Oil Capacity 7.5 quarts (7.1 liters) oil change with filter",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2025 Ram 1500 Owner's Manual (E2)",
+                "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2025/1500_DT/100531_25_DT_OM_EN_USC_DIGITAL_E2.pdf",
+                "type": "oem_manual",
+                "page": 416,
+                "quote": "3.0L Engine 7.5 qt 7.1 L",
                 "accessed": "2026-11-01"
               }
             ]

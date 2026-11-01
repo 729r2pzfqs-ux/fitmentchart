@@ -30,6 +30,7 @@ python tools/manuals/build_ram1500.py     # Mopar manuals, FCA/Stellantis spec s
 python tools/manuals/build_model3.py      # third-party tires only (tesla.com answers 403)
 python tools/manuals/add_wipers.py toyota/camry toyota/corolla honda/accord ram/1500 tesla/model-3
 python tools/manuals/add_battery_autopadre.py   # ALL confidence: low, autopadre.com rows only
+python tools/manuals/add_accord_wipers.py       # Accord 2008-12, 2023-25 wipers from the HondaPartsNow catalog (cached pages in data/cache/web/)
 ```
 
 `mkyaml.cite()` is the safety net.

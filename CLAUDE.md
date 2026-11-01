@@ -71,13 +71,14 @@ for s in pipeline/0*.py; do .venv/bin/python "$s" || break; done
     - Silverado towing 2015-18 and 2021+ (no GM guide found); 2021+ manuals not found.
     - F-150 owner manuals: none. Oil/tires come from Ford tech-spec sheets where they exist, else f150hub.com / tirepressure.com (`third_party_reference`).
     - Civic 2006+ (Honda's portal needs login).
+    - Accord oil and towing: techinfo.honda.com answered 503 on 2026-11-01 (the honda.ca manual selector failed the same day), and the 2017 Facts Guide prints neither. Third-party manual mirrors are not used. Accord wipers for 2008-12 and 2023-25 come from the HondaPartsNow genuine-parts catalog (`tools/manuals/add_accord_wipers.py`, `oem_parts_catalog`), as for the Civic; its 2026 page lists no blades.
     - Wrangler manuals only for 2005, 2016-18, 2021-23 and 2026. FCA/Stellantis media spec sheets (s3 chryslermedia.iconicweb.com) fill 2011-14, 2019, 2024-26; none found for 2006-10, 2015, 2020. 2025 is the Canadian sheet (US one 403s).
     - Known OEM conflicts, manual kept: 2016-17 2-door 3.73 towing (manual 3,500 vs spec sheet 2,000); 2026 6.4L oil (manual 7.5 qt vs sheet 7 qt).
     - quadratec.com is behind a bot check; battery-group claims from autopadre/forums were not used.
     - Camry oil/towing 2005-07 and Corolla oil/towing 2005-07: toyota.ca's API starts at MY2008, and assets.sia.toyota.com (which hosts the older PDFs) answered 403. Corolla 2008: the PDF (OM12B28U) has no text layer. Their tires for those years are third-party. Corolla 2012-13 manuals still print a 2.4L that EPA doesn't list; left out.
-    - Ram towing 2005-06, 2008-10 and 2013 (2013's Stellantis PDF answered 403). Ram oil 2005 (no manual found) and the 2024-25 3.6L DT: the only value is the spec sheets' 6.0 qt, which every DT manual contradicts (5 qt). 1500 Classic: no tow chart, oil 2019 and 2022 only. Ram tire years without a Feature Availability sheet are third-party.
+    - Ram towing 2005-06, 2008-10 and 2013 (2013's Stellantis media PDF answered 403, and ramtrucks.com's copy also 403'd on 2026-11-01; dealer mirrors of that blocked chart are not used). Ram oil 2005 (no manual found). The 2024 and 2025 DT owner's manuals (vehicleinfo.mopar.com) print 5 qt for the 3.6L, so the sheets' 6.0 qt is not used. 1500 Classic: no tow chart, oil 2019 and 2022 only. Ram tire years without a Feature Availability sheet are third-party.
     - Known OEM conflicts, manual kept: Ram DT 3.6L oil (sheets 6.0 qt vs manuals 5 qt), DT 3.0L EcoDiesel oil (sheets 10.5 qt vs manuals 8.5 qt). As printed: Camry 2012 4.4 qt build-date split; Corolla 2023 sedan 2.0L 4.9 qt vs 4.4 qt elsewhere.
-    - Model 3: tesla.com answers 403, so tires are third-party (tirepressure.com, Goodyear), and there is no towing record because the secondary sources conflict. Rain-X and autopadre don't list it, so no wipers or battery. EPA test cars give EVs no displacement, so no HP.
+    - Model 3: tesla.com answers 403, so tires are third-party (tirepressure.com, Goodyear), and there is no towing record because the secondary sources conflict. Rain-X and autopadre don't list it, so no wipers or battery; Trico's and Bosch's finders are JS apps behind API keys, and reseller pages disagree on the passenger length (18" vs 19"), so wipers stay empty. EPA test cars give EVs no displacement, so no HP.
 
 ## Site build notes
 

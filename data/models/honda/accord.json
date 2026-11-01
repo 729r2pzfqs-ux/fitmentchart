@@ -57,9 +57,10 @@
     "manuals": {
       "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
       "file": "data/manuals/honda/accord.yaml",
-      "documents": 41,
+      "documents": 49,
       "document_types": [
         "aftermarket_fitment",
+        "oem_parts_catalog",
         "oem_spec_sheet",
         "third_party_reference"
       ]
@@ -2481,7 +2482,28 @@
           }
         ]
       },
-      "wipers": {},
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 18.7,
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2008 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2008-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2008 Honda Accord Blade, Windshield Wiper (650MM) Part Number: 76620-TE0-A01",
+            "accessed": "2026-11-01"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2008 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2008-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2008 Honda Accord Blade, Windshield Wiper (475MM) Part Number: 76630-TA0-A01",
+            "accessed": "2026-11-01"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -3019,7 +3041,28 @@
           }
         ]
       },
-      "wipers": {},
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 18.7,
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2009 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2009-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2009 Honda Accord Blade, Windshield Wiper (650MM) Part Number: 76620-TE0-A01",
+            "accessed": "2026-11-01"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2009 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2009-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2009 Honda Accord Blade, Windshield Wiper (475MM) Part Number: 76630-TA0-A01",
+            "accessed": "2026-11-01"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -3585,7 +3628,28 @@
           }
         ]
       },
-      "wipers": {},
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 18.7,
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2010 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2010-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2010 Honda Accord Blade, Windshield Wiper (650MM) Part Number: 76620-TE0-A01",
+            "accessed": "2026-11-01"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2010 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2010-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2010 Honda Accord Blade, Windshield Wiper (475MM) Part Number: 76630-TA0-A01",
+            "accessed": "2026-11-01"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -4177,7 +4241,28 @@
           }
         ]
       },
-      "wipers": {},
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 18.7,
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2011 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2011-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2011 Honda Accord Blade, Windshield Wiper (650MM) Part Number: 76620-TE0-A01",
+            "accessed": "2026-11-01"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2011 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2011-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2011 Honda Accord Blade, Windshield Wiper (475MM) Part Number: 76630-TA0-A01",
+            "accessed": "2026-11-01"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -4710,7 +4795,28 @@
           }
         ]
       },
-      "wipers": {},
+      "wipers": {
+        "driver_in": 25.6,
+        "passenger_in": 18.7,
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2012 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2012-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2012 Honda Accord Blade, Windshield Wiper (650MM) Part Number: 76620-TE0-A01",
+            "accessed": "2026-11-01"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2012 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2012-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2012 Honda Accord Blade, Windshield Wiper (475MM) Part Number: 76630-TA0-A01",
+            "accessed": "2026-11-01"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -11351,7 +11457,28 @@
           }
         ]
       },
-      "wipers": {},
+      "wipers": {
+        "driver_in": 23.6,
+        "passenger_in": 16.7,
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2023 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2023-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2023 Honda Accord BLADE (600) Part Number: 76620-30A-A01",
+            "accessed": "2026-11-01"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2023 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2023-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2023 Honda Accord BLADE (425) Part Number: 76630-30A-A01",
+            "accessed": "2026-11-01"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -11891,7 +12018,28 @@
           }
         ]
       },
-      "wipers": {},
+      "wipers": {
+        "driver_in": 23.6,
+        "passenger_in": 16.7,
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2024 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2024-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2024 Honda Accord BLADE (600) Part Number: 76620-30A-A01",
+            "accessed": "2026-11-01"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2024 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2024-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2024 Honda Accord BLADE (425) Part Number: 76630-30A-A01",
+            "accessed": "2026-11-01"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
@@ -12413,7 +12561,28 @@
           }
         ]
       },
-      "wipers": {},
+      "wipers": {
+        "driver_in": 23.6,
+        "passenger_in": 16.7,
+        "src": [
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2025 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2025-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2025 Honda Accord BLADE (600) Part Number: 76620-30A-A01",
+            "accessed": "2026-11-01"
+          },
+          {
+            "doc": "HondaPartsNow (genuine Honda parts catalog): 2025 Honda Accord Wiper Blade",
+            "url": "https://www.hondapartsnow.com/oem-2025-honda-accord-wiper_blade.html",
+            "type": "oem_parts_catalog",
+            "page": null,
+            "quote": "2025 Honda Accord BLADE (425) Part Number: 76630-30A-A01",
+            "accessed": "2026-11-01"
+          }
+        ]
+      },
       "oil": {},
       "dims": {
         "summary": {
