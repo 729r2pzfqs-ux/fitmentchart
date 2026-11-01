@@ -430,7 +430,7 @@ T["year.html"] = r"""{% extends "base.html" %}
 {% if y.towing %}
 <section id="towing">
 <h2>Towing capacity</h2>
-<p>Maximum trailer weight ranges up to <strong>{{ tow_max|commas }} lb</strong>, depending on configuration. <a href="/{{ m.slug }}/towing-capacity/">{{ m.short }} towing capacity by year</a> · <a href="/guides/towing-capacity-explained/">what GCWR and tongue weight mean</a></p>
+<p>{% if tow_max %}Maximum trailer weight ranges up to <strong>{{ tow_max|commas }} lb</strong>, depending on configuration.{% else %}No maximum trailer weight is published for this year: the cited source advises against towing (see the note in the table).{% endif %} <a href="/{{ m.slug }}/towing-capacity/">{{ m.short }} towing capacity by year</a> · <a href="/guides/towing-capacity-explained/">what GCWR and tongue weight mean</a></p>
 <div class="table-wrap"><table class="sortable">
 <thead><tr><th>Configuration</th><th data-sort="num">Max trailer</th><th data-sort="num">Tongue</th><th data-sort="num">GCWR</th><th>Required</th><th>Source</th></tr></thead>
 <tbody>{% for t in y.towing %}
@@ -1142,7 +1142,11 @@ class Site:
                 maxes = {y: towing_max(m["years"][y]) for y in covered if towing_max(m["years"][y])}
                 top = max(maxes.values()) if maxes else None
                 ty = [y for y, v in maxes.items() if v == top]
-                intro = ((f"The {name} can tow up to {commas(top)} lb when properly equipped ({', '.join(ty[:3])}{' and later' if len(ty) > 3 else ''}). "
+                # "and later" only when every rated year after the third top year still carries the top rating
+                later = [y for y in maxes if y > ty[2]] if len(ty) > 3 else []
+                span = (f"{ty[0]}–{ty[-1]}" if len(ty) > 3 and all(maxes[y] == top for y in later) else
+                        ", ".join(ty[:3]) + (f" and {len(ty) - 3} more year{'s' if len(ty) > 4 else ''}" if len(ty) > 3 else ""))
+                intro = ((f"The {name} can tow up to {commas(top)} lb when properly equipped ({span}). "
                           if top else f"The {name} has no published trailer rating in the years listed. ") +
                          "Ratings depend on engine, axle ratio, body, and towing equipment; the table shows each year's highest and lowest rating.")
                 rated = [y for y in covered if y in maxes]
