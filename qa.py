@@ -150,9 +150,9 @@ def check_nhtsa(r: Report, slug, y, n):
     rec = n.get("recalls") or {}
     if rec.get("count", 0) != len(rec.get("campaigns", [])):
         r.add("error", slug, y, "nhtsa", "recall count != campaign list length")
-    # campaign types: V vehicle, E equipment, C child seat, T tire
+    # campaign types: V vehicle, E equipment, C child seat, T tire. The serial can hold letters (21V00D000)
     for c in rec.get("campaigns", []):
-        if not re.fullmatch(r"\d{2}[VECT]\d{6}", c.get("campaign", "")):
+        if not re.fullmatch(r"\d{2}[VECT][0-9A-Z]{6}", c.get("campaign", "")):
             r.add("error", slug, y, "nhtsa", f"malformed campaign number {c.get('campaign')}")
     for v in (n.get("ncap") or {}).get("variants", []):
         for k in ("overall", "front", "side", "rollover"):

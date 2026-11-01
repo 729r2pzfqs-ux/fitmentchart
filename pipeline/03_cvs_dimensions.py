@@ -16,7 +16,7 @@ Writes data/sources/cvs/<make>/<model>.json
 from __future__ import annotations
 
 from common import (get_json, has_flag, iter_models, load_config, log, matches,
-                    read_json, source_path, write_json)
+                    read_json, source_makes, source_path, write_json)
 
 URL = "https://vpic.nhtsa.dot.gov/api/vehicles/GetCanadianVehicleSpecifications/"
 CM_FIELDS = {"OL": "length", "OW": "width", "OH": "height", "WB": "wheelbase",
@@ -74,15 +74,16 @@ def main() -> None:
         years_out = {}
         for y in sorted(skel["years"]):
             variants, seen = [], set()
-            for q in rule["query"]:
-                body = get_json(URL, {"Year": y, "Make": make["name"], "Model": q,
-                                      "units": "Metric", "format": "json"}, refresh=refresh)
-                for res in body.get("Results") or []:
-                    v = parse_variant(res.get("Specs") or [])
-                    if not matches(rule, v["name"]) or v["name"] in seen:
-                        continue
-                    seen.add(v["name"])
-                    variants.append(v)
+            for mk in source_makes(make, model):
+                for q in rule["query"]:
+                    body = get_json(URL, {"Year": y, "Make": mk["name"], "Model": q,
+                                          "units": "Metric", "format": "json"}, refresh=refresh)
+                    for res in body.get("Results") or []:
+                        v = parse_variant(res.get("Specs") or [])
+                        if not matches(rule, v["name"]) or v["name"] in seen:
+                            continue
+                        seen.add(v["name"])
+                        variants.append(v)
             if variants:
                 variants.sort(key=lambda v: v["name"])
                 years_out[y] = {"dims": {"summary": summarize(variants), "variants": variants}}

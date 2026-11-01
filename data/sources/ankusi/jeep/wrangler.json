@@ -6,11 +6,8 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "landing_page": "https://ankusiwheels.com/wheel-fitment-dataset/",
     "doi": "10.6084/m9.figshare.33921994",
-    "via": "figshare",
-    "url": "https://ndownloader.figshare.com/files/69985473",
-    "version": 8,
-    "title": "ANKUSI Open Wheel Fitment Dataset: bolt pattern, centre bore and OE wheel specifications for 10,081 vehicle variants",
-    "md5": "5ccd30bf2366aaaa465451d307c74f92"
+    "via": "huggingface",
+    "url": "https://huggingface.co/datasets/hjhjhihg1/ankusi-wheel-fitment-data/resolve/main/data/ankusi-wheel-fitment.csv"
   },
   "matched_rows": 22,
   "skipped_rows": [
@@ -166,14 +163,14 @@
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
           },
           {
-            "model": "Jeep Wrangler Rubicon",
-            "year": "2007",
-            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
-          },
-          {
             "model": "Jeep Wrangler Rubicon 10th Anniversary",
             "year": "2013",
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
           },
           {
             "model": "Jeep Wrangler Unlimited",
@@ -244,14 +241,14 @@
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
           },
           {
-            "model": "Jeep Wrangler Rubicon",
-            "year": "2007",
-            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
-          },
-          {
             "model": "Jeep Wrangler Rubicon 10th Anniversary",
             "year": "2013",
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
           },
           {
             "model": "Jeep Wrangler Unlimited",
@@ -322,14 +319,14 @@
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
           },
           {
-            "model": "Jeep Wrangler Rubicon",
-            "year": "2007",
-            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
-          },
-          {
             "model": "Jeep Wrangler Rubicon 10th Anniversary",
             "year": "2013",
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
           },
           {
             "model": "Jeep Wrangler Unlimited",
@@ -586,14 +583,14 @@
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
           },
           {
-            "model": "Jeep Wrangler Rubicon",
-            "year": "2007",
-            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
-          },
-          {
             "model": "Jeep Wrangler Rubicon 10th Anniversary",
             "year": "2013",
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
           },
           {
             "model": "Jeep Wrangler Unlimited",
@@ -664,14 +661,14 @@
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
           },
           {
-            "model": "Jeep Wrangler Rubicon",
-            "year": "2007",
-            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
-          },
-          {
             "model": "Jeep Wrangler Rubicon 10th Anniversary",
             "year": "2013",
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
           },
           {
             "model": "Jeep Wrangler Unlimited",
@@ -742,14 +739,14 @@
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
           },
           {
-            "model": "Jeep Wrangler Rubicon",
-            "year": "2007",
-            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
-          },
-          {
             "model": "Jeep Wrangler Rubicon 10th Anniversary",
             "year": "2013",
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
           },
           {
             "model": "Jeep Wrangler Unlimited",
@@ -791,14 +788,14 @@
         ],
         "evidence": [
           {
-            "model": "Jeep Wrangler",
-            "year": "2025",
-            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler/"
-          },
-          {
             "model": "Jeep Wrangler 1941 by Mopar",
             "year": "2019",
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-1941-by-mopar/"
+          },
+          {
+            "model": "Jeep Wrangler",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler/"
           },
           {
             "model": "Jeep Wrangler 4xe",
@@ -841,14 +838,14 @@
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-polar/"
           },
           {
-            "model": "Jeep Wrangler Rubicon",
-            "year": "2007",
-            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
-          },
-          {
             "model": "Jeep Wrangler Rubicon 10th Anniversary",
             "year": "2013",
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon-10th-anniversary/"
+          },
+          {
+            "model": "Jeep Wrangler Rubicon",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-rubicon/"
           },
           {
             "model": "Jeep Wrangler Rubicon 392",
@@ -1015,14 +1012,14 @@
         ],
         "evidence": [
           {
-            "model": "Jeep Wrangler",
-            "year": "2025",
-            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler/"
-          },
-          {
             "model": "Jeep Wrangler 1941 by Mopar",
             "year": "2019",
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-1941-by-mopar/"
+          },
+          {
+            "model": "Jeep Wrangler",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler/"
           },
           {
             "model": "Jeep Wrangler 4xe",
@@ -1078,14 +1075,14 @@
         ],
         "evidence": [
           {
-            "model": "Jeep Wrangler",
-            "year": "2025",
-            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler/"
-          },
-          {
             "model": "Jeep Wrangler 1941 by Mopar",
             "year": "2019",
             "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler-1941-by-mopar/"
+          },
+          {
+            "model": "Jeep Wrangler",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/jeep-wrangler/"
           },
           {
             "model": "Jeep Wrangler 4xe",

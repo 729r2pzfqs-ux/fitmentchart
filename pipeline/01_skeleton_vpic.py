@@ -14,7 +14,7 @@ from __future__ import annotations
 from collections import Counter
 
 from common import (get_json, has_flag, iter_models, load_config, log, matches,
-                    model_path, source_path, write_json, year_range)
+                    model_path, source_path, source_makes, write_json, year_range)
 
 VPIC = "https://vpic.nhtsa.dot.gov/api/vehicles"
 
@@ -50,7 +50,8 @@ def main() -> None:
         body_by_year: dict[str, list[str]] = {}
 
         for y in years:
-            hits = [r for r in models_for(make["vpic_make"], y, None, refresh)
+            makes = [mk["vpic_make"] for mk in source_makes(make, model)]
+            hits = [r for mk in makes for r in models_for(mk, y, None, refresh)
                     if matches(rule, r["Model_Name"])]
             if not hits:
                 continue
@@ -61,7 +62,7 @@ def main() -> None:
             ids = {r["Model_ID"] for r in hits}
             yb = []
             for vtype, body in VEHICLE_TYPES.items():
-                if any(r["Model_ID"] in ids for r in models_for(make["vpic_make"], y, vtype, refresh)):
+                if any(r["Model_ID"] in ids for mk in makes for r in models_for(mk, y, vtype, refresh)):
                     yb.append(body)
                     bodies[body] += 1
             body_by_year[str(y)] = yb

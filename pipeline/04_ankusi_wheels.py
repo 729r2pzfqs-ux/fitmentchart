@@ -8,7 +8,10 @@ Download order (first that works wins, recorded in the output):
   2. GitHub david025445/ankusi-wheel-fitment-data
   3. figshare record 33921994 (DOI 10.6084/m9.figshare.33921994), latest version
   4. Hugging Face mirror hjhjhihg1/ankusi-wheel-fitment-data
-On 2026-10-13 both GitHub repos returned 404, so figshare is the live source.
+On 2026-10-13 both GitHub repos returned 404. On 2026-11-01 the figshare record
+returned 404 too, so the Hugging Face mirror is the live source. It differs from
+figshare v8 by 13 added rows and small corrections to rows we don't use, apart
+from Model 3 Highland's OE offset (ET40 -> ET38).
 
 The dataset is a sparse sample of model-years and trims (e.g. Tacoma 2011, 2012,
 2016, 2020, 2024 + TRD Pro years), not one row per year. Resolution per year:
@@ -23,7 +26,8 @@ rows, else a strict majority. Disagreeing trims are kept as `trim_exceptions`
 `trim_only_evidence` marks values backed only by special trims (e.g. the 8th-gen
 Civic inferred from a Type R sedan row); QA warns on those.
 Regional rows tagged [EU]/[UK]/etc. are excluded: this is a US site and those
-variants can differ.
+variants can differ. Untagged rows can carry another market's spec too; makes.yaml
+`skip` drops those one by one, with the reason kept in `skipped_rows`.
 
 Writes data/sources/ankusi/<make>/<model>.json
 """
@@ -34,8 +38,8 @@ import io
 import re
 
 from common import (download, generation_for, has_flag, iter_models, load_config,
-                    load_generations, log, matches, read_json, session, source_path,
-                    write_json)
+                    load_generations, log, matches, read_json, session, source_makes,
+                    source_path, write_json)
 
 CANDIDATES = [
     ("github:david025445/ankusi-wheel-fitment-dataset",
@@ -72,20 +76,20 @@ def fetch(refresh: bool) -> tuple[str, dict]:
                 continue
             if r.status_code == 200 and r.text.startswith("make,"):
                 p = download(url, "ankusi/ankusi-github.csv", refresh=refresh)
-                return p.read_text(encoding="utf-8"), {"via": label, "url": url}
+                return p.read_text(encoding="utf-8-sig"), {"via": label, "url": url}
     # figshare: resolve the current version's CSV through the API
     try:
         meta = session().get(FIGSHARE_API, timeout=60).json()
         f = next(f for f in meta["files"] if f["name"].endswith(".csv"))
         p = download(f["download_url"], f"ankusi/figshare-v{meta['version']}.csv", refresh=refresh)
-        return p.read_text(encoding="utf-8"), {
+        return p.read_text(encoding="utf-8-sig"), {
             "via": "figshare", "url": f["download_url"], "version": meta["version"],
             "title": meta["title"], "md5": f.get("computed_md5"),
         }
     except Exception as e:  # noqa: BLE001 — fall through to the mirror
         log(f"  figshare failed: {e}")
     p = download(HF_URL, "ankusi/huggingface.csv", refresh=refresh)
-    return p.read_text(encoding="utf-8"), {"via": "huggingface", "url": HF_URL}
+    return p.read_text(encoding="utf-8-sig"), {"via": "huggingface", "url": HF_URL}  # this file starts with a BOM
 
 
 def parse_years(s: str) -> list[int]:
@@ -136,11 +140,12 @@ def main() -> None:
     for make, model, slug in iter_models(cfg):
         skel = read_json(source_path("vpic", slug))
         recs, skipped = [], []
+        make_names = {mk["name"].lower() for mk in source_makes(make, model)}
         for r in rows:
-            if r["make"].strip().lower() != make["name"].lower():
+            if r["make"].strip().lower() not in make_names:
                 continue
             name = r["model"].strip()
-            short = re.sub(rf"^{re.escape(make['name'])}\s+", "", name, flags=re.I)
+            short = re.sub(rf"^{re.escape(r['make'].strip())}\s+", "", name, flags=re.I)
             if not matches(model["ankusi"], short):
                 continue
             bp = r["bolt_pattern"].strip()
@@ -151,6 +156,10 @@ def main() -> None:
                 reason = f"non-standard bolt pattern {bp!r}"
             elif not parse_years(r["year"]):
                 reason = f"unparseable year {r['year']!r}"
+            else:
+                for s in model["ankusi"].get("skip", []):
+                    if name == s["model"] and r["year"].strip() in s["years"]:
+                        reason = s["reason"]
             if reason:
                 skipped.append({"model": name, "year": r["year"], "reason": reason})
                 continue
@@ -196,8 +205,21 @@ def main() -> None:
                 w["center_bore_rear_mm"] = rear.pop()
             return w
 
+        def pinned(r):
+            for pattern, gen in model["ankusi"].get("pin", {}).items():
+                if re.search(pattern, r["model"], re.I):
+                    return gen
+            return None
+
         def in_gen(r, g):
+            # `pin`: a row belongs to that generation only, whatever its year says
+            # (a 2019 1500 Classic is not evidence for the DT that shares its years)
+            if pinned(r):
+                return g["name"] == pinned(r)
             return any(g["start"] <= ry <= (g["end"] or 9999) for ry in r["years"])
+
+        def exception_name(r):
+            return pinned(r) or r["trim"] or r["model"]
 
         def resolve(rows, gen_rows):
             """Pick the primary (bolt pattern, bore) among `rows`.
@@ -226,7 +248,7 @@ def main() -> None:
             if primary_key is None:
                 return None, None
             primary = [r for r in rows if key(r) == primary_key]
-            exceptions = [{"trim": r["trim"] or r["model"], "bolt_pattern": r["bolt_pattern"],
+            exceptions = [{"trim": exception_name(r), "bolt_pattern": r["bolt_pattern"],
                            "center_bore_mm": r["center_bore_mm"], "evidence": evidence([r])}
                           for r in rows if key(r) != primary_key]
             return primary, exceptions
@@ -269,6 +291,17 @@ def main() -> None:
                         wheel = {"basis": "conflict", "generations": gen_names,
                                  "candidates": sorted({f"{a} / {b}" for a, b in {key(r) for r in pool}}),
                                  "evidence": evidence(pool)}
+            if wheel and len(gs) > 1 and wheel.get("bolt_pattern"):
+                # Two generations on sale and they differ (Ram 1500 DT vs 1500 Classic):
+                # the other one's rows are exceptions even with no row for this exact year.
+                listed = {(e["trim"], e["bolt_pattern"]) for e in wheel["trim_exceptions"]}
+                for r in gen_rows:
+                    e = (exception_name(r), r["bolt_pattern"])
+                    if r["bolt_pattern"] != wheel["bolt_pattern"] and e not in listed:
+                        listed.add(e)
+                        wheel["trim_exceptions"].append({
+                            "trim": e[0], "bolt_pattern": e[1],
+                            "center_bore_mm": r["center_bore_mm"], "evidence": evidence([r])})
             if wheel:
                 stats[wheel["basis"]] += 1
                 years_out[y] = {"wheel": wheel}

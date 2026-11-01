@@ -1,0 +1,3056 @@
+{
+  "slug": "toyota/camry",
+  "source": {
+    "vehicles_csv": "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+    "hp": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+  },
+  "years": {
+    "2005": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            151,
+            159
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              30,
+              31
+            ],
+            "combined": [
+              24,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            20930,
+            20931
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            210
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              18
+            ],
+            "hwy": [
+              26,
+              26
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            20932
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.0L 6-cyl"
+        },
+        {
+          "displacement_l": 3.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              18,
+              18
+            ],
+            "hwy": [
+              27,
+              27
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            20933
+          ],
+          "hp_source_models": [],
+          "label": "3.3L 6-cyl"
+        }
+      ]
+    },
+    "2006": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            145,
+            154
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              30,
+              31
+            ],
+            "combined": [
+              24,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            22012,
+            22013
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            190
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              18
+            ],
+            "hwy": [
+              26,
+              26
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            22014
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.0L 6-cyl"
+        },
+        {
+          "displacement_l": 3.3,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              18,
+              18
+            ],
+            "hwy": [
+              27,
+              27
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            22015
+          ],
+          "hp_source_models": [],
+          "label": "3.3L 6-cyl"
+        }
+      ]
+    },
+    "2007": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            158
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              30,
+              31
+            ],
+            "combined": [
+              24,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            22822,
+            22823
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              19
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            22824
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            147
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              33,
+              33
+            ],
+            "hwy": [
+              34,
+              34
+            ],
+            "combined": [
+              34,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid"
+          ],
+          "epa_ids": [
+            22825
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID"
+          ],
+          "label": "2.4L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2008": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            155,
+            158
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            24401,
+            24402
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              19,
+              19
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              22,
+              22
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            24403
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            147
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              33,
+              33
+            ],
+            "hwy": [
+              34,
+              34
+            ],
+            "combined": [
+              34,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid"
+          ],
+          "epa_ids": [
+            24404
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID"
+          ],
+          "label": "2.4L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2009": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            155,
+            158
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            25276,
+            25277
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              19
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            25275
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            147
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              33,
+              33
+            ],
+            "hwy": [
+              34,
+              34
+            ],
+            "combined": [
+              34,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid"
+          ],
+          "epa_ids": [
+            25278
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID"
+          ],
+          "label": "2.4L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2010": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            169
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              32,
+              33
+            ],
+            "combined": [
+              26,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            26421,
+            26422
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              19
+            ],
+            "hwy": [
+              28,
+              28
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            26423
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            147
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              33,
+              33
+            ],
+            "hwy": [
+              34,
+              34
+            ],
+            "combined": [
+              34,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid"
+          ],
+          "epa_ids": [
+            26424
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID"
+          ],
+          "label": "2.4L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2011": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            169
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              32
+            ],
+            "combined": [
+              25,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            30086,
+            30087
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              20,
+              20
+            ],
+            "hwy": [
+              29,
+              29
+            ],
+            "combined": [
+              23,
+              23
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            30088
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            147
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              31,
+              31
+            ],
+            "hwy": [
+              35,
+              35
+            ],
+            "combined": [
+              33,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid"
+          ],
+          "epa_ids": [
+            30089
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID"
+          ],
+          "label": "2.4L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2012": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            178
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              24,
+              24
+            ],
+            "hwy": [
+              34,
+              34
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            31765
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              30,
+              30
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            31766
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            154
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              40,
+              42
+            ],
+            "hwy": [
+              37,
+              38
+            ],
+            "combined": [
+              39,
+              40
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid XLE"
+          ],
+          "epa_ids": [
+            32092,
+            32093
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2013": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            178
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              25,
+              25
+            ],
+            "hwy": [
+              34,
+              34
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            33372
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              30,
+              30
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            33377
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            154
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              40,
+              42
+            ],
+            "hwy": [
+              37,
+              38
+            ],
+            "combined": [
+              39,
+              40
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid XLE"
+          ],
+          "epa_ids": [
+            33374,
+            33375
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2014": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            178
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              25,
+              25
+            ],
+            "hwy": [
+              34,
+              34
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            34289
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              30,
+              30
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            34292
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            154
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              40,
+              42
+            ],
+            "hwy": [
+              37,
+              38
+            ],
+            "combined": [
+              39,
+              40
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid XLE/SE"
+          ],
+          "epa_ids": [
+            34290,
+            34291
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2015": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            178
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              25,
+              25
+            ],
+            "hwy": [
+              34,
+              34
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            35734
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              30,
+              30
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            35735
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            154
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              40,
+              42
+            ],
+            "hwy": [
+              37,
+              38
+            ],
+            "combined": [
+              39,
+              40
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid XLE/SE"
+          ],
+          "epa_ids": [
+            35736,
+            35737
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2016": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            178
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              25,
+              25
+            ],
+            "hwy": [
+              34,
+              34
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            36795
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              30,
+              30
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            36798
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            154
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              40,
+              42
+            ],
+            "hwy": [
+              37,
+              38
+            ],
+            "combined": [
+              39,
+              40
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid XLE/SE"
+          ],
+          "epa_ids": [
+            36796,
+            36797
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2017": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            178
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              24,
+              24
+            ],
+            "hwy": [
+              33,
+              33
+            ],
+            "combined": [
+              27,
+              27
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            37724
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              30,
+              30
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)"
+          ],
+          "epa_models": [
+            "Camry"
+          ],
+          "epa_ids": [
+            37534
+          ],
+          "hp_source_models": [
+            "CAMRY"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            154
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              40,
+              42
+            ],
+            "hwy": [
+              37,
+              38
+            ],
+            "combined": [
+              38,
+              40
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid XLE/SE"
+          ],
+          "epa_ids": [
+            37828,
+            37829
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2018": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            203
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              29
+            ],
+            "hwy": [
+              39,
+              41
+            ],
+            "combined": [
+              32,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry",
+            "Camry LE/SE",
+            "Camry XLE/XSE"
+          ],
+          "epa_ids": [
+            38880,
+            38883,
+            38884
+          ],
+          "hp_source_models": [
+            "CAMRY",
+            "CAMRY LE/SE",
+            "CAMRY XLE/XSE"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            301
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              32,
+              33
+            ],
+            "combined": [
+              26,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry",
+            "Camry XSE"
+          ],
+          "epa_ids": [
+            38881,
+            38882
+          ],
+          "hp_source_models": [
+            "CAMRY",
+            "CAMRY XSE"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            176
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              44,
+              51
+            ],
+            "hwy": [
+              47,
+              53
+            ],
+            "combined": [
+              46,
+              52
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S6)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid XLE/SE"
+          ],
+          "epa_ids": [
+            38936,
+            38937
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE/SE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2019": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            203
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              29
+            ],
+            "hwy": [
+              39,
+              41
+            ],
+            "combined": [
+              32,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry",
+            "Camry LE/SE",
+            "Camry XLE/XSE"
+          ],
+          "epa_ids": [
+            40605,
+            40608,
+            40609
+          ],
+          "hp_source_models": [
+            "CAMRY",
+            "CAMRY LE/SE",
+            "CAMRY XLE/XSE"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            301
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              32,
+              33
+            ],
+            "combined": [
+              26,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry",
+            "Camry XSE"
+          ],
+          "epa_ids": [
+            40606,
+            40607
+          ],
+          "hp_source_models": [
+            "CAMRY",
+            "CAMRY XSE"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            176
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              44,
+              51
+            ],
+            "hwy": [
+              47,
+              53
+            ],
+            "combined": [
+              46,
+              52
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S6)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid XLE/SE"
+          ],
+          "epa_ids": [
+            40720,
+            40721
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE/SE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2020": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            202,
+            203,
+            206
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              25,
+              29
+            ],
+            "hwy": [
+              34,
+              41
+            ],
+            "combined": [
+              28,
+              34
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry",
+            "Camry AWD LE/SE",
+            "Camry AWD XLE/XSE",
+            "Camry LE/SE",
+            "Camry XLE/XSE"
+          ],
+          "epa_ids": [
+            42013,
+            42014,
+            42015,
+            42510,
+            42511
+          ],
+          "hp_source_models": [
+            "CAMRY",
+            "CAMRY AWD LE/SE",
+            "CAMRY LE/SE",
+            "CAMRY XLE/XSE"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            301
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              33
+            ],
+            "combined": [
+              25,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry",
+            "Camry TRD",
+            "Camry XSE"
+          ],
+          "epa_ids": [
+            42011,
+            42012,
+            42018
+          ],
+          "hp_source_models": [
+            "CAMRY",
+            "CAMRY XSE"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            176
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              44,
+              51
+            ],
+            "hwy": [
+              47,
+              53
+            ],
+            "combined": [
+              46,
+              52
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S6)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid XLE/SE"
+          ],
+          "epa_ids": [
+            42016,
+            42017
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE/SE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2021": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            202,
+            203,
+            206
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              25,
+              28
+            ],
+            "hwy": [
+              34,
+              39
+            ],
+            "combined": [
+              28,
+              32
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry AWD LE/SE",
+            "Camry AWD XLE/XSE",
+            "Camry LE/SE",
+            "Camry XLE/XSE"
+          ],
+          "epa_ids": [
+            43305,
+            43306,
+            43309,
+            43310
+          ],
+          "hp_source_models": [
+            "CAMRY AWD LE/SE",
+            "CAMRY LE/SE",
+            "CAMRY XLE/XSE"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            301
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              33
+            ],
+            "combined": [
+              25,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry",
+            "Camry TRD",
+            "Camry XSE"
+          ],
+          "epa_ids": [
+            43302,
+            43303,
+            43304
+          ],
+          "hp_source_models": [
+            "CAMRY",
+            "CAMRY XSE"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            176
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              44,
+              51
+            ],
+            "hwy": [
+              47,
+              53
+            ],
+            "combined": [
+              46,
+              52
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S6)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid SE/XLE/XSE"
+          ],
+          "epa_ids": [
+            43307,
+            43308
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE/SE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2022": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            202,
+            203
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              25,
+              28
+            ],
+            "hwy": [
+              34,
+              39
+            ],
+            "combined": [
+              28,
+              32
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry AWD LE/SE",
+            "Camry AWD XLE/XSE",
+            "Camry LE/SE",
+            "Camry XLE/XSE"
+          ],
+          "epa_ids": [
+            44346,
+            44347,
+            44348,
+            44349
+          ],
+          "hp_source_models": [
+            "CAMRY AWD LE/SE",
+            "CAMRY LE/SE"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            301
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              33
+            ],
+            "combined": [
+              25,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry",
+            "Camry TRD",
+            "Camry XSE"
+          ],
+          "epa_ids": [
+            44343,
+            44344,
+            44345
+          ],
+          "hp_source_models": [
+            "CAMRY",
+            "CAMRY XSE"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            176
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              44,
+              51
+            ],
+            "hwy": [
+              47,
+              53
+            ],
+            "combined": [
+              46,
+              52
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S6)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid SE/XLE/XSE"
+          ],
+          "epa_ids": [
+            44350,
+            44351
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE/SE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2023": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            202,
+            203
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              25,
+              28
+            ],
+            "hwy": [
+              34,
+              39
+            ],
+            "combined": [
+              28,
+              32
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry AWD LE/SE",
+            "Camry AWD XLE/XSE",
+            "Camry LE/SE",
+            "Camry XLE/XSE"
+          ],
+          "epa_ids": [
+            45722,
+            45723,
+            45724,
+            45725,
+            47513
+          ],
+          "hp_source_models": [
+            "CAMRY AWD LE/SE",
+            "CAMRY LE/SE"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            301
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              33
+            ],
+            "combined": [
+              25,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry",
+            "Camry TRD",
+            "Camry XSE"
+          ],
+          "epa_ids": [
+            45719,
+            45720,
+            45721
+          ],
+          "hp_source_models": [
+            "CAMRY",
+            "CAMRY XSE"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            176
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              44,
+              51
+            ],
+            "hwy": [
+              47,
+              53
+            ],
+            "combined": [
+              46,
+              52
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S6)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid SE/XLE/XSE"
+          ],
+          "epa_ids": [
+            45726,
+            45727
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE/SE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2024": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            202,
+            203
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              25,
+              28
+            ],
+            "hwy": [
+              34,
+              39
+            ],
+            "combined": [
+              28,
+              32
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry AWD LE/SE",
+            "Camry AWD XLE/XSE",
+            "Camry LE/SE",
+            "Camry XLE/XSE"
+          ],
+          "epa_ids": [
+            47088,
+            47089,
+            47090,
+            47091
+          ],
+          "hp_source_models": [
+            "CAMRY AWD LE/SE",
+            "CAMRY LE/SE"
+          ],
+          "label": "2.5L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            301
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              33
+            ],
+            "combined": [
+              25,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S8)"
+          ],
+          "epa_models": [
+            "Camry",
+            "Camry TRD",
+            "Camry XSE"
+          ],
+          "epa_ids": [
+            47085,
+            47086,
+            47087
+          ],
+          "hp_source_models": [
+            "CAMRY",
+            "CAMRY XSE"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            176
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              44,
+              51
+            ],
+            "hwy": [
+              47,
+              53
+            ],
+            "combined": [
+              46,
+              52
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S6)"
+          ],
+          "epa_models": [
+            "Camry Hybrid LE",
+            "Camry Hybrid SE/XLE/XSE"
+          ],
+          "epa_ids": [
+            47092,
+            47093
+          ],
+          "hp_source_models": [
+            "CAMRY HYBRID LE",
+            "CAMRY HYBRID XLE/SE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2025": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            184
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              44,
+              53
+            ],
+            "hwy": [
+              43,
+              50
+            ],
+            "combined": [
+              44,
+              51
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S6)"
+          ],
+          "epa_models": [
+            "Camry HEV AWD LE",
+            "Camry HEV AWD SE/XLE",
+            "Camry HEV AWD XSE",
+            "Camry HEV FF LE",
+            "Camry HEV FF SE/XLE/XSE"
+          ],
+          "epa_ids": [
+            48030,
+            48031,
+            48032,
+            48033,
+            48034
+          ],
+          "hp_source_models": [
+            "CAMRY HEV AWD LE",
+            "CAMRY HEV AWD SE/XLE",
+            "CAMRY HEV FF LE",
+            "CAMRY HEV FF SE/XLE/XSE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2026": {
+      "engines": [
+        {
+          "displacement_l": 2.5,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            184
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              43,
+              52
+            ],
+            "hwy": [
+              43,
+              49
+            ],
+            "combined": [
+              43,
+              51
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S6)"
+          ],
+          "epa_models": [
+            "Camry HEV AWD LE",
+            "Camry HEV AWD SE/XLE",
+            "Camry HEV AWD XSE",
+            "Camry HEV FF LE",
+            "Camry HEV FF SE/XLE/XSE"
+          ],
+          "epa_ids": [
+            49821,
+            49822,
+            49823,
+            49824,
+            49825
+          ],
+          "hp_source_models": [
+            "CAMRY HEV AWD LE",
+            "CAMRY HEV AWD SE/XLE",
+            "CAMRY HEV FF LE",
+            "CAMRY HEV FF SE/XLE/XSE"
+          ],
+          "label": "2.5L 4-cyl hybrid"
+        }
+      ]
+    }
+  }
+}

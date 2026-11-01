@@ -3,7 +3,8 @@
 # Used to (a) label each model-year page and (b) let 04_ankusi_wheels.py carry
 # a bolt pattern / centre bore across a generation when every source row inside
 # that generation agrees. Overlapping years are real: two generations were sold
-# side by side (2007 Silverado "Classic", 2019 Silverado LD, 2018 Wrangler JK).
+# side by side (2007 Silverado "Classic", 2019 Silverado LD, 2018 Wrangler JK,
+# 2019-24 Ram 1500 Classic).
 # `end: null` means still in production.
 
 toyota/tacoma:
@@ -34,3 +35,33 @@ jeep/wrangler:
   - {name: TJ, code: TJ, start: 1997, end: 2006}
   - {name: JK, code: JK, start: 2007, end: 2018}
   - {name: JL, code: JL, start: 2018, end: null}
+
+toyota/camry:
+  - {name: 5th generation, code: XV30, start: 2002, end: 2006}
+  - {name: 6th generation, code: XV40, start: 2007, end: 2011}
+  - {name: 7th generation, code: XV50, start: 2012, end: 2017}
+  - {name: 8th generation, code: XV70, start: 2018, end: 2024}
+  - {name: 9th generation, code: XV80, start: 2025, end: null}
+
+toyota/corolla:
+  - {name: 9th generation, code: E130, start: 2003, end: 2008}
+  - {name: 10th generation, code: E140, start: 2009, end: 2013}
+  - {name: 11th generation, code: E170, start: 2014, end: 2019}
+  - {name: 12th generation, code: E210, start: 2019, end: null}
+
+honda/accord:
+  - {name: 7th generation, code: null, start: 2003, end: 2007}
+  - {name: 8th generation, code: null, start: 2008, end: 2012}
+  - {name: 9th generation, code: null, start: 2013, end: 2017}
+  - {name: 10th generation, code: null, start: 2018, end: 2022}
+  - {name: 11th generation, code: null, start: 2023, end: null}
+
+ram/1500:
+  - {name: 3rd generation, code: DR, start: 2002, end: 2008}
+  - {name: 4th generation, code: DS, start: 2009, end: 2018}
+  - {name: 4th generation Classic, code: DS, start: 2019, end: 2024}
+  - {name: 5th generation, code: DT, start: 2019, end: null}
+
+tesla/model-3:
+  - {name: Original, code: null, start: 2017, end: 2023}
+  - {name: Highland refresh, code: null, start: 2024, end: null}

@@ -3,7 +3,7 @@
   "model": "F-150",
   "slug": "ford/f-150",
   "body": "pickup",
-  "updated": "2026-10-14",
+  "updated": "2026-11-01",
   "generations": [
     {
       "name": "11th generation",
@@ -45,11 +45,8 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "landing_page": "https://ankusiwheels.com/wheel-fitment-dataset/",
       "doi": "10.6084/m9.figshare.33921994",
-      "via": "figshare",
-      "url": "https://ndownloader.figshare.com/files/69985473",
-      "version": 8,
-      "title": "ANKUSI Open Wheel Fitment Dataset: bolt pattern, centre bore and OE wheel specifications for 10,081 vehicle variants",
-      "md5": "5ccd30bf2366aaaa465451d307c74f92"
+      "via": "huggingface",
+      "url": "https://huggingface.co/datasets/hjhjhihg1/ankusi-wheel-fitment-data/resolve/main/data/ankusi-wheel-fitment.csv"
     },
     "manuals": {
       "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",

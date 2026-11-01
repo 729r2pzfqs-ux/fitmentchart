@@ -1,0 +1,239 @@
+{
+  "make": "Tesla",
+  "model": "Model 3",
+  "slug": "tesla/model-3",
+  "body": "car",
+  "vpic": {
+    "make_id": 441,
+    "model_names": [
+      "Model 3"
+    ],
+    "model_ids": [
+      17834
+    ],
+    "by_year": {
+      "2017": {
+        "models": [
+          {
+            "name": "Model 3",
+            "id": 17834
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2018": {
+        "models": [
+          {
+            "name": "Model 3",
+            "id": 17834
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2019": {
+        "models": [
+          {
+            "name": "Model 3",
+            "id": 17834
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2020": {
+        "models": [
+          {
+            "name": "Model 3",
+            "id": 17834
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2021": {
+        "models": [
+          {
+            "name": "Model 3",
+            "id": 17834
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2022": {
+        "models": [
+          {
+            "name": "Model 3",
+            "id": 17834
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2023": {
+        "models": [
+          {
+            "name": "Model 3",
+            "id": 17834
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2024": {
+        "models": [
+          {
+            "name": "Model 3",
+            "id": 17834
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2025": {
+        "models": [
+          {
+            "name": "Model 3",
+            "id": 17834
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2026": {
+        "models": [
+          {
+            "name": "Model 3",
+            "id": 17834
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      }
+    }
+  },
+  "years": {
+    "2017": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2018": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2019": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2020": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2021": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2022": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2023": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2024": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2025": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2026": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    }
+  }
+}

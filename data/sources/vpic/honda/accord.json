@@ -1,0 +1,503 @@
+{
+  "make": "Honda",
+  "model": "Accord",
+  "slug": "honda/accord",
+  "body": "car",
+  "vpic": {
+    "make_id": 474,
+    "model_names": [
+      "Accord"
+    ],
+    "model_ids": [
+      1861
+    ],
+    "by_year": {
+      "2005": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2006": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2007": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2008": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2009": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2010": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2011": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2012": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2013": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2014": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2015": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2016": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2017": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2018": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2019": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2020": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2021": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2022": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2023": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2024": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2025": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      },
+      "2026": {
+        "models": [
+          {
+            "name": "Accord",
+            "id": 1861
+          }
+        ],
+        "body": [
+          "car"
+        ]
+      }
+    }
+  },
+  "years": {
+    "2005": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2006": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2007": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2008": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2009": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2010": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2011": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2012": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2013": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2014": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2015": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2016": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2017": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2018": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2019": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2020": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2021": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2022": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2023": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2024": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2025": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    },
+    "2026": {
+      "engines": [],
+      "towing": [],
+      "wheel": {},
+      "tires": [],
+      "battery": {},
+      "wipers": {},
+      "oil": {},
+      "dims": {},
+      "nhtsa": {}
+    }
+  }
+}

@@ -14,6 +14,10 @@
 # nhtsa `always`: names queried every year on top of the ones NHTSA's model list
 # returns. That list is incomplete: 2010 shows only "TACOMA ACCESS CAB" etc.,
 # while the recalls are filed under plain "TACOMA".
+# `former_make`: the brand a model used to be sold under. Every step also looks
+# there (Ram was a Dodge until 2011; EPA keeps "Dodge" through 2012, vPIC longer).
+# Its `nhtsa_always` replaces `always` for that make, since NHTSA spells the
+# model differently under each brand.
 
 years: {start: 2005, end: 2026}
 
@@ -31,6 +35,40 @@ makes:
         cvs:    {query: [Tacoma], include: '^TACOMA\b'}
         ankusi: {include: '^Tacoma\b'}
         nhtsa:  {include: '^TACOMA\b', always: [TACOMA]}
+
+      - name: Camry
+        slug: camry
+        # Camry Solara is its own model; Hybrid is a Camry engine option here.
+        vpic:   {include: '^Camry$'}
+        epa:    {include: '^Camry\b', exclude: 'Solara'}
+        testcar: {include: '\bCAMRY\b', exclude: 'SOLARA'}
+        cvs:    {query: [Camry], include: '^CAMRY\b', exclude: 'SOLARA'}
+        ankusi: {include: '^Camry\b', base: '^Camry( \[US\])?$'}
+        nhtsa:  {include: '^CAMRY\b', exclude: 'SOLARA', always: [CAMRY]}
+
+      - name: Corolla
+        slug: corolla
+        # Covers sedan, Hybrid, Hatchback and iM. Corolla Cross, GR Corolla and
+        # Corolla Matrix are separate models; Altis/Levin/Verso are not US cars.
+        vpic:   {include: '^Corolla$'}
+        epa:    {include: '^Corolla\b', exclude: '\bCross\b'}
+        testcar: {include: '\bCOROLLA\b', exclude: '\bCROSS\b|\bGR\b|MATRIX'}
+        cvs:    {query: [Corolla], include: '^COROLLA\b', exclude: 'CROSS|MATRIX'}
+        # These untagged rows contradict US fitment: the 2003-08 US car is 5x100, not
+        # 4x100, and the 2019+ US cars are 5x100/54.1, not the EU 5x114.3/60.1. With
+        # them gone the 12th generation has no row, so it stays a gap.
+        ankusi:
+          include: '^Corolla\b'
+          exclude: 'Cross|Altis|Levin|Verso'
+          base: '^Corolla( Sedan)?( \[US\])?$'
+          skip:
+            - {model: Toyota Corolla, years: ['2004'], reason: '4x100 contradicts the US 5x100'}
+            - {model: Toyota Corolla Sedan, years: ['2005'], reason: '4x100 contradicts the US 5x100'}
+            - {model: Toyota Corolla Hatchback, years: ['2019', '2023'], reason: 'EU 5x114.3, US car is 5x100'}
+            - {model: Toyota Corolla Sedan, years: ['2020', '2023'], reason: 'EU 5x114.3, US car is 5x100'}
+            - {model: 'Toyota Corolla Hybrid [US]', years: ['2020'], reason: 'EU 5x114.3, US car is 5x100'}
+            - {model: Toyota Corolla, years: ['2025'], reason: 'EU 5x114.3, US car is 5x100'}
+        nhtsa:  {include: '^COROLLA\b', exclude: 'CROSS|MATRIX', always: [COROLLA]}
 
   - name: Ford
     slug: ford
@@ -59,6 +97,16 @@ makes:
         cvs:    {query: [Civic], include: '^CIVIC\b'}
         ankusi: {include: '\bCivic\b', exclude: 'Mugen|Racecar|Pro Drag|Concept'}
         nhtsa:  {include: '^CIVIC\b', always: [CIVIC]}
+
+      - name: Accord
+        slug: accord
+        # Accord Crosstour is its own model; Euro R is the JDM car.
+        vpic:   {include: '^Accord$'}
+        epa:    {include: '^Accord\b', exclude: 'Crosstour'}
+        testcar: {include: '\bACCORD\b', exclude: 'CROSSTOUR'}
+        cvs:    {query: [Accord], include: '^ACCORD\b', exclude: 'CROSSTOUR'}
+        ankusi: {include: '^Accord\b', exclude: 'EuroR|Crosstour'}
+        nhtsa:  {include: '^ACCORD\b', exclude: 'CROSSTOUR', always: [ACCORD]}
 
   - name: Chevrolet
     slug: chevrolet
@@ -93,3 +141,41 @@ makes:
         cvs:    {query: [Wrangler, TJ], include: '^(WRANGLER|TJ)\b'}
         ankusi: {include: '^Wrangler\b', base: '^Wrangler( Unlimited)?$'}
         nhtsa:  {include: '^WRANGLER\b', always: [WRANGLER, WRANGLER UNLIMITED]}
+
+  - name: Ram
+    slug: ram
+    vpic_make: ram
+    epa_make: Ram
+    models:
+      # `name` is the bare "1500": pages print make + model, so "Ram 1500" reads right.
+      - name: '1500'
+        slug: '1500'
+        former_make: {name: Dodge, vpic_make: dodge, epa_make: Dodge, nhtsa_always: [RAM 1500]}
+        # vPIC lists "Ram" (all sizes) under Dodge and "1500" under Ram.
+        vpic:   {include: '^(Ram|1500)$'}
+        # 1500 Classic (the DS truck sold alongside the DT, 2019-24) stays in: same
+        # nameplate, and generations.yaml keeps it apart. REV/Ramcharger are EVs,
+        # excluded like the F-150 Lightning and Silverado EV.
+        epa:    {include: '^(Ram )?1500\b', exclude: '\bREV\b|Ramcharger'}
+        testcar: {include: '\b1500\b', exclude: '2500|3500|PROMASTER|\bREV\b|RAMCHARGER'}
+        cvs:    {query: [Ram, '1500'], include: '^(RAM )?1500\b'}
+        # Dodge rows are "Ram 1500" / "Ram Mega Cab" once the make is stripped, Ram rows
+        # are "1500" / "Laramie Limited". Only the listed nameplates are 1500s.
+        ankusi: {include: '^(Ram )?1500\b|^Ram (Mega Cab|SRT10)\b|^(Laramie|Outdoorsman|Rebel Mopar)\b',
+                 exclude: '\bREV\b|Ramcharger', base: '^(Ram )?1500$',
+                 pin: {'\bClassic\b': 4th generation Classic}}
+        nhtsa:  {include: '^(RAM )?1500\b', exclude: 'PROMASTER', always: ['1500']}
+
+  - name: Tesla
+    slug: tesla
+    vpic_make: tesla
+    epa_make: Tesla
+    models:
+      - name: Model 3
+        slug: model-3
+        vpic:   {include: '^Model 3$'}
+        epa:    {include: '^Model 3\b'}
+        testcar: {include: '\bMODEL 3\b'}
+        cvs:    {query: [Model 3], include: '^MODEL 3\b'}
+        ankusi: {include: '^Model 3\b', base: '^Model 3( original| Highland)?$'}
+        nhtsa:  {include: '^MODEL 3\b', always: [MODEL 3]}

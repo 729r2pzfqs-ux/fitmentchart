@@ -6,11 +6,8 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "landing_page": "https://ankusiwheels.com/wheel-fitment-dataset/",
     "doi": "10.6084/m9.figshare.33921994",
-    "via": "figshare",
-    "url": "https://ndownloader.figshare.com/files/69985473",
-    "version": 8,
-    "title": "ANKUSI Open Wheel Fitment Dataset: bolt pattern, centre bore and OE wheel specifications for 10,081 vehicle variants",
-    "md5": "5ccd30bf2366aaaa465451d307c74f92"
+    "via": "huggingface",
+    "url": "https://huggingface.co/datasets/hjhjhihg1/ankusi-wheel-fitment-data/resolve/main/data/ankusi-wheel-fitment.csv"
   },
   "matched_rows": 19,
   "skipped_rows": [],
@@ -577,6 +574,11 @@
         ],
         "evidence": [
           {
+            "model": "Chevrolet Silverado 1500",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
+          },
+          {
             "model": "Chevrolet Silverado",
             "year": "2019",
             "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
@@ -585,11 +587,6 @@
             "model": "Chevrolet Silverado",
             "year": "2022",
             "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
-          },
-          {
-            "model": "Chevrolet Silverado 1500",
-            "year": "2027",
-            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
           },
           {
             "model": "Chevrolet Silverado ZR2 Bison",
@@ -615,6 +612,11 @@
         ],
         "evidence": [
           {
+            "model": "Chevrolet Silverado 1500",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
+          },
+          {
             "model": "Chevrolet Silverado",
             "year": "2019",
             "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
@@ -623,11 +625,6 @@
             "model": "Chevrolet Silverado",
             "year": "2022",
             "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
-          },
-          {
-            "model": "Chevrolet Silverado 1500",
-            "year": "2027",
-            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
           },
           {
             "model": "Chevrolet Silverado ZR2 Bison",
@@ -713,6 +710,11 @@
         ],
         "evidence": [
           {
+            "model": "Chevrolet Silverado 1500",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
+          },
+          {
             "model": "Chevrolet Silverado",
             "year": "2019",
             "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
@@ -721,11 +723,6 @@
             "model": "Chevrolet Silverado",
             "year": "2022",
             "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
-          },
-          {
-            "model": "Chevrolet Silverado 1500",
-            "year": "2027",
-            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
           },
           {
             "model": "Chevrolet Silverado ZR2 Bison",
@@ -751,6 +748,11 @@
         ],
         "evidence": [
           {
+            "model": "Chevrolet Silverado 1500",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
+          },
+          {
             "model": "Chevrolet Silverado",
             "year": "2019",
             "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
@@ -759,11 +761,6 @@
             "model": "Chevrolet Silverado",
             "year": "2022",
             "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
-          },
-          {
-            "model": "Chevrolet Silverado 1500",
-            "year": "2027",
-            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
           },
           {
             "model": "Chevrolet Silverado ZR2 Bison",
@@ -789,6 +786,11 @@
         ],
         "evidence": [
           {
+            "model": "Chevrolet Silverado 1500",
+            "year": "2027",
+            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
+          },
+          {
             "model": "Chevrolet Silverado",
             "year": "2019",
             "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2019/"
@@ -797,11 +799,6 @@
             "model": "Chevrolet Silverado",
             "year": "2022",
             "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-2022/"
-          },
-          {
-            "model": "Chevrolet Silverado 1500",
-            "year": "2027",
-            "url": "https://ankusiwheels.com/fitment-guide/chevrolet-silverado-1500/"
           },
           {
             "model": "Chevrolet Silverado ZR2 Bison",

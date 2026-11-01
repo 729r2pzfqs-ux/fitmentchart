@@ -1,9 +1,9 @@
 {
   "summary": {
-    "models": 5,
+    "models": 10,
     "errors": 0,
-    "warnings": 86,
-    "gaps": 16
+    "warnings": 134,
+    "gaps": 37
   },
   "coverage": {
     "chevrolet/silverado-1500": {
@@ -138,6 +138,138 @@
         "ncap_rated_years": 22,
         "recalls_total": 239,
         "complaints_total": 22539
+      }
+    },
+    "honda/accord": {
+      "engines": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "towing": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wheel": {
+        "filled": 9,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022"
+        ]
+      },
+      "tires": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "battery": {
+        "filled": 21,
+        "total": 22,
+        "missing_years": [
+          "2026"
+        ]
+      },
+      "wipers": {
+        "filled": 13,
+        "total": 22,
+        "missing_years": [
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "oil": {
+        "filled": 0,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "dims": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "nhtsa": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "_detail": {
+        "engines_total": 56,
+        "engines_with_hp": 56,
+        "wheel_basis": {
+          "missing": 13,
+          "generation": 4,
+          "exact": 5
+        },
+        "oe_wheel_years": 5,
+        "ncap_rated_years": 15,
+        "recalls_total": 168,
+        "complaints_total": 13835
       }
     },
     "honda/civic": {
@@ -318,6 +450,336 @@
         "ncap_rated_years": 22,
         "recalls_total": 184,
         "complaints_total": 14845
+      }
+    },
+    "ram/1500": {
+      "engines": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "towing": {
+        "filled": 16,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2008",
+          "2009",
+          "2010",
+          "2013"
+        ]
+      },
+      "wheel": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "tires": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "battery": {
+        "filled": 20,
+        "total": 22,
+        "missing_years": [
+          "2025",
+          "2026"
+        ]
+      },
+      "wipers": {
+        "filled": 21,
+        "total": 22,
+        "missing_years": [
+          "2026"
+        ]
+      },
+      "oil": {
+        "filled": 21,
+        "total": 22,
+        "missing_years": [
+          "2005"
+        ]
+      },
+      "dims": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "nhtsa": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "_detail": {
+        "engines_total": 83,
+        "engines_with_hp": 80,
+        "wheel_basis": {
+          "generation": 8,
+          "exact": 14
+        },
+        "oe_wheel_years": 13,
+        "ncap_rated_years": 22,
+        "recalls_total": 254,
+        "complaints_total": 17601
+      }
+    },
+    "tesla/model-3": {
+      "engines": {
+        "filled": 10,
+        "total": 10,
+        "missing_years": []
+      },
+      "towing": {
+        "filled": 0,
+        "total": 10,
+        "missing_years": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wheel": {
+        "filled": 10,
+        "total": 10,
+        "missing_years": []
+      },
+      "tires": {
+        "filled": 10,
+        "total": 10,
+        "missing_years": []
+      },
+      "battery": {
+        "filled": 0,
+        "total": 10,
+        "missing_years": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "wipers": {
+        "filled": 0,
+        "total": 10,
+        "missing_years": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "oil": {
+        "filled": 0,
+        "total": 10,
+        "missing_years": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "dims": {
+        "filled": 9,
+        "total": 10,
+        "missing_years": [
+          "2017"
+        ]
+      },
+      "nhtsa": {
+        "filled": 10,
+        "total": 10,
+        "missing_years": []
+      },
+      "_detail": {
+        "engines_total": 10,
+        "engines_with_hp": 0,
+        "wheel_basis": {
+          "generation": 1,
+          "exact": 9
+        },
+        "oe_wheel_years": 9,
+        "ncap_rated_years": 7,
+        "recalls_total": 139,
+        "complaints_total": 4385
+      }
+    },
+    "toyota/camry": {
+      "engines": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "towing": {
+        "filled": 19,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007"
+        ]
+      },
+      "wheel": {
+        "filled": 20,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006"
+        ]
+      },
+      "tires": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "battery": {
+        "filled": 21,
+        "total": 22,
+        "missing_years": [
+          "2026"
+        ]
+      },
+      "wipers": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "oil": {
+        "filled": 19,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007"
+        ]
+      },
+      "dims": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "nhtsa": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "_detail": {
+        "engines_total": 62,
+        "engines_with_hp": 60,
+        "wheel_basis": {
+          "missing": 2,
+          "exact": 7,
+          "generation": 13
+        },
+        "oe_wheel_years": 7,
+        "ncap_rated_years": 15,
+        "recalls_total": 95,
+        "complaints_total": 12659
+      }
+    },
+    "toyota/corolla": {
+      "engines": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "towing": {
+        "filled": 18,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008"
+        ]
+      },
+      "wheel": {
+        "filled": 14,
+        "total": 22,
+        "missing_years": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "tires": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "battery": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "wipers": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "oil": {
+        "filled": 18,
+        "total": 22,
+        "missing_years": [
+          "2005",
+          "2006",
+          "2007",
+          "2008"
+        ]
+      },
+      "dims": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "nhtsa": {
+        "filled": 22,
+        "total": 22,
+        "missing_years": []
+      },
+      "_detail": {
+        "engines_total": 36,
+        "engines_with_hp": 36,
+        "wheel_basis": {
+          "generation": 10,
+          "exact": 4,
+          "missing": 8
+        },
+        "oe_wheel_years": 4,
+        "ncap_rated_years": 15,
+        "recalls_total": 109,
+        "complaints_total": 9136
       }
     },
     "toyota/tacoma": {
@@ -947,6 +1409,125 @@
     },
     {
       "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2006",
+      "field": "engines",
+      "msg": "3.0L 6-cyl hybrid: HP matched by model name only [253]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2013",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Honda Accord PHEV 2014-2017"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2014",
+      "field": "engines",
+      "msg": "2.0L 4-cyl plug-in hybrid: HP matched by model name only [196]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2014",
+      "field": "engines",
+      "msg": "2.0L 4-cyl hybrid: HP matched by model name only [196]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2015",
+      "field": "engines",
+      "msg": "2.0L 4-cyl hybrid: HP matched by model name only [196]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2017",
+      "field": "engines",
+      "msg": "2.0L 4-cyl hybrid: HP matched by model name only [143]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2018",
+      "field": "engines",
+      "msg": "2.0L 4-cyl hybrid: HP matched by model name only [143]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2020",
+      "field": "engines",
+      "msg": "2.0L 4-cyl hybrid: HP matched by model name only [143]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2021",
+      "field": "engines",
+      "msg": "2.0L 4-cyl hybrid: HP matched by model name only [143]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2022",
+      "field": "engines",
+      "msg": "2.0L 4-cyl hybrid: HP matched by model name only [143]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2023",
+      "field": "engines",
+      "msg": "1.5L 4-cyl turbo: HP matched by model name only [192]"
+    },
+    {
+      "severity": "warning",
+      "slug": "honda/accord",
+      "year": "2025",
+      "field": "engines",
+      "msg": "1.5L 4-cyl turbo: HP matched by model name only [192]"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/accord",
+      "year": null,
+      "field": "towing",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/accord",
+      "year": null,
+      "field": "wheel",
+      "msg": "missing for ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2018', '2019', '2020', '2021', '2022']"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/accord",
+      "year": null,
+      "field": "battery",
+      "msg": "missing for ['2026']"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/accord",
+      "year": null,
+      "field": "wipers",
+      "msg": "missing for ['2008', '2009', '2010', '2011', '2012', '2023', '2024', '2025', '2026']"
+    },
+    {
+      "severity": "gap",
+      "slug": "honda/accord",
+      "year": null,
+      "field": "oil",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "warning",
       "slug": "honda/civic",
       "year": "2006",
       "field": "wheel",
@@ -1091,6 +1672,370 @@
       "year": null,
       "field": "oil",
       "msg": "missing for ['2006', '2007', '2008', '2009', '2010', '2015', '2020']"
+    },
+    {
+      "severity": "warning",
+      "slug": "ram/1500",
+      "year": "2005",
+      "field": "engines",
+      "msg": "3.7L 6-cyl: HP matched by model name only [215]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ram/1500",
+      "year": "2005",
+      "field": "engines",
+      "msg": "5.7L 8-cyl: HP matched by model name only [345]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ram/1500",
+      "year": "2005",
+      "field": "engines",
+      "msg": "8.3L 10-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "ram/1500",
+      "year": "2006",
+      "field": "engines",
+      "msg": "3.7L 6-cyl: HP matched by model name only [215]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ram/1500",
+      "year": "2006",
+      "field": "engines",
+      "msg": "5.7L 8-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "ram/1500",
+      "year": "2006",
+      "field": "engines",
+      "msg": "8.3L 10-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "ram/1500",
+      "year": "2007",
+      "field": "engines",
+      "msg": "3.7L 6-cyl: HP matched by model name only [215]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ram/1500",
+      "year": "2007",
+      "field": "engines",
+      "msg": "5.7L 8-cyl: HP matched by model name only [345]"
+    },
+    {
+      "severity": "warning",
+      "slug": "ram/1500",
+      "year": "2012",
+      "field": "engines",
+      "msg": "3.7L 6-cyl: HP matched by model name only [215]"
+    },
+    {
+      "severity": "gap",
+      "slug": "ram/1500",
+      "year": null,
+      "field": "towing",
+      "msg": "missing for ['2005', '2006', '2008', '2009', '2010', '2013']"
+    },
+    {
+      "severity": "gap",
+      "slug": "ram/1500",
+      "year": null,
+      "field": "battery",
+      "msg": "missing for ['2025', '2026']"
+    },
+    {
+      "severity": "gap",
+      "slug": "ram/1500",
+      "year": null,
+      "field": "wipers",
+      "msg": "missing for ['2026']"
+    },
+    {
+      "severity": "gap",
+      "slug": "ram/1500",
+      "year": null,
+      "field": "oil",
+      "msg": "missing for ['2005']"
+    },
+    {
+      "severity": "warning",
+      "slug": "tesla/model-3",
+      "year": "2017",
+      "field": "engines",
+      "msg": "Electric: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "tesla/model-3",
+      "year": "2018",
+      "field": "engines",
+      "msg": "Electric: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "tesla/model-3",
+      "year": "2019",
+      "field": "engines",
+      "msg": "Electric: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "tesla/model-3",
+      "year": "2020",
+      "field": "engines",
+      "msg": "Electric: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "tesla/model-3",
+      "year": "2021",
+      "field": "engines",
+      "msg": "Electric: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "tesla/model-3",
+      "year": "2022",
+      "field": "engines",
+      "msg": "Electric: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "tesla/model-3",
+      "year": "2023",
+      "field": "engines",
+      "msg": "Electric: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "tesla/model-3",
+      "year": "2024",
+      "field": "engines",
+      "msg": "Electric: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "tesla/model-3",
+      "year": "2025",
+      "field": "engines",
+      "msg": "Electric: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "tesla/model-3",
+      "year": "2026",
+      "field": "engines",
+      "msg": "Electric: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "gap",
+      "slug": "tesla/model-3",
+      "year": null,
+      "field": "towing",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "tesla/model-3",
+      "year": null,
+      "field": "battery",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "tesla/model-3",
+      "year": null,
+      "field": "wipers",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "tesla/model-3",
+      "year": null,
+      "field": "oil",
+      "msg": "no source provides this field yet"
+    },
+    {
+      "severity": "gap",
+      "slug": "tesla/model-3",
+      "year": null,
+      "field": "dims",
+      "msg": "missing for ['2017']"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2005",
+      "field": "engines",
+      "msg": "3.3L 6-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2006",
+      "field": "engines",
+      "msg": "3.3L 6-cyl: no rated HP in EPA test-car data"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2007",
+      "field": "engines",
+      "msg": "2.4L 4-cyl hybrid: HP matched by model name only [147]"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2008",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Toyota Camry SE 2007"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2008",
+      "field": "engines",
+      "msg": "3.5L 6-cyl: HP matched by model name only [268]"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2008",
+      "field": "engines",
+      "msg": "2.4L 4-cyl hybrid: HP matched by model name only [147]"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2009",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Toyota Camry SE 2007"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2009",
+      "field": "engines",
+      "msg": "2.4L 4-cyl hybrid: HP matched by model name only [147]"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2010",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Toyota Camry SE 2007"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2010",
+      "field": "engines",
+      "msg": "2.4L 4-cyl hybrid: HP matched by model name only [147]"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2011",
+      "field": "wheel",
+      "msg": "inferred across the generation from special-trim rows only: Toyota Camry SE 2007"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2011",
+      "field": "engines",
+      "msg": "2.4L 4-cyl hybrid: HP matched by model name only [147]"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2012",
+      "field": "engines",
+      "msg": "2.5L 4-cyl: HP matched by model name only [178]"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2012",
+      "field": "engines",
+      "msg": "3.5L 6-cyl: HP matched by model name only [268]"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2013",
+      "field": "engines",
+      "msg": "2.5L 4-cyl: HP matched by model name only [178]"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2017",
+      "field": "engines",
+      "msg": "2.5L 4-cyl: HP matched by model name only [178]"
+    },
+    {
+      "severity": "warning",
+      "slug": "toyota/camry",
+      "year": "2017",
+      "field": "engines",
+      "msg": "3.5L 6-cyl: HP matched by model name only [268]"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/camry",
+      "year": null,
+      "field": "towing",
+      "msg": "missing for ['2005', '2006', '2007']"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/camry",
+      "year": null,
+      "field": "wheel",
+      "msg": "missing for ['2005', '2006']"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/camry",
+      "year": null,
+      "field": "battery",
+      "msg": "missing for ['2026']"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/camry",
+      "year": null,
+      "field": "oil",
+      "msg": "missing for ['2005', '2006', '2007']"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/corolla",
+      "year": null,
+      "field": "towing",
+      "msg": "missing for ['2005', '2006', '2007', '2008']"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/corolla",
+      "year": null,
+      "field": "wheel",
+      "msg": "missing for ['2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']"
+    },
+    {
+      "severity": "gap",
+      "slug": "toyota/corolla",
+      "year": null,
+      "field": "oil",
+      "msg": "missing for ['2005', '2006', '2007', '2008']"
     },
     {
       "severity": "gap",

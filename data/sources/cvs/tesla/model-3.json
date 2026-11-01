@@ -1,0 +1,1073 @@
+{
+  "slug": "tesla/model-3",
+  "source": {
+    "name": "Transport Canada Canadian Vehicle Specifications via NHTSA vPIC",
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetCanadianVehicleSpecifications/"
+  },
+  "years": {
+    "2018": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4690,
+            4690
+          ],
+          "width_mm": [
+            1850,
+            1850
+          ],
+          "height_mm": [
+            1440,
+            1440
+          ],
+          "wheelbase_mm": [
+            2880,
+            2880
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1590,
+            1590
+          ],
+          "curb_weight_kg": [
+            1610,
+            1730
+          ],
+          "length_in": [
+            184.6,
+            184.6
+          ],
+          "width_in": [
+            72.8,
+            72.8
+          ],
+          "height_in": [
+            56.7,
+            56.7
+          ],
+          "wheelbase_in": [
+            113.4,
+            113.4
+          ],
+          "curb_weight_lb": [
+            3549,
+            3814
+          ]
+        },
+        "variants": [
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1730,
+            "curb_weight_lb": 3814,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN STANDARD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 47,
+            "weight_dist_rear_pct": 53,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2019": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4690,
+            4690
+          ],
+          "width_mm": [
+            1850,
+            1850
+          ],
+          "height_mm": [
+            1440,
+            1440
+          ],
+          "wheelbase_mm": [
+            2880,
+            2880
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1590,
+            1590
+          ],
+          "curb_weight_kg": [
+            1645,
+            1847
+          ],
+          "length_in": [
+            184.6,
+            184.6
+          ],
+          "width_in": [
+            72.8,
+            72.8
+          ],
+          "height_in": [
+            56.7,
+            56.7
+          ],
+          "wheelbase_in": [
+            113.4,
+            113.4
+          ],
+          "curb_weight_lb": [
+            3627,
+            4072
+          ]
+        },
+        "variants": [
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE AWD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1847,
+            "curb_weight_lb": 4072,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE RWD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1726,
+            "curb_weight_lb": 3805,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN MID RANGE",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1672,
+            "curb_weight_lb": 3686,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN STANDARD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1645,
+            "curb_weight_lb": 3627,
+            "weight_dist_front_pct": 47,
+            "weight_dist_rear_pct": 53,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2020": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4690,
+            4690
+          ],
+          "width_mm": [
+            1850,
+            1850
+          ],
+          "height_mm": [
+            1440,
+            1440
+          ],
+          "wheelbase_mm": [
+            2880,
+            2880
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1590,
+            1590
+          ],
+          "curb_weight_kg": [
+            1645,
+            1847
+          ],
+          "length_in": [
+            184.6,
+            184.6
+          ],
+          "width_in": [
+            72.8,
+            72.8
+          ],
+          "height_in": [
+            56.7,
+            56.7
+          ],
+          "wheelbase_in": [
+            113.4,
+            113.4
+          ],
+          "curb_weight_lb": [
+            3627,
+            4072
+          ]
+        },
+        "variants": [
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE AWD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1847,
+            "curb_weight_lb": 4072,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE RWD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1726,
+            "curb_weight_lb": 3805,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN MID RANGE",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1672,
+            "curb_weight_lb": 3686,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN STANDARD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1645,
+            "curb_weight_lb": 3627,
+            "weight_dist_front_pct": 47,
+            "weight_dist_rear_pct": 53,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2021": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4690,
+            4690
+          ],
+          "width_mm": [
+            1850,
+            1850
+          ],
+          "height_mm": [
+            1440,
+            1440
+          ],
+          "wheelbase_mm": [
+            2880,
+            2880
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1590,
+            1590
+          ],
+          "curb_weight_kg": [
+            1645,
+            1847
+          ],
+          "length_in": [
+            184.6,
+            184.6
+          ],
+          "width_in": [
+            72.8,
+            72.8
+          ],
+          "height_in": [
+            56.7,
+            56.7
+          ],
+          "wheelbase_in": [
+            113.4,
+            113.4
+          ],
+          "curb_weight_lb": [
+            3627,
+            4072
+          ]
+        },
+        "variants": [
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE AWD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1847,
+            "curb_weight_lb": 4072,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE RWD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1726,
+            "curb_weight_lb": 3805,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN MID RANGE",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1672,
+            "curb_weight_lb": 3686,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN STANDARD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1645,
+            "curb_weight_lb": 3627,
+            "weight_dist_front_pct": 47,
+            "weight_dist_rear_pct": 53,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2022": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4690,
+            4690
+          ],
+          "width_mm": [
+            1850,
+            1850
+          ],
+          "height_mm": [
+            1440,
+            1440
+          ],
+          "wheelbase_mm": [
+            2880,
+            2880
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1590,
+            1590
+          ],
+          "curb_weight_kg": [
+            1645,
+            1847
+          ],
+          "length_in": [
+            184.6,
+            184.6
+          ],
+          "width_in": [
+            72.8,
+            72.8
+          ],
+          "height_in": [
+            56.7,
+            56.7
+          ],
+          "wheelbase_in": [
+            113.4,
+            113.4
+          ],
+          "curb_weight_lb": [
+            3627,
+            4072
+          ]
+        },
+        "variants": [
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE AWD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1847,
+            "curb_weight_lb": 4072,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE RWD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1726,
+            "curb_weight_lb": 3805,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN MID RANGE",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1672,
+            "curb_weight_lb": 3686,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN STANDARD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1645,
+            "curb_weight_lb": 3627,
+            "weight_dist_front_pct": 47,
+            "weight_dist_rear_pct": 53,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2023": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4690,
+            4690
+          ],
+          "width_mm": [
+            1850,
+            1850
+          ],
+          "height_mm": [
+            1440,
+            1440
+          ],
+          "wheelbase_mm": [
+            2880,
+            2880
+          ],
+          "track_front_mm": [
+            1600,
+            1600
+          ],
+          "track_rear_mm": [
+            1590,
+            1590
+          ],
+          "curb_weight_kg": [
+            1645,
+            1847
+          ],
+          "length_in": [
+            184.6,
+            184.6
+          ],
+          "width_in": [
+            72.8,
+            72.8
+          ],
+          "height_in": [
+            56.7,
+            56.7
+          ],
+          "wheelbase_in": [
+            113.4,
+            113.4
+          ],
+          "curb_weight_lb": [
+            3627,
+            4072
+          ]
+        },
+        "variants": [
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE AWD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1847,
+            "curb_weight_lb": 4072,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE RWD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1726,
+            "curb_weight_lb": 3805,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN MID RANGE",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1672,
+            "curb_weight_lb": 3686,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2018
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN STANDARD",
+            "length_mm": 4690,
+            "length_in": 184.6,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1590,
+            "track_rear_in": 62.6,
+            "curb_weight_kg": 1645,
+            "curb_weight_lb": 3627,
+            "weight_dist_front_pct": 47,
+            "weight_dist_rear_pct": 53,
+            "measured_model_year": 2018
+          }
+        ]
+      }
+    },
+    "2024": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4720,
+            4720
+          ],
+          "width_mm": [
+            1850,
+            1850
+          ],
+          "height_mm": [
+            1440,
+            1440
+          ],
+          "wheelbase_mm": [
+            2880,
+            2880
+          ],
+          "track_front_mm": [
+            1580,
+            1580
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1726,
+            1828
+          ],
+          "length_in": [
+            185.8,
+            185.8
+          ],
+          "width_in": [
+            72.8,
+            72.8
+          ],
+          "height_in": [
+            56.7,
+            56.7
+          ],
+          "wheelbase_in": [
+            113.4,
+            113.4
+          ],
+          "curb_weight_lb": [
+            3805,
+            4030
+          ]
+        },
+        "variants": [
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE AWD",
+            "length_mm": 4720,
+            "length_in": 185.8,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1828,
+            "curb_weight_lb": 4030,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN RWD",
+            "length_mm": 4720,
+            "length_in": 185.8,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1726,
+            "curb_weight_lb": 3805,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2024
+          }
+        ]
+      }
+    },
+    "2025": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4720,
+            4720
+          ],
+          "width_mm": [
+            1850,
+            1850
+          ],
+          "height_mm": [
+            1440,
+            1440
+          ],
+          "wheelbase_mm": [
+            2880,
+            2880
+          ],
+          "track_front_mm": [
+            1580,
+            1580
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1726,
+            1828
+          ],
+          "length_in": [
+            185.8,
+            185.8
+          ],
+          "width_in": [
+            72.8,
+            72.8
+          ],
+          "height_in": [
+            56.7,
+            56.7
+          ],
+          "wheelbase_in": [
+            113.4,
+            113.4
+          ],
+          "curb_weight_lb": [
+            3805,
+            4030
+          ]
+        },
+        "variants": [
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE AWD",
+            "length_mm": 4720,
+            "length_in": 185.8,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1828,
+            "curb_weight_lb": 4030,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN RWD",
+            "length_mm": 4720,
+            "length_in": 185.8,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1726,
+            "curb_weight_lb": 3805,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2024
+          }
+        ]
+      }
+    },
+    "2026": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4720,
+            4720
+          ],
+          "width_mm": [
+            1850,
+            1850
+          ],
+          "height_mm": [
+            1440,
+            1440
+          ],
+          "wheelbase_mm": [
+            2880,
+            2880
+          ],
+          "track_front_mm": [
+            1580,
+            1580
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1726,
+            1828
+          ],
+          "length_in": [
+            185.8,
+            185.8
+          ],
+          "width_in": [
+            72.8,
+            72.8
+          ],
+          "height_in": [
+            56.7,
+            56.7
+          ],
+          "wheelbase_in": [
+            113.4,
+            113.4
+          ],
+          "curb_weight_lb": [
+            3805,
+            4030
+          ]
+        },
+        "variants": [
+          {
+            "name": "MODEL 3 4DR SEDAN LONG RANGE AWD",
+            "length_mm": 4720,
+            "length_in": 185.8,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1828,
+            "curb_weight_lb": 4030,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2024
+          },
+          {
+            "name": "MODEL 3 4DR SEDAN RWD",
+            "length_mm": 4720,
+            "length_in": 185.8,
+            "width_mm": 1850,
+            "width_in": 72.8,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2880,
+            "wheelbase_in": 113.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1726,
+            "curb_weight_lb": 3805,
+            "weight_dist_front_pct": 48,
+            "weight_dist_rear_pct": 52,
+            "measured_model_year": 2024
+          }
+        ]
+      }
+    }
+  }
+}

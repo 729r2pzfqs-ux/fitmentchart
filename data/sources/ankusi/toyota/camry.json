@@ -1,0 +1,607 @@
+{
+  "slug": "toyota/camry",
+  "source": {
+    "name": "ANKUSI Wheel Fitment Dataset",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "landing_page": "https://ankusiwheels.com/wheel-fitment-dataset/",
+    "doi": "10.6084/m9.figshare.33921994",
+    "via": "huggingface",
+    "url": "https://huggingface.co/datasets/hjhjhihg1/ankusi-wheel-fitment-data/resolve/main/data/ankusi-wheel-fitment.csv"
+  },
+  "matched_rows": 8,
+  "skipped_rows": [
+    {
+      "model": "Toyota Camry Hybrid [EU]",
+      "year": "2019",
+      "reason": "regional variant"
+    }
+  ],
+  "years": {
+    "2007": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "exact",
+        "generations": [
+          "6th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry SE",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-se/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.0,
+            "offset_mm": 45,
+            "trim": "SE"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2008": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "6th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry SE",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-se/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2009": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "6th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry SE",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-se/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2010": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "6th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry SE",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-se/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2011": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "6th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry SE",
+            "year": "2007",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-se/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2012": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "exact",
+        "generations": [
+          "7th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2012/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.0,
+            "offset_mm": 45,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2013": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "7th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2012/"
+          },
+          {
+            "model": "Toyota Camry",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2015/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2014": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "7th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2012/"
+          },
+          {
+            "model": "Toyota Camry",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2015/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2015": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "exact",
+        "generations": [
+          "7th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2015/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.0,
+            "offset_mm": 45,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2016": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "7th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2012/"
+          },
+          {
+            "model": "Toyota Camry",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2015/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2017": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "7th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2012",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2012/"
+          },
+          {
+            "model": "Toyota Camry",
+            "year": "2015",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2015/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2018": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "exact",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2018",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2018/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": 40,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2019": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2018",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2018/"
+          },
+          {
+            "model": "Toyota Camry",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2021/"
+          },
+          {
+            "model": "Toyota Camry TRD",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-trd/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2020": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "exact",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry TRD",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-trd/"
+          }
+        ],
+        "trim_only_evidence": true,
+        "oe_wheels": [
+          {
+            "diameter_in": 19,
+            "width_in": 8.5,
+            "offset_mm": 40,
+            "trim": "TRD"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2021": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "exact",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2021/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 17,
+            "width_in": 7.5,
+            "offset_mm": 40,
+            "trim": "base"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2022": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2018",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2018/"
+          },
+          {
+            "model": "Toyota Camry",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2021/"
+          },
+          {
+            "model": "Toyota Camry TRD",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-trd/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2023": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2018",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2018/"
+          },
+          {
+            "model": "Toyota Camry",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2021/"
+          },
+          {
+            "model": "Toyota Camry TRD",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-trd/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2024": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "8th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2018",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2018/"
+          },
+          {
+            "model": "Toyota Camry",
+            "year": "2021",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-2021/"
+          },
+          {
+            "model": "Toyota Camry TRD",
+            "year": "2020",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-trd/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    },
+    "2025": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "exact",
+        "generations": [
+          "9th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry/"
+          },
+          {
+            "model": "Toyota Camry Hybrid",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-hybrid/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 40,
+            "trim": "base"
+          },
+          {
+            "diameter_in": 18,
+            "width_in": 8.0,
+            "offset_mm": 40,
+            "trim": "Hybrid"
+          }
+        ],
+        "trim_exceptions": []
+      }
+    },
+    "2026": {
+      "wheel": {
+        "bolt_pattern": "5x114.3",
+        "lug_count": 5,
+        "pcd_mm": 114.3,
+        "pcd_in": 4.5,
+        "center_bore_mm": 60.1,
+        "basis": "generation",
+        "generations": [
+          "9th generation"
+        ],
+        "evidence": [
+          {
+            "model": "Toyota Camry",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry/"
+          },
+          {
+            "model": "Toyota Camry Hybrid",
+            "year": "2025",
+            "url": "https://ankusiwheels.com/fitment-guide/toyota-camry-hybrid/"
+          }
+        ],
+        "trim_only_evidence": false,
+        "oe_wheels": [],
+        "trim_exceptions": []
+      }
+    }
+  }
+}

@@ -1,4 +1,7 @@
-"""Append Rain-X wiper fitment records to each data/manuals YAML (years without OEM wiper data only)."""
+"""Append Rain-X wiper fitment records to each data/manuals YAML (years without OEM wiper data only).
+
+With slugs as arguments (add_wipers.py honda/accord ...), only those files are rewritten.
+"""
 import json, glob, yaml, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
@@ -7,11 +10,15 @@ from mkyaml import dump, DOCS
 C = str(ROOT / "data/cache/rainx/") + "/"
 M = str(ROOT / "data/manuals/") + "/"
 SLUG = {("Toyota", "Tacoma"): "toyota/tacoma", ("Ford", "F-150"): "ford/f-150", ("Honda", "Civic"): "honda/civic",
-        ("Chevrolet", "Silverado 1500"): "chevrolet/silverado-1500", ("Jeep", "Wrangler"): "jeep/wrangler"}
+        ("Chevrolet", "Silverado 1500"): "chevrolet/silverado-1500", ("Jeep", "Wrangler"): "jeep/wrangler",
+        ("Toyota", "Camry"): "toyota/camry", ("Toyota", "Corolla"): "toyota/corolla", ("Honda", "Accord"): "honda/accord",
+        ("Ram", "1500"): "ram/1500", ("Dodge", "Ram 1500"): "ram/1500", ("Tesla", "Model 3"): "tesla/model-3"}
 by = {}
 for f in glob.glob(C + "*.json"):
     r = json.load(open(f)); by.setdefault(SLUG[(r["make"], r["model"])], []).append(r)
 for slug, rows in sorted(by.items()):
+    if sys.argv[1:] and slug not in sys.argv[1:]:
+        continue
     path = M + slug + ".yaml"
     data = yaml.safe_load(open(path))
     data["records"] = [x for x in data["records"] if not (x["field"] == "wipers" and any(

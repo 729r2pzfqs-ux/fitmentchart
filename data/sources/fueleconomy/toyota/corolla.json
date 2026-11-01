@@ -1,0 +1,1943 @@
+{
+  "slug": "toyota/corolla",
+  "source": {
+    "vehicles_csv": "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+    "hp": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+  },
+  "years": {
+    "2005": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            130,
+            170
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              22,
+              28
+            ],
+            "hwy": [
+              31,
+              37
+            ],
+            "combined": [
+              25,
+              31
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            20796,
+            20797,
+            20798
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2006": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            126,
+            164
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              22,
+              28
+            ],
+            "hwy": [
+              31,
+              37
+            ],
+            "combined": [
+              25,
+              31
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            21881,
+            21882,
+            21883
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2007": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            126
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              26,
+              28
+            ],
+            "hwy": [
+              35,
+              37
+            ],
+            "combined": [
+              29,
+              31
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            23548,
+            23549
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2008": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            126
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              26,
+              28
+            ],
+            "hwy": [
+              35,
+              37
+            ],
+            "combined": [
+              29,
+              31
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            24320,
+            24321
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2009": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              26,
+              27
+            ],
+            "hwy": [
+              35,
+              35
+            ],
+            "combined": [
+              30,
+              30
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            25254,
+            25255
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            158
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              30,
+              30
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S5)",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            25252,
+            25253
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "2.4L 4-cyl"
+        }
+      ]
+    },
+    "2010": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              26,
+              26
+            ],
+            "hwy": [
+              34,
+              35
+            ],
+            "combined": [
+              29,
+              30
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            26376,
+            26377
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            158
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              30,
+              30
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S5)",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            26378,
+            26379
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "2.4L 4-cyl"
+        }
+      ]
+    },
+    "2011": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              26,
+              27
+            ],
+            "hwy": [
+              34,
+              34
+            ],
+            "combined": [
+              29,
+              30
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            30846,
+            30847
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            158
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              30,
+              30
+            ],
+            "combined": [
+              24,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S5)",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            30848,
+            30849
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "2.4L 4-cyl"
+        }
+      ]
+    },
+    "2012": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              26,
+              27
+            ],
+            "hwy": [
+              33,
+              34
+            ],
+            "combined": [
+              29,
+              29
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            32181,
+            32182
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2013": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              26,
+              27
+            ],
+            "hwy": [
+              33,
+              33
+            ],
+            "combined": [
+              29,
+              29
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Corolla"
+          ],
+          "epa_ids": [
+            32950,
+            32951
+          ],
+          "hp_source_models": [
+            "COROLLA"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2014": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132,
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              27,
+              30
+            ],
+            "hwy": [
+              35,
+              40
+            ],
+            "combined": [
+              30,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla LE Eco"
+          ],
+          "epa_ids": [
+            34398,
+            34399,
+            34400,
+            34401,
+            34402,
+            34403
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA LE ECO"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2015": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132,
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              27,
+              30
+            ],
+            "hwy": [
+              35,
+              40
+            ],
+            "combined": [
+              30,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla LE Eco"
+          ],
+          "epa_ids": [
+            35498,
+            35499,
+            35500,
+            35501,
+            35502,
+            35503
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA LE ECO"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2016": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132,
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              27,
+              30
+            ],
+            "hwy": [
+              35,
+              40
+            ],
+            "combined": [
+              30,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla LE Eco"
+          ],
+          "epa_ids": [
+            36799,
+            36800,
+            36801,
+            36802,
+            36803,
+            36804
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA LE ECO"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2017": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132,
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              27,
+              30
+            ],
+            "hwy": [
+              35,
+              40
+            ],
+            "combined": [
+              30,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla LE Eco",
+            "Corolla iM"
+          ],
+          "epa_ids": [
+            38112,
+            38113,
+            38152,
+            38153,
+            38154,
+            38155,
+            38156
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA LE ECO"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2018": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132,
+            140
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              27,
+              30
+            ],
+            "hwy": [
+              35,
+              40
+            ],
+            "combined": [
+              30,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla LE Eco",
+            "Corolla iM"
+          ],
+          "epa_ids": [
+            39341,
+            39342,
+            39343,
+            39344,
+            39345,
+            39346,
+            39347
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA LE ECO"
+          ],
+          "label": "1.8L 4-cyl"
+        }
+      ]
+    },
+    "2019": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            132,
+            140
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              27,
+              30
+            ],
+            "hwy": [
+              35,
+              40
+            ],
+            "combined": [
+              30,
+              34
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla LE Eco"
+          ],
+          "epa_ids": [
+            40241,
+            40242,
+            40243,
+            40244,
+            40245
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA LE ECO"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            169
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              32
+            ],
+            "hwy": [
+              37,
+              42
+            ],
+            "combined": [
+              31,
+              36
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S10)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla Hatchback",
+            "Corolla Hatchback XSE"
+          ],
+          "epa_ids": [
+            40333,
+            40334,
+            40335
+          ],
+          "hp_source_models": [
+            "COROLLA HATCHBACK",
+            "COROLLA HATCHBACK MANUAL"
+          ],
+          "label": "2.0L 4-cyl"
+        }
+      ]
+    },
+    "2020": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            139
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              29,
+              30
+            ],
+            "hwy": [
+              37,
+              39
+            ],
+            "combined": [
+              32,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla XLE"
+          ],
+          "epa_ids": [
+            41217,
+            41218,
+            41219
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA XLE"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            169
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              32
+            ],
+            "hwy": [
+              36,
+              41
+            ],
+            "combined": [
+              31,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S10)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla Hatchback",
+            "Corolla Hatchback XSE",
+            "Corolla XSE"
+          ],
+          "epa_ids": [
+            41213,
+            41215,
+            41216,
+            42092,
+            42093,
+            42094
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA HATCHBACK",
+            "COROLLA HATCHBACK MANUAL",
+            "COROLLA XSE"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            96
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              53,
+              53
+            ],
+            "hwy": [
+              52,
+              52
+            ],
+            "combined": [
+              52,
+              52
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Corolla Hybrid"
+          ],
+          "epa_ids": [
+            41214
+          ],
+          "hp_source_models": [
+            "COROLLA HYBRID"
+          ],
+          "label": "1.8L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2021": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            139
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              29,
+              30
+            ],
+            "hwy": [
+              37,
+              39
+            ],
+            "combined": [
+              32,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla XLE"
+          ],
+          "epa_ids": [
+            42582,
+            42583,
+            42584
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA XLE"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            169
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              32
+            ],
+            "hwy": [
+              36,
+              41
+            ],
+            "combined": [
+              31,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AM-S10)",
+            "Automatic (AV-S10)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla APEX",
+            "Corolla Hatchback",
+            "Corolla Hatchback XSE",
+            "Corolla XSE"
+          ],
+          "epa_ids": [
+            42587,
+            42588,
+            42589,
+            42745,
+            42746,
+            42747,
+            43298,
+            43299
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA HATCHBACK",
+            "COROLLA HATCHBACK MANUAL",
+            "COROLLA XSE"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            96
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              53,
+              53
+            ],
+            "hwy": [
+              52,
+              52
+            ],
+            "combined": [
+              52,
+              52
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Corolla Hybrid"
+          ],
+          "epa_ids": [
+            42585
+          ],
+          "hp_source_models": [
+            "COROLLA HYBRID"
+          ],
+          "label": "1.8L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2022": {
+      "engines": [
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            139
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              29,
+              30
+            ],
+            "hwy": [
+              37,
+              39
+            ],
+            "combined": [
+              32,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla XLE"
+          ],
+          "epa_ids": [
+            44070,
+            44071,
+            44072
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA XLE"
+          ],
+          "label": "1.8L 4-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            169
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              28,
+              32
+            ],
+            "hwy": [
+              36,
+              41
+            ],
+            "combined": [
+              31,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S10)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla APEX",
+            "Corolla Hatchback",
+            "Corolla Hatchback XSE",
+            "Corolla XSE"
+          ],
+          "epa_ids": [
+            44074,
+            44075,
+            44076,
+            44077,
+            44078,
+            44237,
+            44238,
+            44239
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA HATCHBACK",
+            "COROLLA XSE"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            96
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              53,
+              53
+            ],
+            "hwy": [
+              52,
+              52
+            ],
+            "combined": [
+              52,
+              52
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Corolla Hybrid"
+          ],
+          "epa_ids": [
+            44073
+          ],
+          "hp_source_models": [
+            "COROLLA HYBRID"
+          ],
+          "label": "1.8L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2023": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            169
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              30,
+              32
+            ],
+            "hwy": [
+              38,
+              41
+            ],
+            "combined": [
+              33,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S10)"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla Hatchback",
+            "Corolla Hatchback XSE"
+          ],
+          "epa_ids": [
+            45899,
+            45900,
+            45931,
+            45932
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA HATCHBACK"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            97
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              47,
+              53
+            ],
+            "hwy": [
+              41,
+              46
+            ],
+            "combined": [
+              44,
+              50
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Corolla Hybrid",
+            "Corolla Hybrid AWD"
+          ],
+          "epa_ids": [
+            45929,
+            45930,
+            46131,
+            46132
+          ],
+          "hp_source_models": [
+            "COROLLA HYBRID",
+            "COROLLA HYBRID AWD"
+          ],
+          "label": "1.8L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2024": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            169
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              30,
+              32
+            ],
+            "hwy": [
+              38,
+              41
+            ],
+            "combined": [
+              33,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S10)"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla Hatchback",
+            "Corolla Hatchback XSE"
+          ],
+          "epa_ids": [
+            47343,
+            47344,
+            47345,
+            47346
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA HATCHBACK"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            97
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              47,
+              53
+            ],
+            "hwy": [
+              41,
+              46
+            ],
+            "combined": [
+              44,
+              50
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Corolla Hybrid (Normal/Eco Modes)",
+            "Corolla Hybrid (Sport/Normal/Eco Modes)",
+            "Corolla Hybrid AWD (Normal/Eco Modes)",
+            "Corolla Hybrid AWD (Sport/Normal/Eco Modes)"
+          ],
+          "epa_ids": [
+            47339,
+            47340,
+            47341,
+            47342
+          ],
+          "hp_source_models": [
+            "COROLLA HYBRID",
+            "COROLLA HYBRID AWD"
+          ],
+          "label": "1.8L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2025": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            169
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              30,
+              32
+            ],
+            "hwy": [
+              38,
+              41
+            ],
+            "combined": [
+              33,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S10)",
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla FX",
+            "Corolla Hatchback",
+            "Corolla Hatchback XSE"
+          ],
+          "epa_ids": [
+            47996,
+            47997,
+            48493,
+            48494,
+            48495,
+            48496
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA HATCHBACK",
+            "COROLLA XSE"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            97
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              47,
+              53
+            ],
+            "hwy": [
+              41,
+              46
+            ],
+            "combined": [
+              44,
+              50
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Corolla Hybrid (Normal/Eco Modes)",
+            "Corolla Hybrid (Sport/Normal/Eco Modes)",
+            "Corolla Hybrid AWD (Normal/Eco Modes)",
+            "Corolla Hybrid AWD (Sport/Normal/Eco Modes)"
+          ],
+          "epa_ids": [
+            48490,
+            48492,
+            49139,
+            49140
+          ],
+          "hp_source_models": [
+            "COROLLA HYBRID",
+            "COROLLA HYBRID AWD"
+          ],
+          "label": "1.8L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2026": {
+      "engines": [
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            169
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              30,
+              32
+            ],
+            "hwy": [
+              38,
+              41
+            ],
+            "combined": [
+              33,
+              35
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S10)",
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Corolla",
+            "Corolla (1-mode TM)",
+            "Corolla (3-mode TM)",
+            "Corolla Hatchback",
+            "Corolla Hatchback FX",
+            "Corolla Hatchback XSE"
+          ],
+          "epa_ids": [
+            49807,
+            49808,
+            49809,
+            49810,
+            49811,
+            49812
+          ],
+          "hp_source_models": [
+            "COROLLA",
+            "COROLLA HATCHBACK",
+            "COROLLA XSE"
+          ],
+          "label": "2.0L 4-cyl"
+        },
+        {
+          "displacement_l": 1.8,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            97
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              47,
+              53
+            ],
+            "hwy": [
+              41,
+              46
+            ],
+            "combined": [
+              44,
+              50
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Corolla Hybrid",
+            "Corolla Hybrid AWD",
+            "Corolla Hybrid SE",
+            "Corolla Hybrid SE AWD"
+          ],
+          "epa_ids": [
+            49803,
+            49804,
+            49805,
+            49806
+          ],
+          "hp_source_models": [
+            "COROLLA HYBRID",
+            "COROLLA HYBRID AWD"
+          ],
+          "label": "1.8L 4-cyl hybrid"
+        }
+      ]
+    }
+  }
+}

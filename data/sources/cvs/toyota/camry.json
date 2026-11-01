@@ -1,0 +1,2857 @@
+{
+  "slug": "toyota/camry",
+  "source": {
+    "name": "Transport Canada Canadian Vehicle Specifications via NHTSA vPIC",
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetCanadianVehicleSpecifications/"
+  },
+  "years": {
+    "2005": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4810,
+            4810
+          ],
+          "width_mm": [
+            1790,
+            1800
+          ],
+          "height_mm": [
+            1490,
+            1490
+          ],
+          "wheelbase_mm": [
+            2720,
+            2720
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1540,
+            1540
+          ],
+          "curb_weight_kg": [
+            1435,
+            1540
+          ],
+          "length_in": [
+            189.4,
+            189.4
+          ],
+          "width_in": [
+            70.5,
+            70.9
+          ],
+          "height_in": [
+            58.7,
+            58.7
+          ],
+          "wheelbase_in": [
+            107.1,
+            107.1
+          ],
+          "curb_weight_lb": [
+            3164,
+            3395
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN /SE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1490,
+            "height_in": 58.7,
+            "wheelbase_mm": 2720,
+            "wheelbase_in": 107.1,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1540,
+            "track_rear_in": 60.6,
+            "curb_weight_kg": 1435,
+            "curb_weight_lb": 3164,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "CAMRY 4DR SEDAN LE /XLE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1490,
+            "height_in": 58.7,
+            "wheelbase_mm": 2720,
+            "wheelbase_in": 107.1,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1540,
+            "track_rear_in": 60.6,
+            "curb_weight_kg": 1455,
+            "curb_weight_lb": 3208,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "CAMRY 4DR SEDAN LE V6/ XLE V6/SE V6",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1490,
+            "height_in": 58.7,
+            "wheelbase_mm": 2720,
+            "wheelbase_in": 107.1,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1540,
+            "track_rear_in": 60.6,
+            "curb_weight_kg": 1540,
+            "curb_weight_lb": 3395,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2002
+          }
+        ]
+      }
+    },
+    "2006": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4810,
+            4810
+          ],
+          "width_mm": [
+            1790,
+            1800
+          ],
+          "height_mm": [
+            1490,
+            1490
+          ],
+          "wheelbase_mm": [
+            2720,
+            2720
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1540,
+            1540
+          ],
+          "curb_weight_kg": [
+            1435,
+            1540
+          ],
+          "length_in": [
+            189.4,
+            189.4
+          ],
+          "width_in": [
+            70.5,
+            70.9
+          ],
+          "height_in": [
+            58.7,
+            58.7
+          ],
+          "wheelbase_in": [
+            107.1,
+            107.1
+          ],
+          "curb_weight_lb": [
+            3164,
+            3395
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN /SE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1490,
+            "height_in": 58.7,
+            "wheelbase_mm": 2720,
+            "wheelbase_in": 107.1,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1540,
+            "track_rear_in": 60.6,
+            "curb_weight_kg": 1435,
+            "curb_weight_lb": 3164,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "CAMRY 4DR SEDAN LE /XLE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1490,
+            "height_in": 58.7,
+            "wheelbase_mm": 2720,
+            "wheelbase_in": 107.1,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1540,
+            "track_rear_in": 60.6,
+            "curb_weight_kg": 1455,
+            "curb_weight_lb": 3208,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "CAMRY 4DR SEDAN LE V6/ XLE V6/SE V6",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1490,
+            "height_in": 58.7,
+            "wheelbase_mm": 2720,
+            "wheelbase_in": 107.1,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1540,
+            "track_rear_in": 60.6,
+            "curb_weight_kg": 1540,
+            "curb_weight_lb": 3395,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2002
+          }
+        ]
+      }
+    },
+    "2007": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4810,
+            4810
+          ],
+          "width_mm": [
+            1790,
+            1820
+          ],
+          "height_mm": [
+            1460,
+            1490
+          ],
+          "wheelbase_mm": [
+            2720,
+            2780
+          ],
+          "track_front_mm": [
+            1570,
+            1580
+          ],
+          "track_rear_mm": [
+            1540,
+            1570
+          ],
+          "curb_weight_kg": [
+            1490,
+            1669
+          ],
+          "length_in": [
+            189.4,
+            189.4
+          ],
+          "width_in": [
+            70.5,
+            71.7
+          ],
+          "height_in": [
+            57.5,
+            58.7
+          ],
+          "wheelbase_in": [
+            107.1,
+            109.4
+          ],
+          "curb_weight_lb": [
+            3285,
+            3680
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN FWD /SE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1490,
+            "height_in": 58.7,
+            "wheelbase_mm": 2720,
+            "wheelbase_in": 107.1,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1540,
+            "track_rear_in": 60.6,
+            "curb_weight_kg": 1490,
+            "curb_weight_lb": 3285,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "CAMRY 4DR SEDAN FWD LE /XLE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1800,
+            "width_in": 70.9,
+            "height_mm": 1490,
+            "height_in": 58.7,
+            "wheelbase_mm": 2720,
+            "wheelbase_in": 107.1,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1540,
+            "track_rear_in": 60.6,
+            "curb_weight_kg": 1500,
+            "curb_weight_lb": 3307,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "CAMRY 4DR SEDAN FWD LE V6/ XLE V6/SE V6",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1490,
+            "height_in": 58.7,
+            "wheelbase_mm": 2720,
+            "wheelbase_in": 107.1,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1540,
+            "track_rear_in": 60.6,
+            "curb_weight_kg": 1570,
+            "curb_weight_lb": 3461,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2002
+          },
+          {
+            "name": "CAMRY 4DR SEDAN FWD LE V6/SE V6/XLE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1580,
+            "curb_weight_lb": 3483,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CAMRY 4DR SEDAN FWD LE/SE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1500,
+            "curb_weight_lb": 3307,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN FWD",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1669,
+            "curb_weight_lb": 3680,
+            "weight_dist_front_pct": 57,
+            "weight_dist_rear_pct": 43,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2008": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4810,
+            4810
+          ],
+          "width_mm": [
+            1820,
+            1820
+          ],
+          "height_mm": [
+            1460,
+            1460
+          ],
+          "wheelbase_mm": [
+            2780,
+            2780
+          ],
+          "track_front_mm": [
+            1580,
+            1580
+          ],
+          "track_rear_mm": [
+            1560,
+            1570
+          ],
+          "curb_weight_kg": [
+            1500,
+            1669
+          ],
+          "length_in": [
+            189.4,
+            189.4
+          ],
+          "width_in": [
+            71.7,
+            71.7
+          ],
+          "height_in": [
+            57.5,
+            57.5
+          ],
+          "wheelbase_in": [
+            109.4,
+            109.4
+          ],
+          "curb_weight_lb": [
+            3307,
+            3680
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN FWD LE/SE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1500,
+            "curb_weight_lb": 3307,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CAMRY 4DR SEDAN FWD LEV6/SEV6/XLEV6",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1580,
+            "curb_weight_lb": 3483,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN FWD",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1669,
+            "curb_weight_lb": 3680,
+            "weight_dist_front_pct": 57,
+            "weight_dist_rear_pct": 43,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2009": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4810,
+            4810
+          ],
+          "width_mm": [
+            1820,
+            1820
+          ],
+          "height_mm": [
+            1460,
+            1460
+          ],
+          "wheelbase_mm": [
+            2780,
+            2780
+          ],
+          "track_front_mm": [
+            1580,
+            1580
+          ],
+          "track_rear_mm": [
+            1560,
+            1570
+          ],
+          "curb_weight_kg": [
+            1500,
+            1669
+          ],
+          "length_in": [
+            189.4,
+            189.4
+          ],
+          "width_in": [
+            71.7,
+            71.7
+          ],
+          "height_in": [
+            57.5,
+            57.5
+          ],
+          "wheelbase_in": [
+            109.4,
+            109.4
+          ],
+          "curb_weight_lb": [
+            3307,
+            3680
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN FWD LE/SE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1500,
+            "curb_weight_lb": 3307,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CAMRY 4DR SEDAN FWD LEV6/SEV6/XLEV6",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1580,
+            "curb_weight_lb": 3483,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN FWD",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1669,
+            "curb_weight_lb": 3680,
+            "weight_dist_front_pct": 57,
+            "weight_dist_rear_pct": 43,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2010": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4810,
+            4810
+          ],
+          "width_mm": [
+            1820,
+            1820
+          ],
+          "height_mm": [
+            1460,
+            1460
+          ],
+          "wheelbase_mm": [
+            2780,
+            2780
+          ],
+          "track_front_mm": [
+            1580,
+            1580
+          ],
+          "track_rear_mm": [
+            1560,
+            1570
+          ],
+          "curb_weight_kg": [
+            1500,
+            1650
+          ],
+          "length_in": [
+            189.4,
+            189.4
+          ],
+          "width_in": [
+            71.7,
+            71.7
+          ],
+          "height_in": [
+            57.5,
+            57.5
+          ],
+          "wheelbase_in": [
+            109.4,
+            109.4
+          ],
+          "curb_weight_lb": [
+            3307,
+            3638
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN FWD LE/SE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1500,
+            "curb_weight_lb": 3307,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CAMRY 4DR SEDAN FWD LEV6/SEV6/XLEV6",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1580,
+            "curb_weight_lb": 3483,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN FWD",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1650,
+            "curb_weight_lb": 3638,
+            "weight_dist_front_pct": 57,
+            "weight_dist_rear_pct": 43,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2011": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4810,
+            4810
+          ],
+          "width_mm": [
+            1820,
+            1820
+          ],
+          "height_mm": [
+            1460,
+            1460
+          ],
+          "wheelbase_mm": [
+            2780,
+            2780
+          ],
+          "track_front_mm": [
+            1580,
+            1580
+          ],
+          "track_rear_mm": [
+            1560,
+            1570
+          ],
+          "curb_weight_kg": [
+            1500,
+            1650
+          ],
+          "length_in": [
+            189.4,
+            189.4
+          ],
+          "width_in": [
+            71.7,
+            71.7
+          ],
+          "height_in": [
+            57.5,
+            57.5
+          ],
+          "wheelbase_in": [
+            109.4,
+            109.4
+          ],
+          "curb_weight_lb": [
+            3307,
+            3638
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN FWD LE/SE",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1500,
+            "curb_weight_lb": 3307,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CAMRY 4DR SEDAN FWD LEV6/SEV6/XLEV6",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1580,
+            "curb_weight_lb": 3483,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2006
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN FWD",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1560,
+            "track_rear_in": 61.4,
+            "curb_weight_kg": 1650,
+            "curb_weight_lb": 3638,
+            "weight_dist_front_pct": 57,
+            "weight_dist_rear_pct": 43,
+            "measured_model_year": 2007
+          }
+        ]
+      }
+    },
+    "2012": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4810,
+            4810
+          ],
+          "width_mm": [
+            1820,
+            1820
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2770,
+            2770
+          ],
+          "track_front_mm": [
+            1580,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1580
+          ],
+          "curb_weight_kg": [
+            1441,
+            1550
+          ],
+          "length_in": [
+            189.4,
+            189.4
+          ],
+          "width_in": [
+            71.7,
+            71.7
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            109.1,
+            109.1
+          ],
+          "curb_weight_lb": [
+            3177,
+            3417
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY LE HYBRID/XLE HYBRID 4DR SEDAN",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2770,
+            "wheelbase_in": 109.1,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1550,
+            "curb_weight_lb": 3417,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CAMRY LE/SE/XLE 4DR SEDAN",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2770,
+            "wheelbase_in": 109.1,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1441,
+            "curb_weight_lb": 3177,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CAMRY SE V6/XLE V6 4DR SEDAN",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2770,
+            "wheelbase_in": 109.1,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1523,
+            "curb_weight_lb": 3358,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2012
+          }
+        ]
+      }
+    },
+    "2013": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4810,
+            4810
+          ],
+          "width_mm": [
+            1820,
+            1820
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2770,
+            2770
+          ],
+          "track_front_mm": [
+            1580,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1580
+          ],
+          "curb_weight_kg": [
+            1441,
+            1550
+          ],
+          "length_in": [
+            189.4,
+            189.4
+          ],
+          "width_in": [
+            71.7,
+            71.7
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            109.1,
+            109.1
+          ],
+          "curb_weight_lb": [
+            3177,
+            3417
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY LE HYBRID/XLE HYBRID 4DR SEDAN",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2770,
+            "wheelbase_in": 109.1,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1550,
+            "curb_weight_lb": 3417,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CAMRY LE/SE/XLE 4DR SEDAN",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2770,
+            "wheelbase_in": 109.1,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1441,
+            "curb_weight_lb": 3177,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CAMRY SE V6/XLE V6 4DR SEDAN",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2770,
+            "wheelbase_in": 109.1,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1523,
+            "curb_weight_lb": 3358,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2012
+          }
+        ]
+      }
+    },
+    "2014": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4810,
+            4810
+          ],
+          "width_mm": [
+            1820,
+            1820
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2770,
+            2770
+          ],
+          "track_front_mm": [
+            1580,
+            1590
+          ],
+          "track_rear_mm": [
+            1570,
+            1580
+          ],
+          "curb_weight_kg": [
+            1441,
+            1561
+          ],
+          "length_in": [
+            189.4,
+            189.4
+          ],
+          "width_in": [
+            71.7,
+            71.7
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            109.1,
+            109.1
+          ],
+          "curb_weight_lb": [
+            3177,
+            3441
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY LE HYBRID/XLE HYBRID 4DR SEDAN",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2770,
+            "wheelbase_in": 109.1,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1561,
+            "curb_weight_lb": 3441,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CAMRY LE/SE/XLE 4DR SEDAN",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2770,
+            "wheelbase_in": 109.1,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1441,
+            "curb_weight_lb": 3177,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2012
+          },
+          {
+            "name": "CAMRY SE V6/XLE V6 4DR SEDAN",
+            "length_mm": 4810,
+            "length_in": 189.4,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2770,
+            "wheelbase_in": 109.1,
+            "track_front_mm": 1580,
+            "track_front_in": 62.2,
+            "track_rear_mm": 1570,
+            "track_rear_in": 61.8,
+            "curb_weight_kg": 1528,
+            "curb_weight_lb": 3369,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2012
+          }
+        ]
+      }
+    },
+    "2015": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4850,
+            4850
+          ],
+          "width_mm": [
+            1820,
+            1820
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2780,
+            2780
+          ],
+          "track_front_mm": [
+            1590,
+            1590
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1467,
+            1577
+          ],
+          "length_in": [
+            190.9,
+            190.9
+          ],
+          "width_in": [
+            71.7,
+            71.7
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            109.4,
+            109.4
+          ],
+          "curb_weight_lb": [
+            3234,
+            3477
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY LE/SE/XLE HYBRID 4DR SEDAN",
+            "length_mm": 4850,
+            "length_in": 190.9,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1577,
+            "curb_weight_lb": 3477,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2015
+          },
+          {
+            "name": "CAMRY LE/SE/XLE/XSE 4DR SEDAN",
+            "length_mm": 4850,
+            "length_in": 190.9,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1467,
+            "curb_weight_lb": 3234,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2015
+          },
+          {
+            "name": "CAMRY XSE V6/XLE V6 4DR SEDAN",
+            "length_mm": 4850,
+            "length_in": 190.9,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1552,
+            "curb_weight_lb": 3422,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2015
+          }
+        ]
+      }
+    },
+    "2016": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4850,
+            4850
+          ],
+          "width_mm": [
+            1820,
+            1820
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2780,
+            2780
+          ],
+          "track_front_mm": [
+            1590,
+            1590
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1467,
+            1552
+          ],
+          "length_in": [
+            190.9,
+            190.9
+          ],
+          "width_in": [
+            71.7,
+            71.7
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            109.4,
+            109.4
+          ],
+          "curb_weight_lb": [
+            3234,
+            3422
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN",
+            "length_mm": 4850,
+            "length_in": 190.9,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1467,
+            "curb_weight_lb": 3234,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2015
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN",
+            "length_mm": 4850,
+            "length_in": 190.9,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1550,
+            "curb_weight_lb": 3417,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2015
+          },
+          {
+            "name": "CAMRY V6 4DR SEDAN",
+            "length_mm": 4850,
+            "length_in": 190.9,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1552,
+            "curb_weight_lb": 3422,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2015
+          }
+        ]
+      }
+    },
+    "2017": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4850,
+            4850
+          ],
+          "width_mm": [
+            1820,
+            1820
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2780,
+            2780
+          ],
+          "track_front_mm": [
+            1590,
+            1590
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1467,
+            1552
+          ],
+          "length_in": [
+            190.9,
+            190.9
+          ],
+          "width_in": [
+            71.7,
+            71.7
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            109.4,
+            109.4
+          ],
+          "curb_weight_lb": [
+            3234,
+            3422
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN",
+            "length_mm": 4850,
+            "length_in": 190.9,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1467,
+            "curb_weight_lb": 3234,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2015
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN",
+            "length_mm": 4850,
+            "length_in": 190.9,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1550,
+            "curb_weight_lb": 3417,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2015
+          },
+          {
+            "name": "CAMRY V6 4DR SEDAN",
+            "length_mm": 4850,
+            "length_in": 190.9,
+            "width_mm": 1820,
+            "width_in": 71.7,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2780,
+            "wheelbase_in": 109.4,
+            "track_front_mm": 1590,
+            "track_front_in": 62.6,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1552,
+            "curb_weight_lb": 3422,
+            "weight_dist_front_pct": 62,
+            "weight_dist_rear_pct": 38,
+            "measured_model_year": 2015
+          }
+        ]
+      }
+    },
+    "2018": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4890,
+            4890
+          ],
+          "width_mm": [
+            1830,
+            1830
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2830,
+            2830
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1470,
+            1610
+          ],
+          "length_in": [
+            192.5,
+            192.5
+          ],
+          "width_in": [
+            72.0,
+            72.0
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            111.4,
+            111.4
+          ],
+          "curb_weight_lb": [
+            3241,
+            3549
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN L/LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1470,
+            "curb_weight_lb": 3241,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN SE/XSE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1520,
+            "curb_weight_lb": 3351,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN XSE V6/XLE V6",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1575,
+            "curb_weight_lb": 3472,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN SE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2019": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4890,
+            4890
+          ],
+          "width_mm": [
+            1830,
+            1830
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2830,
+            2830
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1495,
+            1610
+          ],
+          "length_in": [
+            192.5,
+            192.5
+          ],
+          "width_in": [
+            72.0,
+            72.0
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            111.4,
+            111.4
+          ],
+          "curb_weight_lb": [
+            3296,
+            3549
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1495,
+            "curb_weight_lb": 3296,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN SE/XSE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1520,
+            "curb_weight_lb": 3351,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN XSE V6/XLE V6",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1575,
+            "curb_weight_lb": 3472,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN SE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2020": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4890,
+            4890
+          ],
+          "width_mm": [
+            1830,
+            1830
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2830,
+            2830
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1495,
+            1610
+          ],
+          "length_in": [
+            192.5,
+            192.5
+          ],
+          "width_in": [
+            72.0,
+            72.0
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            111.4,
+            111.4
+          ],
+          "curb_weight_lb": [
+            3296,
+            3549
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1495,
+            "curb_weight_lb": 3296,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN SE/XSE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1520,
+            "curb_weight_lb": 3351,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN XSE V6/XLE V6",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1575,
+            "curb_weight_lb": 3472,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN SE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2021": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4890,
+            4890
+          ],
+          "width_mm": [
+            1830,
+            1830
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2830,
+            2830
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1495,
+            1610
+          ],
+          "length_in": [
+            192.5,
+            192.5
+          ],
+          "width_in": [
+            72.0,
+            72.0
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            111.4,
+            111.4
+          ],
+          "curb_weight_lb": [
+            3296,
+            3549
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1495,
+            "curb_weight_lb": 3296,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN SE/XSE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1520,
+            "curb_weight_lb": 3351,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN XSE V6/XLE V6",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1575,
+            "curb_weight_lb": 3472,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN SE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2022": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4890,
+            4890
+          ],
+          "width_mm": [
+            1830,
+            1830
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2830,
+            2830
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1495,
+            1610
+          ],
+          "length_in": [
+            192.5,
+            192.5
+          ],
+          "width_in": [
+            72.0,
+            72.0
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            111.4,
+            111.4
+          ],
+          "curb_weight_lb": [
+            3296,
+            3549
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1495,
+            "curb_weight_lb": 3296,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN SE/XSE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1520,
+            "curb_weight_lb": 3351,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN XSE V6/XLE V6",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1575,
+            "curb_weight_lb": 3472,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN SE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2023": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4890,
+            4890
+          ],
+          "width_mm": [
+            1830,
+            1830
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2830,
+            2830
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1495,
+            1610
+          ],
+          "length_in": [
+            192.5,
+            192.5
+          ],
+          "width_in": [
+            72.0,
+            72.0
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            111.4,
+            111.4
+          ],
+          "curb_weight_lb": [
+            3296,
+            3549
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1495,
+            "curb_weight_lb": 3296,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN SE/XSE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1520,
+            "curb_weight_lb": 3351,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN XSE V6/XLE V6",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1575,
+            "curb_weight_lb": 3472,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN SE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2024": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4890,
+            4890
+          ],
+          "width_mm": [
+            1830,
+            1830
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2830,
+            2830
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1495,
+            1610
+          ],
+          "length_in": [
+            192.5,
+            192.5
+          ],
+          "width_in": [
+            72.0,
+            72.0
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            111.4,
+            111.4
+          ],
+          "curb_weight_lb": [
+            3296,
+            3549
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1495,
+            "curb_weight_lb": 3296,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN SE/XSE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1520,
+            "curb_weight_lb": 3351,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY 4DR SEDAN XSE V6/XLE V6",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN LE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1575,
+            "curb_weight_lb": 3472,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          },
+          {
+            "name": "CAMRY HYBRID 4DR SEDAN SE/XLE",
+            "length_mm": 4890,
+            "length_in": 192.5,
+            "width_mm": 1830,
+            "width_in": 72.0,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1610,
+            "curb_weight_lb": 3549,
+            "weight_dist_front_pct": 59,
+            "weight_dist_rear_pct": 41,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2025": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4920,
+            4920
+          ],
+          "width_mm": [
+            1840,
+            1840
+          ],
+          "height_mm": [
+            1450,
+            1450
+          ],
+          "wheelbase_mm": [
+            2830,
+            2830
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1585,
+            1645
+          ],
+          "length_in": [
+            193.7,
+            193.7
+          ],
+          "width_in": [
+            72.4,
+            72.4
+          ],
+          "height_in": [
+            57.1,
+            57.1
+          ],
+          "wheelbase_in": [
+            111.4,
+            111.4
+          ],
+          "curb_weight_lb": [
+            3494,
+            3627
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN AWD",
+            "length_mm": 4920,
+            "length_in": 193.7,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1450,
+            "height_in": 57.1,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1645,
+            "curb_weight_lb": 3627,
+            "weight_dist_front_pct": 56,
+            "weight_dist_rear_pct": 44,
+            "measured_model_year": 2025
+          },
+          {
+            "name": "CAMRY 4DR SEDAN FWD",
+            "length_mm": 4920,
+            "length_in": 193.7,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1450,
+            "height_in": 57.1,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1585,
+            "curb_weight_lb": 3494,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2025
+          }
+        ]
+      }
+    },
+    "2026": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4920,
+            4920
+          ],
+          "width_mm": [
+            1840,
+            1840
+          ],
+          "height_mm": [
+            1450,
+            1450
+          ],
+          "wheelbase_mm": [
+            2830,
+            2830
+          ],
+          "track_front_mm": [
+            1570,
+            1570
+          ],
+          "track_rear_mm": [
+            1580,
+            1580
+          ],
+          "curb_weight_kg": [
+            1585,
+            1645
+          ],
+          "length_in": [
+            193.7,
+            193.7
+          ],
+          "width_in": [
+            72.4,
+            72.4
+          ],
+          "height_in": [
+            57.1,
+            57.1
+          ],
+          "wheelbase_in": [
+            111.4,
+            111.4
+          ],
+          "curb_weight_lb": [
+            3494,
+            3627
+          ]
+        },
+        "variants": [
+          {
+            "name": "CAMRY 4DR SEDAN AWD",
+            "length_mm": 4920,
+            "length_in": 193.7,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1450,
+            "height_in": 57.1,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1645,
+            "curb_weight_lb": 3627,
+            "weight_dist_front_pct": 56,
+            "weight_dist_rear_pct": 44,
+            "measured_model_year": 2025
+          },
+          {
+            "name": "CAMRY 4DR SEDAN FWD",
+            "length_mm": 4920,
+            "length_in": 193.7,
+            "width_mm": 1840,
+            "width_in": 72.4,
+            "height_mm": 1450,
+            "height_in": 57.1,
+            "wheelbase_mm": 2830,
+            "wheelbase_in": 111.4,
+            "track_front_mm": 1570,
+            "track_front_in": 61.8,
+            "track_rear_mm": 1580,
+            "track_rear_in": 62.2,
+            "curb_weight_kg": 1585,
+            "curb_weight_lb": 3494,
+            "weight_dist_front_pct": 58,
+            "weight_dist_rear_pct": 42,
+            "measured_model_year": 2025
+          }
+        ]
+      }
+    }
+  }
+}

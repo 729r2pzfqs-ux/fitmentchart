@@ -1,0 +1,5083 @@
+{
+  "slug": "toyota/corolla",
+  "source": {
+    "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
+    "file": "data/manuals/toyota/corolla.yaml",
+    "documents": 65,
+    "document_types": [
+      "aftermarket_fitment",
+      "oem_manual",
+      "third_party_reference"
+    ]
+  },
+  "notes": [],
+  "years": {
+    "2005": {
+      "tires": [
+        {
+          "size": "195/55R16",
+          "trim": "XRS",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2005-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "195/55R16 32 psi 32 psi XRS",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P185/65R15",
+          "trim": "CE",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2005-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P185/65R15 30 psi 30 psi CE",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P195/65R15",
+          "trim": "LE S",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2005-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P195/65R15 30 psi 30 psi LE S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 18,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2005 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2005 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 18\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2006": {
+      "tires": [
+        {
+          "size": "195/55R16",
+          "trim": "XRS",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2006-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "195/55R16 32 psi 32 psi XRS",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P185/65R15",
+          "trim": "CE",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2006-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P185/65R15 30 psi 30 psi CE",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P195/65R15",
+          "trim": "LE S",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2006-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P195/65R15 30 psi 30 psi LE S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 18,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2006 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2006 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 18\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2007": {
+      "tires": [
+        {
+          "size": "195/55R16",
+          "trim": "S",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2007-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "195/55R16 32 psi 32 psi S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P185/65R15",
+          "trim": "CE",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2007-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P185/65R15 30 psi 30 psi CE",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P195/65R15",
+          "trim": "LE S",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2007-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P195/65R15 30 psi 30 psi LE S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 18,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2007 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2007&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2007 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2007&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 18\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2008": {
+      "tires": [
+        {
+          "size": "195/55R16",
+          "trim": "S",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2008-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "195/55R16 32 psi 32 psi S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P185/65R15",
+          "trim": "CE",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2008-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P185/65R15 30 psi 30 psi CE",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P195/65R15",
+          "trim": "LE S",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Toyota Corolla Tire Pressure",
+              "url": "https://tirepressure.com/2008-toyota-corolla-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P195/65R15 30 psi 30 psi LE S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 24,
+        "passenger_in": 18,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2008 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2008&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 24\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2008 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2008&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 18\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2009": {
+      "towing": [
+        {
+          "max_lb": 1500,
+          "tongue_lb": 150,
+          "note": "trailer weight + cargo weight",
+          "src": [
+            {
+              "doc": "2009 Toyota Corolla Owner's Manual (OM12A89U, produced January 2008 and later)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12A89U/OM12A89U.pdf",
+              "type": "oem_manual",
+              "page": 418,
+              "quote": "Towing capacity 1500 lb. (680 kg) (trailer weight + cargo weight)",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2009 Toyota Corolla Owner's Manual (OM12A89U, produced January 2008 and later)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12A89U/OM12A89U.pdf",
+              "type": "oem_manual",
+              "page": 173,
+              "quote": "maximum 150 lb. (68 kg)",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2009 Toyota Corolla Owner's Manual (OM12C16U, produced February 2008 to December 2008)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C16U/OM12C16U.pdf",
+              "type": "oem_manual",
+              "page": 418,
+              "quote": "Towing capacity 1500 lb. (680 kg) (trailer weight + cargo weight)",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2009 Toyota Corolla Owner's Manual (OM12C16U, produced February 2008 to December 2008)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C16U/OM12C16U.pdf",
+              "type": "oem_manual",
+              "page": 173,
+              "quote": "maximum 150 lb. (68 kg)",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2009 Toyota Corolla Owner's Manual (OM12A89U, produced January 2008 and later)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12A89U/OM12A89U.pdf",
+              "type": "oem_manual",
+              "page": 427,
+              "quote": "P195/65R15 89S",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2009 Toyota Corolla Owner's Manual (OM12C16U, produced February 2008 to December 2008)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C16U/OM12C16U.pdf",
+              "type": "oem_manual",
+              "page": 427,
+              "quote": "P195/65R15 89S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2009 Toyota Corolla Owner's Manual (OM12A89U, produced January 2008 and later)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12A89U/OM12A89U.pdf",
+              "type": "oem_manual",
+              "page": 428,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2009 Toyota Corolla Owner's Manual (OM12C16U, produced February 2008 to December 2008)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C16U/OM12C16U.pdf",
+              "type": "oem_manual",
+              "page": 428,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2009 Toyota Corolla Owner's Manual (OM12A89U, produced January 2008 and later)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12A89U/OM12A89U.pdf",
+              "type": "oem_manual",
+              "page": 428,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2009 Toyota Corolla Owner's Manual (OM12C16U, produced February 2008 to December 2008)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C16U/OM12C16U.pdf",
+              "type": "oem_manual",
+              "page": 428,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2009 Toyota Corolla Owner's Manual (OM12A89U, produced January 2008 and later)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12A89U/OM12A89U.pdf",
+                "type": "oem_manual",
+                "page": 423,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp.qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2009 Toyota Corolla Owner's Manual (OM12A89U, produced January 2008 and later)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12A89U/OM12A89U.pdf",
+                "type": "oem_manual",
+                "page": 316,
+                "quote": "SAE 5W-20 or 0W-20 engine oil may be used. However, SAE 0W-20 is the best choice",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2009 Toyota Corolla Owner's Manual (OM12C16U, produced February 2008 to December 2008)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C16U/OM12C16U.pdf",
+                "type": "oem_manual",
+                "page": 423,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp.qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2009 Toyota Corolla Owner's Manual (OM12C16U, produced February 2008 to December 2008)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C16U/OM12C16U.pdf",
+                "type": "oem_manual",
+                "page": 316,
+                "quote": "SAE 5W-20 or 0W-20 engine oil may be used. However, SAE 0W-20 is the best choice",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4 L 4-cylinder (2AZ-FE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.0,
+            "capacity_l": 3.8,
+            "src": [
+              {
+                "doc": "2009 Toyota Corolla Owner's Manual (OM12A89U, produced January 2008 and later)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12A89U/OM12A89U.pdf",
+                "type": "oem_manual",
+                "page": 423,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp.qt.) 2.4 L 4-cylinder (2AZ-FE) engine 4.0 qt. (3.8 L, 3.3 Imp.qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2009 Toyota Corolla Owner's Manual (OM12A89U, produced January 2008 and later)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12A89U/OM12A89U.pdf",
+                "type": "oem_manual",
+                "page": 316,
+                "quote": "SAE 5W-20 or 0W-20 engine oil may be used. However, SAE 0W-20 is the best choice",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2009 Toyota Corolla Owner's Manual (OM12C16U, produced February 2008 to December 2008)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C16U/OM12C16U.pdf",
+                "type": "oem_manual",
+                "page": 423,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp.qt.) 2.4 L 4-cylinder (2AZ-FE) engine 4.0 qt. (3.8 L, 3.3 Imp.qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2009 Toyota Corolla Owner's Manual (OM12C16U, produced February 2008 to December 2008)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C16U/OM12C16U.pdf",
+                "type": "oem_manual",
+                "page": 316,
+                "quote": "SAE 5W-20 or 0W-20 engine oil may be used. However, SAE 0W-20 is the best choice",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "group": "24F",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "group": "34R",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 34R 10 1/4\" x 6 13/16\" x 7 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 34R 10 1/4\" x 6 13/16\" x 7 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2009 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2009&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2009 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2009&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2010": {
+      "towing": [
+        {
+          "max_lb": 1500,
+          "tongue_lb": 150,
+          "note": "trailer weight + cargo weight",
+          "src": [
+            {
+              "doc": "2010 Toyota Corolla Owner's Manual (OM12C22U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C22U/OM12C22U.pdf",
+              "type": "oem_manual",
+              "page": 424,
+              "quote": "Towing capacity 1500 lb. (680 kg) (trailer weight + cargo weight)",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2010 Toyota Corolla Owner's Manual (OM12C22U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C22U/OM12C22U.pdf",
+              "type": "oem_manual",
+              "page": 178,
+              "quote": "maximum 150 lb. (68 kg)",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2010 Toyota Corolla Owner's Manual (OM12C22U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C22U/OM12C22U.pdf",
+              "type": "oem_manual",
+              "page": 433,
+              "quote": "P195/65R15 89S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2010 Toyota Corolla Owner's Manual (OM12C22U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C22U/OM12C22U.pdf",
+              "type": "oem_manual",
+              "page": 434,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2010 Toyota Corolla Owner's Manual (OM12C22U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C22U/OM12C22U.pdf",
+              "type": "oem_manual",
+              "page": 434,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2010 Toyota Corolla Owner's Manual (OM12C22U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C22U/OM12C22U.pdf",
+                "type": "oem_manual",
+                "page": 429,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2010 Toyota Corolla Owner's Manual (OM12C22U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C22U/OM12C22U.pdf",
+                "type": "oem_manual",
+                "page": 320,
+                "quote": "SAE 5W-20 or 0W-20 engine oil may be used. However, SAE 0W-20 is the best choice",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4 L 4-cylinder (2AZ-FE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.0,
+            "capacity_l": 3.8,
+            "src": [
+              {
+                "doc": "2010 Toyota Corolla Owner's Manual (OM12C22U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C22U/OM12C22U.pdf",
+                "type": "oem_manual",
+                "page": 429,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp. qt.) 2.4 L 4-cylinder (2AZ-FE) engine 4.0 qt. (3.8 L, 3.3 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2010 Toyota Corolla Owner's Manual (OM12C22U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12C22U/OM12C22U.pdf",
+                "type": "oem_manual",
+                "page": 320,
+                "quote": "SAE 5W-20 or 0W-20 engine oil may be used. However, SAE 0W-20 is the best choice",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "group": "24F",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "group": "34R",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 Standard 34R 10 1/4\" x 6 13/16\" x 7 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 Standard 34R 10 1/4\" x 6 13/16\" x 7 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2010 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2010&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2010 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2010&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2011": {
+      "towing": [
+        {
+          "displacement_l": 2.4,
+          "engine": "2.4 L 4-cylinder (2AZ-FE)",
+          "max_lb": 1500,
+          "tongue_lb": 150,
+          "note": "trailer weight + cargo weight",
+          "src": [
+            {
+              "doc": "2011 Toyota Corolla Owner's Manual (OM12D65U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12D65U/OM12D65U.pdf",
+              "type": "oem_manual",
+              "page": 175,
+              "quote": "2.4 L 4-cylinder (2AZ-FE) engine: 1500 lb. (680 kg)",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2011 Toyota Corolla Owner's Manual (OM12D65U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12D65U/OM12D65U.pdf",
+              "type": "oem_manual",
+              "page": 181,
+              "quote": "maximum 150 lb. (68 kg)",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "displacement_l": 1.8,
+          "engine": "1.8 L 4-cylinder (2ZR-FE)",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2011 Toyota Corolla Owner's Manual (OM12D65U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12D65U/OM12D65U.pdf",
+              "type": "oem_manual",
+              "page": 175,
+              "quote": "1.8 L 4-cylinder (2ZR-FE) engine: Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2011 Toyota Corolla Owner's Manual (OM12D65U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12D65U/OM12D65U.pdf",
+              "type": "oem_manual",
+              "page": 480,
+              "quote": "P195/65R15 89S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2011 Toyota Corolla Owner's Manual (OM12D65U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12D65U/OM12D65U.pdf",
+              "type": "oem_manual",
+              "page": 480,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2011 Toyota Corolla Owner's Manual (OM12D65U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12D65U/OM12D65U.pdf",
+              "type": "oem_manual",
+              "page": 480,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2011 Toyota Corolla Owner's Manual (OM12D65U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12D65U/OM12D65U.pdf",
+                "type": "oem_manual",
+                "page": 474,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2011 Toyota Corolla Owner's Manual (OM12D65U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12D65U/OM12D65U.pdf",
+                "type": "oem_manual",
+                "page": 475,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4 L 4-cylinder (2AZ-FE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.0,
+            "capacity_l": 3.8,
+            "src": [
+              {
+                "doc": "2011 Toyota Corolla Owner's Manual (OM12D65U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12D65U/OM12D65U.pdf",
+                "type": "oem_manual",
+                "page": 474,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp. qt.) 2.4 L 4-cylinder (2AZ-FE) engine 4.0 qt. (3.8 L, 3.3 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2011 Toyota Corolla Owner's Manual (OM12D65U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12D65U/OM12D65U.pdf",
+                "type": "oem_manual",
+                "page": 476,
+                "quote": "SAE 5W-20 or SAE 0W-20 SAE 5W-20 or 0W-20 engine oil may be used. However, SAE 0W-20 is the best choice",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4L",
+            "group": "24F",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.4L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2011 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2011&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2011 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2011&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2012": {
+      "towing": [
+        {
+          "displacement_l": 1.8,
+          "engine": "1.8 L 4-cylinder (2ZR-FE)",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2012 Toyota Corolla Owner's Manual (OM12F48U, produced March 2012 to July 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F48U/OM12F48U.pdf",
+              "type": "oem_manual",
+              "page": 182,
+              "quote": "1.8 L 4-cylinder (2ZR-FE) engine: Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2012 Toyota Corolla Owner's Manual (OM12E95U, produced November 2011 to February 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E95U/OM12E95U.pdf",
+              "type": "oem_manual",
+              "page": 182,
+              "quote": "1.8 L 4-cylinder (2ZR-FE) engine: Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2012 Toyota Corolla Owner's Manual (OM12F48U, produced March 2012 to July 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F48U/OM12F48U.pdf",
+              "type": "oem_manual",
+              "page": 476,
+              "quote": "P195/65R15 89S",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2012 Toyota Corolla Owner's Manual (OM12E95U, produced November 2011 to February 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E95U/OM12E95U.pdf",
+              "type": "oem_manual",
+              "page": 476,
+              "quote": "P195/65R15 89S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2012 Toyota Corolla Owner's Manual (OM12F48U, produced March 2012 to July 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F48U/OM12F48U.pdf",
+              "type": "oem_manual",
+              "page": 476,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2012 Toyota Corolla Owner's Manual (OM12E95U, produced November 2011 to February 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E95U/OM12E95U.pdf",
+              "type": "oem_manual",
+              "page": 476,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2012 Toyota Corolla Owner's Manual (OM12F48U, produced March 2012 to July 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F48U/OM12F48U.pdf",
+              "type": "oem_manual",
+              "page": 476,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2012 Toyota Corolla Owner's Manual (OM12E95U, produced November 2011 to February 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E95U/OM12E95U.pdf",
+              "type": "oem_manual",
+              "page": 476,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2012 Toyota Corolla Owner's Manual (OM12F48U, produced March 2012 to July 2012)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F48U/OM12F48U.pdf",
+                "type": "oem_manual",
+                "page": 470,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2012 Toyota Corolla Owner's Manual (OM12F48U, produced March 2012 to July 2012)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F48U/OM12F48U.pdf",
+                "type": "oem_manual",
+                "page": 471,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2012 Toyota Corolla Owner's Manual (OM12E95U, produced November 2011 to February 2012)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E95U/OM12E95U.pdf",
+                "type": "oem_manual",
+                "page": 470,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2012 Toyota Corolla Owner's Manual (OM12E95U, produced November 2011 to February 2012)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E95U/OM12E95U.pdf",
+                "type": "oem_manual",
+                "page": 471,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "group": "24F",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "group": "34R",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 34R 10 1/4\" x 6 13/16\" x 7 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2012 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2012&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2012 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2012&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2013": {
+      "towing": [
+        {
+          "displacement_l": 1.8,
+          "engine": "1.8 L 4-cylinder (2ZR-FE)",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2013 Toyota Corolla Owner's Manual (OM12E11U, produced January 2013 and later)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E11U/OM12E11U.pdf",
+              "type": "oem_manual",
+              "page": 182,
+              "quote": "1.8 L 4-cylinder (2ZR-FE) engine: Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2013 Toyota Corolla Owner's Manual (OM12F86U, produced August 2012 to December 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F86U/OM12F86U.pdf",
+              "type": "oem_manual",
+              "page": 182,
+              "quote": "1.8 L 4-cylinder (2ZR-FE) engine: Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "P195/65R15",
+          "load_speed": "89S",
+          "src": [
+            {
+              "doc": "2013 Toyota Corolla Owner's Manual (OM12E11U, produced January 2013 and later)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E11U/OM12E11U.pdf",
+              "type": "oem_manual",
+              "page": 482,
+              "quote": "P195/65R15 89S",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2013 Toyota Corolla Owner's Manual (OM12F86U, produced August 2012 to December 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F86U/OM12F86U.pdf",
+              "type": "oem_manual",
+              "page": 482,
+              "quote": "P195/65R15 89S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2013 Toyota Corolla Owner's Manual (OM12E11U, produced January 2013 and later)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E11U/OM12E11U.pdf",
+              "type": "oem_manual",
+              "page": 482,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2013 Toyota Corolla Owner's Manual (OM12F86U, produced August 2012 to December 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F86U/OM12F86U.pdf",
+              "type": "oem_manual",
+              "page": 482,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2013 Toyota Corolla Owner's Manual (OM12E11U, produced January 2013 and later)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E11U/OM12E11U.pdf",
+              "type": "oem_manual",
+              "page": 482,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "2013 Toyota Corolla Owner's Manual (OM12F86U, produced August 2012 to December 2012)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F86U/OM12F86U.pdf",
+              "type": "oem_manual",
+              "page": 482,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2013 Toyota Corolla Owner's Manual (OM12E11U, produced January 2013 and later)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E11U/OM12E11U.pdf",
+                "type": "oem_manual",
+                "page": 476,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2013 Toyota Corolla Owner's Manual (OM12E11U, produced January 2013 and later)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12E11U/OM12E11U.pdf",
+                "type": "oem_manual",
+                "page": 477,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2013 Toyota Corolla Owner's Manual (OM12F86U, produced August 2012 to December 2012)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F86U/OM12F86U.pdf",
+                "type": "oem_manual",
+                "page": 476,
+                "quote": "With filter 1.8 L 4-cylinder (2ZR-FE) engine 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2013 Toyota Corolla Owner's Manual (OM12F86U, produced August 2012 to December 2012)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F86U/OM12F86U.pdf",
+                "type": "oem_manual",
+                "page": 477,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2013 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2013&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2013 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2013&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2014": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2014 Toyota Corolla Owner's Manual (OM12F00U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F00U/OM12F00U.pdf",
+              "type": "oem_manual",
+              "page": 155,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2014 Toyota Corolla Owner's Manual (OM12F00U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F00U/OM12F00U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2014 Toyota Corolla Owner's Manual (OM12F00U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F00U/OM12F00U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2014 Toyota Corolla Owner's Manual (OM12F00U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F00U/OM12F00U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE and 2ZR-FAE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2014 Toyota Corolla Owner's Manual (OM12F00U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F00U/OM12F00U.pdf",
+                "type": "oem_manual",
+                "page": 548,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2014 Toyota Corolla Owner's Manual (OM12F00U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12F00U/OM12F00U.pdf",
+                "type": "oem_manual",
+                "page": 549,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good start- ing in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2014 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2014&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2014 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2014&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2015": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2015 Toyota Corolla Owner's Manual (OM12G79U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12G79U/OM12G79U.pdf",
+              "type": "oem_manual",
+              "page": 155,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2015 Toyota Corolla Owner's Manual (OM12G79U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12G79U/OM12G79U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2015 Toyota Corolla Owner's Manual (OM12G79U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12G79U/OM12G79U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2015 Toyota Corolla Owner's Manual (OM12G79U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12G79U/OM12G79U.pdf",
+              "type": "oem_manual",
+              "page": 554,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE and 2ZR-FAE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2015 Toyota Corolla Owner's Manual (OM12G79U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12G79U/OM12G79U.pdf",
+                "type": "oem_manual",
+                "page": 548,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2015 Toyota Corolla Owner's Manual (OM12G79U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12G79U/OM12G79U.pdf",
+                "type": "oem_manual",
+                "page": 549,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good start- ing in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2015 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2015&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2015 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2015&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2016": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2016 Toyota Corolla Owner's Manual (OM12J84U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12J84U/OM12J84U.pdf",
+              "type": "oem_manual",
+              "page": 159,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2016 Toyota Corolla Owner's Manual (OM12J84U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12J84U/OM12J84U.pdf",
+              "type": "oem_manual",
+              "page": 560,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2016 Toyota Corolla Owner's Manual (OM12J84U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12J84U/OM12J84U.pdf",
+              "type": "oem_manual",
+              "page": 560,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2016 Toyota Corolla Owner's Manual (OM12J84U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12J84U/OM12J84U.pdf",
+              "type": "oem_manual",
+              "page": 560,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE and 2ZR-FAE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2016 Toyota Corolla Owner's Manual (OM12J84U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12J84U/OM12J84U.pdf",
+                "type": "oem_manual",
+                "page": 554,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2016 Toyota Corolla Owner's Manual (OM12J84U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12J84U/OM12J84U.pdf",
+                "type": "oem_manual",
+                "page": 555,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good start- ing in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2016 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2016 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2017": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2017 Toyota Corolla Owner's Manual (OM02494U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02494U/OM02494U.pdf",
+              "type": "oem_manual",
+              "page": 167,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "iM",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2017 Toyota Corolla iM Owner's Manual (OM12K64U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K64U/OM12K64U.pdf",
+              "type": "oem_manual",
+              "page": 122,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2017 Toyota Corolla Owner's Manual (OM02494U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02494U/OM02494U.pdf",
+              "type": "oem_manual",
+              "page": 552,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2017 Toyota Corolla Owner's Manual (OM02494U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02494U/OM02494U.pdf",
+              "type": "oem_manual",
+              "page": 552,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2017 Toyota Corolla Owner's Manual (OM02494U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02494U/OM02494U.pdf",
+              "type": "oem_manual",
+              "page": 552,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P225/45R17",
+          "load_speed": "90V",
+          "trim": "iM",
+          "src": [
+            {
+              "doc": "2017 Toyota Corolla iM Owner's Manual (OM12K64U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K64U/OM12K64U.pdf",
+              "type": "oem_manual",
+              "page": 333,
+              "quote": "P225/45R17 90V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE and 2ZR-FAE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2017 Toyota Corolla Owner's Manual (OM02494U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02494U/OM02494U.pdf",
+                "type": "oem_manual",
+                "page": 546,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2017 Toyota Corolla Owner's Manual (OM02494U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02494U/OM02494U.pdf",
+                "type": "oem_manual",
+                "page": 547,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good start- ing in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FAE)",
+            "condition": "iM",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2017 Toyota Corolla iM Owner's Manual (OM12K64U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K64U/OM12K64U.pdf",
+                "type": "oem_manual",
+                "page": 328,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2017 Toyota Corolla iM Owner's Manual (OM12K64U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K64U/OM12K64U.pdf",
+                "type": "oem_manual",
+                "page": 329,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good start- ing in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8L",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 L4/1.8L 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Corolla iM — L4/1.8L; Standard; Flooded; Interstate MT-35 35 9 \" x 6 7/8\" x 8 3/4\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2017 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2017 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2018": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2018 Toyota Corolla Owner's Manual (OM02509U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02509U/OM02509U.pdf",
+              "type": "oem_manual",
+              "page": 165,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "iM",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2018 Toyota Corolla iM Owner's Manual (OM12M42U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12M42U/OM12M42U.pdf",
+              "type": "oem_manual",
+              "page": 122,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2018 Toyota Corolla Owner's Manual (OM02509U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02509U/OM02509U.pdf",
+              "type": "oem_manual",
+              "page": 548,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2018 Toyota Corolla Owner's Manual (OM02509U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02509U/OM02509U.pdf",
+              "type": "oem_manual",
+              "page": 548,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2018 Toyota Corolla Owner's Manual (OM02509U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02509U/OM02509U.pdf",
+              "type": "oem_manual",
+              "page": 548,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P225/45R17",
+          "load_speed": "90V",
+          "trim": "iM",
+          "src": [
+            {
+              "doc": "2018 Toyota Corolla iM Owner's Manual (OM12M42U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12M42U/OM12M42U.pdf",
+              "type": "oem_manual",
+              "page": 333,
+              "quote": "P225/45R17 90V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE and 2ZR-FAE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2018 Toyota Corolla Owner's Manual (OM02509U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02509U/OM02509U.pdf",
+                "type": "oem_manual",
+                "page": 542,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2018 Toyota Corolla Owner's Manual (OM02509U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02509U/OM02509U.pdf",
+                "type": "oem_manual",
+                "page": 543,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good start- ing in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FAE)",
+            "condition": "iM",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2018 Toyota Corolla iM Owner's Manual (OM12M42U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12M42U/OM12M42U.pdf",
+                "type": "oem_manual",
+                "page": 328,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2018 Toyota Corolla iM Owner's Manual (OM12M42U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12M42U/OM12M42U.pdf",
+                "type": "oem_manual",
+                "page": 329,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good start- ing in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Standard 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8L",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 L4/1.8L 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 Corolla iM — L4/1.8L; Standard; Flooded; Interstate MT-35 35 9 \" x 6 7/8\" x 8 3/4\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2018 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2018 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2019": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2019 Toyota Corolla Owner's Manual (OM02535U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02535U/OM02535U.pdf",
+              "type": "oem_manual",
+              "page": 165,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2019 Toyota Corolla Hatchback Owner's Manual (OM12K90U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K90U/OM12K90U.pdf",
+              "type": "oem_manual",
+              "page": 134,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2019 Toyota Corolla Owner's Manual (OM02535U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02535U/OM02535U.pdf",
+              "type": "oem_manual",
+              "page": 548,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P205/55R16",
+          "load_speed": "89H",
+          "src": [
+            {
+              "doc": "2019 Toyota Corolla Owner's Manual (OM02535U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02535U/OM02535U.pdf",
+              "type": "oem_manual",
+              "page": 548,
+              "quote": "P205/55R16 89H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "P215/45R17",
+          "load_speed": "87W",
+          "src": [
+            {
+              "doc": "2019 Toyota Corolla Owner's Manual (OM02535U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02535U/OM02535U.pdf",
+              "type": "oem_manual",
+              "page": 548,
+              "quote": "P215/45R17 87W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2019 Toyota Corolla Hatchback Owner's Manual (OM12K90U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K90U/OM12K90U.pdf",
+              "type": "oem_manual",
+              "page": 505,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2019 Toyota Corolla Hatchback Owner's Manual (OM12K90U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K90U/OM12K90U.pdf",
+              "type": "oem_manual",
+              "page": 505,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2019 Toyota Corolla Hatchback Owner's Manual (OM12K90U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K90U/OM12K90U.pdf",
+              "type": "oem_manual",
+              "page": 506,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FE and 2ZR-FAE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2019 Toyota Corolla Owner's Manual (OM02535U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02535U/OM02535U.pdf",
+                "type": "oem_manual",
+                "page": 542,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2019 Toyota Corolla Owner's Manual (OM02535U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02535U/OM02535U.pdf",
+                "type": "oem_manual",
+                "page": 543,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good start- ing in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "condition": "Hatchback",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.9,
+            "capacity_l": 4.6,
+            "src": [
+              {
+                "doc": "2019 Toyota Corolla Hatchback Owner's Manual (OM12K90U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K90U/OM12K90U.pdf",
+                "type": "oem_manual",
+                "page": 501,
+                "quote": "With filter 4.9 qt. (4.6 L, 4.0 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2019 Toyota Corolla Hatchback Owner's Manual (OM12K90U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K90U/OM12K90U.pdf",
+                "type": "oem_manual",
+                "page": 502,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 Standard H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2019 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2019 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2020": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+              "type": "oem_manual",
+              "page": 145,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Hatchback Owner's Manual (OM12N10U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12N10U/OM12N10U.pdf",
+              "type": "oem_manual",
+              "page": 140,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Hybrid Owner's Manual (OM12K81U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K81U/OM12K81U.pdf",
+              "type": "oem_manual",
+              "page": 141,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+              "type": "oem_manual",
+              "page": 533,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+              "type": "oem_manual",
+              "page": 534,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91V",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+              "type": "oem_manual",
+              "page": 534,
+              "quote": "205/55R16 91V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+              "type": "oem_manual",
+              "page": 534,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Hybrid Owner's Manual (OM12K81U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K81U/OM12K81U.pdf",
+              "type": "oem_manual",
+              "page": 503,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91H",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Hybrid Owner's Manual (OM12K81U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K81U/OM12K81U.pdf",
+              "type": "oem_manual",
+              "page": 504,
+              "quote": "195/65R15 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Hatchback Owner's Manual (OM12N10U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12N10U/OM12N10U.pdf",
+              "type": "oem_manual",
+              "page": 517,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Hatchback Owner's Manual (OM12N10U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12N10U/OM12N10U.pdf",
+              "type": "oem_manual",
+              "page": 517,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2020 Toyota Corolla Hatchback Owner's Manual (OM12N10U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12N10U/OM12N10U.pdf",
+              "type": "oem_manual",
+              "page": 518,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FAE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+                "type": "oem_manual",
+                "page": 528,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+                "type": "oem_manual",
+                "page": 528,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+                "type": "oem_manual",
+                "page": 528,
+                "quote": "[2ZR-FAE]",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.9,
+            "capacity_l": 4.6,
+            "src": [
+              {
+                "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+                "type": "oem_manual",
+                "page": 529,
+                "quote": "With filter 4.9 qt. (4.6 L, 4.0 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+                "type": "oem_manual",
+                "page": 529,
+                "quote": "SAE 0W-16 is the best choice Lubrication system (2.0 L for good fuel economy and good 4-cylinder [M20A-FKS] starting in cold weather. engine) If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2020 Toyota Corolla Owner's Manual (OM12K77U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K77U/OM12K77U.pdf",
+                "type": "oem_manual",
+                "page": 529,
+                "quote": "[M20A-FKS]",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "condition": "Hatchback",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.9,
+            "capacity_l": 4.6,
+            "src": [
+              {
+                "doc": "2020 Toyota Corolla Hatchback Owner's Manual (OM12N10U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12N10U/OM12N10U.pdf",
+                "type": "oem_manual",
+                "page": 513,
+                "quote": "With filter 4.9 qt. (4.6 L, 4.0 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2020 Toyota Corolla Hatchback Owner's Manual (OM12N10U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12N10U/OM12N10U.pdf",
+                "type": "oem_manual",
+                "page": 514,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder hybrid (2ZR-FXE)",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2020 Toyota Corolla Hybrid Owner's Manual (OM12K81U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K81U/OM12K81U.pdf",
+                "type": "oem_manual",
+                "page": 500,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2020 Toyota Corolla Hybrid Owner's Manual (OM12K81U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12K81U/OM12K81U.pdf",
+                "type": "oem_manual",
+                "page": 500,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 L4/2.0L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 28,
+        "passenger_in": 14,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2020 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 28\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2020 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 14\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2021": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2021 Toyota Corolla Owner's Manual (OM02559U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02559U/OM02559U.pdf",
+              "type": "oem_manual",
+              "page": 161,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2021 Toyota Corolla Hatchback Owner's Manual (OM12P39U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12P39U/OM12P39U.pdf",
+              "type": "oem_manual",
+              "page": 140,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2021 Toyota Corolla Hybrid Owner's Manual (OM12N83U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12N83U/OM12N83U.pdf",
+              "type": "oem_manual",
+              "page": 155,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2021 Toyota Corolla Owner's Manual (OM02559U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02559U/OM02559U.pdf",
+              "type": "oem_manual",
+              "page": 566,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "src": [
+            {
+              "doc": "2021 Toyota Corolla Owner's Manual (OM02559U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02559U/OM02559U.pdf",
+              "type": "oem_manual",
+              "page": 567,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "src": [
+            {
+              "doc": "2021 Toyota Corolla Owner's Manual (OM02559U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02559U/OM02559U.pdf",
+              "type": "oem_manual",
+              "page": 567,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2021 Toyota Corolla Hybrid Owner's Manual (OM12N83U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12N83U/OM12N83U.pdf",
+              "type": "oem_manual",
+              "page": 531,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2021 Toyota Corolla Hatchback Owner's Manual (OM12P39U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12P39U/OM12P39U.pdf",
+              "type": "oem_manual",
+              "page": 521,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2021 Toyota Corolla Hatchback Owner's Manual (OM12P39U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12P39U/OM12P39U.pdf",
+              "type": "oem_manual",
+              "page": 521,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2021 Toyota Corolla Hatchback Owner's Manual (OM12P39U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12P39U/OM12P39U.pdf",
+              "type": "oem_manual",
+              "page": 522,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FAE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2021 Toyota Corolla Owner's Manual (OM02559U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02559U/OM02559U.pdf",
+                "type": "oem_manual",
+                "page": 560,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2021 Toyota Corolla Owner's Manual (OM02559U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02559U/OM02559U.pdf",
+                "type": "oem_manual",
+                "page": 561,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2021 Toyota Corolla Owner's Manual (OM02559U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02559U/OM02559U.pdf",
+                "type": "oem_manual",
+                "page": 560,
+                "quote": "[2ZR-FAE]",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.9,
+            "capacity_l": 4.6,
+            "src": [
+              {
+                "doc": "2021 Toyota Corolla Owner's Manual (OM02559U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02559U/OM02559U.pdf",
+                "type": "oem_manual",
+                "page": 561,
+                "quote": "With filter 4.9 qt. (4.6 L, 4.0 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2021 Toyota Corolla Owner's Manual (OM02559U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02559U/OM02559U.pdf",
+                "type": "oem_manual",
+                "page": 562,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2021 Toyota Corolla Owner's Manual (OM02559U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02559U/OM02559U.pdf",
+                "type": "oem_manual",
+                "page": 561,
+                "quote": "[M20A-FKS]",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "condition": "Hatchback",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.9,
+            "capacity_l": 4.6,
+            "src": [
+              {
+                "doc": "2021 Toyota Corolla Hatchback Owner's Manual (OM12P39U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12P39U/OM12P39U.pdf",
+                "type": "oem_manual",
+                "page": 518,
+                "quote": "With filter 4.9 qt. (4.6 L, 4.0 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2021 Toyota Corolla Hatchback Owner's Manual (OM12P39U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12P39U/OM12P39U.pdf",
+                "type": "oem_manual",
+                "page": 518,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. COROLLA H/B_U If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder hybrid (2ZR-FXE)",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2021 Toyota Corolla Hybrid Owner's Manual (OM12N83U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12N83U/OM12N83U.pdf",
+                "type": "oem_manual",
+                "page": 528,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2021 Toyota Corolla Hybrid Owner's Manual (OM12N83U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12N83U/OM12N83U.pdf",
+                "type": "oem_manual",
+                "page": 528,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 Standard H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "group": "H4",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 Standard H4 8.15\" x 6.90\" x 7.48\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 28,
+        "passenger_in": 14,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2021 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 28\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2021 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 14\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2022": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+              "type": "oem_manual",
+              "page": 157,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Hatchback Owner's Manual (OM12Q05U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12Q05U/OM12Q05U.pdf",
+              "type": "oem_manual",
+              "page": 138,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Hybrid Owner's Manual (OM12R27U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12R27U/OM12R27U.pdf",
+              "type": "oem_manual",
+              "page": 151,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+              "type": "oem_manual",
+              "page": 560,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+              "type": "oem_manual",
+              "page": 560,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+              "type": "oem_manual",
+              "page": 561,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88W",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+              "type": "oem_manual",
+              "page": 562,
+              "quote": "225/40R18 88W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Hybrid Owner's Manual (OM12R27U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12R27U/OM12R27U.pdf",
+              "type": "oem_manual",
+              "page": 515,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Hatchback Owner's Manual (OM12Q05U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12Q05U/OM12Q05U.pdf",
+              "type": "oem_manual",
+              "page": 521,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Hatchback Owner's Manual (OM12Q05U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12Q05U/OM12Q05U.pdf",
+              "type": "oem_manual",
+              "page": 521,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2022 Toyota Corolla Hatchback Owner's Manual (OM12Q05U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12Q05U/OM12Q05U.pdf",
+              "type": "oem_manual",
+              "page": 522,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder (2ZR-FAE)",
+            "grade": "0W-20",
+            "alt_grades": [
+              "5W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+                "type": "oem_manual",
+                "page": 554,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+                "type": "oem_manual",
+                "page": 555,
+                "quote": "SAE 0W-20 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-20 is not available, SAE 5W-20 oil may be used",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+                "type": "oem_manual",
+                "page": 554,
+                "quote": "[2ZR-FAE]",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.9,
+            "capacity_l": 4.6,
+            "src": [
+              {
+                "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+                "type": "oem_manual",
+                "page": 555,
+                "quote": "With filter 4.9 qt. (4.6 L, 4.0 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+                "type": "oem_manual",
+                "page": 556,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2022 Toyota Corolla Owner's Manual (OM02617U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02617U/OM02617U.pdf",
+                "type": "oem_manual",
+                "page": 555,
+                "quote": "[M20A-FKS]",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "condition": "Hatchback",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.9,
+            "capacity_l": 4.6,
+            "src": [
+              {
+                "doc": "2022 Toyota Corolla Hatchback Owner's Manual (OM12Q05U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12Q05U/OM12Q05U.pdf",
+                "type": "oem_manual",
+                "page": 518,
+                "quote": "With filter 4.9 qt. (4.6 L, 4.0 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2022 Toyota Corolla Hatchback Owner's Manual (OM12Q05U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12Q05U/OM12Q05U.pdf",
+                "type": "oem_manual",
+                "page": 518,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder hybrid (2ZR-FXE)",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2022 Toyota Corolla Hybrid Owner's Manual (OM12R27U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12R27U/OM12R27U.pdf",
+                "type": "oem_manual",
+                "page": 512,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2022 Toyota Corolla Hybrid Owner's Manual (OM12R27U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12R27U/OM12R27U.pdf",
+                "type": "oem_manual",
+                "page": 512,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/2.0L; Standard; Flooded; Interstate MT-47/H5 H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2026 L4/2.0L; Standard; Flooded; Interstate MTP-47/H5 H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8L",
+            "group": "H4",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/1.8L; Standard; AGM; Interstate MTX-H4 H4 8 1/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 28,
+        "passenger_in": 14,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2022 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 28\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2022 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 14\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2023": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Owner's Manual (OM02695U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02695U/OM02695U.pdf",
+              "type": "oem_manual",
+              "page": 146,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Hatchback Owner's Manual (OM12S00U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S00U/OM12S00U.pdf",
+              "type": "oem_manual",
+              "page": 131,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Hybrid Owner's Manual (OM12T23U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T23U/OM12T23U.pdf",
+              "type": "oem_manual",
+              "page": 162,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Owner's Manual (OM02695U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02695U/OM02695U.pdf",
+              "type": "oem_manual",
+              "page": 393,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Owner's Manual (OM02695U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02695U/OM02695U.pdf",
+              "type": "oem_manual",
+              "page": 393,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Owner's Manual (OM02695U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02695U/OM02695U.pdf",
+              "type": "oem_manual",
+              "page": 393,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88W",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Owner's Manual (OM02695U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02695U/OM02695U.pdf",
+              "type": "oem_manual",
+              "page": 394,
+              "quote": "225/40R18 88W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Hybrid Owner's Manual (OM12T23U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T23U/OM12T23U.pdf",
+              "type": "oem_manual",
+              "page": 422,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Hybrid Owner's Manual (OM12T23U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T23U/OM12T23U.pdf",
+              "type": "oem_manual",
+              "page": 422,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Hybrid Owner's Manual (OM12T23U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T23U/OM12T23U.pdf",
+              "type": "oem_manual",
+              "page": 422,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Hatchback Owner's Manual (OM12S00U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S00U/OM12S00U.pdf",
+              "type": "oem_manual",
+              "page": 373,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Hatchback Owner's Manual (OM12S00U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S00U/OM12S00U.pdf",
+              "type": "oem_manual",
+              "page": 373,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2023 Toyota Corolla Hatchback Owner's Manual (OM12S00U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S00U/OM12S00U.pdf",
+              "type": "oem_manual",
+              "page": 373,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "grade": "0W-8",
+            "alt_grades": [
+              "0W-16"
+            ],
+            "capacity_qt": 4.9,
+            "capacity_l": 4.6,
+            "src": [
+              {
+                "doc": "2023 Toyota Corolla Owner's Manual (OM02695U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02695U/OM02695U.pdf",
+                "type": "oem_manual",
+                "page": 390,
+                "quote": "With filter 4.9 qt. (4.6 L, 4.0 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2023 Toyota Corolla Owner's Manual (OM02695U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02695U/OM02695U.pdf",
+                "type": "oem_manual",
+                "page": 390,
+                "quote": "SAE 0W-8 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-8 is not available, SAE 0W-16 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "condition": "Hatchback",
+            "grade": "0W-8",
+            "alt_grades": [
+              "0W-16"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2023 Toyota Corolla Hatchback Owner's Manual (OM12S00U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S00U/OM12S00U.pdf",
+                "type": "oem_manual",
+                "page": 370,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2023 Toyota Corolla Hatchback Owner's Manual (OM12S00U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S00U/OM12S00U.pdf",
+                "type": "oem_manual",
+                "page": 370,
+                "quote": "SAE 0W-8 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-8 is not available, SAE 0W-16 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder hybrid (2ZR-FXE)",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2023 Toyota Corolla Hybrid Owner's Manual (OM12T23U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T23U/OM12T23U.pdf",
+                "type": "oem_manual",
+                "page": 418,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2023 Toyota Corolla Hybrid Owner's Manual (OM12T23U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T23U/OM12T23U.pdf",
+                "type": "oem_manual",
+                "page": 419,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/2.0L; Standard; Flooded; Interstate MT-47/H5 H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2026 L4/2.0L; Standard; Flooded; Interstate MTP-47/H5 H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8L",
+            "condition": "Hybrid",
+            "group": "H4",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2023 L4/1.8L; (Hybrid) OR (Standard); AGM; Interstate MTX-H4 H4 8 1/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2026 L4/1.8L; Hybrid; Flooded; Interstate MTP-H4 H4 8 1/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 28,
+        "passenger_in": 14,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2023 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2023&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 28\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2023 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2023&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 14\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2024": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Owner's Manual (OM02684U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02684U/OM02684U.pdf",
+              "type": "oem_manual",
+              "page": 146,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Hatchback Owner's Manual (OM12S56U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S56U/OM12S56U.pdf",
+              "type": "oem_manual",
+              "page": 131,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Hybrid Owner's Manual (OM12S09U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S09U/OM12S09U.pdf",
+              "type": "oem_manual",
+              "page": 162,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Owner's Manual (OM02684U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02684U/OM02684U.pdf",
+              "type": "oem_manual",
+              "page": 393,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Owner's Manual (OM02684U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02684U/OM02684U.pdf",
+              "type": "oem_manual",
+              "page": 393,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Owner's Manual (OM02684U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02684U/OM02684U.pdf",
+              "type": "oem_manual",
+              "page": 393,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88W",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Owner's Manual (OM02684U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02684U/OM02684U.pdf",
+              "type": "oem_manual",
+              "page": 394,
+              "quote": "225/40R18 88W",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Hybrid Owner's Manual (OM12S09U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S09U/OM12S09U.pdf",
+              "type": "oem_manual",
+              "page": 424,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Hybrid Owner's Manual (OM12S09U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S09U/OM12S09U.pdf",
+              "type": "oem_manual",
+              "page": 424,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Hybrid Owner's Manual (OM12S09U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S09U/OM12S09U.pdf",
+              "type": "oem_manual",
+              "page": 425,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Hatchback Owner's Manual (OM12S56U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S56U/OM12S56U.pdf",
+              "type": "oem_manual",
+              "page": 375,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Hatchback Owner's Manual (OM12S56U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S56U/OM12S56U.pdf",
+              "type": "oem_manual",
+              "page": 375,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2024 Toyota Corolla Hatchback Owner's Manual (OM12S56U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S56U/OM12S56U.pdf",
+              "type": "oem_manual",
+              "page": 375,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "grade": "0W-8",
+            "alt_grades": [
+              "0W-16"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2024 Toyota Corolla Owner's Manual (OM02684U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02684U/OM02684U.pdf",
+                "type": "oem_manual",
+                "page": 390,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2024 Toyota Corolla Owner's Manual (OM02684U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02684U/OM02684U.pdf",
+                "type": "oem_manual",
+                "page": 390,
+                "quote": "SAE 0W-8 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-8 is not available, SAE 0W-16 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "condition": "Hatchback",
+            "grade": "0W-8",
+            "alt_grades": [
+              "0W-16"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2024 Toyota Corolla Hatchback Owner's Manual (OM12S56U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S56U/OM12S56U.pdf",
+                "type": "oem_manual",
+                "page": 372,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2024 Toyota Corolla Hatchback Owner's Manual (OM12S56U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S56U/OM12S56U.pdf",
+                "type": "oem_manual",
+                "page": 372,
+                "quote": "SAE 0W-8 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-8 is not available, SAE 0W-16 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder hybrid (2ZR-FXE)",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2024 Toyota Corolla Hybrid Owner's Manual (OM12S09U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S09U/OM12S09U.pdf",
+                "type": "oem_manual",
+                "page": 420,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2024 Toyota Corolla Hybrid Owner's Manual (OM12S09U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S09U/OM12S09U.pdf",
+                "type": "oem_manual",
+                "page": 421,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/2.0L; Standard; Flooded; Interstate MT-47/H5 H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2026 L4/2.0L; Standard; Flooded; Interstate MTP-47/H5 H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8L",
+            "condition": "Hybrid",
+            "group": "H4",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2023 L4/1.8L; (Hybrid) OR (Standard); AGM; Interstate MTX-H4 H4 8 1/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2026 L4/1.8L; Hybrid; Flooded; Interstate MTP-H4 H4 8 1/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 28,
+        "passenger_in": 14,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2024 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 28\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2024 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2024&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 14\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2025": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Owner's Manual (OM02688U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02688U/OM02688U.pdf",
+              "type": "oem_manual",
+              "page": 140,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Hatchback Owner's Manual (OM12T33U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T33U/OM12T33U.pdf",
+              "type": "oem_manual",
+              "page": 132,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Hybrid Owner's Manual (OM12S84U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S84U/OM12S84U.pdf",
+              "type": "oem_manual",
+              "page": 157,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Owner's Manual (OM02688U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02688U/OM02688U.pdf",
+              "type": "oem_manual",
+              "page": 393,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Owner's Manual (OM02688U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02688U/OM02688U.pdf",
+              "type": "oem_manual",
+              "page": 393,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Owner's Manual (OM02688U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02688U/OM02688U.pdf",
+              "type": "oem_manual",
+              "page": 393,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Hybrid Owner's Manual (OM12S84U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S84U/OM12S84U.pdf",
+              "type": "oem_manual",
+              "page": 425,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Hybrid Owner's Manual (OM12S84U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S84U/OM12S84U.pdf",
+              "type": "oem_manual",
+              "page": 425,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Hybrid Owner's Manual (OM12S84U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S84U/OM12S84U.pdf",
+              "type": "oem_manual",
+              "page": 426,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Hatchback Owner's Manual (OM12T33U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T33U/OM12T33U.pdf",
+              "type": "oem_manual",
+              "page": 384,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Hatchback Owner's Manual (OM12T33U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T33U/OM12T33U.pdf",
+              "type": "oem_manual",
+              "page": 384,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2025 Toyota Corolla Hatchback Owner's Manual (OM12T33U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T33U/OM12T33U.pdf",
+              "type": "oem_manual",
+              "page": 384,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "grade": "0W-8",
+            "alt_grades": [
+              "0W-16"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2025 Toyota Corolla Owner's Manual (OM02688U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02688U/OM02688U.pdf",
+                "type": "oem_manual",
+                "page": 390,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2025 Toyota Corolla Owner's Manual (OM02688U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM02688U/OM02688U.pdf",
+                "type": "oem_manual",
+                "page": 390,
+                "quote": "SAE 0W-8 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-8 is not available, SAE 0W-16 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "condition": "Hatchback",
+            "grade": "0W-8",
+            "alt_grades": [
+              "0W-16"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2025 Toyota Corolla Hatchback Owner's Manual (OM12T33U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T33U/OM12T33U.pdf",
+                "type": "oem_manual",
+                "page": 381,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2025 Toyota Corolla Hatchback Owner's Manual (OM12T33U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12T33U/OM12T33U.pdf",
+                "type": "oem_manual",
+                "page": 381,
+                "quote": "SAE 0W-8 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-8 is not available, SAE 0W-16 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder hybrid (2ZR-FXE)",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2025 Toyota Corolla Hybrid Owner's Manual (OM12S84U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S84U/OM12S84U.pdf",
+                "type": "oem_manual",
+                "page": 421,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2025 Toyota Corolla Hybrid Owner's Manual (OM12S84U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12S84U/OM12S84U.pdf",
+                "type": "oem_manual",
+                "page": 422,
+                "quote": "SAE 0W-16 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/2.0L; Standard; Flooded; Interstate MT-47/H5 H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2026 L4/2.0L; Standard; Flooded; Interstate MTP-47/H5 H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8L",
+            "condition": "Hybrid",
+            "group": "H4",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2023 L4/1.8L; (Hybrid) OR (Standard); AGM; Interstate MTX-H4 H4 8 1/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2026 L4/1.8L; Hybrid; Flooded; Interstate MTP-H4 H4 8 1/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 28,
+        "passenger_in": 14,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2025 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 28\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2025 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2025&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 14\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2026": {
+      "towing": [
+        {
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Owner's Manual (OM02722U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om02722u/OM02722U.pdf",
+              "type": "oem_manual",
+              "page": 143,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hatchback",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Hatchback Owner's Manual (OM12U26U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om12u26u/OM12U26U.pdf",
+              "type": "oem_manual",
+              "page": 132,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "max_lb": 0,
+          "note": "Toyota does not recommend towing a trailer with this vehicle",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Hybrid Owner's Manual (OM12U41U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12U41U/OM12U41U.pdf",
+              "type": "oem_manual",
+              "page": 161,
+              "quote": "Toyota does not recommend towing a trailer with your vehicle",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "tires": [
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Owner's Manual (OM02722U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om02722u/OM02722U.pdf",
+              "type": "oem_manual",
+              "page": 392,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Owner's Manual (OM02722U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om02722u/OM02722U.pdf",
+              "type": "oem_manual",
+              "page": 392,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Owner's Manual (OM02722U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om02722u/OM02722U.pdf",
+              "type": "oem_manual",
+              "page": 392,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Hybrid Owner's Manual (OM12U41U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12U41U/OM12U41U.pdf",
+              "type": "oem_manual",
+              "page": 425,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Hybrid Owner's Manual (OM12U41U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12U41U/OM12U41U.pdf",
+              "type": "oem_manual",
+              "page": 425,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hybrid",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Hybrid Owner's Manual (OM12U41U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12U41U/OM12U41U.pdf",
+              "type": "oem_manual",
+              "page": 425,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "195/65R15",
+          "load_speed": "91S",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Hatchback Owner's Manual (OM12U26U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om12u26u/OM12U26U.pdf",
+              "type": "oem_manual",
+              "page": 384,
+              "quote": "195/65R15 91S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "205/55R16",
+          "load_speed": "91H",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Hatchback Owner's Manual (OM12U26U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om12u26u/OM12U26U.pdf",
+              "type": "oem_manual",
+              "page": 384,
+              "quote": "205/55R16 91H",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "size": "225/40R18",
+          "load_speed": "88V",
+          "trim": "Hatchback",
+          "src": [
+            {
+              "doc": "2026 Toyota Corolla Hatchback Owner's Manual (OM12U26U)",
+              "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om12u26u/OM12U26U.pdf",
+              "type": "oem_manual",
+              "page": 384,
+              "quote": "225/40R18 88V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "oil": {
+        "engines": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "grade": "0W-8",
+            "alt_grades": [
+              "0W-16"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2026 Toyota Corolla Owner's Manual (OM02722U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om02722u/OM02722U.pdf",
+                "type": "oem_manual",
+                "page": 389,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2026 Toyota Corolla Owner's Manual (OM02722U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om02722u/OM02722U.pdf",
+                "type": "oem_manual",
+                "page": 389,
+                "quote": "SAE 0W-8 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-8 is not available, SAE 0W-16 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0 L 4-cylinder (M20A-FKS)",
+            "condition": "Hatchback",
+            "grade": "0W-8",
+            "alt_grades": [
+              "0W-16"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2026 Toyota Corolla Hatchback Owner's Manual (OM12U26U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om12u26u/OM12U26U.pdf",
+                "type": "oem_manual",
+                "page": 381,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2026 Toyota Corolla Hatchback Owner's Manual (OM12U26U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/om12u26u/OM12U26U.pdf",
+                "type": "oem_manual",
+                "page": 381,
+                "quote": "SAE 0W-8 is the best choice for good fuel economy and good starting in cold weather. If SAE 0W-8 is not available, SAE 0W-16 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8 L 4-cylinder hybrid (2ZR-FXE)",
+            "grade": "0W-16",
+            "alt_grades": [
+              "0W-20"
+            ],
+            "capacity_qt": 4.4,
+            "capacity_l": 4.2,
+            "src": [
+              {
+                "doc": "2026 Toyota Corolla Hybrid Owner's Manual (OM12U41U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12U41U/OM12U41U.pdf",
+                "type": "oem_manual",
+                "page": 421,
+                "quote": "With filter 4.4 qt. (4.2 L, 3.7 Imp. qt.)",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "2026 Toyota Corolla Hybrid Owner's Manual (OM12U41U)",
+                "url": "https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM12U41U/OM12U41U.pdf",
+                "type": "oem_manual",
+                "page": 422,
+                "quote": "SAE 0W-16 is the best choice you select the oil you should for good fuel economy and good use. starting in cold weather. If SAE 0W-16 is not available, SAE 0W-20 oil may be used",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/2.0L; Standard; Flooded; Interstate MT-47/H5 H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2026 L4/2.0L; Standard; Flooded; Interstate MTP-47/H5 H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.8,
+            "engine": "1.8L",
+            "condition": "Hybrid",
+            "group": "H4",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2023 L4/1.8L; (Hybrid) OR (Standard); AGM; Interstate MTX-H4 H4 8 1/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Toyota Corolla battery size",
+                "url": "https://www.autopadre.com/battery-size/toyota-corolla",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2026 L4/1.8L; Hybrid; Flooded; Interstate MTP-H4 H4 8 1/8\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 28,
+        "passenger_in": 14,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2026 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 28\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2026 Toyota Corolla",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2026&bf-make=Toyota&bf-model=Corolla",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 14\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    }
+  }
+}

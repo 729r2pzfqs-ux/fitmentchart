@@ -25,7 +25,7 @@ from datetime import date, datetime
 from urllib.parse import quote
 
 from common import (get_json, has_flag, iter_models, load_config, log, matches,
-                    read_json, source_path, write_json)
+                    read_json, source_makes, source_path, write_json)
 
 API = "https://api.nhtsa.gov"
 
@@ -49,7 +49,7 @@ def rating(v) -> int | None:
     return n if 1 <= n <= 5 else None
 
 
-def nhtsa_names(make: str, year: str, rule: dict, refresh: bool) -> list[str]:
+def nhtsa_names(make: str, year: str, rule: dict, always: list[str], refresh: bool) -> list[str]:
     names = set()
     for issue in ("r", "c"):
         body = get_json(f"{API}/products/vehicle/models",
@@ -57,13 +57,14 @@ def nhtsa_names(make: str, year: str, rule: dict, refresh: bool) -> list[str]:
         for r in body.get("results") or []:
             if matches(rule, r.get("model", "")):
                 names.add(r["model"].strip())
-    names.update(rule.get("always", []))
+    names.update(always)
     return sorted(names)
 
 
-def recalls(make: str, year: str, names: list[str], refresh: bool) -> dict:
+def recalls(pairs: list[tuple[str, str]], year: str, refresh: bool) -> dict:
+    """`pairs`: (make, model name) to query. A former make adds its own names."""
     camps = {}
-    for n in names:
+    for make, n in pairs:
         body = get_json(f"{API}/recalls/recallsByVehicle",
                         {"make": make, "model": n, "modelYear": year}, refresh=refresh,
                         ok_status=(200, 400))
@@ -88,9 +89,9 @@ def recalls(make: str, year: str, names: list[str], refresh: bool) -> dict:
     return {"count": len(out), "campaigns": out}
 
 
-def complaints(make: str, year: str, names: list[str], refresh: bool) -> dict:
+def complaints(pairs: list[tuple[str, str]], year: str, refresh: bool) -> dict:
     seen = {}
-    for n in names:
+    for make, n in pairs:
         body = get_json(f"{API}/complaints/complaintsByVehicle",
                         {"make": make, "model": n, "modelYear": year}, refresh=refresh,
                         ok_status=(200, 400))
@@ -115,12 +116,15 @@ def complaints(make: str, year: str, names: list[str], refresh: bool) -> dict:
     }
 
 
-def ncap(make: str, year: str, rule: dict, refresh: bool) -> dict:
-    body = get_json(f"{API}/SafetyRatings/modelyear/{year}/make/{quote(make)}", refresh=refresh,
-                    accept_empty=True)
-    models = sorted({r["Model"] for r in body.get("Results") or [] if matches(rule, r.get("Model", ""))})
+def ncap(makes: list[str], year: str, rule: dict, refresh: bool) -> dict:
+    pairs = []
+    for make in makes:
+        body = get_json(f"{API}/SafetyRatings/modelyear/{year}/make/{quote(make)}", refresh=refresh,
+                        accept_empty=True)
+        pairs += [(make, m) for m in sorted({r["Model"] for r in body.get("Results") or []
+                                             if matches(rule, r.get("Model", ""))})]
     variants = []
-    for m in models:
+    for make, m in pairs:
         vb = get_json(f"{API}/SafetyRatings/modelyear/{year}/make/{quote(make)}/model/{quote(m, safe='')}",
                       refresh=refresh, accept_empty=True)
         for v in vb.get("Results") or []:
@@ -160,10 +164,13 @@ def main() -> None:
         rule = model["nhtsa"]
         years_out = {}
         for y in sorted(skel["years"]):
-            names = nhtsa_names(make["name"], y, rule, refresh)
-            rec = recalls(make["name"], y, names, refresh) if names else {"count": 0, "campaigns": []}
-            com = complaints(make["name"], y, names, refresh) if names else None
-            nc = ncap(make["name"], y, rule, refresh)
+            makes = source_makes(make, model)
+            pairs = [(mk["name"], n) for mk in makes
+                     for n in nhtsa_names(mk["name"], y, rule, mk.get("nhtsa_always", rule.get("always", [])), refresh)]
+            names = sorted({n for _, n in pairs})
+            rec = recalls(pairs, y, refresh) if names else {"count": 0, "campaigns": []}
+            com = complaints(pairs, y, refresh) if names else None
+            nc = ncap([mk["name"] for mk in makes], y, rule, refresh)
             years_out[y] = {"nhtsa": {
                 "nhtsa_models": names,
                 "recalls": rec,

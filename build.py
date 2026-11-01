@@ -82,6 +82,11 @@ def make_slug(m: dict) -> str:
     return m["slug"].split("/")[0]
 
 
+def is_ev(m: dict) -> bool:
+    engines = [e for b in m["years"].values() for e in b.get("engines") or []]
+    return bool(engines) and all(e.get("electrification") == "ev" for e in engines)
+
+
 def towing_max(blk: dict):
     vals = [t["max_lb"] for t in blk.get("towing") or [] if t.get("max_lb")]
     return max(vals) if vals else None
@@ -135,6 +140,25 @@ def fit_desc(d: str, n: int = 160, floor: int = 120) -> str:
     if dot + 1 >= floor:
         return cut[:dot + 1]
     return cut[:n - 1].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+
+
+def fit_ending(head: str, endings: list[str], floor: int = 120, n: int = 160) -> str:
+    """Longest ending that keeps head within n chars, so a description never stops mid-sentence."""
+    for e in endings:
+        if len(head + e) <= n:
+            head += e
+            break
+    return head if len(head) >= floor else head + " Engines and EPA fuel economy included."
+
+
+def fit_list(head: str, parts: list[str], tail: str, n: int = 160) -> str:
+    """head + as many parts as fit + tail, ending ", and more" when some are left out."""
+    for k in range(len(parts), 0, -1):
+        more = ", and more" if k < len(parts) else ""
+        d = head + ", ".join(parts[:k]) + more + tail
+        if len(d) <= n:
+            return d
+    return head.rstrip(": ") + tail
 
 
 def plain(s: str) -> str:
@@ -244,7 +268,7 @@ your vehicle's door placard, owner's manual or the part maker before buying. Not
 T["macros.html"] = r"""{% macro cite(src) %}<span class="cite">{% set seen = [] %}{% for c in src %}{% set k = c.doc ~ "|" ~ c.page %}{% if k not in seen %}{% if seen %}; {% endif %}{% do seen.append(k) %}{% if c.url %}<a href="{{ c.url }}" title="{{ c.quote }}" rel="nofollow noopener" target="_blank">{{ c.doc }}{% if c.page %}, p. {{ c.page }}{% endif %}</a>{% else %}<span title="{{ c.quote }}">{{ c.doc }}</span>{% endif %}{% endif %}{% endfor %}</span>{% endmacro %}
 {% macro badge(src, confidence=None) %}{% if confidence == "low" %}<span class="badge badge-low" title="Third-party data, not confirmed against an OEM document">low confidence</span>{% elif src and src|selectattr("type", "in", ["third_party_reference", "aftermarket_fitment"])|list|length == src|length %}<span class="badge badge-3p" title="From a third-party or aftermarket fitment source">third-party</span>{% endif %}{% endmacro %}
 {% macro battery_disclaimer() %}<p class="disclaimer">Verify group size on your battery label or owner's manual before purchasing.</p>{% endmacro %}
-{% macro spec_links(m, available, current=None) %}<nav class="spec-links" aria-label="{{ m.make }} {{ m.model }} specs">{% for s in available %}{% if s != current %}<a href="/{{ m.slug }}/{{ s }}/">{{ m.model }} {{ specs[s][0]|lower }}</a>{% endif %}{% endfor %}</nav>{% endmacro %}
+{% macro spec_links(m, available, current=None) %}<nav class="spec-links" aria-label="{{ m.make }} {{ m.model }} specs">{% for s in available %}{% if s != current %}<a href="/{{ m.slug }}/{{ s }}/">{{ m.short }} {{ specs[s][0]|lower }}</a>{% endif %}{% endfor %}</nav>{% endmacro %}
 """
 
 T["home.html"] = r"""{% extends "base.html" %}
@@ -291,7 +315,7 @@ T["home.html"] = r"""{% extends "base.html" %}
 T["make.html"] = r"""{% extends "base.html" %}
 {% block body %}
 <h1>{{ make.name }} fitment &amp; specs</h1>
-<p class="lede">{{ make.models|length }} {{ make.name }} model{{ "s" if make.models|length != 1 }} covered, with bolt patterns, towing, oil, tires, battery and wiper sizes by model year.</p>
+<p class="lede">{{ make.models|length }} {{ make.name }} model{{ "s" if make.models|length != 1 }} covered, with {{ "bolt patterns, tire sizes, EPA efficiency, dimensions and recalls" if make.ev else "bolt patterns, towing, oil, tires, battery and wiper sizes" }} by model year.</p>
 <div class="cards">
 {% for c in make.models %}
 <a class="card" href="/{{ c.slug }}/">
@@ -313,9 +337,9 @@ T["make.html"] = r"""{% extends "base.html" %}
 <p class="muted small">Max towing is the highest trailer rating any configuration reaches in the years covered. Each value links to the year-by-year table with its sources.</p>
 {% for c in make.models %}
 <h2>{{ c.make }} {{ c.model }} specs</h2>
-<ul class="link-list">{% for s in c.available %}<li><a href="/{{ c.slug }}/{{ s }}/">{{ c.model }} {{ specs[s][0]|lower }} by year</a></li>{% endfor %}</ul>
-<h3>{{ c.model }} by model year</h3>
-<p class="year-links">{% for y in c.years %}<a href="/{{ c.slug }}/{{ y }}/">{{ y }} {{ c.model }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+<ul class="link-list">{% for s in c.available %}<li><a href="/{{ c.slug }}/{{ s }}/">{{ c.short }} {{ specs[s][0]|lower }} by year</a></li>{% endfor %}</ul>
+<h3>{{ c.short }} by model year</h3>
+<p class="year-links">{% for y in c.years %}<a href="/{{ c.slug }}/{{ y }}/">{{ y }} {{ c.short }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
 {% endfor %}
 <p>Specs vary by trim, engine and package within a model year. Always confirm fitment against your vehicle's door placard,
 owner's manual or the part maker's fitment guide. See <a href="/sources/">where our data comes from</a> or read the
@@ -330,17 +354,17 @@ T["model.html"] = r"""{% extends "base.html" %}
 {{ spec_links(m, available) }}
 <div class="table-wrap">
 <table class="sortable">
-<thead><tr><th data-sort="num">Year</th><th>Generation</th><th>Bolt pattern</th><th data-sort="num">Max towing</th><th>Engines</th><th>Oil</th><th>Tires</th><th>Battery</th><th data-sort="num">Recalls</th></tr></thead>
+<thead><tr><th data-sort="num">Year</th><th>Generation</th><th>Bolt pattern</th>{% if not card.ev %}<th data-sort="num">Max towing</th>{% endif %}<th>Engines</th>{% if not card.ev %}<th>Oil</th>{% endif %}<th>Tires</th><th>Battery</th><th data-sort="num">Recalls</th></tr></thead>
 <tbody>
 {% for r in rows %}
 <tr>
 <td><a href="/{{ m.slug }}/{{ r.year }}/">{{ r.year }}</a></td>
 <td>{{ r.generation or "—" }}</td>
 <td>{{ r.bolt or "—" }}</td>
-<td data-v="{{ r.tow or 0 }}">{% if r.tow %}{{ r.tow|commas }} lb{% else %}—{% endif %}</td>
-<td>{{ r.engines or "—" }}</td>
-<td>{{ r.oil or "—" }}</td>
-<td>{{ r.tires or "—" }}</td>
+{% if not card.ev %}<td data-v="{{ r.tow or 0 }}">{% if r.tow %}{{ r.tow|commas }} lb{% else %}—{% endif %}</td>
+{% endif %}<td>{{ r.engines or "—" }}</td>
+{% if not card.ev %}<td>{{ r.oil or "—" }}</td>
+{% endif %}<td>{{ r.tires or "—" }}</td>
 <td>{{ r.battery or "—" }}</td>
 <td data-v="{{ r.recalls if r.recalls is not none else -1 }}">{{ r.recalls if r.recalls is not none else "—" }}</td>
 </tr>
@@ -348,7 +372,7 @@ T["model.html"] = r"""{% extends "base.html" %}
 </tbody>
 </table>
 </div>
-<p class="muted small">Click a column header to sort. Max towing is the highest rating any configuration gets that year; see the year page for the configuration it requires.</p>
+<p class="muted small">Click a column header to sort.{% if not card.ev %} Max towing is the highest rating any configuration gets that year; see the year page for the configuration it requires.{% endif %}</p>
 
 {% if gens %}
 <h2>Generations</h2>
@@ -391,9 +415,10 @@ T["year.html"] = r"""{% extends "base.html" %}
 
 {% if y.engines %}
 <section id="engines">
-<h2>Engines &amp; fuel economy</h2>
+<h2>{{ "Powertrain &amp; efficiency"|safe if card.ev else "Engines &amp; fuel economy"|safe }}</h2>
+{% set mpg = "MPGe" if card.ev else "MPG" %}
 <div class="table-wrap"><table class="sortable">
-<thead><tr><th>Engine</th><th data-sort="num">Horsepower</th><th>Fuel</th><th data-sort="num">MPG city</th><th data-sort="num">MPG hwy</th><th data-sort="num">MPG combined</th><th>Drive</th></tr></thead>
+<thead><tr><th>{{ "Powertrain" if card.ev else "Engine" }}</th><th data-sort="num">Horsepower</th><th>Fuel</th><th data-sort="num">{{ mpg }} city</th><th data-sort="num">{{ mpg }} hwy</th><th data-sort="num">{{ mpg }} combined</th><th>Drive</th></tr></thead>
 <tbody>{% for e in y.engines %}
 <tr><td>{{ e.label }}</td><td>{{ e.hp|join(" / ") or "—" }}</td><td>{{ e.fuel|join(", ") }}{% if e.flex_fuel %} (E85 capable){% endif %}</td>
 <td>{{ e.mpg.city|unique|join("–") }}</td><td>{{ e.mpg.hwy|unique|join("–") }}</td><td>{{ e.mpg.combined|unique|join("–") }}</td><td>{{ e.drives|join(", ") }}</td></tr>
@@ -405,7 +430,7 @@ T["year.html"] = r"""{% extends "base.html" %}
 {% if y.towing %}
 <section id="towing">
 <h2>Towing capacity</h2>
-<p>Maximum trailer weight ranges up to <strong>{{ tow_max|commas }} lb</strong>, depending on configuration. <a href="/{{ m.slug }}/towing-capacity/">{{ m.model }} towing capacity by year</a> · <a href="/guides/towing-capacity-explained/">what GCWR and tongue weight mean</a></p>
+<p>Maximum trailer weight ranges up to <strong>{{ tow_max|commas }} lb</strong>, depending on configuration. <a href="/{{ m.slug }}/towing-capacity/">{{ m.short }} towing capacity by year</a> · <a href="/guides/towing-capacity-explained/">what GCWR and tongue weight mean</a></p>
 <div class="table-wrap"><table class="sortable">
 <thead><tr><th>Configuration</th><th data-sort="num">Max trailer</th><th data-sort="num">Tongue</th><th data-sort="num">GCWR</th><th>Required</th><th>Source</th></tr></thead>
 <tbody>{% for t in y.towing %}
@@ -426,7 +451,7 @@ T["year.html"] = r"""{% extends "base.html" %}
 <tbody>{% for t in y.tires %}
 <tr><td><strong>{{ t.size }}</strong>{% if t.load_speed %} {{ t.load_speed }}{% endif %}{% if t.position %} <span class="muted">({{ t.position }})</span>{% endif %}</td><td>{{ t.trim or "—" }}</td><td>{{ cite(t.src) }} {{ badge(t.src) }}</td></tr>
 {% endfor %}</tbody></table></div>
-<p class="small"><a href="/guides/how-to-read-a-tire-size/">How to read a tire size</a> · <a href="/{{ m.slug }}/tire-size/">{{ m.model }} tire sizes by year</a></p>
+<p class="small"><a href="/guides/how-to-read-a-tire-size/">How to read a tire size</a> · <a href="/{{ m.slug }}/tire-size/">{{ m.short }} tire sizes by year</a></p>
 </section>
 {% endif %}
 
@@ -441,7 +466,7 @@ T["year.html"] = r"""{% extends "base.html" %}
 <td>{% if o.capacity_qt %}{{ o.capacity_qt }} qt{% if o.capacity_l %} ({{ o.capacity_l }} L){% endif %}{% else %}—{% endif %}</td>
 <td>{{ cite(o.src) }} {{ badge(o.src) }}</td></tr>
 {% endfor %}</tbody></table></div>
-<p class="small"><a href="/guides/engine-oil-viscosity-explained/">What 0W-20 and 5W-30 mean</a> · <a href="/{{ m.slug }}/oil-capacity/">{{ m.model }} oil capacity by year</a></p>
+<p class="small"><a href="/guides/engine-oil-viscosity-explained/">What 0W-20 and 5W-30 mean</a> · <a href="/{{ m.slug }}/oil-capacity/">{{ m.short }} oil capacity by year</a></p>
 </section>
 {% endif %}
 
@@ -501,9 +526,9 @@ T["year.html"] = r"""{% extends "base.html" %}
 {% endif %}
 
 <nav class="year-nav">
-{% if prev_year %}<a href="/{{ m.slug }}/{{ prev_year }}/">← {{ prev_year }} {{ m.model }}</a>{% else %}<span></span>{% endif %}
-<a href="/{{ m.slug }}/">All {{ m.model }} years</a>
-{% if next_year %}<a href="/{{ m.slug }}/{{ next_year }}/">{{ next_year }} {{ m.model }} →</a>{% else %}<span></span>{% endif %}
+{% if prev_year %}<a href="/{{ m.slug }}/{{ prev_year }}/">← {{ prev_year }} {{ m.short }}</a>{% else %}<span></span>{% endif %}
+<a href="/{{ m.slug }}/">All {{ m.short }} years</a>
+{% if next_year %}<a href="/{{ m.slug }}/{{ next_year }}/">{{ next_year }} {{ m.short }} →</a>{% else %}<span></span>{% endif %}
 </nav>
 <h2>More {{ m.make }} {{ m.model }} specs</h2>
 {{ spec_links(m, available) }}
@@ -897,6 +922,8 @@ class Site:
         makes: dict[str, dict] = {}
         for c in self.cards:
             makes.setdefault(c["make_slug"], {"slug": c["make_slug"], "name": c["make"], "models": []})["models"].append(c)
+        for mk in makes.values():
+            mk["ev"] = all(c["ev"] for c in mk["models"])
         self.makes = sorted(makes.values(), key=lambda x: x["name"])
         self.data_updated = max(m["updated"][:10] for m in models)  # sitemap lastmod for pages built from model data
         self.common = dict(site_url=SITE_URL, site_name=SITE_NAME, adsense_pub=ADSENSE_PUB, ga_id=GA_ID, ahrefs_key=AHREFS_KEY,
@@ -919,7 +946,7 @@ class Site:
         latest_bolt = bolts[-1] if bolts else None
         tows = [towing_max(m["years"][y]) for y in ys]
         avail = [s for s in SPECS if any(has_spec(s, m["years"][y]) for y in ys)]
-        return {"slug": m["slug"], "make": m["make"], "model": m["model"], "make_slug": make_slug(m),
+        return {"slug": m["slug"], "make": m["make"], "model": m["model"], "short": m["short"], "ev": is_ev(m), "make_slug": make_slug(m),
                 "first": ys[0], "last": ys[-1], "n": len(ys), "years": ys, "bolt": latest_bolt,
                 "tow": max([t for t in tows if t] or [0]) or None, "available": avail}
 
@@ -946,18 +973,21 @@ class Site:
               {"@context": "https://schema.org", "@type": "Organization", "name": SITE_NAME, "url": SITE_URL + "/",
                "email": CONTACT_EMAIL}]
         self.render("home.html", "/", f"{SITE_NAME}: Bolt Patterns, Towing, Oil & Tire Specs",
-                    "Bolt patterns: " + ", ".join(f"{c['model']} {c['bolt']}" for c in self.cards if c["bolt"])
-                    + ". Plus towing, oil, tire, battery and wiper specs by year.", jsonld=ld, priority=1.0, model_cards=self.cards)
+                    fit_list("Bolt patterns: ", [f"{c['short']} {c['bolt']}" for c in self.cards if c["bolt"]],
+                             ". Plus towing, oil, tire, battery and wiper specs by year."), jsonld=ld, priority=1.0, model_cards=self.cards)
 
     def make_pages(self):
         for mk in self.makes:
-            models = ", ".join(c["model"] for c in mk["models"])
-            self.render("make.html", f"/{mk['slug']}/", f"{mk['name']} fitment & specs by model and year",
-                        "; ".join(f"{c['make']} {c['model']} {c['first']}–{c['last']}: "
-                                  + ", ".join(x for x in [f"bolt pattern {c['bolt']}" if c["bolt"] else "",
-                                                          f"tows up to {commas(c['tow'])} lb" if c["tow"] else ""] if x)
-                                  for c in mk["models"])
-                        + ". Oil, tire, battery and wiper sizes by year, each with a cited source.",
+            desc = ("; ".join(f"{c['make']} {c['model']} {c['first']}–{c['last']}: "
+                              + ", ".join(x for x in [f"bolt pattern {c['bolt']}" if c["bolt"] else "",
+                                                      f"tows up to {commas(c['tow'])} lb" if c["tow"] else ""] if x)
+                              for c in mk["models"])
+                    + (". Tire sizes, EPA efficiency, dimensions and recalls by year, each with a cited source." if mk["ev"]
+                       else ". Oil, tire, battery and wiper sizes by year, each with a cited source."))
+            if len(desc) > 160:
+                desc = fit_list(f"{mk['name']} bolt patterns: ", [f"{c['short']} {c['bolt']}" for c in mk["models"] if c["bolt"]],
+                                ". Towing, oil, tire, battery and wiper sizes by model year, each with a cited source.")
+            self.render("make.html", f"/{mk['slug']}/", f"{mk['name']} fitment & specs by model and year", desc,
                         crumbs=[("/", "Home"), (f"/{mk['slug']}/", mk["name"])], priority=0.7, make=mk)
             self.search.append({"t": mk["name"], "u": f"/{mk['slug']}/", "d": f"{len(mk['models'])} models"})
 
@@ -986,12 +1016,13 @@ class Site:
         intro = (f"Bolt pattern {' / '.join(bolts)}" if bolts else "") + \
                 (f"; towing up to {commas(card['tow'])} lb" if card["tow"] else "") + "."
         name = f"{m['make']} {m['model']}"
-        self.render("model.html", f"/{m['slug']}/", f"{name} specs by year: towing, bolts, oil",
-                    f"{name} {ys[0]}–{ys[-1]}: " + ", ".join(x for x in [f"bolt pattern {' / '.join(bolts)}" if bolts else "",
-                                                                    f"towing up to {commas(card['tow'])} lb" if card["tow"] else ""] if x)
-                    + ". Oil, tires, battery, wipers and recalls by year, with sources.",
-                    crumbs=[("/", "Home"), (f"/{card['make_slug']}/", m["make"]), (f"/{m['slug']}/", m["model"])],
-                    priority=0.9, lastmod=m["updated"][:10], m=m, rows=rows, gens=gens, intro=intro, available=card["available"],
+        self.render("model.html", f"/{m['slug']}/", f"{name} specs by year: " + ("bolts, tires, MPGe" if card["ev"] else "towing, bolts, oil"),
+                    fit_ending(f"{name} {ys[0]}–{ys[-1]}: " + ", ".join(x for x in [f"bolt pattern {' / '.join(bolts)}" if bolts else "",
+                                                                               f"towing up to {commas(card['tow'])} lb" if card["tow"] else ""] if x)
+                               + (". Tire sizes, EPA efficiency, dimensions and recalls by year, with sources." if card["ev"]
+                                  else ". Oil, tires, battery, wipers and recalls by year, with sources."), [""]),
+                    crumbs=[("/", "Home"), (f"/{card['make_slug']}/", m["make"]), (f"/{m['slug']}/", m["short"])],
+                    priority=0.9, lastmod=m["updated"][:10], m=m, card=card, rows=rows, gens=gens, intro=intro, available=card["available"],
                     siblings=[c for c in self.cards if c["slug"] != m["slug"]])
         self.search.append({"t": name, "u": f"/{m['slug']}/", "d": f"{ys[0]}–{ys[-1]}", "k": " ".join(bolts)})
 
@@ -1015,6 +1046,9 @@ class Site:
             sizes = tire_sizes(b)
             if sizes:
                 bits.append(f"tires {', '.join(sizes[:2])}" + (" and more" if len(sizes) > 2 else ""))
+            if card["ev"] and b.get("engines"):
+                mpge = [v for e in b["engines"] for v in (e.get("mpg") or {}).get("combined", [])]
+                bits.append(f"{rng(mpge)} MPGe combined (EPA)")
             summary = (f"The {y} {name} has " + ", ".join(bits) + "." if bits else
                        f"Specs for the {y} {name}.")
             extra = [x for x, ok in [("battery", battery_groups(b)), ("wipers", b.get("wipers")),
@@ -1024,10 +1058,9 @@ class Site:
                 mpg = [v for e in b["engines"] for v in (e.get("mpg") or {}).get("combined", [])]
                 bits.append(f"{', '.join(labels[:3])} engine{'s' if len(labels) > 1 else ''}"
                             + (f", {min(mpg)}–{max(mpg)} mpg combined (EPA)" if mpg and min(mpg) != max(mpg) else f", {mpg[0]} mpg combined (EPA)" if mpg else ""))
-            desc = f"{y} {name} specs: " + (", ".join(bits) if bits else "engines, fuel economy, dimensions") + "." + \
-                   (f" Plus {', '.join(extra[:-1]) + ' and ' + extra[-1] if len(extra) > 1 else extra[0]}, with sources." if extra else "")
-            if len(desc) > 300:
-                desc = desc[:297].rsplit(" ", 1)[0] + "…"
+            also = (", ".join(extra[:-1]) + " and " + extra[-1] if len(extra) > 1 else extra[0]) if extra else ""
+            desc = fit_ending(f"{y} {name} specs: " + (", ".join(bits) if bits else "engines, fuel economy, dimensions") + ".",
+                              ([f" Plus {also}, with sources.", f" Plus {also}."] if also else []) + [" Every value has a source.", " With sources.", ""])
             same_year = [c for c in self.cards if c["slug"] != m["slug"] and int(c["first"]) <= int(y) <= int(c["last"])]
             ld = {"@context": "https://schema.org", "@type": "Car", "name": f"{y} {name}",
                   "brand": {"@type": "Brand", "name": m["make"]}, "model": m["model"], "vehicleModelDate": y,
@@ -1039,10 +1072,10 @@ class Site:
             if tmax:
                 ld["trailerWeight"] = {"@type": "QuantitativeValue", "maxValue": tmax, "unitCode": "LBR"}
             self.render("year.html", f"/{m['slug']}/{y}/",
-                        f"{y} {name} bolt pattern, towing & oil", desc,
-                        crumbs=[("/", "Home"), (f"/{card['make_slug']}/", m["make"]), (f"/{m['slug']}/", m["model"]),
+                        f"{y} {name} bolt pattern, " + ("tires & MPGe" if card["ev"] else "towing & oil"), desc,
+                        crumbs=[("/", "Home"), (f"/{card['make_slug']}/", m["make"]), (f"/{m['slug']}/", m["short"]),
                                 (f"/{m['slug']}/{y}/", y)],
-                        jsonld=[ld], priority=0.6, lastmod=m["updated"][:10], m=m, year=y, y=b, summary=summary, tow_max=tmax,
+                        jsonld=[ld], priority=0.6, lastmod=m["updated"][:10], m=m, card=card, year=y, y=b, summary=summary, tow_max=tmax,
                         prev_year=ys[i - 1] if i else None, next_year=ys[i + 1] if i + 1 < len(ys) else None,
                         available=[s for s in card["available"]], same_year=same_year)
             self.search.append({"t": f"{y} {name}", "u": f"/{m['slug']}/{y}/", "d": ", ".join(bits[:2]),
@@ -1168,14 +1201,15 @@ class Site:
                     intro = f"Driver, passenger and rear wiper blade lengths for the {name} by year."
             title = f"{name} {noun} by year"
             desc = plain(intro)
-            if len(desc) > 300:
-                desc = desc[:297].rsplit(" ", 1)[0] + "…"
+            if len(desc) > 160:
+                desc = fit_ending(desc.split(". ")[0] + ".", [" See every year, with the source for each value.", " Every year listed, with sources.",
+                                                              " Sources listed.", ""])
             ld = []
             if faq:
                 ld.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
                     {"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in faq]})
             self.render("spec.html", f"/{m['slug']}/{spec}/", title, desc,
-                        crumbs=[("/", "Home"), (f"/{card['make_slug']}/", m["make"]), (f"/{m['slug']}/", m["model"]),
+                        crumbs=[("/", "Home"), (f"/{card['make_slug']}/", m["make"]), (f"/{m['slug']}/", m["short"]),
                                 (f"/{m['slug']}/{spec}/", label)],
                         jsonld=ld, priority=0.8, lastmod=m["updated"][:10], m=m, spec=spec, label=label, head=head, rows=rows, missing=missing,
                         intro=intro, faq=faq, guide=guide[gslug], available=card["available"],
@@ -1232,6 +1266,8 @@ def main() -> int:
         print("no models in data/models; run the pipeline first")
         return 1
     models.sort(key=lambda m: (m["make"], m["model"]))
+    for m in models:  # a bare "1500" can't stand alone in links, so it keeps its make
+        m["short"] = f"{m['make']} {m['model']}" if m["model"][0].isdigit() else m["model"]
     if DOCS.exists():
         shutil.rmtree(DOCS)
     DOCS.mkdir()

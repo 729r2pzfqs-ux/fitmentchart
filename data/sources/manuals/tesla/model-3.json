@@ -1,0 +1,517 @@
+{
+  "slug": "tesla/model-3",
+  "source": {
+    "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
+    "file": "data/manuals/tesla/model-3.yaml",
+    "documents": 14,
+    "document_types": [
+      "aftermarket_fitment",
+      "third_party_reference"
+    ]
+  },
+  "notes": [],
+  "years": {
+    "2017": {
+      "tires": [
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2017-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19 45 psi 45 psi Base Model Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2017 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2017-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 42 psi 42 psi Base Model Long Range Long Range Performance",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    "2018": {
+      "tires": [
+        {
+          "trim": "Performance",
+          "size": "235/35R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2018-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/35R20 42 psi 42 psi Performance",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2018-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19   Base Model Long Range",
+              "accessed": "2026-11-01"
+            },
+            {
+              "doc": "NHTSA NCAP Frontal Barrier Impact Test, 2018 Tesla Model 3 Long Range RWD (NCAP-KAR-18-020)",
+              "url": "https://nrd-static.nhtsa.dot.gov/reports/vehdb/v10000/v10300/v10383R002.pdf",
+              "type": "third_party_reference",
+              "page": 9,
+              "quote": "Recommended Tire Size P235/40R19 P235/40R19",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range, Performance",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2018 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2018-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 42 psi 42 psi Base Model Long Range Performance",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    "2019": {
+      "tires": [
+        {
+          "trim": "Performance",
+          "size": "235/35R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2019-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/35R20 42 psi 42 psi Performance",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2019-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19 42 psi 42 psi Base Model Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range, Performance",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2019 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2019-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 42 psi 42 psi Base Model Long Range Performance",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    "2020": {
+      "tires": [
+        {
+          "trim": "Performance",
+          "size": "235/35R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2020-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/35R20 42 psi 42 psi Performance",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Long Range, Standard Plus",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2020-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19 42 psi 42 psi Long Range Standard Plus",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Long Range, Performance, Standard Plus",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2020 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2020-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 42 psi 42 psi Long Range Performance Standard Plus",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    "2021": {
+      "tires": [
+        {
+          "trim": "Performance",
+          "size": "235/35R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2021-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/35R20 42 psi 42 psi Performance",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Long Range, Standard Plus",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2021-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19 42 psi 42 psi Long Range Standard Plus",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Long Range, Standard Plus",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2021 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2021-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 42 psi 42 psi Long Range Standard Plus",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    "2022": {
+      "tires": [
+        {
+          "trim": "Performance",
+          "size": "235/35R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2022-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/35R20 42 psi 42 psi Performance",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2022-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19 42 psi 42 psi Base Model Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2022 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2022-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 42 psi 42 psi Base Model Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    "2023": {
+      "tires": [
+        {
+          "trim": "Performance",
+          "size": "235/35R20",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2023-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/35R20 42 psi 42 psi Performance",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2023-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19 42 psi 42 psi Base Model Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2023 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2023-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 42 psi 42 psi Base Model Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    "2024": {
+      "tires": [
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2024-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19   Base Model Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2024 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2024-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18   Base Model Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Performance",
+          "size": "235/35R20",
+          "position": "front",
+          "src": [
+            {
+              "doc": "Goodyear: 2024 Tesla Model 3 Performance Tires",
+              "url": "https://www.goodyear.com/en-us/vehicles/Tesla/Model-3/2024/Performance",
+              "type": "aftermarket_fitment",
+              "page": null,
+              "quote": "Front: 235/35R20, Rear: 275/30R20",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Performance",
+          "size": "275/30R20",
+          "position": "rear",
+          "src": [
+            {
+              "doc": "Goodyear: 2024 Tesla Model 3 Performance Tires",
+              "url": "https://www.goodyear.com/en-us/vehicles/Tesla/Model-3/2024/Performance",
+              "type": "aftermarket_fitment",
+              "page": null,
+              "quote": "Front: 235/35R20, Rear: 275/30R20",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    "2025": {
+      "tires": [
+        {
+          "trim": "Long Range",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2025-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19 42 psi 42 psi Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Long Range",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2025 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2025-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 42 psi 42 psi Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Performance",
+          "size": "235/35R20",
+          "position": "front",
+          "src": [
+            {
+              "doc": "Goodyear: 2025 Tesla Model 3 Performance Tires",
+              "url": "https://www.goodyear.com/en-us/vehicles/Tesla/Model-3/2025/Performance",
+              "type": "aftermarket_fitment",
+              "page": null,
+              "quote": "Front: 235/35R20, Rear: 275/30R20",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Performance",
+          "size": "275/30R20",
+          "position": "rear",
+          "src": [
+            {
+              "doc": "Goodyear: 2025 Tesla Model 3 Performance Tires",
+              "url": "https://www.goodyear.com/en-us/vehicles/Tesla/Model-3/2025/Performance",
+              "type": "aftermarket_fitment",
+              "page": null,
+              "quote": "Front: 235/35R20, Rear: 275/30R20",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    "2026": {
+      "tires": [
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2026-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19   Base Model Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Base Model, Long Range",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2026 Tesla Model 3 Tire Pressure",
+              "url": "https://tirepressure.com/2026-tesla-model-3-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18   Base Model Long Range",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Performance",
+          "size": "235/35R20",
+          "position": "front",
+          "src": [
+            {
+              "doc": "Goodyear: 2026 Tesla Model 3 Performance Tires",
+              "url": "https://www.goodyear.com/en-us/vehicles/Tesla/Model-3/2026/Performance",
+              "type": "aftermarket_fitment",
+              "page": null,
+              "quote": "Front: 235/35R20, Rear: 275/30R20",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Performance",
+          "size": "275/30R20",
+          "position": "rear",
+          "src": [
+            {
+              "doc": "Goodyear: 2026 Tesla Model 3 Performance Tires",
+              "url": "https://www.goodyear.com/en-us/vehicles/Tesla/Model-3/2026/Performance",
+              "type": "aftermarket_fitment",
+              "page": null,
+              "quote": "Front: 235/35R20, Rear: 275/30R20",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -20,6 +20,18 @@ python tools/manuals/add_chunk5.py       # Wrangler towing/tires/oil capacity (F
 python tools/manuals/add_battery.py      # battery groups, ALL confidence: low (research note + autopadre.com corroboration)
 ```
 
+Models added after Phase 0 each have one builder, then wipers and battery on top:
+
+```
+python tools/manuals/build_camry.py       # toyota.ca manuals (year mapping from its manuals API), tirepressure.com for 2005-07 tires
+python tools/manuals/build_corolla.py     # same; sedan, Hybrid, Hatchback, iM
+python tools/manuals/build_accord.py      # Honda manuals and Info Center, tirepressure.com
+python tools/manuals/build_ram1500.py     # Mopar manuals, FCA/Stellantis spec sheets and tow charts, tirepressure.com
+python tools/manuals/build_model3.py      # third-party tires only (tesla.com answers 403)
+python tools/manuals/add_wipers.py toyota/camry toyota/corolla honda/accord ram/1500 tesla/model-3
+python tools/manuals/add_battery_autopadre.py   # ALL confidence: low, autopadre.com rows only
+```
+
 `mkyaml.cite()` is the safety net.
 - Every quote is re-extracted from the cited PDF page.
 - A build fails if the pattern isn't on that page, or if the value isn't inside the quote.

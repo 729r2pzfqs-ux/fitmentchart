@@ -1,0 +1,532 @@
+{
+  "slug": "tesla/model-3",
+  "source": {
+    "vehicles_csv": "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+    "hp": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+  },
+  "years": {
+    "2017": {
+      "engines": [
+        {
+          "displacement_l": null,
+          "cylinders": null,
+          "aspiration": "na",
+          "fuel_family": "electric",
+          "fuel": [
+            "Electricity"
+          ],
+          "flex_fuel": false,
+          "electrification": "ev",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              131,
+              131
+            ],
+            "hwy": [
+              120,
+              120
+            ],
+            "combined": [
+              126,
+              126
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (A1)"
+          ],
+          "epa_models": [
+            "Model 3 Long Range"
+          ],
+          "epa_ids": [
+            39769
+          ],
+          "hp_source_models": [],
+          "label": "Electric"
+        }
+      ]
+    },
+    "2018": {
+      "engines": [
+        {
+          "displacement_l": null,
+          "cylinders": null,
+          "aspiration": "na",
+          "fuel_family": "electric",
+          "fuel": [
+            "Electricity"
+          ],
+          "flex_fuel": false,
+          "electrification": "ev",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              120,
+              136
+            ],
+            "hwy": [
+              112,
+              123
+            ],
+            "combined": [
+              116,
+              130
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (A1)"
+          ],
+          "epa_models": [
+            "Model 3 Long Range",
+            "Model 3 Long Range  AWD",
+            "Model 3 Long Range  AWD Performance",
+            "Model 3 Mid Range"
+          ],
+          "epa_ids": [
+            39836,
+            40385,
+            40386,
+            41056
+          ],
+          "hp_source_models": [],
+          "label": "Electric"
+        }
+      ]
+    },
+    "2019": {
+      "engines": [
+        {
+          "displacement_l": null,
+          "cylinders": null,
+          "aspiration": "na",
+          "fuel_family": "electric",
+          "fuel": [
+            "Electricity"
+          ],
+          "flex_fuel": false,
+          "electrification": "ev",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              120,
+              140
+            ],
+            "hwy": [
+              112,
+              124
+            ],
+            "combined": [
+              116,
+              133
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (A1)"
+          ],
+          "epa_models": [
+            "Model 3 Long Range",
+            "Model 3 Long Range AWD",
+            "Model 3 Long Range AWD Performance",
+            "Model 3 Mid Range",
+            "Model 3 Standard Range",
+            "Model 3 Standard Range Plus"
+          ],
+          "epa_ids": [
+            41188,
+            41189,
+            41190,
+            41191,
+            41415,
+            41416
+          ],
+          "hp_source_models": [],
+          "label": "Electric"
+        }
+      ]
+    },
+    "2020": {
+      "engines": [
+        {
+          "displacement_l": null,
+          "cylinders": null,
+          "aspiration": "na",
+          "fuel_family": "electric",
+          "fuel": [
+            "Electricity"
+          ],
+          "flex_fuel": false,
+          "electrification": "ev",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              118,
+              148
+            ],
+            "hwy": [
+              107,
+              132
+            ],
+            "combined": [
+              113,
+              141
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (A1)"
+          ],
+          "epa_models": [
+            "Model 3 Long Range",
+            "Model 3 Long Range AWD",
+            "Model 3 Long Range Performance AWD (18in)",
+            "Model 3 Long Range Performance AWD (19in)",
+            "Model 3 Long Range Performance AWD (20in)",
+            "Model 3 Mid Range",
+            "Model 3 Standard Range",
+            "Model 3 Standard Range Plus"
+          ],
+          "epa_ids": [
+            42274,
+            42275,
+            42276,
+            42277,
+            42278,
+            42279,
+            42280,
+            42281
+          ],
+          "hp_source_models": [],
+          "label": "Electric"
+        }
+      ]
+    },
+    "2021": {
+      "engines": [
+        {
+          "displacement_l": null,
+          "cylinders": null,
+          "aspiration": "na",
+          "fuel_family": "electric",
+          "fuel": [
+            "Electricity"
+          ],
+          "flex_fuel": false,
+          "electrification": "ev",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              118,
+              150
+            ],
+            "hwy": [
+              107,
+              133
+            ],
+            "combined": [
+              113,
+              142
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (A1)"
+          ],
+          "epa_models": [
+            "Model 3 Long Range AWD",
+            "Model 3 Performance AWD",
+            "Model 3 Standard Range Plus RWD"
+          ],
+          "epa_ids": [
+            43401,
+            43402,
+            43821
+          ],
+          "hp_source_models": [],
+          "label": "Electric"
+        }
+      ]
+    },
+    "2022": {
+      "engines": [
+        {
+          "displacement_l": null,
+          "cylinders": null,
+          "aspiration": "na",
+          "fuel_family": "electric",
+          "fuel": [
+            "Electricity"
+          ],
+          "flex_fuel": false,
+          "electrification": "ev",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              118,
+              138
+            ],
+            "hwy": [
+              107,
+              126
+            ],
+            "combined": [
+              113,
+              132
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (A1)"
+          ],
+          "epa_models": [
+            "Model 3 Long Range AWD",
+            "Model 3 Performance AWD",
+            "Model 3 RWD"
+          ],
+          "epa_ids": [
+            45011,
+            45012,
+            45013
+          ],
+          "hp_source_models": [],
+          "label": "Electric"
+        }
+      ]
+    },
+    "2023": {
+      "engines": [
+        {
+          "displacement_l": null,
+          "cylinders": null,
+          "aspiration": "na",
+          "fuel_family": "electric",
+          "fuel": [
+            "Electricity"
+          ],
+          "flex_fuel": false,
+          "electrification": "ev",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              118,
+              138
+            ],
+            "hwy": [
+              107,
+              126
+            ],
+            "combined": [
+              113,
+              132
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (A1)"
+          ],
+          "epa_models": [
+            "Model 3 Long Range AWD",
+            "Model 3 Performance AWD",
+            "Model 3 RWD"
+          ],
+          "epa_ids": [
+            46204,
+            46205,
+            46206
+          ],
+          "hp_source_models": [],
+          "label": "Electric"
+        }
+      ]
+    },
+    "2024": {
+      "engines": [
+        {
+          "displacement_l": null,
+          "cylinders": null,
+          "aspiration": "na",
+          "fuel_family": "electric",
+          "fuel": [
+            "Electricity"
+          ],
+          "flex_fuel": false,
+          "electrification": "ev",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              117,
+              145
+            ],
+            "hwy": [
+              107,
+              128
+            ],
+            "combined": [
+              112,
+              137
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (A1)"
+          ],
+          "epa_models": [
+            "Model 3 Long Range AWD",
+            "Model 3 Long Range AWD-E",
+            "Model 3 Long Range RWD",
+            "Model 3 Performance AWD",
+            "Model 3 RWD"
+          ],
+          "epa_ids": [
+            47908,
+            47909,
+            48473,
+            48795,
+            48796
+          ],
+          "hp_source_models": [],
+          "label": "Electric"
+        }
+      ]
+    },
+    "2025": {
+      "engines": [
+        {
+          "displacement_l": null,
+          "cylinders": null,
+          "aspiration": "na",
+          "fuel_family": "electric",
+          "fuel": [
+            "Electricity"
+          ],
+          "flex_fuel": false,
+          "electrification": "ev",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              113,
+              145
+            ],
+            "hwy": [
+              104,
+              128
+            ],
+            "combined": [
+              109,
+              137
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (A1)"
+          ],
+          "epa_models": [
+            "Model 3 Long Range AWD",
+            "Model 3 Long Range RWD",
+            "Model 3 Long Range RWD-I (19in wheels)",
+            "Model 3 Performance AWD"
+          ],
+          "epa_ids": [
+            48764,
+            48765,
+            48996,
+            49154
+          ],
+          "hp_source_models": [],
+          "label": "Electric"
+        }
+      ]
+    },
+    "2026": {
+      "engines": [
+        {
+          "displacement_l": null,
+          "cylinders": null,
+          "aspiration": "na",
+          "fuel_family": "electric",
+          "fuel": [
+            "Electricity"
+          ],
+          "flex_fuel": false,
+          "electrification": "ev",
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              117,
+              147
+            ],
+            "hwy": [
+              106,
+              130
+            ],
+            "combined": [
+              111,
+              139
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (A1)"
+          ],
+          "epa_models": [
+            "Model 3 Performance",
+            "Model 3 Performance AWD",
+            "Model 3 Premium AWD",
+            "Model 3 Premium RWD",
+            "Model 3 Standard RWD"
+          ],
+          "epa_ids": [
+            50036,
+            50037,
+            50038,
+            50250,
+            50251
+          ],
+          "hp_source_models": [],
+          "label": "Electric"
+        }
+      ]
+    }
+  }
+}

@@ -55,6 +55,11 @@ def iter_models(cfg: dict | None = None):
             yield make, model, f"{make['slug']}/{model['slug']}"
 
 
+def source_makes(make: dict, model: dict) -> list[dict]:
+    """Every make a model is filed under upstream: its own, then any `former_make`."""
+    return [make] + ([model["former_make"]] if model.get("former_make") else [])
+
+
 def matches(rule: dict | None, text: str) -> bool:
     """Apply an {include, exclude} regex rule from makes.yaml to a source string."""
     if not rule or text is None:

@@ -1,0 +1,2361 @@
+{
+  "slug": "toyota/corolla",
+  "source": {
+    "name": "Transport Canada Canadian Vehicle Specifications via NHTSA vPIC",
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetCanadianVehicleSpecifications/"
+  },
+  "years": {
+    "2005": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4530,
+            4530
+          ],
+          "width_mm": [
+            1700,
+            1700
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2600,
+            2600
+          ],
+          "track_front_mm": [
+            1470,
+            1470
+          ],
+          "track_rear_mm": [
+            1450,
+            1450
+          ],
+          "curb_weight_kg": [
+            1135,
+            1210
+          ],
+          "length_in": [
+            178.3,
+            178.3
+          ],
+          "width_in": [
+            66.9,
+            66.9
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            102.4,
+            102.4
+          ],
+          "curb_weight_lb": [
+            2502,
+            2668
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN FWD /XRS",
+            "length_mm": 4530,
+            "length_in": 178.3,
+            "width_mm": 1700,
+            "width_in": 66.9,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1450,
+            "track_rear_in": 57.1,
+            "curb_weight_kg": 1210,
+            "curb_weight_lb": 2668,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "COROLLA 4DR SEDAN FWD CE/SPORT/LE",
+            "length_mm": 4530,
+            "length_in": 178.3,
+            "width_mm": 1700,
+            "width_in": 66.9,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1450,
+            "track_rear_in": 57.1,
+            "curb_weight_kg": 1135,
+            "curb_weight_lb": 2502,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2003
+          }
+        ]
+      }
+    },
+    "2006": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4530,
+            4530
+          ],
+          "width_mm": [
+            1700,
+            1700
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2600,
+            2600
+          ],
+          "track_front_mm": [
+            1470,
+            1470
+          ],
+          "track_rear_mm": [
+            1450,
+            1450
+          ],
+          "curb_weight_kg": [
+            1135,
+            1210
+          ],
+          "length_in": [
+            178.3,
+            178.3
+          ],
+          "width_in": [
+            66.9,
+            66.9
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            102.4,
+            102.4
+          ],
+          "curb_weight_lb": [
+            2502,
+            2668
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN FWD /XRS",
+            "length_mm": 4530,
+            "length_in": 178.3,
+            "width_mm": 1700,
+            "width_in": 66.9,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1450,
+            "track_rear_in": 57.1,
+            "curb_weight_kg": 1210,
+            "curb_weight_lb": 2668,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2003
+          },
+          {
+            "name": "COROLLA 4DR SEDAN FWD CE/SPORT/LE",
+            "length_mm": 4530,
+            "length_in": 178.3,
+            "width_mm": 1700,
+            "width_in": 66.9,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1450,
+            "track_rear_in": 57.1,
+            "curb_weight_kg": 1135,
+            "curb_weight_lb": 2502,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2003
+          }
+        ]
+      }
+    },
+    "2007": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4530,
+            4530
+          ],
+          "width_mm": [
+            1700,
+            1700
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2600,
+            2600
+          ],
+          "track_front_mm": [
+            1470,
+            1470
+          ],
+          "track_rear_mm": [
+            1450,
+            1450
+          ],
+          "curb_weight_kg": [
+            1135,
+            1135
+          ],
+          "length_in": [
+            178.3,
+            178.3
+          ],
+          "width_in": [
+            66.9,
+            66.9
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            102.4,
+            102.4
+          ],
+          "curb_weight_lb": [
+            2502,
+            2502
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN FWD CE/SPORT/LE",
+            "length_mm": 4530,
+            "length_in": 178.3,
+            "width_mm": 1700,
+            "width_in": 66.9,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1450,
+            "track_rear_in": 57.1,
+            "curb_weight_kg": 1135,
+            "curb_weight_lb": 2502,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2003
+          }
+        ]
+      }
+    },
+    "2008": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4530,
+            4530
+          ],
+          "width_mm": [
+            1700,
+            1700
+          ],
+          "height_mm": [
+            1480,
+            1480
+          ],
+          "wheelbase_mm": [
+            2600,
+            2600
+          ],
+          "track_front_mm": [
+            1470,
+            1470
+          ],
+          "track_rear_mm": [
+            1450,
+            1450
+          ],
+          "curb_weight_kg": [
+            1135,
+            1135
+          ],
+          "length_in": [
+            178.3,
+            178.3
+          ],
+          "width_in": [
+            66.9,
+            66.9
+          ],
+          "height_in": [
+            58.3,
+            58.3
+          ],
+          "wheelbase_in": [
+            102.4,
+            102.4
+          ],
+          "curb_weight_lb": [
+            2502,
+            2502
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN FWD CE/SPORT/LE",
+            "length_mm": 4530,
+            "length_in": 178.3,
+            "width_mm": 1700,
+            "width_in": 66.9,
+            "height_mm": 1480,
+            "height_in": 58.3,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1470,
+            "track_front_in": 57.9,
+            "track_rear_mm": 1450,
+            "track_rear_in": 57.1,
+            "curb_weight_kg": 1135,
+            "curb_weight_lb": 2502,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2003
+          }
+        ]
+      }
+    },
+    "2009": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4540,
+            4540
+          ],
+          "width_mm": [
+            1760,
+            1760
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2600,
+            2600
+          ],
+          "track_front_mm": [
+            1500,
+            1500
+          ],
+          "track_rear_mm": [
+            1510,
+            1510
+          ],
+          "curb_weight_kg": [
+            1279,
+            1279
+          ],
+          "length_in": [
+            178.7,
+            178.7
+          ],
+          "width_in": [
+            69.3,
+            69.3
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            102.4,
+            102.4
+          ],
+          "curb_weight_lb": [
+            2820,
+            2820
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN FWD CE/LE/S/XRS",
+            "length_mm": 4540,
+            "length_in": 178.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1279,
+            "curb_weight_lb": 2820,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2008
+          }
+        ]
+      }
+    },
+    "2010": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4540,
+            4540
+          ],
+          "width_mm": [
+            1760,
+            1760
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2600,
+            2600
+          ],
+          "track_front_mm": [
+            1500,
+            1500
+          ],
+          "track_rear_mm": [
+            1510,
+            1510
+          ],
+          "curb_weight_kg": [
+            1279,
+            1279
+          ],
+          "length_in": [
+            178.7,
+            178.7
+          ],
+          "width_in": [
+            69.3,
+            69.3
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            102.4,
+            102.4
+          ],
+          "curb_weight_lb": [
+            2820,
+            2820
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN FWD CE/LE/S/XRS",
+            "length_mm": 4540,
+            "length_in": 178.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1500,
+            "track_front_in": 59.1,
+            "track_rear_mm": 1510,
+            "track_rear_in": 59.4,
+            "curb_weight_kg": 1279,
+            "curb_weight_lb": 2820,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2008
+          }
+        ]
+      }
+    },
+    "2011": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4540,
+            4540
+          ],
+          "width_mm": [
+            1760,
+            1760
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2600,
+            2600
+          ],
+          "track_front_mm": [
+            1520,
+            1520
+          ],
+          "track_rear_mm": [
+            1520,
+            1520
+          ],
+          "curb_weight_kg": [
+            1255,
+            1300
+          ],
+          "length_in": [
+            178.7,
+            178.7
+          ],
+          "width_in": [
+            69.3,
+            69.3
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            102.4,
+            102.4
+          ],
+          "curb_weight_lb": [
+            2767,
+            2866
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN FWD CE/LE/S",
+            "length_mm": 4540,
+            "length_in": 178.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1255,
+            "curb_weight_lb": 2767,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "COROLLA 4DR SEDAN FWD XRS",
+            "length_mm": 4540,
+            "length_in": 178.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1300,
+            "curb_weight_lb": 2866,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2008
+          }
+        ]
+      }
+    },
+    "2012": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4540,
+            4540
+          ],
+          "width_mm": [
+            1760,
+            1760
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2600,
+            2600
+          ],
+          "track_front_mm": [
+            1520,
+            1520
+          ],
+          "track_rear_mm": [
+            1520,
+            1520
+          ],
+          "curb_weight_kg": [
+            1255,
+            1300
+          ],
+          "length_in": [
+            178.7,
+            178.7
+          ],
+          "width_in": [
+            69.3,
+            69.3
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            102.4,
+            102.4
+          ],
+          "curb_weight_lb": [
+            2767,
+            2866
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN FWD CE/LE/S",
+            "length_mm": 4540,
+            "length_in": 178.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1255,
+            "curb_weight_lb": 2767,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2008
+          },
+          {
+            "name": "COROLLA 4DR SEDAN FWD XRS",
+            "length_mm": 4540,
+            "length_in": 178.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1300,
+            "curb_weight_lb": 2866,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2008
+          }
+        ]
+      }
+    },
+    "2013": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4540,
+            4540
+          ],
+          "width_mm": [
+            1760,
+            1760
+          ],
+          "height_mm": [
+            1470,
+            1470
+          ],
+          "wheelbase_mm": [
+            2600,
+            2600
+          ],
+          "track_front_mm": [
+            1520,
+            1520
+          ],
+          "track_rear_mm": [
+            1520,
+            1520
+          ],
+          "curb_weight_kg": [
+            1260,
+            1260
+          ],
+          "length_in": [
+            178.7,
+            178.7
+          ],
+          "width_in": [
+            69.3,
+            69.3
+          ],
+          "height_in": [
+            57.9,
+            57.9
+          ],
+          "wheelbase_in": [
+            102.4,
+            102.4
+          ],
+          "curb_weight_lb": [
+            2778,
+            2778
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN FWD CE/LE/S",
+            "length_mm": 4540,
+            "length_in": 178.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1470,
+            "height_in": 57.9,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1260,
+            "curb_weight_lb": 2778,
+            "weight_dist_front_pct": 60,
+            "weight_dist_rear_pct": 40,
+            "measured_model_year": 2008
+          }
+        ]
+      }
+    },
+    "2014": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4640,
+            4640
+          ],
+          "width_mm": [
+            1780,
+            1780
+          ],
+          "height_mm": [
+            1460,
+            1460
+          ],
+          "wheelbase_mm": [
+            2700,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1520
+          ],
+          "track_rear_mm": [
+            1520,
+            1520
+          ],
+          "curb_weight_kg": [
+            1290,
+            1290
+          ],
+          "length_in": [
+            182.7,
+            182.7
+          ],
+          "width_in": [
+            70.1,
+            70.1
+          ],
+          "height_in": [
+            57.5,
+            57.5
+          ],
+          "wheelbase_in": [
+            106.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2844,
+            2844
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN CE/LE/S",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1780,
+            "width_in": 70.1,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1290,
+            "curb_weight_lb": 2844,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2014
+          }
+        ]
+      }
+    },
+    "2015": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4640,
+            4640
+          ],
+          "width_mm": [
+            1780,
+            1780
+          ],
+          "height_mm": [
+            1460,
+            1460
+          ],
+          "wheelbase_mm": [
+            2700,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1520
+          ],
+          "track_rear_mm": [
+            1520,
+            1520
+          ],
+          "curb_weight_kg": [
+            1265,
+            1265
+          ],
+          "length_in": [
+            182.7,
+            182.7
+          ],
+          "width_in": [
+            70.1,
+            70.1
+          ],
+          "height_in": [
+            57.5,
+            57.5
+          ],
+          "wheelbase_in": [
+            106.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2789,
+            2789
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN CE/LE/S",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1780,
+            "width_in": 70.1,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1265,
+            "curb_weight_lb": 2789,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2014
+          }
+        ]
+      }
+    },
+    "2016": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4640,
+            4640
+          ],
+          "width_mm": [
+            1780,
+            1780
+          ],
+          "height_mm": [
+            1460,
+            1460
+          ],
+          "wheelbase_mm": [
+            2700,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1520
+          ],
+          "track_rear_mm": [
+            1520,
+            1520
+          ],
+          "curb_weight_kg": [
+            1265,
+            1265
+          ],
+          "length_in": [
+            182.7,
+            182.7
+          ],
+          "width_in": [
+            70.1,
+            70.1
+          ],
+          "height_in": [
+            57.5,
+            57.5
+          ],
+          "wheelbase_in": [
+            106.3,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2789,
+            2789
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1780,
+            "width_in": 70.1,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1265,
+            "curb_weight_lb": 2789,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2014
+          }
+        ]
+      }
+    },
+    "2017": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4330,
+            4640
+          ],
+          "width_mm": [
+            1760,
+            1780
+          ],
+          "height_mm": [
+            1410,
+            1460
+          ],
+          "wheelbase_mm": [
+            2600,
+            2700
+          ],
+          "track_front_mm": [
+            1510,
+            1520
+          ],
+          "track_rear_mm": [
+            1500,
+            1520
+          ],
+          "curb_weight_kg": [
+            1265,
+            1335
+          ],
+          "length_in": [
+            170.5,
+            182.7
+          ],
+          "width_in": [
+            69.3,
+            70.1
+          ],
+          "height_in": [
+            55.5,
+            57.5
+          ],
+          "wheelbase_in": [
+            102.4,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2789,
+            2943
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1780,
+            "width_in": 70.1,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1265,
+            "curb_weight_lb": 2789,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2014
+          },
+          {
+            "name": "COROLLA iM 5DR HATCHBACK",
+            "length_mm": 4330,
+            "length_in": 170.5,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1410,
+            "height_in": 55.5,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1510,
+            "track_front_in": 59.4,
+            "track_rear_mm": 1500,
+            "track_rear_in": 59.1,
+            "curb_weight_kg": 1335,
+            "curb_weight_lb": 2943,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2018": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4330,
+            4640
+          ],
+          "width_mm": [
+            1760,
+            1780
+          ],
+          "height_mm": [
+            1410,
+            1460
+          ],
+          "wheelbase_mm": [
+            2600,
+            2700
+          ],
+          "track_front_mm": [
+            1510,
+            1520
+          ],
+          "track_rear_mm": [
+            1500,
+            1520
+          ],
+          "curb_weight_kg": [
+            1265,
+            1335
+          ],
+          "length_in": [
+            170.5,
+            182.7
+          ],
+          "width_in": [
+            69.3,
+            70.1
+          ],
+          "height_in": [
+            55.5,
+            57.5
+          ],
+          "wheelbase_in": [
+            102.4,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2789,
+            2943
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1780,
+            "width_in": 70.1,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1265,
+            "curb_weight_lb": 2789,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2014
+          },
+          {
+            "name": "COROLLA iM 5DR HATCHBACK",
+            "length_mm": 4330,
+            "length_in": 170.5,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1410,
+            "height_in": 55.5,
+            "wheelbase_mm": 2600,
+            "wheelbase_in": 102.4,
+            "track_front_mm": 1510,
+            "track_front_in": 59.4,
+            "track_rear_mm": 1500,
+            "track_rear_in": 59.1,
+            "curb_weight_kg": 1335,
+            "curb_weight_lb": 2943,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2017
+          }
+        ]
+      }
+    },
+    "2019": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4380,
+            4640
+          ],
+          "width_mm": [
+            1780,
+            1790
+          ],
+          "height_mm": [
+            1440,
+            1460
+          ],
+          "wheelbase_mm": [
+            2640,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1600
+          ],
+          "track_rear_mm": [
+            1520,
+            1600
+          ],
+          "curb_weight_kg": [
+            1265,
+            1388
+          ],
+          "length_in": [
+            172.4,
+            182.7
+          ],
+          "width_in": [
+            70.1,
+            70.5
+          ],
+          "height_in": [
+            56.7,
+            57.5
+          ],
+          "wheelbase_in": [
+            103.9,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2789,
+            3060
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1780,
+            "width_in": 70.1,
+            "height_mm": 1460,
+            "height_in": 57.5,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1265,
+            "curb_weight_lb": 2789,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2014
+          },
+          {
+            "name": "COROLLA 5DR HATCH",
+            "length_mm": 4380,
+            "length_in": 172.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2640,
+            "wheelbase_in": 103.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1388,
+            "curb_weight_lb": 3060,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2020": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4380,
+            4640
+          ],
+          "width_mm": [
+            1760,
+            1790
+          ],
+          "height_mm": [
+            1420,
+            1440
+          ],
+          "wheelbase_mm": [
+            2640,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1600
+          ],
+          "track_rear_mm": [
+            1520,
+            1600
+          ],
+          "curb_weight_kg": [
+            1315,
+            1395
+          ],
+          "length_in": [
+            172.4,
+            182.7
+          ],
+          "width_in": [
+            69.3,
+            70.5
+          ],
+          "height_in": [
+            55.9,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.9,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2899,
+            3075
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN HYBRID",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1380,
+            "curb_weight_lb": 3042,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN L/LE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1315,
+            "curb_weight_lb": 2899,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN SE/XLE/XSE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1395,
+            "curb_weight_lb": 3075,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 5DR HATCH",
+            "length_mm": 4380,
+            "length_in": 172.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2640,
+            "wheelbase_in": 103.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1388,
+            "curb_weight_lb": 3060,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2021": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4380,
+            4640
+          ],
+          "width_mm": [
+            1760,
+            1790
+          ],
+          "height_mm": [
+            1420,
+            1440
+          ],
+          "wheelbase_mm": [
+            2640,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1600
+          ],
+          "track_rear_mm": [
+            1520,
+            1600
+          ],
+          "curb_weight_kg": [
+            1315,
+            1395
+          ],
+          "length_in": [
+            172.4,
+            182.7
+          ],
+          "width_in": [
+            69.3,
+            70.5
+          ],
+          "height_in": [
+            55.9,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.9,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2899,
+            3075
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN HYBRID",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1380,
+            "curb_weight_lb": 3042,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN L/LE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1315,
+            "curb_weight_lb": 2899,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN SE/XLE/XSE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1395,
+            "curb_weight_lb": 3075,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 5DR HATCH",
+            "length_mm": 4380,
+            "length_in": 172.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2640,
+            "wheelbase_in": 103.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1388,
+            "curb_weight_lb": 3060,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2022": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4380,
+            4640
+          ],
+          "width_mm": [
+            1760,
+            1790
+          ],
+          "height_mm": [
+            1420,
+            1440
+          ],
+          "wheelbase_mm": [
+            2640,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1600
+          ],
+          "track_rear_mm": [
+            1520,
+            1600
+          ],
+          "curb_weight_kg": [
+            1315,
+            1395
+          ],
+          "length_in": [
+            172.4,
+            182.7
+          ],
+          "width_in": [
+            69.3,
+            70.5
+          ],
+          "height_in": [
+            55.9,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.9,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2899,
+            3075
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN HYBRID",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1380,
+            "curb_weight_lb": 3042,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN L/LE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1315,
+            "curb_weight_lb": 2899,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN SE/XLE/XSE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1395,
+            "curb_weight_lb": 3075,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 5DR HATCH",
+            "length_mm": 4380,
+            "length_in": 172.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2640,
+            "wheelbase_in": 103.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1388,
+            "curb_weight_lb": 3060,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2023": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4380,
+            4640
+          ],
+          "width_mm": [
+            1760,
+            1790
+          ],
+          "height_mm": [
+            1420,
+            1440
+          ],
+          "wheelbase_mm": [
+            2640,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1600
+          ],
+          "track_rear_mm": [
+            1520,
+            1600
+          ],
+          "curb_weight_kg": [
+            1315,
+            1397
+          ],
+          "length_in": [
+            172.4,
+            182.7
+          ],
+          "width_in": [
+            69.3,
+            70.5
+          ],
+          "height_in": [
+            55.9,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.9,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2899,
+            3080
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN HYBRID",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1380,
+            "curb_weight_lb": 3042,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN L/LE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1315,
+            "curb_weight_lb": 2899,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN SE/XLE/XSE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1395,
+            "curb_weight_lb": 3075,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 5DR HATCH",
+            "length_mm": 4380,
+            "length_in": 172.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2640,
+            "wheelbase_in": 103.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1397,
+            "curb_weight_lb": 3080,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2024": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4380,
+            4640
+          ],
+          "width_mm": [
+            1760,
+            1790
+          ],
+          "height_mm": [
+            1420,
+            1440
+          ],
+          "wheelbase_mm": [
+            2640,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1600
+          ],
+          "track_rear_mm": [
+            1520,
+            1600
+          ],
+          "curb_weight_kg": [
+            1315,
+            1397
+          ],
+          "length_in": [
+            172.4,
+            182.7
+          ],
+          "width_in": [
+            69.3,
+            70.5
+          ],
+          "height_in": [
+            55.9,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.9,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2899,
+            3080
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN HYBRID",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1380,
+            "curb_weight_lb": 3042,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN L/LE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1315,
+            "curb_weight_lb": 2899,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN SE/XLE/XSE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1395,
+            "curb_weight_lb": 3075,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 5DR HATCH",
+            "length_mm": 4380,
+            "length_in": 172.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2640,
+            "wheelbase_in": 103.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1397,
+            "curb_weight_lb": 3080,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2025": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4380,
+            4640
+          ],
+          "width_mm": [
+            1760,
+            1790
+          ],
+          "height_mm": [
+            1420,
+            1440
+          ],
+          "wheelbase_mm": [
+            2640,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1600
+          ],
+          "track_rear_mm": [
+            1520,
+            1600
+          ],
+          "curb_weight_kg": [
+            1340,
+            1485
+          ],
+          "length_in": [
+            172.4,
+            182.7
+          ],
+          "width_in": [
+            69.3,
+            70.5
+          ],
+          "height_in": [
+            55.9,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.9,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2954,
+            3274
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN HYBRID",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1385,
+            "curb_weight_lb": 3053,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN L/LE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1340,
+            "curb_weight_lb": 2954,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN SE/XLE/XSE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1406,
+            "curb_weight_lb": 3100,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 5DR HATCH",
+            "length_mm": 4380,
+            "length_in": 172.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2640,
+            "wheelbase_in": 103.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1397,
+            "curb_weight_lb": 3080,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA HYBRID 4DR LE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1385,
+            "curb_weight_lb": 3053,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA HYBRID 4DR LE AWD",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1435,
+            "curb_weight_lb": 3164,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA HYBRID 4DR SE/XSE AWD",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1485,
+            "curb_weight_lb": 3274,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    },
+    "2026": {
+      "dims": {
+        "summary": {
+          "length_mm": [
+            4380,
+            4640
+          ],
+          "width_mm": [
+            1760,
+            1790
+          ],
+          "height_mm": [
+            1420,
+            1440
+          ],
+          "wheelbase_mm": [
+            2640,
+            2700
+          ],
+          "track_front_mm": [
+            1520,
+            1600
+          ],
+          "track_rear_mm": [
+            1520,
+            1600
+          ],
+          "curb_weight_kg": [
+            1340,
+            1485
+          ],
+          "length_in": [
+            172.4,
+            182.7
+          ],
+          "width_in": [
+            69.3,
+            70.5
+          ],
+          "height_in": [
+            55.9,
+            56.7
+          ],
+          "wheelbase_in": [
+            103.9,
+            106.3
+          ],
+          "curb_weight_lb": [
+            2954,
+            3274
+          ]
+        },
+        "variants": [
+          {
+            "name": "COROLLA 4DR SEDAN HYBRID",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1385,
+            "curb_weight_lb": 3053,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN L/LE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1340,
+            "curb_weight_lb": 2954,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 4DR SEDAN SE/XLE/XSE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1406,
+            "curb_weight_lb": 3100,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA 5DR HATCH",
+            "length_mm": 4380,
+            "length_in": 172.4,
+            "width_mm": 1790,
+            "width_in": 70.5,
+            "height_mm": 1440,
+            "height_in": 56.7,
+            "wheelbase_mm": 2640,
+            "wheelbase_in": 103.9,
+            "track_front_mm": 1600,
+            "track_front_in": 63.0,
+            "track_rear_mm": 1600,
+            "track_rear_in": 63.0,
+            "curb_weight_kg": 1397,
+            "curb_weight_lb": 3080,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA HYBRID 4DR LE",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1385,
+            "curb_weight_lb": 3053,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA HYBRID 4DR LE AWD",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1435,
+            "curb_weight_lb": 3164,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          },
+          {
+            "name": "COROLLA HYBRID 4DR SE/XSE AWD",
+            "length_mm": 4640,
+            "length_in": 182.7,
+            "width_mm": 1760,
+            "width_in": 69.3,
+            "height_mm": 1420,
+            "height_in": 55.9,
+            "wheelbase_mm": 2700,
+            "wheelbase_in": 106.3,
+            "track_front_mm": 1520,
+            "track_front_in": 59.8,
+            "track_rear_mm": 1520,
+            "track_rear_in": 59.8,
+            "curb_weight_kg": 1485,
+            "curb_weight_lb": 3274,
+            "weight_dist_front_pct": 61,
+            "weight_dist_rear_pct": 39,
+            "measured_model_year": 2019
+          }
+        ]
+      }
+    }
+  }
+}

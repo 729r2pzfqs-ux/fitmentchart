@@ -1,0 +1,4206 @@
+{
+  "slug": "ram/1500",
+  "source": {
+    "vehicles_csv": "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+    "hp": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+  },
+  "years": {
+    "2005": {
+      "engines": [
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            215
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD"
+          ],
+          "epa_ids": [
+            21101,
+            21102
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 4.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            235,
+            240
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              11,
+              13
+            ],
+            "hwy": [
+              14,
+              17
+            ],
+            "combined": [
+              12,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            21103,
+            21159,
+            21535,
+            21536,
+            21566,
+            21576
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "4.7L 8-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              12,
+              12
+            ],
+            "hwy": [
+              16,
+              17
+            ],
+            "combined": [
+              13,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            21104,
+            21160
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "5.7L 8-cyl"
+        },
+        {
+          "displacement_l": 8.3,
+          "cylinders": 10,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              8,
+              9
+            ],
+            "hwy": [
+              11,
+              14
+            ],
+            "combined": [
+              9,
+              10
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD"
+          ],
+          "epa_ids": [
+            21105,
+            21106
+          ],
+          "hp_source_models": [],
+          "label": "8.3L 10-cyl"
+        }
+      ]
+    },
+    "2006": {
+      "engines": [
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            215
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD"
+          ],
+          "epa_ids": [
+            22182,
+            22183
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 4.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            235,
+            240
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              11,
+              13
+            ],
+            "hwy": [
+              14,
+              17
+            ],
+            "combined": [
+              12,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            22184,
+            22185,
+            22257,
+            22258,
+            22639,
+            22640
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "4.7L 8-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              17,
+              18
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            22186,
+            22259
+          ],
+          "hp_source_models": [],
+          "label": "5.7L 8-cyl"
+        },
+        {
+          "displacement_l": 8.3,
+          "cylinders": 10,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [],
+          "hp_match": null,
+          "mpg": {
+            "city": [
+              8,
+              9
+            ],
+            "hwy": [
+              11,
+              14
+            ],
+            "combined": [
+              9,
+              10
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD"
+          ],
+          "epa_ids": [
+            22187,
+            22188
+          ],
+          "hp_source_models": [],
+          "label": "8.3L 10-cyl"
+        }
+      ]
+    },
+    "2007": {
+      "engines": [
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            215
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD"
+          ],
+          "epa_ids": [
+            23639,
+            23640
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 4.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            235,
+            240
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              17,
+              17
+            ],
+            "combined": [
+              14,
+              14
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            23641,
+            23675,
+            23858,
+            23859
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "4.7L 8-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              17,
+              18
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            23642,
+            23676
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2008": {
+      "engines": [
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            215
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              16
+            ],
+            "hwy": [
+              19,
+              19
+            ],
+            "combined": [
+              16,
+              17
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD"
+          ],
+          "epa_ids": [
+            24515,
+            24516
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 4.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            235,
+            295
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              12,
+              13
+            ],
+            "hwy": [
+              16,
+              18
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            24517,
+            24534,
+            24942,
+            24957,
+            25062,
+            25063,
+            25068,
+            25069
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "4.7L 8-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              13
+            ],
+            "hwy": [
+              17,
+              19
+            ],
+            "combined": [
+              14,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            24518,
+            24535
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2009": {
+      "engines": [
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            215
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD"
+          ],
+          "epa_ids": [
+            26067
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 4.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            295,
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            26230,
+            26231
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "4.7L 8-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel or All-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            26068,
+            26084
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2010": {
+      "engines": [
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            215
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD"
+          ],
+          "epa_ids": [
+            29597
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 4.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            295,
+            310
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            29652,
+            29653
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "4.7L 8-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              20
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            28708,
+            28716
+          ],
+          "hp_source_models": [
+            "RAM 1500 2WD",
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2011": {
+      "engines": [
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            215
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD"
+          ],
+          "epa_ids": [
+            30455
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 4.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            295,
+            310
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              18,
+              19
+            ],
+            "combined": [
+              15,
+              15
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            30456,
+            30464
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD",
+            "RAM 1500 PICKUP 4WD"
+          ],
+          "label": "4.7L 8-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            30457,
+            30465
+          ],
+          "hp_source_models": [
+            "RAM 1500 2WD",
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2012": {
+      "engines": [
+        {
+          "displacement_l": 3.7,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            215
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              20,
+              20
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 4-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD"
+          ],
+          "epa_ids": [
+            31440
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "3.7L 6-cyl"
+        },
+        {
+          "displacement_l": 4.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            31856,
+            31863
+          ],
+          "hp_source_models": [
+            "RAM 1500 2WD"
+          ],
+          "label": "4.7L 8-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              14
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              15,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "Ram 1500 Pickup 2WD",
+            "Ram 1500 Pickup 4WD"
+          ],
+          "epa_ids": [
+            31441,
+            31451
+          ],
+          "hp_source_models": [
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2013": {
+      "engines": [
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            33193,
+            33209,
+            33352,
+            33353
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 4.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            310
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              14,
+              14
+            ],
+            "hwy": [
+              19,
+              20
+            ],
+            "combined": [
+              16,
+              16
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            33191,
+            33207
+          ],
+          "hp_source_models": [
+            "RAM 1500 2WD"
+          ],
+          "label": "4.7L 8-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345,
+            390
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              15
+            ],
+            "hwy": [
+              19,
+              21
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            33192,
+            33208,
+            33474,
+            34244
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2014": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            240
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              26,
+              27
+            ],
+            "combined": [
+              22,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            34721,
+            34722
+          ],
+          "hp_source_models": [
+            "1500 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            33958,
+            34109,
+            34110,
+            34114,
+            34499
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345,
+            390
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              15
+            ],
+            "hwy": [
+              19,
+              22
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            33957,
+            34108,
+            34113,
+            34115
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2015": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            230,
+            240
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              19,
+              21
+            ],
+            "hwy": [
+              26,
+              29
+            ],
+            "combined": [
+              22,
+              24
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            35816,
+            35819,
+            36004
+          ],
+          "hp_source_models": [
+            "1500 4X4",
+            "1500 ECODIESEL29 4X2"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            35741,
+            35742,
+            35743,
+            35745,
+            35746
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345,
+            390
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              15
+            ],
+            "hwy": [
+              19,
+              22
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            35739,
+            35740,
+            35744,
+            35747
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2016": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            230,
+            240
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              19,
+              21
+            ],
+            "hwy": [
+              26,
+              29
+            ],
+            "combined": [
+              22,
+              24
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            36545,
+            36547,
+            36597
+          ],
+          "hp_source_models": [
+            "1500 4X4",
+            "1500 ECODIESEL29 4X2"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              18
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            36486,
+            36544,
+            36598
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            345,
+            390
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              15
+            ],
+            "hwy": [
+              19,
+              22
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            36542,
+            36543,
+            36546,
+            36548
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "RAM 1500 PICKUP 2WD"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2017": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            230
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              27,
+              27
+            ],
+            "combined": [
+              22,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            39384,
+            39385
+          ],
+          "hp_source_models": [
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            37992,
+            37995
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            390
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              15
+            ],
+            "hwy": [
+              19,
+              22
+            ],
+            "combined": [
+              15,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            37991,
+            37993,
+            37994
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2018": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            230
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              27,
+              27
+            ],
+            "combined": [
+              22,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            39868,
+            39869
+          ],
+          "hp_source_models": [
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            39619,
+            39620
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            390
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              13,
+              15
+            ],
+            "hwy": [
+              18,
+              22
+            ],
+            "combined": [
+              14,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 6-spd",
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            39358,
+            39361,
+            39362
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl"
+        }
+      ]
+    },
+    "2019": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            230
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              27,
+              27
+            ],
+            "combined": [
+              22,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            41433,
+            41434
+          ],
+          "hp_source_models": [
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": true,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            40395,
+            40398
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            390,
+            395
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            39940,
+            39941,
+            40393,
+            40396
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            305
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              24,
+              26
+            ],
+            "combined": [
+              21,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            40736,
+            40737,
+            41273
+          ],
+          "hp_source_models": [
+            "1500 4X4",
+            "1500 HFE 4X2"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            395
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              17
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              19,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            40394,
+            40397
+          ],
+          "hp_source_models": [
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2020": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            260
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              29,
+              32
+            ],
+            "combined": [
+              24,
+              26
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            42154,
+            42155
+          ],
+          "hp_source_models": [
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            42398,
+            42401
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            390,
+            395
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            41653,
+            41657,
+            42399,
+            42402
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            305
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              24,
+              26
+            ],
+            "combined": [
+              21,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            41651,
+            41654,
+            41655
+          ],
+          "hp_source_models": [
+            "1500 4X4",
+            "1500 HFE 4X2"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            395
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              17
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              19,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            41652,
+            41656
+          ],
+          "hp_source_models": [
+            "1500 4X2"
+          ],
+          "label": "5.7L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2021": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            260
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              23
+            ],
+            "hwy": [
+              29,
+              33
+            ],
+            "combined": [
+              24,
+              26
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            43007,
+            43015,
+            43722
+          ],
+          "hp_source_models": [
+            "1500 4X2",
+            "1500 4X4",
+            "1500 HFE 4X2"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            43461,
+            43468
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            390,
+            395
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            43009,
+            43017,
+            43462,
+            43469
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "supercharged",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            707
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              10,
+              10
+            ],
+            "hwy": [
+              14,
+              14
+            ],
+            "combined": [
+              12,
+              12
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 TRX 4WD"
+          ],
+          "epa_ids": [
+            43416
+          ],
+          "hp_source_models": [
+            "1500 TRX 4X4"
+          ],
+          "label": "6.2L 8-cyl supercharged"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            305
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              24,
+              26
+            ],
+            "combined": [
+              21,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            43006,
+            43014,
+            43415
+          ],
+          "hp_source_models": [
+            "1500 4X4",
+            "1500 HFE 4X2"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            395
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              17
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              19,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            43008,
+            43016
+          ],
+          "hp_source_models": [
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2022": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            260
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              23
+            ],
+            "hwy": [
+              29,
+              33
+            ],
+            "combined": [
+              24,
+              26
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            44393,
+            44397,
+            44399
+          ],
+          "hp_source_models": [
+            "1500 4X2",
+            "1500 4X4",
+            "1500 HFE 4X2"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            44762,
+            44764
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            390,
+            395
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              21,
+              22
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            44396,
+            44402,
+            44763,
+            44765
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "supercharged",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            707
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              10,
+              10
+            ],
+            "hwy": [
+              14,
+              14
+            ],
+            "combined": [
+              12,
+              12
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 TRX 4WD"
+          ],
+          "epa_ids": [
+            44403
+          ],
+          "hp_source_models": [
+            "1500 TRX 4X4"
+          ],
+          "label": "6.2L 8-cyl supercharged"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            305
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              24,
+              26
+            ],
+            "combined": [
+              21,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            44394,
+            44398,
+            44400
+          ],
+          "hp_source_models": [
+            "1500 4X4",
+            "1500 HFE 4X2"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            395
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              18
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            44395,
+            44401
+          ],
+          "hp_source_models": [
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2023": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "diesel",
+          "fuel": [
+            "Diesel"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            260
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              21
+            ],
+            "hwy": [
+              29,
+              29
+            ],
+            "combined": [
+              24,
+              24
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            46226
+          ],
+          "hp_source_models": [
+            "1500 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo diesel"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            46288,
+            46290
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            390,
+            395
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              20,
+              22
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            46289,
+            46291,
+            46565,
+            46566
+          ],
+          "hp_source_models": [
+            "1500 2WD",
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "supercharged",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            707
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              10,
+              10
+            ],
+            "hwy": [
+              14,
+              14
+            ],
+            "combined": [
+              12,
+              12
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 TRX 4WD"
+          ],
+          "epa_ids": [
+            46229
+          ],
+          "hp_source_models": [
+            "1500 TRX 4X4"
+          ],
+          "label": "6.2L 8-cyl supercharged"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            305
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              24,
+              26
+            ],
+            "combined": [
+              21,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            46224,
+            46227,
+            46369
+          ],
+          "hp_source_models": [
+            "1500 4X4",
+            "1500 HFE 4X2"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            395
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              18
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            46225,
+            46228
+          ],
+          "hp_source_models": [
+            "1500 4X2"
+          ],
+          "label": "5.7L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2024": {
+      "engines": [
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            290
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              23,
+              25
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            47606,
+            47622
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "3.6L 6-cyl"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            390
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              15,
+              15
+            ],
+            "hwy": [
+              20,
+              21
+            ],
+            "combined": [
+              17,
+              17
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 Classic 2WD",
+            "1500 Classic 4WD"
+          ],
+          "epa_ids": [
+            47607,
+            47623
+          ],
+          "hp_source_models": [
+            "1500 2WD"
+          ],
+          "label": "5.7L 8-cyl"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "supercharged",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            707
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              10,
+              10
+            ],
+            "hwy": [
+              14,
+              14
+            ],
+            "combined": [
+              12,
+              12
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 TRX 4WD"
+          ],
+          "epa_ids": [
+            46855
+          ],
+          "hp_source_models": [
+            "1500 TRX 4X4"
+          ],
+          "label": "6.2L 8-cyl supercharged"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            305
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              24,
+              26
+            ],
+            "combined": [
+              21,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            46821,
+            46853,
+            47369
+          ],
+          "hp_source_models": [
+            "1500 4X4",
+            "1500 HFE 4X2"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            395
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              18
+            ],
+            "hwy": [
+              22,
+              23
+            ],
+            "combined": [
+              19,
+              20
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            46822,
+            46854
+          ],
+          "hp_source_models": [
+            "1500 4X2",
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl hybrid"
+        }
+      ]
+    },
+    "2025": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            540
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              18
+            ],
+            "hwy": [
+              16,
+              25
+            ],
+            "combined": [
+              15,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HO 4WD",
+            "1500 RHO 4WD"
+          ],
+          "epa_ids": [
+            47722,
+            47725,
+            47727,
+            47946
+          ],
+          "hp_source_models": [
+            "1500 RHO 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            305
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              19,
+              20
+            ],
+            "hwy": [
+              24,
+              26
+            ],
+            "combined": [
+              21,
+              23
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HFE 2WD"
+          ],
+          "epa_ids": [
+            47723,
+            47724,
+            47726
+          ],
+          "hp_source_models": [
+            "1500 4X4",
+            "1500 HFE 4X2"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        }
+      ]
+    },
+    "2026": {
+      "engines": [
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline",
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            420,
+            540
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              14,
+              18
+            ],
+            "hwy": [
+              16,
+              25
+            ],
+            "combined": [
+              15,
+              21
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 HO 4WD",
+            "1500 RHO 4WD"
+          ],
+          "epa_ids": [
+            49368,
+            49418,
+            49419,
+            49420
+          ],
+          "hp_source_models": [
+            "1500 4X4",
+            "1500 RHO 4X4"
+          ],
+          "label": "3.0L 6-cyl turbo"
+        },
+        {
+          "displacement_l": 6.2,
+          "cylinders": 8,
+          "aspiration": "supercharged",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Premium Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            707
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              10,
+              10
+            ],
+            "hwy": [
+              14,
+              14
+            ],
+            "combined": [
+              12,
+              12
+            ]
+          },
+          "drives": [
+            "All-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            50108
+          ],
+          "hp_source_models": [
+            "1500 TRX 4X4"
+          ],
+          "label": "6.2L 8-cyl supercharged"
+        },
+        {
+          "displacement_l": 3.6,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            305
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              20
+            ],
+            "hwy": [
+              18,
+              25
+            ],
+            "combined": [
+              17,
+              22
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD",
+            "1500 Warlock 4WD"
+          ],
+          "epa_ids": [
+            49834,
+            49840,
+            50448
+          ],
+          "hp_source_models": [
+            "1500 4X4"
+          ],
+          "label": "3.6L 6-cyl hybrid"
+        },
+        {
+          "displacement_l": 5.7,
+          "cylinders": 8,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Midgrade Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            395
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              16,
+              17
+            ],
+            "hwy": [
+              20,
+              22
+            ],
+            "combined": [
+              18,
+              19
+            ]
+          },
+          "drives": [
+            "4-Wheel Drive",
+            "Rear-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 8-spd"
+          ],
+          "epa_models": [
+            "1500 2WD",
+            "1500 4WD"
+          ],
+          "epa_ids": [
+            49421,
+            50096
+          ],
+          "hp_source_models": [
+            "1500 4X4"
+          ],
+          "label": "5.7L 8-cyl hybrid"
+        }
+      ]
+    }
+  }
+}

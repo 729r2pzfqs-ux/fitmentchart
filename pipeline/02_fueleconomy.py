@@ -27,13 +27,15 @@ Writes data/sources/fueleconomy/<make>/<model>.json
 from __future__ import annotations
 
 import csv
+import hashlib
 import io
 import re
 import zipfile
 from collections import defaultdict
 
 from common import (CACHE_DIR, download, has_flag, iter_models, load_config, log,
-                    matches, read_json, session, source_path, write_json, year_range)
+                    matches, read_json, session, source_makes, source_path, write_json,
+                    year_range)
 
 VEHICLES_URL = "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip"
 TESTCAR_PAGE = "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
@@ -43,7 +45,7 @@ TESTCAR_PAGE = "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-u
 GENERIC_TOKENS = {
     "2WD", "4WD", "AWD", "FWD", "RWD", "4X4", "4X2", "PICKUP", "TRUCK", "CAB",
     "CHASSIS", "THE", "WITH", "AND", "LBS", "GVWR", "MODE", "SPORT", "TIRES",
-    "TOYOTA", "FORD", "HONDA", "CHEVROLET", "CHEVY", "JEEP", "GMC",
+    "TOYOTA", "FORD", "HONDA", "CHEVROLET", "CHEVY", "JEEP", "GMC", "RAM", "DODGE",
 }
 ELECTRIFIED_RE = re.compile(r"HYBRID|\bHEV\b|\bPHEV\b|4XE|PLUG|\bBEV\b|\bEV\b", re.I)
 
@@ -139,14 +141,16 @@ TC_FIELDS = {
 
 # 2005-2009 files use EPA's older database column names: no make column (only the
 # manufacturer), carline instead of model, displacement in cubic inches, and a
-# fuel *code*. Manufacturer -> make is only needed for our makes; the carline
-# regex in makes.yaml then separates e.g. Silverado from Sierra under GM.
+# fuel *code*. Manufacturer -> makes is only needed for our makes; the carline
+# regex in makes.yaml then separates e.g. Silverado from Sierra under GM, and
+# Wrangler from Ram under Chrysler.
 OLD_FIELDS = {"year": "mdlyr_dt", "mfr": "vi_mfr_nm", "model": "cl_nm",
               "cid": "gbe_cid_msr", "hp": "vc_rtd_hp_msr", "cyl": "vc_cyl_cnt",
               "fuel_cd": "veh_fl_typ_cd", "proc": "tst_prc_cd", "fe": "gt_rnd_adj_qty"}
-OLD_MFR_MAKE = {"TOYOTA": "TOYOTA", "FORD MOTOR COMPANY": "FORD", "HONDA": "HONDA",
-                "GENERAL MOTORS": "CHEVROLET", "CHRYSLER LLC": "JEEP",
-                "DAIMLERCHRYSLER": "JEEP", "DAIMLERCHRYSLER CORPORATION": "JEEP"}
+CHRYSLER_MAKES = ("JEEP", "DODGE")
+OLD_MFR_MAKES = {"TOYOTA": ("TOYOTA",), "FORD MOTOR COMPANY": ("FORD",), "HONDA": ("HONDA",),
+                 "GENERAL MOTORS": ("CHEVROLET",), "CHRYSLER LLC": CHRYSLER_MAKES,
+                 "DAIMLERCHRYSLER": CHRYSLER_MAKES, "DAIMLERCHRYSLER CORPORATION": CHRYSLER_MAKES}
 # Fuel codes, from the newer files' code/description pairs:
 # 19 "Federal Cert Diesel 7-15 PPM Sulfur", 41 "CNG", 62 "Electricity"
 OLD_FUEL_CODES = {"19": "diesel", "41": "cng", "62": "electric"}
@@ -159,29 +163,29 @@ FE_TOLERANCE = 0.006  # test results are rounded to 0.1 mpg; tested configs matc
 
 
 def _normalise_testcar(r: dict) -> dict | None:
-    """Map a raw row from either file format to {make, model, displ, cyl, hp, fuel_family, cat, fe}."""
+    """Map a raw row from either file format to {makes, model, displ, cyl, hp, fuel_family, cat, fe}."""
     if "mdlyr_dt" in r:
         g = {k: r.get(v) for k, v in OLD_FIELDS.items()}
-        make = OLD_MFR_MAKE.get(str(g["mfr"] or "").strip().upper())
+        rec_makes = OLD_MFR_MAKES.get(str(g["mfr"] or "").strip().upper())
         cid = fnum(g["cid"])
         displ = cid * CID_TO_L if cid else None
         family = OLD_FUEL_CODES.get(str(g["fuel_cd"] or "").strip(), "gasoline")
     else:
         g = {k: r.get(v) for k, v in TC_FIELDS.items()}
-        make = str(g["make"] or "").strip().upper()
+        rec_makes = (str(g["make"] or "").strip().upper(),)
         displ = fnum(g["displ"])
         desc = str(g["fuel"] or "").lower()
         family = ("diesel" if "diesel" in desc else "cng" if "cng" in desc or "natural gas" in desc
                   else "electric" if "electric" in desc else "gasoline")
     hp, cyl = fnum(g["hp"]), fnum(g["cyl"])
-    if not make or not hp or not displ:
+    if not rec_makes or not rec_makes[0] or not hp or not displ:
         return None
     proc = str(g["proc"] or "").strip()
     if proc.endswith(".0"):
         proc = proc[:-2]
     cat = "city" if proc in FTP_CODES else "hwy" if proc in HWY_CODES else None
     fe = fnum(g["fe"])
-    return {"make": make, "model": str(g["model"] or "").strip().upper(),
+    return {"makes": rec_makes, "model": str(g["model"] or "").strip().upper(),
             "displ": round(displ, 3), "cyl": int(cyl) if cyl else None,
             "hp": int(round(hp)), "fuel_family": family,
             "cat": cat, "fe": round(fe, 2) if (cat and fe) else None}
@@ -219,8 +223,10 @@ def load_testcars(years: list[int], makes: set[str], refresh: bool) -> dict[int,
     """Return {year: [ {make, model, displ, cyl, hp, fuel_family, cat, fe} ]} for our makes."""
     links = testcar_links(refresh)
     out: dict[int, list[dict]] = {}
+    # the cache only holds our makes, so a new make must not reuse an older extract
+    tag = hashlib.sha1(",".join(sorted(makes)).encode()).hexdigest()[:8]
     for y in years:
-        cache = CACHE_DIR / "testcar" / f"{y}.json"
+        cache = CACHE_DIR / "testcar" / f"{y}-{tag}.json"
         if cache.exists() and not refresh:
             out[y] = read_json(cache)
             continue
@@ -230,9 +236,10 @@ def load_testcars(years: list[int], makes: set[str], refresh: bool) -> dict[int,
             path = download(url, f"testcar/{fname}", refresh=refresh, min_bytes=10_000)
             for r in _rows_from_file(path):
                 rec = _normalise_testcar(r)
-                if rec and rec["make"] in makes:
-                    rec["file"] = fname
-                    recs.append(rec)
+                for mk in (rec["makes"] if rec else ()):
+                    if mk in makes:
+                        recs.append({"make": mk, **{k: v for k, v in rec.items() if k != "makes"},
+                                     "file": fname})
         # de-duplicate (each config appears once per test procedure)
         seen, uniq = set(), []
         for r in recs:
@@ -378,15 +385,17 @@ def main() -> None:
     log("loading EPA vehicles.csv ...")
     vehicles = load_vehicles(refresh)
     log(f"  {len(vehicles)} rows")
-    makes_upper = {m["epa_make"].upper() for m in cfg["makes"]}
+    makes_upper = {mk["epa_make"].upper() for make, model, _ in iter_models(cfg)
+                   for mk in source_makes(make, model)}
     log("loading EPA test-car lists (rated HP) ...")
     testcars = load_testcars(years, makes_upper, refresh)
 
     for make, model, slug in iter_models(cfg):
         skel = read_json(source_path("vpic", slug))
         rows_by_year: dict[str, list[dict]] = defaultdict(list)
+        epa_makes = {mk["epa_make"] for mk in source_makes(make, model)}
         for r in vehicles:
-            if r["make"] != make["epa_make"]:
+            if r["make"] not in epa_makes:
                 continue
             if not matches(model["epa"], r["model"]):
                 continue
@@ -398,7 +407,7 @@ def main() -> None:
         hp_hits = hp_total = 0
         for y in sorted(rows_by_year):
             tc = [c for c in testcars.get(int(y), [])
-                  if c["make"] == make["epa_make"].upper() and matches(model["testcar"], c["model"])]
+                  if c["make"] in {m.upper() for m in epa_makes} and matches(model["testcar"], c["model"])]
             groups: dict[tuple, dict] = {}
             for r in rows_by_year[y]:
                 displ = fnum(r["displ"])

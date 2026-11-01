@@ -1,0 +1,2790 @@
+{
+  "slug": "honda/accord",
+  "source": {
+    "vehicles_csv": "https://fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+    "hp": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+  },
+  "years": {
+    "2005": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            160
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              23
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              24,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            20867,
+            20868
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            240
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              19
+            ],
+            "hwy": [
+              27,
+              28
+            ],
+            "combined": [
+              21,
+              22
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            20869,
+            20870
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "3.0L 6-cyl"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            232
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              25,
+              25
+            ],
+            "hwy": [
+              33,
+              33
+            ],
+            "combined": [
+              28,
+              28
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Accord Hybrid"
+          ],
+          "epa_ids": [
+            21539
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "3.0L 6-cyl hybrid"
+        }
+      ]
+    },
+    "2006": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            166
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              23
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              25,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            21960,
+            21961
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            244
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              18
+            ],
+            "hwy": [
+              26,
+              27
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            21962,
+            21963
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "3.0L 6-cyl"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            253
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Accord Hybrid"
+          ],
+          "epa_ids": [
+            22676
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "3.0L 6-cyl hybrid"
+        }
+      ]
+    },
+    "2007": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            166
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              21,
+              23
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              25,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            23567,
+            23568
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            244
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              18
+            ],
+            "hwy": [
+              26,
+              27
+            ],
+            "combined": [
+              21,
+              21
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            23569,
+            23570
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "3.0L 6-cyl"
+        },
+        {
+          "displacement_l": 3.0,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            253
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              24,
+              24
+            ],
+            "hwy": [
+              32,
+              32
+            ],
+            "combined": [
+              27,
+              27
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd"
+          ],
+          "epa_models": [
+            "Accord Hybrid"
+          ],
+          "epa_ids": [
+            23571
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "3.0L 6-cyl hybrid"
+        }
+      ]
+    },
+    "2008": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            177,
+            190
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              30,
+              31
+            ],
+            "combined": [
+              24,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Coupe"
+          ],
+          "epa_ids": [
+            24825,
+            24826,
+            24900,
+            24901
+          ],
+          "hp_source_models": [
+            "ACCORD 4DR SEDAN"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              25,
+              29
+            ],
+            "combined": [
+              20,
+              22
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Coupe"
+          ],
+          "epa_ids": [
+            24827,
+            24828,
+            24902
+          ],
+          "hp_source_models": [
+            "ACCORD 2DR COUPE",
+            "ACCORD 4DR SEDAN"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2009": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            177,
+            190
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              30,
+              31
+            ],
+            "combined": [
+              24,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Coupe"
+          ],
+          "epa_ids": [
+            25917,
+            25918,
+            26005,
+            26006
+          ],
+          "hp_source_models": [
+            "ACCORD 4DR SEDAN"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            271
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              25,
+              29
+            ],
+            "combined": [
+              20,
+              22
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Coupe"
+          ],
+          "epa_ids": [
+            25919,
+            25920,
+            26007
+          ],
+          "hp_source_models": [
+            "ACCORD 2DR COUPE",
+            "ACCORD 4DR SEDAN"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2010": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            177,
+            190
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              21,
+              22
+            ],
+            "hwy": [
+              31,
+              31
+            ],
+            "combined": [
+              25,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Coupe"
+          ],
+          "epa_ids": [
+            29654,
+            29655,
+            29658,
+            29659
+          ],
+          "hp_source_models": [
+            "ACCORD EX/EX-L SEDAN",
+            "ACCORD LX/LX+ SEDAN"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            268,
+            271
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              17,
+              19
+            ],
+            "hwy": [
+              25,
+              29
+            ],
+            "combined": [
+              20,
+              23
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Coupe"
+          ],
+          "epa_ids": [
+            29656,
+            29657,
+            29660
+          ],
+          "hp_source_models": [
+            "ACCORD EX-L COUPE",
+            "ACCORD EX/EX-L SEDAN"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2011": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            190
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              31,
+              33
+            ],
+            "combined": [
+              26,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Coupe"
+          ],
+          "epa_ids": [
+            30628,
+            30629,
+            30684,
+            30685
+          ],
+          "hp_source_models": [
+            "ACCORD EX/EX-L COUPE",
+            "ACCORD LX COUPE",
+            "ACCORD LX/EX/EX-L COUPE"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            271
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              20
+            ],
+            "hwy": [
+              26,
+              30
+            ],
+            "combined": [
+              21,
+              23
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S5)",
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Coupe"
+          ],
+          "epa_ids": [
+            30630,
+            30631,
+            30686
+          ],
+          "hp_source_models": [
+            "ACCORD EX-L COUPE",
+            "ACCORD EX/EX-L SEDAN"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2012": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            177,
+            190
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              31,
+              33
+            ],
+            "combined": [
+              26,
+              27
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 5-spd",
+            "Manual 5-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Coupe"
+          ],
+          "epa_ids": [
+            31681,
+            31682,
+            31787,
+            31788
+          ],
+          "hp_source_models": [
+            "ACCORD LX COUPE",
+            "ACCORD LX/EX/EX-L COUPE",
+            "ACCORD LX/LX+/SE SEDAN"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            271
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              20
+            ],
+            "hwy": [
+              26,
+              30
+            ],
+            "combined": [
+              21,
+              23
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S5)",
+            "Automatic 5-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Coupe"
+          ],
+          "epa_ids": [
+            31683,
+            31684,
+            31789
+          ],
+          "hp_source_models": [
+            "ACCORD EX-L COUPE",
+            "ACCORD EX/EX-L SEDAN"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2013": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            183,
+            185,
+            189
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              24,
+              26
+            ],
+            "hwy": [
+              34,
+              35
+            ],
+            "combined": [
+              27,
+              30
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            33170,
+            33171,
+            33269
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              28,
+              33
+            ],
+            "combined": [
+              21,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            33172,
+            33173,
+            33174
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2014": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            183,
+            185,
+            189
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              24,
+              26
+            ],
+            "hwy": [
+              33,
+              35
+            ],
+            "combined": [
+              27,
+              30
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            34313,
+            34344,
+            34345
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              28,
+              34
+            ],
+            "combined": [
+              21,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            34314,
+            34315,
+            34346
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "phev",
+          "hp": [
+            196
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              47,
+              47
+            ],
+            "hwy": [
+              46,
+              46
+            ],
+            "combined": [
+              46,
+              46
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Plug-in Hybrid"
+          ],
+          "epa_ids": [
+            33557
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "2.0L 4-cyl plug-in hybrid"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            196
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              49,
+              49
+            ],
+            "hwy": [
+              45,
+              45
+            ],
+            "combined": [
+              47,
+              47
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid"
+          ],
+          "epa_ids": [
+            34395
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2015": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            185,
+            189
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              23,
+              27
+            ],
+            "hwy": [
+              34,
+              35
+            ],
+            "combined": [
+              27,
+              30
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            35551,
+            35552,
+            35553
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              28,
+              34
+            ],
+            "combined": [
+              21,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            35548,
+            35549,
+            35550
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            196
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              49,
+              49
+            ],
+            "hwy": [
+              45,
+              45
+            ],
+            "combined": [
+              47,
+              47
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid"
+          ],
+          "epa_ids": [
+            35627
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2016": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            185
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              23,
+              27
+            ],
+            "hwy": [
+              33,
+              36
+            ],
+            "combined": [
+              27,
+              30
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            36850,
+            36851,
+            36852
+          ],
+          "hp_source_models": [
+            "ACCORD",
+            "ACCORD L4"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              28,
+              33
+            ],
+            "combined": [
+              21,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            36847,
+            36848,
+            36849
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "3.5L 6-cyl"
+        }
+      ]
+    },
+    "2017": {
+      "engines": [
+        {
+          "displacement_l": 2.4,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            185
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              23,
+              27
+            ],
+            "hwy": [
+              32,
+              36
+            ],
+            "combined": [
+              26,
+              30
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            37624,
+            37625,
+            37626
+          ],
+          "hp_source_models": [
+            "ACCORD",
+            "ACCORD L4"
+          ],
+          "label": "2.4L 4-cyl"
+        },
+        {
+          "displacement_l": 3.5,
+          "cylinders": 6,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            278
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              18,
+              21
+            ],
+            "hwy": [
+              28,
+              33
+            ],
+            "combined": [
+              21,
+              25
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S6)",
+            "Automatic 6-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            37621,
+            37622,
+            37623
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "3.5L 6-cyl"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            143
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              49,
+              49
+            ],
+            "hwy": [
+              47,
+              47
+            ],
+            "combined": [
+              48,
+              48
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid"
+          ],
+          "epa_ids": [
+            37825
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2018": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            192,
+            193
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              26,
+              30
+            ],
+            "hwy": [
+              35,
+              38
+            ],
+            "combined": [
+              30,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            39594,
+            39595,
+            39596
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            252
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              32,
+              34
+            ],
+            "combined": [
+              26,
+              27
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord 2.0T Sport/Touring"
+          ],
+          "epa_ids": [
+            39751,
+            39754,
+            39755
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            143
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              47,
+              47
+            ],
+            "hwy": [
+              47,
+              47
+            ],
+            "combined": [
+              47,
+              47
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid"
+          ],
+          "epa_ids": [
+            39918
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2019": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            192,
+            193
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              26,
+              30
+            ],
+            "hwy": [
+              35,
+              38
+            ],
+            "combined": [
+              30,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            40889,
+            40890,
+            40891
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            252
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              32,
+              34
+            ],
+            "combined": [
+              26,
+              27
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic 10-spd",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord 2.0T Sport/Touring"
+          ],
+          "epa_ids": [
+            40874,
+            40892,
+            40893
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            143
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              48,
+              48
+            ],
+            "hwy": [
+              48,
+              48
+            ],
+            "combined": [
+              48,
+              48
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid"
+          ],
+          "epa_ids": [
+            40943
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2020": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            192,
+            193
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              26,
+              30
+            ],
+            "hwy": [
+              35,
+              38
+            ],
+            "combined": [
+              30,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            42069,
+            42070,
+            42071
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            252
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              23
+            ],
+            "hwy": [
+              32,
+              34
+            ],
+            "combined": [
+              26,
+              27
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)",
+            "Manual 6-spd"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord 2.0T Sport/Touring"
+          ],
+          "epa_ids": [
+            42064,
+            42072,
+            42073
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            143
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              48,
+              48
+            ],
+            "hwy": [
+              47,
+              47
+            ],
+            "combined": [
+              48,
+              48
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid"
+          ],
+          "epa_ids": [
+            42135
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2021": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            192
+          ],
+          "hp_match": "mixed",
+          "mpg": {
+            "city": [
+              29,
+              30
+            ],
+            "hwy": [
+              35,
+              38
+            ],
+            "combined": [
+              32,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Sport/Touring"
+          ],
+          "epa_ids": [
+            43361,
+            43362
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            252
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              32,
+              32
+            ],
+            "combined": [
+              26,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "Accord Sport/Touring"
+          ],
+          "epa_ids": [
+            43363
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            143
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              44,
+              48
+            ],
+            "hwy": [
+              41,
+              48
+            ],
+            "combined": [
+              43,
+              48
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid",
+            "Accord Hybrid Sport/Touring"
+          ],
+          "epa_ids": [
+            43364,
+            43365
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2022": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            192
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              29,
+              30
+            ],
+            "hwy": [
+              35,
+              38
+            ],
+            "combined": [
+              32,
+              33
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (AV-S7)",
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord Sport/Touring"
+          ],
+          "epa_ids": [
+            44565,
+            44566
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            252
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              22,
+              22
+            ],
+            "hwy": [
+              32,
+              32
+            ],
+            "combined": [
+              26,
+              26
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (S10)"
+          ],
+          "epa_models": [
+            "Accord Sport/Touring"
+          ],
+          "epa_ids": [
+            44567
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "2.0L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            143
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              44,
+              48
+            ],
+            "hwy": [
+              41,
+              47
+            ],
+            "combined": [
+              43,
+              47
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid",
+            "Accord Hybrid Sport/Touring"
+          ],
+          "epa_ids": [
+            44568,
+            44569
+          ],
+          "hp_source_models": [
+            "ACCORD HYBRID"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2023": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            192
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              29,
+              29
+            ],
+            "hwy": [
+              37,
+              37
+            ],
+            "combined": [
+              32,
+              32
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            46363
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            146
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              46,
+              51
+            ],
+            "hwy": [
+              41,
+              44
+            ],
+            "combined": [
+              44,
+              48
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid",
+            "Accord Hybrid Sport/Touring"
+          ],
+          "epa_ids": [
+            46358,
+            46364
+          ],
+          "hp_source_models": [
+            "ACCORD",
+            "ACCORD SPORT/TOURING"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2024": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            192
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              29,
+              29
+            ],
+            "hwy": [
+              37,
+              37
+            ],
+            "combined": [
+              32,
+              32
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            47103
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            146
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              46,
+              51
+            ],
+            "hwy": [
+              41,
+              44
+            ],
+            "combined": [
+              44,
+              48
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid",
+            "Accord Hybrid Sport/Touring"
+          ],
+          "epa_ids": [
+            47073,
+            47104
+          ],
+          "hp_source_models": [
+            "ACCORD",
+            "ACCORD SPORT/TOURING"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2025": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            192
+          ],
+          "hp_match": "name",
+          "mpg": {
+            "city": [
+              29,
+              29
+            ],
+            "hwy": [
+              37,
+              37
+            ],
+            "combined": [
+              32,
+              32
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord"
+          ],
+          "epa_ids": [
+            48504
+          ],
+          "hp_source_models": [
+            "ACCORD"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            146
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              46,
+              51
+            ],
+            "hwy": [
+              41,
+              44
+            ],
+            "combined": [
+              44,
+              48
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid",
+            "Accord Hybrid Sport/Touring"
+          ],
+          "epa_ids": [
+            48497,
+            48505
+          ],
+          "hp_source_models": [
+            "ACCORD",
+            "ACCORD SPORT/TOURING"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    },
+    "2026": {
+      "engines": [
+        {
+          "displacement_l": 1.5,
+          "cylinders": 4,
+          "aspiration": "turbo",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": null,
+          "hp": [
+            192
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              28,
+              29
+            ],
+            "hwy": [
+              36,
+              37
+            ],
+            "combined": [
+              31,
+              32
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord",
+            "Accord SE"
+          ],
+          "epa_ids": [
+            50055,
+            50070
+          ],
+          "hp_source_models": [
+            "ACCORD",
+            "ACCORD SE (19INCH WHEELS)"
+          ],
+          "label": "1.5L 4-cyl turbo"
+        },
+        {
+          "displacement_l": 2.0,
+          "cylinders": 4,
+          "aspiration": "na",
+          "fuel_family": "gasoline",
+          "fuel": [
+            "Regular Gasoline"
+          ],
+          "flex_fuel": false,
+          "electrification": "hybrid",
+          "hp": [
+            146
+          ],
+          "hp_match": "fe",
+          "mpg": {
+            "city": [
+              46,
+              51
+            ],
+            "hwy": [
+              41,
+              44
+            ],
+            "combined": [
+              44,
+              48
+            ]
+          },
+          "drives": [
+            "Front-Wheel Drive"
+          ],
+          "transmissions": [
+            "Automatic (variable gear ratios)"
+          ],
+          "epa_models": [
+            "Accord Hybrid",
+            "Accord Hybrid Sport/Touring"
+          ],
+          "epa_ids": [
+            50056,
+            50071
+          ],
+          "hp_source_models": [
+            "ACCORD",
+            "ACCORD SPORT/TOURING"
+          ],
+          "label": "2.0L 4-cyl hybrid"
+        }
+      ]
+    }
+  }
+}

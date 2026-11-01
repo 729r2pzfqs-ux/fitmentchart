@@ -1,0 +1,2521 @@
+{
+  "slug": "honda/accord",
+  "source": {
+    "name": "Owner's manuals, OEM towing guides/spec sheets and fitment catalogues",
+    "file": "data/manuals/honda/accord.yaml",
+    "documents": 41,
+    "document_types": [
+      "aftermarket_fitment",
+      "oem_spec_sheet",
+      "third_party_reference"
+    ]
+  },
+  "notes": [],
+  "years": {
+    "2005": {
+      "tires": [
+        {
+          "trim": "DX",
+          "size": "P195/65R15",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2005-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P195/65R15 30 psi 29 psi DX",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX EX V6 LX V6 SE",
+          "size": "P205/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2005-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P205/60R16 32 psi 30 psi EX EX V6 LX V6 SE",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "LX",
+          "size": "P205/65R15",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2005-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P205/65R15 30 psi 29 psi LX",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX Coupe V6 (6-Speed)",
+          "size": "P215/50R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2005-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/50R17 32 psi 32 psi EX Coupe V6 (6-Speed)",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P215/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2005 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2005-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/60R16 32 psi 32 psi Hybrid",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4L",
+            "group": "51R",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 17,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2005 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2005 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2005&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 17\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2006": {
+      "tires": [
+        {
+          "trim": "Value Package",
+          "size": "P195/65R15",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2006-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P195/65R15 30 psi 29 psi Value Package",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX LX Coupe 4 Cylinder LX Special Edition",
+          "size": "P205/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2006-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P205/60R16 32 psi 30 psi EX LX Coupe 4 Cylinder LX Special Edition",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "LX Sedan 4 Cylinder",
+          "size": "P205/65R15",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2006-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P205/65R15 30 psi 29 psi LX Sedan 4 Cylinder",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX V6 LX V6",
+          "size": "P215/50R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2006-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/50R17 32 psi 29 psi EX V6 LX V6",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P215/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2006 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2006-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/60R16 32 psi 32 psi Hybrid",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4L",
+            "group": "51R",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 17,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2006 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2006 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2006&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 17\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2007": {
+      "tires": [
+        {
+          "trim": "Value Package",
+          "size": "P195/65R15",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2007-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P195/65R15 32 psi 30 psi Value Package",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX LX Coupe 4 Cylinder LX Sedan 4 Cylinder Special Edition",
+          "size": "P205/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2007-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P205/60R16 30 psi 30 psi EX LX Coupe 4 Cylinder LX Sedan 4 Cylinder Special Edition",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "LX Sedan 4 Cylinder",
+          "size": "P205/65R15",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2007-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P205/65R15 29 psi 29 psi LX Sedan 4 Cylinder",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX Coupe V6 EX Sedan V6 LX Coupe V6 LX Sedan V6 Special Edition",
+          "size": "P215/50R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2007-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/50R17 32 psi 32 psi EX Coupe V6 EX Sedan V6 LX Coupe V6 LX Sedan V6 Special Edition",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "P215/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2007 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2007-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/60R16 32 psi 32 psi Hybrid",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4L",
+            "group": "51R",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2005 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2007 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 17,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2007 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2007&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2007 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2007&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 17\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2008": {
+      "tires": [
+        {
+          "trim": "LX Sedan LX-P",
+          "size": "P215/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2008-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/60R16 30 psi 30 psi LX Sedan LX-P",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX EX-L LX Coupe LX-S",
+          "size": "P225/50R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2008-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P225/50R17 32 psi 32 psi EX EX-L LX Coupe LX-S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX-L Coupe V6",
+          "size": "P235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2008 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2008-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/45R18 34 psi 34 psi EX-L Coupe V6",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2009": {
+      "tires": [
+        {
+          "trim": "LX LX-P",
+          "size": "P215/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2009-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/60R16 30 psi 30 psi LX LX-P",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX EX-L LX-S",
+          "size": "P225/50R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2009-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P225/50R17 32 psi 32 psi EX EX-L LX-S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX-L Coupe V6",
+          "size": "P235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2009 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2009-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/45R18 34 psi 34 psi EX-L Coupe V6",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2008 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2009 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2010": {
+      "tires": [
+        {
+          "trim": "LX LX-P",
+          "size": "P215/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2010-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/60R16 30 psi 30 psi LX LX-P",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX EX-L LX-S",
+          "size": "P225/50R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2010-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P225/50R17 32 psi 32 psi EX EX-L LX-S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX-L Coupe V6",
+          "size": "P235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2010 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2010-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/45R18 34 psi 34 psi EX-L Coupe V6",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4L",
+            "group": "51R",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2011": {
+      "tires": [
+        {
+          "trim": "LX LX-P SE",
+          "size": "P215/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2011-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/60R16 30 psi 30 psi LX LX-P SE",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX EX-L LX-S",
+          "size": "P225/50R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2011-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P225/50R17 32 psi 32 psi EX EX-L LX-S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX-L Coupe V6",
+          "size": "P235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2011 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2011-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/45R18 32 psi 32 psi EX-L Coupe V6",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4L",
+            "group": "51R",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2010 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2011 L4/2.4L 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2012": {
+      "tires": [
+        {
+          "trim": "LX LX-P SE",
+          "size": "P215/60R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2012-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P215/60R16 30 psi 30 psi LX LX-P SE",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX EX-L 4 Door V6 EX-L I4 LX-S",
+          "size": "P225/50R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2012-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P225/50R17 32 psi 32 psi EX EX-L 4 Door V6 EX-L I4 LX-S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX-L 2 Door V6",
+          "size": "P235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2012 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2012-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "P235/45R18 32 psi 32 psi EX-L 2 Door V6",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.4,
+            "engine": "2.4L",
+            "group": "35",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2012 L4/2.4L 35 9 1/16\" x 6 7/8\" x 8 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2013": {
+      "tires": [
+        {
+          "trim": "LX",
+          "size": "205/65R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2013-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "205/65R16 33 psi 32 psi LX",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX EX-L LX-S Touring",
+          "size": "215/55R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2013-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "215/55R17 33 psi 33 psi EX EX-L LX-S Touring",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX-L Coupe V6 Sport Touring",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2013 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2013-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 33 psi 32 psi EX-L Coupe V6 Sport Touring",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2013 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 19,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2013 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2013&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2013 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2013&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 19\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2014": {
+      "tires": [
+        {
+          "trim": "LX",
+          "size": "205/65R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2014-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "205/65R16 33 psi 32 psi LX",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX EX-L LX-S Touring",
+          "size": "215/55R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2014-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "215/55R17 33 psi 33 psi EX EX-L LX-S Touring",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid Hybrid EX-L Hybrid Touring Plug-In",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2014-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "225/50R17 33 psi 33 psi Hybrid Hybrid EX-L Hybrid Touring Plug-In",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX-L Coupe V6 Sport Touring",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2014 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2014-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 33 psi 32 psi EX-L Coupe V6 Sport Touring",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "51",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2014 L4/2.0L 51 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 19,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2014 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2014&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2014 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2014&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 19\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2015": {
+      "tires": [
+        {
+          "trim": "LX",
+          "size": "205/65R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2015-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "205/65R16 33 psi 32 psi LX",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX EX-L LX-S Touring",
+          "size": "215/55R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2015-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "215/55R17 33 psi 33 psi EX EX-L LX-S Touring",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid Hybrid EX-L Hybrid Touring",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2015-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "225/50R17 33 psi 33 psi Hybrid Hybrid EX-L Hybrid Touring",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX-L Coupe V6 Sport Touring",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2015 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2015-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 33 psi 32 psi EX-L Coupe V6 Sport Touring",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 3.5,
+            "engine": "3.5L",
+            "group": "24F",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2015 V6/3.5L 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 19,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2015 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2015&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2015 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2015&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 19\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2016": {
+      "tires": [
+        {
+          "trim": "LX",
+          "size": "205/65R16",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2016-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "205/65R16 33 psi 32 psi LX",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX Sedan EX-L Sedan LX-S",
+          "size": "215/55R17",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2016-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "215/55R17 33 psi 33 psi EX Sedan EX-L Sedan LX-S",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Sport Touring",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2016-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/40R19 33 psi 32 psi Sport Touring",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "EX Coupe EX-L Coupe",
+          "size": "235/45R18",
+          "src": [
+            {
+              "doc": "TirePressure.com: 2016 Honda Accord Tire Pressure",
+              "url": "https://tirepressure.com/2016-honda-accord-tire-pressure",
+              "type": "third_party_reference",
+              "page": null,
+              "quote": "235/45R18 33 psi 33 psi EX Coupe EX-L Coupe",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "engine": "all engines",
+            "group": "24F",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 24F 10 3/4\" x 6 13/16\" x 9\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "group": "34R",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 34R 10 1/4\" x 6 13/16\" x 7 7/8\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "engine": "all engines",
+            "group": "51R",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2016 Standard 51R 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 19,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2016 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2016 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2016&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 19\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2017": {
+      "tires": [
+        {
+          "trim": "Sedan LX",
+          "size": "205/65R16",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 91,
+              "quote": "All­Season Tires 205/65 R16 235/40 R19 215/55 R17 215/55 R17 215/55 R17 235/40 R19",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Sport",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 91,
+              "quote": "All­Season Tires 205/65 R16 235/40 R19 215/55 R17 215/55 R17 215/55 R17 235/40 R19",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan EX",
+          "size": "215/55R17",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 91,
+              "quote": "All­Season Tires 205/65 R16 235/40 R19 215/55 R17 215/55 R17 215/55 R17 235/40 R19",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan EX-L",
+          "size": "215/55R17",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 91,
+              "quote": "All­Season Tires 205/65 R16 235/40 R19 215/55 R17 215/55 R17 215/55 R17 235/40 R19",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan EX-L V-6",
+          "size": "215/55R17",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 91,
+              "quote": "All­Season Tires 205/65 R16 235/40 R19 215/55 R17 215/55 R17 215/55 R17 235/40 R19",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Sedan Touring",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 91,
+              "quote": "All­Season Tires 205/65 R16 235/40 R19 215/55 R17 215/55 R17 215/55 R17 235/40 R19",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid",
+          "size": "225/50R17",
+          "load_speed": "94V",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 105,
+              "quote": "All­Season Tires 225/50 R17 94V 225/50 R17 94V 225/50 R17 94V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid EX-L",
+          "size": "225/50R17",
+          "load_speed": "94V",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 105,
+              "quote": "All­Season Tires 225/50 R17 94V 225/50 R17 94V 225/50 R17 94V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Hybrid Touring",
+          "size": "225/50R17",
+          "load_speed": "94V",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 105,
+              "quote": "All­Season Tires 225/50 R17 94V 225/50 R17 94V 225/50 R17 94V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe LX-S",
+          "size": "P215/55R17",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 117,
+              "quote": "All­Season Tires P215/55 R17 P235/45 R18 P235/45 R18 P235/45 R18 235/40 R19 96V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe EX",
+          "size": "P235/45R18",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 117,
+              "quote": "All­Season Tires P215/55 R17 P235/45 R18 P235/45 R18 P235/45 R18 235/40 R19 96V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe EX-L",
+          "size": "P235/45R18",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 117,
+              "quote": "All­Season Tires P215/55 R17 P235/45 R18 P235/45 R18 P235/45 R18 235/40 R19 96V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe EX-L V-6",
+          "size": "P235/45R18",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 117,
+              "quote": "All­Season Tires P215/55 R17 P235/45 R18 P235/45 R18 P235/45 R18 235/40 R19 96V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Coupe Touring",
+          "size": "235/40R19",
+          "load_speed": "96V",
+          "src": [
+            {
+              "doc": "2017 Honda Accord Facts Guide (Honda Info Center)",
+              "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Accord-Facts-Guide.ashx",
+              "type": "oem_spec_sheet",
+              "page": 117,
+              "quote": "All­Season Tires P215/55 R17 P235/45 R18 P235/45 R18 P235/45 R18 235/40 R19 96V",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "51",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2017 L4/2.0L 51 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 19,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2017 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2017 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2017&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 19\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2018": {
+      "tires": [
+        {
+          "trim": "Accord Hybrid",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Accord Hybrid Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Accord-Hybrid/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Hybrid is fitted with 17-inch alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord LX",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord LX is fitted with 17-inch alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord EX, EX-L and EX-L 2.0T",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome machine-finished 17-inch alloys are standard on Accord EX, EX-L and EX-L 2.0T models; they’re surrounded by 225/50 R17 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Sport and Sport 2.0T",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2018 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2018/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Accord Sport and Sport 2.0T trims show off a unique 19-inch alloy wheel design, with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2018 L4/1.5L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2018 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2018 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2018&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2019": {
+      "tires": [
+        {
+          "trim": "Accord Hybrid",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Accord Hybrid Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Accord-Hybrid/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Hybrid is fitted with 17-inch alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord LX",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord LX is fitted with 17-inch alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord EX, EX-L and EX-L 2.0T",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome machine-finished 17-inch alloys are standard on Accord EX, EX-L and EX-L 2.0T models; they’re surrounded by 225/50 R17 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Sport and Sport 2.0T",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2019 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2019/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Accord Sport and Sport 2.0T trims show off a unique 19-inch alloy wheel design, with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2019 L4/2.0L H6 (48) 12 1/16\" x 6 7/8\" x 7 9/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2019 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2019 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2019&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2020": {
+      "tires": [
+        {
+          "trim": "Accord Hybrid",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Accord Hybrid Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Accord-Hybrid/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Hybrid is fitted with 17-inch alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord LX",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord LX is fitted with 17-inch alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord EX, EX-L and EX-L 2.0T",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome machine-finished 17-inch alloys are standard on Accord EX, EX-L and EX-L 2.0T models; they’re surrounded by 225/50 R17 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Sport and Sport 2.0T",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Accord Sport and Sport 2.0T trims show off a unique 19-inch alloy wheel design, with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Touring 2.0T",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2020 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2020/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Touring 2.0T trim dazzles with an exclusive 19-inch alloy wheel and comes with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2020 L4/1.5L H5 (47) 9 9/16\" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2020 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2020 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2020&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2021": {
+      "tires": [
+        {
+          "trim": "Accord Hybrid, Hybrid EX and Hybrid EX-L",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Accord Hybrid Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Accord-Hybrid/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Hybrid, Hybrid EX and Hybrid EX-L are fitted with 17-inch alloy wheels; their tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Hybrid Touring",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Accord Hybrid Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Accord-Hybrid/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Hybrid Touring shows off aggressive 19-inch machine-finished alloy wheels fitted with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord LX",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord LX is fitted with 17-inch alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Sport, Sport Special Edition and Sport 2.0T",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Accord Sport, Sport Special Edition and Sport 2.0T trims show off a unique 19-inch alloy wheel design, with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord EX-L",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome machine-finished 17-inch alloys are standard on Accord EX-L; they’re surrounded by 225/50 R17 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Touring 2.0T",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2021 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2021/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Touring 2.0T trim dazzles with an exclusive 19-inch alloy wheel and comes with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "51",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 L4/2.0L 51 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/2.0L; Standard (1); Flooded; Interstate MT-51 51 9 3/8\" x 5 1/16\" x 8 15/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2021 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2021 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2021&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2022": {
+      "tires": [
+        {
+          "trim": "Accord Hybrid and Hybrid EX-L",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Accord Hybrid Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Accord-Hybrid/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Hybrid and Hybrid EX-L are fitted with 17-inch alloy wheels; their tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Hybrid Sport and Hybrid Touring",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Accord Hybrid Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Accord-Hybrid/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Hybrid Sport and Hybrid Touring show off aggressive 19-inch machine-finished alloy wheels fitted with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord LX",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord LX is fitted with 17-inch alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Sport, Sport Special Edition and Sport 2.0T",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Accord Sport, Sport Special Edition and Sport 2.0T trims show off a unique 19-inch alloy wheel design, with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord EX-L",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome machine-finished 17-inch alloys are standard on Accord EX-L; they’re surrounded by 225/50 R17 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Touring 2.0T",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2022 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2022/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Touring 2.0T trim dazzles with an exclusive 19-inch alloy wheel and comes with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "51",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2021 L4/2.0L 51 9 3/8\" x 5 1/16\" x 8 13/16\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/2.0L; Standard (1); Flooded; Interstate MT-51 51 9 3/8\" x 5 1/16\" x 8 15/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/1.5L; Standard; Enhanced Flooded; Interstate MTX-47/H5-EFB H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2025 L4/1.5L; Standard; Enhanced Flooded; Interstate MTX-47/H5-EFB H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "48",
+            "din": "H6",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/2.0L; Standard (2); AGM; Interstate MTX-48/H6 H6 (48) 11 \" x 6 15/16\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
+      "wipers": {
+        "driver_in": 26,
+        "passenger_in": 16,
+        "src": [
+          {
+            "doc": "Rain-X Blade Size Finder: 2022 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Driver Length (in.): 26\"",
+            "accessed": "2026-10-13"
+          },
+          {
+            "doc": "Rain-X Blade Size Finder: 2022 Honda Accord",
+            "url": "https://www.rainx.com/blade-size-finder/?bf-year=2022&bf-make=Honda&bf-model=Accord",
+            "type": "aftermarket_fitment",
+            "page": null,
+            "quote": "Position: Passenger Length (in.): 16\"",
+            "accessed": "2026-10-13"
+          }
+        ]
+      }
+    },
+    "2023": {
+      "tires": [
+        {
+          "trim": "Accord LX",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord LX is fitted with 17-inch silver-painted alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord EX and EX-L",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome pewter-painted 17-inch alloys are standard on Accord EX and EX-L; they’re surrounded by 225/50 R17 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Sport Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Sport Hybrid wears 19-inch machine-finished alloy wheels with black inserts surrounded by 235/40 R19 tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Sport-L Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "A set of 19-inch alloys with matte black inserts and 235/40 R19 tires sharpen the look on the Sport-L Hybrid.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Touring Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2023 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2023/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Touring Hybrid trim dazzles with an exclusive 19-inch machine-finished alloy wheel and comes with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/1.5L; Standard; Enhanced Flooded; Interstate MTX-47/H5-EFB H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2025 L4/1.5L; Standard; Enhanced Flooded; Interstate MTX-47/H5-EFB H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "condition": "Hybrid",
+            "group": "51",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2023 L4/2.0L; Hybrid; Flooded; Interstate MT-51 51 9 3/8\" x 5 1/16\" x 8 15/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2024": {
+      "tires": [
+        {
+          "trim": "Accord LX",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord LX is fitted with 17-inch silver-painted alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord EX and EX-L",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome pewter-painted 17-inch alloys are standard on Accord EX and EX-L; they’re surrounded by 225/50 R17 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Sport Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Sport Hybrid wears 19-inch machine-finished alloy wheels with black inserts surrounded by 235/40 R19 tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Sport-L Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "A set of 19-inch alloys with matte black inserts and 235/40 R19 tires sharpen the look on the Sport-L Hybrid.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Touring Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2024 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2024/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Touring Hybrid trim dazzles with an exclusive 19-inch machine-finished alloy wheel and comes with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "group": "51",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2024 L4/2.0L; Standard; Flooded; Interstate MT-51 51 9 3/8\" x 5 1/16\" x 8 15/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/1.5L; Standard; Enhanced Flooded; Interstate MTX-47/H5-EFB H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2025 L4/1.5L; Standard; Enhanced Flooded; Interstate MTX-47/H5-EFB H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2025": {
+      "tires": [
+        {
+          "trim": "Accord LX",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord LX is fitted with 17-inch silver-painted alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord SE",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Distinctive gloss-black 17-inch alloys are standard on Accord SE; they’re surrounded by 225/50 R17 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Sport Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Sport Hybrid wears 19-inch machine-finished alloy wheels with black inserts and 235/40 R19 tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord EX-L Hybrid",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome Pewter Gray 17-inch alloys are standard on Accord EX-L Hybrid; they come with 225/50 R17 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Sport-L Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "A set of matte-black 19-inch alloys with 235/40 R19 tires sharpen the look on the Sport-L Hybrid.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Touring Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2025 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2025/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Touring Hybrid trim dazzles with an exclusive 19-inch machine-finished alloy wheel with black inserts and comes with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "battery": {
+        "options": [
+          {
+            "displacement_l": 1.5,
+            "engine": "1.5L",
+            "group": "47",
+            "din": "H5",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2022 L4/1.5L; Standard; Enhanced Flooded; Interstate MTX-47/H5-EFB H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              },
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2025 L4/1.5L; Standard; Enhanced Flooded; Interstate MTX-47/H5-EFB H5 (47) 9 1/2\" x 6 7/8\" x 7 1/2\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "displacement_l": 2.0,
+            "engine": "2.0L",
+            "condition": "Hybrid",
+            "group": "51",
+            "confidence": "low",
+            "src": [
+              {
+                "doc": "AutoPadre: Honda Accord battery size",
+                "url": "https://www.autopadre.com/battery-size/honda-accord",
+                "type": "third_party_reference",
+                "page": null,
+                "quote": "2025 L4/2.0L; Hybrid; Flooded; Interstate MT-51 51 9 3/8\" x 5 1/16\" x 8 15/16\"",
+                "accessed": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2026": {
+      "tires": [
+        {
+          "trim": "Accord LX",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord LX is fitted with 17-inch silver-painted alloy wheels; its tires are 225/50 R17 all-season.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord SE",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Distinctive 19-inch alloys are standard on Accord SE; they’re surrounded by 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord Sport Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Accord Sport Hybrid wears 19-inch machine-finished alloy wheels with black inserts and 235/40 R19 tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Accord EX-L Hybrid",
+          "size": "225/50R17",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "Handsome Pewter Gray 17-inch alloys are standard on Accord EX-L Hybrid; they come with 225/50 R17 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Sport-L Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "A set of matte-black 19-inch alloys with 235/40 R19 tires sharpen the look on the Sport-L Hybrid.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "trim": "Touring Hybrid",
+          "size": "235/40R19",
+          "src": [
+            {
+              "doc": "Honda Info Center: 2026 Accord Wheels and Tires",
+              "url": "https://www.hondainfocenter.com/2026/Accord/Feature-Guide/Exterior-Features/Wheels-and-Tires/",
+              "type": "oem_spec_sheet",
+              "page": null,
+              "quote": "The Touring Hybrid trim dazzles with an exclusive 19-inch machine-finished alloy wheel with black inserts and comes with 235/40 R19 all-season tires.",
+              "accessed": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

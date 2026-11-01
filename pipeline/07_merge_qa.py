@@ -78,6 +78,10 @@ def main() -> int:
                         continue
                     out["years"][y][field] = value
 
+        # `updated` drives sitemap lastmod, so a re-run that changes nothing keeps the old date
+        prev = read_json(model_path(slug)) if model_path(slug).exists() else {}
+        if {**prev, "updated": today} == out:
+            out["updated"] = prev["updated"]
         write_json(model_path(slug), out)
         log(f"merged {slug:28s} years={len(out['years'])} sources={sorted(out['sources'])}")
 
